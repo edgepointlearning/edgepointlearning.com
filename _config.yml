@@ -96,6 +96,7 @@ algolia:
   search_only_api_key: d8ed542264abddec8c8f7dcaafdd3e1e
   max_record_size: 20000 # https://community.algolia.com/jekyll-algolia/options.html#max-record-size
   files_to_exclude:
+    - collections/_demos-2021/*
     - collections/_demos/*
     - collections/_forms/*
     - static/*    
@@ -103,6 +104,8 @@ algolia:
     - collections/_pages/special-download-company-overview.html
     - collections/_pages/special-download-elem.html
     - collections/_pages/special-quiz-01.html
+    - collections/_pages/special-rsvp-cb.html
+    - collections/_pages/special-rsvp-cr.html
     - collections/_pages/special-thanks.html
 
 ### autoprefixer
