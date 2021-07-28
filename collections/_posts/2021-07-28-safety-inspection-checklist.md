@@ -80,7 +80,7 @@ With geofencing capabilities, your workers can receive push notifications when t
 
 Mobile native tools also mean that users can access the safety inspection checklist even when internet connectivity is weak. User-friendly pages in PinPoint Workforce’s performance support library mean that employees have the tools they need to safely do their job, wherever they are.
 
-
+<!-- fit video player to screen height minus nav bar -->
 <div class="grid-x align-middle align-center padding-vertical-1" style="max-height: calc(100vh - 106px);">
   <div class="cell" style="max-width: 1920px;">
     <div style="padding:49.69% 0 0 0;position:relative;">
@@ -92,16 +92,6 @@ Mobile native tools also mean that users can access the safety inspection checkl
     <script src="https://player.vimeo.com/api/player.js"></script>
   </div>
 </div>
-
-<!-- <div class="responsive-embed">
-  <iframe src="https://player.vimeo.com/video/219609124"
-          loading=lazy
-          width="480" 
-          height="380" 
-          frameborder="0" 
-          webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div> -->
-
 
 Learn more about PinPoint's [performance support capabilities](https://www.edgepointlearning.com/performance-support/)!
 
