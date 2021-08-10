@@ -79,7 +79,7 @@ Why should the administrative assistant know details about the products when cha
 
 
 
-{% picture blog blog/2021-08-11-product-education-training01.jpg --alt Every employee is part of the sales team}
+{% picture blog blog/2021-08-11-product-education-training01.jpg --alt Every employee is part of the sales team %}
 
 
 
