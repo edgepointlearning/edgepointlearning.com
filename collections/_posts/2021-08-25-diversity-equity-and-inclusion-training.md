@@ -33,7 +33,7 @@ Employees are continuing to call for more respect and inclusion in the workplace
 
 And there’s more.
 
-* Millennials will make up [75% of the workforce](https://www.brookings.edu/wp-content/uploads/2016/06/Brookings_Winogradfinal.pdf) by 2025, and almost 45% of them [consider themselves “non-white”](http://www.census.gov/newsroom/press-releases/2015/cb15-113.html)
+* Millennials will make up [75% of the workforce](https://www.brookings.edu/wp-content/uploads/2016/06/Brookings_Winogradfinal.pdf) by 2025, and almost 45% of them [consider themselves “non-white”](https://www.brookings.edu/research/millennials/)
 * A [2020 report](https://www.statista.com/statistics/719685/american-adults-who-identify-as-homosexual-bisexual-transgender-by-generation/) found that 9.1% of Millennials, and 15.9% of Gen Z, identify as LGBTQ
 * Formerly “minority” groups will reach [“majority” status by 2044](https://www.shrm.org/hr-today/news/hr-magazine/0217/Pages/Disrupting-Diversity-In-The-Workplace.aspx)
 * There will be [no single ethnic majority/minority](http://www.pewresearch.org/fact-tank/2015/10/05/future-immigration-will-change-the-face-of-america-by-2065/) by 2065
