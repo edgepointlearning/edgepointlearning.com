@@ -96,7 +96,7 @@ Bystander intervention training gives employees the tools they need to safely in
 
 ## Diversity, equity, and inclusion training ideas
 
-When you begin to [diversify your training](h/blog/diversify-your-training/), it can be challenging to know which tools to reach for. Which methods help identify the [types of diversity training](/blog/types-of-diversity-training/) that you need, and how will you effectively implement DEI training? Can you start this development by bringing in a variety of voices to amplify what is most important? Chances are good that historically underrepresented employees will have more insight into their own needs.
+When you begin to [diversify your training](/blog/diversify-your-training/), it can be challenging to know which tools to reach for. Which methods help identify the [types of diversity training](/blog/types-of-diversity-training/) that you need, and how will you effectively implement DEI training? Can you start this development by bringing in a variety of voices to amplify what is most important? Chances are good that historically underrepresented employees will have more insight into their own needs.
 
 As with most training programs, the first step is to identify what is needed and to tailor diversity, equity, and inclusion training ideas to meet those needs.
 
