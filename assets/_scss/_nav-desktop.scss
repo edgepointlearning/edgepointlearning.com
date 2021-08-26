@@ -10,7 +10,7 @@ nav {
 .sticky {
   .grid-x {
     @include xy-gutters($grid-margin-gutters, padding, top bottom, false);
-    @include flex-align(right, middle);
+    @include flex-align(left, middle);
   }
 
   &.is-stuck .grid-x {

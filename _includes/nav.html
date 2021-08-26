@@ -23,7 +23,7 @@
 
     <div class="mega-menu dropdown-pane" id="mega-menu-solutions" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true; vOffset:0">
       <div class="grid-container">
-        <div class="grid-x align-center medium-up-2">
+        <div class="grid-x medium-up-2">
           {% assign sorted = site.solutions | sort: 'nav-sort' %}
           {% for solution in sorted %}
             {% include nav-mega-menu-item.html name=solution.nav-name info=solution.nav-short href=solution.url icon=solution.nav-icon iconColor=solution.nav-iconColor %}
@@ -34,7 +34,7 @@
     
     <div class="mega-menu dropdown-pane" id="mega-menu-about" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true; vOffset:0">
       <div class="grid-container">
-        <div class="grid-x align-center medium-up-2">
+        <div class="grid-x medium-up-2">
           {% for about in site.data.about %}
             {% include nav-mega-menu-item.html name=about.name info=about.info href=about.href icon=about.icon iconColor=about.iconColor %}
           {% endfor %}
