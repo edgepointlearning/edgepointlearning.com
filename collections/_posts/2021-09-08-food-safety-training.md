@@ -71,7 +71,7 @@ But food safety training is not a one-and-done proposition. It’s important to 
 
 For example, [microlearning](/microlearning/) modules and [performance support](/performance-support/) can integrate safety training in the flow of work with location-specific training requirements. These tools offer just-in-time support that helps employees work safely and in compliance with all regulations, exactly where they are.
 
-Another great tool for food safety training is safety checklists. [Checklists](https://www.edgepointlearning.com/performance-support/) allow employees to integrate quality control every step of the way – without pausing and from any device. It’s mobile performance support right where employees need it.
+Another great tool for food safety training is safety checklists. [Checklists](/blog/safety-inspection-checklist/) allow employees to integrate quality control every step of the way – without pausing and from any device. It’s mobile performance support right where employees need it.
 
 ## Find food safety training courses online
 
@@ -98,10 +98,6 @@ Associated with the World Health Organization (WHO), the Pacific Open Learning H
 ### ServSafe
 
 ServSafe has long been associated with instructing restaurant workers on the SQLs, but a global pandemic has prompted them to offer a new kind of food safety training for free: [COVID-19 reopening and safe operations](https://www.servsafe.com/Landing-Pages/Free-Courses).
-
-
-[TEAM: Do we have or want to create a quick demo intro course + add here as a free option?]
-
 
 ## Build your food safety training program
 
