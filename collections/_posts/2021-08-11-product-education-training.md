@@ -133,10 +133,6 @@ Product knowledge training ideas can be made available in a variety of formats s
 
 [Microlearning](/microlearning/) is small bits of knowledge delivered when needed. These might be prompted by a [geofence](/blog/geofencing/) or other function of a product that unlocks a mobile push notification with more information.
 
-### Virtual instructor-led sessions
-
-Some people learn best with synchronous tools but can’t come together in one place. [Instructor-led](/virtual-instructor-led-training/) virtual product education is a great option for this type of learning.
-
 ## Create your product education training 
 
 It’s time to better equip your sales reps (and your customers) with the tools they need to get the most out of your products. 

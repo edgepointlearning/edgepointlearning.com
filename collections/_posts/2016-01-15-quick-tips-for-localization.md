@@ -19,5 +19,3 @@ When you’re localizing eLearning, remember to update more than just the text. 
 
 ## Know your software
 Make sure that your LMS or publishing software can handle other languages. You wouldn’t want to finish the translations and find out it won’t play. Through our partnerships, EdgePoint Learning provides translation and localization services that enable customers to deliver training in multiple languages.
-
-[Learn more](/solutions/){: .cta } about our translation and localization services.

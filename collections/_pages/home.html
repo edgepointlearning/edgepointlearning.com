@@ -67,7 +67,7 @@ cta2-url: /contact/
     </div>
   </div>
 
-  <div class="grid-x grid-margin-x grid-margin-y margin-bottom-2 small-up-2 marge-up-4">
+  <div class="grid-x grid-margin-x grid-margin-y margin-bottom-2 small-up-2 marge-up-4 align-center">
     {% assign sorted = site.solutions | sort: 'nav-sort' %}
     {% for solution in sorted %}
       {% assign blob = forloop.index | prepend:'/assets/svg/blobs/blob-' | append:'.svg' %}
