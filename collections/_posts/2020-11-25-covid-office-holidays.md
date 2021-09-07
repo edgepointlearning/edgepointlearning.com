@@ -115,4 +115,4 @@ Consider the 2020 winter season an opportunity. It’s an opportunity to clear u
 
 Commit to helping your company and employees navigate the ever-shifting pandemic by working on training aids and performance support that covers these essential topics. These internal resources can help effectively communicate changes to supervisors and your employees, no matter where they are. 
 
-**If you are looking for resources around COVID-19 and office holidays, whether performance support, microlearning, or virtual instructor-led training for quick deployment, [get in touch with EdgePoint Learning](/contact/).**
+**If you are looking for resources around COVID-19 and office holidays, whether performance support, microlearning, or anything in between, [get in touch with EdgePoint Learning](/contact/).**

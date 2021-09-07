@@ -82,8 +82,8 @@ Whether you are just starting out with virtual instructor-led training or are an
 
 Then, what good is asking for feedback if you don’t use it to improve future virtual instructor-led training? While not every bit of feedback is beneficial, take what is and use it to make your trainings more engaging, applicable, and helpful. Many instructors won't have experience leading virtual classrooms; there will be a learning curve. Embrace it and be open to change.
 
-## We can help develop virtual instructor-led training 
+## We can help
 
-[EdgePoint](https://www.edgepointlearning.com/) has helped companies transition from all in-person training to entirely eLearning or some combination of the two. This includes designing high-quality, tailored virtual instructor-led trainings or helping businesses tweak the resources they already have. 
+[EdgePoint](https://www.edgepointlearning.com/) has helped companies transition from all in-person training to entirely eLearning or some combination of the two. This includes helping businesses tweak the resources they already have. 
 
 <strong>No matter what type of training you’re looking for, [get in touch today to see how EdgePoint can help](/contact/).</strong>

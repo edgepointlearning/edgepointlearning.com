@@ -91,6 +91,6 @@ Further, consider who you’re using to perform your voiceover work. For example
 
 Even as global communication expands, eLearning localization contracts. And, adapting your training for [new employee trainings](/blog/how-to-train-new-employees/) in other countries can be challenging.
 
-[EdgePoint](https://www.edgepointlearning.com/) can help with eLearning localization [consulting](/elearning-consulting-services/), [co-development](/co-development-services/), and [custom development](/custom-employee-training/) that helps you meet your team right where they are. We work with global translators to get your course done right. 
+[EdgePoint](https://www.edgepointlearning.com/) can help with eLearning [consulting](/elearning-consulting-services/), [co-development](/co-development-services/), and [custom development](/custom-employee-training/) that helps you meet your team right where they are. We work with global translators to get your course done right. 
 
 **[Get in touch](/contact/) to see what we can do for you.**

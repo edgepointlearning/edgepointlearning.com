@@ -104,4 +104,4 @@ What used to seem futuristic and only for videogaming is now becoming one of the
 
 [EdgePoint Learning](https://www.edgepointlearning.com/) has been on the cutting-edge of eLearning content for more than a decade. We can help your business meet the eLearning trends of 2021 and create a learning experience that meets your needs and drives company goals. 
 
-**[Get in touch today](hm/contact/) to see how we can help.**
+**[Get in touch today](/contact/) to see how we can help.**
