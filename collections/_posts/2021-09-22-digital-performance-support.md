@@ -55,7 +55,9 @@ You can also directly add relevant YouTube videos, web links, and eLearning cour
 
 
 
-[Add Pinpoint demo video here]
+<div class="responsive-embed widescreen shadow">
+      <div class="vi-lazyload" data-id="469090686" data-thumb="" data-logo="0"></div>
+    </div>
 
 
 
