@@ -9,5 +9,5 @@ jobs:
     name: Request Netlify Webhook
     runs-on: ubuntu-16.04
     steps:
-      - name: Curl request
+      - name: POST to Build Hook
         run: curl -X POST -d {} https://api.netlify.com/build_hooks/5ac523ba295b5502ece94342
