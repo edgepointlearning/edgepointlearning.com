@@ -18,14 +18,14 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    ffi (1.15.3)
+    ffi (1.15.4)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
+    jekyll (4.2.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -76,16 +76,16 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.6.0)
+    listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0704)
-    mini_portile2 (2.5.3)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    mime-types-data (3.2021.0901)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     objective_elements (1.1.2)
     pathutil (0.16.2)
@@ -98,7 +98,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rouge (3.26.0)
+    rouge (3.26.1)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     safe_yaml (1.0.5)
@@ -108,7 +108,7 @@ GEM
       nokogiri
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    unicode-display_width (1.7.0)
+    unicode-display_width (1.8.0)
     verbal_expressions (0.1.5)
 
 PLATFORMS
@@ -124,4 +124,4 @@ DEPENDENCIES
   jekyll_picture_tag (~> 2)
 
 BUNDLED WITH
-   2.2.15
+   2.2.24
