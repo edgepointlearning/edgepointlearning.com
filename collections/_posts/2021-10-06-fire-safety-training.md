@@ -112,7 +112,7 @@ Two good places to start include:
 
 <p style="text-align: center" class="marginBot">
   <a href="https://rise.articulate.com/share/8E5beQn0df8PjycMvakgpvPnSumKkdTy" target="_blank">
-    {% picture blog blog/2021-10-06-fire-safety-training01.jpg style="max-width:480px" --alt Free Accessibility In eLearning Course %}
+    {% picture blog blog/2021-10-06-fire-safety-training02.jpg style="max-width:480px" --alt free fire safety training online course %}
   </a>
 </p>
 
