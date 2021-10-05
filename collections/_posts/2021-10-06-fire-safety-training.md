@@ -110,7 +110,13 @@ Two good places to start include:
 * OSHA’s course on [developing fire prevention plans](https://www.oshatrain.org/courses/mods/718e.html)
 * Workhub’s [basic fire safety course](https://www.workhub.com/features/training/fire-safety)
 
-At EdgePoint Learning, we also developed a [free fire safety training online course](https://rise.articulate.com/share/8E5beQn0df8PjycMvakgpvPnSumKkdTy). While this web-based course just covers the basics, it’s a great place to start. We welcome you to share it with your employees!"
+<p style="text-align: center" class="marginBot">
+  <a href="https://rise.articulate.com/share/8E5beQn0df8PjycMvakgpvPnSumKkdTy" target="_blank">
+    {% picture blog blog/2021-10-06-fire-safety-training01.jpg style="max-width:480px" --alt Free Accessibility In eLearning Course %}
+  </a>
+</p>
+
+At EdgePoint Learning, we also developed a [free fire safety training online course](https://rise.articulate.com/share/8E5beQn0df8PjycMvakgpvPnSumKkdTy). While this web-based course just covers the basics, it’s a great place to start. We welcome you to share it with your employees!
 
 ## Create your fire safety training program
 
