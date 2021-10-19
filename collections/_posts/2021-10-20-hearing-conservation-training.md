@@ -102,9 +102,6 @@ Hearing conservation training isn’t just a one-and-done class offered during o
 </p>
 
 
-Create quick demo intro course + add here as a free option, if available. Can use: https://360.articulate.com/review/content/9b3a22c7-a7bf-4ecc-9c4b-5ea1e72930fa/review
-
-
 
 ## Create your hearing conservation training program
 
