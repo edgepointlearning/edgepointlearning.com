@@ -96,7 +96,7 @@ Hearing conservation training isn’t just a one-and-done class offered during o
 
 
 <p style="text-align: center" class="marginBot">
-  <a href="https://360.articulate.com/review/content/9b3a22c7-a7bf-4ecc-9c4b-5ea1e72930fa/review" target="_blank">
+  <a href="https://blog-hearing-conservation.netlify.app/#/" target="_blank">
     {% picture blog blog/2021-10-20-hearing-conservation-training02.jpg style="max-width:480px" --alt Free Hearing Conservation Training %}
   </a>
 </p>
