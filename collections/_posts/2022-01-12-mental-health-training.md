@@ -43,7 +43,9 @@ The World Health Organization defines “[self-care](https://www.who.int/reprodu
 
 Evolving to a place where we no longer treat self-care as a luxury and instead treat it as a necessary part of the job is an essential step in taking care of employees. Beyond physical health, caring for relationships, emotions, and the mind is an investment that ensures everyone on your team can contribute their best to your company.
 
-Some people resist the idea of implementing self-care strategies in the workplace as there are misconceptions about what it might entail. While yoga classes and sound bath sessions can be helpful for some people, there are simpler ways to achieve moments of peace in the workplace. 
+Some people resist the idea of implementing self-care strategies in the workplace as there are misconceptions about what it might entail. While yoga classes and sound bath sessions can be helpful for some people, there are simpler ways to achieve moments of peace in the workplace.
+
+{% picture blog blog/2022-01-12-mental-health-training01.jpg --alt Listening to music does wonders for mental health %}
 
 Here are some tips to help your employees so they can help you.
 
