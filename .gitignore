@@ -1,6 +1,6 @@
+_dist
 _site
 .DS_Store
-.jekyll-cache
-.sass-cache
 node_modules
-jekyll-algolia-record-too-big.log
+package-lock.json
+.jekyll-cache

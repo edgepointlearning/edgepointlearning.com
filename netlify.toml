@@ -1,207 +1,24 @@
-# plugins
+[build]
+  publish = "_dist"
+  command = "npm run build"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = false
+
 [[plugins]]
-  package = "netlify-plugin-jekyll-cache"
-
-	[plugins.inputs]
-    # This is only required if you have defined a source directory in Jekyll
-    # At some point this will become automated, but for now it must be specified 
-    # jekyllSource = "/jekyll"
-
-# production: this context corresponds to the main site’s deployment, attached to the Git branch you set when the site is created.
-[context.production]
-  command = "ALGOLIA_API_KEY=$ALGOLIA_KEY jekyll algolia && jekyll build"
-  [context.production.environment]
-    JEKYLL_ENV = "production"
-
-# deploy-preview: this context corresponds to the previews we build for Pull Requests and Merge Requests integrations.
-[context.deploy-preview]
-  command = "jekyll build --config _config.yml,_config.staging.yml"
-  [context.deploy-preview.environment]
-    JEKYLL_ENV = "development"
-
-# branch-deploy: this context corresponds to deploys from branches that are not the site’s main production branch.
-[context.branch-deploy]
-  command = "jekyll build --config _config.yml,_config.staging.yml"
-  [context.branch-deploy.environment]
-    JEKYLL_ENV = "development"
-
-# REDIRECTS!
-# https://docs.netlify.com/routing/redirects/redirect-options/
-
-# redirect to https. 
-[[redirects]]
-from = "http://www.edgepointlearning.com/*"
-to = "https://www.edgepointlearning.com/:splat"
-status = 301
-force = true
-
-# sca demo redirect just in case
-[[redirects]]
-from = "/demo/sca-job-aid/"
-to = "/demo/lms-navigation"
-status = 301
-force = false
-
-# At some point /blog/ erroneously became /blogs/ in post frontmatter
-[[redirects]]
-from = "/blogs/*"
-to = "/blog/:splat"
-status = 301
-force = true
-
-# form submission redirect
-[[redirects]]
-from = "/form/thanks/"
-to = "/thanks/"
-status = 301
-force = false
-
-# needlepoint restructuring redirects
-[[redirects]]
-from = "/custom-elearning-course-development/"
-to = "/custom-employee-training/"
-status = 301
-force = false
-
-# case study redirects
-[[redirects]]
-from = "/stories/"
-to = "/about/#case-studies"
-status = 301
-force = false
-
-[[redirects]]
-from = "/story/molson/"
-to = "/about/#case-studies"
-status = 301
-force = false
-
-[[redirects]]
-from = "/story/bloomin/"
-to = "/about/#case-studies"
-status = 301
-force = false
-
-[[redirects]]
-from = "/story/laquinta/"
-to = "/about/#case-studies"
-status = 301
-force = false
-
-# Oops! redirect to fix infusionsoft link typo to static document
-[[redirects]]
-from = "/assets/BuildingAStrongFoundationForTrainingWithSolidLearningObjectings.pdf"
-to = "/static/BuildingAStrongFoundationForTrainingWithSolidLearningObjectives.pdf"
-status = 301
-force = false
-
-# Oops! redirect to fix old links to static document
-[[redirects]]
-from = "/assets/EdgePointLearningGeneralInformationBrochure.pdf"
-to = "/static/EdgePointLearningGeneralInformationBrochure.pdf"
-status = 301
-force = false
-
-# Oops! bad demo link redirects
-[[redirects]]
-from = "/demo/lifting-video-pro/"
-to = "/demo/lifting-video-1/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/demo/lifting-video-premium/"
-to = "/demo/lifting-video-2/"
-status = 301
-force = false
-
-# old blog post redirects
-[[redirects]]
-from = "/2016/01/15/quick-tips-for-localization/"
-to = "/blog/quick-tips-for-localization/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2016/05/01/how-to-work-with-subject-matter-experts/"
-to = "/blog/how-to-work-with-subject-matter-experts/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2016/07/01/sales-training-best-practices/"
-to = "/blog/sales-training-best-practices/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/2013/7/19/instructor-led-training-vs-elearning"
-to = "/blog/instructor-led-training-vs-elearning/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2016/07/21/Instructor-led-Training-vs-eLearning/"
-to = "/blog/instructor-led-training-vs-elearning/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2017/04/02/How-To-Create-Your-Custom-eLearning-Course-With-25-Free-Tools/"
-to = "/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/whats-the-key-to-creating-a-successful-elearning-project/"
-to = "/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2017/04/27/top-10-types-of-employee-training/"
-to = "/blog/top-10-types-of-employee-training/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/employee-onboarding/"
-to = "/blog/how-to-train-new-employees/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2016/06/01/is-it-time-to-evaluate-your-training-strategy/"
-to = "/blog/training-needs-analysis/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/is-it-time-to-evaluate-your-training-strategy/"
-to = "/blog/training-needs-analysis/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/microlearning/"
-to = "/blog/types-of-microlearning/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/when-to-outsource-your-elearning/"
-to = "/blog/cost-of-training-new-employees/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/2016/06/15/technical-training-best-practices/"
-to = "/blog/how-to-train-employees-on-new-system/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/blog/technical-training-best-practices/"
-to = "/blog/how-to-train-employees-on-new-system/"
-status = 301
-force = false
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = [
+      "_dist/img/opt", # Eleventy-Image Disk Cache
+      ".cache" # Remote Asset Cache
+    ]

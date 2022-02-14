@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Eleventy + Tailwind + Eleventy-Img Plugin</title>
+</head>
+
+<body class="bg-fixed bg-gradient-to-b from-pink-300 via-violet-500 to-blue-900">
+
+  <div class="w-5/6 max-w-5xl mx-auto my-12">
+    <article class="prose lg:prose-xl">
+      <h1>Walden Pond</h1>
+      <h2>The centerpiece of Thoreau’s Walden Woods</h2>
+      <p>Walden Pond is owned and managed by the Massachusetts Department of Conservation and Recreation, and sees nearly 600,000 visitors every year. An exceptionally deep and remarkably clear kettle lake, Walden still inspires the conservation ethic that Thoreau first articulated in his writings.</p>
+      <p>The writer, transcendentalist, and philosopher, Henry David Thoreau, lived on the shores of Walden Pond for two years, two months, and two days, starting on the Fourth of July in 1845.</p>
+    </article>
+  </div>
+
+  <div class="flex gap-6 pb-2 mx-auto mt-6 overflow-x-auto snap-x snap-mandatory">
+    <div class="w-1/6 snap-align-none shrink-0"></div>
+    {% for pic in pictures limit:7 %}
+      <div class="w-5/6 max-w-5xl snap-always snap-center shrink-0 first:ml-6 last:mr-6">
+        {% picture pic.filename, "card object-cover aspect-video", pic.alt, "100vw" %}
+      </div>
+    {% endfor %}
+    <div class="w-1/6 snap-align-none shrink-0"></div>
+  </div>
+
+  {% for pic in pictures offset:7 %}
+    <div class="w-5/6 max-w-5xl mx-auto my-6">
+      {% picture pic.filename, "card object-cover aspect-[9/16]", pic.alt, "100vw" %}
+    </div>
+  {% endfor %}
+
+
+</body>
+</html>

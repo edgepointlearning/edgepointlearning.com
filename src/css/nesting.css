@@ -1,0 +1,22 @@
+/* example of nesting with a sass-like syntax via tailwindcss/nesting */
+/* https://tailwindcss.com/docs/using-with-preprocessors#nesting */
+.phone {
+  font-size: var(--font);
+
+  @at-root html {
+    --font: 16px
+  }
+
+  &_title {
+      width: 500px;
+      @media (max-width: 500px) {
+          width: auto;
+      }
+      body.is_dark & {
+          color: white;
+      }
+  }
+  img {
+      display: block;
+  }
+}
