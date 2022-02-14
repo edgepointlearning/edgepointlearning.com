@@ -2,26 +2,33 @@
 [[plugins]]
   package = "netlify-plugin-jekyll-cache"
 
+
+
 [build]
   publish = "_site"
 
 # production: this context corresponds to the main site’s deployment, attached to the Git branch you set when the site is created.
 [context.production]
   command = "ALGOLIA_API_KEY=$ALGOLIA_KEY jekyll algolia && jekyll build"
+  publish = "_site"
   [context.production.environment]
     JEKYLL_ENV = "production"
 
 # deploy-preview: this context corresponds to the previews we build for Pull Requests and Merge Requests integrations.
 [context.deploy-preview]
   command = "jekyll build --config _config.yml,_config.staging.yml"
+  publish = "_site"
   [context.deploy-preview.environment]
     JEKYLL_ENV = "development"
 
 # branch-deploy: this context corresponds to deploys from branches that are not the site’s main production branch.
 [context.branch-deploy]
   command = "jekyll build --config _config.yml,_config.staging.yml"
+  publish = "_site"
   [context.branch-deploy.environment]
     JEKYLL_ENV = "development"
+
+
 
 # REDIRECTS!
 # https://docs.netlify.com/routing/redirects/redirect-options/
