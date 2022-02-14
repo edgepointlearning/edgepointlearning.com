@@ -31,40 +31,40 @@ In addition to factors concerning the pandemic, workers cited the following as s
 The key word is “recruit.” Although you are probably accustomed to interviewing people and deciding if they are a good match for your company, a better strategy might be to treat recruits as a benefit your company needs. Workers need to feel appreciated and respected before they will develop loyalty to a company. What can you do to achieve this?
 
 ### 1. Create a welcoming and comfortable environment
-	This goes beyond peaceful surroundings and allowing for self-care breaks. Easy communication and kindness ensure your potential recruits and employees will want to work with you and contribute to your company.
+This goes beyond peaceful surroundings and allowing for self-care breaks. Easy communication and kindness ensure your potential recruits and employees will want to work with you and contribute to your company.
 
 ### 2. Support fully remote work
-	It may not be possible in your industry, but offer it if you can. A recent survey found that [almost 60% of workers](https://www.forbes.com/sites/theyec/2021/10/13/how-remote-work-can-increase-business-profits/?sh=29a4fc3a17b8) prefer a job that allows them to work from home. Employees have proven they are more productive at home than in a traditional 9–5 office setting, so why wouldn’t you want them to work remotely? 
+It may not be possible in your industry, but offer it if you can. A recent survey found that [almost 60% of workers](https://www.forbes.com/sites/theyec/2021/10/13/how-remote-work-can-increase-business-profits/?sh=29a4fc3a17b8) prefer a job that allows them to work from home. Employees have proven they are more productive at home than in a traditional 9–5 office setting, so why wouldn’t you want them to work remotely? 
 
 Allowing your employees to work during the hours they feel most productive is more efficient for your company and saves commuting time for your workers. This leads to less burnout and an increase in employee loyalty. This can also be a great solution if your employees are having difficulty with childcare. Additionally, working remotely eases stress during upticks in the pandemic as new variants emerge. 
 
 ### 3. Be clear about the path to a promotion opportunity
-	Let your potential recruits and employees know what it will take to get the promotion they have their eye on. If there is specific training required for it, offer it if you can. 
+Let your potential recruits and employees know what it will take to get the promotion they have their eye on. If there is specific training required for it, offer it if you can. 
 
 ### 4. Discuss their past work and ask how they want to be challenged
-	Understanding your potential recruits’ and employees’ past work experience will help you be able to challenge them. Challenges keep people engaged and wanting to work for you.
+Understanding your potential recruits’ and employees’ past work experience will help you be able to challenge them. Challenges keep people engaged and wanting to work for you.
 
 ### 5. Encourage extracurriculars
-	Your company is not their whole life. Encouraging your employees to participate in extracurriculars such as side projects or attending conferences will help them augment their work experience and develop their skills. 
+Your company is not their whole life. Encouraging your employees to participate in extracurriculars such as side projects or attending conferences will help them augment their work experience and develop their skills. 
 	
 
 ## Training to help you retain employees
-	What kind of training can help you retain employees during the Great Resignation? Let’s take a look at some ideas. 
+What kind of training can help you retain employees during the Great Resignation? Let’s take a look at some ideas. 
 
 ### 1. Upskilling     
-	[Upskilling](/blog/upskill-employees/) is the trend of growing your workforce through training in new technologies. Not only do your employees need to be briefed as current technologies are updated, but introducing them to new technologies keeps your company competing with others across the globe. Upskilling also helps your employees move seamlessly throughout the day without having to stop and ask for help with digitally driven tasks. This breeds confidence in your employees, boosting morale in your company and helping you retain employees.
+[Upskilling](/blog/upskill-employees/) is the trend of growing your workforce through training in new technologies. Not only do your employees need to be briefed as current technologies are updated, but introducing them to new technologies keeps your company competing with others across the globe. Upskilling also helps your employees move seamlessly throughout the day without having to stop and ask for help with digitally driven tasks. This breeds confidence in your employees, boosting morale in your company and helping you retain employees.
 
 ### 2. Offer mentorship from senior staff
-	While this may not qualify as formal training, encourage your senior employees to reach out to newer employees for regular check-ins. You can also start a mentoring program where senior staff and other employees volunteer and are matched for mentoring sessions. Receiving wisdom from someone with more industry experience can have an enormous impact on employee development and morale. It will also remind your more senior staff that you value their expertise and the knowledge they bring to the table. 
+While this may not qualify as formal training, encourage your senior employees to reach out to newer employees for regular check-ins. You can also start a mentoring program where senior staff and other employees volunteer and are matched for mentoring sessions. Receiving wisdom from someone with more industry experience can have an enormous impact on employee development and morale. It will also remind your more senior staff that you value their expertise and the knowledge they bring to the table. 
 
 ### 3. Continual learning
-	Annual or semi-annual general training sessions can be tedious and feel like homework. A more effective choice might be to provide access to educational resources so your employees can constantly challenge and prepare themselves for whatever might be next. This can be in the form of learning opportunities through LinkedIn Learning, Coursera, or Open Sesame; reimbursement for college classes; or access to free online streaming tutorials during work. 
+Annual or semi-annual general training sessions can be tedious and feel like homework. A more effective choice might be to provide access to educational resources so your employees can constantly challenge and prepare themselves for whatever might be next. This can be in the form of learning opportunities through LinkedIn Learning, Coursera, or Open Sesame; reimbursement for college classes; or access to free online streaming tutorials during work. 
 
 ### 4. Manager training
-	A [major complaint](https://www.shrm.org/about-shrm/press-room/press-releases/pages/survey-84-percent-of-us-workers-blame-bad-managers-for-creating-unnecessary-stress-.aspx) among workers is ineffective management. The top five skills American workers would like their managers to improve upon are: communicating effectively, developing and training the team, managing time and delegating, cultivating a positive and inclusive team culture, and managing team performance. Workers are pleading for their higher-ups to develop better people skills. Ensuring your people managers are well-trained and positive communicators can build loyalty and help you retain employees. 
+A [major complaint](https://www.shrm.org/about-shrm/press-room/press-releases/pages/survey-84-percent-of-us-workers-blame-bad-managers-for-creating-unnecessary-stress-.aspx) among workers is ineffective management. The top five skills American workers would like their managers to improve upon are: communicating effectively, developing and training the team, managing time and delegating, cultivating a positive and inclusive team culture, and managing team performance. Workers are pleading for their higher-ups to develop better people skills. Ensuring your people managers are well-trained and positive communicators can build loyalty and help you retain employees. 
 
 
 ## Let us help you train and retain your employees
-	The Great Resignation has been a challenge for managers and business owners, but it doesn’t have to bring your company down. Listening to your employees’ needs, encouraging ongoing learning and upskilling, and improving your managers’ skills through training can give them the desire to stay with your company. [EdgePoint Learning](https://www.edgepointlearning.com/) can help you with your eLearning needs and give your team the support necessary to thrive during this tumultuous time. 
+The Great Resignation has been a challenge for managers and business owners, but it doesn’t have to bring your company down. Listening to your employees’ needs, encouraging ongoing learning and upskilling, and improving your managers’ skills through training can give them the desire to stay with your company. [EdgePoint Learning](https://www.edgepointlearning.com/) can help you with your eLearning needs and give your team the support necessary to thrive during this tumultuous time. 
 
 [Let us know](/contact/) how we can help you!
