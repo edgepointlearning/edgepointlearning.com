@@ -8,9 +8,13 @@
   overflow: hidden;
 
   .grid-x {
-    min-height: 600px;
-    height: 56vw; // roughly 16:9
-    max-height: 80vh;
+    min-height: 450px;
+
+    @include breakpoint(medium) {
+      min-height: 600px;
+      height: 56vw; // roughly 16:9
+      max-height: 80vh;  
+    }
   }
 }
 
@@ -29,8 +33,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%);
-  // todo: this gradient could be responsive
+
+  background-image: linear-gradient(to right, rgba(255,255,255,1) 00%, rgba(255,255,255,0.1) 100%);
+  @include breakpoint(medium) {
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%);
+  }
 }
 
 .billboard__wave {
