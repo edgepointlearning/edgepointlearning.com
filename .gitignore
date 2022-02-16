@@ -4,3 +4,4 @@ _site
 .sass-cache
 node_modules
 jekyll-algolia-record-too-big.log
+package-lock.json
