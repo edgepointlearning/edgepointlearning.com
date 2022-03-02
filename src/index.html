@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/styles.css">
   <title>Eleventy + Tailwind + Eleventy-Img Plugin</title>
+  <noscript><style>noscript { display: contents; } .lazy-img { display: none; }</style></noscript>
 </head>
 
 <body class="bg-fixed bg-gradient-to-b from-pink-300 via-violet-500 to-blue-900">
@@ -23,7 +24,7 @@
     <div class="w-1/6 snap-align-none shrink-0"></div>
     {% for pic in pictures limit:7 %}
       <div class="w-5/6 max-w-5xl snap-always snap-center shrink-0 first:ml-6 last:mr-6">
-        {% picture pic.filename, "card object-cover aspect-video", pic.alt, "100vw" %}
+        {% image pic.filename, pic.alt, "card object-cover aspect-video" %}
       </div>
     {% endfor %}
     <div class="w-1/6 snap-align-none shrink-0"></div>
@@ -31,10 +32,49 @@
 
   {% for pic in pictures offset:7 %}
     <div class="w-5/6 max-w-5xl mx-auto my-6">
-      {% picture pic.filename, "card object-cover aspect-[9/16]", pic.alt, "100vw" %}
+      {% image pic.filename, pic.alt, "card object-cover aspect-[9/16]" %}
     </div>
   {% endfor %}
 
+<script>
+  const lazyLoad = (targets, onIntersection) => {
+    const observer = new IntersectionObserver((entries, self) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          onIntersection(entry.target);
+          self.unobserve(entry.target);
+        }
+      });
+    });
+    targets.forEach((target) => observer.observe(target));
+  };  
 
+  const lazyPictures = document.querySelectorAll('.lazy-picture');
+  lazyLoad(lazyPictures, (pictureElement) => {
+    const img = pictureElement.querySelector('img');
+    const sources = pictureElement.querySelectorAll('source');
+
+    // Cleanup tasks after the image loads. Important to
+    // define this handler before setting src/srcsets.
+    img.onload = () => {
+      pictureElement.dataset.loaded = true;
+      img.removeAttribute('data-src');
+    };
+    img.onerror = () => {
+      pictureElement.dataset.loaded = false;
+    }
+
+    // Swap in the media sources
+    sources.forEach((source) => {
+      source.sizes = source.dataset.sizes;
+      source.srcset = source.dataset.srcset;
+      source.removeAttribute('data-srcset');
+      source.removeAttribute('data-sizes');
+    });
+
+    // Swap in the image
+    img.src = img.dataset.src;
+  });
+</script>
 </body>
 </html>
