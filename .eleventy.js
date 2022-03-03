@@ -2,13 +2,13 @@ const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
 
-async function pictureShortcode(src, cls, alt, sizes = "") {
+async function pictureShortcode(src, alt, cls, sizes = "100vw", load = "lazy", decode = "async") {
 
   let imgSrc = path.join("./src/assets/images/", src);
 
   let metadata = await Image(imgSrc, {
     widths: [600, 1024],
-    formats: ["webp", "jpeg"],
+    formats: ["avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
     filenameFormat: function (id, src, width, format, options) {
@@ -19,11 +19,11 @@ async function pictureShortcode(src, cls, alt, sizes = "") {
   });
 
   let imageAttributes = {
-    class: cls,
     alt,
+    class: cls,
     sizes,
-    loading:"lazy",
-    decoding: "async" 
+    loading: load,
+    decoding: decode
   };
 
   return Image.generateHTML(metadata, imageAttributes, {
