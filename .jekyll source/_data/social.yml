@@ -1,0 +1,11 @@
+- name: Facebook
+  href: http://www.facebook.com/edgepointlearningllc
+  iconColor: /assets/svg/social/facebook.svg
+
+- name: LinkedIn
+  href: https://www.linkedin.com/company/edgepoint-learning
+  iconColor: /assets/svg/social/linkedin.svg
+
+- name: Twitter
+  href: https://twitter.com/EdgePointLearn
+  iconColor: /assets/svg/social/twitter.svg

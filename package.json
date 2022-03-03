@@ -1,11 +1,26 @@
 {
+  "scripts": {
+    "clean": "rimraf _dist",
+    "start": "cross-env NODE_ENV=development npm-run-all clean --parallel dev:*",
+    "build": "cross-env NODE_ENV=production npm-run-all clean postcss-build --parallel prod:*",
+    "postcss-build": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
+    "dev:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
+    "dev:eleventy": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --quiet --serve",
+    "prod:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
+    "prod:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --output=./_dist"
+  },
   "devDependencies": {
-    "foundation-sites": "^6.6.3",
-    "instant.page": "^5.1.0",
-    "jquery": "^3.5.1",
-    "lazysizes": "^5.3.0",
-    "motion-ui": "^2.0.3",
-    "netlify-plugin-jekyll-cache": "^1.0.0",
-    "what-input": "^5.2.10"
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-img": "^1.1.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "cross-env": "^7.0.3",
+    "netlify-plugin-cache": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.0.22"
   }
 }

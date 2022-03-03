@@ -1,0 +1,49 @@
+.wave {
+  position: relative;
+  overflow: hidden;
+
+  .cell {
+    z-index: 1;
+  }
+
+  &::before,
+  &::after {
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 104%;
+    left: -2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  &::before {
+    background-position: top center;
+    // background-image: url('/assets/svg/waves/wave-top-1.svg');
+  }
+
+  &::after {
+    background-position: bottom center;
+    // background-image: url('/assets/svg/waves/wave-bot-1.svg');
+  }
+
+  @for $i from 1 through 8 {
+    &--top--#{$i}::before {
+      top: -2px;
+      background-image: url('/assets/svg/waves/wave-top-'+$i+'.svg');
+    }
+    &--bot--#{$i}::after {
+      bottom: -2px;
+      background-image: url('/assets/svg/waves/wave-bot-'+$i+'.svg');
+    }
+    &--top--#{$i}--mirror::before {
+      top: -2px;
+      background-image: url('/assets/svg/waves/wave-top-'+$i+'-mirror.svg');
+    }
+    &--bot--#{$i}--mirror::after {
+      bottom: -2px;
+      background-image: url('/assets/svg/waves/wave-bot-'+$i+'-mirror.svg');
+    }
+  }
+}

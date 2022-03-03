@@ -1,0 +1,23 @@
+- name: What We Do
+  info: We are a boutique, end-to-end solution for your training needs
+  href: /about/#what-we-do
+  icon: /assets/svg/ui/handdrawn-workflow.svg
+  iconColor: /assets/svg/ui/handdrawn-color-workflow.svg
+
+- name: Our Team
+  info: Work with the experts in online and mobile corporate learning
+  href: /about/#our-team
+  icon: /assets/svg/ui/handdrawn-smiling.svg
+  iconColor: /assets/svg/ui/handdrawn-color-smiling.svg
+
+- name: View Demos
+  info: Find inspiration for your next employee training project
+  href: /form/demo/
+  icon: /assets/svg/ui/handdrawn-home_office.svg
+  iconColor: /assets/svg/ui/handdrawn-color-home_office.svg
+
+- name: Case Studies
+  info: Discover how we crafted engaging learning experiences for clients
+  href: /about/#case-studies
+  icon: /assets/svg/ui/handdrawn-contact.svg
+  iconColor: /assets/svg/ui/handdrawn-color-contact.svg

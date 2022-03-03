@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "foundation-sites": "^6.6.3",
+    "instant.page": "^5.1.0",
+    "jquery": "^3.5.1",
+    "lazysizes": "^5.3.0",
+    "motion-ui": "^2.0.3",
+    "netlify-plugin-jekyll-cache": "^1.0.0",
+    "what-input": "^5.2.10"
+  }
+}

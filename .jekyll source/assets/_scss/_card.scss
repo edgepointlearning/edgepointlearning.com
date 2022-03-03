@@ -1,0 +1,39 @@
+.card--epl {
+  @extend .radius--rem;
+  @extend .shadow;
+  border: none;
+  -webkit-transform: translateZ(0); 
+    // webkit bugfix: 
+    // https://stackoverflow.com/questions/10314207/webkit-not-respecting-overflowhidden-with-border-radius/16109635#16109635
+    // https://gist.github.com/ayamflow/b602ab436ac9f05660d9c15190f4fd7b
+    // https://stackoverflow.com/questions/20620441/webkit-border-radius-and-transition-bug?noredirect=1&lq=1
+    // https://stackoverflow.com/questions/21237854/webkit-transform-affect-border-radius
+
+  a {
+    height: 100%;
+    color: $black;    
+  }
+
+  .card__image {
+    height: 208px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      transition: all .2s ease-in-out;
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  &:hover img {
+    border-top-left-radius: 1.03rem;
+    border-top-right-radius: 1.03em;
+    transform: scale(1.03);
+  }
+
+}

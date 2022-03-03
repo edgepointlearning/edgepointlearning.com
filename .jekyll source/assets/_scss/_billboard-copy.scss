@@ -1,0 +1,56 @@
+.billboard {
+  position: relative;
+  margin-top: -2px;
+  width: 100%;
+  background-color: $light-gray;
+  overflow: hidden;
+
+  .grid-x {
+    min-height: 600px;
+    height: 56vw; // roughly 16:9
+    max-height: 80vh;
+  }
+  .cell {
+    z-index: 1;
+  }
+}
+
+.billboard__wave {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 104%;
+  height: 100%;
+}
+
+.billboard__bg {
+  margin: 0 auto;
+}
+
+.billboard__headline {
+  font-weight: 900;
+  margin-bottom: 1em;
+  line-height: 1.1em;
+  font-size: 2.5em;
+  @include breakpoint(marge) {
+    font-size: 4em;
+  }
+}
+
+.billboard__tagline {
+  font-weight: 600;
+  margin-bottom: 2em;
+  line-height: 1.3em;
+  font-size: 1.5em;
+  @include breakpoint(marge) {
+    font-size: 2em;
+  }
+}
+
+.billboard .cta {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: inherit;
+  text-transform: none;
+  margin-bottom: $global-margin;
+}

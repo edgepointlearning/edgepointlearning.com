@@ -1,0 +1,46 @@
+.cta {
+  @extend .button;
+  @include border-rounded;
+  font-family: 'Mulish', $body-font-family;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+
+  @include button-style($primary-color, $black, $white);
+
+  &--green {
+    @include button-style($color-green, $black, $white);
+    // &:hover {
+      // color: $white;
+    // }
+  }
+  &--black {
+    @include button-style($black, $color-off-black, $white);
+  }
+  &--blue-dark {
+    @include button-style($color-blue-dark, $black, $white);
+  }
+  &--blue-light {
+    @include button-style($color-blue-light, $black, $white);
+  }
+  &--white {
+    @include button-style($white, $black, $black);
+    &:hover {
+      color: $white;
+    }
+  }
+  &--transparent {
+    @include button-style(transparent, transparent, $black);
+  }
+  &--gray {
+    @include button-style($white, #eff0f3, $primary-color);
+    &:hover {
+      color: $black;
+    } 
+  }
+}
+
+p .cta {
+  margin-right: 0.5em;
+}

@@ -1,0 +1,31 @@
+---
+title    : Thanks for Contacting Us!
+permalink: /thanks/
+image: /special/GettyImages-515679310.jpg
+layout: special
+sitemap: false
+---
+<div class="grid-container">
+  
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y margin-bottom-3 align-right align-middle">
+    
+    <div class="cell auto">
+      {% svg /assets/svg/special/high-five.svg %}
+    </div>
+
+    <div class="cell card radius--rem shadow medium-6">
+      <h1 class="font-bold">Woo hoo!</h1>
+      <h2 class="subheader h3">Thanks for contacting us.</h2>
+      <p class="margin-vertical-1">We’ll be getting in touch with you very soon. We look forward to talking!</p>
+    </div>
+
+  </div>
+
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center">
+    {% assign class = "shadow radius--rem small-6 medium-4" %}
+    {% include card--solution.html href = '/' icon = '/assets/svg/ui/handdrawn-color-home_page.svg' title = 'Go Home' class = class %}
+    {% include card--solution.html href = '/blog/' icon = '/assets/svg/ui/handdrawn-color-news.svg' title = 'Read Our Blog' class = class %}
+    {% include card--solution.html href = '/' icon = '/assets/svg/ui/handdrawn-color-rocket.svg' title = 'Our Learning Solutions' class = class %}
+  </div>
+
+</div>

@@ -1,0 +1,131 @@
+---
+title: Home
+permalink: /
+image: /page-hero/GettyImages-1002782418.jpg
+wave: bot-2
+
+headline: We create training<br> that employees love
+tagline: Let's create something amazing for your teams
+cta1: Our Work
+cta1-url: /form/demo/
+cta2: Let's Talk
+cta2-url: /contact/
+---
+
+{% include billboard.html %}
+
+<div class="grid-container padding-top-2 padding-bottom-3">
+  <div class="grid-x grid-margin-x grid-margin-y align-justify">
+    
+    <div class="cell margin-top-2">
+      <h2 class="font-bold">Our Learning Solutions</h2>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-margin-x grid-margin-y align-center marge-up-3">
+    {% include card.html
+      class = 'card--third'
+      title = 'Learning Experiences'
+      url = '/solutions/'
+      image = '/blog/2018-09-17-588064.jpg'
+      copy = 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
+    %}
+
+    {% include card.html 
+      class = 'card--third'
+      title = 'Training Strategy'
+      url = '/elearning-consulting-services/'
+      image = '/blog/2019-08-28-lgbtq-diversity-training.jpg'
+      copy = 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
+    %}
+
+    {% include card.html 
+      class = 'card--third'
+      title = 'PinPoint Workforce'
+      url = 'https://www.pinpointworkforce.com/'
+      image = '/page-hero/solutions--mobile-pinpointwebsite.jpg'
+      copy = 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
+    %}
+  </div>
+</div>
+
+
+<div class="grid-x align-center padding-vertical-2 wave wave--top--7 wave--bot--7 topo">
+  <div class="cell" style="max-width: 1170px;">
+    <div class="responsive-embed widescreen margin-bottom-0 shadow">
+      <div class="vi-lazyload" data-id="475097274" data-thumb="--1" data-logo="0"></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y margin-top-3 padding-top-1">
+    <div class="cell">
+      <h2 class="font-bold separator-left text-nowrap">Your Learning Tools</h2>
+      <h3 class="subheader">An End-To-End Solution</h3>
+      <p class="margin-top-1 contentWidth contentScale">Too often employee training becomes formulaic, rigid, and outdated…quickly. At EdgePoint, we build people-centered learning experiences that employees love. Whether your organization is a small- or medium-sized business, multinational corporation, or local nonprofit, good learning equals good business. We use the latest learning and delivery technologies to get engaging, contextual training to your employees in the flow of work, when and where they need it most. These are the tools we use to get the job done right.</p>
+    </div>
+  </div>
+
+  <div class="grid-x grid-margin-x grid-margin-y margin-bottom-2 small-up-2 marge-up-4 align-center">
+    {% assign sorted = site.solutions | sort: 'nav-sort' %}
+    {% for solution in sorted %}
+      {% assign blob = forloop.index | prepend:'/assets/svg/blobs/blob-' | append:'.svg' %}
+      {% include card--blob.html href = solution.url icon = solution.nav-iconColor text = solution.nav-name %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="wave wave--top--1" style="background-color: #ffffff;">
+  <div class="grid-container margin-top-1">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell">
+        <h2 class="font-bold">Insights</h2>
+      </div>
+    </div>
+
+    <div class="grid-x grid-margin-x grid-margin-y align-center margin-bottom-1">
+      {% for post in site.posts limit: 4 %}
+        {% if forloop.index <= 2 %}
+          {% assign class = 'card--teaser card--teaser--L' %}
+        {% else %}
+          {% assign class = 'card--teaser card--teaser--M' %}
+        {% endif %}
+        {% include card.html class = class url = post.url image = post.image title = post.title copy = post.meta %}
+      {% endfor %}
+      {% include form.html class = "home-teaser-newsletter-form large-4 radius--rem padding-1" title = 'Subscribe Now!' copy = 'Keep up to date on learning industry news and the latest EdgePoint offerings.' keap = 983 %}
+    </div>
+
+  </div>
+</div>
+
+<div class="wave wave--bot--3" style="background: white;">
+  <div class="grid-container padding-vertical-3">
+    <div class="grid-x">
+      <div class="cell">
+        <h2 class="font-bold separator-left">Trusted By</h2>
+      </div>
+    </div>
+    <a href="/about/#case-studies">
+      <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center align-middle small-up-3 marge-up-4 large-up-6 padding-top-1 padding-bottom-3">
+        <div class="cell card--client">{% picture client /clients/botw-bnpp.png --alt Bank of the West %}</div>
+        <div class="cell card--client">{% picture client /clients/thomson-reuters.png --alt Thomson Reuters %}</div>
+        <div class="cell card--client">{% picture client /clients/cargill.png --alt Cargill %}</div>
+        <div class="cell card--client">{% picture client /clients/pepsico.png --alt PepsiCo %}</div>
+        <div class="cell card--client">{% picture client /clients/alaska-eed.png --alt State of Alaska Education & Early Development %}</div>
+        <div class="cell card--client">{% picture client /clients/warner-media.png --alt Warner Media %}</div>
+        <div class="cell card--client">{% picture client /clients/international-paper.png --alt International Paper %}</div>
+        <div class="cell card--client">{% picture client /clients/ieee.png --alt IEEE %}</div>
+        <div class="cell card--client">{% picture client /clients/pnnl.png --alt PNNL %}</div>
+        <div class="cell card--client">{% picture client /clients/brightstar.png --alt BrightStar %}</div>
+        <div class="cell card--client">{% picture client /clients/swca.png --alt SWCA %}</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="grid-container margin-vertical-3">
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center">
+    {% include form.html title = "Contact" copy = "We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project." keap = 979 %}
+  </div>
+</div>

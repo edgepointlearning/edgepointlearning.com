@@ -1,0 +1,38 @@
+.profile {
+
+  .card {
+    background-color: $light-gray;
+  }
+
+  .key {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  .quotation {
+    quotes: "\201C""\201D""\2018""\2019";
+    color: $black; 
+    font-size: 1.1em;
+  }
+
+  .quotation:before,
+  .quotation:after {
+    display: inline;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    color: #5885bb;
+    font-size: 3em;
+  }
+  .quotation:before {
+    content: open-quote;
+    left: -5px;
+    top: 20px;
+  }
+  .quotation::after {
+    content: close-quote;
+    left: 5px;
+    top: 32px;
+  }
+}

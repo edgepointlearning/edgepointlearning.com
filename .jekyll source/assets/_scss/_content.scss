@@ -1,0 +1,150 @@
+.contentWidth {
+  max-width: $content-maxwidth;
+  // var is 670px
+  // https://web.dev/min-max-clamp/
+  // width: clamp(45ch, 50%, 75ch);
+}
+.contentScale {
+  @include breakpoint(marge) {
+    font-size: 1.125rem;
+  }
+}
+.content {
+
+  &--sans {
+    font-family: $body-font-family;
+  }
+
+  #{headings(1,6)} {
+    line-height: 1.2;
+    font-weight: bold;
+  }
+
+  h2 {
+    @extend .margin-top-3;
+    @extend .margin-bottom-1;
+  }
+  #{headings(3,6)} {
+    @extend .margin-top-2;
+  }
+
+  #{headings(1,6)},
+  p,
+  blockquote,
+  ul,
+  ol,
+  form {
+    max-width: $content-maxwidth;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p, li, cite {
+    @include breakpoint(marge) {
+      font-size: 1.125rem;
+    }
+  }
+
+  p, li {
+    font-family: Lora, Times, "Times New Roman", serif;
+  }
+  
+  p {
+    line-height: 1.7;
+  }
+
+  li {
+    margin-left: 2em; //bugfix: offset the auto horizontal margins
+  }
+
+  p a, li a {
+    font-weight: bold;
+  }
+}
+
+/* --- --- TEXT BLOCKS --- --- */
+.content .featured-text {
+  font-weight: 500;
+  @extend .serif;
+  @extend .h3;
+  @extend .margin-bottom-2;
+}
+
+.content .fancy-text {
+  background: #f9f9f9;
+  border-left: 10px solid #cce0f5;
+  margin: $global-margin * 2 auto;
+  padding: 10px 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  font-family: $body-font-family;
+  line-height: $global-lineheight;
+  font-size: 1.125rem;
+  @include breakpoint(marge) {
+    font-size: 1.25rem;
+  }
+}
+.content .fancy-text--small {
+  @extend .fancy-text;
+  font-size: 1em;
+  border-color: $medium-gray;
+  @include breakpoint(marge) {
+    font-size: 1.125rem;
+  }
+}
+
+.content .fancy-quote {
+  @extend .fancy-text;
+  font-family: Lora, Times, "Times New Roman", serif;
+  border-color: #5885bb;
+  &:before {
+    content: open-quote;
+    display: inline;
+    // height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: $dark-gray;
+    font-size: 3em;
+  }
+}
+
+/* --- --- IMAGES --- --- */
+.layout-post .content > .cell > picture,
+.layout-post .content > .cell > p img,
+.layout-post .content > .cell > svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  @extend .margin-top-1;
+  @extend .margin-bottom-3;
+
+}
+.layout-post .content > .cell > svg {
+  max-width: $content-maxwidth;
+}
+.layout-post .content > .cell > picture,
+.layout-post .content > .cell > svg.image-wide {
+  max-width: 1170px;
+}
+
+.layout-post .content > .cell > p img.float-left,
+.layout-post .content > .cell > p img.float-right {
+  @extend .margin-top-1;
+  @extend .margin-bottom-0;
+}
+.layout-post .content > .cell > p img.float-left {
+  @extend .margin-right-2;
+}
+.layout-post .content > .cell > p img.float-right {
+  @extend .margin-left-2;
+}
+
+/* --- --- VIDEOS & TABLE --- --- */
+.layout-post .content > .cell .responsive-embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}

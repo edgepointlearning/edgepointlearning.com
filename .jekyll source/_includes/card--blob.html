@@ -1,0 +1,9 @@
+<div class="cell card--blob text-center align-middle align-center">
+  <a href="{{ include.href }}">
+    <img src="{{include.icon}}"  width='64' height='64' class='icon' alt='{{ include.text }}'>
+    <h4 class="h5">
+      {{ include.text | replace_first: ' ', '<br>' }}
+    </h4>
+  </a>
+  {% svg '{{ blob }}' class='blob' width='80%' %}
+</div>

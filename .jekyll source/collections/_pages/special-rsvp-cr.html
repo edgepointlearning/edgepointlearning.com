@@ -1,0 +1,32 @@
+---
+title    : Thank You for Scheduling
+permalink: /rsvp-cr/
+image: /special/GettyImages-515679310.jpg
+layout: special
+sitemap: false
+---
+<div class="grid-container">
+  
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y margin-bottom-3 align-right align-middle">
+    
+    <div class="cell auto small-order-1 medium-order-2">
+      {% svg /assets/svg/special/pet-meeting.svg %}
+    </div>
+
+    <div class="cell card radius--rem shadow medium-6 small-order-2 medium-order-1">
+      <h1 class="h3 font-bold margin-top-1">Thank You for Scheduling</h1>
+      <h2 class="subheader h4">We are looking forward to our conversation</h2>
+      <p class="margin-top-1">You should receive a calendar invite shortly. If you do not see it in your Inbox, please let me know. In case you need to reschedule our meeting for any reason, there is a link to reschedule in the invite or you can let me know. If you are interested in learning more about EdgePoint Learning and our training solutions before our call, you can download our <a href="/static/EdgePointLearningCompanyOverview.pdf" target="_blank">company overview</a>.
+      <p class="margin-bottom-1">Best Regards,<br>Connie</p>
+    </div>
+
+  </div>
+
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center">
+    {% assign class = "shadow radius--rem small-6 medium-4" %}
+    {% include card--solution.html href = '/' icon = '/assets/svg/ui/handdrawn-color-home_page.svg' title = 'Go Home' class = class %}
+    {% include card--solution.html href = '/blog/' icon = '/assets/svg/ui/handdrawn-color-news.svg' title = 'Read Our Blog' class = class %}
+    {% include card--solution.html href = '/' icon = '/assets/svg/ui/handdrawn-color-rocket.svg' title = 'Our Learning Solutions' class = class %}
+  </div>
+
+</div>

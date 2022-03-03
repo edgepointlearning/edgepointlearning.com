@@ -1,0 +1,32 @@
+.card--blob {
+  position: relative;
+  display: flex;
+  min-height: 200px;
+
+  a {
+    color: $black;
+  }
+
+  h4 {
+    font-weight: 600;
+    display: flex;
+  }
+
+  .blob {
+    z-index: -1;
+    position: absolute;
+    path {
+      fill: #dde7ed;
+    }
+  }
+
+  &:hover {
+    .icon {
+      animation:pulsate-fwd .5s ease-in-out both;
+    }
+    .blob {
+      animation:jello-horizontal .9s both;
+    }
+  }
+  
+}

@@ -1,0 +1,39 @@
+{% if page.wave %}
+  {% assign wave = page.wave %}
+{% else %}
+  {% assign wave = "bot-2" %}
+{% endif %}
+
+<div class="billboard">
+  <div class="billboard__wave" style="background: url('/assets/svg/waves/wave-{{ wave }}.svg') no-repeat center bottom / contain; background-clip: border-box;"></div>
+  <div class="billboard__bg"
+    {% if page.image %}
+      style="
+        padding: 2px;
+        background: 
+          {% if page.headline %}
+            linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%),
+          {% endif %}
+          url('{% picture direct-url {{ page.image }} %}') {{ page.imagepos }} / cover no-repeat content-box;"
+    {% endif %}  
+  >
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x align-left align-middle">
+      
+        {% if page.headline %}
+          <div class="cell">
+            <h1 class="h1 billboard__headline">{{ page.headline }}</h1>
+            {% if page.tagline %}<p class="h2 billboard__tagline">{{ page.tagline }}</p>{% endif %}
+            {% if page.cta1 %}
+              <p class="margin-bottom-0">
+                <a class="cta cta--blue-dark" href="{{ page.cta1-url }}">{{ page.cta1 }}</a>
+                {% if page.cta2 %}<a class="cta cta--blue-light margin-left-1" href="{{ page.cta2-url }}">{{ page.cta2 }}</a>{% endif %}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}',
+  algoliaOptions: {
+    attributesToSnippet: ["content:25"]
+  },
+  
+  searchFunction(helper) {
+    const container = document.querySelector('#search-hits');
+    if (helper.state.query === '') {
+      container.style.display = 'none';
+    } else {
+      container.style.display = '';
+    }
+    helper.search();
+  }
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `{{ site.baseurl }}${hit.url}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span>${match.value}</span>`
+    }).join(' > ')
+  }
+
+  // const content = hit._highlightResult.html.value;
+  const content = hit._snippetResult.content.value
+
+  return `
+    <div class="search-result">
+      <p class="search-result__title h5"><a href="${url}">${title}</a></p>
+      {{#breadcrumbs}}<p class="search-result__breadcrumb"><a href="${url}#${hit.anchor}">${breadcrumbs}</a></p>{{/breadcrumbs}}
+      <p class="search-result__snippet">${content}</p>
+    </div>
+  `;
+}
+
+// https://community.algolia.com/instantsearch.js/v2/widgets/searchBox.html
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search...',
+    reset: false,
+    poweredBy: false
+    // searchOnEnterKeyPressOnly: true
+    // cssClasses: {
+    //   root: 'root-custom-css-class',
+    //   input: 'input-custom-css-class',
+    // },
+  })
+);
+
+// https://community.algolia.com/instantsearch.js/v2/widgets/hits.html
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      empty: '<p>No results were found with your current filters. Try to remove some filters or change the search query.</p>',
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>

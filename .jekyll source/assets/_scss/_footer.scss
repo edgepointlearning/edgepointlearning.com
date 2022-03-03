@@ -1,0 +1,23 @@
+footer {
+  background: $light-gray;
+  font-family: 'Mulish', $body-font-family;
+  font-size: 0.875em;
+  font-weight: 500;
+
+  a.button {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+    @include border-rounded;
+    @include button-style(transparent, transparent, $black);
+  }
+
+  svg {
+    vertical-align: middle;
+    margin-right: 0.2em;
+    margin-top: -3px;
+  }
+  .separator-left::after {
+    border-color: $medium-gray;
+  }
+}

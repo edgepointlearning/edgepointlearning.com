@@ -1,0 +1,33 @@
+.card--third {
+
+  .card__image {
+    @extend .medium-4;
+    @extend .marge-12;
+
+    @include breakpoint(medium) {
+      height: auto;
+    }
+
+    @include breakpoint(marge) {
+      height: 208px;
+    }
+
+  }
+
+  .card__content {
+    @extend .medium-8;
+    @extend .marge-12;
+    @extend .align-self-middle;
+  }
+
+  h3 {
+    @extend .h4;
+    color: $primary-color;
+  }
+
+  h4 {
+    @extend .h5;
+    @extend .subheader;
+  }
+
+}
