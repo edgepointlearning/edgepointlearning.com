@@ -1,6 +1,9 @@
+const metagen = require('eleventy-plugin-metagen');
+const svgSprite = require("eleventy-plugin-svg-sprite");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
-
 
 async function pictureShortcode(src, alt, cls, sizes = "100vw", load = "lazy", decode = "async") {
 
@@ -37,7 +40,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
 
-  eleventyConfig.addLiquidShortcode("picture", pictureShortcode);
+  eleventyConfig.addShortcode("picture", pictureShortcode);
+
+  eleventyConfig.addPlugin(metagen);
+  
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./src/assets/sprites",
+  });
+
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://www.edgepointlearning.com",
+    },
+  });
 
   return {
     dir: {
