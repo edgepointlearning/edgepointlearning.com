@@ -1,15 +1,12 @@
 {
   "scripts": {
     "clean": "rimraf _dist",
-
-    "dev:eleventy":   "npx eleventy --serve",
+    "dev:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
+    "dev:eleventy": "npx eleventy --serve",
+    "build:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
     "build:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
-    
-    "dev:postcss":   "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",    
-    "build:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",    
-
-    "start": "npm-run-all --parallel dev:*",
-    "build": "NODE_ENV=production npm-run-all build:eleventy build:postcss"
+    "start": "run-p dev:*",
+    "build": "NODE_ENV=production run-s build:*"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -18,7 +15,6 @@
     "@tailwindcss/typography": "^0.5.2",
     "alpinejs": "^3.9.1",
     "autoprefixer": "^10.4.2",
-    "cross-env": "^7.0.3",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "netlify-plugin-cache": "^1.0.3",
