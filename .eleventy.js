@@ -37,6 +37,10 @@ async function pictureShortcode(src, alt, cls, sizes = "100vw", load = "lazy", d
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addPassthroughCopy({
+    './node_modules/alpinejs/dist/cdn.js': './js/alpine.js',
+  })
+
   eleventyConfig.addWatchTarget('./src/tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
 

@@ -6,10 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/styles.css">
   <title>{{ title }}</title>
+  <script src="/js/alpine.js"></script>
 </head>
 
 <body class="bg-fixed bg-gradient-to-b from-slate-300 to-slate-500">
   {% svgsprite %}
-  {{ content }}
+
+  {% include 'nav.html' %}
+  
+  {{ content | safe }}
+
 </body>
 </html>

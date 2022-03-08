@@ -1,19 +1,22 @@
 {
   "scripts": {
     "clean": "rimraf _dist",
-    "start": "cross-env NODE_ENV=development npm-run-all clean --parallel dev:*",
-    "build": "cross-env NODE_ENV=production npm-run-all clean postcss-build --parallel prod:*",
-    "postcss-build": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
-    "dev:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
-    "dev:eleventy": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --quiet --serve",
-    "prod:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
-    "prod:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --output=./_dist"
+
+    "dev:eleventy":   "npx eleventy --serve",
+    "build:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
+    
+    "dev:postcss":   "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",    
+    "build:postcss": "postcss src/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",    
+
+    "start": "npm-run-all --parallel dev:*",
+    "build": "NODE_ENV=production npm-run-all build:postcss build:eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.1.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
     "@tailwindcss/typography": "^0.5.2",
+    "alpinejs": "^3.9.1",
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
     "eleventy-plugin-metagen": "^1.6.0",

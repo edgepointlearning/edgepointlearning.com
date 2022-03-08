@@ -1,10 +1,7 @@
 ---
 title: Home
-layout: layouts/base
+layout: layouts/base.njk
 ---
-
-{% include 'nav.html' %}
-
 <div class="w-5/6 max-w-5xl mx-auto my-12">
   <article class="mt-20 prose lg:prose-xl">
     <h1>Walden Pond</h1>
@@ -12,21 +9,6 @@ layout: layouts/base
     {% picture "GettyImages-1063966026.jpeg", "hero image", "card object-cover aspect-video", "800px", "eager", "sync" %}
     <p>Walden Pond is owned and managed by the Massachusetts Department of Conservation and Recreation, and sees nearly 600,000 visitors every year. An exceptionally deep and remarkably clear kettle lake, Walden still inspires the conservation ethic that Thoreau first articulated in his writings.</p>
     <p>The writer, transcendentalist, and philosopher, Henry David Thoreau, lived on the shores of Walden Pond for two years, two months, and two days, starting on the Fourth of July in 1845.</p>
+    {% picture "portrait-5.jpeg", "portrait image" "card object-cover aspect-[9/16]" %}
   </article>
 </div>
-
-<div class="flex gap-6 pb-2 mx-auto mt-6 mb-12 overflow-x-auto snap-x snap-mandatory hide-scrollbars">
-  <div class="w-1/6 snap-align-none shrink-0"></div>
-  {% for pic in pictures limit:7 %}
-    <div class="w-5/6 max-w-5xl snap-always snap-center shrink-0 first:ml-6 last:mr-6">
-      {% picture pic.filename, pic.alt, "card object-cover aspect-video" %}
-    </div>
-  {% endfor %}
-  <div class="w-1/6 snap-align-none shrink-0"></div>
-</div>
-
-{% for pic in pictures offset:7 %}
-  <div class="w-5/6 max-w-5xl mx-auto my-6">
-    {% picture pic.filename, pic.alt, "card object-cover aspect-[9/16]", "80vw" %}
-  </div>
-{% endfor %}

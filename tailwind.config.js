@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './src/**/*.html'
+    './_dist/**/*.html'
   ],
   plugins: [
     require('@tailwindcss/typography'),
