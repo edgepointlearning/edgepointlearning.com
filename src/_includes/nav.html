@@ -1,4 +1,38 @@
-<div class="sticky top-0 flex justify-between w-5/6 max-w-5xl p-4 mx-auto mt-6 shadow-xl bg-white/80 rounded-xl place-items-center backdrop-blur ">
-  {% svg "logo--epl-horizontal", "h-10" %}
-  <span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span>
+<div class="sticky top-0 w-5/6 max-w-5xl p-4 mx-auto mt-6 shadow-xl bg-white/80 rounded-xl backdrop-blur ">
+  <ul class="flex items-center justify-between w-full h-10">
+    <li class="relative block"><a href="#">{% svg "logo--epl-horizontal", "h-10" %}</a></li>
+    <li class="relative block" x-data="{showChildren:false}" @click.away="showChildren=false">
+      <a href="#" @click.prevent="showChildren=!showChildren">Solutions ▼</a>
+      <div class="absolute left-0 top-auto z-30 w-56 mt-1 shadow-md" x-show="showChildren"  style="display: none;">
+        <div class="relative z-10 w-full p-2 bg-white rounded">
+            <ul>
+              <li>Custom Development</li>
+              <li>Co-Development</li>
+              <li>Consulting</li>
+              <li>Microlearning</li>
+              <li>Performance Support</li>
+              <li>Mobile Delivery</li>
+              <li>Augmented Reality (AR)</li>
+            </ul>
+        </div>
+      </div>
+    </li>
+    <li class="relative block"><a href="#">Insights</a></li>
+    <li class="relative block" x-data="{showChildren:false}" @click.away="showChildren=false">
+      <a href="#" @click.prevent="showChildren=!showChildren">About ▼</a>
+      <div class="absolute left-0 top-auto z-30 w-56 mt-1 shadow-md" x-show="showChildren"  style="display: none;">
+        <div class="relative z-10 w-full p-2 bg-white rounded">
+            <ul>
+              <li>What We Do</li>
+              <li>Our Team</li>
+              <li>View Demos</li>
+              <li>Case Studies</li>
+            </ul>
+        </div>
+      </div>
+    </li>
+    <li class="relative block"><a href="#">Contact</a></li>
+    <li class="relative block"><a href="#">Book A Consultation</a></li>
+    <li class="relative block"><a href="#">{% svg "menu--search", "h-6 w-6" %}</a></li>
+  </ul>
 </div>
