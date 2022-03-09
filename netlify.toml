@@ -6,7 +6,7 @@
   skip_processing = false
 [build.processing.css]
   bundle = true
-  minify = true
+  minify = false # todo: temporary bugfix for https://github.com/tailwindlabs/tailwindcss/discussions/7044
 [build.processing.js]
   bundle = true
   minify = true
