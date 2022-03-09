@@ -11,7 +11,7 @@ async function pictureShortcode(src, alt, cls, sizes = "100vw", load = "lazy", d
 
   let metadata = await Image(imgSrc, {
     widths: [600, 1024],
-    formats: ["avif", "webp", "jpeg"],
+    formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
     filenameFormat: function (id, src, width, format, options) {
@@ -41,7 +41,7 @@ module.exports = function(eleventyConfig) {
     './node_modules/alpinejs/dist/cdn.js': './js/alpine.js',
   })
 
-  eleventyConfig.addWatchTarget('./src/tailwind.config.js');
+  eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
 
   eleventyConfig.addShortcode("picture", pictureShortcode);

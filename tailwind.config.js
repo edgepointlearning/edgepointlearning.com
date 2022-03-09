@@ -1,4 +1,19 @@
 module.exports = {
+  theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'mg': '880px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+    extend: {
+      colors: {
+        primary: '#12529e',
+      }
+    }
+  },
   content: [
     "./src/_includes/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}",
     "./src/index.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}",

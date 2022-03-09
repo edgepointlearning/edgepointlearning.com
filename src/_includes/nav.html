@@ -1,8 +1,16 @@
-<div class="sticky top-0 w-5/6 max-w-5xl p-4 mx-auto mt-6 shadow-xl bg-white/80 rounded-xl backdrop-blur ">
-  <ul class="flex items-center justify-between w-full h-10">
-    <li class="relative block"><a href="#">{% svg "logo--epl-horizontal", "h-10" %}</a></li>
+<div class="sticky top-0 hidden w-full px-4 shadow-md xl:px-0 bg-white/80 md:block backdrop-blur">
+
+  <ul class="flex items-center max-w-5xl py-4 mx-auto">
+
+    <li class="flex-auto">
+      <a href="#">
+        {% svg "logo--epl-e", "h-8 aspect-square mg:hidden" %}
+        {% svg "logo--epl-horizontal", "w-full max-w-[244px] aspect-[358/47] hidden mg:block" %}
+      </a>
+    </li>
+
     <li class="relative block" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <a href="#" @click.prevent="showChildren=!showChildren">Solutions ▼</a>
+      <a href="#" class="nav-button" @click.prevent="showChildren=!showChildren">Solutions {% svg "menu--triangle-down", "h-4 aspect-square inline fill-primary align-text-top" %}</a>
       <div class="absolute left-0 top-auto z-30 w-56 mt-1 shadow-md" x-show="showChildren"  style="display: none;">
         <div class="relative z-10 w-full p-2 bg-white rounded">
             <ul>
@@ -17,9 +25,11 @@
         </div>
       </div>
     </li>
-    <li class="relative block"><a href="#">Insights</a></li>
+    
+    <li class=""><a class="nav-button" href="#">Insights</a></li>
+    
     <li class="relative block" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <a href="#" @click.prevent="showChildren=!showChildren">About ▼</a>
+      <a class="nav-button" href="#" @click.prevent="showChildren=!showChildren">About {% svg "menu--triangle-down", "h-4 aspect-square inline fill-primary align-text-top" %}</a>
       <div class="absolute left-0 top-auto z-30 w-56 mt-1 shadow-md" x-show="showChildren"  style="display: none;">
         <div class="relative z-10 w-full p-2 bg-white rounded">
             <ul>
@@ -31,8 +41,13 @@
         </div>
       </div>
     </li>
-    <li class="relative block"><a href="#">Contact</a></li>
-    <li class="relative block"><a href="#">Book A Consultation</a></li>
-    <li class="relative block"><a href="#">{% svg "menu--search", "h-6 w-6" %}</a></li>
+    
+    <li class=""><a class="nav-button" href="#">Contact</a></li>
+    
+    <li class=""><a class="font-light text-white nav-button bg-primary hover:bg-black" href="#">Book A Consultation</a></li>
+    
+    <li class="ml-2"><a class="hover:fill-black fill-primary" href="#">{% svg "menu--search", "h-7 aspect-square" %}</a></li>
+
   </ul>
+
 </div>
