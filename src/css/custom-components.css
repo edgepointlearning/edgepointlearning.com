@@ -1,8 +1,3 @@
 .nav-button {
-  @apply uppercase text-sm text-primary hover:bg-gray-200 rounded-full py-3 px-4 whitespace-nowrap transition;
-}
-
-/* demo */
-.card {
-  @apply rounded-lg sm:rounded-2xl shadow-md shadow-slate-700 bg-slate-100;
+  @apply uppercase text-sm px-4 whitespace-nowrap flex align-middle fill-primary hover:fill-black hover:bg-gray-200 text-primary hover:text-black rounded-full py-3; 
 }
