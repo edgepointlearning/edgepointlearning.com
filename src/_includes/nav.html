@@ -22,19 +22,26 @@
       <a href="#" class="nav-button" @click.prevent="showChildren=!showChildren">Solutions {% svg "menu--triangle-down", "h-4 aspect-square mt-0.5" %}</a>
 
       <div class="absolute left-0 w-screen p-4 bg-white shadow-md top-14" x-show="showChildren" style="display: none;">
-        <div class="flex flex-row flex-wrap justify-center max-w-5xl gap-3 mx-auto">
+        <div class="grid items-end max-w-3xl grid-cols-2 gap-4 mx-auto lg:max-w-5xl lg:grid-cols-3 ">
+          
+          <div class="flex flex-col col-span-1 row-span-1 p-2 lg:col-span-1 lg:row-span-2">
+            <p class="font-semibold leading-snug lg:max-w-[20ch] mb-3">Learning experiences designed for your needs</p>
+            <p class="mb-5 text-sm text-gray-700">Better training starts here, with learning experiences designed for your workforce's unique needs. Explore all of our training solutions today.</p>
+            <p class=""><a href="" class="px-4 py-3 text-xs no-underline uppercase transition bg-blue-100 rounded-full text-primary whitespace-nowrap hover:bg-primary hover:text-white">Learn about all our solutions</a></p>
+          </div>
+
           {% for solution in solutions %}
             {% assign icon = solution.icon | prepend: "handdrawn--" | remove: ".svg" %}
             {% assign icon-color = icon | append: "-color" %}
 
-            <a class="flex p-3 transition bg-gray-100 rounded hover:bg-gray-200 group" href="">
+            <a class="flex p-3 transition bg-gray-100 rounded-md hover:bg-blue-100 group hover:scale-105 ring-blue-300 hover:ring-2" href="{{ solution.href }}">
               <div class="flex justify-center flex-shrink-0 w-16 h-full transition ease-in-out group-hover:scale-125">
                 {% svg icon, "aspect-square group-hover:hidden" %}
                 {% svg icon-color, "aspect-square hidden group-hover:block group-hover:scale-110 ease-in-out" %}
               </div>
-              <div class="w-56 ml-4 ">
+              <div class="ml-4">
                 <p class="text-sm font-medium uppercase text-primary group-hover:text-black">{{ solution.name }}</p>
-                <div class="w-12 h-[1px] bg-gray-400 my-2 group-hover:scale-x-150 group-hover:bg-black transition origin-left"></div>
+                <div class="w-12 h-[1px] bg-gray-400 my-2 group-hover:scale-x-150 transition origin-left"></div>
                 <p class="text-xs text-gray-800">{{ solution.desc }}</p>
               </div>
             </a>
@@ -51,20 +58,20 @@
       <a href="#" class="nav-button" @click.prevent="showChildren=!showChildren">About {% svg "menu--triangle-down", "h-4 aspect-square mt-0.5" %}</a>
 
       <div class="absolute left-0 w-screen p-4 bg-white shadow-md top-14" x-show="showChildren" style="display: none;">
-        <div class="flex flex-row flex-wrap justify-center max-w-5xl gap-3 mx-auto">
-          {% for topic in about %}
-            {% assign icon = topic.icon | prepend: "handdrawn--" | remove: ".svg" %}
+        <div class="grid items-center justify-center max-w-3xl grid-cols-2 gap-4 mx-auto lg:max-w-5xl lg:grid-cols-4 ">
+          {% for solution in about %}
+            {% assign icon = solution.icon | prepend: "handdrawn--" | remove: ".svg" %}
             {% assign icon-color = icon | append: "-color" %}
 
-            <a class="flex p-3 transition bg-gray-100 rounded hover:bg-gray-200 group" href="">
+            <a class="flex p-3 transition bg-gray-100 rounded-md hover:bg-blue-100 group hover:scale-105 ring-primary hover:ring-2" href="{{ solution.href }}">
               <div class="flex justify-center flex-shrink-0 w-16 h-full transition ease-in-out group-hover:scale-125">
                 {% svg icon, "aspect-square group-hover:hidden" %}
                 {% svg icon-color, "aspect-square hidden group-hover:block group-hover:scale-110 ease-in-out" %}
               </div>
-              <div class="w-56 ml-4 ">
-                <p class="text-sm font-medium uppercase text-primary group-hover:text-black">{{ topic.name }}</p>
-                <div class="w-12 h-[1px] bg-gray-400 my-2 group-hover:scale-x-150 group-hover:bg-black transition origin-left"></div>
-                <p class="text-xs text-gray-800">{{ topic.desc }}</p>
+              <div class="ml-4">
+                <p class="text-sm font-medium uppercase text-primary group-hover:text-black">{{ solution.name }}</p>
+                <div class="w-12 h-[1px] bg-gray-400 my-2 group-hover:scale-x-150 transition origin-left"></div>
+                <p class="text-xs text-gray-800">{{ solution.desc }}</p>
               </div>
             </a>
 
