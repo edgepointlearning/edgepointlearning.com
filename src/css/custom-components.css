@@ -1,3 +1,3 @@
-.nav-button {
-  @apply uppercase text-sm px-4 py-3 flex align-middle fill-primary text-primary rounded-full whitespace-nowrap hover:fill-black hover:text-black hover:bg-gray-200; 
+.nav-link {
+  @apply flex text-sm uppercase align-middle transition fill-primary text-primary whitespace-nowrap  underline underline-offset-4 decoration-2 decoration-transparent hover:fill-black hover:text-black hover:decoration-black;
 }

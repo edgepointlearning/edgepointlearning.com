@@ -3,7 +3,7 @@ module.exports = {
     screens: {
       'sm': '640px',
       'md': '768px',
-      'mg': '930px',
+      'mg': '890px',
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
@@ -11,6 +11,8 @@ module.exports = {
     extend: {
       colors: {
         primary: '#12529e',
+        epl_light: '#186dd2',
+        epl_dark: '#0b315e'
       }
     }
   },
