@@ -18,16 +18,16 @@
     "icon": "collaboration.svg"
   },
   {
-    "name": "Microlearning",
-    "desc": "Craft precision microlearning programs for training in the flow of work",
-    "href": "#",
-    "icon": "user_location.svg"
-  },
-  {
     "name": "Performance Support",
     "desc": "Provide on-the-job support, where and when they need it most",
     "href": "#",
     "icon": "administrative_tools.svg"
+  },
+  {
+    "name": "Microlearning",
+    "desc": "Craft precision microlearning programs for training in the flow of work",
+    "href": "#",
+    "icon": "user_location.svg"
   },
   {
     "name": "Mobile Delivery",
@@ -41,4 +41,4 @@
     "href": "#",
     "icon": "virtual_reality.svg"
   }
-]
+] 
