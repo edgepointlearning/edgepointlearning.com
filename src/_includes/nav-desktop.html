@@ -21,8 +21,8 @@
             </div>
             <div class="pl-1 text-gray-700">
               <p class="text-sm font-medium lg:text-base">Not sure where to start?</p>
-              <div class="w-12 h-[1px] bg-gray-400 my-1.5 lg:hidden"></div>
-              <p class="max-w-sm mt-1 text-xs lg:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="" class="font-medium underline text-primary hover:text-black">Explore all of our solutions.</a></p>
+              <div class="w-12 h-[1px] bg-gray-300 my-1.5 lg:hidden"></div>
+              <p class="max-w-sm text-xs lg:text-sm lg:mt-1.5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="" class="font-medium underline text-primary hover:text-black">Explore all of our solutions.</a></p>
             </div>
           </div>
 
@@ -33,9 +33,9 @@
                   {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
                   {% svg icon, "aspect-square opacity-70 transition origin-bottom group-hover:scale-125 group-hover:opacity-100 group-hover:-rotate-6" %}
                 </div>
-                <div class="ml-1">
+                <div class="pl-1">
                   <p class="text-sm font-medium text-primary group-hover:text-black">{{ link.name }}</p>
-                  <div class="w-12 h-[1px] bg-gray-400 my-1.5 group-hover:scale-x-[300%] transition origin-left"></div>
+                  <div class="w-12 h-[1px] bg-gray-300 my-1.5 group-hover:bg-slate-300 group-hover:scale-x-[300%] transition origin-left"></div>
                   <p class="text-xs text-gray-800">{{ link.desc }}</p>
                 </div>
               </a>
