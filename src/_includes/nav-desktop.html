@@ -1,0 +1,89 @@
+<div class="sticky top-0 hidden w-full px-4 transition-all bg-white shadow-md xl:px-0 md:block">
+
+  <ul class="flex items-stretch h-16 max-w-5xl gap-8 mx-auto">
+
+    <li class="flex items-center flex-auto"><a href="#" class="">{% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}{% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}</a></li>
+
+    <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
+      <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
+
+      <div class="absolute left-0 w-screen max-w-full bg-white shadow-md top-16"
+        x-show="showChildren"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 -translate-y-3"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        >
+        <div class="flex flex-wrap max-w-5xl px-2 pb-2 mx-auto place-content-center">
+          
+          <div class="order-last w-1/2 max-w-sm p-3 lg:max-w-none lg:w-2/3">
+            <div class="pl-16 pt-2.5 text-gray-700">
+              <p class="text-sm font-medium lg:text-base">Not sure where to start?</p>
+              <p class="max-w-md mt-1 text-xs lg:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis itaque pariatur. <a href="" class="font-semibold underline text-primary hover:text-black">Explore all of our solutions.</a></p>
+            </div>
+          </div>
+
+          {% for link in solutions %}
+            <div class="w-1/2 max-w-sm p-3 lg:w-1/3">
+              <a class="flex p-3 transition bg-white rounded-md group hover:bg-blue-100 ring-1 ring-offset-4 ring-offset-white ring-white hover:ring-epl-light hover:scale-105" href="{{ link.href }}">
+                <div class="flex-none w-12">
+                  {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
+                  {% svg icon, "aspect-square opacity-70 transition origin-bottom group-hover:scale-125 group-hover:opacity-100 group-hover:-rotate-6" %}
+                </div>
+                <div class="ml-1">
+                  <p class="text-sm font-medium text-primary group-hover:text-black">{{ link.name }}</p>
+                  <div class="w-12 h-[1px] bg-gray-400 my-1.5 group-hover:scale-x-[300%] transition origin-left"></div>
+                  <p class="text-xs text-gray-800">{{ link.desc }}</p>
+                </div>
+              </a>
+            </div>
+
+          {% endfor %}
+        </div>
+      </div>
+
+    </li>
+    
+    <li class="flex items-center"><a class="nav-link" href="#">Insights</a></li>
+    
+    <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
+      <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">About{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
+
+      <div class="absolute left-0 w-screen max-w-full bg-white shadow-md top-14" 
+        x-show="showChildren"         
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 -translate-y-2"
+        x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+        style="display: none;"
+        >
+        <div class="grid max-w-5xl grid-cols-2 gap-4 px-3 pt-6 pb-4 mx-auto place-items-center">
+          {% for link in about %}
+            {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
+            {% assign icon-color = icon | append: "-color" %}
+
+            <a class="flex max-w-sm p-3 transition rounded-md hover:bg-blue-100 group hover:scale-105 hover:ring-2 hover:ring-blue-600 hover:shadow-lg" href="{{ link.href }}">
+              <div class="flex justify-center flex-shrink-0 w-16 h-full transition ease-in-out group-hover:scale-125">
+                {% svg icon, "aspect-square group-hover:hidden" %}
+                {% svg icon-color, "aspect-square hidden group-hover:block group-hover:scale-110 ease-in-out" %}
+              </div>
+              <div class="ml-4">
+                <p class="text-sm font-medium uppercase text-primary group-hover:text-black">{{ link.name }}</p>
+                <div class="w-12 h-[1px] bg-gray-400 my-2 group-hover:scale-x-150 transition origin-left"></div>
+                <p class="text-xs text-gray-800">{{ link.desc }}</p>
+              </div>
+            </a>
+
+          {% endfor %}
+        </div>
+      </div>
+
+    </li>
+    
+    <li class="flex items-center"><a class="nav-link" href="#">Contact</a></li>
+    
+    <li class="flex items-center"><a class="text-white cta-button bg-primary hover:bg-black" href="#">Book A Consultation</a></li>
+    
+    <li class="flex items-center -ml-2"><a class="transition hover:fill-black fill-primary" href="#">{% svg "menu--search", "h-6 aspect-square" %}</a></li>
+
+  </ul>
+
+</div>
