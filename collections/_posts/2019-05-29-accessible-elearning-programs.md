@@ -12,7 +12,7 @@ Far from just checking email and connecting via social media, the internet today
 
 ## How to create accessible eLearning programs
 
-In the early years of the 21st century, few people understood how important and widespread the internet might become, however this is changing quickly. In December of 2000, the [Section 508 Standards for Electronic and Information Technology](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) were formally laid out as an amendment to the [United States Rehabilitation Act of 1973](https://www.ada.gov/cguide.htm#anchor65610). In September of 2018, the EU Web Accessibility Directive required all public websites and apps in Europe to meet the standards of the [Web Content Accessibility Guidelines ](https://www.w3.org/blog/2018/09/wcag-2-1-adoption-in-europe/)(WCAG).
+In the early years of the 21st century, few people understood how important and widespread the internet might become, however this is changing quickly. In December of 2000, the [Section 508 Standards for Electronic and Information Technology](https://www.access-board.gov/ict/?dg) were formally laid out as an amendment to the [United States Rehabilitation Act of 1973](https://www.ada.gov/cguide.htm#anchor65610). In September of 2018, the EU Web Accessibility Directive required all public websites and apps in Europe to meet the standards of the [Web Content Accessibility Guidelines ](https://www.w3.org/blog/2018/09/wcag-2-1-adoption-in-europe/)(WCAG).
 
 Both of these standards look to the future with the goal of technology access for all. These forward-thinking standards make it law to accommodate everyone online.
 
@@ -42,7 +42,7 @@ Section 508 standards cover three crucial areas:
 * Functional performance criteria
 * Information, documentation, and support
 
-Familiarize yourself with these [standards](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) before you start to ensure you have the tools to meet everyone’s needs.
+Familiarize yourself with these [standards](https://www.access-board.gov/ict/?dg) before you start to ensure you have the tools to meet everyone’s needs.
 
 ### 2. Know your Web Content Accessibility Guidelines (WCAG)
 
