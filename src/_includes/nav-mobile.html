@@ -1,7 +1,42 @@
-<div class="w-full p-3 text-white bg-white shadow-md md:hidden">
-  <ul class="flex items-center justify-between">
-    <li><a href="">{% svg "menu--menu", "h-5 aspect-square fill-primary" %}</a></li>
+<div class="bg-white shadow-md md:hidden">
+
+  <ul class="flex justify-between w-full h-12 px-3 place-items-center">
+    <li x-data="{showChildren:false}" @click.away="showChildren=false">
+      <a href="" @click.prevent="showChildren=!showChildren">
+        <div x-show="!showChildren">{% svg "menu--menu", "h-5 aspect-square fill-primary" %}</div>
+        <div x-show="showChildren">{% svg "menu--close", "h-5 aspect-square fill-primary" %}</div>
+      </a>
+
+      <ul class="absolute left-0 grid w-screen max-w-md grid-cols-2 pt-3 pb-6 pl-5 text-sm bg-white rounded-br-lg shadow top-12 gap-y-6 whitespace-nowrap"
+        @click.away="showChildren=false"
+        x-show="showChildren"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 -translate-y-3"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        >
+        <li class="col-span-2"><a href="">Home</a></li>
+        <li class="col-span-2"><a href="">Solutions</a></li>
+        <li class="pl-5"><a href="">Custom Development</a></li>
+        <li class="pl-5"><a href="">Co-Development</a></li>
+        <li class="pl-5"><a href="">Consulting</a></li>
+        <li class="pl-5"><a href="">Microlearning</a></li>
+        <li class="pl-5"><a href="">Performance Support</a></li>
+        <li class="pl-5"><a href="">Mobile Delivery</a></li>
+        <li class="pl-5"><a href="">Augmented Reality</a></li>  
+        <li class="col-span-2"><a href="">Insights</a></li>
+        <li class="col-span-2"><a href="">About</a></li>
+        <li class="pl-5"><a href="">What We Do</a></li>
+        <li class="pl-5"><a href="">Our Team</a></li>
+        <li class="pl-5"><a href="">View Demos</a></li>
+        <li class="pl-5"><a href="">Case Studies</a></li>
+        <li class="col-span-2"><a href="">Contact</a></li>
+        <li class="col-span-2"><a class="" href="">Book A Consultation</a></li>
+        <li class="col-span-2"><a href="">{% svg "menu--search", "h-4 aspect-square inline align-text-bottom" %} Search</a></li>
+      </ul>
+    </li>
     <li><a href="">{% svg "logo--epl-horizontal", "h-6 aspect-[358/47]" %}</a></li>
     <li><a href="">{% svg "menu--search", "h-5 aspect-square fill-primary" %}</a></li>
   </ul>
+
+
 </div>
