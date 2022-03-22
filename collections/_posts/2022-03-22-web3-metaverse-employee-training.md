@@ -1,7 +1,7 @@
 ---
-title:       "How to Recruit, Train, And Retain Employees During The Great Resignation"
+title:       "Web 3.0, the Metaverse, and Employee Training"
 permalink: /blog/web3-metaverse-employee-training/
-image: blog/2022-03-22-web3-metaverse-employee-training.jpg
+image: blog/2022-03-22-web3-metaverse-employee-training-a.jpeg
 meta:  Web 3.0 and the metaverse are coming. What do technologies like VR and augmented reality mean for your employee training program?
 author: { name: Corey Bleich }
 ---
@@ -30,7 +30,7 @@ Some examples of technologies that could transform our world and bring on the me
 * Virtual reality (VR)
 * [Augmented reality](/future-of-augmented-reality/)
 
-{% picture blog blog/2022-03-22-web3-metaverse-employee-training.webp --alt Potential technologies of the metaverse %}
+<img class="lazyload" loading="lazy" src="/assets/images/gif/2022-03-22-web3-metaverse-employee-training.webp" alt="Potential technologies of the metaverse">
 
 Activities in the metaverse could replace some real-world experiences. As the metaverse develops, people may have increasingly authentic experiences of being present in other places. The development of spatial sound, photo-real avatars, and haptic gloves or suits contribute to this effect. 
 
