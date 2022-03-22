@@ -50,7 +50,7 @@
     <li class="flex items-center"><a class="nav-link" href="#">Insights</a></li>
     
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">About{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
+      <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">About Us{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
 
       <div class="absolute left-0 w-screen max-w-full bg-white shadow-md top-16" 
         x-show="showChildren"         
