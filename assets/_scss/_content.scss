@@ -148,3 +148,11 @@
   margin-right: auto;
   max-width: 1170px;
 }
+
+/* -- /blog/web3-metaverse-employee-training/ --*/
+.layout-post .content > .cell > video {
+  display: block;
+  width: 100%;
+  max-width: $content-maxwidth;
+  margin: 1em auto;
+}
