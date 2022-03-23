@@ -28,7 +28,7 @@ The metaverse is the internet based on virtual worlds where people interact as a
 Some examples of technologies that could transform our world and bring on the metaverse include:
 * Blockchain technology, which powers trends like blockchain currencies (think Bitcoin) and NFT assets
 * Virtual reality (VR)
-* [Augmented reality](/future-of-augmented-reality/)
+* [Augmented reality](/blog/future-of-augmented-reality/)
 
 <video autoplay loop muted playsinline>
    <source src="/assets/images/gif/2022-03-22-web3-metaverse-employee-training.mp4" type="video/mp4" />
