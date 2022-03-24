@@ -2,7 +2,12 @@
 
   <ul class="flex items-stretch h-16 max-w-5xl gap-8 mx-auto">
 
-    <li class="flex items-center flex-auto"><a href="#" class="" title="Home">{% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}{% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}</a></li>
+    <li class="flex items-center flex-auto">
+      <a href="#" class="w-full" title="Home">
+        {% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}
+        {% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}
+      </a>
+    </li>
 
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
