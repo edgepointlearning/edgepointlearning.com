@@ -12,7 +12,7 @@
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
 
-      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50" 
+      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm" 
         x-show="showChildren" 
         @click.prevent="showChildren=!showChildren"  
         x-transition:enter="transition ease-out duration-300"
@@ -65,7 +65,7 @@
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">About Us{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
 
-      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50" 
+      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm" 
         x-show="showChildren" 
         @click.prevent="showChildren=!showChildren"  
         x-transition:enter="transition ease-out duration-300"
