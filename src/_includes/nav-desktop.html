@@ -2,10 +2,18 @@
 
   <ul class="flex items-stretch h-16 max-w-5xl gap-8 mx-auto">
 
-    <li class="flex items-center flex-auto"><a href="#" class="">{% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}{% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}</a></li>
+    <li class="flex items-center flex-auto"><a href="#" class="" title="Home">{% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}{% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}</a></li>
 
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
+
+      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50" 
+        x-show="showChildren" 
+        @click.prevent="showChildren=!showChildren"  
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100">
+      </div>
 
       <div class="absolute left-0 w-screen max-w-full bg-white shadow-md top-16"
         x-show="showChildren"
@@ -52,6 +60,14 @@
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="#" class="nav-link" @click.prevent="showChildren=!showChildren">About Us{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</a>
 
+      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50" 
+        x-show="showChildren" 
+        @click.prevent="showChildren=!showChildren"  
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100">
+      </div>
+
       <div class="absolute left-0 w-screen max-w-full bg-white shadow-md top-16" 
         x-show="showChildren"         
         x-transition:enter="transition ease-out duration-300"
@@ -67,7 +83,7 @@
               
                 <div class="z-10 flex w-16">
                   {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
-                  {% svg icon, "aspect-square opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
+                  {% svg icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
                 </div>
               
                 <div class="p-3 pt-8 -mt-8 text-center transition bg-white rounded-lg group-hover:bg-blue-100 ring-1 ring-offset-4 ring-offset-white ring-transparent group-hover:ring-epl-light group-hover:scale-105">
@@ -90,7 +106,7 @@
     
     <li class="flex items-center"><a class="text-white cta-button bg-primary hover:bg-black" href="#">Book A Consultation</a></li>
     
-    <li class="flex items-center -ml-2"><a class="transition hover:fill-black fill-primary" href="#">{% svg "menu--search", "h-6 aspect-square" %}</a></li>
+    <li class="flex items-center -ml-2"><a class="transition hover:fill-black fill-primary" href="#" title="Search">{% svg "menu--search", "h-6 aspect-square" %}</a></li>
 
   </ul>
 

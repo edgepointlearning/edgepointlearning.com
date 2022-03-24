@@ -11,10 +11,11 @@
 
 <body class="bg-white">
   {% svgsprite %}
-
-  {% include 'nav-mobile.html' %}
-  {% include 'nav-desktop.html' %}
-  {{ content }}
-  {% include 'footer.html' %}
+  <div>
+    {% include 'nav-mobile.html' %}
+    {% include 'nav-desktop.html' %}
+    {{ content }}
+    {% include 'footer.html' %}
+  </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<div class="bg-white shadow-md md:hidden">
+<div class="sticky top-0 bg-white shadow-md md:hidden">
   <ul class="flex justify-between w-full h-12 place-items-center">
     
     <li x-data="{showChildren:false}" @click.away="showChildren=false">
@@ -6,6 +6,11 @@
         <div x-show="!showChildren" class="flex justify-center w-12 h-12 place-items-center">{% svg "menu--menu", "h-5 aspect-square fill-primary" %}</div>
         <div x-show="showChildren"  class="flex justify-center w-12 h-12 transition place-items-center">{% svg "menu--close", "h-5 aspect-square" %}</div>
       </a>
+
+      <div class="absolute left-0 w-screen h-screen top-12 bg-black/50" 
+        x-show="showChildren" 
+        @click.prevent="showChildren=!showChildren">
+      </div>
 
       <ul @click.away="showChildren=false" x-show="showChildren"
         class="absolute left-0 grid w-screen max-w-sm grid-cols-2 px-4 py-3 text-sm font-light bg-white rounded-br-lg shadow-lg top-12 whitespace-nowrap">
