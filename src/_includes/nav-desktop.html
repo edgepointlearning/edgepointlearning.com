@@ -4,7 +4,7 @@
 
     <li class="flex items-center flex-auto">
       <a href="#" class="w-full" title="Home">
-        {% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-primary" %}
+        {% svg "logo--epl-e", "h-8 aspect-square mg:hidden fill-epl" %}
         {% svg "logo--epl-horizontal", "w-full max-w-[220px] aspect-[358/47] hidden mg:block" %}
       </a>
     </li>
@@ -35,7 +35,7 @@
             <div class="pl-1 text-gray-700">
               <p class="text-sm font-medium lg:text-base">Not sure where to start?</p>
               <div class="w-12 h-[1px] bg-gray-300 my-1.5 lg:hidden"></div>
-              <p class="max-w-sm text-xs lg:text-sm lg:mt-1.5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="" class="font-medium underline text-primary hover:text-black">Explore all of our solutions.</a></p>
+              <p class="max-w-sm text-xs lg:text-sm lg:mt-1.5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="" class="font-medium underline text-epl hover:text-black">Explore all of our solutions.</a></p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@
                   {% svg icon, "aspect-square opacity-50 transition origin-bottom group-hover:scale-125 group-hover:opacity-100 group-hover:-rotate-6" %}
                 </div>
                 <div class="pl-1.5">
-                  <p class="text-sm font-medium text-primary group-hover:text-black">{{ link.name }}</p>
+                  <p class="text-sm font-medium text-epl group-hover:text-black">{{ link.name }}</p>
                   <div class="w-12 h-[1px] bg-gray-300 my-1.5 group-hover:bg-slate-300 group-hover:scale-x-[300%] transition origin-left"></div>
                   <p class="text-xs text-gray-800">{{ link.desc }}</p>
                 </div>
@@ -92,7 +92,7 @@
                 </div>
               
                 <div class="p-3 pt-8 -mt-8 text-center transition bg-white rounded-lg group-hover:bg-blue-100 ring-1 ring-offset-4 ring-offset-white ring-transparent group-hover:ring-epl-light group-hover:scale-105">
-                  <p class="text-sm font-medium text-primary group-hover:text-black">{{ link.name }}</p>
+                  <p class="text-sm font-medium text-epl group-hover:text-black">{{ link.name }}</p>
                   <div class="mx-auto w-12 h-[1px] bg-gray-300 my-1.5 group-hover:scale-x-[300%] group-hover:bg-slate-300 transition origin-center"></div>
                   <p class="text-xs text-gray-800">{{ link.desc }}</p>
                 </div>
@@ -109,9 +109,15 @@
     
     <li class="flex items-center"><a class="nav-link" href="#">Contact</a></li>
     
-    <li class="flex items-center"><a class="text-white cta-button bg-primary hover:bg-black" href="#">Book A Consultation</a></li>
+    <li class="flex items-center"><a class="
+      transition rounded-full whitespace-nowrap 
+      text-white text-sm font-light 
+      px-4 py-2.5
+      bg-gradient-to-br from-black to-blue-600 hover:from-epl-dark
+      ring-2 ring-transparent ring-offset-2 ring-offset-white hover:ring-blue-500" href="#">
+      Book A Consultation</a></li>
     
-    <li class="flex items-center -ml-2"><a class="transition hover:fill-black fill-primary" href="#" title="Search">{% svg "menu--search", "h-6 aspect-square" %}</a></li>
+    <li class="flex items-center -ml-2"><a class="transition hover:fill-black fill-epl" href="#" title="Search">{% svg "menu--search", "h-6 aspect-square" %}</a></li>
 
   </ul>
 

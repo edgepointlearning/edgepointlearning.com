@@ -4,15 +4,6 @@
       flex align-middle 
       transition
       text-sm whitespace-nowrap 
-      text-primary fill-primary hover:text-black hover:fill-black
+      text-epl fill-epl hover:text-black hover:fill-black
       underline underline-offset-2 decoration-1 decoration-transparent hover:decoration-black
   }
-  .cta-button {
-    @apply 
-      transition
-      text-sm font-light whitespace-nowrap 
-      px-4 py-2.5 rounded-full
-      ring-2 ring-transparent ring-offset-2 ring-offset-white hover:ring-primary
-      hover:scale-105 
-  }
-/* } */

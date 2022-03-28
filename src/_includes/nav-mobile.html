@@ -3,7 +3,7 @@
     
     <li x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="" @click.prevent="showChildren=!showChildren">
-        <div x-show="!showChildren" class="flex justify-center w-12 h-12 place-items-center">{% svg "menu--menu", "h-5 aspect-square fill-primary" %}</div>
+        <div x-show="!showChildren" class="flex justify-center w-12 h-12 place-items-center">{% svg "menu--menu", "h-5 aspect-square fill-epl" %}</div>
         <div x-show="showChildren"  class="flex justify-center w-12 h-12 transition place-items-center">{% svg "menu--close", "h-5 aspect-square" %}</div>
       </a>
 
@@ -12,10 +12,18 @@
         @click.prevent="showChildren=!showChildren">
       </div>
 
+      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm" 
+        x-show="showChildren" 
+        @click.prevent="showChildren=!showChildren"  
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100">
+      </div>
+
       <ul @click.away="showChildren=false" x-show="showChildren"
-        class="absolute left-0 grid w-screen max-w-sm grid-cols-2 px-4 py-3 text-sm font-light bg-white rounded-br-lg shadow-lg top-12 whitespace-nowrap">
+        class="absolute left-0 grid w-screen max-w-[450px] grid-cols-2 px-4 py-3 text-sm font-light bg-white rounded-b shadow-lg whitespace-nowrap">
         <li class="col-span-2 py-3"><a href="">Home</a></li>
-        <li class="col-span-2 py-3"><a href="">Solutions</a></li>
+        <li class="col-span-2 py-3 border-t"><a href="">Solutions</a></li>
         <li class="py-3 pl-2"><a href="">Custom Development</a></li>
         <li class="py-3 pl-7"><a href="">Co-Development</a></li>
         <li class="py-3 pl-2"><a href="">Consulting</a></li>
@@ -23,19 +31,21 @@
         <li class="py-3 pl-2"><a href="">Performance Support</a></li>
         <li class="py-3 pl-7"><a href="">Mobile Delivery</a></li>
         <li class="py-3 pl-2"><a href="">Augmented Reality</a></li>  
-        <li class="col-span-2 py-3"><a href="">Insights</a></li>
+        <li class="col-span-2 py-3 border-y"><a href="">Insights</a></li>
         <li class="col-span-2 py-3"><a href="">About Us</a></li>
         <li class="py-3 pl-2"><a href="">What We Do</a></li>
         <li class="py-3 pl-7"><a href="">Our Team</a></li>
         <li class="py-3 pl-2"><a href="">View Demos</a></li>
         <li class="py-3 pl-7"><a href="">Case Studies</a></li>
-        <li class="col-span-2 py-3"><a href="">Contact</a></li>
-        <li class="col-span-2 py-3"><a href="">Book A Consultation</a></li>
-        <li class="col-span-2 py-3"><a href="">{% svg "menu--search", "h-4 aspect-square inline align-text-bottom mr-1" %} Search</a></li>
+        <li class="col-span-2 py-3 border-t"><a href="">Contact Us</a></li>
+        <!-- <li class="py-3 border-t pl-7"><a href="">Book A Consultation</a></li> -->
       </ul>
     </li>
 
     <li><a href="">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
-    <li class="w-12"></li>
+
+    <li class="flex justify-center w-12 h-12 place-items-center"><a href="">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a></li>
+
+    </li>
   </ul>
 </div>
