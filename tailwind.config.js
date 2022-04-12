@@ -32,3 +32,17 @@ module.exports = {
     require('@tailwindcss/typography'),
   ]
 }
+// https://www.tailwindshades.com/#color=212.57142857142856%2C79.54545454545455%2C34.509803921568626&step-up=8&step-down=11&hue-shift=0&name=tory-blue&overrides=e30%3D
+// 'tory-blue': {
+//   DEFAULT: '#12529E',
+//   '50': '#78AFF0',
+//   '100': '#66A4EE',
+//   '200': '#418EE9',
+//   '300': '#1C78E5',
+//   '400': '#1665C3',
+//   '500': '#12529E',
+//   '600': '#0C386C',
+//   '700': '#071E39',
+//   '800': '#010407',
+//   '900': '#000000'
+// },
