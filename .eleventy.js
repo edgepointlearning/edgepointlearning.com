@@ -40,7 +40,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     './node_modules/alpinejs/dist/cdn.js': './js/alpine.js',
   })
-
+  eleventyConfig.addPassthroughCopy({
+    './src/js/vi-lazyload.js': './js/vi-lazyload.js',
+  })
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
 

@@ -2,6 +2,36 @@
 title: Home
 layout: layouts/base.html
 ---
+<div class="w-5/6 max-w-5xl mx-auto mt-8">
+  <h2 class="mb-8 text-4xl font-bold">Our Learning Solutions</h2>
+  <div class="grid grid-cols-3 gap-8">
+    {% include 'card-a.html'
+      link: '/solutions/'
+      pic: 'landscape-1.jpeg'
+      title: 'Learning Experiences'
+      text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
+    %}
+
+    {% include 'card-a.html'
+      link: '/elearning-consulting-services/'
+      pic: 'landscape-2.jpeg'
+      title: 'Training Strategy'
+      text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
+    %}
+    
+    {% include 'card-a.html'
+      link: 'https://www.pinpointworkforce.com/'
+      pic: 'landscape-3.jpeg'
+      title: 'PinPoint Workforce'
+      text: 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
+    %}
+  </div>
+</div>
+
+<div class="w-5/6 max-w-5xl mx-auto mt-8">
+  <div class="vi-lazyload" data-id="475097274" data-thumb="--1" data-logo="0"></div>
+</div>
+
 <div class="w-5/6 max-w-5xl mx-auto mb-12">
   <article class="mt-20 prose-sm prose sm:prose-base lg:prose-lg">
     <h1 class="mb-0 lg:mb-6">Your Learning Tools</h1>
