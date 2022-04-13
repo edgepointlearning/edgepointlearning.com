@@ -8,4 +8,5 @@
 
 @import "tailwindcss/utilities";
 @import "custom-utilities.css";
+@import "topo.css";
 @import "vi-lazyload.css";

@@ -2,43 +2,46 @@
 title: Home
 layout: layouts/base.html
 ---
-<div class="w-full max-w-5xl px-5 mx-auto mt-8 xl:px-0">
-  <h2 class="mb-8 text-4xl font-bold">Our Learning Solutions</h2>
-  <div class="grid gap-8 lg:grid-cols-3">
-    {% include 'card-a.html'
-      link: '/solutions/'
-      pic: 'landscape-1.jpeg'
-      title: 'Learning Experiences'
-      text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
-    %}
+<div class="">
+  <div class="w-full max-w-5xl px-4 py-20 mx-auto xl:px-0">
+    <h2 class="pb-12 text-2xl font-bold sm:text-4xl">Our Learning Solutions</h2>
+    <div class="grid grid-cols-3 gap-12">
+      {% include 'card-a.html'
+        link: '/solutions/'
+        pic: 'landscape-1.jpeg'
+        title: 'Learning Experiences'
+        text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
+      %}
 
-    {% include 'card-a.html'
-      link: '/elearning-consulting-services/'
-      pic: 'landscape-2.jpeg'
-      title: 'Training Strategy'
-      text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
-    %}
-    
-    {% include 'card-a.html'
-      link: 'https://www.pinpointworkforce.com/'
-      pic: 'landscape-3.jpeg'
-      title: 'PinPoint Workforce'
-      text: 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
-    %}
+      {% include 'card-a.html'
+        link: '/elearning-consulting-services/'
+        pic: 'landscape-2.jpeg'
+        title: 'Training Strategy'
+        text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
+      %}
+      
+      {% include 'card-a.html'
+        link: 'https://www.pinpointworkforce.com/'
+        pic: 'landscape-3.jpeg'
+        title: 'PinPoint Workforce'
+        text: 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
+      %}
+    </div>
   </div>
 </div>
 
-<div class="w-5/6 max-w-5xl mx-auto mt-8">
-  <div class="vi-lazyload" data-id="475097274" data-thumb="--1" data-logo="0"></div>
+<div class="relative topography">
+  {% svg "waves--wave-4", "absolute w-full h-full fill-white -scale-y-100 -top-1" %}
+  {% svg "waves--wave-7", "absolute w-full h-full fill-white" %}
+  <div class="w-full max-w-5xl px-4 mx-auto xl:px-0">
+    <div class="vi-lazyload" data-id="475097274" data-thumb="--1" data-logo="0"></div>
+  </div>
 </div>
 
-<div class="w-5/6 max-w-5xl mx-auto mb-12">
-  <article class="mt-20 prose-sm prose sm:prose-base lg:prose-lg">
-    <h1 class="mb-0 lg:mb-6">Your Learning Tools</h1>
-    <div class="w-12 h-0.5 my-8 bg-blue-600"></div>
-    <h2 class="mt-0 font-light text-gray-500 lg:mt-0">An End-To-End Solution</h2>
+<div class="w-full max-w-5xl px-4 py-20 mx-auto xl:px-0">
+  <article class="prose-sm prose sm:prose-base lg:prose-lg">
+    <h2 class="">Your Learning Tools</h2>
+    <h3 class="font-light text-slate-600">An End-To-End Solution</h3>
     <p>Too often employee training becomes formulaic, rigid, and outdated…quickly. At EdgePoint, we build people-centered learning experiences that employees love. Whether your organization is a small- or medium-sized business, multinational corporation, or local nonprofit, good learning equals good business. We use the latest learning and delivery technologies to get engaging, contextual training to your employees in the flow of work, when and where they need it most. These are the tools we use to get the job done right.</p>
-    <!-- % picture "landscape-3.jpeg", "hero image", "card object-cover aspect-video rounded-xl", "800px", "eager", "sync" % -->
-    <!-- % picture "portrait-5.jpeg", "portrait image" "card object-cover aspect-[9/16]" % -->
   </article>
 </div>
