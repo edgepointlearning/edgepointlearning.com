@@ -46,16 +46,16 @@ layout: layouts/base.html
   </article>
 </div>
 
-<div class="flex flex-wrap justify-center w-full max-w-5xl gap-8 px-4 mx-auto mt-8 xl:px-0">
+<div class="flex flex-wrap justify-center w-full max-w-5xl gap-8 px-4 mx-auto mt-12 xl:px-0">
   {% for link in solutions %}
     {% assign blob = forloop.index | prepend:'blobs--blob-' | remove:'.svg' %}
     {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
     
     <div class="relative flex flex-col items-center justify-center w-48 h-36 group">
-      {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:scale-90 group-hover:fill-emerald-100 group-hover:rotate-12 group-hover:fill-blue-200" %}
-      {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:scale-90 group-hover:fill-emerald-100 group-hover:-rotate-12 group-hover:fill-yellow-100" %}
-      <a class="z-10" href="{{ link.href }}">{% svg icon, "aspect-square w-16 transition origin-center group-hover:scale-125" %}</a>
-      <a class="z-10 text-center" href="{{ link.href }}"><h4 class="font-semibold leading-tight">{{ link.name | replace_first: ' ', '<br>' }}</h4></a>
+      {% svg blob, "fill-blue-300 absolute top-0 w-full transition group-hover:rotate-12 group-hover:scale-105" %}
+      {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:rotate-12" %}
+      <a class="z-10" href="{{ link.href }}">{% svg icon, "aspect-square w-16 transition origin-bottom group-hover:scale-150" %}</a>
+      <a class="z-10 text-center" href="{{ link.href }}"><h4 class="font-semibold leading-tight transition group-hover:scale-110">{{ link.name | replace_first: ' ', '<br>' }}</h4></a>
       </a>
     </div>    
     
