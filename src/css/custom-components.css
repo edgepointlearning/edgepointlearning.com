@@ -1,9 +1,17 @@
 /* @layer components { */
-  .nav-link {
-    @apply 
-      flex align-middle 
-      transition
-      text-sm whitespace-nowrap 
-      text-epl fill-epl hover:text-black hover:fill-black
-      underline underline-offset-2 decoration-1 decoration-transparent hover:decoration-black
-  }
+.nav-link {
+  @apply 
+    flex align-middle 
+    transition
+    text-sm whitespace-nowrap 
+    text-epl fill-epl hover:text-black hover:fill-black
+    underline underline-offset-2 decoration-1 decoration-transparent hover:decoration-black
+}
+.wrapper {
+  @apply
+    w-full
+    max-w-5xl
+    px-4 
+    xl:px-0
+    mx-auto 
+}

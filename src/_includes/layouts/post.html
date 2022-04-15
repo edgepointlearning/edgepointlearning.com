@@ -1,0 +1,15 @@
+---
+layout: layouts/base.html
+---
+
+<div class="wrapper">
+
+  {% include 'hero-post.html' %}
+
+  <div class="my-12 prose prose-a:text-epl">
+    <h1>{{ title }}</h1>
+    <p>{{ author.name }}</p>
+    {{ content }}
+  </div>
+
+</div>
