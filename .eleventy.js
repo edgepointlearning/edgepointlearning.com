@@ -5,31 +5,26 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
-async function pictureShortcode(src, alt, cls, sizes = "100vw", load = "lazy", decode = "async") {
+async function pictureShortcode(src, alt, css="", sizes = "100vw", loading = "lazy", decoding = "async") {
 
-  let imgSrc = path.join("./src/assets/images/", src);
+  let url = path.join("./src/assets/images/", src);
 
-  let metadata = await Image(imgSrc, {
+  let stats = await Image(url, {
     widths: [600, 1024],
     formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
-    filenameFormat: function (id, src, width, format, options) {
-      const extension = path.extname(src);
-      const name = path.basename(src, extension);
-      return `${name}-${id}-${width}.${format}`;
-    },
   });
 
   let imageAttributes = {
     alt,
-    class: cls,
+    class: css,
     sizes,
-    loading: load,
-    decoding: decode
+    loading,
+    decoding,
   };
 
-  return Image.generateHTML(metadata, imageAttributes, {
+  return Image.generateHTML(stats, imageAttributes, {
     whitespaceMode: "inline",
   });
 }
@@ -42,7 +37,6 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy('src/js');
   eleventyConfig.addPassthroughCopy('src/static');
-
 
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');

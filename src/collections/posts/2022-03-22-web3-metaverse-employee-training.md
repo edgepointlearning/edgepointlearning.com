@@ -10,6 +10,14 @@ meta:       Web 3.0 and the metaverse are coming. What do technologies like VR a
 
 Evolving your eLearning to keep up with technology may feel like a natural choice for your organization. With the increased integration of Web 3.0 and metaverse components in our daily lives, you have probably already been thinking about how you can apply this to your employee training. But how and when should you make the change to best complement your current training?
 
+{% picture pic, title %}
+
+{% picture "placeholder/landscape-4.jpeg", "placeholder image", "rounded-xl" %}
+
+{% picture pic, title "rounded-full aspect-square object-cover w-48" %}
+
+{% picture pic, title, "aspect-[21/9] object-cover object-top", "100vw", "eager", "sync" %}
+
 ## What is Web 3.0? 
 Web 3.0 is the next major stage in the evolution of the internet. To understand Web 3.0, let’s first take a look at the previous stages. 
  
