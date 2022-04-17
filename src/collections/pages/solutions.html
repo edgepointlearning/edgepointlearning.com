@@ -72,7 +72,7 @@ pic: 'placeholder/landscape-7.jpeg'
 
       {% for post in collections.post reversed %}
       
-        <div class="flex flex-col max-w-lg mx-auto bg-white rounded-lg shadow-lg overflow-clip">
+        <div class="flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
           <a class="overflow-hidden" href="{{ post.url }}">
             {% picture post.data.pic, post.data.title, "aspect-[21/9] object-cover object-center transition hover:scale-105", "490px" %}
           </a>
