@@ -5,26 +5,54 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
-async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
+// async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
+
+//   let url = path.join("./src/assets/images/", src);
+
+//   let stats = await Image(url, {
+//     widths: [600, 1024],
+//     formats: ["svg", "avif", "webp", "jpeg"],
+//     urlPath: "/img/opt/",
+//     outputDir: "./_dist/img/opt/",
+//   });
+
+//   let imageAttributes = {
+//     alt,
+//     class: css,
+//     sizes,
+//     loading,
+//     decoding,
+//   };
+
+//   return Image.generateHTML(stats, imageAttributes, {
+//     whitespaceMode: "inline",
+//   });
+// }
+
+function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
 
   let url = path.join("./src/assets/images/", src);
 
-  let stats = await Image(url, {
+  let options = {
     widths: [600, 1024],
     formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
-  });
+  };
+
+  Image(url, options);
 
   let imageAttributes = {
-    alt,
     class: css,
+    alt,
     sizes,
     loading,
     decoding,
   };
+  
+  let metadata = Image.statsSync(url, options);
 
-  return Image.generateHTML(stats, imageAttributes, {
+  return Image.generateHTML(metadata, imageAttributes, {
     whitespaceMode: "inline",
   });
 }
