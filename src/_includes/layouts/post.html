@@ -4,7 +4,7 @@ layout: layouts/base.html
 
 <div class="wrapper">
 
-  {% include 'hero-post.html' %}
+  {% render 'hero-post.html', pic: pic, title: title %}
 
   <div class="my-12 prose prose-a:text-epl">
     <h1>{{ title }}</h1>

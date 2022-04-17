@@ -14,12 +14,12 @@
 <body class="bg-white">
   {% svgsprite %}
   <div>
-    {% include 'nav-mobile.html' %}
-    {% include 'nav-desktop.html' %}
+    {% render 'nav-mobile.html' %}
+    {% render 'nav-desktop.html' about: about, solutions: solutions  %}
 
     {{ content }}
 
-    {% include 'footer.html' %}
+    {% render 'footer.html' %}
   </div>
 </body>
 
