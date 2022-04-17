@@ -5,7 +5,7 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
-async function pictureShortcode(src, alt, css="", sizes = "100vw", loading = "lazy", decoding = "async") {
+async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
 
   let url = path.join("./src/assets/images/", src);
 
@@ -41,7 +41,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
 
-  eleventyConfig.addShortcode("picture", pictureShortcode);
+  eleventyConfig.addLiquidShortcode("picture", pictureShortcode);
 
   eleventyConfig.addPlugin(metagen);
   
