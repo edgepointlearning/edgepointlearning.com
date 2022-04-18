@@ -4,36 +4,32 @@
     
     <div class="flex flex-col gap-y-4">
       <a class="font-semibold hover:underline" href="/">Home</a>
-      <a class="hover:underline " href="">Insights</a>
-      <a class="hover:underline " href="">Contact Us</a>
+      <a class="hover:underline " href="/blog/">Insights</a>
+      <a class="hover:underline " href="/contact/">Contact Us</a>
       <a class="hover:underline " href="">{% svg "menu--search", "h-3 aspect-square inline mr-1 align-text-bottom" %}Search</a>
     </div>
 
     <div class="flex flex-col gap-y-4">
-      <a class="font-semibold hover:underline" href="">Solutions</a>
-      <a class="hover:underline " href="">Custom Development</a>
-      <a class="hover:underline " href="">Co-Development</a>
-      <a class="hover:underline " href="">Consulting</a>
-      <a class="hover:underline " href="">Microlearning</a>
-      <a class="hover:underline " href="">Performance Support</a>
-      <a class="hover:underline " href="">Mobile Delivery</a>
-      <a class="hover:underline " href="">Augmented Reality</a>
+      <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
+      {% for link in solutions %}
+        <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
+      {% endfor %}
     </div>
 
     <div class="flex flex-col gap-y-4">
-      <a class="font-semibold hover:underline" href="">About Us</a>
-      <a class="hover:underline " href="">What We Do</a>
-      <a class="hover:underline " href="">Our Team</a>
-      <a class="hover:underline " href="">View Demos</a>
-      <a class="hover:underline " href="">Case Studies</a>
+      <a class="font-semibold hover:underline" href="/about/">About Us</a>
+      <a class="hover:underline " href="/about/#what-we-do">What We Do</a>
+      <a class="hover:underline " href="/about/#our-team">Our Team</a>
+      <a class="hover:underline " href="/form/demo/">View Demos</a>
+      <a class="hover:underline " href="/about/#case-studies">Case Studies</a>
     </div>
 
     <div class="flex flex-col flex-auto gap-y-3">
       <p class="w-full font-semibold">Social</p>
       <div class="flex gap-x-4">
-        <a class="transition hover:scale-110" href="" title="EdgePoint Learning on LinkedIn">{% svg "social--linkedin", "h-8 aspect-square" %}</a>
-        <a class="transition hover:scale-110" href="" title="EdgePoint Learning on Facebook">{% svg "social--facebook", "h-8 aspect-square" %}</a>
-        <a class="transition hover:scale-110" href="" title="EdgePoint Learning on Twitter">{% svg "social--twitter",  "h-8 aspect-square" %}</a>
+        <a class="transition hover:scale-110" href="https://www.linkedin.com/company/edgepoint-learning" title="EdgePoint Learning on LinkedIn">{% svg "social--linkedin", "h-8 aspect-square" %}</a>
+        <a class="transition hover:scale-110" href="http://www.facebook.com/edgepointlearningllc" title="EdgePoint Learning on Facebook">{% svg "social--facebook", "h-8 aspect-square" %}</a>
+        <a class="transition hover:scale-110" href="https://twitter.com/EdgePointLearn" title="EdgePoint Learning on Twitter">{% svg "social--twitter",  "h-8 aspect-square" %}</a>
       </div>
     </div>
 

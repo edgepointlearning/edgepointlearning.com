@@ -1,7 +1,15 @@
 ---
-title: Home
-permalink: '/'
-pic: 'placeholder/pexels-sharon-mccutcheon-1149019.jpeg'
+title: "Home"
+permalink: "/"
+image: "placeholder/pexels-sharon-mccutcheon-1149019.jpeg"
+
+hero:
+  headline: "We create training<br> that employees love"
+  tagline: "Let's create something amazing"
+  cta1: "Our Work"
+  cta1-url: "/form/demo/"
+  cta2: "Let's Talk"
+  cta2-url: "/contact/"
 ---
 
 <div class="mt-16 wrapper">
@@ -74,7 +82,7 @@ pic: 'placeholder/pexels-sharon-mccutcheon-1149019.jpeg'
       
         <div class="flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
           <a class="overflow-hidden" href="{{ post.url }}">
-            {% picture post.data.pic, post.data.title, "aspect-[21/9] object-cover object-center transition hover:scale-105", "490px" %}
+            {% picture post.data.image, post.data.title, "aspect-[21/9] object-cover object-center transition hover:scale-105", "490px" %}
           </a>
           <div class="p-4">
             <h3 class="mb-2 font-medium"><a class="hover:underline" href="{{ post.url }}">{{post.data.title}}</a></h3>

@@ -3,7 +3,7 @@ tags:       post
 title:      "How To Create Construction Safety Training For Employees"
 
 permalink:  /blog/construction-safety-training/
-pic:      blog/2021-12-09-construction-safety-training.jpg
+image:      blog/2021-12-09-construction-safety-training.jpg
 author:     { name: Corey Bleich }
 meta:       Construction jobsites are one of the most dangerous places to work. Here's what you need to know to build your construction safety training program.
 ---
