@@ -1,7 +1,6 @@
 const metagen = require('eleventy-plugin-metagen');
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
@@ -31,7 +30,7 @@ const path = require("path");
 
 function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
 
-  let url = path.join("./src/assets/images/", src);
+  let url = `./src/assets/images/${src}`;
 
   let options = {
     widths: [600, 1024],
@@ -43,8 +42,8 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   Image(url, options);
 
   let imageAttributes = {
-    class: css,
     alt,
+    class: css,
     sizes,
     loading,
     decoding,
@@ -59,18 +58,17 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 
 
 module.exports = function(eleventyConfig) {
-
-  eleventyConfig.addPassthroughCopy({
-    './node_modules/alpinejs/dist/cdn.js': './js/alpine.js',
-  });
+  // passthrough static files
+  eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js': './js/alpine.js'});
   eleventyConfig.addPassthroughCopy('src/js');
-  eleventyConfig.addPassthroughCopy('src/static');
-
+  eleventyConfig.addPassthroughCopy({'src/assets/static': '/static/'});
+  // watch for tailwind changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/css/*.css');
+  // add eleventy-img shortcode
+  eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
 
-  eleventyConfig.addLiquidShortcode("picture", pictureShortcode);
-
+  // add plugins
   eleventyConfig.addPlugin(metagen);
   
   eleventyConfig.addPlugin(svgSprite, {
@@ -87,7 +85,9 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: 'src',
       output: '_dist'
-    }
-  }
+    },
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: 'njk',
+  };
 
 };

@@ -1,43 +1,46 @@
 ---
-title: "Home"
-permalink: "/"
-image: "placeholder/pexels-sharon-mccutcheon-1149019.jpeg"
+title: It's Web 3.0, the Metaverse, and Employee Training
+permalink: /
+meta: From microlearning to blended learning opportunities, EdgePoint Learning designs eLearning solutions for today's employees.
+image: placeholder/landscape-d.jpeg
 
 hero:
-  headline: "We create training<br> that employees love"
-  tagline: "Let's create something amazing"
-  cta1: "Our Work"
-  cta1-url: "/form/demo/"
-  cta2: "Let's Talk"
-  cta2-url: "/contact/"
+  headline: We create training<br> that employees love
+  tagline: Let's create something amazing
+  cta:
+  - name: Our Work
+    url: /form/demo/
+  - name: Let's Talk
+    url: /contact/
+  
+ourSolutions:
+- title: 'Learning Experiences'
+  link: '/solutions/'
+  image: '/placeholder/landscape-a.jpeg'
+  text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
+- title : 'Training Strategy'
+  link: '/elearning-consulting-services/'
+  image : '/placeholder/landscape-b.jpeg'
+  text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
+- title : 'PinPoint Workforce'
+  link: 'https://www.pinpointworkforce.com/'
+  image : '/placeholder/landscape-c.jpeg'
+  text : 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
 ---
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
 
+<!-- FEATURED SOLUTIONS -->
 <div class="mt-16 wrapper">
   <h2 class="pb-12 text-2xl font-bold sm:text-4xl">Our Learning Solutions</h2>
   <div class="grid grid-cols-3 gap-12">
-    {% render 'card-a.html'
-      link: '/solutions/'
-      pic: 'placeholder/landscape-1.jpeg'
-      title: 'Learning Experiences'
-      text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
-    %}
-
-    {% render 'card-a.html'
-      link: '/elearning-consulting-services/'
-      pic: 'placeholder/landscape-2.jpeg'
-      title: 'Training Strategy'
-      text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
-    %}
-    
-    {% render 'card-a.html'
-      link: 'https://www.pinpointworkforce.com/'
-      pic: 'placeholder/landscape-3.jpeg'
-      title: 'PinPoint Workforce'
-      text: 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
-    %}
+    {%- for item in ourSolutions -%}
+      {{ component('cardA', { item: item }) }}
+    {%- endfor -%}
   </div>
 </div>
 
+<!-- EMBEDDED VIDEO -->
 <div class="relative mt-24 topography">
   {% svg "waves--wave-4", "absolute w-full h-full fill-white -scale-y-100 -top-1" %}
   {% svg "waves--wave-7", "absolute w-full h-full fill-white" %}
@@ -46,6 +49,7 @@ hero:
   </div>
 </div>
 
+<!-- OUR SOLUTIONS AND BLOBS -->
 <div class="pt-20 wrapper">
   <article class="prose-sm prose sm:prose-base lg:prose-lg">
     <h2 class="">Your Learning Tools</h2>
@@ -55,31 +59,28 @@ hero:
 </div>
 
 <div class="flex flex-wrap justify-center gap-8 mt-16 wrapper">
-  {% for link in solutions %}
-    {% assign blob = forloop.index | prepend:'blobs--blob-' | remove:'.svg' %}
-    {% assign icon = link.icon | prepend: "handdrawn--" | remove: ".svg" %}
-    
-    <div class="relative flex flex-col items-center justify-center w-48 h-36 group">
+  {%- for link in solutions -%}
+    {% set blob = ["blobs--blob-", loop.index] | join | replace(".svg","") %}
+    {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %}    
+    <div class="relative flex flex-col items-center justify-center w-32 h-32 group sm:w-48">
       {% svg blob, "fill-blue-300 absolute top-0 w-full transition group-hover:rotate-12 group-hover:scale-105" %}
       {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:rotate-12" %}
       <a class="z-10" href="{{ link.href }}">{% svg icon, "aspect-square w-16 transition origin-bottom group-hover:scale-125 group-hover:rotate-3" %}</a>
-      <a class="z-10 text-center" href="{{ link.href }}"><h4 class="font-semibold leading-tight transition group-hover:text-epl">{{ link.name | replace_first: ' ', '<br>' }}</h4></a>
+      <a class="z-10 text-center" href="{{ link.href }}"><h4 class="text-sm font-semibold leading-tight transition group-hover:text-epl">{{ link.name }}</h4></a>
       </a>
     </div>    
-    
-  {% endfor %}
+  {%- endfor -%}
 </div>
 
+<!-- BLOG TEASERS -->
 <div class="relative mt-24 topography">
   {% svg "waves--wave-6", "absolute w-full h-full fill-white -scale-y-100 -top-1" %}
   {% svg "waves--wave-7", "absolute w-full h-full fill-white" %}
   <div class="relative py-20 wrapper">
     <h2 class="text-2xl font-bold text-white sm:text-4xl">Insights</h2>
-
     <div class="grid grid-cols-2 gap-12 mt-8 mb-16">
 
-      {% for post in collections.post reversed %}
-      
+      {%- for post in collections.post | reverse -%}
         <div class="flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
           <a class="overflow-hidden" href="{{ post.url }}">
             {% picture post.data.image, post.data.title, "aspect-[21/9] object-cover object-center transition hover:scale-105", "490px" %}
@@ -89,9 +90,8 @@ hero:
             <p class="text-sm">{{ post.data.meta }}</p>
           </div>
         </div>
+      {%- endfor -%}
 
-      {% endfor %}
     </div>
-
   </div>
 </div>

@@ -1,9 +1,8 @@
 ---
-tags:       post
 title:      "Mental Health Training for Employees and 9 Tips for Self-Care in the Workplace"
 
 permalink:  /blog/mental-health-training/
-image:      blog/2022-01-12-mental-health-training.jpg
+image:      placeholder/landscape-b.jpeg
 author:     { name: Corey Bleich }
 meta:       Providing mental health training for employees is a great way to set them up for success. Here are our best tips to help them flourish.
 ---

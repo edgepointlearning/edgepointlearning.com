@@ -1,9 +1,8 @@
 ---
-tags:       post
 title:      "How to Recruit, Train, And Retain Employees During The Great Resignation"
 
 permalink:  /blog/recruit-train-retain-employees-great-resignation/
-image:      blog/2022-02-16-recruit-train-retain-employees-great-resignation.jpg
+image:      placeholder/landscape-c.jpeg
 author:     { name: Corey Bleich }
 meta:       It’s been a challenge to recruit and retain employees during the Great Resignation. Here’s how to gain and keep their loyalty.
 ---

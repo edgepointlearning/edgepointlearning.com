@@ -1,25 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/styles.css">
   <title>{{ title }}</title>
   <script defer src="/js/alpine.js"></script>
   <script defer src="/js/vi-lazyload.js"></script>
-
 </head>
 
-<body class="bg-white">
+<body class="bg-white page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
   {% svgsprite %}
   <div>
-    {% render 'nav-mobile.html' %}
-    {% render 'nav-desktop.html' about: about, solutions: solutions  %}
+    {% include 'nav/nav-mobile.html' %}
+    {% include 'nav/nav-desktop.html' %}
 
-    {{ content }}
+    {{ content | safe }}
 
-    {% render 'footer.html' solutions: solutions %}
+    {% include 'nav/footer.html' %}
   </div>
 </body>
 
