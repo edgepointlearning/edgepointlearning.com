@@ -35,7 +35,7 @@ ourSolutions:
   <h2 class="pb-12 text-2xl font-bold sm:text-4xl">Our Learning Solutions</h2>
   <div class="grid grid-cols-3 gap-12">
     {%- for item in ourSolutions -%}
-      {{ component('cardA', { item: item }) }}
+      {{ component('card.a', { item: item }) }}
     {%- endfor -%}
   </div>
 </div>
@@ -51,10 +51,10 @@ ourSolutions:
 
 <!-- OUR SOLUTIONS AND BLOBS -->
 <div class="pt-20 wrapper">
-  <article class="prose-sm prose sm:prose-base lg:prose-lg">
-    <h2 class="">Your Learning Tools</h2>
-    <h3 class="font-light text-slate-600">An End-To-End Solution</h3>
-    <p>Too often employee training becomes formulaic, rigid, and outdated…quickly. At EdgePoint, we build people-centered learning experiences that employees love. Whether your organization is a small- or medium-sized business, multinational corporation, or local nonprofit, good learning equals good business. We use the latest learning and delivery technologies to get engaging, contextual training to your employees in the flow of work, when and where they need it most. These are the tools we use to get the job done right.</p>
+  <article>
+    <h2 class="mb-4 text-2xl font-bold sm:text-4xl">Your Learning Tools</h2>
+    <h3 class="mb-4 text-xl font-light sm:text-3xl text-epl">An End-To-End Solution</h3>
+    <p class="prose-sm prose sm:prose-base lg:prose-lg">Too often employee training becomes formulaic, rigid, and outdated…quickly. At EdgePoint, we build people-centered learning experiences that employees love. Whether your organization is a small- or medium-sized business, multinational corporation, or local nonprofit, good learning equals good business. We use the latest learning and delivery technologies to get engaging, contextual training to your employees in the flow of work, when and where they need it most. These are the tools we use to get the job done right.</p>
   </article>
 </div>
 
@@ -78,20 +78,27 @@ ourSolutions:
   {% svg "waves--wave-7", "absolute w-full h-full fill-white" %}
   <div class="relative py-20 wrapper">
     <h2 class="text-2xl font-bold text-white sm:text-4xl">Insights</h2>
-    <div class="grid grid-cols-2 gap-12 mt-8 mb-16">
+    <div class="grid grid-cols-6 gap-12 mt-8 mb-16">
 
-      {%- for post in collections.post | reverse -%}
-        <div class="flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
-          <a class="overflow-hidden" href="{{ post.url }}">
-            {% picture post.data.image, post.data.title, "aspect-[21/9] object-cover object-center transition hover:scale-105", "490px" %}
-          </a>
-          <div class="p-4">
-            <h3 class="mb-2 font-medium"><a class="hover:underline" href="{{ post.url }}">{{post.data.title}}</a></h3>
-            <p class="text-sm">{{ post.data.meta }}</p>
-          </div>
-        </div>
+      {%- for post in collections.blog | reverse -%}
+        {% if loop.index <= 2 %}
+          {% set css = "md:col-span-3" %}
+        {% else %}
+          {% set css = "md:col-span-2" %}
+        {% endif %}
+        {{ component('card.b', { post: post, css: css }) }}
       {%- endfor -%}
+    
+      <!-- TODO: Add newsletter form -->
 
     </div>
   </div>
 </div>
+
+<!-- OUR SOLUTIONS AND BLOBS -->
+<div class="pt-8 wrapper">
+  <h2 class="text-2xl font-bold sm:text-4xl">Trusted By</h2>
+
+</div>
+
+<!-- CONTACT FORM -->
