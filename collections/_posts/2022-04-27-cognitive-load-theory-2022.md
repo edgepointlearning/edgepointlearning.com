@@ -3,7 +3,7 @@ title:       "Make Learning Stick By Using Cognitive Load Theory in Your Trainin
 permalink: /blog/cognitive-load-theory-2022/
 image: blog/2022-04-27-cognitive-load-theory-2022.jpg
 meta:  Cognitive load theory helps explain why some training works and some doesn’t. Use these strategies to help participants commit learning to long-term memory.
-author: { name: Corey Bleich }
+author: { name: Megan Egbert }
 ---
 
 Every person who has led a training knows the look that we’ve grown to fear—eyes glazed over, eyebrows furrowed, and a slight tinge of puzzlement on a participant's face. They are lost. The learning material just isn’t resonating with them. Why is it that some training is so impactful and some is such a bust? [Cognitive load theory](https://www.mindtools.com/pages/article/cognitive-load-theory.htm) could help explain this disconnect and provide insight about how to design learning opportunities that don’t leave our participants bewildered. 
