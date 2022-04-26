@@ -13,12 +13,12 @@
 <body class="bg-white page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
   {% svgsprite %}
   <div>
-    {% include 'nav/nav-mobile.html' %}
-    {% include 'nav/nav-desktop.html' %}
+    {% include 'nav/nav.mobile.html' %}
+    {% include 'nav/nav.desktop.html' %}
 
     {{ content | safe }}
 
-    {% include 'nav/footer.html' %}
+    {% include 'nav/nav.footer.html' %}
   </div>
 </body>
 

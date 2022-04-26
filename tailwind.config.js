@@ -18,7 +18,7 @@ module.exports = {
       colors: {
         'epl': '#12529e',
         'epl-light': '#186dd2', //blue-600
-        'epl-dark': '#0b315e'
+        'epl-dark': '#0b315e',
       }
     }
   },
@@ -34,6 +34,7 @@ module.exports = {
   ],
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ]
 }
 // https://www.tailwindshades.com/#color=212.57142857142856%2C79.54545454545455%2C34.509803921568626&step-up=8&step-down=11&hue-shift=0&name=tory-blue&overrides=e30%3D
