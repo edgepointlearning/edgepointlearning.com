@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     screens: {
@@ -10,6 +12,9 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      fontFamily: {
+        // 'sans': ['Noto Sans', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         'epl': '#12529e',
         'epl-light': '#186dd2', //blue-600
