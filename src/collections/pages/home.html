@@ -89,11 +89,11 @@ ourSolutions:
         {{ component('card.b', { post: post, css: css }) }}
       {%- endfor -%}
     
-      <!-- TODO: Add newsletter form -->
-      <div class="flex flex-col justify-center max-w-lg p-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg md:col-span-2 col-span-full ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300">
-        <h3 class="text-3xl font-bold text-epl">Subscribe Now!</h3>
+      <!-- newsletter form -->
+      <div class="flex flex-col justify-center max-w-lg p-4 mx-auto overflow-hidden bg-white shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300 ">
+        <h3 class="text-3xl font-bold text-epl-dark">Subscribe Now!</h3>
         <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
-        {% include 'forms/newsletter.983.html' %}              
+        {% include 'forms/newsletter.983.html' %}
       </div>
 
     </div>

@@ -59,12 +59,12 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 
 module.exports = function(eleventyConfig) {
   // passthrough static files
-  eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js': './js/alpine.js'});
-  eleventyConfig.addPassthroughCopy('src/js');
-  eleventyConfig.addPassthroughCopy({'src/assets/static': '/static/'});
+  eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
+  eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
+  eleventyConfig.addPassthroughCopy({'src/assets/static' : '/static/'});
   // watch for tailwind changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
-  eleventyConfig.addWatchTarget('./src/css/*.css');
+  eleventyConfig.addWatchTarget('./src/assets/css/*.css');
   // add eleventy-img shortcode
   eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
 
