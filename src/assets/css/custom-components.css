@@ -15,3 +15,15 @@
     xl:px-0
     mx-auto 
 }
+.wave-top {
+  @apply 
+    absolute
+    w-full h-full 
+    -top-px
+}
+.wave-bot {
+  @apply 
+    absolute
+    w-full h-full 
+    -bottom-px
+}
