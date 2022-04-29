@@ -1,6 +1,7 @@
+const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const metagen = require('eleventy-plugin-metagen');
-const svgSprite = require("eleventy-plugin-svg-sprite");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const svgSprite = require("eleventy-plugin-svg-sprite");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
@@ -69,6 +70,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
 
   // add plugins
+  eleventyConfig.addPlugin(faviconsPlugin, {
+    'outputDir': './_dist',
+    'manifestData': {'name': 'EdgePoint Learning'},
+    'generateManifest': true
+  });
+  
   eleventyConfig.addPlugin(metagen);
   
   eleventyConfig.addPlugin(svgSprite, {

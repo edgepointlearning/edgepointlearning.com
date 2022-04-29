@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "clean": "rimraf _dist",
+    "clean": "rimraf _dist & clear",
     "dev:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
     "dev:eleventy": "npx eleventy --serve",
     "build:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
@@ -16,6 +16,7 @@
     "@tailwindcss/typography": "^0.5.2",
     "alpinejs": "^3.9.1",
     "autoprefixer": "^10.4.2",
+    "eleventy-plugin-gen-favicons": "^1.1.0",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "netlify-plugin-cache": "^1.0.3",
