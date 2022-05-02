@@ -1,12 +1,12 @@
-<div class="{{params.css}} col-span-full flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
-  <a class="overflow-hidden" href="{{params.post.url}}">
+<div class="{{ params.css }} col-span-full flex flex-col max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg" >
+
+  <a class="overflow-hidden" href="{{ params.post.url }}">
     {% picture params.post.data.image, params.post.data.title, "aspect-[21/9] object-cover object-center", "490px" %}
   </a>
-
+  
   <div class="p-4">
-    <h3 class="mb-2 font-medium">
-      <a class="hover:underline" href="{{post.url}}">{{params.post.data.title}}</a>
-    </h3>
-    <p class="text-sm">{{params.post.data.meta}}</p>
+    <h3 class="mb-2 font-medium"><a class="hover:underline" href="{{ post.url }}">{{params.post.data.title}}</a></h3>
+    <p class="text-sm">{{ params.post.data.meta }}</p>
   </div>
+
 </div>

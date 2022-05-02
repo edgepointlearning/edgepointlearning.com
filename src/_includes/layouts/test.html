@@ -1,15 +1,15 @@
 ---
-layout: "layouts/base.html"
+layout: 'layouts/base.html'
 ---
-
 <div class="m-8">
+  
   <div class="flex flex-wrap gap-8">
-    {% picture image, title, "w-80 object-cover aspect-[21/9] rounded-xl mb-8", "100vw", "eager", "sync" %}
+    {% picture image, title, "w-80 object-cover aspect-[21/9] rounded-xl mb-8", "100vw", "eager", "sync" %}    
     {% picture image, title, "w-80 object-cover aspect-[21/9] mb-8" %}
-    <div class="mb-8 w-80">{% picture image, title %}</div>
+    <div class="w-80 mb-8">{% picture image, title %}</div>
   </div>
-
-  <ul class="list-inside list-disc">
+  
+  <ul class="list-disc list-inside">
     <li>layout: {{ layout }}</li>
     <li>title: {{ title }}</li>
     <li>meta: {{ meta }}</li>
@@ -20,7 +20,10 @@ layout: "layouts/base.html"
       <li>cta-{{ loop.index }}: {{ cta.name }} | {{ cta.url }}</li>
     {% endfor %}
     <li>specific cta: {{ hero.cta[0].name }}</li>
-  </ul>
+  </ul>  
 
-  <article class="mt-4 border-t border-slate-400 pt-4">{{ content | safe }}</article>
+  <article class="border-t pt-4 mt-4 border-slate-400">
+    {{ content | safe }}
+  </article>
+
 </div>

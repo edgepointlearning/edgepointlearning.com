@@ -1,18 +1,17 @@
 ---
-layout: "layouts/base.html"
+layout: 'layouts/base.html'
 ---
-
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%}
+{%- from "system/component.njk" import component -%} 
 
-<div class="mb-8 aspect-video overflow-hidden">
+<div class="mb-8 overflow-hidden aspect-video">
   {% picture image, title, "relative object-cover object-center w-full h-full -z-10", "100vw", "eager", "sync" %}
 </div>
 
 <div class="wrapper">
-  <article class="prose prose-sm mx-auto font-serif sm:prose-base lg:prose-lg">
+  <article class="mx-auto font-serif prose-sm prose sm:prose-base lg:prose-lg">
     <h1 class="">{{ title | safe }}</h1>
     <p>{{ author.name | safe }}</p>
-    <section class="">{{ content | safe }}</section>
+    <section class="">{{ content | safe }}</sectionc>
   </article>
 </div>
