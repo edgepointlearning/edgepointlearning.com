@@ -1,12 +1,12 @@
-<div class="flex flex-wrap max-w-md col-span-3 mx-auto md:col-span-1">
-
-  <a class="mx-auto mb-4 overflow-hidden bg-green-100 rounded-lg aspect-video" href="{{params.item.link}}">
+<div class="col-span-3 mx-auto flex max-w-md flex-wrap md:col-span-1">
+  <a class="mx-auto mb-4 aspect-video overflow-hidden rounded-lg bg-green-100" href="{{params.item.link}}">
     {% picture params.item.image, params.item.title, "object-cover transition hover:scale-105 h-full", "400px" %}
   </a>
-    
+
   <div class="w-full">
-    <h3 class="mb-2 font-medium md:text-xl text-epl hover:text-black"><a href="{{params.item.link}}">{{params.item.title}}</a></h3>
+    <h3 class="mb-2 font-medium text-epl hover:text-black md:text-xl">
+      <a href="{{params.item.link}}">{{params.item.title}}</a>
+    </h3>
     <p class="text-sm">{{params.item.text}}</p>
   </div>
-
 </div>

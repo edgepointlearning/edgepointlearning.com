@@ -1,8 +1,8 @@
-{ 
-  "title"      : "EdgePoint Learning",
+{
+  "title": "EdgePoint Learning",
   "description": "From microlearning to blended learning opportunities, EdgePoint Learning designs eLearning solutions for today's employees.",
-  "keywords"   : "EdgePoint Learning, eLearning, eLearning development company, custom eLearning, custom eLearning solutions, employee training, corporate compliance training, microlearning",
-  "url"        : "https://www.edgepointlearning.com",
-  "color"      : "#12529e",
-  "og-image"   : "/static/seo/og-image-old.jpg"
+  "keywords": "EdgePoint Learning, eLearning, eLearning development company, custom eLearning, custom eLearning solutions, employee training, corporate compliance training, microlearning",
+  "url": "https://www.edgepointlearning.com",
+  "color": "#12529e",
+  "og-image": "/static/seo/og-image-old.jpg"
 }

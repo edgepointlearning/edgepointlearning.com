@@ -3,23 +3,24 @@ title: Oops! Not Found
 permalink: 404.html
 layout: layouts/base.html
 ---
-<div class="relative grid py-24 place-items-center">
-  {% picture "misc/shark@2x.png", "sharks circling a boat", "w-80 h-auto" %}
-  {% svg "waves--wave-2", "wave-bot -z-10 fill-white" %}
+
+<div class="relative grid place-items-center py-24">
+  {% picture "misc/shark@2x.png", "sharks circling a boat", "w-80 h-auto" %} {% svg "waves--wave-2", "wave-bot -z-10 fill-white" %}
 </div>
 
-
 <div class="bg-white">
-  <div class="relative pb-20 prose wrapper">
-    <p class="text-slate-600">404 Page Not Found</>
+  <div class="wrapper prose relative pb-20">
+    <p class="text-slate-600">404 Page Not Found</p>
     <h1>Bad news... you're lost.</h1>
     <p>If you reached this page from an external site, please let us know so we can fix it!</p>
     <ul>
-      <li>Email us: <a href="mailto:404@edgepointlearning.com">404@edgepointlearning.com</a></li>
+      <li>
+        Email us:
+        <a href="mailto:404@edgepointlearning.com">404@edgepointlearning.com</a>
+      </li>
       <li>Go <a href="/">home</a></li>
       <li><a href="/contact/">Fill out our contact form</a></li>
       <li><a href="/solutions/">Explore our Learning Solutions</a></li>
     </ul>
   </div>
-
 </div>

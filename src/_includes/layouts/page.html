@@ -1,36 +1,28 @@
 ---
-layout: 'layouts/base.html'
+layout: "layouts/base.html"
 ---
+
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%} 
+{%- from "system/component.njk" import component -%}
 
 <div class="relative overflow-hidden bg-gradient-to-r from-black/75 to-black/25">
-
-  <div class="absolute w-[110%] h-[110%] -z-20 -top-[5%] -left-[5%] bg-gradient-to-r from-epl-dark to-epl">
+  <div class="absolute -top-[5%] -left-[5%] -z-20 h-[110%] w-[110%] bg-gradient-to-r from-epl-dark to-epl">
     {% picture image, title, "object-cover w-full h-full blur-3xl", "100vw", "eager", "sync" %}
   </div>
-  
-  {% svg "waves--wave-2", "wave-bot fill-white " %}
-  
-  <div class="relative z-10 w-5/6 max-w-5xl pt-24 pb-20 mx-auto sm:pb-28 md:pb-36">
 
-    <div class="max-w-xl lg:p-12 rounded-2xl lg:bg-gradient-to-tr from-black/20 via-black/0 to-black/20 ">
+  {% svg "waves--wave-2", "wave-bot fill-white " %}
+
+  <div class="relative z-10 mx-auto w-5/6 max-w-5xl pt-24 pb-20 sm:pb-28 md:pb-36">
+    <div class="max-w-xl rounded-2xl from-black/20 via-black/0 to-black/20 lg:bg-gradient-to-tr lg:p-12">
       <h1 class="text-3xl font-semibold text-white sm:text-5xl">{{ hero.headline | safe }}</h1>
-      <h2 class="text-xl font-light text-white sm:text-3xl my-14">{{ hero.tagline | safe }}</h2>
-      
-        <div class="flex pt-2 text-xs gap-x-8 md:text-base">
-          {% if hero.cta[0] %}
-            {{ component('button.blue', { url: hero.cta[0].url, name: hero.cta[0].name }) }}
-          {% endif %}
-          {% if hero.cta[1] %}
-            {{ component('button.white', { url: hero.cta[1].url, name: hero.cta[1].name }) }}
-          {% endif %}
-        </div>
-      
+      <h2 class="my-14 text-xl font-light text-white sm:text-3xl">{{ hero.tagline | safe }}</h2>
+
+      <div class="flex gap-x-8 pt-2 text-xs md:text-base">
+        {% if hero.cta[0] %} {{ component('button.blue', { url: hero.cta[0].url, name: hero.cta[0].name }) }} {% endif %}
+        {% if hero.cta[1] %} {{ component('button.white', { url: hero.cta[1].url, name: hero.cta[1].name }) }} {% endif %}
+      </div>
     </div>
-    
   </div>
-  
 </div>
 
 {{ content | safe }}

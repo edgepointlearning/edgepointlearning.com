@@ -1,50 +1,76 @@
 <div class="sticky top-0 z-40 bg-white shadow-md md:hidden">
-  <ul class="flex justify-between w-full h-12 place-items-center">
-    
+  <ul class="flex h-12 w-full place-items-center justify-between">
     <li x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="" @click.prevent="showChildren=!showChildren">
-        <div x-show="!showChildren" class="flex justify-center w-12 h-12 place-items-center">{% svg "menu--menu", "h-5 aspect-square fill-epl" %}</div>
-        <div x-show="showChildren"  class="flex justify-center w-12 h-12 transition place-items-center">{% svg "menu--close", "h-5 aspect-square" %}</div>
+        <div x-show="!showChildren" class="flex h-12 w-12 place-items-center justify-center">
+          {% svg "menu--menu", "h-5 aspect-square fill-epl" %}
+        </div>
+        <div x-show="showChildren" class="flex h-12 w-12 place-items-center justify-center transition">
+          {% svg "menu--close", "h-5 aspect-square" %}
+        </div>
       </a>
 
-      <div class="absolute left-0 w-screen h-screen top-12 bg-black/50" 
-        x-show="showChildren" 
-        @click.prevent="showChildren=!showChildren">
-      </div>
+      <div
+        class="absolute left-0 top-12 h-screen w-screen bg-black/50"
+        x-show="showChildren"
+        @click.prevent="showChildren=!showChildren"
+      ></div>
 
-      <div class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm" 
-        x-show="showChildren" 
-        @click.prevent="showChildren=!showChildren"  
+      <div
+        class="absolute left-0 top-16 h-screen w-screen bg-black/50 backdrop-blur-sm"
+        x-show="showChildren"
+        @click.prevent="showChildren=!showChildren"
         x-transition:enter="transition ease-out duration-300"
         x-transition:enter-start="opacity-0"
-        x-transition:enter-end="opacity-100">
-      </div>
+        x-transition:enter-end="opacity-100"
+      ></div>
 
-      <ul @click.away="showChildren=false" x-show="showChildren"
-        class="absolute left-0 grid w-screen max-w-[450px] grid-cols-2 px-4 py-3 text-sm font-light bg-white rounded-b shadow-lg whitespace-nowrap">
+      <ul
+        @click.away="showChildren=false"
+        x-show="showChildren"
+        class="absolute left-0 grid w-screen max-w-[450px] grid-cols-2 whitespace-nowrap rounded-b bg-white px-4 py-3 text-sm font-light shadow-lg"
+      >
         <li class="col-span-2 py-3"><a href="/">Home</a></li>
-        <li class="col-span-2 py-3 border-t"><a href="/solutions/">Solutions</a></li>
-        <li class="py-3 pl-2"><a href="/custom-employee-training/">Custom Development</a></li>
-        <li class="py-3 pl-7"><a href="/co-development-services/">Co-Development</a></li>
-        <li class="py-3 pl-2"><a href="/elearning-consulting-services/">Consulting</a></li>
+        <li class="col-span-2 border-t py-3">
+          <a href="/solutions/">Solutions</a>
+        </li>
+        <li class="py-3 pl-2">
+          <a href="/custom-employee-training/">Custom Development</a>
+        </li>
+        <li class="py-3 pl-7">
+          <a href="/co-development-services/">Co-Development</a>
+        </li>
+        <li class="py-3 pl-2">
+          <a href="/elearning-consulting-services/">Consulting</a>
+        </li>
         <li class="py-3 pl-7"><a href="/microlearning/">Microlearning</a></li>
-        <li class="py-3 pl-2"><a href="/performance-support/">Performance Support</a></li>
+        <li class="py-3 pl-2">
+          <a href="/performance-support/">Performance Support</a>
+        </li>
         <li class="py-3 pl-7"><a href="/mobile/">Mobile Delivery</a></li>
-        <li class="py-3 pl-2"><a href="/augmented-reality/">Augmented Reality</a></li>  
-        <li class="col-span-2 py-3 border-y"><a href="/blog/">Insights</a></li>
+        <li class="py-3 pl-2">
+          <a href="/augmented-reality/">Augmented Reality</a>
+        </li>
+        <li class="col-span-2 border-y py-3"><a href="/blog/">Insights</a></li>
         <li class="col-span-2 py-3"><a href="/about/">About Us</a></li>
         <li class="py-3 pl-2"><a href="/about/#what-we-do">What We Do</a></li>
         <li class="py-3 pl-7"><a href="/about/#our-team">Our Team</a></li>
         <li class="py-3 pl-2"><a href="/form/demo/">View Demos</a></li>
-        <li class="py-3 pl-7"><a href="about/#case-studies">Case Studies</a></li>
-        <li class="col-span-2 py-3 border-t"><a href="/contact/">Contact Us</a></li>
+        <li class="py-3 pl-7">
+          <a href="about/#case-studies">Case Studies</a>
+        </li>
+        <li class="col-span-2 border-t py-3">
+          <a href="/contact/">Contact Us</a>
+        </li>
       </ul>
     </li>
 
-    <li><a href="/">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
+    <li>
+      <a href="/">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a>
+    </li>
 
-    <li class="flex justify-center w-12 h-12 place-items-center"><a href="">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a></li>
-
+    <li class="flex h-12 w-12 place-items-center justify-center">
+      <a href="">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a>
     </li>
   </ul>
 </div>

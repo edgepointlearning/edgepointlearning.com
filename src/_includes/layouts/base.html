@@ -1,26 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="robots" content="noindex, nofollow">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/styles.css">
-  <title>{{ title }} | EdgePoint Learning</title>
-  <script defer src="/js/alpine.js"></script>
-  <script defer src="/js/vi-lazyload.js"></script>
-  {% favicons './src/assets/static/seo/epl-brand-mark-icon-circle.svg' %}
-</head>
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>{{ title }} | EdgePoint Learning</title>
+    <script defer src="/js/alpine.js"></script>
+    <script defer src="/js/vi-lazyload.js"></script>
+    {% favicons './src/assets/static/seo/epl-brand-mark-icon-circle.svg' %}
+  </head>
 
-<body class="topography page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
-  {% svgsprite %}
-  <div>
-    {% include 'nav/nav.mobile.html' %}
-    {% include 'nav/nav.desktop.html' %}
-
-    {{ content | safe }}
-
-    {% include 'nav/nav.footer.html' %}
-  </div>
-</body>
-
+  <body class="topography page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
+    {% svgsprite %}
+    <div>
+      {% include 'nav/nav.mobile.html' %} 
+      {% include 'nav/nav.desktop.html' %} 
+      {{ content | safe }} 
+      {% include 'nav/nav.footer.html' %}
+    </div>
+  </body>
 </html>

@@ -1,0 +1,4 @@
+_dist
+node_modules
+*.css
+# *.njk
