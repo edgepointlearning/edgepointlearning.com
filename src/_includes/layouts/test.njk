@@ -6,7 +6,7 @@ layout: 'layouts/base.njk'
   <div class="flex flex-wrap gap-8">
     {% picture image, title, "w-80 object-cover aspect-[21/9] rounded-xl mb-8", "100vw", "eager", "sync" %}    
     {% picture image, title, "w-80 object-cover aspect-[21/9] mb-8" %}
-    <div class="w-80 mb-8">{% picture image, title %}</div>
+    <div class="mb-8 w-80">{% picture image, title %}</div>
   </div>
   
   <ul class="list-disc list-inside">
@@ -22,7 +22,7 @@ layout: 'layouts/base.njk'
     <li>specific cta: {{ hero.cta[0].name }}</li>
   </ul>  
 
-  <article class="border-t pt-4 mt-4 border-slate-400">
+  <article class="pt-4 mt-4 border-t border-slate-400">
     {{ content | safe }}
   </article>
 
