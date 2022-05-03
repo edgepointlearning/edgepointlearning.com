@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
+
+<!doctype html>
 <html lang="en">
   <head>
     <meta name="robots" content="noindex, nofollow" />
@@ -11,13 +14,16 @@
     {% favicons './src/assets/static/seo/epl-brand-mark-icon-circle.svg' %}
   </head>
 
-  <body class="topography page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
-    {% svgsprite %}
-    <div>
-      {% include 'nav/nav.mobile.html' %} 
-      {% include 'nav/nav.desktop.html' %} 
-      {{ content | safe }} 
-      {% include 'nav/nav.footer.html' %}
-    </div>
-  </body>
+<body class="topography page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
+  {% svgsprite %}
+  <div>
+    {% include 'nav/nav.mobile.njk' %}
+    {% include 'nav/nav.desktop.njk' %}
+
+    {{ content | safe }}
+
+    {% include 'nav/nav.footer.njk' %}
+  </div>
+</body>
+
 </html>

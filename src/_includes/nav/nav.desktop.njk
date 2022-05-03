@@ -42,19 +42,7 @@
           </div>
 
           {% for link in solutions %}
-            <div class="w-1/2 max-w-sm p-3 lg:w-1/3">
-              <a class="group flex rounded-md bg-white p-3 ring-1 ring-white ring-offset-4 ring-offset-white transition hover:scale-105 hover:bg-blue-100 hover:ring-epl-light" href="{{ link.href }}">
-                <div class="w-12 flex-none">
-                  {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %} 
-                  {% svg icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
-                </div>
-                <div class="pl-1.5">
-                  <p class="text-sm font-medium text-epl group-hover:text-black">{{ link.name }}</p>
-                  <div class="my-1.5 h-[1px] w-12 origin-left bg-slate-300 transition group-hover:scale-x-[300%] group-hover:bg-slate-300"></div>
-                  <p class="text-xs text-slate-800">{{ link.desc }}</p>
-                </div>
-              </a>
-            </div>
+            {{ component('megamenu.solutions', { link: link }) }}
           {% endfor %}
         </div>
       </div>
@@ -87,20 +75,7 @@
       >
         <div class="mx-auto flex max-w-5xl flex-wrap place-content-center px-2 pb-2">
           {% for link in about %}
-            <div class="w-1/4 p-3">
-              <a class="group flex flex-wrap place-content-center transition" href="{{ link.href }}">
-                <div class="z-10 flex w-16">
-                  {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %} 
-                  {% svg icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
-                </div>
-
-                <div class="-mt-8 rounded-lg bg-white p-3 pt-8 text-center ring-1 ring-transparent ring-offset-4 ring-offset-white transition group-hover:scale-105 group-hover:bg-blue-100 group-hover:ring-epl-light">
-                  <p class="text-sm font-medium text-epl group-hover:text-black">{{ link.name }}</p>
-                  <div class="mx-auto my-1.5 h-[1px] w-12 origin-center bg-slate-300 transition group-hover:scale-x-[300%] group-hover:bg-slate-300"></div>
-                  <p class="text-xs text-slate-800">{{ link.desc }}</p>
-                </div>
-              </a>
-            </div>
+            {{ component('megamenu.about', { link: link }) }}
           {% endfor %}
         </div>
       </div>
