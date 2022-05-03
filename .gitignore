@@ -3,6 +3,7 @@ _site
 .DS_Store
 .jekyll-cache
 .sass-cache
+src
 node_modules
 jekyll-algolia-record-too-big.log
 package-lock.json
