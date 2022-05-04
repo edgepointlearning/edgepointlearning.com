@@ -4,16 +4,20 @@
 <button 
   data-sharer="linkedin" 
   data-url="{{ fullURL }}"
+  class="place-items-center flex flex-col gap-1 text-xs"
 >
   {% svg "fontawesome--linkedin-brands", "h-7 aspect-square fill-[#0077B5]" %}
+  LinkedIn
 </button>
 
 <button 
   data-sharer="facebook" 
   data-hashtag="hashtag" 
   data-url="{{ fullURL }}"
+  class="place-items-center flex flex-col gap-1 text-xs"
 >
   {% svg "social--facebook", "h-8 aspect-square fill-[#2D4373]" %}
+  Facebook
 </button>
 
 <button 
@@ -21,15 +25,18 @@
   data-title="{{ params.title }} | EdgePoint Learning" 
   data-hashtags="" 
   data-url="{{ fullURL }}"
+  class="place-items-center flex flex-col gap-1 text-xs"
 >
   {% svg "fontawesome--twitter-brands",  "h-7 aspect-square fill-[#55ACEE]" %}
+  Twitter
 </button>
 
 <button
   data-clipboard-text="{{ fullURL }}"
-  class="clipboard"
+  class="clipboard place-items-center flex flex-col gap-1 text-xs"
 >
   {% svg "fontawesome--clone-regular", "h-6 aspect-square" %}
+  Copy link
 </button>
 
 <button 
@@ -38,6 +45,9 @@
   data-url="{{ fullURL }}" 
   data-subject="Check out this post from EdgePoint Learning! {{ params.page.title }}" 
   data-to="some@email.com"
+  class="place-items-center flex flex-col gap-1 text-xs"
 >
   {% svg "fontawesome--envelope-solid",  "h-6 aspect-square fill-red-500" %}
+  Send Email
+  
 </button>

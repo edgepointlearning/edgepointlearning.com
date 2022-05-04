@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/base.njk'
 ---
+<!-- https://tailwindcss.com/docs/typography-plugin -->
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
 {%- from "system/component.njk" import component -%} 
 
@@ -9,18 +10,17 @@ layout: 'layouts/base.njk'
 </div>
   
 
-<div class="xl:px-0 px-4 pb-12 bg-white">
-  <article class="blogpost">
-  <!-- https://tailwindcss.com/docs/typography-plugin -->
+<div class="xl:px-0 px-4 bg-white">
+  <article class="lg:prose-lg mx-auto prose">
 
-    <h1 class="pt-12 leading-tight">{{ title | safe }}</h1>
-    
-    <div class="not-prose font-sans text-base">
-      <p class="font-semibold text-black">{{ author.name }}</p>
-      <p>{{ content | emojiReadTime }}</p>  
-      <p class="place-items-center flex gap-4">{{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}</p>  
-    </div>
+  <div class="not-prose">
+    <h1 class="sm:text-4xl py-12 font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
+    <div class="whitespace-nowrap font-semibold text-center text-black uppercase">{{ author.name }}</div>
+    <div class="text-slate-600 whitespace-nowrap text-sm text-center">{{ content | emojiReadTime }}</div>  
+    <div class="text-slate-600 flex items-end justify-center gap-5 pt-6">{{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}</div>
+  </div>
 
-    <section class="pt-16">{{ content | safe }}</section>
+    <section class="pt-6 pb-12 font-serif">{{ content | safe }}</section>
+
   </article>
 </div>

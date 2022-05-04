@@ -81,7 +81,9 @@ module.exports = function(eleventyConfig) {
     'generateManifest': true
   });
 
-  eleventyConfig.addPlugin(emojiReadTime);
+  eleventyConfig.addPlugin(emojiReadTime, {
+    showEmoji: false,
+  });
 
   eleventyConfig.addPlugin(metagen);
 

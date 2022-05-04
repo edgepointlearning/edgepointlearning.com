@@ -1,9 +1,4 @@
-.blogpost {
-  @apply 
-    mx-auto
-    prose prose-sm sm:prose-base lg:prose-lg
-    font-serif
-}
-.blogpost section h3 a {
+.prose section h3 a {
   font-weight: 600;
 }
+
