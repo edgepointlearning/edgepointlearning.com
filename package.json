@@ -11,11 +11,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-img": "^1.1.0",
+    "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
     "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
     "alpinejs": "^3.9.1",
     "autoprefixer": "^10.4.2",
+    "clipboard": "^2.0.11",
     "eleventy-plugin-gen-favicons": "^1.1.0",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
@@ -25,6 +27,7 @@
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
     "rimraf": "^3.0.2",
+    "sharer.js": "^0.5.1",
     "tailwindcss": "^3.0.22"
   }
 }

@@ -1,0 +1,43 @@
+<!-- https://fontawesome.com/search -->
+{% set fullURL = [params.baseURL, params.page.url] | join %}
+
+<button 
+  data-sharer="linkedin" 
+  data-url="{{ fullURL }}"
+>
+  {% svg "fontawesome--linkedin-brands", "h-7 aspect-square fill-[#0077B5]" %}
+</button>
+
+<button 
+  data-sharer="facebook" 
+  data-hashtag="hashtag" 
+  data-url="{{ fullURL }}"
+>
+  {% svg "social--facebook", "h-8 aspect-square fill-[#2D4373]" %}
+</button>
+
+<button 
+  data-sharer="twitter" 
+  data-title="{{ params.title }} | EdgePoint Learning" 
+  data-hashtags="" 
+  data-url="{{ fullURL }}"
+>
+  {% svg "fontawesome--twitter-brands",  "h-7 aspect-square fill-[#55ACEE]" %}
+</button>
+
+<button
+  data-clipboard-text="{{ fullURL }}"
+  class="clipboard"
+>
+  {% svg "fontawesome--clone-regular", "h-6 aspect-square" %}
+</button>
+
+<button 
+  data-sharer="email" 
+  data-title="{{ params.title }} | EdgePoint Learning" 
+  data-url="{{ fullURL }}" 
+  data-subject="Check out this post from EdgePoint Learning! {{ params.page.title }}" 
+  data-to="some@email.com"
+>
+  {% svg "fontawesome--envelope-solid",  "h-6 aspect-square fill-red-500" %}
+</button>

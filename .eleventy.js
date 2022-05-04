@@ -1,3 +1,4 @@
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
@@ -34,7 +35,7 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   let url = `./src/assets/images/${src}`;
 
   let options = {
-    widths: [600, 1024],
+    widths: [320, 660, 1280],
     formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
@@ -61,6 +62,10 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 module.exports = function(eleventyConfig) {
   // passthrough static files
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
+  eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
+  eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
+  
+  
   eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
   eleventyConfig.addPassthroughCopy({'src/assets/static' : '/static/'});
   // watch for tailwind changes
@@ -75,9 +80,11 @@ module.exports = function(eleventyConfig) {
     'manifestData': {'name': 'EdgePoint Learning'},
     'generateManifest': true
   });
-  
+
+  eleventyConfig.addPlugin(emojiReadTime);
+
   eleventyConfig.addPlugin(metagen);
-  
+
   eleventyConfig.addPlugin(svgSprite, {
     path: "./src/assets/sprites",
   });
