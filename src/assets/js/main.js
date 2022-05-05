@@ -1,13 +1,14 @@
-// clipboard.js stuff
-new ClipboardJS('.clipboard');
-// var clip = new Clipboard('.clipboard');
-// var tooltipId = $("#clipboard").attr("data-toggle");
-// var hideTooltip = function() {
-//   $("#clipboard").foundation('hide');
-//   setTimeout($("#"+tooltipId).html("Copy link to clipboard"), 2700);
-// };
-// clip.on('success', function(e) {
-//     $("#"+tooltipId).html("Link copied to clipboard");
-//     setTimeout(hideTooltip, 2000);
-//     e.clearSelection();
-// });
+var clipboard = new ClipboardJS('.clipboard');
+
+clipboard.on('success', function (e) {
+  console.info('Action:', e.action);
+  console.info('Text:', e.text);
+  console.info('Trigger:', e.trigger);
+
+  e.clearSelection();
+});
+
+clipboard.on('error', function (e) {
+  console.error('Action:', e.action);
+  console.error('Trigger:', e.trigger);
+});

@@ -1,23 +1,24 @@
-<div class="sticky top-0 z-40 bg-white shadow-md md:hidden">
-  <ul class="flex justify-between w-full h-12 place-items-center">
+<div class="md:hidden sticky top-0 z-40 bg-white shadow-md">
+  <ul class="place-items-center flex justify-between w-full h-12">
     <li x-data="{showChildren:false}" @click.away="showChildren=false">
       <a href="" @click.prevent="showChildren=!showChildren">
-        <div x-show="!showChildren" class="flex justify-center w-12 h-12 place-items-center">
+        <div x-show="!showChildren" class="place-items-center flex justify-center w-12 h-12">
           {% svg "menu--menu", "h-5 aspect-square fill-epl" %}
         </div>
-        <div x-show="showChildren" class="flex justify-center w-12 h-12 transition place-items-center">
+        <div x-show="showChildren" class="place-items-center flex justify-center w-12 h-12 transition">
           {% svg "menu--close", "h-5 aspect-square" %}
         </div>
       </a>
 
       <div
-        class="absolute left-0 w-screen h-screen top-12 bg-black/50"
+        class="top-12 bg-black/50 absolute left-0 w-screen h-screen"
+        style="display:none"
         x-show="showChildren"
         @click.prevent="showChildren=!showChildren"
       ></div>
 
       <div
-        class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm"
+        class="top-16 bg-black/50 backdrop-blur-sm absolute left-0 w-screen h-screen"
         x-show="showChildren"
         @click.prevent="showChildren=!showChildren"
         x-transition:enter="transition ease-out duration-300"
@@ -37,26 +38,26 @@
         <li class="py-3 pl-2">
           <a href="/custom-employee-training/">Custom Development</a>
         </li>
-        <li class="py-3 pl-7">
+        <li class="pl-7 py-3">
           <a href="/co-development-services/">Co-Development</a>
         </li>
         <li class="py-3 pl-2">
           <a href="/elearning-consulting-services/">Consulting</a>
         </li>
-        <li class="py-3 pl-7"><a href="/microlearning/">Microlearning</a></li>
+        <li class="pl-7 py-3"><a href="/microlearning/">Microlearning</a></li>
         <li class="py-3 pl-2">
           <a href="/performance-support/">Performance Support</a>
         </li>
-        <li class="py-3 pl-7"><a href="/mobile/">Mobile Delivery</a></li>
+        <li class="pl-7 py-3"><a href="/mobile/">Mobile Delivery</a></li>
         <li class="py-3 pl-2">
           <a href="/augmented-reality/">Augmented Reality</a>
         </li>
-        <li class="col-span-2 py-3 border-y"><a href="/blog/">Insights</a></li>
+        <li class="border-y col-span-2 py-3"><a href="/blog/">Insights</a></li>
         <li class="col-span-2 py-3"><a href="/about/">About Us</a></li>
         <li class="py-3 pl-2"><a href="/about/#what-we-do">What We Do</a></li>
-        <li class="py-3 pl-7"><a href="/about/#our-team">Our Team</a></li>
+        <li class="pl-7 py-3"><a href="/about/#our-team">Our Team</a></li>
         <li class="py-3 pl-2"><a href="/form/demo/">View Demos</a></li>
-        <li class="py-3 pl-7">
+        <li class="pl-7 py-3">
           <a href="about/#case-studies">Case Studies</a>
         </li>
         <li class="col-span-2 py-3 border-t">
@@ -69,7 +70,7 @@
       <a href="/">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a>
     </li>
 
-    <li class="flex justify-center w-12 h-12 place-items-center">
+    <li class="place-items-center flex justify-center w-12 h-12">
       <a href="">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a>
     </li>
   </ul>

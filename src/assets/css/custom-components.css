@@ -26,3 +26,9 @@
     w-full h-full 
     -bottom-px
 }
+.sharer-button {
+  @apply
+    flex flex-col place-items-center gap-1
+    text-xs
+    opacity-75 hover:opacity-100
+}
