@@ -1,9 +1,10 @@
 ---
 title:       "Make Learning Stick By Using Cognitive Load Theory in Your Training"
 permalink: /blog/cognitive-load-theory-2022/
-image: blog/2022-04-27-cognitive-load-theory-2022.jpg
+image: blog/2022/2022-04-27-cognitive-load-theory-2022.jpg
 meta:  Cognitive load theory helps explain why some training works and some doesn’t. Use these strategies to help participants commit learning to long-term memory.
-author: { name: Megan Egbert }
+author: 
+  name: Megan Egbert
 ---
 
 Every person who has led a training knows the look that we’ve grown to fear—eyes glazed over, eyebrows furrowed, and a slight tinge of puzzlement on a participant's face. They are lost. The learning material just isn’t resonating with them. Why is it that some training is so impactful and some is such a bust? [Cognitive load theory](https://www.mindtools.com/pages/article/cognitive-load-theory.htm) could help explain this disconnect and provide insight about how to design learning opportunities that don’t leave our participants bewildered. 
@@ -34,10 +35,8 @@ Research shows that novice learners who are given worked examples of problems pe
 ### [Chunk information](https://www.verywellmind.com/chunking-how-can-this-technique-improve-your-memory-2794969) 
 If you have ever wondered why a phone number is broken up with () or - then you are familiar with chunking. Chunking refers to breaking down details by grouping into smaller pieces of information that are easier to recall.
 
-<video autoplay loop muted playsinline>
-   <source src="/static/videos/2022-04-23-chunking.mp4" type="video/mp4" />
-   Your browser does not support the video element.
-</video>
+{% set gif = "2022-04-23-chunking.mp4" %}
+{% include "gif.njk" %}
 
 Examples include:
 
@@ -55,7 +54,7 @@ In instructional design, three key components of chunking include:
 ### Don’t split attention 
 [Split attention](https://understandinggraphics.com/design/how-to-avoid-split-attention/) effect occurs when instructional materials require a learner to split their attention between multiple sources of information. This can occur in both visual and auditory materials but is most common in diagrams. Whenever possible, integrate text into a diagram rather than separating it into a table or key. For example, in the images below, the diagram that does not have the labels integrated into the pictures requires us to split our attention between the color key and the image itself. 
 
-{% picture "blog/2022-04-27-cognitive-load-theory-2022-2.jpg", "Brain map graphic", "rounded-xl" %}
+{% picture "blog/2022/2022-04-27-cognitive-load-theory-2022-2.jpg", "Brain map graphic", "rounded-xl" %}
 
 ### Present material in a variety of ways 
 We have two channels within our working memory, an auditory channel and a visual channel. Some research suggests that our working memory storage for each type of channel is separate, which means we can increase the likelihood of committing something to long-term memory by presenting it in an auditory and visual way. For example, when presenting a training with graphics (visual channel), it might be better to include narration (audio channel) than large amounts of written text (visual channel). 

@@ -9,4 +9,17 @@ hero:
   tagline: We love learning!
 ---
 
-Our blog
+<div class="pb-12 bg-white">
+  <div class="wrapper grid grid-cols-1 gap-4 bg-white divide-y">
+    {%- for post in collections.blog -%}
+      <div class="place-items-center flex gap-2 p-4">
+        {% picture post.data.image, post.data.title, "aspect-square object-cover object-center w-24 rounded", "96px" %}
+        <div>
+          <a class="text-sm leading-none underline" href="{{ post.url }}">{{post.data.title}}</a>
+          <p class="my-2 text-xs">{{ post.date | postDate }}</p>
+          <p class="text-xs">{{ post.data.meta }}</p>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

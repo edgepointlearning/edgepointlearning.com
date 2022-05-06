@@ -5,6 +5,17 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
+const { DateTime } = require("luxon");
+
+const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+
 
 // async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
 
@@ -60,6 +71,9 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 
 
 module.exports = function(eleventyConfig) {
+  // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
+  eleventyConfig.setLibrary('md', markdownLib);
+
   // passthrough static files
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
@@ -74,6 +88,11 @@ module.exports = function(eleventyConfig) {
   // add eleventy-img shortcode
   eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
 
+  // add date filter
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
+  
   // add plugins
   eleventyConfig.addPlugin(faviconsPlugin, {
     'outputDir': './_dist',

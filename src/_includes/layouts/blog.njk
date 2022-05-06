@@ -3,35 +3,35 @@ layout: 'layouts/base.njk'
 ---
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
 {%- from "system/component.njk" import component -%} 
+  <div class="max-w-[1440px] mx-auto">
+    {% set heroClass = [imageOrigin, " aspect-video max-h-[66vh] overflow-hidden object-cover w-full"] | join %}
+    {% picture image, title, heroClass, "100vw", "eager", "sync" %}
+  </div>
+  <main class="xl:px-0 px-4 pb-16 bg-white">
+    <article class="lg:prose-lg prose-slate prose-a:text-epl mx-auto prose">
+      <header class="not-prose">
+        <h1 class="sm:text-4xl py-12 font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
+        <p class="text-slate-600 font-bold text-center uppercase">{{ author.name }}</p>
+        <p class="text-slate-500 text-sm text-center">{{ content | emojiReadTime }}</p>
+      </header>
+      <section class="pt-12 pb-6 font-serif">{{ content | safe }}</section>
+      <aside class="not-prose text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
+        <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
+        <div class="bg-slate-100 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
+          {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
+        </div>
+      </aside>
+    </article>
+  </main>
 
-<div class="max-w-[1440px] mx-auto">
-  {% picture image, title, "aspect-video max-h-[66vh] overflow-hidden object-cover object-center w-full", "100vw", "eager", "sync" %}
-</div>
+<!-- NEWSLETTER FORM -->
+<div class="relative pt-4 pb-6">
+  {% svg "waves--wave-2", "wave-top -z-10 fill-white -scale-y-100" %}
 
-<main class="xl:px-0 px-4 pb-16 bg-white">
-  <article class="lg:prose-lg prose-slate prose-a:text-epl mx-auto prose">
-    <header class="not-prose">
-      <h1 class="sm:text-4xl py-12 font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
-      <p class="text-slate-600 font-bold text-center uppercase">{{ author.name }}</p>
-      <p class="text-slate-500 text-sm text-center">{{ content | emojiReadTime }}</p>
-    </header>
-    <section class="pt-12 pb-6 font-serif">{{ content | safe }}</section>  
-    <aside class="not-prose text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
-      <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
-      <div class="bg-slate-100 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
-        {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
-      </div>
-    </aside>
-  </article>  
-</main>
-
-
-<!-- newsletter form -->
-<div class="relative">
-  {% svg "waves--wave-2", "wave-top fill-white -scale-y-100 -z-10" %}
   <div class="rounded-xl max-w-prose ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300 sm:mx-auto flex flex-col justify-center p-4 mx-4 mb-16 overflow-hidden bg-white shadow-lg">
     <h3 class="text-epl sm:text-3xl text-xl font-bold">Subscribe Now For The Latest News!</h3>
     <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
     {% include 'forms/newsletter.983.html' %}
-  </div>  
+  </div>
+
 </div>
