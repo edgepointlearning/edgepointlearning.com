@@ -32,8 +32,7 @@ Some examples of technologies that could transform our world and bring on the me
 * Virtual reality (VR)
 * [Augmented reality](/blog/future-of-augmented-reality/)
 
-{% set gif = "2022-03-22-web3-metaverse-employee-training.mp4" %}
-{% include "gif.njk" %}
+{% gif "2022-03-22-web3-metaverse-employee-training.mp4" %}
 
 Activities in the metaverse could replace some real-world experiences. As the metaverse develops, people may have increasingly authentic experiences of being present in other places. The development of spatial sound, photo-real avatars, and haptic gloves or suits contribute to this effect. 
 

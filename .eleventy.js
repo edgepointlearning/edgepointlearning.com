@@ -16,6 +16,7 @@ const markdownItOptions = {
 }
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
+const gifShortcode = require('./src/_includes/shortcodes/gif');
 
 // async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
 
@@ -71,9 +72,11 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 
 
 module.exports = function(eleventyConfig) {
+
+  
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
-
+  
   // passthrough static files
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
@@ -87,8 +90,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/css/*.css');
   // add eleventy-img shortcode
   eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
+  // add my custom shortcodes
+  eleventyConfig.addShortcode("gif", gifShortcode);
 
-  // add date filter
+	// add date filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
