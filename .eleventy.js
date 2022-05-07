@@ -1,12 +1,19 @@
+// Plugin Imports
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
+
+// Shortcode Imports
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
+const gifShortcode = require('./src/_includes/shortcodes/gif');
+
+// Filters
 const { DateTime } = require("luxon");
 
+// Markdown
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItOptions = {
@@ -16,7 +23,6 @@ const markdownItOptions = {
 }
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
-const gifShortcode = require('./src/_includes/shortcodes/gif');
 
 // async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
 
@@ -85,19 +91,22 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
   eleventyConfig.addPassthroughCopy({'src/assets/static' : '/static/'});
-  // watch for tailwind changes
+  
+  // watch for changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/assets/css/*.css');
-  // add eleventy-img shortcode
+  eleventyConfig.addWatchTarget('./src/assets/sprites/');
+  
+  // Add Shortcodes
   eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
-  // add my custom shortcodes
   eleventyConfig.addShortcode("gif", gifShortcode);
 
-	// add date filter
+	// Filters
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
   
+
   // add plugins
   eleventyConfig.addPlugin(faviconsPlugin, {
     'outputDir': './_dist',
