@@ -1,10 +1,11 @@
 ---
 title:       "7 Adult Learning Styles And Best Practices To Follow"
 permalink: /blog/adult-learning-styles/
-image: blog/2021-07-14-adult-learning-styles.jpg
+image: blog/2021/2021-07-14-adult-learning-styles.jpg
 imagepos: "top center"
 meta:  Research has shown that not everyone learns the same way. Consider these most common adult learning styles as you design your employee training.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
 You already know that your company is made up of unique individuals, and you work hard to address that diversity in your training. Add another layer by incorporating the following seven adult learning styles (and best practices for each).
@@ -24,7 +25,7 @@ Within these differences, adult learning styles further complicate how adults le
 
 
 
-{% picture blog blog/2021-07-14-adult-learning-styles01.jpg --alt Information that is perfectly clear to one person visually may be confusing to another %}
+{% picture "blog/2021/2021-07-14-adult-learning-styles01.jpg", "Information that is perfectly clear to one person visually may be confusing to another" %}
 
 
 
@@ -71,7 +72,7 @@ Adult learning techniques for linguistic learners also use small-group discussio
 
 
 
-{% picture blog blog/2021-07-14-adult-learning-styles02.jpg --alt The major types of adult learning styles %}
+{% picture "blog/2021/2021-07-14-adult-learning-styles02.jpg", "The major types of adult learning styles" %}
 
 
 

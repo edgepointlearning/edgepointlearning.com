@@ -9,7 +9,7 @@ meta: You can’t expand and grow your business if you’re constantly training 
 ---
 
 Building a better company starts with a better employee retention program.
-{: .featured-text }
+{.lead}
 
 Building a better company starts with developing a better employee retention program. You can’t expand, grow, and serve your clients if you’re constantly training new staff. Here are six employee retention techniques you can put in place today that rely on efficient, effective, and engaging employee training. Done correctly, it can help you build a team that stays for the long-term. 
 

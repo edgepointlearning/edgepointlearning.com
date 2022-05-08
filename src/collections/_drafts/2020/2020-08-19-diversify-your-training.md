@@ -8,7 +8,7 @@ meta: How can you truly and immediately diversify your eLearning employee traini
 ---
 
 How you can diversify your training materials, from intent to narration to images
-{: .featured-text }
+{.lead}
 
 Right now, diversity and inclusion are on everyone's mind. However, what does diversity and inclusion look like within the context of eLearning? What do they bring to the table? And, how can you diversify your training materials?
 

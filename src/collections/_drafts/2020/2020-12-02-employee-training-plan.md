@@ -7,7 +7,7 @@ author: { name: Corey Bleich }
 ---
 
 If 2020 taught us anything, it’s that we can never predict what’s around the corner.
-{: .featured-text }
+{.lead}
 
 From millions of people working from home to depleted supply chains, 2020 challenged businesses of all sizes to move quickly and adapt. An employee training plan that built a flexible, well-trained workforce was a key way that businesses kept up with the fast pace of these changes and challenges.   
 

@@ -7,7 +7,7 @@ meta: Domestic violence training can help gatekeepers recognize warning signs of
 ---
 
 Domestic violence training can help gatekeepers recognize the warning signs of domestic violence and provide them with support
-{: .featured-text }
+{.lead}
 
 October is [Domestic Violence Awareness Month](https://www.breakthecycle.org/blog/it%E2%80%99s-national-domestic-violence-awareness-month), and 2020 has added a new urgency to this annual event. Since many areas issued shelter-in-place or quarantine orders, the [risk of domestic violence](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-and-domestic-violence-what-you-should-know) has unfortunately increased. Whether your business has transitioned to working at home or is gradually returning to work in-person, domestic violence training—offered in collaboration with a local domestic violence organization—can help gatekeepers recognize the warning signs of domestic violence in fellow employees or the people they serve, and provide them with support to get the right help fast.
 

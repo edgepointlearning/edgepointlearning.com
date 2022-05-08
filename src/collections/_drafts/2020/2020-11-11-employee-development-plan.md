@@ -7,7 +7,7 @@ author: { name: Corey Bleich }
 ---
 
 An employee development plan helps your people acquire new skills for their current job while expanding their talents for new roles in your company.
-{: .featured-text }
+{.lead}
 
 One of the biggest issues facing employers these days is employee retention. [With costs to replace employees](https://mnwi.usi.com/Resources/Resource-Library/Resource-Library-Article/ArtMID/666/ArticleID/782/Cost-of-employee-turnover#:~:text=The%20Society%20for%20Human%20Resource,in%20recruiting%20and%20training%20costs.) averaging between six and nine months’ salary and the average employee [changing jobs](https://www.bls.gov/news.release/tenure.nr0.htm) about every four years, now more than ever your company needs to figure out how to offer employees areas for growth and opportunities for advancement. An employee development plan helps your people acquire new skills for their current job while expanding their talents for new roles in your company. When done well, it can help them stay within your company, happier and longer. Here are seven steps to create your employee development plan, from roll-out to reporting. 
 
@@ -36,7 +36,7 @@ Discussions are the best way to measure employee satisfaction in their job. This
 An employee development plan shouldn't only look at growing edges within your company that are present right now. It should also consider the ways in which your company and your industry is growing. 
 
 Where is your company headed in the next five years?
-{: .featured-text }
+{.lead}
 
 Ten? Twenty? If you plan on huge growth in the next few years, how many leaders will you need to train? Are you exploring new industries or service offerings? Are there people in place now who might be ready to take your company to that next level?
 

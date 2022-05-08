@@ -6,7 +6,7 @@ image: blog/2019-10-09-ada-training-for-employers.jpg
 meta: ADA compliance isn’t just good practice – it’s the law. These are the topics your ADA training needs to cover for both employees and managers.
 ---
 ADA compliance isn't just good practice. It's the law.
-{: .featured-text }
+{.lead}
 
 When it comes to making sure your employees and the customers you serve have access to everything they need, compliance with ADA isn’t just good practice – it’s the law. Here's what you need to know about rolling out this type of training to your managers and employees.
 

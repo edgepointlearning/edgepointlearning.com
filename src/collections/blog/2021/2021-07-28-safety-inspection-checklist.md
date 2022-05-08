@@ -1,13 +1,13 @@
 ---
 title:       "How To Build A Safety Inspection Checklist: 5 Steps"
 permalink: /blog/safety-inspection-checklist/
-image: blog/2021-07-28-safety-inspection-checklist.jpg
+image: blog/2021/2021-07-28-safety-inspection-checklist.jpg
 meta:  Whether you already have a paper-based checklist or are starting from scratch, here are five steps to build a digital safety inspection checklist for your teams.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-No matter your industry, a safety inspection checklist is crucial
-{: .featured-text }
+No matter your industry, a safety inspection checklist is crucial{.lead }
 
 Safety checklists protect employees and ensure that all of your practices, standards, and procedures are OSHA compliant. Whether you already have a paper-based checklist and are looking to move to digital tools or are starting from scratch, here are five steps to build a safety inspection checklist for your teams.
 
@@ -41,8 +41,7 @@ When considering what to include on your checklists, think about the ways in whi
 ## 3. Work with SMEs to build your workplace safety inspection checklist 
 
 
-{% picture blog blog/2021-07-28-safety-inspection-checklist01.jpg --alt Subject matter experts (SMEs) and local leaders are key in building out your checklists %}
-
+{% picture "blog/2021/2021-07-28-safety-inspection-checklist01.jpg", "Subject matter experts (SMEs) and local leaders are key in building out your checklists" %}
 
 
 Once you figure out which checklists need updating or creation, SMEs help you to focus in on the most actionable and important steps for each site. SMEs can also help you develop both the safety inspection checklist and serve as expert support to develop training materials for employees who need it.
@@ -80,18 +79,20 @@ With geofencing capabilities, your workers can receive push notifications when t
 
 Mobile native tools also mean that users can access the safety inspection checklist even when internet connectivity is weak. User-friendly pages in PinPoint Workforce’s performance support library mean that employees have the tools they need to safely do their job, wherever they are.
 
-<!-- fit video player to screen height minus nav bar -->
-<div class="grid-x align-middle align-center padding-vertical-1" style="max-height: calc(100vh - 106px);">
-  <div class="cell" style="max-width: 1920px;">
-    <div style="padding:49.69% 0 0 0;position:relative;">
-      <iframe src="https://player.vimeo.com/video/219609124?title=0&byline=0&portrait=0"
-              style=" position:absolute;top:0;left:0;width:100%;height:100%;max-height: calc(100vh - 138px);"
-              frameborder="0"
-              webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
-  </div>
+
+<div class="aspect-[9/16] relative sm:max-h-[60vh] mx-auto">
+  <iframe src="https://player.vimeo.com/video/219609124?h=264a2538e7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    style="width:100%;height:100%;"
+    title="PinPoint - User"
+    >
+  </iframe>
+  <script src="https://player.vimeo.com/api/player.js"></script>
 </div>
+
+
 
 Learn more about PinPoint's [performance support capabilities](https://www.edgepointlearning.com/performance-support/)!
 

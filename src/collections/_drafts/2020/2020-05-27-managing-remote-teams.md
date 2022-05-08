@@ -7,7 +7,7 @@ meta: Managing remote teams requires a different approach than managing employee
 ---
 
 Managing remote teams requires a different approach than managing employees IRL
-{: .featured-text }
+{.lead}
 
 Whether you are entering the brave new world of remote work out of choice or necessity, one thing is certain: managing remote teams requires a different approach than managing employees in real life. For both long- and short-term scenarios, here are ten tips for managing your remote teams better, more effectively, and more proactively. 
 

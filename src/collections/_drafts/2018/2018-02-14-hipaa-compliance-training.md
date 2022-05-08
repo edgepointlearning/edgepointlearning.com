@@ -6,7 +6,7 @@ image: blog/2018-02-14-hipaa-compliance-training.jpg
 meta: The goal of HIPAA compliance training is to protect your patients, not just fulfill a regulatory requirement. This is how to roll out HIPAA training for employees that works.
 ---
 HIPAA training not only protects patients. It also empowers employees. 
-{: .featured-text }
+{.lead}
 
 HIPAA, the Health Insurance Portability and Accountability Act, is a U.S. federal law enacted in 1996. Initially created to simplify healthcare and reduce costs, HIPAA has now become synonymous with one thing: patient privacy and security. HIPAA compliance training not only protects clients. It also empowers employees. Here’s your ultimate guide to HIPAA training for employees, along with answers to frequently-asked questions about this type of training.
 

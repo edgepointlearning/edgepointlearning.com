@@ -7,7 +7,7 @@ meta: How to motivate employees to get on board with your vision for the future?
 ---
 
 Motivating employees isn't easy, but it's vital
-{: .featured-text }
+{.lead}
 
 Your employees' skills are pretty solid, but you know that a company-wide training in some new areas could really push your business into the next decade. So how to motivate employees to get on board with your vision for the future? Motivating employees isn't easy, but it's vital. As we'll see, organizations have found that it works best by building a company culture from the ground up. Here are five creative ways to motivate your employees.
 

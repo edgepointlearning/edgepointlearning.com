@@ -1,9 +1,10 @@
 ---
 title:       "Synchronous Vs. Asynchronous Learning: Pros And Cons"
 permalink: /blog/synchronous-vs-asynchronous-learning/
-image: blog/2021-05-12-synchronous-vs-asynchronous-learning.jpg
+image: blog/2021/2021-05-12-synchronous-vs-asynchronous-learning.jpg
 meta:  "Which type of training is best: asynchronous vs. synchronous? Here’s what you need to know, including pros and cons for both methods."
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
 Employee training is crucial for the continued success of both individuals and your company. You want to shift your training to eLearning, but which type of training is best: asynchronous or synchronous? Here’s what you need to know, including pros and cons for both methods (and some asynchronous learning best practices to get you started!).
@@ -13,10 +14,7 @@ Employee training is crucial for the continued success of both individuals and y
 Synchronous vs. asynchronous learning concerns largely how a “class” is assembled. Synchronous learning occurs in real time, with everyone meeting—online or in person—at a set, scheduled time. Common delivery methods include live lectures or videoconferencing.
 
 
-
-{% picture blog blog/2021-05-12-synchronous-vs-asynchronous-learning01.jpg --alt Synchronous learning: Occurs in real time, whether online or in person, Asynchronous learning: Accessed at any time, without an active instructor %}
-
-
+{% picture "blog/2021/2021-05-12-synchronous-vs-asynchronous-learning01.jpg", "Synchronous learning: Occurs in real time, whether online or in person, Asynchronous learning: Accessed at any time, without an active instructor" %}
 
 
 On the other hand, asynchronous learning is learning that can be accessed at any time, online and without the need for an instructor or facilitator. Asynchronous learning tools include video, training courses, discussion forums, and interactive scenarios.
@@ -43,8 +41,8 @@ For [upskilling](/blog/upskill-employees/) and scenario-based activities, asynch
 
 Skip asynchronous learning for tasks that require immediate feedback or in-depth discussion.
 
-{% picture blog blog/2021-05-12-synchronous-vs-asynchronous-learning02.jpg --alt Synchronous &Asynchronous Pros and Cons %}
-
+{% picture "blog/2021/2021-05-12-synchronous-vs-asynchronous-learning02.jpg", "Synchronous &Asynchronous Pros and Cons" %}
+ 
  
 ## How to develop successful asynchronous learning
 

@@ -7,7 +7,7 @@ meta: PPE training can save lives. These are the topics your training should cov
 ---
 
 PPE training can save lives. Here's how to roll it out to everyone who needs it. 
-{: .featured-text }
+{.lead}
 
 It may seem like hyperbole to say that training can save your employees’ lives, but when it comes to PPE training, it’s no exaggeration. Here is how to roll out PPE training to everyone who needs it.
 

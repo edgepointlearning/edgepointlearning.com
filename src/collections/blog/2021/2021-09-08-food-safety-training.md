@@ -1,9 +1,10 @@
 ---
 title:       "How To Create Effective Food Safety Training For Employees"
 permalink: /blog/food-safety-training/
-image: blog/2021-09-08-food-safety-training.jpg
+image: blog/2021/2021-09-08-food-safety-training.jpg
 meta:  Find the food safety training topics to cover in your program, as well as examples of free courses to work from while you’re building your program.
-author: { name: Corey Bleich }
+author:
+  name: Corey Bleich
 ---
 
 ​​September might be [Food Safety Education Month](https://www.cdc.gov/foodsafety/education-month.html), but food safety training is important all year long. Creating effective food safety training for employees is key – here’s how to get it right.
@@ -15,9 +16,7 @@ Globally, one in ten people become [sick from eating contaminated food](https://
 No matter if your employees work in food service, processing, packing, or storing, food safety training reduces the risk of contamination at all stages. Food safety training reduces the risk of illness and protects employees, consumers, and your business.
 
 
-
-{% picture blog blog/2021-09-08-food-safety-training01.jpg --alt 400,000 people die annually from eating contaminated food %}
-
+{% picture "blog/2021/2021-09-08-food-safety-training01.jpg", "400,000 people die annually from eating contaminated food" %}
 
 
 ## What food safety training topics should I cover?

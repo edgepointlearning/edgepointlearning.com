@@ -1,13 +1,14 @@
 ---
 title:    "Beyond Facebook: Social Media Training For Today's Employees"
 permalink: /blog/social-media-training-for-employees/
-author: { name: Corey Bleich }
 image: blog/2020-03-04-social-media-training-for-employees.jpg
 meta: This is how to get started with social media training for employees in 2020, from topics to cover to training frequency.
+author: 
+  name: Corey Bleich
 ---
 
 Even the most successful companies and employees have their share of social media gaffes. 
-{: .featured-text }
+{.lead}
 
 From [Jeff Bezos’s insensitive vacation tweet](https://www.inc.com/chris-matyszczyk/amazon-ceo-jeff-bezos-showed-off-his-exciting-vacation-on-twitter-what-happened-next-wasnt-pretty.html) to [Miele’s stereotyped “celebration” of women](https://revive.social/social-media-for-business-fails/), it seems like everyone could use a little corporate social media training. This is how to get started with social media training for employees in 2020. 
 

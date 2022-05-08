@@ -1,13 +1,13 @@
 ---
 title:       "15 Best Practices And Virtual Training Tips For Trainers"
 permalink: /blog/virtual-training-tips-for-trainers/
-image: blog/2021-02-24-virtual-training-tips-for-trainers.jpg
+image: blog/2021/2021-02-24-virtual-training-tips-for-trainers.jpg
 meta:  Need to better support your remote workforce? Read on for 15 virtual training tips for trainers as they transition from the classroom to the screen.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-There is a definite art to delivering engaging, effective training online
-{: .featured-text }
+There is a definite art to delivering engaging, effective training online{.lead}
 
 Classes, courses, and training opportunities have flocked to online spaces in the last few years. Many companies are discovering that these can be just as effective as IRL offerings (if not more than). But there is a definite art to delivering engaging, effective training online. Whether your company has moved towards [remote workers](/blog/best-practices-for-training-remote-employees/) or just wants [more options for training](/blog/elearning-trends-2021/), here are 15 virtual training tips for trainers to support folks as they transition from the classroom to the screen.
 
@@ -20,8 +20,7 @@ Additionally, because training is delivered through a screen (instead of with th
 Put as simply as possible, training virtually requires a different toolset than in-person instruction.
 
 
-{% picture blog blog/2021-02-24-virtual-training-tips-for-trainers01.jpg --alt Training virtually requires a different toolset than in-person instruction %}
-
+{% picture "blog/2021/2021-02-24-virtual-training-tips-for-trainers01.jpg" , "Training virtually requires a different toolset than in-person instruction" %}
 
 
 ## 10 of the best virtual training best practices
@@ -101,8 +100,7 @@ One of the virtual training tips for trainers that can be hard to follow through
 Action: Use a survey to gather anonymous feedback to make your virtual trainings even better.
 
 
-{% picture blog blog/2021-02-24-virtual-training-tips-for-trainers02.jpg --alt Gather anonymous feedback after to make your virtual training even better %}
-
+{% picture "blog/2021/2021-02-24-virtual-training-tips-for-trainers02.jpg" , "Gather anonymous feedback after to make your virtual training even better" %}
 
 
 ## 5 creative virtual training ideas to try

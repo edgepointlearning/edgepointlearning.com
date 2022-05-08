@@ -1,10 +1,11 @@
 ---
 title:       "The Future Of Digital Performance Support For Employees"
 permalink: /blog/digital-performance-support/
-image: blog/2021-09-22-digital-performance-support.jpg
+image: blog/2021/2021-09-22-digital-performance-support.jpg
 imagepos: "top center"
 meta:  Digital performance support offers everything you need to meet (and support) employees right where they are. These are the features to look for. 
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
 ​​In the new global, mobile economy, the “office” has changed. We aren’t chained to a desk anymore – increasing numbers of companies are moving fully remote, added to the many that have always been managing their work across multiple locations. Today's employees need new tools to support them as they continue to grow. Digital performance support offers everything you need to meet (and support) employees right where they are.
@@ -53,11 +54,8 @@ Think:
 
 You can also directly add relevant YouTube videos, web links, and eLearning courses for employees to access as they need them. And all in the palm of their hand.
 
-<div style="max-width: 720px; margin: 2em auto;">
-  <div class="responsive-embed widescreen shadow">
-    <div class="vi-lazyload" data-id="469090686" data-thumb="" data-logo="0"></div>
-  </div>
-</div>
+
+<div class="vi-lazyload" data-id="469090686" data-thumb="" data-logo="0"></div>
 
 
 ### Robust authoring tools

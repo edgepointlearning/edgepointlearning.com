@@ -7,7 +7,7 @@ meta: How well would your employees respond to a crisis in the workplace? If the
 ---
 
 Many workers in the U.S. are unprepared for a major workplace emergency or crisis. 
-{: .featured-text }
+{.lead}
 
 How well would your employees respond to a crisis in the workplace? If you aren’t sure how to answer that question, or the answer is “not very well,” it’s time to consider adding crisis management training for all employees. Here's what it should include. 
 

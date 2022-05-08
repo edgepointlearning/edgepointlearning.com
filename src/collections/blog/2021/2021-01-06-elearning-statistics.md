@@ -1,13 +1,13 @@
 ---
 title:       "36 eLearning Statistics: 2021 Key Insights To Shape Our Year"
 permalink: /blog/elearning-statistics/
-image: blog/2021-01-06-elearning-statistics.jpg
+image: blog/2021/2021-01-06-elearning-statistics.jpg
 meta:  As we move into 2021, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-These eLearning statistics will shape this year and our efforts in the employee training industry
-{: .featured-text }
+These eLearning statistics will shape this year and our efforts in the employee training industry{.lead}
 
 With a global pandemic leading to lockdowns and financial struggles in 2020, companies had to pivot fast. Due to the wide array of changes and challenges, companies in 2020 had to look for training that was quick to deploy, effective, and affordable. As we move into 2021, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
 
@@ -32,9 +32,7 @@ Due to this, we saw the following trends and stats:
 There is no doubt that the COVID-19 pandemic has changed the way companies across the globe do business. This has far-reaching implications for work and training that we will begin to see playing out in 2021.
 
 
-
-{% picture blog blog/2021-01-06-elearning-statistics01.jpg --alt 88% of employers encouraged remote work as the pandemic set in %}
-
+{% picture "blog/2021/2021-01-06-elearning-statistics01.jpg" , "88% of employers encouraged remote work as the pandemic set in" %}
 
 
 ## 13 eLearning statistics 2021
@@ -59,8 +57,7 @@ When it comes to these eLearning statistics, 2021 is looking revolutionary.
 
 
 
-{% picture blog blog/2021-01-06-elearning-statistics02.jpg --alt In 2020, 90% of companies used eLearning %}
-
+{% picture "blog/2021/2021-01-06-elearning-statistics02.jpg" , "In 2020, 90% of companies used eLearning" %}
 
 
 ## 12 microlearning statistics
@@ -83,8 +80,7 @@ Here are 12 microlearning statistics to keep an eye on as we move into 2021.
 12. Managers continue to look for real-time feedback for themselves and their employees, rather than a traditional annual review
 
 
-
-{% picture blog blog/2021-01-06-elearning-statistics03.jpg --alt Microlearning courses are up to 50% cheaper to develop than longer eLearning %}
+{% picture "blog/2021/2021-01-06-elearning-statistics03.jpg" , "Microlearning courses are up to 50% cheaper to develop than longer eLearning" %}
 
 
 ## Get ready for 2021

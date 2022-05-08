@@ -7,7 +7,7 @@ meta: Here’s how to develop and roll-out ladder safety training to your employ
 ---
 
 No matter your industry, ladder safety and fall prevention training is critical.
-{: .featured-text }
+{.lead}
 
 Across many different industries, ladder safety and fall prevention training is critical. Whether you have a program that needs updating or are starting from scratch, here’s how to develop and roll-out ladder safety training to your employees. Later in this post, you'll also find a free ladder safety training online course that you can immediately roll-out to employees who need it most. 
 

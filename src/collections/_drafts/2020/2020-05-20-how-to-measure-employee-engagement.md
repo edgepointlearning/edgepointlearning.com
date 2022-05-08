@@ -7,7 +7,7 @@ meta: Measuring employee engagement requires time and effort, but it is worth bo
 ---
 
 [Employee engagement](/blog/employee-engagement-research/) is arguably one of the most important factors in your company's bottom line, but it can also be one of the most challenging things to quantify. Knowing how to measure employee engagement is crucial, though, if you want to get (and stay) profitable. Here are seven steps to get you started.
-{: .featured-text }
+{.lead}
 
 ## How to measure employee engagement: Start here 
 

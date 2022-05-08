@@ -7,7 +7,7 @@ meta: Want to create a more inclusive work enviroment? Read on for five actionab
 ---
 
 Whether you train for it or not, your employees are diverse. Making sure they feel valued and included is simply the right thing to do.
-{: .featured-text }
+{.lead}
 
 Companies with [powerful and effective diversity training](/blog/types-of-diversity-training/) have employees who are happier, more productive, and who [tend to stick around](https://www.kaporcenter.org/wp-content/uploads/2017/08/TechLeavers2017.pdf). Let's take a look at LGBTQ diversity training and why it's important for your company.
 

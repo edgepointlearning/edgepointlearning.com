@@ -6,7 +6,7 @@ image: blog/2015-01-15-quick-tips-for-localization.jpg
 meta: In this global economy where companies have offices all over the world, sometimes your courses will need to be translated and localized.
 ---
 In this global economy where companies have offices all over the world, sometimes your courses will need to be translated and localized. Here are a few tips to make that process easier.
-{: .featured-text }
+{.lead}
 
 ## Think ahead
 Make sure you leave space in the design for longer translations. Keep all your source files accurate and current; that will help with translation later. Put repeated phrases or button text in a template so they only have to be changed once.

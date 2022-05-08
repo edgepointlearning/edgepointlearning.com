@@ -1,13 +1,13 @@
 ---
 title:       "Your Guide To Cognitive Load Theory And Learning"
 permalink: /blog/cognitive-load-theory-and-learning/
-image: blog/2021-04-28-cognitive-load-theory-and-learning.jpg
+image: blog/2021/2021-04-28-cognitive-load-theory-and-learning.jpg
 meta:  Cognitive load theory has a direct impact on how employees can learn and retain information. This is why it's so incredibly important to employee learning.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-Cognitive load theory explains why it’s important to give employees the information they can handle, so they can learn, retain, and make use of training
-{: .featured-text }
+Cognitive load theory explains why it’s important to give employees the information they can handle, so they can learn, retain, and make use of training{.lead}
 
 One of the biggest challenges in designing and delivering effective employee training is not the content. You are a professional, with deep wells of knowledge. It’s not even time or resources—one might be limited, but the other is flexible and can be maneuvered to meet your needs. Your biggest challenge is understanding how adults actually learn—how much can they take in, and what’s the best learning environment for the job? Cognitive load theory explains why it’s important to give employees exactly what they can handle, in a format that makes sense, so that they can learn, retain, and make use of the training you provide.
 
@@ -19,8 +19,7 @@ Cognitive load theory begins with the idea that humans can only take so much inf
 
 Cognitive load theory states that people (kids and [adults](/blog/adult-learning-theory/) alike) learn best under optimal conditions with learning tasks that suit them, their learning style, and the application of the information. The goal is to think about how much information is too much, and what conditions don’t work well for learning new information. 
 
-It's a theory to understand the learner before all else.
-{: .fancy-text }
+>It's a theory to understand the learner before all else.
 
 ## How does cognitive load theory work?
 
@@ -29,9 +28,7 @@ It’s helpful to understand some basic concepts about how the brain works. We a
 To make it into long-term memory, these snippets of knowledge have to be attached to something meaningful or important. Then they become part of our schema—the way in which we solve problems or deal with complicated tasks. Our schema helps us build not only discrete facts but also new and adaptive ways of using them.
 
 
-
-{% picture blog blog/2021-04-28-cognitive-load-theory-and-learning01.jpg --alt How the brain works %}
-
+{% picture "blog/2021/2021-04-28-cognitive-load-theory-and-learning01.jpg", "How the brain works" %}
 
 
 ### The impact of cognitive load theory on instructional design
@@ -40,8 +37,7 @@ For learning and development professionals, we should be hyperfocused on underst
 
 But, if there are too many facts delivered without focus on how to integrate them into their schema, employees become frustrated and [less engaged](/blog/employee-engagement-research/). Their performance will suffer, and their desire to complete your training will disappear.
 
-You can have the best intention for employee training, but if you don’t pay attention to balancing employee cognitive load, you haven't set them up to learn well.
-{: .fancy-text } 
+>You can have the best intention for employee training, but if you don’t pay attention to balancing employee cognitive load, you haven't set them up to learn well.
 
 You'll need to consider all of the factors surrounding how to design and present information, as well as what employees are bringing to training, in order to successfully balance cognitive load.
 
@@ -68,9 +64,7 @@ As we all know, even if the task is simple, distractions coming from outside may
 Germane cognitive load is essentially balanced in such a way as to make forming schemas (processing new information) easier. When it comes to cognitive load theory and instructional design, this is the place you want to aim for.
 
 
-{% picture blog blog/2021-04-28-cognitive-load-theory-and-learning02.jpg --alt Types of cognitive loads %}
-
-
+{% picture "blog/2021/2021-04-28-cognitive-load-theory-and-learning02.jpg", "Types of cognitive loads" %}
 
 
 ## How to manage cognitive load in eLearning

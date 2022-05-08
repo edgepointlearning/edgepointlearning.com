@@ -7,7 +7,7 @@ meta: Here’s your step-by-step checklist for better new hire onboarding, from 
 ---
 
 Your step-by-step checklist for better new hire onboarding.
-{: .featured-text }
+{.lead}
 
 These days, effective new hire onboarding is more than just showing rookie employees where they can hang their coat and get free coffee. With fierce competition for qualified people, your [employee onboarding](/blog/employee-onboarding/) process can be the difference between happy employees that stay and employees who leave before their probationary period is up. Here’s your step-by-step checklist for better new hire onboarding.
 

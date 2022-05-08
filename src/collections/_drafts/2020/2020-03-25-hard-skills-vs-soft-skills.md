@@ -1,12 +1,13 @@
 ---
 title:    "Hard Skills Vs. Soft Skills: Examples And Definitions"
 permalink: /blog/hard-skills-vs-soft-skills/
-author: { name: Corey Bleich }
 image: blog/2020-03-25-hard-skills-vs-soft-skills.jpg
 meta: Hard skills vs soft skills isn't an either/or proposition. It's a both/and package worth cultivating in employees. Here's your guide to these two skillsets.
+author: 
+  name: Corey Bleich
 ---
 Hard skills vs. soft skills isn't an either/or proposition: it's a both/and package
-{: .featured-text }
+{.lead}
 
 When considering new hires, many companies look first to see if that employee has the practical knowledge to do the job. After all, you wouldn’t hire a master gardener to fight fires in high-rise buildings, would you? However, while the hard skills are important, savvy companies know that excellent employees have another skillset that may be harder to cultivate: soft skills. What’s the difference between the two? Turns out, hard skills vs soft skills isn't an either/or proposition. It's a both/and package worth cultivating in potential and long-term employees alike. Here's your guide to these two skillsets.
 

@@ -1,9 +1,10 @@
 ---
 title:       "What Is Product Education Training? Examples And Ideas"
 permalink: /blog/product-education-training/
-image: blog/2021-08-11-product-education-training.jpg
+image: blog/2021/2021-08-11-product-education-training.jpg
 meta:  From sales support to customer production education training, here is how to roll out this type of training program (along with examples)! 
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
 If happy customers and rock-solid sales numbers are the destination, then product education training provides the map that helps you get there. Here’s the hows and whys of this essential type of training.
@@ -41,8 +42,7 @@ Product training for [sales](/blog/corporate-sales-training/) is probably the fi
 
 A firm knowledge base here means sales reps can overcome concerns and close the sale. Product training for sales is also a key marketing tool so you can design more cohesive marketing strategies across multiple platforms.
 
-In the end, the better trained your sales reps are on your products, the better chance your company has of getting – and keeping – new customers.
-{: .fancy-text }
+>In the end, the better trained your sales reps are on your products, the better chance your company has of getting – and keeping – new customers.
 
 How to train? Sales reps need to experience the product first-hand to better understand its benefits (and where customers may struggle). To train for these skills, use simulations or test-drives for product education for sales.
 
@@ -78,9 +78,7 @@ Employees, including everyone from the reception desk to the office manager and 
 Why should the administrative assistant know details about the products when chances are good they won't be part of the sales team?
 
 
-
-{% picture blog blog/2021-08-11-product-education-training01.jpg --alt Every employee is part of the sales team %}
-
+{% picture "blog/2021/2021-08-11-product-education-training01.jpg", "Every employee is part of the sales team" %}
 
 
 They are the face of your company – at the office and in the world. Everyone on your staff represents the company and should have an idea of what’s going on.

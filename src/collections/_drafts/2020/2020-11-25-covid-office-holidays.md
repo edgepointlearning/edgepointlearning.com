@@ -7,7 +7,7 @@ author: { name: Corey Bleich }
 ---
 
 Bring cheer into the holidays, safely
-{: .featured-text }
+{.lead}
 
 There’s no doubt about it: COVID-19 and normal office holidays and expectations are going to be a challenge. With many states and cities navigating different levels of opening, it’s important to follow [state and local laws and guidelines](https://www.cdc.gov/publichealthgateway/healthdirectories/healthdepartments.html) at all times. But, if you’re looking to bring some cheer into the winter holidays, here are our tips for navigating COVID-19 and office holidays, safely. 
 

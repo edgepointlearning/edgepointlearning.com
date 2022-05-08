@@ -1,9 +1,10 @@
 ---
 title:    How Does Adaptive Learning For Employees Work?
 permalink: /blog/adaptive-learning/
-author: { name: Corey Bleich }
-image: blog/2021-05-26-adaptive-learning.jpg
+image: blog/2021/2021-05-26-adaptive-learning.jpg
 meta: Adaptive learning technology uses AI or other tech to appropriately scale training materials and complexity for your employees. Here’s how.
+author: 
+  name: Corey Bleich
 ---
 
 Many of us have had this experience: we check in to a training ready to learn something new, only to slog through (or sleep through) hours of information we already know (or could’ve been in an email). Or the other side of the coin – we have no context or any idea what the training is even about, almost from the first moment the training begins. Adaptive learning is purpose-built for either of these situations.
@@ -30,8 +31,7 @@ Any learning task that considers an employee’s skills and abilities first and 
 ### Adaptive learning benefits
 
 
-{% picture blog blog/2021-05-26-adaptive-learning01.jpg --alt Adaptive learning acknowledges that one-size-fits-all doesn’t actually fit all. %}
-
+{% picture "blog/2021/2021-05-26-adaptive-learning01.jpg", "Adaptive learning acknowledges that one-size-fits-all doesn’t actually fit all." %}
 
 
 Instead, it presents a personalized approach to training that is more engaging for employees. There is no more learning what they already know or wandering around, lost in the content.
@@ -65,8 +65,7 @@ Each of these scenarios can be addressed with the proper technology – but not 
 ### Draw from adaptive learning examples
 
 
-{% picture blog blog/2021-05-26-adaptive-learning02.jpg --alt Adaptive learning can cover everything from how employees treat each other to what to do in case of an emergency on the job. %}
-
+{% picture "blog/2021/2021-05-26-adaptive-learning02.jpg", "Adaptive learning can cover everything from how employees treat each other to what to do in case of an emergency on the job." %}
 
 
 Some of the most common adaptive learning examples include:

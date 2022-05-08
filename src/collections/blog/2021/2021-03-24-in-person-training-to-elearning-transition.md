@@ -1,14 +1,14 @@
 ---
 title:       "How To Transition In-Person Training To eLearning: 9 Steps"
 permalink: /blog/in-person-training-to-elearning-transition/
-image: blog/2021-03-24-in-person-training-to-elearning-transition.jpg
+image: blog/2021/2021-03-24-in-person-training-to-elearning-transition.jpg
 imagepos: "top center"
 meta:   Is it time to convert your instructor-led materials into an eLearning program that employees can do wherever they are? Here’s how to get started.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-Make the transition easier for you and your employees
-{: .featured-text }
+Make the transition easier for you and your employees{.lead}
 
 You have an in-person training program in place, but you know it's time to convert these instructor-led materials into an eLearning training program that employees can complete wherever they are. Here’s how to transition in-person training to eLearning in nine simple steps.
 
@@ -47,9 +47,7 @@ For example, policies and procedures that don’t change can be converted to dif
 Standard [learning management systems](/blog/best-lms-for-small-business/) (LMS) may have worked in the past, but new eLearning platforms offer a richer, more data-driven experience through [xAPI](https://xapi.com/)-enabled learning record stores (LRS). Unlike the old LMS (which is still a good choice for many businesses!), LRS tracks not only what employees learn but also how they use it.
 
 
-
-{% picture blog blog/2021-03-24-in-person-training-to-elearning-transition01.jpg --alt An LRS tracks not only what employees learn, but how they use it %}
-
+{% picture "blog/2021/2021-03-24-in-person-training-to-elearning-transition01.jpg" , "An LRS tracks not only what employees learn, but how they use it" %}
 
 
 Switching to an LRS is one of the [top eLearning trends](/blog/elearning-trends-2021/) this year, but it may not work for every business. Take time to evaluate your best LMS vs. LRS options before moving to the next step.
@@ -68,8 +66,7 @@ Developing your first phase of courses might be as simple as uploading already e
 
 You don’t necessarily need to develop eLearning whole cloth, though. Although it is possible to transition to eLearning totally in-house, many companies opt to [co-develop with a partner](/co-development-services/) in employee training. Some companies choose to outsource this entirely. [EdgePoint Learning](https://www.edgepointlearning.com/), for example, has worked with a [variety of businesses](/about/#case-studies) both small and large to convert their instructor-led training to eLearning (or develop entirely new trainings).
 
-Partnering with a professional can make your roll-out seamless and frees up other resources within your company.
-{: .fancy-text }
+>Partnering with a professional can make your roll-out seamless and frees up other resources within your company.
 
 ## 8. Assess what worked, and what didn't  
 

@@ -1,9 +1,10 @@
 ---
 title:    "Why We Can't Forget Contractors And Freelancers For Our 2020 Training Initiatives"
 permalink: /blog/freelance-contractor-training/
-author: { name: Michael Hansen }
 image: blog/2020-01-29-freelance-contractor-training.jpg
 meta: Why independent contractor training is increasingly important and steps to design a thoughtful, practical, and thorough contractor training program.
+author: 
+  name: Michael Hansen
 ---
 
 In the current gig economy, it can be easy to forget about the freelancers and independent contractors who contribute so much to your company. After all, if your only contact is through an occasional Slack meeting or a weekly email, how much training do they really need to successfully navigate an office culture or system they aren’t a daily part of? Turns out, contractor training can make or break your relationship with this part of your workforce. Here’s why we can’t forget contractors and freelancers in our training initiatives. 

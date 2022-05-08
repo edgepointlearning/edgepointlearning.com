@@ -7,7 +7,7 @@ meta: With entirely new technical fields and disruptive trends flooding the mark
 ---
 
 Digital upskilling is more important than ever
-{: .featured-text }
+{.lead}
 
 In the new digital economy, it’s not enough for current and future employees to be good at the basics. Just knowing the Google suite and figuring out how to run a Zoom meeting won’t move your business into the future. With entirely new technical fields and disruptive trends flooding the market, digital upskilling is more important than ever. Here's what you need to know.
 

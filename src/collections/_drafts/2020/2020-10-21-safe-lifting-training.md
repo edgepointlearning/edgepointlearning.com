@@ -7,7 +7,7 @@ meta: Here’s how to create and roll-out safe lifting training for your employe
 ---
 
 Safe lifting training protects all of your employees
-{: .featured-text }
+{.lead}
 
 Whether you manage a warehouse full of workers or an office full of techies, safe lifting training helps protect your employees from injury. Here’s how (and why) to create a safe lifting training program for everyone. Later in this post, you’ll also find a free safe lifting training online course that you can immediately send to employees who need it most. It only covers the basics, but it's a great place to start if you need to get training out fast. 
 

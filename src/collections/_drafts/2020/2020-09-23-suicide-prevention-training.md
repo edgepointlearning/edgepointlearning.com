@@ -12,7 +12,7 @@ author: {
 ---
 
 If you have not considered suicide prevention training in the past, think about it now during National Suicide Prevention Month
-{: .featured-text }
+{.lead}
 
 September is [National Suicide Prevention Month](https://suicidepreventionlifeline.org/promote-national-suicide-prevention-month/). You might not think that suicide prevention training is something that you need in your field of work, but suicide prevention is everyone’s business. While there are many factors that are associated with suicide, prevention begins with a conversation. With that in mind, gatekeeper training programs have been at the front lines of preventing suicide for many years. In fact, gatekeepers are used in a variety of settings including healthcare, community work, education, law enforcement, and business. 
 

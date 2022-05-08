@@ -1,13 +1,13 @@
 ---
 title:       "How To Effectively Use Content Curation For Learning"
 permalink: /blog/content-curation-for-learning/
-image: blog/2021-02-10-content-curation-for-learning.jpg
+image: blog/2021/2021-02-10-content-curation-for-learning.jpg
 meta:  Here’s how to use content curation for learning to more effectively train your employees, from a variety of sources.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-Better learning experiences built for your employees
-{: .featured-text }
+Better learning experiences built for your employees{.lead}
 
 With so much information and training resources available, how do you choose what’s actually best for your employees' continued development? Content curation for learning at work tackles this problem head-on. Here’s how to use content curation for learning to more effectively train your employees, from a variety of sources. 
 
@@ -54,11 +54,7 @@ Our [PinPoint Learning tool](https://www.pinpointworkforce.com/platform) allows 
 It gives you the ability to integrate curated learning “playlists” into microlearning experiences either from PinPoint’s pre-built Performance Support library or the PinPoint Content Community from other peers who have made their courses sharable. Finally, you can also develop your own custom-made courses in the Content Toolbox.
 
 
-
-
-{% picture blog blog/2021-02-10-content-curation-for-learning01.jpg --alt PinPoint Content Community %}
-
-
+{% picture "blog/2021/2021-02-10-content-curation-for-learning01.jpg" , "PinPoint Content Community", "mx-auto" %}
 
 
 With easy YouTube integration and space for PDFs, documents, and other eLearning materials, PinPoint’s mobile app is the perfect tool for content curation for learning.

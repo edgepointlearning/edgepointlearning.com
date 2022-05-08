@@ -1,13 +1,13 @@
 ---
 title:       "How To Manage eLearning Localization For Global Employees"
 permalink: /blog/elearning-localization/
-image: blog/2021-04-07-elearning-localization.jpg
+image: blog/2021/2021-04-07-elearning-localization.jpg
 meta:  Localization is a crucial tool for building global brands, by building eLearning resources that are tailored to one particular place or culture. Here’s how.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-eLearning localization is a crucial tool for building your global brand
-{: .featured-text }
+eLearning localization is a crucial tool for building your global brand{.lead}
 
 You’ve done it! Your business has expanded and now has offices across the globe. This was no easy task, but the work is just starting. For example, have you considered what this means for training and managing employees across languages and cultures? Thankfully, eLearning localization is a crucial tool for building your new global brand. Here's what you should know.
 
@@ -15,7 +15,7 @@ You’ve done it! Your business has expanded and now has offices across the glob
 
 There is a general understanding that the world is becoming more interdependent—more global. While we are connected across the world now more than ever, though, a broad application of concepts is not always the best action when it comes to learning for your employees. Instead, when you're designing training materials, choosing between globalization vs. localization depends on what your goals are.
 
-{% picture blog blog/2021-04-07-elearning-localization01.jpg --alt Globalization, One concept and delivery method to fit many cultures, Localization, Concept and delivery tailored to one specific culture %}
+{% picture "blog/2021/2021-04-07-elearning-localization01.jpg", "Globalization, One concept and delivery method to fit many cultures, Localization, Concept and delivery tailored to one specific culture" %}
 
 Globalization takes one particular concept and adapts it so that it fits across many different cultures. Localization does exactly the opposite: resources are tailored to one particular place or culture.
 

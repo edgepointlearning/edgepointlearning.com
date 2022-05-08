@@ -7,7 +7,7 @@ meta: Virtual instructor-led training keeps your workforce informed and engaged.
 ---
 
 Keep your workforce informed and engaged with virtual instructor-led training
-{: .featured-text }
+{.lead}
 
 Even before a global pandemic drove hundreds of millions of people to remote work, [the number of people working remotely](https://www.smallbizgenius.net/by-the-numbers/remote-work-statistics/) has increased 140% in the last 15 years, and with good reason. Since this trend won't be reversing any time soon, more businesses are turning towards virtual instructor-led trainings. This type of training keeps your workforce informed, engaged, and highly skilled. These are our tips to get started with your own virtual instructor-led trainings.
 

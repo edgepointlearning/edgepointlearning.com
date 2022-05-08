@@ -7,7 +7,7 @@ meta: Whether you work with educators, librarians, or other public-facing employ
 ---
 
 When it comes to mental health training, there is no time like the present to get started.
-{: .featured-text }
+{.lead}
 
 Whether your company has one small office in a rural town or is staffed by thousands of workers across multiple continents, ensuring all of your employees have access to high quality mental health training is crucial to their success. Here's what your training should include and how to roll it out to your employees. 
 

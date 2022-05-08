@@ -7,7 +7,7 @@ author: { name: Corey Bleich }
 ---
 
 2021 promises to call many traditional ways of thinking into question
-{: .featured-text }
+{.lead}
 
 When it comes to eLearning trends, 2021 promises to call many traditional ways of thinking into question. A pandemic in a tumultuous political season means a dramatic revolution in the way we think about work and the [future of corporate learning](/blog/future-of-corporate-training-2019/). 
 

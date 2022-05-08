@@ -1,13 +1,13 @@
 ---
 title:       "How Can AR Training Help With My Employee Training?"
 permalink: /blog/ar-training-for-employees/
-image: blog/2021-03-10-ar-training-for-employees.jpg
+image: blog/2021/2021-03-10-ar-training-for-employees.jpg
 meta:  AR training is one of those far-off sci-fi ideas that’s already here, allowing you to design a more effective employee training plan right now. Here’s how.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-Augmented reality training is one of those far-off sci-fi ideas that’s actually already here to stay
-{: .featured-text }
+Augmented reality training is one of those far-off sci-fi ideas that’s actually already here to stay{.lead}
 
 We might envision a future of hovercrafts and Star Trek-era meals that materialize at our request. While it may be nice to enjoy our favorite foods instantly and whisk high above the daily rush-hour slog, these things are still maybe just out of reach. (Okay, they're totally out of reach.) But other technologies are right in front of us, and they are making everyday tasks easier. Augmented reality training, or AR training, is one of those far-off ideas that’s already here, [helping you design a more effective employee training plan](/blog/employee-training-plan/) right now.
 
@@ -18,7 +18,7 @@ Augmented reality training seems like a futuristic way to learn information, but
 We take it for granted in many ways, but AR has been around for a while. Football fans respect it as an on-screen line indicates where the first-down is. Car buyers can take a new car for a spin from the comfort of their home. Designer shoe fans can test drive new Gucci kicks without changing out of their sweatpants. Homeowners can play with furniture placement directly in their room.
 
 
-{% picture blog blog/2021-03-10-ar-training-for-employees01.jpg --alt AR furniture in living room %}
+{% picture "blog/2021/2021-03-10-ar-training-for-employees01.jpg" , "AR furniture in living room" %}
 
 
 AR training for employees uses this same technology to change how employees see the world. Put in its simplest terms, a camera feeds images into a computer, which then processes it and projects it to the user. This same processing software allows employees to interact with the image.
@@ -28,9 +28,7 @@ The employee might be fitted with AR goggles, but updated technology is more lik
 Think of a mechanic faced with fixing an unfamiliar engine component. They could point their device at the engine and be guided, step-by-step, through the entire process.
 
 
-
-{% picture blog blog/2021-03-10-ar-training-for-employees02.jpg --alt Mechanic using AR %}
-
+{% picture "blog/2021/2021-03-10-ar-training-for-employees02.jpg" , "Mechanic using AR" %}
 
 
 This approach allows employees to have immediate access to training tools exactly where and when they need them most, right in the flow of work. AR employee training is great for agile, on-the-job training in a variety of industries. The possibilities are nearly endless, as we talk about in our [future of AR training](/blog/future-of-augmented-reality/) guide.
@@ -53,9 +51,7 @@ As we noted in [an earlier PinPoint post](https://www.pinpointworkforce.com/post
 But new apps and technology are bringing this price down. Our PinPoint app utilizes AR technology for efficient training that is also accessible to businesses of all sizes (and budgets!).
 
 
-
-<img class="lazyload" src="/assets/images/gif/2021-03-10-ar-training-for-employees03.gif" alt="Pinpoint AR Demo">
-
+{% gif "2021-03-10-ar-training-for-employees03.mp4" %}
 
 
 ## How to create AR training

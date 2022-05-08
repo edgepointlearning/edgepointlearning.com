@@ -1,9 +1,10 @@
 ---
 title:    "7 Effective Talent Development Strategies For 2020"
 permalink: /blog/talent-development-strategies/
-author: { name: Corey Bleich }
 image: blog/2020-02-12-talent-development-strategies.jpg
 meta: These talent development strategies can help you identify and nurture your employees’ skills to build a better workforce.
+author:
+  name: Corey Bleich
 ---
 
 It might be hard to believe, but chances are good that some of the best talent for your business isn’t just one recruiter phone call away: it’s right under your nose. Here are seven talent development strategies that can help you identify and nurture your employees’ skills to build a better workforce. 

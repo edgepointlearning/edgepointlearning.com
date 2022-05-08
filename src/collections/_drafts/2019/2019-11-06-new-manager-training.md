@@ -7,7 +7,7 @@ meta: These are ten topics to include in your new manager training (and why this
 ---
 
 This isn’t your grandparent’s new manager training.
-{: .featured-text }
+{.lead}
 
 Today’s managers don’t look like the bosses from the turn of the 21st century. And today’s manager training? That should look different, too. Here are ten topics to include in your new manager training (and why this type of training is still vitally important in 2020 and beyond).
 

@@ -7,7 +7,7 @@ meta: Want to lessen your company's environmental impact? Here are 12 examples o
 ---
 
 As Kermit once said: “It ain’t easy being green.” 
-{: .featured-text }
+{.lead}
 
 Your company might be considering corporate sustainability initiatives but wondering just how hard it is to implement meaningful change in your organization. It can be helpful to have examples of corporate sustainability initiatives to look to for inspiration. 
 

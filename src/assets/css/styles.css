@@ -1,7 +1,7 @@
 /* https://tailwindcss.com/docs/using-with-preprocessors */
 /* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
 @import "tailwindcss/base";
-@import "custom-base-styles.css";
+/* @import "custom-base-styles.css"; */
 
 @import "tailwindcss/components";
 @import "custom-components.css";

@@ -1,13 +1,13 @@
 ---
 title:       "How To Achieve Accessibility In eLearning: 4 Principles"
 permalink: /blog/accessibility-in-elearning/
-image: blog/2021-05-20-accessibility-in-elearning.jpg
+image: blog/2021/2021-05-20-accessibility-in-elearning.jpg
 meta:  For Global Accessibility Awareness Day, we’re sharing four of the major design principles that can help you make your eLearning accessible to all.
-author: { name: Corey Bleich }
+author: 
+  name: Corey Bleich
 ---
 
-Building in accessibility in your eLearning programs is no longer an option
-{: .featured-text }
+Building in accessibility in your eLearning programs is no longer an option{ .lead }
 
 An estimated one billion people across the globe are living with disabilities or impairments that make traditional eLearning impossible to access. But how do you achieve accessibility in eLearning? For Global Accessibility Awareness Day, we’re sharing four of the major design principles that can help you make your eLearning accessible to all. 
 
@@ -20,8 +20,7 @@ Thursday May 20, 2021 marks the tenth anniversary of [Global Accessibility Aware
 This access is desperately needed. [WebAIM](https://www.webaxe.org/category/stats), an association that monitors digital access, found that over 98% of home pages had at least one Website Content Accessibility Guidelines (WCAG) 2.0 failure. The average number of failures on home pages? Nearly 61. 
 
 
-{% picture blog blog/2021-05-20-accessibility-in-elearning01.jpg --alt 98% of website home pages have accessibility failures / Average number of failures: 61 %}
-
+{% picture "blog/2021/2021-05-20-accessibility-in-elearning01.jpg", "98% of website home pages have accessibility failures / Average number of failures: 61" %}
 
 
 This means that people living with a disability or impairment run into roadblocks wherever they turn on the internet. If a home page is inaccessible, chances are good that the training materials you’re offering are also similarly challenging. 
@@ -46,8 +45,7 @@ When you are designing accessible eLearning courses, there are some general grou
 At its most basic level, each course must be perceivable, operable, understandable, and robust for all. Here’s how to get started. 
 
 
-{% picture blog blog/2021-05-20-accessibility-in-elearning02.jpg --alt eLearning is accessible when it’s perceivable, operable, understandable, and robust for all %}
-
+{% picture "blog/2021/2021-05-20-accessibility-in-elearning02.jpg", "eLearning is accessible when it’s perceivable, operable, understandable, and robust for all" %}
 
 
 ### Perceivable
@@ -101,13 +99,9 @@ We’ve made it easy to share these accessibility principles with anyone on your
 Our free, fully-compliant five minute course covers the basic principles your team can use to create training that includes everyone in your organization. 
 
 
-
-<p style="text-align: center" class="marginBot">
-  <a href="https://edg.pt/demo-508-SL" target="_blank">
-    {% picture blog blog/2021-05-20-accessibility-in-elearning03.jpg style="max-width:480px" --alt Free Accessibility In eLearning Course %}
-  </a>
-</p>
-
+<a href="https://edg.pt/demo-508-SL" target="_blank" class="max-w-md mx-auto">
+  {% picture "blog/2021/2021-05-20-accessibility-in-elearning03.jpg", "Free Accessibility In eLearning Course" %}
+</a>
 
 
 ## We build accessible employee training

@@ -9,7 +9,7 @@ meta: Workers are at increased risk for heat-related illnesses—and even death�
 
 
 Workers are at increased risk for heat-related illnesses when the mercury rises in summertime.
-{: .featured-text }
+{.lead}
 
 Filled with long days and ample sunshine, summertime vacations at the beach and family picnics can be some of the best times of the year. On the other hand, workers in many industries are at increased risk for heat-related illnesses—and even death—when the mercury rises. Heat safety training can help. Here's how to design training to protect your employees.  
 
