@@ -53,7 +53,7 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   let url = `./src/assets/images/${src}`;
 
   let options = {
-    widths: [320, 660, 1280],
+    widths: [660, 1280],
     formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
@@ -76,10 +76,8 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   });
 }
 
-
 module.exports = function(eleventyConfig) {
-
-  
+ 
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
   
