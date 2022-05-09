@@ -12,6 +12,7 @@ const gifShortcode = require('./src/_includes/shortcodes/gif');
 
 // Filters
 const { DateTime } = require("luxon");
+const markdownFilter = require('./src/_includes/filters/markdown-filter.js');
 
 // Markdown
 const markdownIt = require('markdown-it');
@@ -100,6 +101,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("gif", gifShortcode);
 
 	// Filters
+  eleventyConfig.addFilter('markdownFilter', markdownFilter);
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });

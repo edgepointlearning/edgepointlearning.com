@@ -6,3 +6,8 @@
   font-weight: 600;
 }
 
+.guestauthor a {
+  @apply
+    underline
+    text-black
+}

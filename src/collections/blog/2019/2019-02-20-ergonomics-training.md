@@ -3,7 +3,7 @@ title:    "Your Guide To Effective Ergonomics Training Courses For Your Employee
 permalink: /blog/ergonomics-training/
 image: blog/2019/2019-02-20-ergonomics-training.jpg
 meta: "Ergonomics goes far beyond watching your posture. This is how to create the best ergonomics training courses for your employees (and why it matters!)."
-
+# guestauthor
 author:
   name:  "Clint Everton"
   title:  "Executive Director, Teen Lifeline"

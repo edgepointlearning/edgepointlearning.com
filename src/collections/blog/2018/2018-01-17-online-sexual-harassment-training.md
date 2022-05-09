@@ -3,11 +3,11 @@ title: "Rethinking Online Sexual Harassment Training After #MeToo"
 permalink: /blog/online-sexual-harassment-training/
 image: blog/2018/2018-01-17-online-sexual-harassment-training.jpg
 meta: Effective online sexual harassment training means more than sitting employees in front of a screen and saying, “Don’t do it.” Here's how to make it effective.
-
+# guestauthor
 author:
   name: "Holly Curtis"
   title:  "President and Founder of [The People Perspective, LLC](http://www.thepeopleperspective.com)"
-  image: "blog/2018-01-18-holly-curtis.jpg"
+  image: "blog/holly-curtis.jpg"
   bio: "Holly Curtis is a recognized executive business leader who provides senior-level human resource and organizational development consulting services in support of each organization's unique business circumstances. She has held HR leadership roles with a wide variety of organizations, from entrepreneurial start-ups to global industry giants."
 ---
 The recent deluge of sexual harassment allegations getting public attention across a wide variety of industries in the U.S. is shining a spotlight on employer responsibility. Many organizations have responded by increasing their offering of sexual harassment trainings, a good first step. But what will ensure the effectiveness of online sexual harassment training after the #MeToo movement?

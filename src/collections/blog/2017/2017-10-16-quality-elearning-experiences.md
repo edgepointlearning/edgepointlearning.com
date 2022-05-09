@@ -3,12 +3,11 @@ title: How-To Create Nobu Quality eLearning Experiences Using Visual Design Guid
 permalink: /blog/quality-elearning-experiences/
 image: blog/2017/2017-10-16-quality-elearning-experiences.jpg
 meta: Quincy Conley, a Learning Scientist, explains how we can apply culinary lessons to create enchanting and quality eLearning experiences for our employees.
-
-
+# guestauthor
 author:
   name: "Quincy Conley, Ph.D."
   title:  "Learning Scientist, Pearson"
-  image: "blog/2017-10-16-quincy-conley.jpg"
+  image: "blog/quincy-conley.jpg"
   bio: "Quincy Conley is a Learning Scientist on the Learning Research and Design team at Pearson. He has worked as a dedicated instructional designer and researcher for over 16 years. With expertise in using biometric sensors to examine learning experiences, his primary functions are to decide what combination of appropriate educational techniques and technology to use to increase learning gains. His current research interests are in designing performance support systems, augmented reality and intelligent tutoring systems. Quincy earned his Ph.D. in Educational Technology from Arizona State University, and both his M.A. in Instructional Design & Technology and B.A. in Aerospace Science from the University of North Dakota."
 ---
 
