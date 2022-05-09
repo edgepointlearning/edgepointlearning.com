@@ -1,0 +1,26 @@
+---
+layout: layouts/base
+
+title: Employee Training Solutions
+permalink: /blog/
+meta: Discover actionable insights into the learning industry, informative pieces on best practices for training, and more. Subscribe to get the latest in your inbox.
+image: placeholder/landscape-a.jpeg
+hero:
+  headline: Employee Training Insights
+  tagline: We love learning!
+---
+
+<div class="py-12 bg-white">
+  <div class="wrapper grid grid-cols-1 gap-4 bg-white divide-y">
+    {%- for post in collections.blog -%}
+      <div class="place-items-center flex gap-2 p-4">
+        <a href="{{ post.url }}">{% picture post.data.image, post.data.title, "w-48", "192px" %}</a>
+        <div>
+          <a class="text-sm leading-none underline" href="{{ post.url }}">{{post.data.title}}</a>
+          <p class="my-2 text-xs">{{ post.date | postDate }}</p>
+          <p class="text-xs">{{ post.data.meta }}</p>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
