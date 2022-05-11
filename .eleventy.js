@@ -22,20 +22,27 @@ const markdownItOptions = {
   breaks: true,
   linkify: true
 }
-const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+let mila = require("markdown-it-link-attributes");
+let milaOptions = {
+  pattern: /^(?!(https:\/\/edgepointlearning\.com|#)).*$/gm,
+  attrs: {
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }
+};
+const markdownLib = markdownIt(markdownItOptions)
+  .use(markdownItAttrs)
+  .use(mila, milaOptions);
 
 
 // async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
-
 //   let url = path.join("./src/assets/images/", src);
-
 //   let stats = await Image(url, {
 //     widths: [600, 1024],
 //     formats: ["svg", "avif", "webp", "jpeg"],
 //     urlPath: "/img/opt/",
 //     outputDir: "./_dist/img/opt/",
 //   });
-
 //   let imageAttributes = {
 //     alt,
 //     class: css,
@@ -43,25 +50,20 @@ const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 //     loading,
 //     decoding,
 //   };
-
 //   return Image.generateHTML(stats, imageAttributes, {
 //     whitespaceMode: "inline",
 //   });
 // }
 
 function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
-
   let url = `./src/assets/images/${src}`;
-
   let options = {
     widths: [660, 1280],
     formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
   };
-
   Image(url, options);
-
   let imageAttributes = {
     alt,
     class: css,
@@ -69,16 +71,13 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
     loading,
     decoding,
   };
-  
   let metadata = Image.statsSync(url, options);
-
   return Image.generateHTML(metadata, imageAttributes, {
     whitespaceMode: "inline",
   });
 }
 
 module.exports = function(eleventyConfig) {
- 
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
   
@@ -106,7 +105,6 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
   
-
   // add plugins
   eleventyConfig.addPlugin(faviconsPlugin, {
     'outputDir': './_dist',
@@ -115,13 +113,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(emojiReadTime);
-
   eleventyConfig.addPlugin(metagen);
-
   eleventyConfig.addPlugin(svgSprite, {
     path: "./src/assets/sprites",
   });
-
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
       hostname: "https://www.edgepointlearning.com",
@@ -136,5 +131,4 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: 'njk',
   };
-
 };
