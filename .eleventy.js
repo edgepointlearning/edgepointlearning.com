@@ -24,12 +24,16 @@ const markdownItOptions = {
 }
 let mila = require("markdown-it-link-attributes");
 let milaOptions = {
-  pattern: /^(?!(https:\/\/edgepointlearning\.com|#)).*$/gm,
+  // https://www.npmjs.com/package/markdown-it-link-attributes
+  matcher(href, config) {
+    return href.startsWith("http");
+  },
   attrs: {
     target: "_blank",
-    rel: "noopener noreferrer"
-  }
+    rel: "noopener",
+  },
 };
+
 const markdownLib = markdownIt(markdownItOptions)
   .use(markdownItAttrs)
   .use(mila, milaOptions);
