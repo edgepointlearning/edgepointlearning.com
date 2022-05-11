@@ -3,12 +3,7 @@ title: How To Create Effective Cyber Security Training For Your Employees
 permalink: /blog/cyber-security-training/
 image: blog/2018/2018-02-01-cyber-security-training.jpg
 meta: If an employee touches a computer, they need cyber security training. Here's how to make it actually worth their (and your) time.
-# guestauthor
-author:
-  name: "M. Craig Cocciola"
-  title:  "Director of IT and FSO at ABL Cyber Academy"
-  image: "blog/craig-cocciola.jpg"
-  bio: "Michael Craig Cocciola has been the Director of IT and FSO at (ABL) [Advanced Business Learning](http://ablcyberacademy.com/) for the past 12 of his 34 years in IT and Network Management. One year ago, Craig and his Cyber Team designed, developed, and launched a live [Cyber Skills Lab](https://ablcyberlab.com/) for hands-on student development of both offensive and defensive cyber tactics.\n\n The ABL Cyber Lab is so effective it was discovered and vetted by US NAVY SPAWAR for inclusion in their Cyber and IT education and training catalog. The ABL Cyber Lab course is the only Cyber Range now offered in this 200+ course catalog for SPAWAR Cyber and IT Security personnel skills development.\n\n Craig manages the ABL Cyber Lab team in developing new and effective training for both in-lab and remote VPN lab users, and is helping to fill the shortage of thousands of unfilled cyber job openings in Arizona. The ABL Cyber Lab is a training facility within the ABL Cyber Academy, offering top industry Certification courses in IT and Security assessment through ethical hacking."
+author: M_C_Cocciola
 ---
 
 Cyber security training for employees may not be on the top of your list of priorities, but consider this: on December 6, 2017 Mecklenberg county officials in North Carolina received a [ransom note from a hacker](https://www.washingtonpost.com/national/the-latest-disruption-from-county-cyberattack-continues/2017/12/07/22b6673e-db7b-11e7-a241-0848315642d0_story.html?utm_term=.09743185832b), threatening to bring the county to a standstill if it didn’t pay a ransom of $23,000. The county refused, the attack went through, and now the most populated metro area in North Carolina has been reeled back into the 20th century, relying on paper records and processing for permits, jail intakes, court cases, and every other function of county government. A measly 44 of the county’s 500 servers was breached, but the cost to the county could stretch into the millions of dollars.

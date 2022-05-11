@@ -3,12 +3,7 @@ title:    How To Start Your Restaurant Managers Training Program
 permalink: /blog/restaurant-managers-training-program/
 image: blog/2018/2018-08-22-restaurant-managers-training-program.jpg
 meta: You know restaurants don’t run themselves; here’s how to train your people to run them even better with a dedicated restaurant manager training program.
-# guestauthor
-author: 
-  name: "Steve Pruniski"
-  title:  "GM at the The Vig at McCormick Ranch"
-  image: "blog/steve-pruniski.jpg"
-  bio: "Steve Pruniski has been in the restaurant industry for over 35 years and has worked all aspects of daily operations. From dishwasher to general manager, Steve’s experience with numerous management teams has helped to mold him into a knowledgeable leader in the industry."
+author: S_Pruniski
 ---
 
 You know restaurants don’t run themselves; here’s how to train your people to run them even better with a dedicated restaurant managers training program.

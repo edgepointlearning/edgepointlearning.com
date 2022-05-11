@@ -3,12 +3,7 @@ title:    How To Develop Effective Suicide Prevention Training
 permalink: /blog/suicide-prevention-training/
 image: blog/2020/2020-09-023-suicide-prevention-training.jpg
 meta: You might not think that suicide prevention training is something that you need in your field of work, but suicide prevention is everyone’s business.
-# guestauthor
-author:
-  name: "Michelle Moorhead"
-  title:  "Executive Director, Teen Lifeline"
-  image: "blog/michelle-moorhead.jpg"
-  bio: "Michelle Moorhead is the Executive Director of Teen Lifeline, a 34 year old nonprofit focused on the prevention of youth suicide. Ms. Moorhead possesses a Master's Degree in Psychology from the University of Northern Colorado with an emphasis in adolescent psychology.  She is a state Licensed Professional Counselor and a Certified Crisis Counselor through the American Association of Suicidology. She has been working in the behavioral health field for the past 36 years. In 2004, she was named Arizona’s Executive Director of the Year by the Organization of Non-Profit Executives. She has extensive experience presenting at both the local and national level in the area of teen suicide prevention, crisis intervention, and utilizing volunteers."
+author: M_Moorhead
 ---
 
 If you have not considered suicide prevention training in the past, think about it now during National Suicide Prevention Month{.lead}

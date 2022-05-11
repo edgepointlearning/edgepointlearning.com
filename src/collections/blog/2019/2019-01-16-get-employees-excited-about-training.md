@@ -3,7 +3,7 @@ title:    "How To Get Employees Excited About Training: 10 Ways To Motivate Them
 permalink: /blog/get-employees-excited-about-training/
 image: blog/2019/2019-01-16-get-employees-excited-about-training.jpg
 meta: Knowing how to get employees excited about training is the key to improving employee satisfaction (and business success!). Here's how to motivate them.
-author:
+author: 
   name: Michael Hansen 
 ---
 

@@ -82,14 +82,14 @@ module.exports = function(eleventyConfig) {
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
   
-  // passthrough static files
+  // passthrough node_modules
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
-  
-  
+  // passthrough assets & custom scripts
   eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
   eleventyConfig.addPassthroughCopy({'src/assets/static' : '/static/'});
+  eleventyConfig.addPassthroughCopy({'src/assets/videos' : '/videos/'});
   
   // watch for changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');

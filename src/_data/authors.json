@@ -1,0 +1,38 @@
+{
+  "Q_Conley": {
+    "name": "Quincy Conley, Ph.D.",
+    "title": "Learning Scientist, Pearson",
+    "image": "blog/quincy-conley.jpg",
+    "bio": "Quincy Conley is a Learning Scientist on the Learning Research and Design team at Pearson. He has worked as a dedicated instructional designer and researcher for over 16 years. With expertise in using biometric sensors to examine learning experiences, his primary functions are to decide what combination of appropriate educational techniques and technology to use to increase learning gains. His current research interests are in designing performance support systems, augmented reality and intelligent tutoring systems. Quincy earned his Ph.D. in Educational Technology from Arizona State University, and both his M.A. in Instructional Design & Technology and B.A. in Aerospace Science from the University of North Dakota."
+  },
+  "H_Curtis": {
+    "name": "Holly Curtis",
+    "title": "President and Founder of [The People Perspective, LLC](http://www.thepeopleperspective.com)",
+    "image": "blog/holly-curtis.jpg",
+    "bio": "Holly Curtis is a recognized executive business leader who provides senior-level human resource and organizational development consulting services in support of each organization's unique business circumstances. She has held HR leadership roles with a wide variety of organizations, from entrepreneurial start-ups to global industry giants."
+  },
+  "M_C_Cocciola": {
+    "name": "M. Craig Cocciola",
+    "title": "Director of IT and FSO at ABL Cyber Academy",
+    "image": "blog/craig-cocciola.jpg",
+    "bio": "Michael Craig Cocciola has been the Director of IT and FSO at (ABL) [Advanced Business Learning](http://ablcyberacademy.com/) for the past 12 of his 34 years in IT and Network Management. One year ago, Craig and his Cyber Team designed, developed, and launched a live [Cyber Skills Lab](https://ablcyberlab.com/) for hands-on student development of both offensive and defensive cyber tactics.\n\n The ABL Cyber Lab is so effective it was discovered and vetted by US NAVY SPAWAR for inclusion in their Cyber and IT education and training catalog. The ABL Cyber Lab course is the only Cyber Range now offered in this 200+ course catalog for SPAWAR Cyber and IT Security personnel skills development.\n\n Craig manages the ABL Cyber Lab team in developing new and effective training for both in-lab and remote VPN lab users, and is helping to fill the shortage of thousands of unfilled cyber job openings in Arizona. The ABL Cyber Lab is a training facility within the ABL Cyber Academy, offering top industry Certification courses in IT and Security assessment through ethical hacking."
+  },
+  "S_Pruniski": {
+    "name": "Steve Pruniski",
+    "title": "GM at the The Vig at McCormick Ranch",
+    "image": "blog/steve-pruniski.jpg",
+    "bio": "Steve Pruniski has been in the restaurant industry for over 35 years and has worked all aspects of daily operations. From dishwasher to general manager, Steve’s experience with numerous management teams has helped to mold him into a knowledgeable leader in the industry."
+  },
+  "C_Everton": {
+    "name": "Clint Everton",
+    "title": "Executive Director, Teen Lifeline",
+    "image": "blog/clint-everton.jpg",
+    "bio": "Clint is the founder of PinPoint Workforce. PinPoint makes a mobile app for frontline safety training and EHS. Find out more at pinpointworkforce.com"
+  },
+  "M_Moorhead": {
+    "name": "Michelle Moorhead",
+    "title": "Executive Director, Teen Lifeline",
+    "image": "blog/michelle-moorhead.jpg",
+    "bio": "Michelle Moorhead is the Executive Director of Teen Lifeline, a 34 year old nonprofit focused on the prevention of youth suicide. Ms. Moorhead possesses a Master's Degree in Psychology from the University of Northern Colorado with an emphasis in adolescent psychology.  She is a state Licensed Professional Counselor and a Certified Crisis Counselor through the American Association of Suicidology. She has been working in the behavioral health field for the past 36 years. In 2004, she was named Arizona’s Executive Director of the Year by the Organization of Non-Profit Executives. She has extensive experience presenting at both the local and national level in the area of teen suicide prevention, crisis intervention, and utilizing volunteers."
+  }
+}
