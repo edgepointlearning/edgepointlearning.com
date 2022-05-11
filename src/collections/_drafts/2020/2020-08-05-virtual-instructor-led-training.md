@@ -84,6 +84,6 @@ Then, what good is asking for feedback if you don’t use it to improve future v
 
 ## We can help
 
-[EdgePoint](https://www.edgepointlearning.com/) has helped companies transition from all in-person training to entirely eLearning or some combination of the two. This includes helping businesses tweak the resources they already have. 
+[EdgePoint](/) has helped companies transition from all in-person training to entirely eLearning or some combination of the two. This includes helping businesses tweak the resources they already have. 
 
 <strong>No matter what type of training you’re looking for, [get in touch today to see how EdgePoint can help](/contact/).</strong>

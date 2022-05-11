@@ -63,7 +63,7 @@ And remember: resources go beyond training materials. You may already have worke
 
 Does your company want to train employees [on the job](/blog/on-the-job-training-advantages/), [on their own time](/microlearning/), or [in a specific location](/blog/geofencing/)? Each of these strategies have a potential to keep the work moving, safely, while employees receive training.
 
-Incorporate [safety inspections checklists](https://www.edgepointlearning.com/blog/safety-inspection-checklist/) at each area of the jobsite, too. This type of [performance support](/performance-support/) in the flow of work means your projects move forward safely without interruptions and delays.
+Incorporate [safety inspections checklists](/blog/safety-inspection-checklist/) at each area of the jobsite, too. This type of [performance support](/performance-support/) in the flow of work means your projects move forward safely without interruptions and delays.
 
 And don’t forget to include your contract and freelance workers in your construction safety training. Even if they are only on the jobsite briefly, they’ll need some basics of safety as well.
 
@@ -90,6 +90,6 @@ Construction safety training is definitely not a “one and done” topic. Regar
 
 Developing a construction safety training program is complicated. It’s bound by local, state, and federal laws but also tasked with keeping employees safe on the job.
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) can help with co-development services or custom online training that is tailored to your industry. We can also help you roll out in-the-flow-of-work performance support or microlearning tools that make construction safety training a part of each workday.
+[EdgePoint Learning](/) can help with co-development services or custom online training that is tailored to your industry. We can also help you roll out in-the-flow-of-work performance support or microlearning tools that make construction safety training a part of each workday.
 
 **When you’re ready to build something together, [get in touch](/form/demo/).**

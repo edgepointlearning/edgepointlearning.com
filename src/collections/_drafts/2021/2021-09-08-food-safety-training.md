@@ -102,6 +102,6 @@ ServSafe has long been associated with instructing restaurant workers on the SQL
 
 While free food safety training courses are a great place to start, often they just don’t quite fit the specific needs of your business and employees.
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) can help. We offer co-development services or custom online training. We can also help with rollout of in the flow of work performance support or microlearning tools.
+[EdgePoint Learning](/) can help. We offer co-development services or custom online training. We can also help with rollout of in the flow of work performance support or microlearning tools.
 
 **Want to know more about how we can help you build your custom food safety training program for employees? [Get in touch today!](/contact/)**

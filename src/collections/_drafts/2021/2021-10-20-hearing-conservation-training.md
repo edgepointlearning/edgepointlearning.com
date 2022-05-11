@@ -100,6 +100,6 @@ Hearing conservation training isn’t just a one-and-done class offered during o
 
 Training in an off-site classroom does not help employees reduce harm while they are on the job. Put tools and training in the palm of employees’ hands with just-in-time instruction delivered exactly when and where they need it. Turn to tools like microlearning, checklists, and other mobile-first support to implement your hearing conservation training program.
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) can help. We offer co-development services or custom online training for all types of industries. We can even help you roll out in-the-flow-of-work performance support or microlearning tools so employees have what they need at their fingertips.
+[EdgePoint Learning](/) can help. We offer co-development services or custom online training for all types of industries. We can even help you roll out in-the-flow-of-work performance support or microlearning tools so employees have what they need at their fingertips.
 
 **A hearing conservation training program is a critical part of safety for employees. EdgePoint Learning can help you design the one that fits your business. [Let’s get started today](/contact/).**

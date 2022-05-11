@@ -15,7 +15,7 @@ How do you eat an elephant? One bite at a time. Start your SMB eLearning develop
 
 ### 1. What are my overall goals?
 
-Start with a [learning needs assessment](http://www.edgepointlearning.com/blog/training-needs-analysis). You can’t very well figure out what route to take if you don’t know what your destination is. A learning needs assessment uses data to lock on to the best approach to training for your company.
+Start with a [learning needs assessment](/blog/training-needs-analysis). You can’t very well figure out what route to take if you don’t know what your destination is. A learning needs assessment uses data to lock on to the best approach to training for your company.
 
 After all, your business isn’t the same as your competitor’s. You may be in the same field; you may even offer the same product or service. This does not matter when it comes to figuring out what your training needs are. Companies are made of people, not SKUs or services.
 
@@ -23,7 +23,7 @@ Take a hard look at what you have and capitalize on your strengths before you fo
 
 ### 2. What type of training will work best for my company?
 
-You have a ton of options when it comes to deciding which type of training will work best for your small-medium size company. If you have a good mix of senior employees, interns straight out of college, and mid-career changers, [eLearning](https://www.edgepointlearning.com/blog/advantages-of-elearning/) saves time and money but delivers the goods just as effectively (if not more) than a day spent staring at a board in a conference room.
+You have a ton of options when it comes to deciding which type of training will work best for your small-medium size company. If you have a good mix of senior employees, interns straight out of college, and mid-career changers, [eLearning](/blog/advantages-of-elearning/) saves time and money but delivers the goods just as effectively (if not more) than a day spent staring at a board in a conference room.
 
 eLearning also encompasses a variety of other [methods for training](/blog/top-10-types-of-employee-training/). Using your learning needs assessment, follow up with these questions and answers:
 
@@ -57,9 +57,9 @@ Who is going to be responsible for the development of your company’s new eLear
 
 *  <strong>In-house developers:</strong> If you choose to develop your courses in-house, make sure you have the technical support to build them and  troubleshoot any bugs or issues that arise. Your in-house eLearning expert will need additional time to create the course(s), so plan on shifting their regular tasks to someone else.
 
-*  <strong>eLearning experts:</strong> [EdgePoint Learning](https://www.edgepointlearning.com/) has been developing eLearning solutions for SMBs for over a decade. We can help you craft an eLearning program from start to finish, from designing learning needs assessment questionnaires to evaluating how each course is going. If you are looking for a concierge training experience and want to hand this task off to the professionals, outsourcing is your best bet.
+*  <strong>eLearning experts:</strong> [EdgePoint Learning](/) has been developing eLearning solutions for SMBs for over a decade. We can help you craft an eLearning program from start to finish, from designing learning needs assessment questionnaires to evaluating how each course is going. If you are looking for a concierge training experience and want to hand this task off to the professionals, outsourcing is your best bet.
 
-*  <strong>Combination of the two:</strong> Bringing in a professional consultant to help your company’s training experts design and deliver the perfect combination of eLearning strategies may be the best of both worlds. You know your company best; EdgePoint is an eLearning specialist. You know your content; we can help you deliver it with [co-development](https://www.edgepointlearning.com/co-development-services/) options.
+*  <strong>Combination of the two:</strong> Bringing in a professional consultant to help your company’s training experts design and deliver the perfect combination of eLearning strategies may be the best of both worlds. You know your company best; EdgePoint is an eLearning specialist. You know your content; we can help you deliver it with [co-development](/co-development-services/) options.
 
 Who develops your courses is a matter of preference and budget. It is best to consider all of your options before you begin.
 
@@ -87,4 +87,4 @@ How’d you do? Are your employees accessing the eLearning modules you set up an
 
 Even if your course is going well, an annual evaluation of your eLearning training strategy is a good idea.
 
-<strong>Struggling to figure out how to design and implement sustainable eLearning on a budget for your SMB? [Give EdgePoint a call](https://www.edgepointlearning.com/contact/). We can help you get started.</strong>
+<strong>Struggling to figure out how to design and implement sustainable eLearning on a budget for your SMB? [Give EdgePoint a call](/contact/). We can help you get started.</strong>

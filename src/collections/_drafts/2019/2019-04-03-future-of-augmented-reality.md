@@ -175,7 +175,7 @@ The possibilities for augmented reality in corporate training are exhilarating. 
 
 Thought leaders on the topic believe that AR has already delivered on the promise of being able to impact the workplace by increasing productivity, enhancing training, and improving safety for employees (Faldi, 2018).
 
-Are you ready to learn more? [EdgePoint Learning](https://www.edgepointlearning.com/) specializes in custom solutions specially tailored to your employees’ needs. With a combination of traditional, digital, and mobile-first training options, EdgePoint Learning can help you ready your learning content for a future AR-enabled pathway.
+Are you ready to learn more? [EdgePoint Learning](/) specializes in custom solutions specially tailored to your employees’ needs. With a combination of traditional, digital, and mobile-first training options, EdgePoint Learning can help you ready your learning content for a future AR-enabled pathway.
 
 [Contact us today](/contact/) to talk about our custom training solutions!
 

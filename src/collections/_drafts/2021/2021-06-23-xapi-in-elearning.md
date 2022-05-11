@@ -87,6 +87,6 @@ This is just a primer, and you could spend days deep-diving into the technical a
 
 At the end of the day, you don’t need to be a technological wizard to move to the next level of eLearning and xAPI. There are plenty of [authoring tools](https://elearningindustry.com/directory/software-categories/elearning-authoring-tools/compliance/tin-can) available if your team can't manage the tech heavy lifting.
 
-Prefer a more human touch, or still have questions? [EdgePoint Learning](https://www.edgepointlearning.com/) can help you implement xAPI across your learning experiences! 
+Prefer a more human touch, or still have questions? [EdgePoint Learning](/) can help you implement xAPI across your learning experiences! 
 
-**When you are ready to explore the possibilities for authentic learning and training assessment, [get in touch](https://www.edgepointlearning.com/contact/).**
+**When you are ready to explore the possibilities for authentic learning and training assessment, [get in touch](/contact/).**

@@ -101,4 +101,4 @@ Their ultimate goal? To only use plastic packaging that is reusable, recyclable,
 
 Maybe your company’s budget doesn’t run into the millions, but these examples of corporate sustainability initiatives will inspire you to consider what you can do. The first step? Deciding on a path to sustainability and getting the training your workforce needs to get there.
 
-<strong>At [EdgePoint Learning](https://www.edgepointlearning.com/), we can help you turn your inspiration to do good into effective, efficient, and engaging training around your corporate sustainability initiatives. [Let’s get started today](https://www.edgepointlearning.com/contact/).</strong>
+<strong>At [EdgePoint Learning](/), we can help you turn your inspiration to do good into effective, efficient, and engaging training around your corporate sustainability initiatives. [Let’s get started today](/contact/).</strong>

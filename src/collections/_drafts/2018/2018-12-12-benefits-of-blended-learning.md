@@ -87,4 +87,4 @@ Lecture moving too fast online? Hit pause. Employees having trouble getting a co
 
 Of course, there are some limitations of blended learning. Without buy-in at the top, no training program will be successful. And truthfully, creating the perfect blended learning employee training takes skill that may not yet be in house.
 
-<strong>Both of these limitations can be overcome. If you are ready to explore the benefits of blended learning for your company, [give EdgePoint Learning a call](https://www.edgepointlearning.com/contact/) to get started!</strong>
+<strong>Both of these limitations can be overcome. If you are ready to explore the benefits of blended learning for your company, [give EdgePoint Learning a call](/contact/) to get started!</strong>

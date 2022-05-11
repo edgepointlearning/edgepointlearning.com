@@ -113,6 +113,6 @@ If this sounds more “touchy-feely” than other employee trainings – it is. 
 
 Let’s be clear: diversity, equity, and inclusion training won’t end larger societal issues with systematic racism and injustice, but some progress starts with you and your teams. DEI training is one step that your company can take to be the change you want to see in the world.
 
-If you don’t know where to start, have questions about diversity, equity, and inclusion training, or need feedback on what you have so far, [EdgePoint Learning](https://www.edgepointlearning.com/) can help.
+If you don’t know where to start, have questions about diversity, equity, and inclusion training, or need feedback on what you have so far, [EdgePoint Learning](/) can help.
 
 **[Get in touch](/contact/) to start building a more equitable workplace today.**

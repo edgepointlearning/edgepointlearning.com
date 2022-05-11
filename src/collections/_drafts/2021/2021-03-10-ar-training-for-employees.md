@@ -82,4 +82,4 @@ For effective AR training, your partners in design will make all the difference.
 
 [EdgePoint Learning](/augmented-reality/) works seamlessly with PinPoint, which allows your company’s L&D folks to design AR-enabled microlearning and performance support tools. We can help you build your AR training program from the ground up.
 
-**[Get in touch today](https://www.edgepointlearning.com/contact/) to see how EdgePoint Learning can help you enter the future of AR training.**
+**[Get in touch today](/contact/) to see how EdgePoint Learning can help you enter the future of AR training.**

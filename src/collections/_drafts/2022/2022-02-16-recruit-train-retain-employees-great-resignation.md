@@ -66,6 +66,6 @@ A [major complaint](https://www.shrm.org/about-shrm/press-room/press-releases/pa
 
 
 ## Let us help you train and retain your employees
-The Great Resignation has been a challenge for managers and business owners, but it doesn’t have to bring your company down. Listening to your employees’ needs, encouraging ongoing learning and upskilling, and improving your managers’ skills through training can give them the desire to stay with your company. [EdgePoint Learning](https://www.edgepointlearning.com/) can help you with your eLearning needs and give your team the support necessary to thrive during this tumultuous time. 
+The Great Resignation has been a challenge for managers and business owners, but it doesn’t have to bring your company down. Listening to your employees’ needs, encouraging ongoing learning and upskilling, and improving your managers’ skills through training can give them the desire to stay with your company. [EdgePoint Learning](/) can help you with your eLearning needs and give your team the support necessary to thrive during this tumultuous time. 
 
 [Let us know](/contact/) how we can help you!

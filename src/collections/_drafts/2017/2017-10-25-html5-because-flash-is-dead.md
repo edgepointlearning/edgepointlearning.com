@@ -15,7 +15,7 @@ Flash and HTML5 have some important differences that really affect their usabili
 
 ### Flash uses too much power for mobile
 
-On a very basic level, Flash is unsustainable in terms of battery life. The resources to run Flash make it clunky and inefficient, especially in terms of eLearning. HTML5 requires less bandwidth for the same performance, preserving battery life in [mobile devices](https://www.edgepointlearning.com/blog/what-is-mlearning/).
+On a very basic level, Flash is unsustainable in terms of battery life. The resources to run Flash make it clunky and inefficient, especially in terms of eLearning. HTML5 requires less bandwidth for the same performance, preserving battery life in [mobile devices](/blog/what-is-mlearning/).
 
 ### Flash requires a plug-in
 
@@ -69,7 +69,7 @@ There are many [HTML5 eLearning authoring tools](https://elearningindustry.com/t
 
 ### Prong 3: Work with a professional
 
-Converting your Flash eLearning course to HTML5 isn’t a simple drag-and-drop operation. There are times when resources, including time, energy, and money, are best spent with a company who specializes in making the leap into the [future of eLearning](https://www.edgepointlearning.com/blog/future-of-corporate-training-2019/) course design. Converting courses that work smoothly across devices often requires the attention of a professional.
+Converting your Flash eLearning course to HTML5 isn’t a simple drag-and-drop operation. There are times when resources, including time, energy, and money, are best spent with a company who specializes in making the leap into the [future of eLearning](/blog/future-of-corporate-training-2019/) course design. Converting courses that work smoothly across devices often requires the attention of a professional.
 
 <strong>[Edgepoint Learning](/) is a leader in eLearning course design and redevelopment. We can help update your slow, clunky Flash courses to fresh and agile HTML5 platforms. Get in touch today to formulate a plan that will best address your company’s needs.</strong>
 

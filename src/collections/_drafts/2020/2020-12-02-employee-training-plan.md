@@ -128,6 +128,6 @@ Your employees are a great resource. They want to use their time well, too. Sche
 
 Companies looking to grow and adapt will, at some point, need to train their employees. Getting ahead of what you need before you need it means your company is prepared for the future.
 
-Building an employee training plan can be complicated, but [EdgePoint Learning](https://www.edgepointlearning.com/) is here to help. 
+Building an employee training plan can be complicated, but [EdgePoint Learning](/) is here to help. 
 
 **Whether you need a customized program built just for you or are looking to take advantage of [our library of microlearning resources](/blog/pinpoint-partnership/), [get in touch](/contact/) to see what we can do for you.**

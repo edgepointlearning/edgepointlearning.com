@@ -115,6 +115,6 @@ At EdgePoint Learning, we also developed a [free fire safety training online cou
 
 ## Create your fire safety training program
 
-The free fire safety training courses above will get you started, but they aren’t tailored to your company and employees. When you need more in-depth workplace fire safety training, [EdgePoint Learning](https://www.edgepointlearning.com/) can help.
+The free fire safety training courses above will get you started, but they aren’t tailored to your company and employees. When you need more in-depth workplace fire safety training, [EdgePoint Learning](/) can help.
 
 **Fire safety training can’t wait. We’re here to help you keep employees safe. [Get in touch today](/contact/).**

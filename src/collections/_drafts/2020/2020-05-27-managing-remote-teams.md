@@ -83,6 +83,6 @@ And speaking of training, are your employees ready to go from day one, or will t
 * Balancing synchronous and asynchronous learning
 * Documenting training to account for what is needed, and what has been delivered
 
-The [EdgePoint Learning](https://www.edgepointlearning.com/) team has been fully remote from the start, so we understand the challenges that come with managing remote teams. From development to strategy to our [mobile microlearning platform](https://www.pinpointworkforce.com/), we offer comprehensive learning experiences for your team wherever they are in the world. 
+The [EdgePoint Learning](/) team has been fully remote from the start, so we understand the challenges that come with managing remote teams. From development to strategy to our [mobile microlearning platform](https://www.pinpointworkforce.com/), we offer comprehensive learning experiences for your team wherever they are in the world. 
 
 <strong>Let us help you lead better. [Get in touch today](/contact/).</strong>

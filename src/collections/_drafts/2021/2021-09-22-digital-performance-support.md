@@ -85,11 +85,11 @@ Some performance tools offer 3D animations for training on specific equipment, p
 
 The end result of high-quality digital performance support? A fully connected workforce that is empowered and integrated. Imagine mobile-native performance support that meets current needs and anticipates any speed bumps that are coming down the road.
 
-Learning on location is just one part of [PinPoint Workforce's](https://www.edgepointlearning.com/performance-support/) digital performance support tools. Your team connects on a mobile-first platform with the ability to coordinate all aspects of a project.
+Learning on location is just one part of [PinPoint Workforce's](/performance-support/) digital performance support tools. Your team connects on a mobile-first platform with the ability to coordinate all aspects of a project.
 
 ## Get started
 
-Considering moving to digital performance support? [EdgePoint Learning](https://www.edgepointlearning.com/) knows what you need. We can help you create all of the performance support tools you require, including:
+Considering moving to digital performance support? [EdgePoint Learning](/) knows what you need. We can help you create all of the performance support tools you require, including:
 
 * Microlearning courses (including videos)
 * eLearning experiences

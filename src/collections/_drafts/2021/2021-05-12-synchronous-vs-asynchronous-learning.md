@@ -86,4 +86,4 @@ Don't only evaluate employees as they progress through training but also conside
 
 Choosing synchronous vs asynchronous learning is about more than just time. The end goal of all training is to provide meaningful, useful learning experiences that help everyone do their job better. This all starts with a great design.
 
-**Whether you are looking for new eLearning modules, a few tweaks to what you already have, or just some words of advice, [EdgePoint Learning](https://www.edgepointlearning.com/) can help. [Get in touch to get started today](/contact/).**
+**Whether you are looking for new eLearning modules, a few tweaks to what you already have, or just some words of advice, [EdgePoint Learning](/) can help. [Get in touch to get started today](/contact/).**

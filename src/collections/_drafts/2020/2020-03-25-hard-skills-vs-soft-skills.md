@@ -114,6 +114,6 @@ Truly, the best way to train employees is not to pit hard skills vs soft skills 
 
 This might be as simple as modifying training modules to be completed in teams, highlighting teambuilding and collaboration. You might also include time for reflection and refinement in each training session. This gives employees practice in analyzing what they did well and identifying their growing edges.
 
-<strong>As you plan your training sessions for your new hires or long-term employees, don’t think hard skills vs. soft skills. [EdgePoint Learning](https://www.edgepointlearning.com/) can help you find a training approach to both that works for what your employees need right now. [Get in touch today](/contact/).</strong>
+<strong>As you plan your training sessions for your new hires or long-term employees, don’t think hard skills vs. soft skills. [EdgePoint Learning](/) can help you find a training approach to both that works for what your employees need right now. [Get in touch today](/contact/).</strong>
 
 [Contact Us](/contact/ ){: .cta }

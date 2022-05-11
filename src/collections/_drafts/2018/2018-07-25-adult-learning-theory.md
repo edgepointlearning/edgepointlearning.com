@@ -76,7 +76,7 @@ Experiential learning honors adults for what they bring to the table. It gives t
 
 Think of the last time you learned something because you were interested in it. Maybe it was small engine repair, computer programming, or knitting. There was no one standing over you, forcing you to read a manual or practice. Self-directed learning is powerful for adults because the motivation to learn comes from the learner.
 
-Considering how to incorporate self-directed learning into your eLearning course design may be as simple as offering choices in the mode of delivery, the order of the learning, or the subject matter. Once you [conduct a training needs analysis](https://www.edgepointlearning.com/blog/training-needs-analysis/), you will be able to see areas where self-directed learning can be incorporated.
+Considering how to incorporate self-directed learning into your eLearning course design may be as simple as offering choices in the mode of delivery, the order of the learning, or the subject matter. Once you [conduct a training needs analysis](/blog/training-needs-analysis/), you will be able to see areas where self-directed learning can be incorporated.
 
 ### Neuroscience
 
@@ -88,8 +88,8 @@ Understanding how adults learning differently and applying adult learning theory
 
 ## Learn more
 
-At [EdgePoint Learning](https://www.edgepointlearning.com/), we get that your employees may drag their feet when it comes to learning something new. Applying adult learning theory to your eLearning experiences can help engage adult learners and give them the motivation to participate.
+At [EdgePoint Learning](/), we get that your employees may drag their feet when it comes to learning something new. Applying adult learning theory to your eLearning experiences can help engage adult learners and give them the motivation to participate.
 
-<strong>We are experts at designing engaging, relevant, and useful eLearning for every industry. [Get in touch today](https://www.edgepointlearning.com/contact/) to learn more about adult learning theory and see how we can help you!</strong>
+<strong>We are experts at designing engaging, relevant, and useful eLearning for every industry. [Get in touch today](/contact/) to learn more about adult learning theory and see how we can help you!</strong>
 
 This post was originally published on [eLearning Industry](https://elearningindustry.com/adult-learning-theory-helps-elearning-development).

@@ -101,7 +101,7 @@ It’s easy to prevent on-the-job injuries with safe lifting training. At EdgePo
   {% picture "blog/2020/2020-10-21-safe-lifting-training03.jpg", "Free Proper Lifting Training Course" %}
 </a>
 
-Looking for a more detailed safe lifting training program for your workforce? [EdgePoint Learning](https://www.edgepointlearning.com/) can help. Contact us today to learn more about our custom and co-development options, as well as mobile job aids and online learning opportunities. 
+Looking for a more detailed safe lifting training program for your workforce? [EdgePoint Learning](/) can help. Contact us today to learn more about our custom and co-development options, as well as mobile job aids and online learning opportunities. 
 
 [Contact Us](/contact/)
 

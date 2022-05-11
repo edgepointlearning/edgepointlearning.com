@@ -50,7 +50,7 @@ Considerations for your LMS pricing should include not only where your company i
 
 Once you decide what you need employees to know, how to deliver your content, and how much it will cost, how will you develop your content? Turns out, [developing quality online learning takes time](/blog/create-elearning-faster/) – an average of 71 hours per hour of learning (for more interactive learning).
 
-That’s nearly two weeks for just one hour! If you don’t currently staff an eLearning expert developer, now may be a good time to revisit your budget to include some help here. Consultants or companies that provide a full suite of [learning solutions](https://www.edgepointlearning.com/solutions/) can help.
+That’s nearly two weeks for just one hour! If you don’t currently staff an eLearning expert developer, now may be a good time to revisit your budget to include some help here. Consultants or companies that provide a full suite of [learning solutions](/solutions/) can help.
 
 ### 5. Customer support
 

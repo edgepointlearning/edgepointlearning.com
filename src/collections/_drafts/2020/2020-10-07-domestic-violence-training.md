@@ -118,6 +118,6 @@ This might also be covered in your workplace violence prevention program. [More 
 
 You may not have considered wading into the complicated waters of domestic violence training, but it’s an important part of keeping your employees safe. 
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) works with leading mental health organizations to develop clear, actionable training that can be delivered online, fast. 
+[EdgePoint Learning](/) works with leading mental health organizations to develop clear, actionable training that can be delivered online, fast. 
 
 **Whether you need a domestic violence training solution built from the ground up or are looking to improve your training or move it online, we can help. [Get in touch today](/contact/).**

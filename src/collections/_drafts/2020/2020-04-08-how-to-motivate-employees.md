@@ -84,4 +84,4 @@ Regardless of what it looks like, flexible scheduling goes back to honoring an e
 
 The above suggestions require deep, creative thinking and an overhaul to the way your company approaches motivation and training. It's not easy, but it's worth it. These practices go beyond [getting employees excited about training](/blog/get-employees-excited-about-training/) to cultivating a cultural shift in the way your business looks at training.
 
-<strong>It’s a big job. At [EdgePoint Learning](https://www.edgepointlearning.com/), we know how to motivate employees and can help you incorporate high-quality training design into your learning programs. [Get in touch today](/contact/) to learn more.</strong>
+<strong>It’s a big job. At [EdgePoint Learning](/), we know how to motivate employees and can help you incorporate high-quality training design into your learning programs. [Get in touch today](/contact/) to learn more.</strong>

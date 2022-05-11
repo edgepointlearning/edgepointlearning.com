@@ -35,7 +35,7 @@ Start your employee ethics training by either developing a code of conduct for y
 
 ## 2. Identify the different types of ethical training you can include
 
-All quality training begins with a [training needs analysis](https://www.edgepointlearning.com/blog/training-needs-analysis/). In the case of ethics trainings for employees, you might consider focusing on one or more of the following areas:
+All quality training begins with a [training needs analysis](/blog/training-needs-analysis/). In the case of ethics trainings for employees, you might consider focusing on one or more of the following areas:
 
 * Ethical conduct, both in and out of the office
 * Customer privacy and data protection

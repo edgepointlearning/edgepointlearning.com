@@ -89,4 +89,4 @@ Turns out, gathering learning statistics is challenging. Sure, you can analyze w
 
 Analyzing the data from your experiential learning tools can be very helpful. Simulations and gamification programs can offer tremendous insight into the choices employees make during training. This can, in turn, help employers figure out which skills need more focus and which are rock solid.
 
-<strong>Experiential learning, [microlearning](/blog/types-of-microlearning/), gamification, [geofencing](/blog/geofencing/): it’s a whole new world of training out there. At EdgePoint Learning, we can help you choose and design the [employee training](/blog/top-10-types-of-employee-training/) that meets your unique needs. [Get in touch today](https://www.edgepointlearning.com/contact/).</strong>
+<strong>Experiential learning, [microlearning](/blog/types-of-microlearning/), gamification, [geofencing](/blog/geofencing/): it’s a whole new world of training out there. At EdgePoint Learning, we can help you choose and design the [employee training](/blog/top-10-types-of-employee-training/) that meets your unique needs. [Get in touch today](/contact/).</strong>

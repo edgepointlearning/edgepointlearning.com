@@ -110,7 +110,7 @@ A couple of points to hold on to beyond this post are:
 *  There are different aspects of visual design, including font, color, audio, images, video, and more
 *  These quick principles apply beyond just eLearning to mLearning and other training situations
 
-In the end, the most important thing is to simply be aware of the visual design of your Nobu-style eLearning projects. For your next [eLearning project](https://www.edgepointlearning.com/solutions/), I hope your learners enjoy the experience so much they shout out… "Irasshaimase!” Nobu-style.
+In the end, the most important thing is to simply be aware of the visual design of your Nobu-style eLearning projects. For your next [eLearning project](/solutions/), I hope your learners enjoy the experience so much they shout out… "Irasshaimase!” Nobu-style.
 
 <strong>What methods have you used to create quality eLearning experiences for your employees? </strong>
 

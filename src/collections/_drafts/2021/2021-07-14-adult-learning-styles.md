@@ -124,6 +124,6 @@ This learning style will not benefit as much from videos or written training.
 
 ## Build better training for your employees 
 
-Differentiating training for all of your adult learning styles is complex. [EdgePoint Learning](https://www.edgepointlearning.com/) offers everything from consulting on training you’ve already developed to designing a full training program from the ground up.
+Differentiating training for all of your adult learning styles is complex. [EdgePoint Learning](/) offers everything from consulting on training you’ve already developed to designing a full training program from the ground up.
 
 **[Get in touch today](/contact/) to see how we can help!**

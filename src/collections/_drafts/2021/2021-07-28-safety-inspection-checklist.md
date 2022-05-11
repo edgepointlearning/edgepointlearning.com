@@ -94,7 +94,7 @@ Mobile native tools also mean that users can access the safety inspection checkl
 
 
 
-Learn more about PinPoint's [performance support capabilities](https://www.edgepointlearning.com/performance-support/)!
+Learn more about PinPoint's [performance support capabilities](/performance-support/)!
 
 ## 5. Incorporate ongoing audits to ensure compliance 
 

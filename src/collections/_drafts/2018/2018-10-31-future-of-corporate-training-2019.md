@@ -12,7 +12,7 @@ As we near the end of 2019, it’s time to look forward to what’s next in the 
 
 ## What are some of the emerging corporate training trends?
 
-At [EdgePoint Learning](https://www.edgepointlearning.com/), we believe the biggest shift in 2020 is going to be training that occurs seamlessly in the flow of work. Compartmentalized trainings (i.e., on Thursday morning you go to a training, then you put that manual back on the shelf and keep working in the afternoon) are being phased out as on-the-job training with immediate application emerges as a major trend.
+At [EdgePoint Learning](/), we believe the biggest shift in 2020 is going to be training that occurs seamlessly in the flow of work. Compartmentalized trainings (i.e., on Thursday morning you go to a training, then you put that manual back on the shelf and keep working in the afternoon) are being phased out as on-the-job training with immediate application emerges as a major trend.
 
 And this only makes sense with the way your employees are living out in the world.
 

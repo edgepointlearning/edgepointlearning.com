@@ -103,9 +103,9 @@ At [EdgePoint Learning](/about/), we know that employee training is only effecti
 
 Our [eLearning blog](/blog/) covers a number of other resources for you to learn more, including: 
 
-* ["How To Train New Employees Effectively"](https://www.edgepointlearning.com/blog/how-to-train-new-employees/)
-* [How To Run A Training Needs Analysis](https://www.edgepointlearning.com/blog/training-needs-analysis/)
-* [How To Keep Track Of Employee Training](https://www.edgepointlearning.com/blog/how-to-keep-track-of-training/)
+* ["How To Train New Employees Effectively"](/blog/how-to-train-new-employees/)
+* [How To Run A Training Needs Analysis](/blog/training-needs-analysis/)
+* [How To Keep Track Of Employee Training](/blog/how-to-keep-track-of-training/)
 
 From full custom development to comprehensive instructional strategy, our experts at EdgePoint Learning can also help you develop better employee training programs, for a variety of training methods. We specialize in eLearning, as well as innovative training solutions like [geofenced mobile training](/blog/pinpoint-partnership/) and [microlearning](/blog/types-of-microlearning/).
 

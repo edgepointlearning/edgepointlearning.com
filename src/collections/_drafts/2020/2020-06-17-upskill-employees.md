@@ -67,6 +67,6 @@ Chances are good that employees will need and appreciate each of these upskill s
 
 You may have the resources you need in-house to get started with upskilling your employees, or you might choose to work with a company that specializes in digital upskilling for the 21st century workforce.
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) offers robust custom or collaborative content development services that can help you upskill employees on complex topics. From learning a new skill to exploring a new technology field, our comprehensive eLearning and [PinPoint mobile capabilities](https://www.pinpointworkforce.com/) can provide training when and where employees need it most.
+[EdgePoint Learning](/) offers robust custom or collaborative content development services that can help you upskill employees on complex topics. From learning a new skill to exploring a new technology field, our comprehensive eLearning and [PinPoint mobile capabilities](https://www.pinpointworkforce.com/) can provide training when and where employees need it most.
 
 <strong>Whether you have content in place for digital upskilling or are starting from scratch, EdgePoint can help with full or co-development options. [Get in touch today](/contact/) to learn more.</strong>

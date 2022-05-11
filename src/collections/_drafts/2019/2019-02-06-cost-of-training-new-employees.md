@@ -100,6 +100,6 @@ Even if you have the best instructional design and training team, you’ll somet
 * <strong>Limited time:</strong> Say you have a time-sensitive project that needs to get done as soon as possible. Sometimes the best course of action is to outsource that project to ensure it gets done on time, without taxing your more highly-paid development team. 
 * <strong>One-offs:</strong> If you need to create training that’s not necessarily part of your normal routine, such as a highly produced video or user interface design, you will probably want to take that project to an expert who can get it done more quickly, affordably, and correctly. 
 
-At [EdgePoint Learning](https://www.edgepointlearning.com/), we know how to manage the cost of training new employees with a variety of eLearning tools and tricks.
+At [EdgePoint Learning](/), we know how to manage the cost of training new employees with a variety of eLearning tools and tricks.
 
 <strong>[Get in touch today](/contact/) to see how we can help you make the best of your training dollars!</strong>
