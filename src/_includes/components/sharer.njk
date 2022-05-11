@@ -3,7 +3,7 @@
 
 <button
   data-clipboard-text="{{ fullURL }}"
-  class="clipboard place-items-center hover:opacity-100 group fill-epl active:fill-black opacity-80 flex flex-col gap-1"
+  class="clipboard place-items-center  group fill-epl active:fill-black  flex flex-col gap-1"
 >
   {% svg "fontawesome--link-solid", "h-6 aspect-square" %}
   <label class="group-hover:underline">Copy</label>
@@ -12,7 +12,7 @@
 <button 
   data-sharer="linkedin" 
   data-url="{{ fullURL }}"
-  class=" place-items-center hover:opacity-100 group opacity-80 flex flex-col gap-1"
+  class=" place-items-center  group  flex flex-col gap-1"
 >
   {% svg "fontawesome--linkedin-in-brands", "h-6 aspect-square fill-[#0077B5]" %}
   <label class="group-hover:underline">LinkedIn</label>
@@ -22,7 +22,7 @@
   data-sharer="facebook" 
   data-hashtag="hashtag" 
   data-url="{{ fullURL }}"
-  class=" place-items-center hover:opacity-100 group opacity-80 flex flex-col gap-1"
+  class=" place-items-center  group  flex flex-col gap-1"
 >
   {% svg "fontawesome--facebook-f-brands", "h-6 aspect-square fill-[#2D4373]" %}
   <label class="group-hover:underline">Facebook</label>
@@ -33,7 +33,7 @@
   data-title="{{ params.title }} | EdgePoint Learning" 
   data-hashtags="" 
   data-url="{{ fullURL }}"
-  class=" place-items-center hover:opacity-100 group opacity-80 flex flex-col gap-1"
+  class=" place-items-center  group  flex flex-col gap-1"
 >
   {% svg "fontawesome--twitter-brands",  "h-6 aspect-square fill-[#55ACEE]" %}
   <label class="group-hover:underline">Twitter</label>
@@ -45,7 +45,7 @@
   data-url="{{ fullURL }}" 
   data-subject="Check out this post from EdgePoint Learning! {{ params.page.title }}" 
   data-to="some@email.com"
-  class=" place-items-center hover:opacity-100 group opacity-80 flex flex-col gap-1"
+  class=" place-items-center  group  flex flex-col gap-1"
 >
   {% svg "fontawesome--envelope-solid",  "h-6 aspect-square fill-red-500" %}
   <label class="group-hover:underline">Email</label>

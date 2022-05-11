@@ -28,10 +28,10 @@ layout: 'layouts/base.njk'
       </aside>
 
       {% if author.image %}
-        <aside class="guestauthor mt-12 bg-gradient-to-b from-slate-100 to-slate-200 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center not-prose font-sans text-sm">
-          {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36", "144px" %}
-          <p class="mt-6 text-lg font-bold text-slate-700 uppercase">{{author.name}}</p>
-          <div class="mb-6 text-base font-light text-slate-700">{{author.title | markdownFilter | safe}}</div>
+        <aside class="guestauthor mt-12 bg-blue-100 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center not-prose font-sans text-sm">
+          {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36 ring-blue-400 ring-4", "144px" %}
+          <p class="mt-6 text-lg font-bold text-slate-600 uppercase">{{author.name}}</p>
+          <div class="mb-6 text-base font-light text-slate-600">{{author.title | markdownFilter | safe}}</div>
           <div class="grid gap-2">{{author.bio | markdownFilter | safe}}</div>
         </aside>
       {% endif %}

@@ -93,8 +93,8 @@ Suicide prevention training is a critical part of keeping your employees safe.
 
 To find out more about suicide and suicide prevention training and to gather resources, visit the websites below for more information:
 
-* Teen Lifeline: [https://teenlifeline.org](https://teenlifeline.org)
-* National Suicide Prevention Lifeline: [https://suicidepreventionlifeline.org](ttps://suicidepreventionlifeline.org )
-* Suicide Prevention Resource Center: [https://www.sprc.org](https://www.sprc.org)
-* National Alliance on Mental Illness (NAMI): [https://www.naminh.org](https://www.naminh.org)
-* American Foundation for Suicide Prevention (ASFP):  [https://afsp.org](https://afsp.org/)
+  * Teen Lifeline: [https://teenlifeline.org](https://teenlifeline.org)
+  * National Suicide Prevention Lifeline: [https://suicidepreventionlifeline.org](ttps://suicidepreventionlifeline.org )
+  * Suicide Prevention Resource Center: [https://www.sprc.org](https://www.sprc.org)
+  * National Alliance on Mental Illness (NAMI): [https://www.naminh.org](https://www.naminh.org)
+  * American Foundation for Suicide Prevention (ASFP):  [https://afsp.org](https://afsp.org/)

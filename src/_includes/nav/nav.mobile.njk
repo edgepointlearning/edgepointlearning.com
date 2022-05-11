@@ -1,7 +1,7 @@
 <div class="md:hidden sticky top-0 z-40 bg-white shadow-md">
   <ul class="place-items-center flex justify-between w-full h-12">
     <li x-data="{showChildren:false}" @click.away="showChildren=false">
-      <a href="" @click.prevent="showChildren=!showChildren">
+      <a href="" @click.prevent="showChildren=!showChildren" title="Open Menu">
         <div x-show="!showChildren" class="place-items-center flex justify-center w-12 h-12">
           {% svg "menu--menu", "h-5 aspect-square fill-epl" %}
         </div>
@@ -67,11 +67,11 @@
     </li>
 
     <li>
-      <a href="/">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a>
+      <a href="/" title="Home">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a>
     </li>
 
     <li class="place-items-center flex justify-center w-12 h-12">
-      <a href="">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a>
+      <a href="" title="Search">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a>
     </li>
   </ul>
 </div>
