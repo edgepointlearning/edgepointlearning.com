@@ -1,13 +1,25 @@
 <!-- https://fontawesome.com/search -->
 {% set fullURL = [params.baseURL, params.page.url] | join %}
 
+
 <button
   data-clipboard-text="{{ fullURL }}"
-  class="clipboard place-items-center  group fill-epl active:fill-black  flex flex-col gap-1"
+  class="clipboard place-items-center group fill-epl active:fill-black  flex flex-col gap-1"
 >
   {% svg "fontawesome--link-solid", "h-6 aspect-square" %}
+  
+  <div class="absolute tooltip transition" style="visibility: hidden;">
+    <div class="absolute top-0 z-10 w-32 p-2 -mt-1 text-sm leading-tight text-white transform -translate-x-1/2 -translate-y-full bg-orange-500 rounded-lg shadow-lg">
+      Copied!
+    </div>
+    <svg class="absolute z-10 w-6 h-6 text-orange-500 transform -translate-x-4 -translate-y-3 fill-current stroke-current" width="8" height="8">
+      <rect x="12" y="-10" width="8" height="8" transform="rotate(45)" />
+    </svg>
+  </div>
+  
   <label class="group-hover:underline">Copy</label>
 </button>
+
 
 <button 
   data-sharer="linkedin" 
