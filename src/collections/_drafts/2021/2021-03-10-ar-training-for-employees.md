@@ -51,7 +51,7 @@ As we noted in [an earlier PinPoint post](https://www.pinpointworkforce.com/post
 But new apps and technology are bringing this price down. Our PinPoint app utilizes AR technology for efficient training that is also accessible to businesses of all sizes (and budgets!).
 
 
-{% gif "2021-03-10-ar-training-for-employees03.mp4" %}
+{% gif "2021-03-10-ar-training-for-employees03.mp4", "mx-auto rounded-lg w-full" %}
 
 
 ## How to create AR training

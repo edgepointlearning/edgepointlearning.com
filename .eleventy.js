@@ -9,6 +9,7 @@ const svgSprite = require("eleventy-plugin-svg-sprite");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const gifShortcode = require('./src/_includes/shortcodes/gif');
+const vimeoShortcode = require('./src/_includes/shortcodes/vimeo');
 
 // Filters
 const { DateTime } = require("luxon");
@@ -86,6 +87,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib);
   
   // passthrough node_modules
+
+  eleventyConfig.addPassthroughCopy({'./node_modules/@ryangjchandler/alpine-clipboard/dist/' : './js/'});
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
@@ -100,8 +103,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/sprites/');
   
   // Add Shortcodes
-  eleventyConfig.addNunjucksShortcode("picture", pictureShortcode);
+  eleventyConfig.addShortcode("picture", pictureShortcode);
   eleventyConfig.addShortcode("gif", gifShortcode);
+  eleventyConfig.addShortcode("vimeo", vimeoShortcode);
 
 	// Filters
   eleventyConfig.addFilter('markdownFilter', markdownFilter);

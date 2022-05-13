@@ -54,9 +54,7 @@ Think:
 
 You can also directly add relevant YouTube videos, web links, and eLearning courses for employees to access as they need them. And all in the palm of their hand.
 
-
-<div class="vi-lazyload" data-id="469090686" data-thumb="" data-logo="0"></div>
-
+{% vimeo "469090686", "mx-auto" %}
 
 ### Robust authoring tools
 

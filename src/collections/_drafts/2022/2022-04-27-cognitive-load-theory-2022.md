@@ -35,7 +35,7 @@ Research shows that novice learners who are given worked examples of problems pe
 ### [Chunk information](https://www.verywellmind.com/chunking-how-can-this-technique-improve-your-memory-2794969) 
 If you have ever wondered why a phone number is broken up with () or - then you are familiar with chunking. Chunking refers to breaking down details by grouping into smaller pieces of information that are easier to recall.
 
-{% gif "2022-04-23-chunking.mp4" %}
+{% gif "2022-04-23-chunking.mp4", "mx-auto rounded-lg w-full" %}
 
 Examples include:
 
