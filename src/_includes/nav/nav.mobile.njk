@@ -12,19 +12,12 @@
 
       <div
         class="top-12 bg-black/50 absolute left-0 w-screen h-screen"
-        style="display:none"
+        x-cloak
         x-show="showChildren"
         @click.prevent="showChildren=!showChildren"
       ></div>
 
-      <div
-        class="top-16 bg-black/50 backdrop-blur-sm absolute left-0 w-screen h-screen"
-        x-show="showChildren"
-        @click.prevent="showChildren=!showChildren"
-        x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0"
-        x-transition:enter-end="opacity-100"
-      ></div>
+      {% include 'nav/nav.background.html' %}
 
       <ul
         @click.away="showChildren=false"

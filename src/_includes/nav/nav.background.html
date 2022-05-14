@@ -1,0 +1,10 @@
+<div
+  class="absolute left-0 w-screen h-screen top-16 bg-black/50 backdrop-blur-sm"
+  x-cloak
+  x-show="showChildren"
+  @click.prevent="showChildren=!showChildren"
+  x-transition:enter="transition ease-out duration-300"
+  x-transition:enter-start="opacity-0"
+  x-transition:enter-end="opacity-100"
+>
+</div>
