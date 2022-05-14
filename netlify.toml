@@ -1,5 +1,5 @@
 [build]
-  ignore = "node ignore_build.js"
+  #ignore = "node ignore_build.js"
   publish = "_dist"
   command = "npm run build"
 
