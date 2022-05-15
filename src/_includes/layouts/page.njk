@@ -1,13 +1,18 @@
 ---
 layout: 'layouts/base.njk'
 ---
-
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
 {%- from "system/component.njk" import component -%}
 
-<div class="relative overflow-hidden bg-gradient-to-r from-black/75 to-black/25">
-  <div class="absolute -top-[5%] -left-[5%] -z-20 h-[110%] w-[110%] bg-gradient-to-r from-epl-dark to-epl">
-    {% picture image, title, "object-cover w-full h-full blur-3xl", "100vw", "eager", "sync" %}
+<div class="relative overflow-hidden">
+
+  <div class="absolute -top-[5%] -left-[5%] -z-20 h-[110%] w-[110%] bg-gradient-to-r from-black via-epl-dark to-epl">
+    {% set classes = ["object-cover w-full h-full ", imageStyles] | join %}
+    {% if hero.video %}
+      {% gif hero.video, classes %}
+    {% else %}
+      {% picture image, title, classes, "100vw", "eager", "sync" %}
+    {% endif %}
   </div>
 
   {% svg "waves--wave-2", "wave-bot fill-white " %}
