@@ -10,19 +10,12 @@
         </div>
       </a>
 
-      <div
-        class="top-12 bg-black/50 absolute left-0 w-screen h-screen"
-        x-cloak
-        x-show="showChildren"
-        @click.prevent="showChildren=!showChildren"
-      ></div>
-
       {% include 'nav/nav.background.html' %}
 
       <ul
         @click.away="showChildren=false"
         x-show="showChildren"
-        class="absolute left-0 grid w-screen max-w-[450px] grid-cols-2 whitespace-nowrap rounded-b bg-white px-4 py-3 text-sm font-light shadow-lg"
+        class="absolute left-0 grid w-full grid-cols-2 whitespace-nowrap rounded-b bg-white px-4 py-3 text-sm font-light shadow-lg"
       >
         <li class="col-span-2 py-3"><a href="/">Home</a></li>
         <li class="col-span-2 py-3 border-t">

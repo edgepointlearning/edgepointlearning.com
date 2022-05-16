@@ -6,14 +6,17 @@ layout: 'layouts/base.njk'
 
 <div class="relative overflow-hidden">
 
-  <div class="absolute -top-[5%] -left-[5%] -z-20 h-[110%] w-[110%] bg-gradient-to-r from-black via-epl-dark to-epl">
-    {% set classes = ["object-cover w-full h-full ", imageStyles] | join %}
-    {% if hero.video %}
-      {% gif hero.video, classes %}
-    {% else %}
-      {% picture image, title, classes, "100vw", "eager", "sync" %}
-    {% endif %}
+  <div class="absolute -top-[5%] -left-[5%] -z-30 h-[110%] w-[110%] bg-gradient-to-r from-black via-epl-dark to-epl">
+    {% set imageCSS = ["object-cover w-full h-full ", imageStyles] | join %}
+    {% picture image, title, imageCSS, "100vw", "eager", "sync" %}
   </div>
+  
+  {% if hero.video %}
+    <div class="absolute -top-[5%] -left-[5%] -z-20 h-[110%] w-[110%] bg-gradient-to-r from-black via-epl-dark to-epl">
+      {% set videoCSS = ["object-cover w-full h-full ", hero.videoStyles] | join %}
+      {% gif hero.video, videoCSS %}
+    </div>
+  {% endif %}
 
   {% svg "waves--wave-2", "wave-bot fill-white " %}
 
