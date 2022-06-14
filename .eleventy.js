@@ -7,6 +7,7 @@ const svgSprite = require("eleventy-plugin-svg-sprite");
 
 // Shortcode Imports
 const Image = require("@11ty/eleventy-img");
+Image.concurrency = 8; // default is 10
 const path = require("path");
 const gifShortcode = require('./src/_includes/shortcodes/gif');
 const vimeoShortcode = require('./src/_includes/shortcodes/vimeo');
@@ -38,27 +39,6 @@ let milaOptions = {
 const markdownLib = markdownIt(markdownItOptions)
   .use(markdownItAttrs)
   .use(mila, milaOptions);
-
-
-// async function pictureShortcode(src, alt, css=" ", sizes = "100vw", loading = "lazy", decoding = "async") {
-//   let url = path.join("./src/assets/images/", src);
-//   let stats = await Image(url, {
-//     widths: [600, 1024],
-//     formats: ["svg", "avif", "webp", "jpeg"],
-//     urlPath: "/img/opt/",
-//     outputDir: "./_dist/img/opt/",
-//   });
-//   let imageAttributes = {
-//     alt,
-//     class: css,
-//     sizes,
-//     loading,
-//     decoding,
-//   };
-//   return Image.generateHTML(stats, imageAttributes, {
-//     whitespaceMode: "inline",
-//   });
-// }
 
 function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
   let url = `./src/assets/images/${src}`;
