@@ -1,6 +1,6 @@
 <div class="w-1/4 p-3">
 
-  <a class="flex flex-wrap transition place-content-center group" href="{{ params.link.href }}">
+  <a aria-label="{{ params.link.name }}" class="flex flex-wrap transition place-content-center group" href="{{ params.link.href }}">
   
     <div class="z-10 flex w-16">
       {% set icon = ["handdrawn--", params.link.icon] | join | replace(".svg","") %}
