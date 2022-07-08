@@ -3,7 +3,7 @@ title:       "Why Do It Yourself When You Can Use Outsourced eLearning Developme
 permalink: /blog/outsourced-elearning-development/
 image: blog/2022-07-08-outsourced-elearning-development.jpg
 meta:   Ever tackled the wrong do-it-yourself project? Some things are better left to the professionals. Outsourced eLearning development might be your best bet.
-author: { name: Corey Bleich }
+author: { name: Eric Hartmann}
 ---
 
 DIY can seem like such a great idea. You have a project on your horizon, and you think, “Why not? Why can’t I just do it myself? I’m capable, I bet I can do a great job!” But anyone who has tackled the wrong do-it-yourself project knows that some things are better left to the professionals. You might want to consider outsourced eLearning development.
