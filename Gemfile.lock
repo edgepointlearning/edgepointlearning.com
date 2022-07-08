@@ -9,8 +9,8 @@ GEM
     algoliasearch (1.27.5)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
-    autoprefixer-rails (10.2.5.1)
-      execjs (> 0)
+    autoprefixer-rails (6.3.7)
+      execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
     em-websocket (0.5.3)
@@ -49,8 +49,8 @@ GEM
       nokogiri (~> 1.6)
       progressbar (~> 1.9)
       verbal_expressions (~> 0.1.5)
-    jekyll-autoprefixer-re (1.0.2)
-      autoprefixer-rails (~> 10.2.5.1)
+    jekyll-autoprefixer (1.0.1)
+      autoprefixer-rails (~> 6.3.6)
     jekyll-inline-svg (1.1.4)
       jekyll (>= 3.3, < 5.0)
       svg_optimizer (~> 0.2.5)
@@ -115,13 +115,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4)
-  jekyll-algolia
-  jekyll-autoprefixer-re
-  jekyll-inline-svg
-  jekyll-sitemap
-  jekyll-target-blank
-  jekyll_picture_tag (~> 2)
+  jekyll (= 4.2.1)
+  jekyll-algolia (= 1.7.1)
+  jekyll-autoprefixer (= 1.0.1)
+  jekyll-inline-svg (= 1.1.4)
+  jekyll-sitemap (= 1.4.0)
+  jekyll-target-blank (= 2.0.0)
+  jekyll_picture_tag (= 2.0.3)
 
 BUNDLED WITH
-   2.2.24
+   2.3.17
