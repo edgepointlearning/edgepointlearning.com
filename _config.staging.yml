@@ -1,2 +1,12 @@
 future      : true
-show_drafts : true
+show_drafts : false
+exclude :
+  - netlify.toml
+  - package.json
+  - package-lock.json
+  - collections/_posts/2016-*
+  - collections/_posts/2017-*
+  - collections/_posts/2018-*
+  - collections/_posts/2019-*
+  - collections/_posts/2020-*
+  - collections/_posts/2021-*

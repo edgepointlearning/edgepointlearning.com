@@ -1,9 +1,17 @@
-_dist
-_site
+# standard stuff
 .DS_Store
-.jekyll-cache
 .sass-cache
-src
 node_modules
-jekyll-algolia-record-too-big.log
 package-lock.json
+
+# Eleventy branch
+_dist
+src
+
+# Jekyll stuff
+_site
+.jekyll-cache
+jekyll-algolia-record-too-big.log
+
+# Local Netlify folder
+.netlify
