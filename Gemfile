@@ -15,3 +15,5 @@ group :jekyll_plugins do
   # gem 'jekyll-redirect-from'            # https://github.com/jekyll/jekyll-redirect-from
   # gem 'jekyll-paginate-v2'              # https://github.com/sverrirs/jekyll-paginate-v2
 end
+
+gem "html-proofer"
