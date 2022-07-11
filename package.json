@@ -10,6 +10,8 @@
     "what-input": "^5.2.10"
   },
   "scripts": {
-    "netlify": "netlify"
+    "netlify": "netlify",
+    "dev": "bundle exec jekyll serve --future",
+    "proof": "bundle exec htmlproofer ./_site --allow-hash-href --ignore-empty-mailto --directory-index-file index.html --checks-to-ignore ScriptCheck,ImageCheck"
   }
 }
