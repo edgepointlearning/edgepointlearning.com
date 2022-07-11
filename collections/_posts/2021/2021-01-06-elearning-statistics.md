@@ -1,7 +1,7 @@
 ---
 title:       "36 eLearning Statistics: 2021 Key Insights To Shape Our Year"
 permalink: /blog/elearning-statistics/
-image: blog/2021-01-06-elearning-statistics.jpg
+image: blog/2021/2021-01-06-elearning-statistics.jpg
 meta:  As we move into 2021, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
 author: { name: Corey Bleich }
 ---
@@ -33,7 +33,7 @@ There is no doubt that the COVID-19 pandemic has changed the way companies acros
 
 
 
-{% picture blog blog/2021-01-06-elearning-statistics01.jpg --alt 88% of employers encouraged remote work as the pandemic set in %}
+{% picture blog blog/2021/2021-01-06-elearning-statistics01.jpg --alt 88% of employers encouraged remote work as the pandemic set in %}
 
 
 
@@ -59,7 +59,7 @@ When it comes to these eLearning statistics, 2021 is looking revolutionary.
 
 
 
-{% picture blog blog/2021-01-06-elearning-statistics02.jpg --alt In 2020, 90% of companies used eLearning %}
+{% picture blog blog/2021/2021-01-06-elearning-statistics02.jpg --alt In 2020, 90% of companies used eLearning %}
 
 
 
@@ -84,7 +84,7 @@ Here are 12 microlearning statistics to keep an eye on as we move into 2021.
 
 
 
-{% picture blog blog/2021-01-06-elearning-statistics03.jpg --alt Microlearning courses are up to 50% cheaper to develop than longer eLearning %}
+{% picture blog blog/2021/2021-01-06-elearning-statistics03.jpg --alt Microlearning courses are up to 50% cheaper to develop than longer eLearning %}
 
 
 ## Get ready for 2021

@@ -1,7 +1,7 @@
 ---
 title:       "Make Learning Stick By Using Cognitive Load Theory in Your Training"
 permalink: /blog/cognitive-load-theory-2022/
-image: blog/2022-04-27-cognitive-load-theory-2022.jpg
+image: blog/2022/2022-04-27-cognitive-load-theory-2022.jpg
 meta:  Cognitive load theory helps explain why some training works and some doesn’t. Use these strategies to help participants commit learning to long-term memory.
 author: { name: Megan Egbert }
 ---
@@ -57,7 +57,7 @@ In instructional design, three key components of chunking include:
 
 
 
-{% picture blog blog/2022-04-27-cognitive-load-theory-2022-2.jpg --alt Brain map graphic %}
+{% picture blog blog/2022/2022-04-27-cognitive-load-theory-2022-2.jpg --alt Brain map graphic %}
 
 
 

@@ -2,7 +2,7 @@
 title:    How To Create Ladder Safety Training For Employees (And A Free Course!)
 permalink: /blog/ladder-safety-training/
 author: { name: Corey Bleich }
-image: blog/2020-09-09-ladder-safety-training-e.jpg
+image: blog/2020/2020-09-09-ladder-safety-training-e.jpg
 meta: Here’s how to develop and roll-out ladder safety training to your employees, along with a free ladder safety training online course that covers the basics.
 ---
 
@@ -19,7 +19,7 @@ The Occupational Safety and Health Administration (OSHA) estimates that the vast
 
 Ladder safety training is a critical part of ongoing employee training. As part of the OSHA's Safety and Health Regulations for construction, ladder safety training is a requirement. For any work that utilizes an elevated surface that might include a ladder or scaffolding, ladder safety training is generally required. Even if your employees use ladders infrequently, a basic understanding of how to use them properly and safely could just save a life. 
 
-{% picture blog blog/2020-09-09-ladder-safety-training-a.jpg --alt 133 ladder fatalities and 20,000 injuries on the job %}
+{% picture blog blog/2020/2020-09-09-ladder-safety-training-a.jpg --alt 133 ladder fatalities and 20,000 injuries on the job %}
 
 ## What are OSHA ladder safety training requirements? 
 
@@ -40,7 +40,7 @@ Ladder safety training focuses specifically on:
 
 We cover some of these in the free course below.
 
-{% picture blog blog/2020-09-09-ladder-safety-training-b.jpg --alt Training employees on ladder safety could save a life %}
+{% picture blog blog/2020/2020-09-09-ladder-safety-training-b.jpg --alt Training employees on ladder safety could save a life %}
 
 ### Identifying fall hazards
 
@@ -84,7 +84,7 @@ Since so many deaths can be prevented with simple training, we developed a free 
 
 <p style="text-align: center" class="marginBot">
   <a href="https://rise.articulate.com/share/bfe0aUdV6GFgTIJrtROshE5kKd__fEsm#/" target="_blank">
-    {% picture blog blog/2020-09-09-ladder-safety-training-d3.jpg style="max-width:480px" --alt Free Ladder Safety Training Course %}
+    {% picture blog blog/2020/2020-09-09-ladder-safety-training-d3.jpg style="max-width:480px" --alt Free Ladder Safety Training Course %}
   </a>
 </p>
 
@@ -107,7 +107,7 @@ Beyond the initial training, those who work in the field should be able to easil
 
 Finally, [AR-assisted performance support](https://www.pinpointworkforce.com/post/new-feature-image-recognition) can be useful for employees who need help using equipment correctly or for managers to quickly put together site-specific resources. Our [PinPoint](https://www.pinpointworkforce.com/) app allows employees to capture 2D images to launch a 3D AR training. This image recognition can be useful at all stages of ladder safety training and support.
 
-{% picture blog blog/2020-09-09-ladder-safety-training-c.jpg --alt Make ladder training easy to remember, and hard to forget %}
+{% picture blog blog/2020/2020-09-09-ladder-safety-training-c.jpg --alt Make ladder training easy to remember, and hard to forget %}
 
 ## Build your ladder safety training program 
 

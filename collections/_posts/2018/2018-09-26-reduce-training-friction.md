@@ -2,7 +2,7 @@
 title:    How To Reduce Training Friction For Today's Employees
 permalink: /blog/reduce-training-friction/
 author: { name: Corey Bleich }
-image: blog/2018-09-26-reduce-training-friction.jpg
+image: blog/2018/2018-09-26-reduce-training-friction.jpg
 meta: Every employee needs training, but many will unfortunately resist it because of time or other factors. This is how you can reduce training friction for your employees.
 ---
 

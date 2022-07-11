@@ -2,7 +2,7 @@
 title:    "Diversify Your Training: Why Inclusion Matters And How To Do It Right"
 permalink: /blog/diversify-your-training/
 author: { name: "Amber Hartmann, Indi Williams & Eric Hartmann" }
-image: blog/2020-08-19-diversify-your-training.jpg
+image: blog/2020/2020-08-19-diversify-your-training.jpg
 meta: How can you truly and immediately diversify your eLearning employee training materials? Here's how.
 
 ---
@@ -28,7 +28,7 @@ Inclusion and diversity must be considered from the beginning of any eLearning p
 
 Make certain to focus on bias free, inclusive language before, during, and after constructing your script, layout, and visual design. It's true that visuals are critical to demonstrating diversity in your workforce; however, the power and selection of words should never be underestimated. Words possess the ability to empower or debilitate learners in ways unintended by the writer. 
 
-{% picture blog blog/2020-08-19-diversify-your-training01.jpg --alt Words possess the ability to empower or debilitate learners in ways unintended by the writer. %}
+{% picture blog blog/2020/2020-08-19-diversify-your-training01.jpg --alt Words possess the ability to empower or debilitate learners in ways unintended by the writer. %}
 
 Need help crafting bias free communication? 
 
@@ -74,7 +74,7 @@ When selecting images and video consider the following questions:
 
 Also, don't limit yourself to just thinking about race. Ask yourself are individuals with disabilities, those who are LGBTQ, or other societal groups included?  
 
-{% picture blog blog/2020-08-19-diversify-your-training02.jpg --alt Think of inclusion and diversity in the broadest sense possible %}
+{% picture blog blog/2020/2020-08-19-diversify-your-training02.jpg --alt Think of inclusion and diversity in the broadest sense possible %}
 
 When considering visual representation in eLearning courses, think of inclusion and diversity in the broadest sense possible. In the past, it has been challenging to find stock photography or video that appropriately reflects minority, ethnic, or societal groups that were not blatant stereotypes or disrespectful to the individuals portrayed. Thankfully, and with the help of social media, image repositories now contain a great wealth of diverse images. 
 

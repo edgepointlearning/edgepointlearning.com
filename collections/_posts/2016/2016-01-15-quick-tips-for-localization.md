@@ -2,7 +2,7 @@
 title: Quick Tips for Localization
 permalink: /blog/quick-tips-for-localization/
 author: { name: Megan Dobransky }
-image: blog/2015-01-15-quick-tips-for-localization.jpg
+image: blog/2015/2015-01-15-quick-tips-for-localization.jpg
 meta: In this global economy where companies have offices all over the world, sometimes your courses will need to be translated and localized.
 ---
 In this global economy where companies have offices all over the world, sometimes your courses will need to be translated and localized. Here are a few tips to make that process easier.

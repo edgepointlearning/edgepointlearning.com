@@ -2,7 +2,7 @@
 title:   How To Develop Diversity Training That Is Actually Effective
 permalink: /blog/types-of-diversity-training/
 author: { name: Corey Bleich }
-image: blog/2018-07-11-types-of-diversity-training.jpg
+image: blog/2018/2018-07-11-types-of-diversity-training.jpg
 meta: A forty-year study of diversity training has found that some types of diversity training do work – when it’s done right. Here’s how.
 ---
 
@@ -34,7 +34,7 @@ A recent McKinsey study shows that:
 
 “Companies in the top quartile for racial and ethnic diversity are [35% more likely](http://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters) to have financial returns above their respective national industry medians.”
 
-{% picture blog blog/2018-07-11-types-of-diversity-training01.jpg --alt Diverse companies are 35% more likely to have financial returns above industry median %}
+{% picture blog blog/2018/2018-07-11-types-of-diversity-training01.jpg --alt Diverse companies are 35% more likely to have financial returns above industry median %}
 
 
 This translates to more success overall, but the benefits are clear on an individual level as well.

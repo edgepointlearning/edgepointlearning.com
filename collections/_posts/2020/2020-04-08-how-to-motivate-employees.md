@@ -2,7 +2,7 @@
 title:    "How To Motivate Employees: 5 Forward-Thinking Approaches"
 permalink: /blog/how-to-motivate-employees/
 author: { name: Corey Bleich }
-image: blog/2020-04-08-how-to-motivate-employees.jpg
+image: blog/2020/2020-04-08-how-to-motivate-employees.jpg
 meta: How to motivate employees to get on board with your vision for the future? Here are five creative ways to motivate your employees that work.
 ---
 

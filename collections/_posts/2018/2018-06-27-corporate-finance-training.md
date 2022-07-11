@@ -2,7 +2,7 @@
 title:   How To Create The Best Corporate Finance Training Program
 permalink: /blog/corporate-finance-training/
 author: { name: Michael Hansen }
-image: blog/2018-06-27-corporate-finance-training.jpg
+image: blog/2018/2018-06-27-corporate-finance-training.jpg
 meta: Corporate finance training goes beyond keeping employees up-to-date on developments in the world of finance. Here's what it needs to include.
 ---
 

@@ -2,7 +2,7 @@
 title:    "What's The Real Cost of Training New Employees?"
 permalink: /blog/cost-of-training-new-employees/
 author: { name: Michael Hansen }
-image: blog/2019-02-06-cost-of-training-new-employees.jpg
+image: blog/2019/2019-02-06-cost-of-training-new-employees.jpg
 meta: Read on for the real cost of training new employees, how to reduce that cost, along with risks of not giving your employees the training they need.
 ---
 
@@ -12,7 +12,7 @@ Consider this: for an investment of just 10% of an employee’s salary (or less!
 
 According to the 2017 Training industry report, companies spent an average of [$1,075 per employee](https://trainingmag.com/trgmag-article/2017-training-industry-report/) trained. While this may seem like small potatoes, this is a $200 increase from the previous year. This translates, in cash dollars, to a nearly 33% increase in overall training expenditures in the U.S. from 2016 to 2017 for a total of nearly 91 billion dollars.
 
-{% picture blog blog/2019-02-06-cost-of-training-new-employees-01.jpg --alt Companies spend $1,075 on training per employee %}
+{% picture blog blog/2019/2019-02-06-cost-of-training-new-employees-01.jpg --alt Companies spend $1,075 on training per employee %}
 
 Training costs include the actual materials created or utilized for training and time spent in each training module or conference. This is calculated into the total because every moment an employee spends in training is time away from their job. While training is crucial for your employees and the success of your business, it does take employees out of the mix for a period of time.
 

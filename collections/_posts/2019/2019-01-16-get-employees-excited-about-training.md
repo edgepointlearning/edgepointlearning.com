@@ -2,7 +2,7 @@
 title:    "How To Get Employees Excited About Training: 10 Ways To Motivate Them"
 permalink: /blog/get-employees-excited-about-training/
 author: { name: Michael Hansen }
-image: blog/2019-01-16-get-employees-excited-about-training.jpg
+image: blog/2019/2019-01-16-get-employees-excited-about-training.jpg
 meta: Knowing how to get employees excited about training is the key to improving employee satisfaction (and business success!). Here's how to motivate them.
 ---
 
@@ -23,7 +23,7 @@ So what are the benefits of employee engagement?
 * They're [more productive and efficient](https://news.gallup.com/businessjournal/190352/managing-employee-risk-requires-culture-compliance.aspx)
 * Engaged employees deliver [better customer service](https://www.forbes.com/sites/christinecomaford/2017/07/08/the-surprising-link-between-customer-experience-and-employee-engagement/#2b2aab0cb512)
 
-{% picture blog blog/2019-01-16-get-employees-excited-about-training01.jpg --alt Engaged employees are more productive and efficient %}
+{% picture blog blog/2019/2019-01-16-get-employees-excited-about-training01.jpg --alt Engaged employees are more productive and efficient %}
 
 Put simply, engaged employees feel valued at work and are happy to be there.
 
@@ -75,7 +75,7 @@ The average worker has just 24 minutes of training time every week, but [mobile 
 
 One of the best employee training program ideas is to incorporate the mobile devices they're already using. This can help them become more efficient and effective.
 
-{% picture blog blog/2019-01-16-get-employees-excited-about-training02.jpg --alt Mobile learners study an additional 40 minutes per week %}
+{% picture blog blog/2019/2019-01-16-get-employees-excited-about-training02.jpg --alt Mobile learners study an additional 40 minutes per week %}
 
 ### 5. Feed people
 

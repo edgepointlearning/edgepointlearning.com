@@ -2,7 +2,7 @@
 title:    "Why We Can't Forget Contractors And Freelancers For Our 2020 Training Initiatives"
 permalink: /blog/freelance-contractor-training/
 author: { name: Michael Hansen }
-image: blog/2020-01-29-freelance-contractor-training.jpg
+image: blog/2020/2020-01-29-freelance-contractor-training.jpg
 meta: Why independent contractor training is increasingly important and steps to design a thoughtful, practical, and thorough contractor training program.
 ---
 
@@ -16,7 +16,7 @@ And, even those gearing up to leave the workforce are getting their second wind 
 
 The above stats from a [study commissioned by UpWork and the Freelancers Union](https://www.upwork.com/i/freelancing-in-america/) clearly illustrate the growing trend towards a highly mobile, independent workforce. While a Department of Labor report puts the number of contractors and freelancers at a much lower number ([just 10% of the workforce](https://www.npr.org/2018/06/07/617863204/one-in-10-workers-are-independent-contractors-labor-department-says)), both groups agree that contract work is unlikely to go away or slow down any time soon.
 
-{% picture blog blog/2020-01-29-freelance-contractor-training01.jpg --alt Up to 35% of the workforce performs freelance work. 53% of Gen Z. 40% of Millennials. 31% of Gen X. 29% of Baby Boomers. %}
+{% picture blog blog/2020/2020-01-29-freelance-contractor-training01.jpg --alt Up to 35% of the workforce performs freelance work. 53% of Gen Z. 40% of Millennials. 31% of Gen X. 29% of Baby Boomers. %}
 
 ## Why is contractor training important now?  
 
@@ -46,7 +46,7 @@ This step also helps you to prioritize the skillsets you need to develop in your
 
 And contract workers appreciate that—they're a workforce dedicated to always improving and widening their skillsets. Approximately 70% of full-time freelancers [participated in skills training](https://www.fastcompany.com/90260886/should-you-include-freelancers-in-your-talent-development-program) in the same six-month period as just 49% of non-freelance workers.
 
-{% picture blog blog/2020-01-29-freelance-contractor-training02.jpg --alt 70% of freelancers participate in skills training. %}
+{% picture blog blog/2020/2020-01-29-freelance-contractor-training02.jpg --alt 70% of freelancers participate in skills training. %}
 
 ### 2. Start with simple onboarding
 

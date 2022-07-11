@@ -2,7 +2,7 @@
 title: How to Train Your New Employees Effectively
 permalink: /blog/how-to-train-new-employees/
 author: { name: Corey Bleich }
-image: blog/2018-04-11-how-to-train-new-employees.jpg
+image: blog/2018/2018-04-11-how-to-train-new-employees.jpg
 meta:  "It’s a common mistake that even successful businesses make: not formally training new employees. Here's how to train your new employees effectively with a new hire training checklist."
 ---
 
@@ -23,7 +23,7 @@ According to some estimates, the [cost of replacing employees](http://www.recrui
 * 91% of employees stick around for at least a year when organizations have efficient onboarding processes
 * 69% of them stick around for at least three years when companies have well-structured onboarding programs
 
-{% picture blog blog/2018-04-11-how-to-train-new-employees01.jpg --alt 91% of employees stay for at least a year when companies have well-structured new hire training %}
+{% picture blog blog/2018/2018-04-11-how-to-train-new-employees01.jpg --alt 91% of employees stay for at least a year when companies have well-structured new hire training %}
 
 Now imagine that 91% of your employees stay for at least a year and 69% are still going strong after three years. What does that mean for your bottom line? Your company culture? 
 

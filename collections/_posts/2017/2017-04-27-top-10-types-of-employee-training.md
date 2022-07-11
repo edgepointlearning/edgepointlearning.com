@@ -2,7 +2,7 @@
 title: Top 10 Types of Employee Training Methods
 permalink: /blog/top-10-types-of-employee-training/
 author: { name: Corey Bleich }
-image: blog/2017-04-27-top-10-types-of-employee-training.jpg
+image: blog/2017/2017-04-27-top-10-types-of-employee-training.jpg
 meta: From eLearning to instructor-led training to simulations and more, this is your guide to the best types of training methods for your workforce. 
 ---
 
@@ -23,7 +23,7 @@ The best types of employee training methods for your workforce may include:
 
 We discuss the ideal situations for these types of training for employees, along with their respective challenges below. 
 
-{% picture blog blog/2017-04-27-types-of-employee-training@2x.jpg --alt Types of employee training %}
+{% picture blog blog/2017/2017-04-27-types-of-employee-training@2x.jpg --alt Types of employee training %}
 
 ## 1. Instructor-led training
 

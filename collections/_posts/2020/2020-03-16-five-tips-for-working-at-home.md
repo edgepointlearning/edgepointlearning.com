@@ -2,7 +2,7 @@
 title: "Five Tips for Surviving Work at Home with Kids"
 permalink: /blog/five-tips-for-working-at-home-with-kids/
 author: { name: Amber Hartmann with Andrew Hartmann }
-image: blog/2020-03-17-five-tips-for-working-at-home-with-kids.jpg
+image: blog/2020/2020-03-17-five-tips-for-working-at-home-with-kids.jpg
 meta: How do you keep things running when you unexpectedly have to work from home?
 ---
 

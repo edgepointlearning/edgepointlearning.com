@@ -1,7 +1,7 @@
 ---
 title:       "How Can AR Training Help With My Employee Training?"
 permalink: /blog/ar-training-for-employees/
-image: blog/2021-03-10-ar-training-for-employees.jpg
+image: blog/2021/2021-03-10-ar-training-for-employees.jpg
 meta:  AR training is one of those far-off sci-fi ideas that’s already here, allowing you to design a more effective employee training plan right now. Here’s how.
 author: { name: Corey Bleich }
 ---
@@ -18,7 +18,7 @@ Augmented reality training seems like a futuristic way to learn information, but
 We take it for granted in many ways, but AR has been around for a while. Football fans respect it as an on-screen line indicates where the first-down is. Car buyers can take a new car for a spin from the comfort of their home. Designer shoe fans can test drive new Gucci kicks without changing out of their sweatpants. Homeowners can play with furniture placement directly in their room.
 
 
-{% picture blog blog/2021-03-10-ar-training-for-employees01.jpg --alt AR furniture in living room %}
+{% picture blog blog/2021/2021-03-10-ar-training-for-employees01.jpg --alt AR furniture in living room %}
 
 
 AR training for employees uses this same technology to change how employees see the world. Put in its simplest terms, a camera feeds images into a computer, which then processes it and projects it to the user. This same processing software allows employees to interact with the image.
@@ -29,7 +29,7 @@ Think of a mechanic faced with fixing an unfamiliar engine component. They could
 
 
 
-{% picture blog blog/2021-03-10-ar-training-for-employees02.jpg --alt Mechanic using AR %}
+{% picture blog blog/2021/2021-03-10-ar-training-for-employees02.jpg --alt Mechanic using AR %}
 
 
 

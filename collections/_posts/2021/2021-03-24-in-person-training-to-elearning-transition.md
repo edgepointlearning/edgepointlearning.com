@@ -1,7 +1,7 @@
 ---
 title:       "How To Transition In-Person Training To eLearning: 9 Steps"
 permalink: /blog/in-person-training-to-elearning-transition/
-image: blog/2021-03-24-in-person-training-to-elearning-transition.jpg
+image: blog/2021/2021-03-24-in-person-training-to-elearning-transition.jpg
 imagepos: "top center"
 meta:   Is it time to convert your instructor-led materials into an eLearning program that employees can do wherever they are? Here’s how to get started.
 author: { name: Corey Bleich }
@@ -48,7 +48,7 @@ Standard [learning management systems](/blog/best-lms-for-small-business/) (LMS)
 
 
 
-{% picture blog blog/2021-03-24-in-person-training-to-elearning-transition01.jpg --alt An LRS tracks not only what employees learn, but how they use it %}
+{% picture blog blog/2021/2021-03-24-in-person-training-to-elearning-transition01.jpg --alt An LRS tracks not only what employees learn, but how they use it %}
 
 
 

@@ -2,7 +2,7 @@
 title:    "L&D Can Drive Corporate Sustainability Initiatives: Here's How"
 permalink: /blog/corporate-sustainability-initiatives/
 author: { name: Corey Bleich }
-image: blog/2020-04-22-corporate-sustainability-initiatives.jpg
+image: blog/2020/2020-04-22-corporate-sustainability-initiatives.jpg
 meta: Small changes today can lead to bigger changes tomorrow, all in service to protecting our world (and your business).
 ---
 

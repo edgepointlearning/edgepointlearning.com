@@ -1,7 +1,7 @@
 ---
 title:    How To Develop Effective Suicide Prevention Training
 permalink: /blog/suicide-prevention-training/
-image: blog/2020-09-023-suicide-prevention-training.jpg
+image: blog/2020/2020-09-023-suicide-prevention-training.jpg
 meta: You might not think that suicide prevention training is something that you need in your field of work, but suicide prevention is everyone’s business.
 author: { 
   name: "Michelle Moorhead",
@@ -30,7 +30,7 @@ Consider these stats.
 
 The U.S. Centers for Disease Control (CDC) agrees that [prevention is key](https://www.cdc.gov/violenceprevention/pdf/asap_suicide_issue2-a.pdf) to reducing the rate of suicide. This means providing suicide prevention training to people throughout the community to serve as gatekeepers to help. Gatekeepers are people who might have direct contact with people who are most at risk of suicide. Examples of gatekeepers include [educators](https://teenlifeline.org/teen-topics/educators/), human resources directors, and managers, all who might notice changes in someone’s behavior or engagement. In some cases, even a trusted co-worker can be in a position to recognize at-risk behavior and offer support. Gatekeepers could be anyone who is interested in and willing to help.
 
-{% picture blog blog/2020-09-023-suicide-prevention-training01.jpg --alt During Suicide Prevention Month, consider how you can support employees and those they serve with appropriate training %}
+{% picture blog blog/2020/2020-09-023-suicide-prevention-training01.jpg --alt During Suicide Prevention Month, consider how you can support employees and those they serve with appropriate training %}
 
 ## Which topics should I cover in our suicide prevention training? 
 

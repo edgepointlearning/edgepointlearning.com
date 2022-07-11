@@ -1,7 +1,7 @@
 ---
 title:       "How to Recruit, Train, And Retain Employees During The Great Resignation"
 permalink: /blog/recruit-train-retain-employees-great-resignation/
-image: blog/2022-02-16-recruit-train-retain-employees-great-resignation.jpg
+image: blog/2022/2022-02-16-recruit-train-retain-employees-great-resignation.jpg
 meta:  It’s been a challenge to recruit and retain employees during the Great Resignation. Here’s how to gain and keep their loyalty.
 author: { name: Corey Bleich }
 ---
@@ -10,7 +10,7 @@ Trying to figure out how to retain employees during the Great Resignation? You�
 
 [Twenty percent of workers](https://www.usatoday.com/story/money/2022/01/04/great-resignation-number-people-quitting-jobs-hit-record/9083256002/) surveyed said they were quitting their jobs to pursue new career paths and passions, and 25% of hospitality workers said they wouldn’t want to work in the industry again. Many restaurant and retail workers cited low pay and health risks as reasons for leaving their jobs. The [healthcare field](https://www.fiercehealthcare.com/practices/burnout-workload-and-fear-infection-compel-physicians-and-nurses-to-reduce-hours-or-leave) also faces challenges, as one in five doctors and two in five nurses plan to leave their practices in the next two years.
 
-{% picture blog blog/2022-02-16-recruit-train-retain-employees-great-resignation01.jpg --alt Twenty percent of workers surveyed said they were quitting their jobs to pursue new career paths and passions %}
+{% picture blog blog/2022/2022-02-16-recruit-train-retain-employees-great-resignation01.jpg --alt Twenty percent of workers surveyed said they were quitting their jobs to pursue new career paths and passions %}
 
 ## Why are people quitting?
 

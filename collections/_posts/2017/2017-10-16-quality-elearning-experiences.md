@@ -2,13 +2,13 @@
 title: How-To Create Nobu Quality eLearning Experiences Using Visual Design Guidelines
 permalink: /blog/quality-elearning-experiences/
 author: { name: Quincy Conley, PhD }
-image: blog/2017-10-16-quality-elearning-experiences.jpg
+image: blog/2017/2017-10-16-quality-elearning-experiences.jpg
 meta: Quincy Conley, a Learning Scientist, explains how we can apply culinary lessons to create enchanting and quality eLearning experiences for our employees.
 
 author: { 
   name: "Quincy Conley, Ph.D.",
   title:  "Learning Scientist, Pearson",
-  image: "blog/2017-10-16-quincy-conley.jpg", 
+  image: "blog/quincy-conley.jpg", 
   bio: "Quincy Conley is a Learning Scientist on the Learning Research and Design team at Pearson. He has worked as a dedicated instructional designer and researcher for over 16 years. With expertise in using biometric sensors to examine learning experiences, his primary functions are to decide what combination of appropriate educational techniques and technology to use to increase learning gains. His current research interests are in designing performance support systems, augmented reality and intelligent tutoring systems. Quincy earned his Ph.D. in Educational Technology from Arizona State University, and both his M.A. in Instructional Design & Technology and B.A. in Aerospace Science from the University of North Dakota."
 }
 ---
@@ -21,7 +21,7 @@ World-renowned chef, Nobuyuki Matsuhisa (Nobu), with over 40 restaurant location
 
 As the chef’s brand suggests, all the senses cannot be separated, they are interconnected. In [Newsweek](http://www.newsweek.com/2017/06/16/david-rockwell-and-chef-nobu-matsuhisa-built-perfect-restaurant-620881.html), Chef Nobu’s self-description of his renowned restaurants are that the “... the food and concept are very simple, but always with a twist, like a new product or ingredients and presentations.” His passion is to make his restaurant goers say, “that’s beautiful!” during their culinary experience.
 
-{% picture blog blog/2017-10-16-nobu-group.jpg --alt Nobu Entrance %}
+{% picture blog blog/2017/2017-10-16-nobu-group.jpg --alt Nobu Entrance %}
 
 ## What makes for high-quality eLearning experiences?
 
@@ -50,7 +50,7 @@ Stemming from the graphic design world, thesee are four principles for good visu
 To start, let's bring it back to Nobu.
 One of Nobu’s signature dishes, and a personal favorite, is the Black Miso Cod. One of the first things you might notice in its presentation is the contrasting colors. The cod itself is a light color, with purposeful grill marks. Additionally, there is a nice pink pickled ginger root used to cleanse the palate with green bamboo leafs to add elegance.
 
-{% picture blog-wide blog/2017-10-16-nobu-dish.jpg --alt A Nobu dish %}
+{% picture blog-wide blog/2017/2017-10-16-nobu-dish.jpg --alt A Nobu dish %}
 
 How can we create contrast like this in an eLearning project? If you're designing on your own, you can start with these ideas.
 
@@ -77,7 +77,7 @@ The other reason we should care about this principle is because we want to free 
 
 An example where this comes into play is when designing an eLearning module where the navigation buttons are different from screen-to-screen. The action is not consistent so the learner has to think about how to simply advance through the course. This takes away valuable cognitive resources from learning what you want them to learn.
 
-{% picture blog-wide blog/2017-10-16-nobu-repetition.jpg --alt An example of Nobu repetition %}
+{% picture blog-wide blog/2017/2017-10-16-nobu-repetition.jpg --alt An example of Nobu repetition %}
 
 At Nobu, they focus on repetition by presenting dishes in an excruciatingly-detailed way in order to create the same impression on each guest. To provide a consistently enjoyable experience, every bite should be just as delicious as the previous.
 
@@ -89,7 +89,7 @@ You might have heard of the term screen real estate. Just like in real estate, y
 
 As an experiment, try creating a screen where nothing is aligned or only one thing is askew. Tell me how easy it is for the eye to pick up on that. It can be distracting.
 
-{% picture blog-wide blog/2017-10-16-nobu-alignment.jpg --alt An example of Nobu alignment %}
+{% picture blog-wide blog/2017/2017-10-16-nobu-alignment.jpg --alt An example of Nobu alignment %}
 
 Another international hit that sets the tone at Nobu is the Yellowtail Sashimi with Jalapeño. The alignment between the subtleness of the tuna combined with the heat of the jalapeño combines to create an epic full flavor that would make [Kanye walk to Nobu](https://firstwefeast.com/eat/2014/09/nobu-matsuhisa-career-changing-dishes) to get it.
 
@@ -99,7 +99,7 @@ Proximity relates to creating relationships between objects or information. We u
 
 So, what we are really talking about is how to create relationships between images and text or images and other images in a tight space without confusing the learner.
 
-{% picture blog-wide blog/2017-10-16-nobu-proximity.jpg --alt An example of Nobu proximity %}
+{% picture blog-wide blog/2017/2017-10-16-nobu-proximity.jpg --alt An example of Nobu proximity %}
 
 To create new relationships for your palate, Chef Nobu often deconstructs some of his signature dishes to accentuate the intended flavors. For instance, using ingredients similar to tiramisu, the Suntory Cappuccino is layered valrhona chocolate almond crunch, coffee cream, whisky foam, and milk ice cream. This technique only heightens the best of the flavors.
 

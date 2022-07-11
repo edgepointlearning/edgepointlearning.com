@@ -2,7 +2,7 @@
 title:    "6 eLearning Myths We Need To Completely Leave Behind In 2019 "
 permalink: /blog/elearning-myths-2019/
 author: { name: Michael Hansen }
-image: blog/2019-03-27-elearning-myths-2019.jpg
+image: blog/2019/2019-03-27-elearning-myths-2019.jpg
 meta: "We all know eLearning is a growing industry and what may have been par for course in 2014 is no longer a best practice. In 2019, these are the six eLearning myths we can leave completely behind."
 ---
 

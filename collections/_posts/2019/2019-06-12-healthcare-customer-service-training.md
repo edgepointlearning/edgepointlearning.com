@@ -2,7 +2,7 @@
 title: How To Create A Better Healthcare Customer Service Training Program
 permalink: /blog/healthcare-customer-service-training/
 author: { name: Corey Bleich }
-image: blog/2019-06-12-healthcare-customer-service-training.jpg
+image: blog/2019/2019-06-12-healthcare-customer-service-training.jpg
 meta: Not sure where to start with healthcare customer service training? This is how to build your customer service in healthcare training from the ground up.
 ---
 

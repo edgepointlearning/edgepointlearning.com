@@ -2,7 +2,7 @@
 title: Building A Strong Foundation For Training With Solid Learning Objectives
 permalink: /blog/learning-objectives-ebook/
 author: { name: Carrie Lewis Miller and Quincy Conley }
-image: blog/2018-01-24-learning-objectives-ebook.jpg
+image: blog/2018/2018-01-24-learning-objectives-ebook.jpg
 meta: Ready to create a strong foundation for your eLearning initiatives? Learn the basics of creating solid learning objectives from industry experts.
 ---
 

@@ -2,7 +2,7 @@
 title:   How Understanding Adult Learning Theory Helps Us Create Better eLearning
 permalink: /blog/adult-learning-theory/
 author: { name: Corey Bleich }
-image: blog/2018-07-25-adult-learning-theory.jpg
+image: blog/2018/2018-07-25-adult-learning-theory.jpg
 meta: Adult learning theory is the data-backed way into the minds of adults. Understanding it can help you create better eLearning opportunities for your employees. Here's how.
 ---
 

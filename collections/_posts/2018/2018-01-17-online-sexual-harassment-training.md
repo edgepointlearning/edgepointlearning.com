@@ -1,13 +1,13 @@
 ---
 title: "Rethinking Online Sexual Harassment Training After #MeToo"
 permalink: /blog/online-sexual-harassment-training/
-image: blog/2018-01-17-online-sexual-harassment-training.jpg
+image: blog/2018/2018-01-17-online-sexual-harassment-training.jpg
 meta: Effective online sexual harassment training means more than sitting employees in front of a screen and saying, “Don’t do it.” Here's how to make it effective.
 
 author: { 
   name: "Holly Curtis",
   title:  "President and Founder of [The People Perspective, LLC](http://www.thepeopleperspective.com)",
-  image: "blog/2018-01-18-holly-curtis.jpg", 
+  image: "blog/holly-curtis.jpg", 
   bio: "Holly Curtis is a recognized executive business leader who provides senior-level human resource and organizational development consulting services in support of each organization's unique business circumstances. She has held HR leadership roles with a wide variety of organizations, from entrepreneurial start-ups to global industry giants."
 }
 ---

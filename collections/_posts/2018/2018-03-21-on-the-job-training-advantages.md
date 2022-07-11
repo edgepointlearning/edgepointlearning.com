@@ -2,7 +2,7 @@
 title: What Are The Major On-The-Job Training Advantages?
 permalink: /blog/on-the-job-training-advantages/
 author: { name: Corey Bleich }
-image: blog/2018-03-21-on-the-job-training-advantages.jpg
+image: blog/2018/2018-03-21-on-the-job-training-advantages.jpg
 meta: Easily applicable, no wasted time, and it makes good (money) sense, along with other major advantages of on-the-job training. Read on to learn more.
 ---
 
@@ -38,7 +38,7 @@ On-the-job training delivered specifically through various microlearning modules
 4. Gives you flexibility
 5. It's social-ready
 
-{% picture blog-wide blog/2018-03-21-on-the-job-training-advantages-infographic.jpg --alt On The Job Training Advantages %}
+{% picture blog-wide blog/2018/2018-03-21-on-the-job-training-advantages-infographic.jpg --alt On The Job Training Advantages %}
 
 ### Easily applicable
 

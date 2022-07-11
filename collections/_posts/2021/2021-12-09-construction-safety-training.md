@@ -1,7 +1,7 @@
 ---
 title:       "How To Create Construction Safety Training For Employees"
 permalink: /blog/construction-safety-training/
-image: blog/2021-12-09-construction-safety-training.jpg
+image: blog/2021/2021-12-09-construction-safety-training.jpg
 meta:  Construction jobsites are one of the most dangerous places to work. Here's what you need to know to build your construction safety training program.
 author: { name: Corey Bleich }
 ---
@@ -15,7 +15,7 @@ The construction industry sees an average of 150,000 workers in accidents each y
 
 
 
-{% picture blog blog/2021-12-09-construction-safety-training01.jpg --alt ,100 fatal construction accidents in 2019 %}
+{% picture blog blog/2021/2021-12-09-construction-safety-training01.jpg --alt ,100 fatal construction accidents in 2019 %}
 
 
 

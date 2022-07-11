@@ -2,7 +2,7 @@
 title: How To Make A Successful Business Case For eLearning Development
 permalink: /blog/business-case-for-elearning-development/
 author: { name: Michael Hansen }
-image: blog/2017-10-01-business-case-for-elearning-development.jpg
+image: blog/2017/2017-10-01-business-case-for-elearning-development.jpg
 meta: You know that eLearning can provide your company with the best training, but you have to convince your boss. Concerned? We've got it down to ten major steps.
 ---
 

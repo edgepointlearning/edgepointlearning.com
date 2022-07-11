@@ -2,7 +2,7 @@
 title:    "Designing Virtual Instructor-Led Training? Here's 5 Tips To Get Started"
 permalink: /blog/virtual-instructor-led-training/
 author: { name: Corey Bleich }
-image: blog/2020-08-05-virtual-instructor-led-training.jpg
+image: blog/2020/2020-08-05-virtual-instructor-led-training.jpg
 meta: Virtual instructor-led training keeps your workforce informed and engaged. These are our tips to get started with your own virtual instructor-led programs.
 ---
 
@@ -17,7 +17,7 @@ Virtual instructor-led training can combine all of the benefits of on-the-go tra
 
 Think jumping on a Zoom call to teach and learn about a specific topic with a selected group of employees and instructor. Classes can be a small team, or they can be large enough to encompass full departments.
 
-{% picture blog blog/2020-08-05-virtual-instructor-led-training01.jpg --alt Remote work has increased 140% in 15 years %}
+{% picture blog blog/2020/2020-08-05-virtual-instructor-led-training01.jpg --alt Remote work has increased 140% in 15 years %}
 
 ## What are the benefits of virtual instructor-led training? 
 

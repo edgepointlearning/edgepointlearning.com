@@ -2,7 +2,7 @@
 title: Sales Training Best Practices
 permalink: /blog/sales-training-best-practices/
 author: { name: Megan Dobransky }
-image: blog/2015-07-01-sales-training-best-practices.jpg
+image: blog/2015/2015-07-01-sales-training-best-practices.jpg
 meta: Two of our specialties here at EdgePoint Learning are business skills and sales training.
 ---
 

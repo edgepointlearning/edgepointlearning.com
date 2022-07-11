@@ -1,7 +1,7 @@
 ---
 title:       "How To Build A Safety Inspection Checklist: 5 Steps"
 permalink: /blog/safety-inspection-checklist/
-image: blog/2021-07-28-safety-inspection-checklist.jpg
+image: blog/2021/2021-07-28-safety-inspection-checklist.jpg
 meta:  Whether you already have a paper-based checklist or are starting from scratch, here are five steps to build a digital safety inspection checklist for your teams.
 author: { name: Corey Bleich }
 ---
@@ -41,7 +41,7 @@ When considering what to include on your checklists, think about the ways in whi
 ## 3. Work with SMEs to build your workplace safety inspection checklist 
 
 
-{% picture blog blog/2021-07-28-safety-inspection-checklist01.jpg --alt Subject matter experts (SMEs) and local leaders are key in building out your checklists %}
+{% picture blog blog/2021/2021-07-28-safety-inspection-checklist01.jpg --alt Subject matter experts (SMEs) and local leaders are key in building out your checklists %}
 
 
 

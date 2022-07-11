@@ -1,7 +1,7 @@
 ---
 title:      8 eLearning Trends And Predictions For 2021
 permalink: /blog/elearning-trends-2021/
-image: blog/2020-12-16-elearning-trends-2021.jpg
+image: blog/2020/2020-12-16-elearning-trends-2021.jpg
 meta:  When it comes to eLearning trends, 2021 promises to call many traditional ways of thinking into question. These are our predictions for 2021 trends.
 author: { name: Corey Bleich }
 ---
@@ -24,7 +24,7 @@ Based on these figures and large-scale changes, these are eight of our predictio
 
 No real surprise here, but [the numbers are still shocking](https://techjury.net/blog/elearning-statistics/). In 2017, 77% of companies incorporated some form of virtual training. By 2020, that number jumped to 98%. 
 
-{% picture blog blog/2020-12-16-elearning-trends-2021-01.jpg --alt 2017: 77% of companies had some form of virtual training / 2020: 98% of companies %}
+{% picture blog blog/2020/2020-12-16-elearning-trends-2021-01.jpg --alt 2017: 77% of companies had some form of virtual training / 2020: 98% of companies %}
 
 This jump was made out of necessity in 2020's shift to a larger remote workforce, but has other side benefits. Those companies with comprehensive training programs (read: well-developed and expertly rolled out) had 218% higher revenues per employee. They also experienced 24% higher profit margins.
 
@@ -82,7 +82,7 @@ Surveys of workers have found that fully 90% of employees[ want to continue work
 
 The changing workplace means that the future of corporate learning must necessarily become more flexible so employees can take training when they need it.  
 
-{% picture blog blog/2020-12-16-elearning-trends-2021-02.jpg --alt 90% of remote employees want to continue working at home %}
+{% picture blog blog/2020/2020-12-16-elearning-trends-2021-02.jpg --alt 90% of remote employees want to continue working at home %}
 
 ## 8. eLearning trends in 2021 are like every year, but more 
 

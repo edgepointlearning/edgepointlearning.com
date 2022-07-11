@@ -1,7 +1,7 @@
 ---
 title:       "15 Best Practices And Virtual Training Tips For Trainers"
 permalink: /blog/virtual-training-tips-for-trainers/
-image: blog/2021-02-24-virtual-training-tips-for-trainers.jpg
+image: blog/2021/2021-02-24-virtual-training-tips-for-trainers.jpg
 meta:  Need to better support your remote workforce? Read on for 15 virtual training tips for trainers as they transition from the classroom to the screen.
 author: { name: Corey Bleich }
 ---
@@ -20,7 +20,7 @@ Additionally, because training is delivered through a screen (instead of with th
 Put as simply as possible, training virtually requires a different toolset than in-person instruction.
 
 
-{% picture blog blog/2021-02-24-virtual-training-tips-for-trainers01.jpg --alt Training virtually requires a different toolset than in-person instruction %}
+{% picture blog blog/2021/2021-02-24-virtual-training-tips-for-trainers01.jpg --alt Training virtually requires a different toolset than in-person instruction %}
 
 
 
@@ -101,7 +101,7 @@ One of the virtual training tips for trainers that can be hard to follow through
 Action: Use a survey to gather anonymous feedback to make your virtual trainings even better.
 
 
-{% picture blog blog/2021-02-24-virtual-training-tips-for-trainers02.jpg --alt Gather anonymous feedback after to make your virtual training even better %}
+{% picture blog blog/2021/2021-02-24-virtual-training-tips-for-trainers02.jpg --alt Gather anonymous feedback after to make your virtual training even better %}
 
 
 

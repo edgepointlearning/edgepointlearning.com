@@ -2,7 +2,7 @@
 title: 12 Neuroscience Breakthroughs That Will Help Improve Your Training
 permalink: /blog/learning-research-2017/
 author: { name: Corey Bleich }
-image: blog/2017-11-27-learning-research-2017.jpg
+image: blog/2017/2017-11-27-learning-research-2017.jpg
 meta: What we learned about the brain and training in 2017, and how to apply it to your employee learning programs. 
 ---
 

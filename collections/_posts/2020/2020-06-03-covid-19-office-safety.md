@@ -2,7 +2,7 @@
 title:    " COVID-19 Office Safety: How To Prepare Your Workplace"
 permalink: /blog/covid-19-office-safety/
 author: { name: Corey Bleich }
-image: blog/2020-06-03-covid-19-office-safety.jpg
+image: blog/2020/2020-06-03-covid-19-office-safety.jpg
 meta: From transmission reduction to sanitation and flexible work routines, our guide covers the latest research in COVID-19 office safety.  
 ---
 
@@ -28,7 +28,7 @@ Further, as if sanitation considerations for COVID-19 were not enough, there are
 
 These considerations are an important first step in returning to work after COVID-19, one that can show employees and customers that you are actively keeping them safe at work. Until you have safe and thorough procedures in place, plan to keep employees at home.
 
-{% picture blog blog/2020-06-03-covid-19-office-safetys01.jpg --alt Until you have safe and thorough procedures in place, keep employees at home %}
+{% picture blog blog/2020/2020-06-03-covid-19-office-safetys01.jpg --alt Until you have safe and thorough procedures in place, keep employees at home %}
 
 ## Reduce potential transmission 
 
@@ -72,7 +72,7 @@ Perhaps the hardest part of COVID-19 office safety is the changes we all need to
 
 As challenging as reconsidering social norms is, for now, this is the new normal. Reframe this as an act of kindness – a compassionate way to keep each other healthy and safe during this extraordinary time. 
 
-{% picture blog blog/2020-06-03-covid-19-office-safetys02.jpg --alt These measures are an act of kindness: a way to keep each other safe during this extraordinary time %}
+{% picture blog blog/2020/2020-06-03-covid-19-office-safetys02.jpg --alt These measures are an act of kindness: a way to keep each other safe during this extraordinary time %}
 
 
 Make clear to employees what the expectations are in the office. As appropriate to your company, these might include:

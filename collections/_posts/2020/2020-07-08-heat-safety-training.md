@@ -2,7 +2,7 @@
 title:    "Heat Safety Training This Summer Can Keep Employees Safe"
 permalink: /blog/heat-safety-training/
 author: { name: Corey Bleich }
-image: blog/2020-07-08-heat-safety-training.jpg
+image: blog/2020/2020-07-08-heat-safety-training.jpg
 meta: Workers are at increased risk for heat-related illnesses—and even death—during summer. Heat safety training can help. Here's how to roll it out to your employees.
 
 ---
@@ -20,7 +20,7 @@ You may think that heat safety training is just for construction workers working
 Further, rising global temperatures may contribute to an increase in heat-related illnesses and deaths. In 2018, [60 workers in the U.S. died](https://www.theguardian.com/us-news/2020/jan/22/heat-deaths-workers-safety-climate-crisis#:~:text=Robinson%2C%20who%20died%20in%202011,Statistics%20data%20on%20workplace%20fatalities.) on the job due to heat stress. And, while the Occupational Health and Safety Office (OSHA) keeps track of reported heat accident statistics, these do not include unreported statistics for small businesses and sole proprietors. [Heat and heat-related illness](https://www.cdc.gov/pictureofamerica/pdfs/picture_of_america_heat-related_illness.pdf) is one of the deadliest (and most preventable) weather-related health issues in the U.S.
 
 
-{% picture blog blog/2020-07-08-heat-safety-training01.jpg --alt In 2018, 60 U.S. workers died due to heat stress %}
+{% picture blog blog/2020/2020-07-08-heat-safety-training01.jpg --alt In 2018, 60 U.S. workers died due to heat stress %}
 
 So, what is heat safety training and how can it help?
 
@@ -52,7 +52,7 @@ Drinking enough fluids—water and other liquids with electrolytes—is key to s
 
 When heat hazards like high temps, high humidity, and poor air circulation are present, you are dehydrating faster than you think. Workers should drink even if they don’t feel thirsty following the half-and-half rule: drink ½ liter of water every ½ hour.
 
-{% picture blog blog/2020-07-08-heat-safety-training02.jpg --alt In hot conditions, drink at least ½ liter of water every ½ hour %}
+{% picture blog blog/2020/2020-07-08-heat-safety-training02.jpg --alt In hot conditions, drink at least ½ liter of water every ½ hour %}
 
 ## Which topics should I cover in our heat safety training? 
 

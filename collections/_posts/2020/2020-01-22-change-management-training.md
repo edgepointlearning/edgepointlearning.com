@@ -2,7 +2,7 @@
 title:    "How To Develop Change Management Training For Leaders In Your Company "
 permalink: /blog/change-management-training/
 author: { name: Corey Bleich }
-image: blog/2020-01-22-change-management-training.jpg
+image: blog/2020/2020-01-22-change-management-training.jpg
 meta: Change management training for leaders can help your employees better manage transitions. This is how to set up a training program in your company.
 ---
 

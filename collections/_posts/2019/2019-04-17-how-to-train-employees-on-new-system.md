@@ -2,7 +2,7 @@
 title:    "How To Train Employees On a New System Or Technology: 5 Tips"
 permalink: /blog/how-to-train-employees-on-new-system/
 author: { name: Corey Bleich }
-image: blog/2019-04-17-how-to-train-employees-on-new-system.jpg
+image: blog/2019/2019-04-17-how-to-train-employees-on-new-system.jpg
 meta: "Not sure how to train employees on a new system or technology? Here are five of our favorite tips for doing it effectively and hassle-free."
 ---
 The only constant is chang...ing technology.

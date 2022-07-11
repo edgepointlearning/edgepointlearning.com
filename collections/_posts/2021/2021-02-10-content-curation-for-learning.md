@@ -1,7 +1,7 @@
 ---
 title:       "How To Effectively Use Content Curation For Learning"
 permalink: /blog/content-curation-for-learning/
-image: blog/2021-02-10-content-curation-for-learning.jpg
+image: blog/2021/2021-02-10-content-curation-for-learning.jpg
 meta:  Here’s how to use content curation for learning to more effectively train your employees, from a variety of sources.
 author: { name: Corey Bleich }
 ---
@@ -56,7 +56,7 @@ It gives you the ability to integrate curated learning “playlists” into micr
 
 
 
-{% picture blog blog/2021-02-10-content-curation-for-learning01.jpg --alt PinPoint Content Community %}
+{% picture blog blog/2021/2021-02-10-content-curation-for-learning01.jpg --alt PinPoint Content Community %}
 
 
 

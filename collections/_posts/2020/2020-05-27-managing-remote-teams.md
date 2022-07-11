@@ -2,7 +2,7 @@
 title:    "10 Tips For Managing Remote Teams More Effectively"
 permalink: /blog/managing-remote-teams/
 author: { name: Corey Bleich }
-image: blog/2020-05-27-managing-remote-teams.jpg
+image: blog/2020/2020-05-27-managing-remote-teams.jpg
 meta: Managing remote teams requires a different approach than managing employees in real life. Here's how to do it effectively. 
 ---
 
@@ -23,7 +23,7 @@ The results are in, and they are remarkably consistent: remote work actually [in
 
 Remember that a timeclock does not dictate how much an employee gets done. It doesn’t matter if the work is completed on the couch or in a cubicle, in pajamas or in business clothes.  If employees are accomplishing their tasks for your team, it’s a win.
 
-{% picture blog blog/2020-05-27-managing-remote-teams01.jpg --alt Remote work actually increases productivity %}
+{% picture blog blog/2020/2020-05-27-managing-remote-teams01.jpg --alt Remote work actually increases productivity %}
 
 ## 3. Craft goals driven by output not time at screen
 

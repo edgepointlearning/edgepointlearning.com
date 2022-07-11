@@ -1,7 +1,7 @@
 ---
 title:       "Is Your Training Program Remote Work Ready?"
 permalink: /blog/remote-work-ready/
-image: blog/2022-05-25-remote-work-ready.jpg
+image: blog/2022/2022-05-25-remote-work-ready.jpg
 meta:  Remote work is here to stay, but has your organization’s training caught up with the trend? Learn how to make sure your training is remote work ready. 
 author: { name: Megan Egbert }
 ---

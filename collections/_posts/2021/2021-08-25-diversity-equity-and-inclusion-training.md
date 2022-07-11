@@ -1,7 +1,7 @@
 ---
 title:       "How To Build A Diversity, Equity, And Inclusion Training Program"
 permalink: /blog/diversity-equity-and-inclusion-training/
-image: blog/2021-08-25-diversity-equity-and-inclusion-training.jpg
+image: blog/2021/2021-08-25-diversity-equity-and-inclusion-training.jpg
 meta:  More than just teaching tolerance, DEI training helps to build a workplace that is safe, supportive, and truly inclusive. Here’s how to build your program.
 author: { name: Corey Bleich }
 ---
@@ -47,7 +47,7 @@ Our workplaces are becoming more diverse whether we acknowledge it or not. But t
 
 
 
-{% picture blog blog/2021-08-25-diversity-equity-and-inclusion-training01.jpg --alt Diverse companies outperform competitors by 35% %}
+{% picture blog blog/2021/2021-08-25-diversity-equity-and-inclusion-training01.jpg --alt Diverse companies outperform competitors by 35% %}
 
 
 
@@ -82,7 +82,7 @@ Recognizing what microaggressions are and retraining employees is a crucial part
 Diversity, equity, and inclusion training programs help employees become aware of how they can be allies of traditionally marginalized or historically underrepresented groups, in and out of the workplace.
 
 
-{% picture blog blog/2021-08-25-diversity-equity-and-inclusion-training02.jpg --alt Allyship is the practice of building collective responsibility for all employees %}
+{% picture blog blog/2021/2021-08-25-diversity-equity-and-inclusion-training02.jpg --alt Allyship is the practice of building collective responsibility for all employees %}
 
 
 
@@ -103,7 +103,7 @@ As with most training programs, the first step is to identify what is needed and
 You might use microlearning or eLearning tools for background materials, but it’s also crucial to incorporate interactive training methods (e.g., simulation training and group discussions). Personal interactions are necessary to bring teams closer, away from a “them” perspective and back to the more inclusive “us.”
 
 
-{% picture blog blog/2021-08-25-diversity-equity-and-inclusion-training03.jpg --alt DEI training helps teams move away from a “them” perspective and back to the more inclusive “us” %}
+{% picture blog blog/2021/2021-08-25-diversity-equity-and-inclusion-training03.jpg --alt DEI training helps teams move away from a “them” perspective and back to the more inclusive “us” %}
 
 
 The topics covered in DEI training are intensely personal for all participants. Employees who face routine discrimination are understandably angry, and employees who do not might feel accused or defensive. It’s important to set up a structure that accommodates these heightened emotions and allows ample time to process complicated feelings. 

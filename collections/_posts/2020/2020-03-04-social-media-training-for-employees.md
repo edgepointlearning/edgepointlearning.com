@@ -2,7 +2,7 @@
 title:    "Beyond Facebook: Social Media Training For Today's Employees"
 permalink: /blog/social-media-training-for-employees/
 author: { name: Corey Bleich }
-image: blog/2020-03-04-social-media-training-for-employees.jpg
+image: blog/2020/2020-03-04-social-media-training-for-employees.jpg
 meta: This is how to get started with social media training for employees in 2020, from topics to cover to training frequency.
 ---
 
@@ -27,7 +27,7 @@ These are just a few examples of what your social media training of 2020 may inc
 
 From the early days of MySpace to the global influence of Facebook and the instantaneous reach of Twitter and SnapChat and TikTok, social media is marked by its variability and capacity for change. 
 
-{% picture blog blog/2020-03-04-social-media-training-for-employees01.jpg --alt Social media is marked by its capacity for change %}
+{% picture blog blog/2020/2020-03-04-social-media-training-for-employees01.jpg --alt Social media is marked by its capacity for change %}
 
 What we consider social media continues to evolve quickly, with new rules of engagement for each new platform. Your policy must take this into account and make room for and acknowledge constant change. 
 
@@ -53,7 +53,7 @@ This doesn’t mean that Reddit should be avoided – just that there is “[red
 
 The 63% of people in the U.S. who say [their employers have no social media policy](https://www.pewresearch.org/internet/2016/06/22/social-media-and-the-workplace/) are already at a disadvantage in terms of what’s expected. Help your employees avoid issues online with a solid social media policy today. 
 
-{% picture blog blog/2020-03-04-social-media-training-for-employees02.jpg --alt 3% of employees never received a social media policy from their employer %}
+{% picture blog blog/2020/2020-03-04-social-media-training-for-employees02.jpg --alt 3% of employees never received a social media policy from their employer %}
 
 
 While the previous examples generally point to specific websites, every social media policy must embrace the variability that is intrinsic to social media. Your policy should capture general language that steers an employee online, while still being flexible enough to change over time. 

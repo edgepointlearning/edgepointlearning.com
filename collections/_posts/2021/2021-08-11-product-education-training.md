@@ -1,7 +1,7 @@
 ---
 title:       "What Is Product Education Training? Examples And Ideas"
 permalink: /blog/product-education-training/
-image: blog/2021-08-11-product-education-training.jpg
+image: blog/2021/2021-08-11-product-education-training.jpg
 meta:  From sales support to customer production education training, here is how to roll out this type of training program (along with examples)! 
 author: { name: Corey Bleich }
 ---
@@ -79,7 +79,7 @@ Why should the administrative assistant know details about the products when cha
 
 
 
-{% picture blog blog/2021-08-11-product-education-training01.jpg --alt Every employee is part of the sales team %}
+{% picture blog blog/2021/2021-08-11-product-education-training01.jpg --alt Every employee is part of the sales team %}
 
 
 

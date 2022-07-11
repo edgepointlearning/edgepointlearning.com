@@ -2,7 +2,7 @@
 title: 7 Crucial Safety Topics To Include In Your Employee Training Program
 permalink: /blog/employee-safety-training-topics/
 author: { name: Corey Bleich }
-image: blog/2018-03-14-employee-safety-training-topics.jpg
+image: blog/2018/2018-03-14-employee-safety-training-topics.jpg
 meta: What makes an employee safety training program particularly effective? Start by covering these key workplace safety topics that are applicable to almost every industry.
 ---
 
@@ -40,7 +40,7 @@ The Bureau of Labor Statistics estimated that these five conditions made up 34% 
 
 Teach employees how to lift, sit, and move throughout their day so you can be rewarded with fewer sick days, lowered healthcare costs, and happier employees. Find our full guide on creating [effective ergonomics training here](/blog/ergonomics-training/).
 
-{% picture blog blog/2018-03-14-employee-safety-training-topics01.jpg --alt Ergonomic injuries costs $50 billion annually %}
+{% picture blog blog/2018/2018-03-14-employee-safety-training-topics01.jpg --alt Ergonomic injuries costs $50 billion annually %}
 
 ### 2. Fire safety
 
@@ -52,7 +52,7 @@ New employee safety training must cover employee egress in event of a fire. Many
 
 The Federal Bureau of Investigation estimates that approximately two million people in the U.S. are victims of workplace violence annually, with 80% of all active shooter incidents occurring in the workplace.
 
-{% picture blog blog/2018-03-14-employee-safety-training-topics02.jpg --alt 74% of domestic violence victims are harassed or attacked at work %}
+{% picture blog blog/2018/2018-03-14-employee-safety-training-topics02.jpg --alt 74% of domestic violence victims are harassed or attacked at work %}
 
 The statistics on domestic violence that seeps into the workplace are sobering as well. Women in the workplace are overwhelmingly the target of this type of workplace violence. A study of domestic violence survivors found that fully 74% of them were [harassed or attacked in the workplace](https://police.ucsf.edu/system/files/domesticviolenceworkplace.pdf). OSHA identifies [homicide as the leading cause of death for women at work](https://thinkprogress.org/why-are-so-many-women-being-murdered-at-work-fb16cec07115/).
 

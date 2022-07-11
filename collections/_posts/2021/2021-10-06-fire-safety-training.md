@@ -1,7 +1,7 @@
 ---
 title:       "Your Guide To Fire Safety Training For Employees"
 permalink: /blog/fire-safety-training/
-image: blog/2021-10-06-fire-safety-training.jpg
+image: blog/2021/2021-10-06-fire-safety-training.jpg
 meta:  Fire safety matters no matter what your occupation is. It could literally be the difference between life and death. Here’s your guide to workplace fire safety training.
 author: { name: Corey Bleich }
 ---
@@ -48,7 +48,7 @@ Fire safety training is one of [seven types of safety training](/blog/employee-s
 Fire safety training topics start with a general overview of procedures and drill down into more detail, depending on the industry. These will generally include the following.  
 
 
-{% picture blog blog/2021-10-06-fire-safety-training01.jpg --alt Fire emergency plans, Fire extinguishers, Containing fires, Fire prevention %}
+{% picture blog blog/2021/2021-10-06-fire-safety-training01.jpg --alt Fire emergency plans, Fire extinguishers, Containing fires, Fire prevention %}
 
 
 
@@ -112,7 +112,7 @@ Two good places to start include:
 
 <p style="text-align: center" class="marginBot">
   <a href="https://rise.articulate.com/share/8E5beQn0df8PjycMvakgpvPnSumKkdTy" target="_blank">
-    {% picture blog blog/2021-10-06-fire-safety-training02.jpg style="max-width:480px" --alt free fire safety training online course %}
+    {% picture blog blog/2021/2021-10-06-fire-safety-training02.jpg style="max-width:480px" --alt free fire safety training online course %}
   </a>
 </p>
 

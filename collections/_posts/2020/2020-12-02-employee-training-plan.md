@@ -1,7 +1,7 @@
 ---
 title:      How To Build A More Effective Employee Training Plan In 2021
 permalink: /blog/employee-training-plan/
-image: blog/2020-12-02-employee-training-plan.jpg
+image: blog/2020/2020-12-02-employee-training-plan.jpg
 meta:  From a training needs analysis to ongoing assessment, this is you can develop a more effective employee training plan in 2021.
 author: { name: Corey Bleich }
 ---
@@ -110,7 +110,7 @@ Your employees are already working hard. Expecting them to squeeze training into
 
 Avoid this by providing appropriate time, space, and resources for your learning opportunities.
 
-{% picture blog blog/2020-12-02-employee-training-plan01.jpg --alt Provide appropriate time, space, and resources for your learning opportunitiess %}
+{% picture blog blog/2020/2020-12-02-employee-training-plan01.jpg --alt Provide appropriate time, space, and resources for your learning opportunitiess %}
 
 ### Developing a rigid unchanging plan 
 

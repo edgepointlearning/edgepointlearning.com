@@ -1,7 +1,7 @@
 ---
 title:       " 8 Signs Of Burnout At Work In Employees (And How To Manage It)"
 permalink: /blog/signs-of-burnout-at-work/
-image: blog/2021-01-27-signs-of-burnout-at-work.jpg
+image: blog/2021/2021-01-27-signs-of-burnout-at-work.jpg
 meta:  Employee burnout is at an all-time high. Here’s what you can do to support your employees, and signs of burnout at work to watch for.
 author: { name: Corey Bleich }
 ---
@@ -24,7 +24,7 @@ In 2020, a survey by Glint found a [spike in employee burnout](https://www.glint
 Front-line workers are obviously at risk of employee burnout due to their increasingly intense days. However, another study found that [the chance of developing employee burnout](https://www.kronos.com/about-us/newsroom/physical-safety-psychological-security-job-stability-employees-worldwide-share-top-covid-19-concerns) is the same whether you work in an office or at home: 43%.
 
 
-{% picture blog blog/2021-01-27-signs-of-burnout-at-work01.jpg --alt 69% of U.S. employees report burnout Only 42% planned to take time off %}
+{% picture blog blog/2021/2021-01-27-signs-of-burnout-at-work01.jpg --alt 69% of U.S. employees report burnout Only 42% planned to take time off %}
 
 
 Working remotely during a pandemic adds incalculable amounts of stress to an employee's responsibilities, and not only in terms of managing the logistics of that work from home transition. Many employees are also managing a household cooped up in quarantine or navigating their children's new online education.
@@ -74,7 +74,7 @@ Employees may begin to withdraw from groups and meetings. They may choose not to
 Has your formerly stellar employee been turning in sub-par work, turning it in late, or completing fewer tasks? Are simple things taking them longer? This is another very common sign of employee burnout.
 
 
-{% picture blog blog/2021-01-27-signs-of-burnout-at-work02.jpg --alt One of the primary signs of employee burnout is fatigue %}
+{% picture blog blog/2021/2021-01-27-signs-of-burnout-at-work02.jpg --alt One of the primary signs of employee burnout is fatigue %}
 
 
 ## How to manage employee burnout
@@ -112,7 +112,7 @@ Also give employees the resources they need to completely take time off. This ma
 With leadership setting the tone, employees can slowly reset their boundaries and take the time off that they need.
 
 
-{% picture blog blog/2021-01-27-signs-of-burnout-at-work03.jpg --alt With leadership setting the tone, employees can reset their boundaries %}
+{% picture blog blog/2021/2021-01-27-signs-of-burnout-at-work03.jpg --alt With leadership setting the tone, employees can reset their boundaries %}
 
 
 ### Check in with employees before they burn out

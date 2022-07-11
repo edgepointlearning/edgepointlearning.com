@@ -1,7 +1,7 @@
 ---
 title:       "Your Guide To Cognitive Load Theory And Learning"
 permalink: /blog/cognitive-load-theory-and-learning/
-image: blog/2021-04-28-cognitive-load-theory-and-learning.jpg
+image: blog/2021/2021-04-28-cognitive-load-theory-and-learning.jpg
 meta:  Cognitive load theory has a direct impact on how employees can learn and retain information. This is why it's so incredibly important to employee learning.
 author: { name: Corey Bleich }
 ---
@@ -30,7 +30,7 @@ To make it into long-term memory, these snippets of knowledge have to be attache
 
 
 
-{% picture blog blog/2021-04-28-cognitive-load-theory-and-learning01.jpg --alt How the brain works %}
+{% picture blog blog/2021/2021-04-28-cognitive-load-theory-and-learning01.jpg --alt How the brain works %}
 
 
 
@@ -68,7 +68,7 @@ As we all know, even if the task is simple, distractions coming from outside may
 Germane cognitive load is essentially balanced in such a way as to make forming schemas (processing new information) easier. When it comes to cognitive load theory and instructional design, this is the place you want to aim for.
 
 
-{% picture blog blog/2021-04-28-cognitive-load-theory-and-learning02.jpg --alt Types of cognitive loads %}
+{% picture blog blog/2021/2021-04-28-cognitive-load-theory-and-learning02.jpg --alt Types of cognitive loads %}
 
 
 

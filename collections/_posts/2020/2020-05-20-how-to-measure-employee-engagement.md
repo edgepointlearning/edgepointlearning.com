@@ -2,7 +2,7 @@
 title:    "How To Measure Employee Engagement: 7 Steps"
 permalink: /blog/how-to-measure-employee-engagement/
 author: { name: Corey Bleich }
-image: blog/2020-05-20-how-to-measure-employee-engagement.jpg
+image: blog/2020/2020-05-20-how-to-measure-employee-engagement.jpg
 meta: Measuring employee engagement requires time and effort, but it is worth both. Here are seven steps for how to measure employee engagement.
 ---
 
@@ -69,7 +69,7 @@ Pay close attention to why employees might leave (see #3 below). Sure, we might 
 
 ### 3. Take a look at absenteeism and employee turnover
 
-{% picture blog blog/2020-05-20-how-to-measure-employee-engagement01.jpg --alt Employee turnover should be 10% or less annually (depending on industry) %}
+{% picture blog blog/2020/2020-05-20-how-to-measure-employee-engagement01.jpg --alt Employee turnover should be 10% or less annually (depending on industry) %}
 
 In general, employee turnover should be [10% or less annually](https://news.gallup.com/businessjournal/316/truth-about-turnover.aspx), and employees should be at their jobs almost every day. Take a look at how many employees are absent every day, and in what departments.
 

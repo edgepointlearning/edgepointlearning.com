@@ -2,7 +2,7 @@
 title:    "How To Roll Out PPE Training To Your Employees"
 permalink: /blog/ppe-training/
 author: { name: Corey Bleich }
-image: blog/2020-05-06-ppe-training.jpg
+image: blog/2020/2020-05-06-ppe-training.jpg
 meta: PPE training can save lives. These are the topics your training should cover and your guide on how to roll it out to employees who needs it.
 ---
 

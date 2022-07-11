@@ -2,7 +2,7 @@
 title:    "11 Insights Into Employee Engagement Research From 2019"
 permalink: /blog/employee-engagement-research/
 author: { name: Michael Hansen }
-image: blog/2019-12-11-employee-engagement-research.jpg
+image: blog/2019/2019-12-11-employee-engagement-research.jpg
 meta: Read on for the top learning research articles on employee training and development and workplace engagement in 2019.
 ---
 

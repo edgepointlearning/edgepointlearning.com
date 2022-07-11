@@ -1,7 +1,7 @@
 ---
 title:       "How To Create Effective Food Safety Training For Employees"
 permalink: /blog/food-safety-training/
-image: blog/2021-09-08-food-safety-training.jpg
+image: blog/2021/2021-09-08-food-safety-training.jpg
 meta:  Find the food safety training topics to cover in your program, as well as examples of free courses to work from while you’re building your program.
 author: { name: Corey Bleich }
 ---
@@ -16,7 +16,7 @@ No matter if your employees work in food service, processing, packing, or storin
 
 
 
-{% picture blog blog/2021-09-08-food-safety-training01.jpg --alt 400,000 people die annually from eating contaminated food %}
+{% picture blog blog/2021/2021-09-08-food-safety-training01.jpg --alt 400,000 people die annually from eating contaminated food %}
 
 
 

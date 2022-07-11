@@ -2,7 +2,7 @@
 title: How To Roll Out ADA Training For Managers And Employees
 permalink: /blog/ada-training-for-employers/
 author: { name: Corey Bleich }
-image: blog/2019-10-09-ada-training-for-employers.jpg
+image: blog/2019/2019-10-09-ada-training-for-employers.jpg
 meta: ADA compliance isn’t just good practice – it’s the law. These are the topics your ADA training needs to cover for both employees and managers.
 ---
 ADA compliance isn't just good practice. It's the law.
@@ -33,7 +33,7 @@ As laws are subject to change and modification, ADA training for managers and em
 
 All public and governmental entities are bound by the Americans With Disabilities Act, as are [private employers with 15 or more employees](https://adata.org/faq-search?keys=&tid=All&tid_1=All&spmsde_field1=). Your training courses need to cover a variety of topics to ensure that everyone has the information they need to help your business thrive.
 
-{% picture blog blog/2019-10-09-ada-training-for-employers-01.jpg --alt Public, government, and private employers with 15+ employees must comply with the ADA %}
+{% picture blog blog/2019/2019-10-09-ada-training-for-employers-01.jpg --alt Public, government, and private employers with 15+ employees must comply with the ADA %}
 
 To start, basic ADA training for employees should be an integrated part of all of your company trainings. Add information for disability awareness training that includes things like:
 

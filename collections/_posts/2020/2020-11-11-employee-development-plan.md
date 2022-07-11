@@ -1,7 +1,7 @@
 ---
 title:     7 Steps To Create Your Employee Development Plan
 permalink: /blog/employee-development-plan/
-image: blog/2020-11-11-employee-development-plan.jpg
+image: blog/2020/2020-11-11-employee-development-plan.jpg
 meta: Need to help your employees and company grow? Read on for seven steps to create your employee development plan, from roll-out to reporting.
 author: { name: Corey Bleich }
 ---

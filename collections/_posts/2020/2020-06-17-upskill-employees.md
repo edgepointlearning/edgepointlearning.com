@@ -2,7 +2,7 @@
 title:    "How Upskilling Can Drive Your Employee Development"
 permalink: /blog/upskill-employees/
 author: { name: Corey Bleich }
-image: blog/2020-06-17-upskill-employees.jpg
+image: blog/2020/2020-06-17-upskill-employees.jpg
 meta: With entirely new technical fields and disruptive trends flooding the market, digital upskilling is more important than ever. Here's what you need to know.
 ---
 
@@ -23,7 +23,7 @@ The benefits of upskilling employees start with the employees themselves. Imagin
 
 The confidence that upskilling provides employees helps boost morale and reduces employee turnover. This saves your business money in terms of new hires and provides long-term, experienced employees with the [growth opportunities they expect](https://www.itagroup.com/insights/career-development-tactics-build-employee-loyalty).
 
-{% picture blog blog/2020-06-17-upskill-employees01.jpg --alt 54% of businesses are suffering from a digital skills gap %}
+{% picture blog blog/2020/2020-06-17-upskill-employees01.jpg --alt 54% of businesses are suffering from a digital skills gap %}
 
 When you upskill your employees, you also [reduce the digital skills gap](https://www.capgemini.com/wp-content/uploads/2017/10/report_the-digital-talent-gap_final.pdf) that nearly 54% of businesses are experiencing. This not only increases your competitive edge but revamps your company culture to create a growth mindset—[a cultural shift](https://www.forbes.com/sites/markcohen1/2019/09/03/upskilling-why-it-might-be-the-most-important-word-in-the-legal-lexicon/#2f694e2836a9) that means:
 

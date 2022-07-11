@@ -1,7 +1,7 @@
 ---
 title:      6 Tips For Navigating COVID-19 And Office Holiday Season
 permalink: /blog/covid-office-holidays/
-image: blog/2020-11-25-covid-office-holidays.jpg
+image: blog/2020/2020-11-25-covid-office-holidays.jpg
 meta:  If you’re looking to bring some cheer into the winter holidays, here are our tips for navigating COVID-19 and office holidays, safely.
 author: { name: Corey Bleich }
 ---
@@ -39,7 +39,7 @@ The early novelty of Zoom happy hours has worn off, and remote or flexible worke
 Focus on community building in smaller ways with these ideas for new traditions.
 
 
-{% picture blog blog/2020-11-25-covid-office-holidays01.jpg --alt Build community with new, safe traditions %}
+{% picture blog blog/2020/2020-11-25-covid-office-holidays01.jpg --alt Build community with new, safe traditions %}
 
 
 ### Set up virtual Secret Santa exchanges that rely on electronic gifts 
@@ -93,7 +93,7 @@ Further, there are people who should not attend gatherings, regardless of the pr
 ## 5. Have a plan for holiday travel 
 
 
-{% picture blog blog/2020-11-25-covid-office-holidays02.jpg --alt Do you have a clear and safe policy in place for employees who travel over the holidays? %}
+{% picture blog blog/2020/2020-11-25-covid-office-holidays02.jpg --alt Do you have a clear and safe policy in place for employees who travel over the holidays? %}
 
 
 What about employees who [travel home for the holidays](https://www.marketwatch.com/story/can-i-visit-family-for-thanksgiving-or-christmas-your-pandemic-holiday-travel-questions-answered-2020-09-17)? Do you have a clear policy in place for when they come back?

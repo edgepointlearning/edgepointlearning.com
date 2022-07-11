@@ -2,7 +2,7 @@
 title:     "xAPI: How To Use In eLearning And Major Benefits"
 permalink: /blog/xapi-in-elearning/
 author: { name: Corey Bleich }
-image: blog/2021-06-23-xapi-in-elearning.jpg
+image: blog/2021/2021-06-23-xapi-in-elearning.jpg
 meta: xAPI in eLearning is the next level of user experience tracking if you develop training for employees. Here’s what you need to know. 
 ---
 
@@ -27,7 +27,7 @@ This “experience API” focuses on what the user actually does, not just throu
 So, what is xAPI? It’s one of the best tools to measure how learners are doing in a more holistic way.
 
 
-{% picture blog blog/2021-06-23-xapi-in-elearning01.jpg --alt xAPI allows you to track what’s working (and not working) across learning systems %}
+{% picture blog blog/2021/2021-06-23-xapi-in-elearning01.jpg --alt xAPI allows you to track what’s working (and not working) across learning systems %}
 
 
 ### xAPI examples
@@ -66,7 +66,7 @@ One of the main xAPI benefits is the detail it provides for each person using it
 
 
 
-{% picture blog blog/2021-06-23-xapi-in-elearning02.jpg --alt xAPI analytics provide a better, more comprehensive picture of what employees are actually learning (and how they are learning it) %}
+{% picture blog blog/2021/2021-06-23-xapi-in-elearning02.jpg --alt xAPI analytics provide a better, more comprehensive picture of what employees are actually learning (and how they are learning it) %}
 
 
 ### Allows you to design better learning experiences

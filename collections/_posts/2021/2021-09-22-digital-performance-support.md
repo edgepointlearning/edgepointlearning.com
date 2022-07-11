@@ -1,7 +1,7 @@
 ---
 title:       "The Future Of Digital Performance Support For Employees"
 permalink: /blog/digital-performance-support/
-image: blog/2021-09-22-digital-performance-support.jpg
+image: blog/2021/2021-09-22-digital-performance-support.jpg
 imagepos: "top center"
 meta:  Digital performance support offers everything you need to meet (and support) employees right where they are. These are the features to look for. 
 author: { name: Corey Bleich }

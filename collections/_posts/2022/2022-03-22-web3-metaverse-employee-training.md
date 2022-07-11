@@ -1,7 +1,7 @@
 ---
 title:       "Web 3.0, the Metaverse, and Employee Training"
 permalink: /blog/web3-metaverse-employee-training/
-image: blog/2022-03-22-web3-metaverse-employee-training-a.jpeg
+image: blog/2022/2022-03-22-web3-metaverse-employee-training-a.jpeg
 meta:  Web 3.0 and the metaverse are coming. What do technologies like VR and augmented reality mean for your employee training program?
 author: { name: Corey Bleich }
 ---

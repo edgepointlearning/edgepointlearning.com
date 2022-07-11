@@ -2,7 +2,7 @@
 title:    5 Benefits Of Experiential Learning In The Workplace
 permalink: /blog/benefits-of-experiential-learning/
 author: { name: Corey Bleich }
-image: blog/2018-11-14-benefits-of-experiential-learning.jpg
+image: blog/2018/2018-11-14-benefits-of-experiential-learning.jpg
 meta: Experiential learning can revolutionize how companies train their employees and develop leaders from within. These are the major benefits of experiential learning for your workforce.
 ---
 
@@ -54,7 +54,7 @@ There are five major benefits of experiential learning in the workplace:
 * Allows for accurate assessment of skills
 
 
-{% picture blog-wide blog/2018-11-14-benefits-of-experiential-learning-infographic.jpg --alt Major Benefits Of Experiential Learning %}
+{% picture blog-wide blog/2018/2018-11-14-benefits-of-experiential-learning-infographic.jpg --alt Major Benefits Of Experiential Learning %}
 
 ### Develops capacity to adapt to new situations
 

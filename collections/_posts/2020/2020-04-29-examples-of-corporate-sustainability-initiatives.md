@@ -2,7 +2,7 @@
 title:    "12 Examples Of Corporate Sustainability Initiatives To Inspire Your Goals"
 permalink: /blog/examples-of-corporate-sustainability-initiatives/
 author: { name: Corey Bleich }
-image: blog/2020-04-29-examples-of-corporate-sustainability-initiatives.jpg
+image: blog/2020/2020-04-29-examples-of-corporate-sustainability-initiatives.jpg
 meta: Want to lessen your company's environmental impact? Here are 12 examples of corporate sustainability initiatives from 2020 to get you started.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:       "Hearing Conservation Training For Employees: What To Know"
 permalink: /blog/hearing-conservation-training/
-image: blog/2021-10-20-hearing-conservation-training.jpg
+image: blog/2021/2021-10-20-hearing-conservation-training.jpg
 meta:  From topics to rollout, here’s what you need to know to get started when building your hearing conservation training program for employees. 
 author: { name: Corey Bleich }
 ---
@@ -18,7 +18,7 @@ You might assume that employees know to use protection when workplace noise is h
 
 
 
-{% picture blog blog/2021-10-20-hearing-conservation-training01.jpg --alt 34% of workers exposed to harmful noise don’t wear hearing protection %}
+{% picture blog blog/2021/2021-10-20-hearing-conservation-training01.jpg --alt 34% of workers exposed to harmful noise don’t wear hearing protection %}
 
 
 
@@ -97,7 +97,7 @@ Hearing conservation training isn’t just a one-and-done class offered during o
 
 <p style="text-align: center" class="marginBot">
   <a href="https://blog-hearing-conservation.netlify.app/#/" target="_blank">
-    {% picture blog blog/2021-10-20-hearing-conservation-training02.jpg style="max-width:480px" --alt Free Hearing Conservation Training %}
+    {% picture blog blog/2021/2021-10-20-hearing-conservation-training02.jpg style="max-width:480px" --alt Free Hearing Conservation Training %}
   </a>
 </p>
 

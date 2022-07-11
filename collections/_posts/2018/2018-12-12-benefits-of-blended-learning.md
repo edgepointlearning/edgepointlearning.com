@@ -2,7 +2,7 @@
 title:    8 Benefits Of Blended Learning In The Workplace
 permalink: /blog/benefits-of-blended-learning/
 author: { name: Corey Bleich }
-image: blog/2018-12-12-benefits-of-blended-learning.jpg
+image: blog/2018/2018-12-12-benefits-of-blended-learning.jpg
 meta: There are many benefits of blended learning in the workplace. Here are eight of the best.
 ---
 

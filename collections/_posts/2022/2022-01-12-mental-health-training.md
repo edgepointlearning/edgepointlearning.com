@@ -1,7 +1,7 @@
 ---
 title:       "Mental Health Training for Employees and 9 Tips for Self-Care in the Workplace"
 permalink: /blog/mental-health-training/
-image: blog/2022-01-12-mental-health-training.jpg
+image: blog/2022/2022-01-12-mental-health-training.jpg
 meta:  Providing mental health training for employees is a great way to set them up for success. Here are our best tips to help them flourish.
 author: { name: Corey Bleich }
 ---
@@ -45,7 +45,7 @@ Evolving to a place where we no longer treat self-care as a luxury and instead t
 
 Some people resist the idea of implementing self-care strategies in the workplace as there are misconceptions about what it might entail. While yoga classes and sound bath sessions can be helpful for some people, there are simpler ways to achieve moments of peace in the workplace.
 
-{% picture blog blog/2022-01-12-mental-health-training01.jpg --alt Listening to music does wonders for mental health %}
+{% picture blog blog/2022/2022-01-12-mental-health-training01.jpg --alt Listening to music does wonders for mental health %}
 
 Here are some tips to help your employees so they can help you.
 

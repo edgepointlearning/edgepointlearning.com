@@ -2,7 +2,7 @@
 title: 12 Tips For Creating Accessible eLearning Programs For Employees
 permalink: /blog/accessible-elearning-programs/
 author: { name: Corey Bleich }
-image: blog/2019-05-29-accessible-elearning-programs.jpg
+image: blog/2019/2019-05-29-accessible-elearning-programs.jpg
 meta: How to create accessible eLearning programs that comply with WCAG and Section 508 standards and give employees the tools they need to do their jobs.
 ---
 
