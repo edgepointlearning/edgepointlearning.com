@@ -8,7 +8,6 @@ _dist
 # Standard stuff
 .DS_Store
 node_modules
-package-lock.json
 
 # Local Netlify folder
 .netlify
