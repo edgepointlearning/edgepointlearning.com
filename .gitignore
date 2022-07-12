@@ -1,8 +1,6 @@
 # standard stuff
 .DS_Store
-.sass-cache
 node_modules
-package-lock.json
 
 # Eleventy branch
 _dist
