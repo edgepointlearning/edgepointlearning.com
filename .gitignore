@@ -6,7 +6,6 @@ package-lock.json
 
 # Eleventy branch
 _dist
-src
 
 # Jekyll stuff
 _site
