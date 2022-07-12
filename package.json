@@ -11,7 +11,7 @@
   },
   "scripts": {
     "netlify": "netlify",
-    "dev": "bundle exec jekyll serve --future",
+    "dev": "bundle exec jekyll serve --config ./src/_config.yml --future",
     "proof": "bundle exec htmlproofer ./_site --allow-hash-href --ignore-empty-mailto --directory-index-file index.html --checks-to-ignore ScriptCheck,ImageCheck"
   }
 }

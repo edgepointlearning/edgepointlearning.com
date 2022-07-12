@@ -1,3 +1,6 @@
+source: ./src/
+destination: ./_site/
+
 # SEO
 title      : EdgePoint Learning
 description: "From microlearning to blended learning opportunities, EdgePoint Learning designs eLearning solutions for today's employees."
@@ -19,11 +22,6 @@ plugins :
 
 include :
   - _pages 
-
-exclude :
-  - netlify.toml
-  - package.json
-  - package-lock.json
 
 # Collections
 collections_dir: collections
