@@ -37,7 +37,7 @@ The benefits of cross-training in business are numerous. Here are six great exam
 
 It is important to hire employees that can do their jobs well, but looking at the talent you already have on staff can really boost your bottom line.
 
-For example, if you are in education and need a curriculum developer, who knows the content and curriculum better than the teacher with the Master’s degree in curriculum design who is already on staff? Done well, cross-training empowers employees to share their knowledge without bringing in additional employees. This saves [employee onboarding](/blog/employee-onboarding/) costs (and time!).
+For example, if you are in education and need a curriculum developer, who knows the content and curriculum better than the teacher with the Master’s degree in curriculum design who is already on staff? Done well, cross-training empowers employees to share their knowledge without bringing in additional employees. This saves [employee onboarding](/blog/better-new-hire-onboarding/) costs (and time!).
 
 ### 2. Employees are better able to collaborate
 

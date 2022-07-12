@@ -85,7 +85,7 @@ While the intentions behind harassment may be the same, the approach should look
 
 Choosing the right training format to fit the organization is critical. Training is only valuable if it sticks over the long term. What has been proven most effective is small bits of information delivered in a personal way.
 
-[Microlearning](/blog/microlearning) is a way of teaching and delivering content to learners in small, very specific bursts. The learners are in control of what and when they're learning. Microlearning in online sexual harassment training courses can include testimonials from victims of harassment. Use microlearning and online sexual harassment training modules to spell out exactly what harassment is and when a behavior crosses the line.
+[Microlearning](/blog/types-of-microlearning/) is a way of teaching and delivering content to learners in small, very specific bursts. The learners are in control of what and when they're learning. Microlearning in online sexual harassment training courses can include testimonials from victims of harassment. Use microlearning and online sexual harassment training modules to spell out exactly what harassment is and when a behavior crosses the line.
 
 Also, take advantage of the sexual harassment training to address the broader issue of general employee harassment concerns that are not necessarily sexual in nature. Definitions of harassment also include issues associated with race, age, disability, or national origin. Microlearning can be particularly impactful when expanding into these areas. Put an organizational stake in the ground against “bullying” of any kind in the work environment.
 

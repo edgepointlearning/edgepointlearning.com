@@ -98,7 +98,7 @@ What happens in the headset will be different depending on your industry, but VR
 
 ### 9. Use augmented reality (AR)
 
-Remember [Pokémon Go](https://www.cinemablend.com/games/1533430/what-is-pokemon-go-and-why-is-it-such-a-big-deal)? When this [augmented reality](blog/future-of-augmented-reality/) (AR) app came out in 2016 it was hard to avoid people stopped in the middle of the sidewalk, capturing a Pokémon with their mobile device. 
+Remember [Pokémon Go](https://www.cinemablend.com/games/1533430/what-is-pokemon-go-and-why-is-it-such-a-big-deal)? When this [augmented reality](/blog/future-of-augmented-reality/) (AR) app came out in 2016 it was hard to avoid people stopped in the middle of the sidewalk, capturing a Pokémon with their mobile device. 
 
 AR leadership exercises could include things like a competition for teams to locate defined targets (e.g., examples of new codes in action or a properly assembled piece of equipment). AR uses GPS locations, just like [geofencing](/blog/geofencing/) does, so whenever the whole team is together the target can send a push notification to their devices. 
 

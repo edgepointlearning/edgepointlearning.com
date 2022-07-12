@@ -112,7 +112,7 @@ If an employee needs assistance from their supervisor or company, how do they go
 
 These two topics may not be appropriate for all employees but should be delivered to anyone who might come in direct contact with abusers or need to remove a victim from a dangerous situation.
 
-This might also be covered in your workplace violence prevention program. [More on that here](/workplace-violence-prevention/).
+This might also be covered in your workplace violence prevention program. [More on that here](/blog/workplace-violence-prevention/).
 
 ## Learn more about domestic violence prevention training 
 

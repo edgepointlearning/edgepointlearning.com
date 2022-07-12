@@ -45,9 +45,9 @@ When it comes to these eLearning statistics, 2021 is looking revolutionary.
 
 1. [eLearning industry growth](https://www.statista.com/statistics/1130331/e-learning-market-size-segment-worldwide/#:~:text=In%202019%2C%20the%20global%20online,approximately%20101%20billion%20U.S.%20dollars.&text=By%202026%2C%20the%20total%20market,over%20370%20billion%20U.S.%20dollars.) is projected to increase from $101 billion in 2019 to $370 billion by 2026
 2. [Learning experience platforms](https://joshbersin.com/2019/03/learning-experience-platform-lxp-market-grows-up-now-too-big-to-ignore/) that personalize the learning experience will begin to push out the simple LMS approach by 2021
-3. Employees are embracing the opportunity to [upskill](/blogs/upskill-employees/) at [unprecedented rates](https://www.digitaldna.org.uk/the-rise-of-e-learning-in-lockdown/)
-4. [AR](h/blog/future-of-augmented-reality/), VR, and MR are gaining popularity and acceptance as an effective [training tool](https://techjury.net/blog/virtual-reality-statistics/#gref)
-5. [Freelance and contract workers](/blogs/freelance-contractor-training/) make up at least 35% of the workforce and are more interested (and accustomed to) online training
+3. Employees are embracing the opportunity to [upskill](/blog/upskill-employees/) at [unprecedented rates](https://www.digitaldna.org.uk/the-rise-of-e-learning-in-lockdown/)
+4. [AR](/blog/future-of-augmented-reality/), VR, and MR are gaining popularity and acceptance as an effective [training tool](https://techjury.net/blog/virtual-reality-statistics/#gref)
+5. [Freelance and contract workers](/blog/freelance-contractor-training/) make up at least 35% of the workforce and are more interested (and accustomed to) online training
 6. eLearning takes between 40 and 60% less time than traditional training (great for workers who only have an average of 24 minutes per week for training)
 7. [Self-paced eLearning](https://elearningindustry.com/top-elearning-statistics-2019) continues to decline as workers favor engaging with peers
 8. Companies will continue to [focus on developing soft skills](https://www.ibm.com/downloads/cas/EPYMNBJA) (also called “power skills”) to deepen their employee training

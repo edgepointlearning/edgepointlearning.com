@@ -97,6 +97,6 @@ Mobile platforms might be the best choice for agile and effective PPE training.
 
 Trying to design PPE training that considers actual working conditions and what employees need? The experts might just be employees themselves. Design training that has room for employees in the field to contribute. 
 
-From there, if you need an additional set of hands for development or want to consult with experts in mobile-first training development, EdgePoint can help. You can choose and customize from our pre-built [mobile PPE training aids](https://www.pinpointworkforce.com/content). Need PPE training built from the ground up? Our team can be the extra set of hands you need to develop your training with our [co-development services](/co-development-services/), or we can [manage development](/custom-elearning-course-development/) from training assessment to final roll-out. 
+From there, if you need an additional set of hands for development or want to consult with experts in mobile-first training development, EdgePoint can help. You can choose and customize from our pre-built [mobile PPE training aids](https://www.pinpointworkforce.com/content). Need PPE training built from the ground up? Our team can be the extra set of hands you need to develop your training with our [co-development services](/co-development-services/), or we can [manage development](/custom-employee-training/) from training assessment to final roll-out. 
 
 <strong>[Get in touch today](/contact/) to see how EdgePoint can help with your PPE training.</strong>

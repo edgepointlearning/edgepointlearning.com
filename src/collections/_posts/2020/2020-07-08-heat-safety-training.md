@@ -103,6 +103,6 @@ Other options may include short informational videos, scenario-based lessons for
 
 Developing a new heat safety training program can be difficult, but it's crucial to protecting your workforce's safety. And, EdgePoint Learning can help. 
 
-We can design [custom training](/custom-elearning-course-development/) from the ground up, or help you incorporate one of [PinPoint’s prebuilt mobile courses](https://www.pinpointworkforce.com/post/microlearing-in-the-flow-of-work) to your existing course material. Need to roll out training quickly or with limited resources? We also offer [co-development services](/co-development-services/), and act as an extension of your team to help with instructional design, graphics, animations, voiceover talent, and overall development. 
+We can design [custom training](/custom-employee-training/) from the ground up, or help you incorporate one of [PinPoint’s prebuilt mobile courses](https://www.pinpointworkforce.com/post/microlearing-in-the-flow-of-work) to your existing course material. Need to roll out training quickly or with limited resources? We also offer [co-development services](/co-development-services/), and act as an extension of your team to help with instructional design, graphics, animations, voiceover talent, and overall development. 
 
 <strong>If you're ready to get started on your heat safety training, [get in touch](/contact/). As a Phoenix-based company, we understand the very real risks of heat illnesses. We can help you create an accessible course that keeps your employees safe this summer.</strong>

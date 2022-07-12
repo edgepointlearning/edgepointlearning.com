@@ -37,7 +37,7 @@ For example, you'll consider if the training is for:
 * [New managers](/blog/new-manager-training/)
 * Overall [training for staff on updated systems](/blog/how-to-train-employees-on-new-system/)
 * [Diversity training](/blog/types-of-diversity-training/)
-* [Change management](/blogs/change-management-training/)
+* [Change management](/blog/change-management-training/)
 
 How you approach each employee training program will be slightly different, so it’s good to have a focus before you begin.
 
@@ -55,11 +55,11 @@ Designing a new delivery method of material is crucial. Your millennial and Gen 
 
 You'll select from (or mix) t[en types of employee trainings](/blog/top-10-types-of-employee-training/), each of which can be tailored to specific skill development. These generally include: 
 
-* **Instructor-led training**: Good for developing team-based problem-solving skills (and can also be modified to [virtual instructor-led](/blogs/virtual-instructor-led-training/) options)
+* **Instructor-led training**: Good for developing team-based problem-solving skills (and can also be modified to [virtual instructor-led](/blog/virtual-instructor-led-training/) options)
 * **eLearning**: Asynchronous options so employees can learn anywhere, anytime from their computer or mobile device
 * **Simulation employee training**: Gives employees an opportunity to learn complex skills without worry of failure
 * **Hands-on training**: Learning on the job to develop hard or technical skills 
-* **Coaching or mentoring**: These personal relationships help employees feel supported and are especially useful for long-term [employee development](/blogs/employee-development-plan/) 
+* **Coaching or mentoring**: These personal relationships help employees feel supported and are especially useful for long-term [employee development](/blog/employee-development-plan/) 
 * **Lectures**: For delivering information quickly on a simple topic to a large audience
 * **Group discussion and activities**: Great for team-building and developing soft skills
 * **Role-playing**: Develops empathy, especially in public-facing roles
@@ -92,7 +92,7 @@ Developing quality trainings does not happen overnight.
 
 ### 7. Measure, reassess, and improve over time  
 
-A crucial step of any employee training program is ongoing assessment. While many companies start by looking for increased productivity or other company-based measures, [employee engagement](/blogs/how-to-measure-employee-engagement/) is a better place to start. Employees who are engaged and interested are more likely to produce the kind of results you are looking for. 
+A crucial step of any employee training program is ongoing assessment. While many companies start by looking for increased productivity or other company-based measures, [employee engagement](/blog/how-to-measure-employee-engagement/) is a better place to start. Employees who are engaged and interested are more likely to produce the kind of results you are looking for. 
 
 Why?
 

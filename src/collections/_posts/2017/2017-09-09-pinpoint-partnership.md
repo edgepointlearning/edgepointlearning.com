@@ -10,7 +10,7 @@ At EdgePoint Learning, we're thrilled to announce our new exclusive partnership 
 
 ## Break free from the desk with location-aware content delivery
 
-As we wrote previously, most employees only have 24 minutes a week (about 1% of their workweek) to dedicate to training. [Microlearning](/blog/microlearning) capitalizes on an employee's scant training time by making sure learning occurs right where and when they need it the most.
+As we wrote previously, most employees only have 24 minutes a week (about 1% of their workweek) to dedicate to training. [Microlearning](/blog/types-of-microlearning/) capitalizes on an employee's scant training time by making sure learning occurs right where and when they need it the most.
 
 PinPoint helps companies harness the power of location-aware systems to provide that just-in-time learning. They do this with the push notifications you're already familiar with, along with:
 

@@ -113,10 +113,10 @@ If you want to pay extra for more advanced features, [Articulate 360](https://ar
 
 For some, DIYing your own eLearning course won't be worth the time or effort. Or, you may want an expert to jump on board to help you create a large-scale strategy or pick up certain development tasks. At EdgePoint Learning, we know that creating effective and remarkable eLearning programs takes work. We offer a variety of options to help you with your development tasks, including: 
 
-* [Full custom development](/custom-elearning-course-development/): From instructional design to voice or video talent to final roll-out, we handle it all
+* [Full custom development](/custom-employee-training/): From instructional design to voice or video talent to final roll-out, we handle it all
 * [Co-development](/co-development-services/): We empower you to get much-needed learning solutions out to your workforce by having our staff work as an extension of your team, providing the skills or extra set of hands you need to complete projects faster
 * [Consulting](/elearning-consulting-services/): From designing one stand-alone module to a complete overhaul of your company’s approach to employee training, we can help
-* [Technology assistance](/delivery-technology/): Whether you need training, performance support, or new technology to reach your employees, our technology partners can help you meet all of your training goals
+* [Technology assistance](/performance-support/): Whether you need training, performance support, or new technology to reach your employees, our technology partners can help you meet all of your training goals
 
 <strong>If you need help with any part of your employee training, get in touch with our team at [EdgePoint Learning to get started today](/contact/). Want to see our work in action? [Find all of our demos here](/form/demo/).</strong>
 

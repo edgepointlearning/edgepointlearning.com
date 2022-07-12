@@ -79,7 +79,7 @@ Genuine inclusion also confronts unconscious bias that creates division among pe
 
 ### 5. Deliver training effectively
 
-Company-wide changes to benefits packages, dress codes, employee protections against discrimination and harassment, gender-neutral language, and other policies that support LGBTQ employees can be delivered via [microlearning](/blog/microlearning/) as they are updated. 
+Company-wide changes to benefits packages, dress codes, employee protections against discrimination and harassment, gender-neutral language, and other policies that support LGBTQ employees can be delivered via [microlearning](/blog/types-of-microlearning/) as they are updated. 
 
 For remote workplaces, mobile learning ([mLearning](/blog/what-is-mlearning/)) is another way to deliver crucial information when and where your employees need it.
 

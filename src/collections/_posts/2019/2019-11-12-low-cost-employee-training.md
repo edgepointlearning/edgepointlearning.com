@@ -40,7 +40,7 @@ The bigger the company, the more complex (and potentially expensive!) your train
 
 Enter recorded video training. With this type of training, employees can access it quickly by phone or laptop.  
 
-For example, [recorded video training worked for Bloomin’ Brands](/story/bloomin/), a global casual dining company with over 100,000 employees in well-known restaurants like Bonefish Grill, Outback Steakhouse, and Carraba’s. This low cost employee training solution used existing training materials to design and shoot recorded mentoring modules from their leadership to emerging leaders across the company. 
+For example, [recorded video training worked for Bloomin’ Brands, a global casual dining company with over 100,000 employees in well-known restaurants like Bonefish Grill, Outback Steakhouse, and Carraba’s. This low cost employee training solution used existing training materials to design and shoot recorded mentoring modules from their leadership to emerging leaders across the company. 
 
 ### 6. Apprenticeships 
 

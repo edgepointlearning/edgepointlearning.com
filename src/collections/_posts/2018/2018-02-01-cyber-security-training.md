@@ -55,7 +55,7 @@ Work with your cyber security training developers to evaluate employee awareness
 
 Chances are good that your company already has training resources at hand. Don’t re-invent the wheel. If your employees respond best to online training, don’t shuffle them into a room and make them stare at a four-hour presentation.
 
-Utilize the principles of [microlearning](/blog/microlearning) to deliver essential small bites of information that address the most vital cyber security tips for employees.
+Utilize the principles of [microlearning](/blog/types-of-microlearning/) to deliver essential small bites of information that address the most vital cyber security tips for employees.
 
 ### 5. Train employees about email and phone phishing scams
 

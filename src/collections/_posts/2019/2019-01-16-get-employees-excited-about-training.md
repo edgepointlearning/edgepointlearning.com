@@ -126,7 +126,7 @@ Maybe your training needs a little more zip to keep employees engaged. To add a 
 
 ## Learn more
 
-Whether you are considering a total overhaul of your employee training or just a few additional modules of [eLearning](/blog/advantages-of-elearning/) here or there, [EdgePoint Learning](/) can help. From helping you get started [creating your own eLearning courses](/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/) to designing a completely [custom training program](/custom-elearning-course-development/) for you, we have the experience and tools you need.
+Whether you are considering a total overhaul of your employee training or just a few additional modules of [eLearning](/blog/advantages-of-elearning/) here or there, [EdgePoint Learning](/) can help. From helping you get started [creating your own eLearning courses](/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/) to designing a completely [custom training program](/custom-employee-training/) for you, we have the experience and tools you need.
 
 <strong>We know how to get employees excited about training. [Get in touch today](/contact/)!</strong>
 
