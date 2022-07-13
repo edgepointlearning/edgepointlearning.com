@@ -9,7 +9,7 @@ meta: Domestic violence training can help gatekeepers recognize warning signs of
 Domestic violence training can help gatekeepers recognize the warning signs of domestic violence and provide them with support
 {: .featured-text }
 
-October is [Domestic Violence Awareness Month](https://www.breakthecycle.org/blog/it%E2%80%99s-national-domestic-violence-awareness-month), and 2020 has added a new urgency to this annual event. Since many areas issued shelter-in-place or quarantine orders, the [risk of domestic violence](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-and-domestic-violence-what-you-should-know) has unfortunately increased. Whether your business has transitioned to working at home or is gradually returning to work in-person, domestic violence training—offered in collaboration with a local domestic violence organization—can help gatekeepers recognize the warning signs of domestic violence in fellow employees or the people they serve, and provide them with support to get the right help fast.
+October is [Domestic Violence Awareness Month](https://www.thehotline.org/news/as-domestic-violence-survivors-face-unique-challenges-amid-pandemic-domestic-violence-awareness-month-offers-opportunity-for-education/), and 2020 has added a new urgency to this annual event. Since many areas issued shelter-in-place or quarantine orders, the [risk of domestic violence](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-and-domestic-violence-what-you-should-know) has unfortunately increased. Whether your business has transitioned to working at home or is gradually returning to work in-person, domestic violence training—offered in collaboration with a local domestic violence organization—can help gatekeepers recognize the warning signs of domestic violence in fellow employees or the people they serve, and provide them with support to get the right help fast.
 
 Gatekeepers are not behavioral health experts, but rather caring individuals, often natural helpers, who can talk to a person about their situation and lead them to a trained professional or local resource. Many work in service-based roles already, like HR employees, teachers, healthcare workers, and community workers, but people can act as gatekeepers in any industry or position. 
 
@@ -112,7 +112,7 @@ If an employee needs assistance from their supervisor or company, how do they go
 
 These two topics may not be appropriate for all employees but should be delivered to anyone who might come in direct contact with abusers or need to remove a victim from a dangerous situation.
 
-This might also be covered in your workplace violence prevention program. [More on that here](/workplace-violence-prevention/).
+This might also be covered in your workplace violence prevention program. [More on that here](/blog/workplace-violence-prevention/).
 
 ## Learn more about domestic violence prevention training 
 

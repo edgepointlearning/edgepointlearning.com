@@ -9,7 +9,7 @@ meta: Here’s your step-by-step checklist for better new hire onboarding, from 
 Your step-by-step checklist for better new hire onboarding.
 {: .featured-text }
 
-These days, effective new hire onboarding is more than just showing rookie employees where they can hang their coat and get free coffee. With fierce competition for qualified people, your [employee onboarding](/blog/employee-onboarding/) process can be the difference between happy employees that stay and employees who leave before their probationary period is up. Here’s your step-by-step checklist for better new hire onboarding.
+These days, effective new hire onboarding is more than just showing rookie employees where they can hang their coat and get free coffee. With fierce competition for qualified people, your [employee onboarding](/blog/how-to-train-new-employees/) process can be the difference between happy employees that stay and employees who leave before their probationary period is up. Here’s your step-by-step checklist for better new hire onboarding.
 
 ## What is new hire onboarding? 
 
@@ -92,7 +92,7 @@ Some of our favorites include:
 
 You've outlined what topics employees should know in their first month and first year at your company. Now it's time to get that information to them. 
 
-The delivery method will depend on the information itself. [Microlearning](/blog/microlearning) training takes 300% less time and costs 50% less for you to put together. New hires can learn on their own time (and take learning with them wherever they go). This may be appropriate for more general information, or information they'll access regularly (like leave policies). 
+The delivery method will depend on the information itself. [Microlearning](/blog/types-of-microlearning/) training takes 300% less time and costs 50% less for you to put together. New hires can learn on their own time (and take learning with them wherever they go). This may be appropriate for more general information, or information they'll access regularly (like leave policies). 
 
 Maybe some information is best delivered in small groups so the employee can meet their team. Or maybe you create a role-playing simulation for customer service training that uses [gamification](/blog/gamification-in-elearning/). Match the training style to the information for best results.
 

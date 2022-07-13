@@ -36,7 +36,7 @@ SQL food safety training includes topics like:
 
 ### Preventive food safety systems
 
-Preventive food safety systems training should educate employees on how to apply HACCP (Hazard Analysis and Critical Control Point) processes. HACCP standards apply to both food prep and storage. These consider things like [safe food preparation](https://www.who.int/foodsafety/publications/consumer/manual_keys.pdf), including safe temperatures to cook and store food.
+Preventive food safety systems training should educate employees on how to apply HACCP (Hazard Analysis and Critical Control Point) processes. HACCP standards apply to both food prep and storage. These consider things like safe food preparation, including safe temperatures to cook and store food.
 
 ### Bacterial pathogens
 
@@ -87,13 +87,13 @@ For front-line workers and those who respond during disasters, food safety can b
 
 StateFoodSafety developed a free online food safety training course specifically for [charitable feeding and disaster relief](https://www.statefoodsafety.com/CustomPortal/DisasterRelief#/). Select your location for state-specific food safety training.
 
-### Pacific Open Learning Health Net (POLHN)
+<!-- ### Pacific Open Learning Health Net (POLHN)
 
 Associated with the World Health Organization (WHO), the Pacific Open Learning Health Net (POLHN) offers a variety of free online food safety training courses. These include courses in:
 
 * [Food safety inspection](https://polhn.wpro.who.int/courses/food-Inspector)
 * [Advanced food safety](https://polhn.wpro.who.int/courses/advanced-food-safety)
-* [Nutrition](https://polhn.wpro.who.int/courses/nutrition)
+* [Nutrition](https://polhn.wpro.who.int/courses/nutrition) -->
 
 ### ServSafe
 

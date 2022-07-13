@@ -70,7 +70,7 @@ A [thoughtfully designed self-paced eLearning course](/story/swca/) solved this 
 
 Entry-level employees are often fresh out of high school or college and enthusiastically ready to jump in, but this can create some friction in terms of company processes and just basic information on how to do the job. Additionally, entry-level employees may do best if they know that there is room to grow with the company.
 
-The solution? An eLearning mentoring program to motivate and educate new employees. Bloomin’ Brands, with over 100,000 employees in 48 states and 22 countries, needed to develop [a leadership initiative](/story/bloomin/) that would encourage employees to move past entry level into more senior positions. Designed for all employees, their engaging video format was positively received, with employees requesting more just like it.
+The solution? An eLearning mentoring program to motivate and educate new employees. Bloomin’ Brands, with over 100,000 employees in 48 states and 22 countries, needed to develop a leadership initiative that would encourage employees to move past entry level into more senior positions. Designed for all employees, their engaging video format was positively received, with employees requesting more just like it.
 
 ## When not to use eLearning 
 

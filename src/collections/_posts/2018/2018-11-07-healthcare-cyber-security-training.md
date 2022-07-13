@@ -54,7 +54,7 @@ But let’s face it. Although preserving the bottom line is important, customers
 
 ## Dive right in
 
-After your training needs analysis and a ringing endorsement from the C-suite, it’s time to start training. Use [microlearning](/blog/microlearning/) or other digital learning methods to deliver manageable bites of information that can be accessed on any digital platform. Because [91% of cyber attacks start with an email](https://phishme.com/enterprise-phishing-susceptibility-report), discussing proper protocols for email may be the best place to start for your company.
+After your training needs analysis and a ringing endorsement from the C-suite, it’s time to start training. Use [microlearning](/blog/types-of-microlearning/) or other digital learning methods to deliver manageable bites of information that can be accessed on any digital platform. Because [91% of cyber attacks start with an email](https://www2.deloitte.com/my/en/pages/risk/articles/91-percent-of-all-cyber-attacks-begin-with-a-phishing-email-to-an-unexpected-victim.html), discussing proper protocols for email may be the best place to start for your company.
 
 Other important parts of a healthcare cyber security training program should also cover five crucial aspects, including:
 * Password protocols

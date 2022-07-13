@@ -41,7 +41,7 @@ When it comes to LGBTQ employees, inclusion considers factors that many heterose
 
 For example, some people are born as a biological gender that does not match their gender identity or they may be non-binary. Non-binary employees may [use different pronouns](https://www.theguardian.com/commentisfree/2018/jun/04/gender-neutral-pronouns-they-he-she-why-deny) (e.g., they, instead of he or she). Denying them the right to do so in the workplace essentially denies their rights as a person. Instead, inclusion respects every employee and encourages meaningful training and conversations about sometimes-complex topics.
 
-This is important because employees who experience harassment due to their sexuality or gender identity, or feel like they need to hide who they are at work, experience higher levels of stress that result in missed work and [higher levels of anxiety and other health issues](http://williamsinstitute.law.ucla.edu/wp-content/uploads/Business-Impact-LGBT-Policies-Full-Report-May-2013.pdf). 
+This is important because employees who experience harassment due to their sexuality or gender identity, or feel like they need to hide who they are at work, experience higher levels of stress that result in missed work and [higher levels of anxiety and other health issues](https://williamsinstitute.law.ucla.edu/publications/impact-lgbt-supportive-workplaces/). 
 
 While outright racism, homophobia, and sexism may have been banished from most workplaces, truly inclusive workplaces go beyond that to recognize and celebrate the differences of all employees. 
 
@@ -55,7 +55,7 @@ It can be challenging to create truly inclusive diversity training, but here are
 
 If your training manual is more than a few years old, time to gather new resources. [GLAAD](https://www.glaad.org/resources) is a great organization with a variety of resources to help your training designers better understand the issues that LGBTQ employees might face. 
 
-The Human Rights Campaign also has excellent [resources for LGBTQ diversity training](https://www.hrc.org/resources/diversity-training-on-sexual-orientation-and-gender-identity-issues).
+The Human Rights Campaign also has excellent [resources for LGBTQ diversity training](https://www.hrc.org/resources).
 
 ### 2. Look at all company policies
 
@@ -79,7 +79,7 @@ Genuine inclusion also confronts unconscious bias that creates division among pe
 
 ### 5. Deliver training effectively
 
-Company-wide changes to benefits packages, dress codes, employee protections against discrimination and harassment, gender-neutral language, and other policies that support LGBTQ employees can be delivered via [microlearning](/blog/microlearning/) as they are updated. 
+Company-wide changes to benefits packages, dress codes, employee protections against discrimination and harassment, gender-neutral language, and other policies that support LGBTQ employees can be delivered via [microlearning](/blog/types-of-microlearning/) as they are updated. 
 
 For remote workplaces, mobile learning ([mLearning](/blog/what-is-mlearning/)) is another way to deliver crucial information when and where your employees need it.
 

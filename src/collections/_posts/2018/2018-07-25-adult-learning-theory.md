@@ -63,7 +63,7 @@ Learning of this type involves task-based assignments in which a learner has roo
 
 ### Experiential
 
-[Experiential learning](https://explorance.com/2015/02/i-do-and-i-understand-kolbs-experiential-learning-theory-explained/) satisfies the adult need for proper motivation and application of new learning. Designed as an immersive experience, experiential learning requires adults to apply their newly learned skills to a set of problems or towards a common goal.
+[Experiential learning](https://en.wikipedia.org/wiki/Experiential_learning) satisfies the adult need for proper motivation and application of new learning. Designed as an immersive experience, experiential learning requires adults to apply their newly learned skills to a set of problems or towards a common goal.
 
 This [type of learning](/blog/top-10-types-of-employee-training/) uses simulations and scenarios to engage the learner. These are followed by reflective observation of case studies or other applicable demonstrations. Adult learners then look at abstract scenarios before actively experimenting at applying their new knowledge.
 

@@ -106,7 +106,7 @@ Find our full step-by-step guide to [onboarding here](/blog/better-new-hire-onbo
 
 Company culture (think Google’s nap pods and their plethora of freebies from food to massage) can vary wildly. Train for your company’s culture, not just the practical information.
 
-Does your company pride itself on its environmental conservation? Highlight that and show how that works in the workday. Are you known for your ability to work with challenging customers and situations? Demonstrate the problem-solving and customer service skills that are important. One of the most effective ways to communicate this is with a [short video directly from your CEO](/story/bloomin/). 
+Does your company pride itself on its environmental conservation? Highlight that and show how that works in the workday. Are you known for your ability to work with challenging customers and situations? Demonstrate the problem-solving and customer service skills that are important. One of the most effective ways to communicate this is with a [short video directly from your CEO](/about/#case-studies). 
 
 Whatever your company’s culture, sharing it is an important part of any new hire training program. 
 
@@ -130,7 +130,7 @@ Learning how to train new employees effectively can be a daunting task, especial
 If you need additional guidance, our team of instructional design experts at EdgePoint Learning can help. We can evaluate your existing programs and develop a plan from there. We offer a number of options to support your employee training goals, including:
 
 * [Consulting](/elearning-consulting-services/): We help you analyze your existing resources and develop your course-specific or program-wide learning strategy
-* [Custom development](/custom-elearning-course-development/): From design and development to final roll-out, we create courses made for your company and employees
+* [Custom development](/custom-employee-training/): From design and development to final roll-out, we create courses made for your company and employees
 * [Co-development](/co-development-services/): Our team works as an extension of your company, providing the skills or extra set of hands you need to complete projects
 
 <strong>Better new hire training starts here. If you want to learn more about your employee training options, get in touch with [EdgePoint Learning today](/contact/). Want to see our work in action? [Find all of our demos here](/form/demo/).</strong>

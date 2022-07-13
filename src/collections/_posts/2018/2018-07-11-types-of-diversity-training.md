@@ -6,7 +6,7 @@ image: blog/2018/2018-07-11-types-of-diversity-training.jpg
 meta: A forty-year study of diversity training has found that some types of diversity training do work – when it’s done right. Here’s how.
 ---
 
-So you decide to revamp (or create) diversity training for your modern workplace, but don't know where to start. You have been inclusive in your hiring practices but never intentionally thought about what types of diversity training to use or how to actually make it effective. Although research on [diversity training’s effectiveness has been mixed](https://onlinelibrary.wiley.com/doi/full/10.1002/hrdq.1193), a forty-year examination of diversity training has found that [it does work](http://psycnet.apa.org/record/2016-43598-001) – if it’s done right. Here’s how.
+So you decide to revamp (or create) diversity training for your modern workplace, but don't know where to start. You have been inclusive in your hiring practices but never intentionally thought about what types of diversity training to use or how to actually make it effective. Although research on [diversity training’s effectiveness has been mixed](https://onlinelibrary.wiley.com/doi/abs/10.1002/hrdq.1193), a forty-year examination of diversity training has found that [it does work](http://psycnet.apa.org/record/2016-43598-001) – if it’s done right. Here’s how.
 
 ## What is diversity training?
 
@@ -45,7 +45,7 @@ It may seem cold to talk about the importance of diversity by breaking down the 
 
 ## How to create effective diversity training
 
-It is not enough to lay out a list of prohibitive rules and expect people to follow them. This is, in fact, [the exact opposite of what makes for a successful diversity training](http://journals.sagepub.com/doi/abs/10.1177/0956797611427918). 
+It is not enough to lay out a list of prohibitive rules and expect people to follow them. This is, in fact, [the exact opposite of what makes for a successful diversity training](https://journals.sagepub.com/doi/abs/10.1177/0956797611427918). 
 
 Diversity training that presents diversity acceptance as a choice that benefits everyone in the workplace results in positive returns that last longer. Diversity training should:
 

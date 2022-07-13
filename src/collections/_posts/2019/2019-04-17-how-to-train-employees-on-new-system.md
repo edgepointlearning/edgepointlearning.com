@@ -60,7 +60,7 @@ A big part of overcoming change friction and employee pushback is letting them s
 
 ### 4. Use training incentives for employees to use new software
 
-After much back and forth about the value of training incentives, the verdict is in: used selectively and with high-quality rewards, [training incentives work](https://www.business.com/articles/gal-rimon-monetary-rewards/). The key is knowing your employees well enough to know which rewards will help them be more engaged and motivated to complete the training. For some, it’s literally as simple as verbal recognition that acknowledges their dedication.
+After much back and forth about the value of training incentives, the verdict is in: used selectively and with high-quality rewards, training incentives work. The key is knowing your employees well enough to know which rewards will help them be more engaged and motivated to complete the training. For some, it’s literally as simple as verbal recognition that acknowledges their dedication.
 
 For others, you might think creatively about how to keep employees motivated. Maybe at certain checkpoints in the training employees can take off an hour or two early on a Friday afternoon, or maybe a regular part of training is a delicious catered lunch or breakfast. Maybe it’s even a $25 gift card when the training is complete.
 

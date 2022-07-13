@@ -64,7 +64,7 @@ Some of the more notable AR games are:
 * Zombies Go takes the zombie apocalypse the action to the streets, anywhere and anytime, for runners and walkers alike
 * Quiver takes kids coloring books from 2-D to 3-D with animated images
 
-These video games are just the beginning. Probably the most popular AR game ever we've seen is [Pokémon Go](https://www.pokemongo.com/en-us/). Released in 2016, the mobile AR game instantly became a sensation. All across the globe, people took to the streets to find and capture various Pokémons. Consider it a scavenger-hunt game that uses virtual objects. You could use your phone to "locate” Pokémons around town, and gamers would use their phones to find these invisible objects.
+These video games are just the beginning. Probably the most popular AR game ever we've seen is [Pokémon Go](https://pokemongolive.com/). Released in 2016, the mobile AR game instantly became a sensation. All across the globe, people took to the streets to find and capture various Pokémons. Consider it a scavenger-hunt game that uses virtual objects. You could use your phone to "locate” Pokémons around town, and gamers would use their phones to find these invisible objects.
 
 ### Other uses of AR
 
@@ -145,7 +145,7 @@ According to a study presented at the Infusion Nurses Society Conference, there 
 
 ### Automotive overlay
 
-[Bosch Auto Parts](https://www.boschautoparts.com/en/news/quarterly-news/first-qtr-2017/augmented-reality) created their own AR platform called CAP to provide a composite view of intricate automotive parts.
+[Bosch Auto Parts](https://www.boschaftermarket.com/gb/en/diagnostics/solutions/augmented-reality/) created their own AR platform to provide a composite view of intricate automotive parts.
 
 Using a mobile device to view CAP, the technician can view useful additional information with detailed explanations, pictures, and drawings overlaid on top of the live image of a part.
 
@@ -212,7 +212,7 @@ Are you ready to learn more? [EdgePoint Learning](https://www.edgepointlearning.
 * Kroc, N. (2017, September 20). Augmented reality comes to the workplace. Society for Human Resource Management. Retrieved from [https://www.shrm.org/hr-today/news/hr-magazine/1017/pages/augmented-reality-comes-to-the-workplace.aspx](https://www.shrm.org/hr-today/news/hr-magazine/1017/pages/augmented-reality-comes-to-the-workplace.aspx)
 * Mirt, J. (2018, June 21). 5 ways you can use virtual reality in the workplace Web log post. Retrieved from [https://www.viar360.com/blog/5-ways-can-use-virtual-reality-workplace/](https://www.viar360.com/blog/5-ways-can-use-virtual-reality-workplace/)
 * Newman, D. (2016, September 20). Hyper-training and the future augmented reality workplace. Forbes Magazine. Retrieved from [https://www.forbes.com/sites/danielnewman/2016/09/20/hyper-training-and-the-future-augmented-reality-workplace/](https://www.forbes.com/sites/danielnewman/2016/09/20/hyper-training-and-the-future-augmented-reality-workplace/)
-* Niantic. (2016). Catch Pokémon in the real world with Pokémon GO! Retrieved from [https://www.pokemongo.com/en-us/](https://www.pokemongo.com/en-us/)
+* Niantic. (2016). Catch Pokémon in the real world with Pokémon GO! Retrieved from [https://pokemongolive.com/](https://pokemongolive.com/)
 * Sait, D. (2018, July 12). Study says virtual reality spending will double each tear through 2021. My TechDecisions. Retrieved from [https://mytechdecisions.com/video/study-says-virtual-reality-spending-will-double-each-year-through-2021/](https://mytechdecisions.com/video/study-says-virtual-reality-spending-will-double-each-year-through-2021/)
 * Sharma, T. (2018, April 20). How AR in the workplace can enhance training [Web log post]. Retrieved from [https://www.blippar.com/blog/2018/04/20/how-augmented-reality-workplace-can-enhance-training](https://www.blippar.com/blog/2018/04/20/how-augmented-reality-workplace-can-enhance-training)
 * Shelton, B. E. (2003). How augmented reality helps students learn dynamic spatial relationships (Doctoral dissertation). Retrieved from [https://search.proquest.com/docview/305274787](https://search.proquest.com/docview/305274787)

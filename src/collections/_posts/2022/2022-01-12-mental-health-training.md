@@ -37,7 +37,7 @@ There are more than 200 mental health disorders, so it’s impossible to cover t
 
 Training your employees to recognize mental health issues is an important step in ensuring everyone has the knowledge and help they need. But maintaining mental health is also important and often overlooked. 
 
-The World Health Organization defines “[self-care](https://www.who.int/reproductivehealth/self-care-interventions/definitions/en/)” as “the ability of individuals, families and communities to promote health, prevent disease, maintain health, and to cope with illness and disability with or without the support of a healthcare provider.” While many people employ self-care in their personal lives, it can be difficult to find ways to practice self-care at work.
+The World Health Organization defines “[self-care](https://www.who.int/news-room/feature-stories/detail/what-do-we-mean-by-self-care)” as “the ability of individuals, families and communities to promote health, prevent disease, maintain health, and to cope with illness and disability with or without the support of a healthcare provider.” While many people employ self-care in their personal lives, it can be difficult to find ways to practice self-care at work.
 
 ## Tips for self-care in the workplace
 

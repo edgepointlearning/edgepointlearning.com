@@ -94,7 +94,7 @@ As noted above, microlearning tools make it even easier for employees to quickly
 
 ### Video training
 
-Video training, whether synchronous and virtual [instructor-led](/blogs/virtual-instructor-led-training/) (VILT) or asynchronous and accessed when an employee needs it, is also seeing a resurgence. Synchronous VILT allows employees to work together and problem-solve, too. This builds connections and community that can increase productivity even when working apart. 
+Video training, whether synchronous and virtual [instructor-led](/blog/virtual-instructor-led-training/) (VILT) or asynchronous and accessed when an employee needs it, is also seeing a resurgence. Synchronous VILT allows employees to work together and problem-solve, too. This builds connections and community that can increase productivity even when working apart. 
 
 ### Virtual, augmented, and mixed-reality training
 

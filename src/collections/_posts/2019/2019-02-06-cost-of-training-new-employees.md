@@ -54,7 +54,7 @@ Making the best use of employee and company training time and money is the key t
 
 ### 1. Create repeatable and scalable onboarding programs
 
-If you have to continuously create new [onboarding programs](/blog/employee-onboarding/) for each new hire that adds up fast.
+If you have to continuously create new [onboarding programs](/blog/better-new-hire-onboarding/) for each new hire that adds up fast.
 
 Create repeatable programs that cover the basics that every employee needs to know, offering specialized training only to those who need it. Use [checklists](/blog/better-new-hire-onboarding/) of employee procedures to create a record of training, and make sure all managers know what steps to take (and in what order!).
 
@@ -66,7 +66,7 @@ Because this type of training is specialized and focused on the specific tasks t
 
 ### 3. Implement microlearning tools
 
-[Microlearning](/blog/microlearning/) is a cost-effective type of training that:
+[Microlearning](/blog/types-of-microlearning/) is a cost-effective type of training that:
 
 * Usually takes only two to three minutes to complete
 * Allows employees to choose when, how, and where they tackle their training

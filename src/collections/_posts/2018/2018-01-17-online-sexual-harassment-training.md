@@ -17,7 +17,7 @@ The recent deluge of sexual harassment allegations getting public attention acro
 
 More than just a hashtag, [the #MeToo movement](https://www.npr.org/sections/thetwo-way/2017/12/06/568773208/-metoo-movement-is-person-of-the-year-time-says) represents a tidal wave of women (and men) standing up for themselves by speaking out against harassment that is still pervasive in many of today’s organizational cultures. #MeToo was first used by social activist [Tarana Burke](http://justbeinc.wixsite.com/justbeinc/the-me-too-movement-cmml), and recently popularized by actress Alyssa Milano who encouraged women to use the hashtag if they had been harassed.
 
-Responses flooded in, with the number of hashtags climbing into the thousands within hours. Each #MeToo represents an incidence of harassment, but it’s difficult to pinpoint actual statistics on sexual harassment. The numbers vary wildly depending on [industry](https://www.vox.com/identities/2017/11/21/16685942/sexual-harassment-industry-service-retail), [race](https://www.thenation.com/article/sexual-harassment-law-was-shaped-by-the-battles-of-black-women/), [socioeconomic status](https://www.vice.com/en_us/article/d3yn7m/working-women-and-the-sexual-harassment-we-dont-hear-about), and [age group](https://www.huffingtonpost.com/entry/sexual-assault-statistics_us_58e24c14e4b0c777f788d24f). Accurately identifying the number of occurrences of workplace harassment relies on victim reporting, which for many, is just not possible.
+Responses flooded in, with the number of hashtags climbing into the thousands within hours. Each #MeToo represents an incidence of harassment, but it’s difficult to pinpoint actual statistics on sexual harassment. The numbers vary wildly depending on [industry](https://www.vox.com/identities/2017/11/21/16685942/sexual-harassment-industry-service-retail), [race](https://www.thenation.com/article/archive/sexual-harassment-law-was-shaped-by-the-battles-of-black-women/), [socioeconomic status](https://www.vice.com/en_us/article/d3yn7m/working-women-and-the-sexual-harassment-we-dont-hear-about), and [age group](https://www.huffingtonpost.com/entry/sexual-assault-statistics_us_58e24c14e4b0c777f788d24f). Accurately identifying the number of occurrences of workplace harassment relies on victim reporting, which for many, is just not possible.
 
 The #MeToo movement is addressing an issue that’s more than simply an annoyance to the millions of (typically) women who suffer from sexual harassment. For example, victims of sexual harassment may have to consider whether or not to skip meetings where they know a harasser will be present. They may feel compelled to turn down certain clients or projects or business trips that include their harasser, potentially threatening their career progression. They may feel forced to decide whether or not it's worth reporting a harasser when their livelihood and personal career goals are on the line. And that's all before considering the very real risks to the victim’s personal health and safety.
 
@@ -63,7 +63,7 @@ Make sure that the entire senior management team has successfully completed your
 
 Professor Vicki Magley is a psychologist who studies sexual harassment trainings and their effectiveness. Her findings are clear:
 
-<cite>"[[Effective training is] about the climate](http://www.businessinsider.com/sexual-harassment-training-effective-2017-11). When employees perceived that their company was ethical, their knowledge improved and their attitudes changed as a result of the harassment prevention training... they take it seriously because they think that the organization is taking it seriously.”</cite>
+> "[Effective training is about the climate](http://www.businessinsider.com/sexual-harassment-training-effective-2017-11). When employees perceived that their company was ethical, their knowledge improved and their attitudes changed as a result of the harassment prevention training... they take it seriously because they think that the organization is taking it seriously.”
 
 Sexual harassment training for leaders in a company sends a signal that your company takes harassment allegations seriously, so seriously that it’s worth their time to refresh their own understanding of it.
 
@@ -85,7 +85,7 @@ While the intentions behind harassment may be the same, the approach should look
 
 Choosing the right training format to fit the organization is critical. Training is only valuable if it sticks over the long term. What has been proven most effective is small bits of information delivered in a personal way.
 
-[Microlearning](/blog/microlearning) is a way of teaching and delivering content to learners in small, very specific bursts. The learners are in control of what and when they're learning. Microlearning in online sexual harassment training courses can include testimonials from victims of harassment. Use microlearning and online sexual harassment training modules to spell out exactly what harassment is and when a behavior crosses the line.
+[Microlearning](/blog/types-of-microlearning/) is a way of teaching and delivering content to learners in small, very specific bursts. The learners are in control of what and when they're learning. Microlearning in online sexual harassment training courses can include testimonials from victims of harassment. Use microlearning and online sexual harassment training modules to spell out exactly what harassment is and when a behavior crosses the line.
 
 Also, take advantage of the sexual harassment training to address the broader issue of general employee harassment concerns that are not necessarily sexual in nature. Definitions of harassment also include issues associated with race, age, disability, or national origin. Microlearning can be particularly impactful when expanding into these areas. Put an organizational stake in the ground against “bullying” of any kind in the work environment.
 
@@ -119,6 +119,6 @@ The #MeToo movement is speaking loud and clear. All employers have the immediate
 
 Today’s employers simply can’t afford to wait any longer to make effective online sexual harassment training a top priority.
 
-<strong>EdgePoint Learning can help you take a closer look at your company’s existing online sexual harassment programs, and make suggestions about making it more effective. [Get in touch today](/).</strong>
+**EdgePoint Learning can help you take a closer look at your company’s existing online sexual harassment programs, and make suggestions about making it more effective. [Get in touch today](/).**
 
 [Contact Us](/contact/ ){: .cta }

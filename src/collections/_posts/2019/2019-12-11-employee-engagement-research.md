@@ -21,7 +21,7 @@ One of the researchers noted that:
 
 ## 2. Positive work environments help employees feel included
 
-In somewhat unsurprising (but nevertheless important) research, a Binghamtom University study found that a positive work environment helped employees to feel more included. These feelings were [connected to higher satisfaction at work and increased innovation on the job](http://dx.doi.org/10.1177/0899764019829834). 
+In somewhat unsurprising (but nevertheless important) research, a Binghamtom University study found that a positive work environment helped employees to feel more included. These feelings were [connected to higher satisfaction at work and increased innovation on the job](https://www.binghamton.edu/news/story/1691/how-a-positive-work-environment-leads-to-feelings-of-inclusion-among-employ). 
 
 Kim Brimhall, assistant professor of social work at Binghamton University's College of Community and Public Affairs, noted that: 
 
@@ -49,7 +49,7 @@ Employees who feel undervalued or bullied are at greater risk for [non-complianc
 
 Study authors highlighted the importance of addressing this issue, noting that, “It's really critical to manage such leader behavior, support victimized employees and prevent such issues."
 
-## 6. [Ethical leadership prevents toxic work environments](https://business.sdsu.edu/faculty/faculty-research/preventing-toxic-environments-through-leadership)
+## 6. [Ethical leadership prevents toxic work environments](https://business.sdsu.edu/about/news/articles/2019/04/preventing-toxic-environments-through-leadership)
 
 On the other side of the leadership coin, leaders who utilize clear and positive communication and offer emotional support for their employees promote the same characteristic in employees. This is especially true when dealing with social undermining that might occur in the workplace.
 
@@ -67,7 +67,7 @@ Employees who have trouble sleeping due to work-related stress are at a [threefo
 
 Another way to stay healthy at work is to just be yourself. 
 
-Rice University researchers found that disclosing invisible illness or stigmas at work [helped employees to feel more accepted](http://news.rice.edu/2019/02/25/be-yourself-at-work-its-healthier-and-more-productive/). This employee disclosure was also linked to decreased job anxiety and an increased commitment to their job and their company.
+Rice University researchers found that disclosing invisible illness or stigmas at work [helped employees to feel more accepted](https://news2.rice.edu/2019/02/25/be-yourself-at-work-its-healthier-and-more-productive/). This employee disclosure was also linked to decreased job anxiety and an increased commitment to their job and their company.
 
 Unfortunately, the study found that the same could not be said about visible traits (e.g., race or disability). Employees still reported plenty of negative reactions and responses to visible differences among them.
 

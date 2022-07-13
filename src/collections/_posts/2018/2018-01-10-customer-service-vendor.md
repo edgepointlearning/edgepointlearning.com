@@ -39,7 +39,7 @@ When you ask for references, a potential vendor will cherry pick the customers f
 *  Ask your industry peers who they use.
 *  Ask for references from <em>former</em> customers.
 *  Review your potential vendor on peer or paid review sites.
-*  Review your potential partner on [GlassDoor](https://www.glassdoor.com/Reviews/index.htm?utm_campaign=elearningindustry.com&utm_source=%2Fmake-a-successful-vendor-selection-5-customer-service-questions-ask&utm_medium=link) as employees will often tell you exactly what the culture is like on the inside (and happy employees generally lead to happy customers).
+*  Review your potential partner on [GlassDoor](https://elearningindustry.com/make-a-successful-vendor-selection-5-customer-service-questions-ask) as employees will often tell you exactly what the culture is like on the inside (and happy employees generally lead to happy customers).
 
 ## 5. Tell me more about your service team
 

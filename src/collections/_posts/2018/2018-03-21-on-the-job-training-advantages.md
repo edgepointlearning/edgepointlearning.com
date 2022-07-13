@@ -14,7 +14,7 @@ On-the-job training isn’t quite the same thing as learning by experience. Lear
 
 On-the-job training is a specific type of training that is explicit, prescribed, and delivered at the workplace.
 
-For example, if you have a new intake nurse in your triage unit who needs to learn a specific computer program that your hospital uses, on-the-job training could use [microlearning videos](/blog/microlearning/) to deliver targeted information for that skill alone. Or, your sales team could use [mobile resources](/blog/what-is-mlearning/) to review product demos as they're waiting to enter a meeting.
+For example, if you have a new intake nurse in your triage unit who needs to learn a specific computer program that your hospital uses, on-the-job training could use [microlearning videos](/blog/types-of-microlearning/) to deliver targeted information for that skill alone. Or, your sales team could use [mobile resources](/blog/what-is-mlearning/) to review product demos as they're waiting to enter a meeting.
 
 The best on-the-job trainings are:
 

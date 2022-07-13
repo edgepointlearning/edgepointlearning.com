@@ -53,7 +53,7 @@ An employee engagement survey can include some (or all) of the following questio
 
 Allow these surveys to be completely anonymous to encourage honesty and participation. Don’t forget to have your C-suite participate here, too. 
 
-In these surveys, consider using a [Net Promoter Score](https://cultureiq.com/blog/employee-net-promoter-score/) (NPS). This asks employees to first answer the question “How likely would you be to recommend a job at this company to a friend?” on a scale from zero to ten. Scores of zero to six are considered detractors, nine and ten are promoters, and seven and eight are neutral. Your employee NPS adds all of the numbers from each employee and subtracts detractors from promoters.
+In these surveys, consider using a [Net Promoter Score](https://www.surveymonkey.com/curiosity/what-is-a-good-net-promoter-score/) (NPS). This asks employees to first answer the question “How likely would you be to recommend a job at this company to a friend?” on a scale from zero to ten. Scores of zero to six are considered detractors, nine and ten are promoters, and seven and eight are neutral. Your employee NPS adds all of the numbers from each employee and subtracts detractors from promoters.
 
 A negative number means employees would not recommend their job to a friend – and you have some work to do. Some say the NPS is too simplistic to truly measure engagement, but it can be one effective part of a larger strategy.
 
@@ -114,4 +114,4 @@ Make sure your employees’ first impression of the company clearly reflects you
 
 You’ve taken the surveys and analyzed the drivers, those key points that have the biggest impact on employee engagement. Maybe you’ve set some goals and revamped your onboarding process. Now you need to implement training for employees at all levels for the objectives you identified. How do you design and implement the training you need, and how do you [get employees excited about that training](https://www.edgepointlearning.com/blog/get-employees-excited-about-training/)?
 
-<strong>At EdgePoint Learning, we can help. We know how to measure employee engagement to design meaningful and productive trainings. We provide both full [custom work](/custom-elearning-course-development/) or act as a [co-developer](https://www.edgepointlearning.com/co-development-services/) with your team to help you meet your goals. [Get in touch today](https://www.edgepointlearning.com/contact/) to see what we can do for you.</strong>
+<strong>At EdgePoint Learning, we can help. We know how to measure employee engagement to design meaningful and productive trainings. We provide both full [custom work](/custom-employee-training/) or act as a [co-developer](https://www.edgepointlearning.com/co-development-services/) with your team to help you meet your goals. [Get in touch today](https://www.edgepointlearning.com/contact/) to see what we can do for you.</strong>

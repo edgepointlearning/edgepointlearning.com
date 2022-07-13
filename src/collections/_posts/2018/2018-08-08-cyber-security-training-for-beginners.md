@@ -52,7 +52,7 @@ Simple fixes:
 *  <strong>Consider a password manager to remember your passwords:</strong> Employees change their passwords to something easier so they can remember them. [Password manager apps](https://fossbytes.com/best-free-password-manager-software/) may be able to safely store those long, hard-to-remember passwords.
 *  <strong>Prompt employees to update passwords on a regular basis:</strong> Let your employees know during training that they can expect ongoing, automated reminders to update their passwords for critical business programs. A 90-day schedule is a good place to start.
 
-These cyber security tips can be easily delivered with [microlearning](/blog/microlearning) tools. Standardize the process so employees know how to create impenetrable passwords and change them when needed.
+These cyber security tips can be easily delivered with [microlearning](/blog/types-of-microlearning/) tools. Standardize the process so employees know how to create impenetrable passwords and change them when needed.
 
 ### 2. Who to ask when they have questions
 
@@ -62,7 +62,7 @@ This seems simple, but in organizations both large and small it can be challengi
 
 ### 3. How to identify different phishing attempts
 
-Nearly [91% of cyber attacks start with an email](https://phishme.com/enterprise-phishing-susceptibility-report). In 2014, phishing attacks cost companies all over the world [$4.5 billion](http://cynergistek.com/infographic-phishing/).
+Nearly [91% of cyber attacks start with an email](https://www2.deloitte.com/my/en/pages/risk/articles/91-percent-of-all-cyber-attacks-begin-with-a-phishing-email-to-an-unexpected-victim.html). In 2014, phishing attacks cost companies all over the world [$4.5 billion](https://insights.cynergistek.com/infographics/the-state-of-phishing).
 
 Employees need to know how to identify phishing attempts through email, voicemail, and text. Train your employees to look for unidentifiable names, unrecognized links, or thinly veiled threats, forwarding them to the IT department for investigation.
 
