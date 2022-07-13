@@ -62,7 +62,7 @@ Prioritizing training and development for these middle managers can lead to unta
 
 Thinking on your feet is a valuable skill, and a team of scientists at U.S. Department of Defense’s [Defense Advanced Research Project Agency (DARPA)](https://www.darpa.mil/) used non-invasive transcranial direct current stimulation (tDCS) to speed up the rate of learning in macaque monkeys.
 
-This small implantable device [increases learning speed](http://www.cell.com/current-biology/fulltext/S0960-9822(17)31185-5) and holds promise as a treatment for memory loss caused by neural degeneration. Science fiction suddenly isn't quite so fictional.
+This small implantable device [increases learning speed](https://www.cell.com/current-biology/fulltext/S0960-9822(17)31185-5) and holds promise as a treatment for memory loss caused by neural degeneration. Science fiction suddenly isn't quite so fictional.
 
 ## 9. The tiniest brains may yield the biggest discoveries
 

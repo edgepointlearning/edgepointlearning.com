@@ -11,7 +11,7 @@ It's (past) time to evaluate just how welcome everyone feels in your workplace. 
 
 ## Why do we need to go beyond the binary? 
 
-It may seem “new” or “politically correct” to go beyond traditional gender definitions, but these discussions about gender fluidity and inclusion benefit everyone. Diversity in the workplace, including considering gender identity, expression, and orientation, has been [proven to boost the bottom line](https://www.mckinsey.com/~/media/mckinsey/business%20functions/organization/our%20insights/delivering%20through%20diversity/delivering-through-diversity_full-report.ashx) and [protect the mental health of all employees](/blog/mental-health-training/). 
+It may seem “new” or “politically correct” to go beyond traditional gender definitions, but these discussions about gender fluidity and inclusion benefit everyone. Diversity in the workplace, including considering gender identity, expression, and orientation, has been [proven to boost the bottom line](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) and [protect the mental health of all employees](/blog/mental-health-training/). 
 
 Just because you haven’t discussed or trained for gender inclusion in the past doesn’t mean it’s okay to move forward that way. 
 

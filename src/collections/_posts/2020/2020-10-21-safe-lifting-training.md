@@ -120,6 +120,6 @@ These smaller learning opportunities won’t take the place of an annual trainin
 
 ## Build your safe lifting training program 
 
-EdgePoint can work with you to develop your safe lifting training, or we can customize our off-the-shelf training courses for your business. You can also use PinPoint, our precision microlearning app, for your frontline employees. Interested in seeing more of PinPoint's prebuilt content library? [Request a demo here](https://www.pinpointworkforce.com/content). 
+EdgePoint can work with you to develop your safe lifting training, or we can customize our off-the-shelf training courses for your business. You can also use PinPoint, our precision microlearning app, for your frontline employees. Interested in seeing more of PinPoint's prebuilt content library? [Request a demo here](https://www.pinpointworkforce.com/). 
 
 **Still have questions about safe lifting training, or ready to get to work designing yours? [Get in touch with EdgePoint Learning](/contact/) today!**

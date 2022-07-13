@@ -115,5 +115,5 @@ Starting a new training program from scratch can be challenging, but EdgePoint c
 
 PinPoint is our precision microlearning app that helps your employees access mobile training right in the flow of work, with robust performance support tools. We also create full custom online training courses, or act as an extension of your team with co-development options.  
 
-**Check out [PinPoint’s pre-built content library](https://www.pinpointworkforce.com/content) or [get in touch](/contact/) to learn more! From custom to co-development, online learning to a blended approach, we can help.**
+**Check out [PinPoint’s pre-built content library](https://www.pinpointworkforce.com/copy-of-solutions-training-7) or [get in touch](/contact/) to learn more! From custom to co-development, online learning to a blended approach, we can help.**
 {: .fancy-text }

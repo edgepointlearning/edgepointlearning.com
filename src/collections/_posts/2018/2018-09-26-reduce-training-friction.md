@@ -63,7 +63,7 @@ CEOs and managers want skilled, knowledgeable, highly adaptable employees. Even 
 
 It seems that both of these goals are clearly aligned. Employees want training and employers want them to have it. So where’s the friction? Clearly, it is no longer effective to remove an employee from their job for a period of time to complete a training module. Learning in the flow of work, as Bersin points out, is the solution to this friction.
 
-Although the phrase “learning in the flow of work” is relatively new (coined by Bersin), the idea of [experiential learning](https://explorance.com/2015/02/i-do-and-i-understand-kolbs-experiential-learning-theory-explained/) goes back to the days when an apprentice worked side-by-side with a master (and more formally to John Dewey in the early part of the 20th century), immediately applying and refining skills on the job.
+Although the phrase “learning in the flow of work” is relatively new (coined by Bersin), the idea of experiential learning goes back to the days when an apprentice worked side-by-side with a master (and more formally to John Dewey in the early part of the 20th century), immediately applying and refining skills on the job.
 
 The idea that learning new skills by practicing them when they are needed dovetails nicely with the modern adult’s need for autonomy and immersive training. There is no separation between the job and the learning.
 
@@ -81,4 +81,4 @@ Consider these examples of microlearning in action:
 
 There is still a need for long-form macro-learning courses that provide employees with the time and space to dive deeper into specialized information. But the days of relying on these long-form courses to cover all of your employees’ training needs are coming to an end.
 
-<strong>At EdgePoint Learning, we believe that learning in the flow of work reduces friction and provides your employees with the tools they need to do their job. Let us help you get started. [Get in touch today](/contact/).</strong>
+**At EdgePoint Learning, we believe that learning in the flow of work reduces friction and provides your employees with the tools they need to do their job. Let us help you get started. [Get in touch today](/contact/).**

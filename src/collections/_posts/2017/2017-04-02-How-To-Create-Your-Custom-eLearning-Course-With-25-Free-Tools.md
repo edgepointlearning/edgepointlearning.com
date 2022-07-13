@@ -72,7 +72,7 @@ Creating beautiful charts, infographics, or visuals online is easier to do every
 +  [Piktochart](https://piktochart.com): Use premade templates and design elements to create your own infographic
 +  [Pixlr](https://pixlr.com): Allows you to edit any photos or graphics for free
 +  [Venngage](https://venngage.com): Present your data through infographics
-+  [Wordle](http://www.wordle.net/create): Create word clouds to illustrate different themes or idea clusters
++  [Free Word Cloud Generator](https://www.freewordcloudgenerator.com/): Create word clouds to illustrate different themes or idea clusters
 +  [Unsplash](https://unsplash.com/): Find beautiful freely useable images
 
 ### Free audio software tools
@@ -80,7 +80,7 @@ Free audio tools allow you to record segments, and then edit, mix, and download 
 
 +  [Ardour](http://ardour.org/): Record, edit, and mix your audio files on all Mac or PC devices
 +  [Audacity](http://www.audacityteam.org/): Fantastic open-source, cross-platform recording and editing software
-+  [Voki](http://www.voki.com/): Introduce speaking characters into your presentations, with customizable avatars
++  [Voki](https://l-www.voki.com/): Introduce speaking characters into your presentations, with customizable avatars
 +  [vozMe](http://vozme.com/index.php): Turn written text into downloadable spoken mp3s
 
 ### Free animation and video tools for eLearning

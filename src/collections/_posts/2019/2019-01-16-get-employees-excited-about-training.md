@@ -20,7 +20,7 @@ Well-trained employees who are competent and capable are more likely to stick ar
 So what are the benefits of employee engagement?
 
 * [Engaged employees are happier](https://www.gallup.com/workplace/236483/enhances-benefits-employee-engagement.aspx) in every aspect of their lives
-* They're [more productive and efficient](https://news.gallup.com/businessjournal/190352/managing-employee-risk-requires-culture-compliance.aspx)
+* They're [more productive and efficient](https://www.gallup.com/workplace/329705/worried-compliance-risk-culture-best-defense.aspx)
 * Engaged employees deliver [better customer service](https://www.forbes.com/sites/christinecomaford/2017/07/08/the-surprising-link-between-customer-experience-and-employee-engagement/#2b2aab0cb512)
 
 {% picture blog blog/2019/2019-01-16-get-employees-excited-about-training01.jpg --alt Engaged employees are more productive and efficient %}
@@ -61,7 +61,7 @@ You may be surprised to hear what they have to say.
 Let’s be honest: financial incentives for employee training work.
 {: .fancy-text }
 
-There are caveats (and limits) to this. Cash incentives do motivate employees to better performance during any type of competition, but performance tends to drop or level off after. Money is a training incentive for employees that can be [used selectively to good effect](https://www.business.com/articles/gal-rimon-monetary-rewards/).
+There are caveats (and limits) to this. Cash incentives do motivate employees to better performance during any type of competition, but performance tends to drop or level off after. Money is a training incentive for employees that can be used selectively to good effect.
 
 ### 3. Make it easy
 
@@ -97,7 +97,7 @@ If you notice that there is enthusiasm at the start of training but relatively l
 
 When is the last time that you, as the head of your company, participated in a quality training program? Been awhile?
 
-Make some time to demonstrate your commitment to employee engagement and motivation by attending a training program of your own. It could be an interesting exercise to put yourself in your employees’ shoes to see why they struggle to stay motivated. Encouraging a [growth mindset](https://www.bigthinkedge.com/blog/how-a-growth-mindset-leads-to-innovation-engagement) among all levels of your staff means building regular training and learning into your company.
+Make some time to demonstrate your commitment to employee engagement and motivation by attending a training program of your own. It could be an interesting exercise to put yourself in your employees’ shoes to see why they struggle to stay motivated. Encouraging a [growth mindset](https://bigthink.com/plus/how-a-growth-mindset-leads-to-innovation-engagement/) among all levels of your staff means building regular training and learning into your company.
 
 ### 7. Personalize your training
 

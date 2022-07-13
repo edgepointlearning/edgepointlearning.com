@@ -22,7 +22,7 @@ For one, your restaurant manager training program needs to acknowledge that not 
 
 How does this potential inexperience translate into your bottom line?
 
-* <strong>Higher turnover:</strong> [Public Personnel Management](http://ppm.sagepub.com/content/35/2/163.abstract) found that effective training reduced employee turnover by 9%. While this figure may seem low, consider the [average cost to train a new manager](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee): $30,000. Some estimates are even higher – up to double a manager's annual salary.
+* <strong>Higher turnover:</strong> [Public Personnel Management](https://journals.sagepub.com/doi/abs/10.1177/009102600603500205) found that effective training reduced employee turnover by 9%. While this figure may seem low, consider the [average cost to train a new manager](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee): $30,000. Some estimates are even higher – up to double a manager's annual salary.
 * <strong>Less effective managers:</strong> Inconsistent management results in servers and staff who are less effective. This means your restaurant is never quite as productive as it could be, and could also lead to higher turnover rates among your other staff members.
 * <strong>Lower sales:</strong> The first two factors come together in a perfect storm: lower sales. Trained restaurant managers know how to motivate and encourage staff to increase sales. Inexperienced and untrained managers don’t quite get the behaviors of customers or know how to help servers maximize each guest check.
 

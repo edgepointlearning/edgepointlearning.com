@@ -92,7 +92,7 @@ Working in teams, employees begin to develop a plan to implement the idea. Think
 
 ### 8. Explore virtual reality (VR)
 
-In everything from [surgical training](https://jnjinstitute.com/news/introducing-global-virtual-reality-training-surgeons-and-nurses) to [car design](https://www.cnbc.com/2019/05/08/ford-designers-using-virtual-reality-to-work-with-colleagues-remotely.html) to [accident damage assessment](https://www.farmers.com/news/2017/farmers-insurance-pioneers-innovative-virtual-reality-training-program-for-claims-representatives/), virtual reality is a leadership training activity that helps not only strengthen current leadership but also identify and develop potential leaders among your employees. For example, [Wal-Mart](http://edg.pt/XKndOB) recently used VR technology to identify new leaders within their stores.
+In everything from [surgical training](https://jnjinstitute.com/news/introducing-global-virtual-reality-training-surgeons-and-nurses) to [car design](https://www.cnbc.com/2019/05/08/ford-designers-using-virtual-reality-to-work-with-colleagues-remotely.html) to [accident damage assessment](https://newsroom.farmers.com/2017-10-25-Farmers-Insurance-R-Pioneers-Innovative-Virtual-Reality-Training-Program-for-Claims-Representatives), virtual reality is a leadership training activity that helps not only strengthen current leadership but also identify and develop potential leaders among your employees. For example, [Wal-Mart](http://edg.pt/XKndOB) recently used VR technology to identify new leaders within their stores.
 
 What happens in the headset will be different depending on your industry, but VR can build a variety of leadership skills (and assess training progress at the same time).
 

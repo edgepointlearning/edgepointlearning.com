@@ -16,7 +16,7 @@ No sense in reinventing the wheel, especially when LinkedIn Learning offers tons
 
 Mobile mentor coaching may be just what employees need to do their jobs (and stick around). Put simply, mobile mentors are senior employees who agree to be available on demand via text for employees when questions or issue arise. 
 
-Research suggests that [mentoring is especially valuable for diverse employees](http://www.cpahq.org/cpahq/cpadocs/CWP%20Session%201%20Mentoring%20to%20Retain%20and%20Promote%20Employees.pdf) entering the workforce, with caveats. 
+Research suggests that [mentoring is especially valuable for diverse employees](https://ecommons.cornell.edu/handle/1813/74541) entering the workforce, with caveats. 
 
 * Mentors need to be seniors at the company
 * Mentors and mentees work best when paired using shared values and experiences

@@ -18,7 +18,7 @@ Millennials may seem like they are more play than work, but that’s just not th
 
 Beyond financial gain, millennials want to feel like what they do matters.
 
-A white paper by the Center for Generational Kinetics noted that 60% of millennials chose their work because they felt they [made a difference](http://bestplacestoworkmillennials.com/UserFiles/File/Unlocking%20Millennial%20Talent%202015.pdf).
+A white paper by the Center for Generational Kinetics noted that 60% of millennials chose their work because they felt they [made a difference](https://genhq.com/wp-content/uploads/2015/06/Unlocking-Millennial-Talent-c-2015-The-Center-for-Generational-Kinetics.pdf).
 
 ### They want technologically-savvy workplaces
 

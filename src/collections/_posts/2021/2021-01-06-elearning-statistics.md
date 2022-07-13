@@ -25,7 +25,7 @@ Due to this, we saw the following trends and stats:
 6. Companies that allow remote work saw [25% less employee turnover](https://review42.com/remote-work-statistics/)
 7. [Think With Google](https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/at-home-work-life-balance/) reports a 9% increase in the search phrase “team building” during the pandemic
 8. Employees are looking for more [effective training opportunities](https://www.hrexchangenetwork.com/learning/news/7-stats-that-prove-training-value) from their employers
-9. [Increasing user engagement](https://www.researchandmarkets.com/reports/4827704/corporate-e-learning-global-market-outlook) remains the number one challenge for eLearning in the workforce
+9. [Increasing user engagement](https://www.researchandmarkets.com/reports/5625039/e-learning-market-global-outlook-and-forecast#src-pos-2) remains the number one challenge for eLearning in the workforce
 10. Organizations spent 67% more on [conferencing software](https://www.statista.com/statistics/1116831/business-software-spending-covid19-forecast/) as of April 2020
 11. Well into (and past) 2021, remote work is going to [change the way companies train employees](https://www.gartner.com/en/newsroom/press-releases/2020-04-03-gartner-cfo-surey-reveals-74-percent-of-organizations-to-shift-some-employees-to-remote-work-permanently2)
 
@@ -55,7 +55,7 @@ When it comes to these eLearning statistics, 2021 is looking revolutionary.
 10. The [70-20-10 rule for training](https://elearningindustry.com/70-20-10-model-learning-and-development) will likely become standard: 70% experiential, 20% collaborative, and 10% formalized training
 11. eLearning statistics in 2021 show that employees will need to focus on [closing the skills gap](https://business.linkedin.com/talent-solutions/blog/trends-and-research/2020/most-in-demand-hard-and-soft-skills) brought about by a changing workforce
 12. [Adaptive learning](https://www.litmos.com/blog/articles/adaptive-learning-mean-learners) that takes the needs of all learners into account is a non-negotiable in 2021
-13. In 2020, 90% of companies used [eLearning as a training tool](https://www.researchandmarkets.com/reports/4827704/corporate-e-learning-global-market-outlook). While this didn’t quite reach the [percentage predicted in 2017](https://smallbiztrends.com/2017/12/2018-e-learning-trends.html) (an optimistic 98%), COVID-related remote work definitely pushed it close.
+13. In 2020, 90% of companies used [eLearning as a training tool](https://www.researchandmarkets.com/reports/5625039/e-learning-market-global-outlook-and-forecast#src-pos-2). While this didn’t quite reach the [percentage predicted in 2017](https://smallbiztrends.com/2017/12/2018-e-learning-trends.html) (an optimistic 98%), COVID-related remote work definitely pushed it close.
 
 
 

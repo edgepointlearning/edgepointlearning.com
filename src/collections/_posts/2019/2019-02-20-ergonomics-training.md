@@ -94,10 +94,10 @@ Instead of one annual safety training, think of utilizing the concept of "[kaize
 
 Mobile-first training apps can make that happen. For example, you can:
 
-* Send [microlearning](https://www.pinpointworkforce.com/content) courses daily, with two-minute videos that focus on ways employees can optimize their workspace
+* Send [microlearning](https://www.pinpointworkforce.com/) courses daily, with two-minute videos that focus on ways employees can optimize their workspace
 * Alert employee phones with [geofencing-enabled notifications](/blog/geofencing/) when they enter a job site to give them important on-the-ground safety reminders
 * Roll out an [interactive training game](/blog/gamification-in-elearning/) that delivers information on proper hand position over a laptop and is designed to correct misalignment while it’s being played
 
-These are just a few examples of the ways in which ergonomics training becomes a daily part of life, not an isolated event. Together, PinPoint and EdgePoint developed a [library of microlearning courses](https://www.pinpointworkforce.com/content) that were made for today's mobile-first employees. With topics on proper ergonomics to back safety to hearing conservation, these courses are ready to roll out today to your team.
+These are just a few examples of the ways in which ergonomics training becomes a daily part of life, not an isolated event. Together, PinPoint and EdgePoint developed a [library of microlearning courses](https://www.pinpointworkforce.com/copy-of-solutions-training-7) that were made for today's mobile-first employees. With topics on proper ergonomics to back safety to hearing conservation, these courses are ready to roll out today to your team.
 
-<strong>[Get in touch today](/contact/) for a demo of our ergonomics training options, including mobile-first options.</strong>
+**[Get in touch today](/contact/) for a demo of our ergonomics training options, including mobile-first options.**

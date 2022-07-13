@@ -13,10 +13,10 @@
     "netlify-cli": "^10.7.1"
   },
   "scripts": {
-    "netlify": "netlify",
     "dev": "bundle exec jekyll serve --future --config ./src/_config.yml",
     "build": "bundle exec jekyll build --config ./src/_config.yml",
     "proof": "bundle exec htmlproofer ./_site --allow-hash-href --ignore-empty-mailto --directory-index-file index.html --checks-to-ignore ScriptCheck,ImageCheck",
-    "proof-internal": "bundle exec htmlproofer ./_site --allow-hash-href --ignore-empty-mailto --directory-index-file index.html --disable_external --checks-to-ignore ScriptCheck,ImageCheck"
+    "proof-internal": "bundle exec htmlproofer ./_site --allow-hash-href --ignore-empty-mailto --directory-index-file index.html --disable_external --checks-to-ignore ScriptCheck,ImageCheck",
+    "netlify": "netlify"
   }
 }

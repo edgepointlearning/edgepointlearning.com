@@ -30,11 +30,11 @@ Let's look at these advantages of eLearning in more detail.
 We'll start with the bottom-line. eLearning is simply more cost-effective for a larger employee audience.
 You're reducing fees for trainers and employee time, as well as costs related to training rooms, travel, catering, and materials. For eLearning, on the other hand, employees will just need access to a computer or a mobile phone, and some time, to complete their training.
 
-[Training](https://trainingmag.com/why-are-our-print-budgets-so-high-digital-world) magazine reports that you can save 80% alone in printing costs. Companies have saved thousands by switching to eLearning. These cost savings are one of the clearest advantages of eLearning.
+[Training](https://trainingmag.com/why-are-our-print-budgets-so-high-in-a-digital-world/) magazine reports that you can save 80% alone in printing costs. Companies have saved thousands by switching to eLearning. These cost savings are one of the clearest advantages of eLearning.
 
 ##  2. Reduces learning time for your employees
 
-Just as eLearning saves you money, making the switch can also lead to huge savings for your employee's time. And it's not an insignificant amount. Did you know that eLearning reduces your employee's [learning time](http://www.kineo.com/us/resources/new-to-elearning/the-benefits-of-elearning) by as much as 60% when compared to traditional learning?
+Just as eLearning saves you money, making the switch can also lead to huge savings for your employee's time. And it's not an insignificant amount. Did you know that eLearning reduces your employee's learning time by as much as 60% when compared to traditional learning?
 
 eLearning can reduce employee time associated with:
 
@@ -67,7 +67,7 @@ Instead of being confined to the classroom, eLearning materials can go wherever 
 
 One of the major drawbacks of instructor-led group training is that some employees will avoid contributing to the lesson because of a fear of failure. eLearning solutions provide employees with an opportunity to fail in a safe environment.
 
-As the [eLearning Brothers](http://elearningbrothers.com/the-advantages-of-elearning/) explain:
+As the [eLearning Brothers](https://blog.elblearning.com/) explain:
 
 "A good learning program shows the consequences of students’ actions and here/why they went wrong. After a failure, students can go back and try again. This type of learning experience eliminates the embarrassment of failure in front of a group."
 
