@@ -1,12 +1,12 @@
 ---
-title:    "11 Insights Into Employee Engagement Research From 2019"
+title:    "11 Insights Into Employee Engagement Research"
 permalink: /blog/employee-engagement-research/
 author: { name: Michael Hansen }
 image: blog/2019/2019-12-11-employee-engagement-research.jpg
 meta: Read on for the top learning research articles on employee training and development and workplace engagement in 2019.
 ---
 
-As we near the end of the year, it’s time to look at the key findings in employee engagement research from 2019. Here are the top learning research articles on employee training and development and workplace engagement, and what they could mean for your employees in 2020.
+Here are the top learning research articles on employee training and development and workplace engagement, and what they could mean for your employees in the future.
 
 ## 1. Gratitude in the workplace goes a long way
 

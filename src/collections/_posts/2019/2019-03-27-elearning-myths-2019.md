@@ -1,12 +1,12 @@
 ---
-title:    "6 eLearning Myths We Need To Completely Leave Behind In 2019 "
+title:    "6 eLearning Myths We Need To Completely Leave Behind"
 permalink: /blog/elearning-myths-2019/
 author: { name: Michael Hansen }
 image: blog/2019/2019-03-27-elearning-myths-2019.jpg
-meta: "We all know eLearning is a growing industry and what may have been par for course in 2014 is no longer a best practice. In 2019, these are the six eLearning myths we can leave completely behind."
+meta: "eLearning is a growing industry and what may have once been par for the course is no longer a best practice. These are the six eLearning myths we can leave completely behind."
 ---
 
-It’s easy to get swept up in new eLearning trends and technologies without realizing that not all training is created equal. Further, eLearning is a growing industry and what may have been par for course in 2014 is no longer a best practice. In 2019, these are the six eLearning myths we can leave completely behind.
+It’s easy to get swept up in new eLearning trends and technologies without realizing that not all training is created equal. Further, eLearning is a growing industry and what may have been par for course in 2014 is no longer a best practice. As we move into the future, these are the six eLearning myths we can leave completely behind.
 
 ## Myth #1: Everything should be FUN!
 
@@ -72,4 +72,4 @@ Chances are good that every company has room for growth and improvement. After a
 
 If you suspect that a program is necessary, a [training needs analysis](/blog/training-needs-analysis/) can help you identify your core training needs to provide valuable, important information to your employees. Focus on what actually matters to your company – not what everyone else is doing.
 
-<strong>Have strong opinions about any of these? Have other eLearning trends or practices that you feel are completely irrelevant in 2019? I'm always around if you'd like to [get in touch](/contact).</strong>
+**[Let us know](/contact) if you have questions or would like to discuss any of these trends or practices. EdgePoint Learning is here for you.**

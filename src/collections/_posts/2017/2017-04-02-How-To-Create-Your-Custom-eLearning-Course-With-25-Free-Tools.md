@@ -3,7 +3,7 @@ title: 25 FREE Tools To Create Your Custom eLearning Courses
 permalink: /blog/how-to-create-your-custom-elearning-course-with-25-free-tools/
 author: { name: Corey Bleich }
 image: blog/2017/2017-04-02-How-To-Create-Your-Custom-eLearning-Course-With-25-Free-Tools.jpg
-meta: Find over 25 free eLearning authoring tools to create your custom courses in 2019. We also break down the 6 steps for creating the best learning programs. 
+meta: Find over 25 free eLearning authoring tools to create your custom courses. We also break down the 6 steps for creating the best learning programs. 
 ---
 
 Do you need to teach your employees about [new software or processes](/blog/how-to-train-employees-on-new-system/)? Would an eLearning course make your life much easier when it came to [onboarding new employees](/blog/how-to-train-new-employees/)? You can create a custom eLearning course, specifically made to meet your training needs. We lay out the six steps every successful eLearning project follows and then share 25 of our favorite free eLearning authoring tools for graphics, audio, video, and more that you can use today to make your course a reality. Read on to find all of our tips and tools. 

@@ -1,5 +1,5 @@
 ---
-title: "11 Powerful Leadership Training Activities For Employees In 2019"
+title: "11 Powerful Leadership Training Activities For Employees"
 permalink: /blog/leadership-training-activities-for-employees/
 author: { name: Michael Hansen }
 image: blog/2019/2019-08-14-leadership-training-activities-for-employees.jpg

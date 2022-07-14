@@ -1,9 +1,9 @@
 ---
-title:    "10 Topics To Include In Your New Manager Training In 2020"
+title:    "10 Topics To Include In Your New Manager Training"
 permalink: /blog/new-manager-training/
 author: { name: Corey Bleich }
 image: blog/2019/2019-11-06-new-manager-training.jpg
-meta: These are ten topics to include in your new manager training (and why this type of training is still vitally important in 2020 and beyond).
+meta: These are ten topics to include in your new manager training (and why this type of training is still vitally important in the future).
 ---
 
 This isn’t your grandparent’s new manager training.

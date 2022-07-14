@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign h1 = '<h1' %}
+{% assign h1_styled = '<h1 class="h3"' %}
+{% assign h2 = '<h2' %}
+{% assign h2_styled = '<h2 class="h4"' %}
+
+<div class="grid-x grid-padding-x align-center margin-top-3 content">
+  <div class="cell" style="margin-bottom: 2em;">
+    {{ content | replace : h1, h1_styled | replace : h2, h2_styled }}
+  </div>
+</div>
