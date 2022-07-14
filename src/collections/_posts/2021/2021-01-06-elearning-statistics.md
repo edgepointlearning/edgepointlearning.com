@@ -1,19 +1,19 @@
 ---
-title:       "36 eLearning Statistics: 2021 Key Insights To Shape Our Year"
+title:       "36 eLearning Statistics: Key Insights To Shape Our Future"
 permalink: /blog/elearning-statistics/
 image: blog/2021/2021-01-06-elearning-statistics.jpg
-meta:  As we move into 2021, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
+meta:  As we move into the future, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
 author: { name: Corey Bleich }
 ---
 
 These eLearning statistics will shape this year and our efforts in the employee training industry
 {: .featured-text }
 
-With a global pandemic leading to lockdowns and financial struggles in 2020, companies had to pivot fast. Due to the wide array of changes and challenges, companies in 2020 had to look for training that was quick to deploy, effective, and affordable. As we move into 2021, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
+With a global pandemic leading to lockdowns and financial struggles in 2020, companies had to pivot fast. Due to the wide array of changes and challenges, companies had to look for training that was quick to deploy, effective, and affordable. As we move into the future, these are 36 eLearning statistics that will shape this year and our efforts in the employee training industry.
 
-## 11 workforce statistics in 2021
+## 11 workforce statistics
 
-When it comes to workforce statistics in 2021, one thing is for sure: 2020 was a roller coaster of a year. The growth of online learning was already exploding when partial and full shut-downs sent many employees home to work remotely.
+When it comes to workforce statistics, one thing is for sure: 2020 was a roller coaster of a year. The growth of online learning was already exploding when partial and full shut-downs sent many employees home to work remotely.
 
 Due to this, we saw the following trends and stats:
 
@@ -29,7 +29,7 @@ Due to this, we saw the following trends and stats:
 10. Organizations spent 67% more on [conferencing software](https://www.statista.com/statistics/1116831/business-software-spending-covid19-forecast/) as of April 2020
 11. Well into (and past) 2021, remote work is going to [change the way companies train employees](https://www.gartner.com/en/newsroom/press-releases/2020-04-03-gartner-cfo-surey-reveals-74-percent-of-organizations-to-shift-some-employees-to-remote-work-permanently2)
 
-There is no doubt that the COVID-19 pandemic has changed the way companies across the globe do business. This has far-reaching implications for work and training that we will begin to see playing out in 2021.
+There is no doubt that the COVID-19 pandemic has changed the way companies across the globe do business. This has far-reaching implications for work and training that we will begin to see playing out in the future.
 
 
 
@@ -37,11 +37,11 @@ There is no doubt that the COVID-19 pandemic has changed the way companies acros
 
 
 
-## 13 eLearning statistics 2021
+## 13 eLearning statistics
 
 While some of these eLearning statistics feel more like predictions than research-based certainty, the writing is on the wall. COVID-19 has permanently shifted how companies do business, and this will dramatically affect the way we learn at work as well.
 
-When it comes to these eLearning statistics, 2021 is looking revolutionary.
+When it comes to these eLearning statistics, the future is looking revolutionary.
 
 1. [eLearning industry growth](https://www.statista.com/statistics/1130331/e-learning-market-size-segment-worldwide/#:~:text=In%202019%2C%20the%20global%20online,approximately%20101%20billion%20U.S.%20dollars.&text=By%202026%2C%20the%20total%20market,over%20370%20billion%20U.S.%20dollars.) is projected to increase from $101 billion in 2019 to $370 billion by 2026
 2. [Learning experience platforms](https://joshbersin.com/2019/03/learning-experience-platform-lxp-market-grows-up-now-too-big-to-ignore/) that personalize the learning experience will begin to push out the simple LMS approach by 2021
@@ -67,13 +67,13 @@ When it comes to these eLearning statistics, 2021 is looking revolutionary.
 
 [Microlearning](/blog/types-of-microlearning/) is the practice of delivering just-in-time, bite-sized pieces of learning, when and where employees need it most. Think 15-minute compliance checklists or how-to videos instead of binders full of text.
 
-Here are 12 microlearning statistics to keep an eye on as we move into 2021.
+Here are 12 microlearning statistics to keep an eye on as we move into the future.
 
 1. The mobile learning (mLearning) market is projected to reach nearly $79 billion by 2025
 2. mLearning will become the [microlearning mode of choice](https://www.cnbc.com/2019/01/24/smartphones-72percent-of-people-will-use-only-mobile-for-internet-by-2025.html) by 2025
 3. The interest in microlearning continues to rise, [as does your ROI with this approach](https://medium.com/@Origin_Learning/microlearning-a-top-2020-learning-trend-6d438a1e35a4)
 4. Gamification [increases engagement and motivation](https://review42.com/gamification-statistics/) and continues to be in high demand
-5. [Mobile apps for microlearning](https://medium.com/@Origin_Learning/microlearning-a-top-2020-learning-trend-6d438a1e35a4) will be a cost-effective way to train employees in 2021
+5. [Mobile apps for microlearning](https://medium.com/@Origin_Learning/microlearning-a-top-2020-learning-trend-6d438a1e35a4) will be a cost-effective way to train employees
 6. Research continues to affirm a [boost in knowledge retention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6716752/) with microlearning
 7. Video remains the [most popular form of microlearning](https://trainingmag.com/trgmag-article/2019-training-industry-report/) delivery
 8. Microlearning will continue to increase employee safety and [encourage a high rate of participation](https://trainingmag.com/trgmag-article/2019-training-industry-report/)
@@ -87,8 +87,8 @@ Here are 12 microlearning statistics to keep an eye on as we move into 2021.
 {% picture blog blog/2021/2021-01-06-elearning-statistics03.jpg --alt Microlearning courses are up to 50% cheaper to develop than longer eLearning %}
 
 
-## Get ready for 2021
+## Get ready for the future
 
-The year of COVID-19 may have been a rocky one, but we’re not on the other side of it yet. But considering these eLearning statistics, 2021 may be a year of extraordinary growth and learning. Is your company ready?
+The pandemic may have been a rocky one, but we’re not on the other side of it yet. But considering these eLearning statistics, the future may hold extraordinary growth and learning. Is your company ready?
 
 **[Get in touch with EdgePoint Learning today](/contact/) for a personalized [training needs analysis](/blog/training-needs-analysis/)!**

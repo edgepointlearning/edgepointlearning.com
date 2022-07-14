@@ -3,7 +3,7 @@ title:    "Beyond Facebook: Social Media Training For Today's Employees"
 permalink: /blog/social-media-training-for-employees/
 author: { name: Corey Bleich }
 image: blog/2020/2020-03-04-social-media-training-for-employees.jpg
-meta: This is how to get started with social media training for employees in 2020, from topics to cover to training frequency.
+meta: This is how to get started with social media training for employees, from topics to cover to training frequency.
 ---
 
 Even the most successful companies and employees have their share of social media gaffes. 
@@ -21,7 +21,7 @@ Originally, employee social media training focused on posting responsibly and av
 
 It’s crucial for employers to make these policies clear, for everyone from the stockroom to the boardroom. Because it’s not always as straightforward as it seems, developing a social media policy for your company, as we'll discuss below, is crucial.
 
-These are just a few examples of what your social media training of 2020 may include that you didn't cover before. 
+These are just a few examples of what your social media training may include that you didn't cover before. 
 
 ### Navigating changes in social media platforms
 

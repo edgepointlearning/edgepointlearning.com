@@ -1,24 +1,24 @@
 ---
-title:      8 eLearning Trends And Predictions For 2021
+title:      8 eLearning Trends And Predictions
 permalink: /blog/elearning-trends-2021/
 image: blog/2020/2020-12-16-elearning-trends-2021.jpg
-meta:  When it comes to eLearning trends, 2021 promises to call many traditional ways of thinking into question. These are our predictions for 2021 trends.
+meta:  When it comes to eLearning trends, the future promises to call many traditional ways of thinking into question. These are our predictions for 2021 trends.
 author: { name: Corey Bleich }
 ---
 
-2021 promises to call many traditional ways of thinking into question
+The future promises to call many traditional ways of thinking into question
 {: .featured-text }
 
-When it comes to eLearning trends, 2021 promises to call many traditional ways of thinking into question. A pandemic in a tumultuous political season means a dramatic revolution in the way we think about work and the [future of corporate learning](/blog/future-of-corporate-training-2019/). 
+When it comes to eLearning trends, the future promises to call many traditional ways of thinking into question. A pandemic in a tumultuous political season means a dramatic revolution in the way we think about work and the [future of corporate learning](/blog/future-of-corporate-training-2019/). 
 
 Consider the following [changes on the horizon](https://www.nxtbook.com/nxtbooks/trainingindustry/tiq_20200708/index.php#/p/4):
 
 * 56% of companies are retooling their training programs
-* 62% of businesses affected by changes due to COVID-19 are spending more on training in 2021
+* 62% of businesses affected by changes due to COVID-19 spent more on training in 2021
 * There has been a 16% increase in virtual learning (and a corresponding decrease in instructor-led training)
 * Engagement in remote instruction is still one of the biggest concerns for leadership
 
-Based on these figures and large-scale changes, these are eight of our predictions for eLearning trends in 2021.
+Based on these figures and large-scale changes, these are eight of our predictions for eLearning trends in the future.
 
 ## 1. Continuing monumental adoption of virtual training 
 
@@ -40,7 +40,7 @@ Another set of skills needed? Developing the training itself. It takes a particu
 
 The pace of change across 2020 could be described as “warp speed.” 
 
-With so much on-the-fly development and quick changes to safety protocols, training requirements, and work processes, a major corporate learning trend in 2021 will find businesses turning to pre-made training materials.
+With so much on-the-fly development and quick changes to safety protocols, training requirements, and work processes, a major corporate learning trend will find businesses turning to pre-made training materials.
 
 For example, two content curation tools that stand out include: 
 
@@ -51,7 +51,7 @@ Each of these options allow companies to rapidly create training or to rely on t
 
 ## 4. Performance support blurs the lines of training 
 
-Performance support will change in 2021 as many people stay remote. This means that[ microlearning in the flow of work](https://www.pinpointworkforce.com/post/microlearing-in-the-flow-of-work) begins to blur the line of sitting down to a traditional training or utilizing training aids to support job performance throughout the day.
+Performance support will change as many people stay remote. This means that[ microlearning in the flow of work](https://www.pinpointworkforce.com/post/microlearing-in-the-flow-of-work) begins to blur the line of sitting down to a traditional training or utilizing training aids to support job performance throughout the day.
 
 Not only does performance support give employees the tools they need to do their job, but it also allows them to share their expertise during their days. Training becomes better than the one-way street it might have been in the past. It focuses on collaboration towards a common goal between different employees, teams, or departments.
 
@@ -61,7 +61,7 @@ Better still, training is fully integrated. It’s not a separate, seemingly unr
 
 Previously, a minimum standard was that eLearning be “mobile ready.” Most trainings were built with the desktop user in mind and then modified as needed for mobile devices.
 
-In one of the biggest eLearning trends, 2021 sees a reverse of the traditional process of building content for desktop users and then adapting it to mobile. Many courses or programs are building for the mobile experience first and then transitioning to a desktop user experience instead. This upends how we used to think about designing eLearning. 
+In one of the biggest eLearning trends, we saw a reverse of the traditional process of building content for desktop users and then adapting it to mobile. Many courses or programs are building for the mobile experience first and then transitioning to a desktop user experience instead. This upends how we used to think about designing eLearning. 
 
 A quality mobile experience is crucial, especially as many workers are still outside the office and taking training at home. This makes it easier for businesses to deliver tools to employees when and where they need them.
 
@@ -76,7 +76,7 @@ In one related tool, [xAPI](https://xapi.com/) can replace the traditional learn
 
 ## 7. Workplace demands more flexible training 
 
-Another big lesson from 2020 that affects eLearning in 2021 is that many people who begrudgingly started working remotely have found that they actually like it and want to continue. 
+Another big lesson from 2020 that affects eLearning in the future is that many people who begrudgingly started working remotely have found that they actually like it and want to continue. 
 
 Surveys of workers have found that fully 90% of employees[ want to continue working from home](https://workplaceinsight.net/large-majority-of-people-want-to-continue-some-form-of-flexible-working/) in at least some capacity. Almost 50% of workers in these same surveys indicated that they want to continue to work remotely for most or all of their time.
 
@@ -84,9 +84,9 @@ The changing workplace means that the future of corporate learning must necessar
 
 {% picture blog blog/2020/2020-12-16-elearning-trends-2021-02.jpg --alt 90% of remote employees want to continue working at home %}
 
-## 8. eLearning trends in 2021 are like every year, but more 
+## 8. eLearning trends now are like every year, but more 
 
-Some of the eLearning trends in 2021 have been around for years but became vital once the full impact of 2020 hit. 
+Some of the eLearning trends have been around for years but became vital once the full impact of 2020 hit. 
 
 ### Microlearning
 
@@ -100,8 +100,8 @@ Video training, whether synchronous and virtual [instructor-led](/blog/virtual-i
 
 What used to seem futuristic and only for videogaming is now becoming one of the eLearning trends and predictions that was forecast years ago and is still building up real-world opportunities. Working at home means that in-person, on-the-job training isn’t widely possible. VR, [augmented reality](/blog/future-of-augmented-reality/) (AR), and MR tools allow employees to work through complex simulations or scenarios wherever they are.
 
-## Learn more about eLearning in 2021
+## Learn more about eLearning in the future
 
-[EdgePoint Learning](https://www.edgepointlearning.com/) has been on the cutting-edge of eLearning content for more than a decade. We can help your business meet the eLearning trends of 2021 and create a learning experience that meets your needs and drives company goals. 
+[EdgePoint Learning](https://www.edgepointlearning.com/) has been on the cutting-edge of eLearning content for more than a decade. We can help your business meet the eLearning trends of today and tomorrow and create a learning experience that meets your needs and drives company goals. 
 
 **[Get in touch today](/contact/) to see how we can help.**

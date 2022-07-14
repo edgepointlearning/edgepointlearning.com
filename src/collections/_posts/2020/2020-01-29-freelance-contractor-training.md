@@ -1,5 +1,5 @@
 ---
-title:    "Why We Can't Forget Contractors And Freelancers For Our 2020 Training Initiatives"
+title:    "Why We Can't Forget Contractors And Freelancers For Our Training Initiatives"
 permalink: /blog/freelance-contractor-training/
 author: { name: Michael Hansen }
 image: blog/2020/2020-01-29-freelance-contractor-training.jpg

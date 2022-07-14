@@ -1,17 +1,17 @@
 ---
-title:    What Should We Expect For The Future of Corporate Training In 2020?
+title:    What Should We Expect For The Future of Corporate Training?
 permalink: /blog/future-of-corporate-training-2019/
 date: 2019-10-10
 author: { name: Corey Bleich }
 image: blog/2018/2018-10-31-future-of-corporate-training-2019.jpg
-meta: As we near the end of 2019, it’s time to look forward to what’s next in the future of corporate training. Here's what you can expect.
+meta: It’s time to look forward to what’s next in the future of corporate training. Here's what you can expect.
 ---
 
-As we near the end of 2019, it’s time to look forward to what’s next in the future of corporate training. It seems that new corporate training trends are embracing technology now more than ever, but what does the future of employee training look like for your business?
+It seems that new corporate training trends are embracing technology now more than ever, but what does the future of employee training look like for your business?
 
 ## What are some of the emerging corporate training trends?
 
-At [EdgePoint Learning](https://www.edgepointlearning.com/), we believe the biggest shift in 2020 is going to be training that occurs seamlessly in the flow of work. Compartmentalized trainings (i.e., on Thursday morning you go to a training, then you put that manual back on the shelf and keep working in the afternoon) are being phased out as on-the-job training with immediate application emerges as a major trend.
+At [EdgePoint Learning](https://www.edgepointlearning.com/), we believe the biggest shift in the future of eLearning is going to be training that occurs seamlessly in the flow of work. Compartmentalized trainings (i.e., on Thursday morning you go to a training, then you put that manual back on the shelf and keep working in the afternoon) are being phased out as on-the-job training with immediate application emerges as a major trend.
 
 And this only makes sense with the way your employees are living out in the world.
 
@@ -19,7 +19,7 @@ With everyone connected through smartphones and devices, the various aspects of 
 
 ## 10 trends in the future of corporate training
 
-There is a lot of training noise out there – buy this software, implement this training, go to this conference. To help you cut through the static, here are ten emerging trends that are the future of corporate training in 2020 (and beyond!).
+There is a lot of training noise out there – buy this software, implement this training, go to this conference. To help you cut through the static, here are ten emerging trends that are the future of corporate training.
 
 ### 1. Geofencing
 
@@ -63,7 +63,7 @@ You may be hiring employees fresh out of college who have [never had a job befor
 
 ### 7. Improvised instruction
 
-While careful planning of employee training is important, one of the corporate training trends to watch in 2020 is the rise of improvisation in instructional design. This uses only materials readily available in a given space to design instruction and can go far beyond just teaching skills or facts. 
+While careful planning of employee training is important, one of the corporate training trends to watch is the rise of improvisation in instructional design. This uses only materials readily available in a given space to design instruction and can go far beyond just teaching skills or facts. 
 
 Improvisational design also teaches problem solving and teamwork, two of the all-important soft skills mentioned above.
 
