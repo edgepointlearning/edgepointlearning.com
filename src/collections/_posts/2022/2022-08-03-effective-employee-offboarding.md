@@ -3,7 +3,7 @@ title: "Don't Just Say \"See Ya Later\": How Employee Offboarding Can Help"
 permalink: /blog/effective-employee-offboarding/
 image: blog/2022/2022-08-03-effective-employee-offboarding.jpg
 meta:   Your effective offboarding procedure with an exiting employee is critical to their transition and to your company’s continued smooth operation.
-author: { name: Corey Bleich}
+author: { name: Megan Egbert}
 ---
 
 It is no surprise that companies are scrambling to keep up with the demand of training new employees. [Onboarding](https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/understanding-employee-onboarding.aspx), a critical process when hiring new employees, has to be thorough, efficient, and scalable. This is especially important in times such as this when it seems everyone is hiring. But onboarding isn’t the only employee process that needs to be refined during times of extensive turnover. [The Great Resignation](/blog/recruit-train-retain-employees-great-resignation/) brings an increased need to shore up policies and procedures related to employees leaving, because they are leaving en masse. This makes employee [offboarding](https://www.lucidchart.com/blog/what-is-offboarding-in-human-resources) more critical than ever. 
