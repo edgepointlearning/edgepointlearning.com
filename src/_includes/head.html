@@ -26,8 +26,8 @@
     <!-- ROBOTS WELCOME-->
   {% endif %}
 
-  <title>{% if page.title %}{% if page.title != "home" %}{{ page.title }} | {% endif %}{% endif %}{{ site.title }}</title>
-  <meta property="og:title" content="{% if page.title %}{% if page.title == "home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" >
+  <title>{% if page.title %}{% if page.title != "home" %}{{ page.title | escape  }} | {% endif %}{% endif %}{{ site.title | escape }}</title>
+  <meta property="og:title" content="{% if page.title %}{% if page.title == "home" %}{{ site.title | escape }}{% else %}{{ page.title | escape }}{% endif %}{% else %}{{ site.title | escape }}{% endif %}" >
 
   <meta name="generator" content="Jekyll">
 
