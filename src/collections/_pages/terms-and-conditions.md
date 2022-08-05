@@ -2,6 +2,7 @@
 title: EdgePoint Learning Terms & Conditions
 permalink: /terms-and-conditions/
 layout: terms
+meta: "EdgePoint Learning Terms & Conditions"
 ---
 # Terms and Conditions
 
