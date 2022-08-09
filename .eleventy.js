@@ -66,8 +66,10 @@ module.exports = function(eleventyConfig) {
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
   
-  // passthrough node_modules
+  // passthrough behavior
+  eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
 
+  // passthrough node_modules
   eleventyConfig.addPassthroughCopy({'./node_modules/@ryangjchandler/alpine-clipboard/dist/' : './js/'});
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});

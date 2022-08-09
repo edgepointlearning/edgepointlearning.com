@@ -7,21 +7,126 @@ imageStyles: 'blur-sm'
 
 hero:
   video: heroes/shape-14.720p_med.mp4
-  videoStyles: 'blur-lg'
+  videoStyles: 'blur-xl'
   headline: Let's design<br> your next project 
   tagline: View our demos or book<br> a one-on-one consultation
   cta:
-  - name: Let's Talk
+  - name: Let's talk
     url: '#contactform'
-  - name: Our Solutions
+  - name: Our solutions
     url: /solutions/
+  
+ourDemos:
+
+- title: "Entry"
+  link: "#"
+  image: "/placeholder/landscape-c.jpeg"
+  text: "Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment."
+  color: "bg-rose-50"
+
+- title: "Pro"
+  link: "#"
+  image: "/placeholder/landscape-c.jpeg"
+  text: "We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more."
+  color: "bg-amber-50"
+
+- title: "Premium"
+  link: "#"
+  image: "/placeholder/landscape-c.jpeg"
+  text: "Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall."
+  color: "bg-blue-50"
 ---
 
-<div class="pb-16 bg-white px-4">
-  <article class="prose mx-auto">
-    <h2>See a demo</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat diam ut venenatis tellus in metus. Mi bibendum neque egestas congue quisque egestas diam. Proin libero nunc consequat interdum. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Fames ac turpis egestas sed tempus urna. Quis auctor elit sed vulputate. Turpis egestas sed tempus urna et. Volutpat lacus laoreet non curabitur gravida arcu. Sit amet luctus venenatis lectus magna fringilla. Adipiscing enim eu turpis egestas pretium aenean pharetra.</p>
-    
-    <p>Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Pretium lectus quam id leo in. Iaculis at erat pellentesque adipiscing. Morbi tristique senectus et netus et malesuada fames ac turpis. Nibh cras pulvinar mattis nunc. Ante metus dictum at tempor commodo ullamcorper a. Amet mattis vulputate enim nulla aliquet porttitor lacus. Euismod elementum nisi quis eleifend quam adipiscing. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Diam maecenas ultricies mi eget mauris pharetra et. Sapien faucibus et molestie ac feugiat sed. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Mattis nunc sed blandit libero volutpat sed cras ornare. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Turpis in eu mi bibendum neque egestas. Dictum non consectetur a erat nam at lectus urna duis.</p>
-  </article>
+<div class="bg-white">
+  <div class="wrapper">
+
+    <h2 class="pt-24 pb-12 text-2xl font-bold sm:text-4xl">Explore our eLearning demos</h2>
+
+    <div class="grid grid-cols-3 gap-12 pb-12">
+      {%- for item in ourDemos -%}
+        <a 
+          aria-label="{{item.title}}"
+          href="{{item.link}}"
+          class="{{item.color}}
+            relative mx-auto max-w-md grid grid-cols-1 col-span-3 md:col-span-1
+            rounded-lg overflow-hidden 
+            group transition hover:shadow-lg hover:-translate-y-2"
+          >
+          {% picture item.image, item.title,
+            "object-cover aspect-video rounded-lg group-hover:rounded-none",
+            "400px"
+          %}
+          <h3 class="px-4 text-xl md:text-lg lg:text-xl font-medium underline text-epl transition decoration-transparent decoration-1 underline-offset-2 group-hover:text-black group-hover:decoration-black">{{item.title}}</h3>
+          <h4 class="px-4 text-base text-slate-500">{{item.subtitle}}</h4>
+          <p class="px-4 pb-4 text-sm">{{item.text}}</p>
+        </a>
+      {%- endfor -%}
+    </div>
+
+  </div>
+</div>
+
+<div class="relative">
+  {% svg "waves--wave-4", "wave-top -z-10 fill-white -scale-y-100 -scale-x-100" %}
+  {% svg "waves--wave-7", "wave-bot -z-10 fill-slate-100" %}
+
+  <div class="wrapper">
+
+    <h2 class="pt-28 pb-8 text-2xl font-bold sm:text-4xl text-white">PinPoint, your Microlearning Solution</h2>
+
+    <div class="grid grid-cols-2 gap-8">
+
+      <div class="col-span-2 bg-white rounded-b-xl shadow">
+        {% vimeo "469090686", "mx-auto aspect-video" %}
+        <h3 class="text-xl mt-6 px-4 font-bold">Meet PinPoint Workforce</h3>
+        <p class="px-4 pt-2 pb-4">The future of mobile learning in the flow of work is just a tap away. Connect your frontline to learning with our mobile native platform. PinPoint's precision microlearning surrounds your workplace with learning that taps into the true potential of the smartphone.</p>
+      </div>
+
+      <div class="bg-white rounded-b-xl shadow">
+        {% vimeo "219609124", "mx-auto aspect-[9/16]" %}
+        <h3 class="text-xl mt-6 px-4 font-bold">How PinPoint Works</h3>
+        <p class="px-4 pt-2 pb-4">Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.</p>
+      </div>
+
+      <div class="bg-white rounded-b-xl shadow">
+        {% vimeo "218986846", "mx-auto aspect-[9/16]" %}
+        <h3 class="text-xl mt-6 px-4 font-bold">Explore The Admin App</h3>
+        <p class="px-4 pt-2 pb-4">Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-slate-100 pt-16 pb-8">
+  <div class="max-w-2xl px-4 py-8 mx-auto bg-white rounded drop-shadow-xl">
+    <h2 class="mb-6 text-2xl font-bold sm:text-4xl">Let's talk about your next project</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+<div class="relative pt-16 pb-24">
+
+  {% svg "waves--wave-4", "wave-top -z-10 -scale-y-100 -scale-x-100 fill-slate-100" %}
+
+  <div class="wrapper relative">
+
+    <h2 class="mb-4 text-2xl font-bold sm:text-4xl text-white">Your Learning Tools</h2>
+
+    <div class="flex flex-wrap justify-center gap-8 mt-16 wrapper">
+      {%- for link in solutions -%}
+        {% set blob = ["blobs--blob-", loop.index] | join | replace(".svg","") %}
+        {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %}    
+        {% set narrowName = link.name | replace(" ","\n") | striptags(true) | escape | nl2br %}    
+        <div class="relative flex flex-col items-center justify-center w-32 h-32 group sm:w-48">
+          {% svg blob, "fill-blue-300 absolute top-0 w-full transition group-hover:rotate-12 group-hover:scale-105" %}
+          {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:rotate-12" %}
+          <a aria-label="{{ link.name }}" class="z-10" href="{{ link.href }}">{% svg icon, "aspect-square w-16 transition origin-bottom group-hover:scale-125 group-hover:rotate-3" %}</a>
+          <a class="z-10 text-center" href="{{ link.href }}"><h4 class="text-sm font-semibold leading-tight">{{ narrowName }}</h4></a>
+        </div>    
+      {%- endfor -%}
+    </div>
+
+  </div>
+
 </div>
