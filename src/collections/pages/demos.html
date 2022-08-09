@@ -44,22 +44,25 @@ ourDemos:
 
     <div class="grid grid-cols-3 gap-12 pb-12">
       {%- for item in ourDemos -%}
+
         <a 
           aria-label="{{item.title}}"
           href="{{item.link}}"
           class="{{item.color}}
-            relative mx-auto max-w-md grid grid-cols-1 col-span-3 md:col-span-1
+            relative mx-auto max-w-md
+            grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start
             rounded-lg overflow-hidden 
             group transition hover:shadow-lg hover:-translate-y-2"
           >
           {% picture item.image, item.title,
-            "object-cover aspect-video rounded-lg group-hover:rounded-none",
+            "object-cover aspect-video rounded-lg",
             "400px"
           %}
-          <h3 class="px-4 text-xl md:text-lg lg:text-xl font-medium underline text-epl transition decoration-transparent decoration-1 underline-offset-2 group-hover:text-black group-hover:decoration-black">{{item.title}}</h3>
-          <h4 class="px-4 text-base text-slate-500">{{item.subtitle}}</h4>
-          <p class="px-4 pb-4 text-sm">{{item.text}}</p>
+          <h3 class="mx-4 text-xl font-medium text-epl">{{item.title}}</h3>
+          <h4 class="mx-4 text-slate-500">eLearning demo</h4>
+          <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
         </a>
+
       {%- endfor -%}
     </div>
 
@@ -76,22 +79,24 @@ ourDemos:
 
     <div class="grid grid-cols-2 gap-8">
 
-      <div class="col-span-2 bg-white rounded-b-xl shadow">
-        {% vimeo "469090686", "mx-auto aspect-video" %}
-        <h3 class="text-xl mt-6 px-4 font-bold">Meet PinPoint Workforce</h3>
-        <p class="px-4 pt-2 pb-4">The future of mobile learning in the flow of work is just a tap away. Connect your frontline to learning with our mobile native platform. PinPoint's precision microlearning surrounds your workplace with learning that taps into the true potential of the smartphone.</p>
+      <div class="col-span-2 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+        {% vimeo "469090686", "mx-auto aspect-video rounded-lg" %}
+        <div>
+          <h3 class="text-xl font-bold">Meet PinPoint Workforce</h3>
+          <p class="mt-2">The future of mobile learning in the flow of work is just a tap away. Connect your frontline to learning with our mobile native platform. PinPoint's precision microlearning surrounds your workplace with learning that taps into the true potential of the smartphone.</p>
+        </div>
       </div>
 
-      <div class="bg-white rounded-b-xl shadow">
-        {% vimeo "219609124", "mx-auto aspect-[9/16]" %}
-        <h3 class="text-xl mt-6 px-4 font-bold">How PinPoint Works</h3>
-        <p class="px-4 pt-2 pb-4">Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.</p>
+      <div class="col-span-2 md:col-span-1 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
+        {% vimeo "219609124", "mx-auto aspect-square rounded-lg" %}
+        <h3 class="mt-1 text-lg font-bold">How PinPoint Works</h3>
+        <p class="">Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.</p>
       </div>
 
-      <div class="bg-white rounded-b-xl shadow">
-        {% vimeo "218986846", "mx-auto aspect-[9/16]" %}
-        <h3 class="text-xl mt-6 px-4 font-bold">Explore The Admin App</h3>
-        <p class="px-4 pt-2 pb-4">Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.</p>
+      <div class="col-span-2 md:col-span-1 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
+        {% vimeo "218986846", "mx-auto aspect-square rounded-lg" %}
+        <h3 class="mt-1 text-lg font-bold">Explore The Admin App</h3>
+        <p class="">Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.</p>
       </div>
 
     </div>
