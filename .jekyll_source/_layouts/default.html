@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+  
+  <body class="layout-{{ page.layout }} page-{{ page.name | replace: '.html', '' | downcase}} {% if jekyll.environment == 'development' %} development{% endif %}">
+
+    {% include search.html %}
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+      {% include nav-off-canvas.html %}
+    </div>
+  
+    <div class="off-canvas-content" data-off-canvas-content>
+      {% include nav.html %}
+      <main>
+        {{ content }}
+      </main>
+      {% include nav-footer.html %}
+    </div>
+    
+    <script src="{{ '/assets/js/vendor/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/what-input.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/foundation.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/clipboard.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/ofi.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/lazysizes.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/vi-lazyload.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/vendor/instantpage.js' | relative_url }}"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+    {% if jekyll.environment == 'production' %}
+      <!-- Allow trackers -->
+      <!-- Keap -->
+      <script async type="text/javascript" src="https://lf225.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=926f8dd3ace37216a9075cd6342f6d38"></script>
+      <!-- End Keap -->
+      <!-- Google Analytics -->
+      <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-47645104-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+      <script async src='https://www.google-analytics.com/analytics.js'></script>
+      <!-- End Google Analytics -->
+    {% endif %}
+
+    {% include algolia.html %}
+    <script>console.log("jekyll environment: {{ jekyll.environment }}");</script>
+  </body>
+</html>

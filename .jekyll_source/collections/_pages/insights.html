@@ -1,0 +1,54 @@
+---
+title: Employee Training Insights + News
+permalink: /blog/
+meta: Discover actionable insights into the learning industry, informative pieces on best practices for training, and more. Subscribe to get the latest in your inbox.
+image: /page-hero/GettyImages-1002782418.jpg
+
+headline: Employee Training Insights
+tagline: We love learning!
+---
+
+<div class="topo wave wave--bot--4 padding-top-2 padding-bottom-3">
+  <div class="grid-container">
+
+    <div class="grid-x grid-margin-x grid-margin-y align-center">
+      {% for post in site.posts limit: 3 %}
+        {% if forloop.index == 1 %}
+          {% assign class = 'card--teaser card--teaser--XL' %}
+        {% elsif forloop.index == 2 or forloop.index == 3 %}
+          {% assign class = 'card--teaser card--teaser--L' %}
+        {% else %}
+          {% assign class = 'card--teaser card--teaser--M' %}
+        {% endif %}
+        {% include card.html class = class url = post.url image = post.image title = post.title copy = post.meta %}
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center align-middle">
+
+    <div class="cell content large-auto">
+      <h1 class="font-bold">Employee Training Insights</h1>
+      <h2 class="subheader separator-left" style="margin-top: 0 !important; font-weight: 600;">We Love Learning!</h2>
+      <p>As learning experts, you can't pry the books and blogs and research articles out of our hands, or podcasts out of our ears. We're always focused on learning and we never stop seeking knowledge about the latest in employee engagement and motivation, and learning theories and technology.</p>
+      <p>In the insights from our eLearning blog, you’ll find informative, actionable, and cutting-edge insights into corporate training and development. What does that mean? Articles that tie into recent mainstream news stories. In-depth looks into the newest trends and technologies that are shaping the future of employee training. And, it also means insights into best practices, employee engagement tips, and more.</p>
+      <p>Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
+    </div>      
+
+    {% include form.html class="large-5" title = "Subscribe now!" copy = "Keep up to date on learning industry news and the latest EdgePoint offerings." keap = 983 %}  
+
+  </div>
+</div>
+
+<div class="topo wave wave--top--4--mirror padding-top-2 padding-bottom-3">
+  <div class="grid-container margin-top-2">
+    <div class="grid-x grid-margin-x grid-margin-y align-center">
+      {% for post in site.posts offset: 3 %}
+        {% include card.html class = 'card--teaser card--teaser--M' url = post.url image = post.image title = post.title copy = post.meta %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

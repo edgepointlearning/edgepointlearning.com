@@ -35,6 +35,9 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
+  ],
+  safelist: [
+    'fill-slate-100',
   ]
 }
 // https://www.tailwindshades.com/#color=212.57142857142856%2C79.54545454545455%2C34.509803921568626&step-up=8&step-down=11&hue-shift=0&name=tory-blue&overrides=e30%3D

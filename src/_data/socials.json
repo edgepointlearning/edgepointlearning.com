@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Facebook",
+    "href": "http://www.facebook.com/edgepointlearningllc",
+    "icon": "facebook.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "href": "https://www.linkedin.com/company/edgepoint-learning",
+    "icon": "linkedin.svg"
+        
+  },
+  {
+    "name": "Twitter",
+    "href": "https://twitter.com/EdgePointLearn",
+    "icon": "twitter.svg"
+  }
+]

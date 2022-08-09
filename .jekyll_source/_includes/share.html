@@ -1,0 +1,52 @@
+{% assign share_url = site.url | append: page.url | cgi_escape %}
+{% assign share_title = page.title %}
+
+<ul class="menu align-middle post__share">
+  <li>
+    <a
+      data-tooltip
+      data-clipboard-text="{{site.url}}{{page.url}}"
+      href="javascript:void(0)"
+      title="Copy link to clipboard"
+      id="clipboard"
+      class="clipboard">
+       {% svg '/assets/svg/social/link.svg' width=35 %}
+    </a>
+  </li>
+  <li>
+    <a
+      data-tooltip
+      href="https://facebook.com/sharer/sharer.php?u={{ share_url }}"
+      title="Share to Facebook"
+      target="_blank">
+        {% svg '/assets/svg/social/facebook.svg' width=35 %}
+    </a>
+  </li>
+  <li>
+    <a
+      data-tooltip
+      href="https://twitter.com/intent/tweet/?text='{{ share_title }}'&amp;url={{ share_url }}"
+      title="Share to Twitter"
+      target="_blank">
+        {% svg '/assets/svg/social/twitter.svg' width=35 %}
+    </a>
+  </li>
+  <li>
+    <a
+      data-tooltip
+      href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}"
+      title="Share to LinkedIn"
+      target="_blank">
+        {% svg '/assets/svg/social/linkedin.svg' width=35 %}
+    </a>
+  </li>
+  <li>
+    <a
+      data-tooltip
+      href="mailto:?subject={{ share_title }}&amp;body={{ share_url }}"
+      title="Share via Email"
+      target="_self">
+        {% svg '/assets/svg/social/email.svg' width=35 %}
+    </a>
+  </li>
+</ul>

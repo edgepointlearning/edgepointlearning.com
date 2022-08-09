@@ -11,17 +11,52 @@ hero:
   headline: Let's talk 
   tagline: It's time to start your next project
   cta:
-  - name: Our Approach
+  - name: Our approach
     url: /about/
-  - name: View Demos
+  - name: View demos
     url: /form/demo/
 ---
 
-<div class="pb-16 bg-white px-4">
-  <article class="prose mx-auto">
-    <h2>Contact Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat diam ut venenatis tellus in metus. Mi bibendum neque egestas congue quisque egestas diam. Proin libero nunc consequat interdum. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Fames ac turpis egestas sed tempus urna. Quis auctor elit sed vulputate. Turpis egestas sed tempus urna et. Volutpat lacus laoreet non curabitur gravida arcu. Sit amet luctus venenatis lectus magna fringilla. Adipiscing enim eu turpis egestas pretium aenean pharetra.</p>
-    
-    <p>Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Pretium lectus quam id leo in. Iaculis at erat pellentesque adipiscing. Morbi tristique senectus et netus et malesuada fames ac turpis. Nibh cras pulvinar mattis nunc. Ante metus dictum at tempor commodo ullamcorper a. Amet mattis vulputate enim nulla aliquet porttitor lacus. Euismod elementum nisi quis eleifend quam adipiscing. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Diam maecenas ultricies mi eget mauris pharetra et. Sapien faucibus et molestie ac feugiat sed. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Mattis nunc sed blandit libero volutpat sed cras ornare. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Turpis in eu mi bibendum neque egestas. Dictum non consectetur a erat nam at lectus urna duis.</p>
+<article class="bg-gradient-to-b from-white to-slate-100 px-4">
+  <p class="mx-auto pt-12 pb-16 prose prose-sm sm:prose-base lg:prose-lg">We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
+</article>
+
+<!-- CONTACT FORM -->
+<article class="relative">
+  {% svg "waves--wave-7", "wave-top -z-10 fill-slate-100 -scale-y-100" %}
+  {% svg "waves--wave-8", "wave-bot -z-10 fill-white -scale-x-100" %}
+
+  <div class="relative max-w-2xl px-4 py-8 mx-auto bg-white rounded drop-shadow-xl">
+    <h2 class="mb-4 text-2xl font-bold sm:text-4xl">Let's talk</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</article>
+
+<div class="bg-white px-4">
+
+  <article class="prose mx-auto pt-24">
+    <h2 class="text-2xl font-bold sm:text-4xl">Follow us on social</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
+      {%- for link in socials -%}
+        {% set icon = ["social--", link.icon] | join | replace(".svg","") %}    
+        <div class="relative grid grid-cols-1 place-items-center justify-center group mx-auto rounded-xl aspect-square p-3 transition hover:shadow-md">
+          <a aria-label="{{ link.name }}" href="{{ link.href }}">
+            {% svg icon, "aspect-square w-16 transition origin-center group-hover:scale-125" %}
+          </a>
+          <a class="z-10 text-center" href="{{ link.href }}"><h3 class="text-sm font-semibold mt-2">{{ link.name }}</h3></a>
+        </div>    
+      {%- endfor -%}
+    </div>  
+  </article> 
+
+  <article class="prose mx-auto py-12">
+    <h2 class="text-2xl font-bold sm:text-4xl">Send us a postcard</h2>
+    <p class="prose-sm sm:prose-base lg:prose-lg">
+      <span class="font-bold">EdgePoint Learning</span><br>
+      4340 E. Indian School Rd.<br>
+      #21-554<br>
+      Phoenix, AZ 85018
+    </p>
   </article>
+
 </div>

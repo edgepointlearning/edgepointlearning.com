@@ -1,0 +1,134 @@
+---
+title: View Our Demos 
+permalink: /form/demo/
+meta: From custom eLearning development to precision microlearning, explore how EdgePoint Learning can help with your next project.
+
+image: /page-hero/GettyImages-1163089697.jpg
+wave: bot-6
+
+headline: Let's design<br> your next project 
+tagline: View our demos or book<br> a one-on-one consultation
+cta1: Let's Talk
+cta1-url: '#contactform'
+cta2: Our Solutions
+cta2-url: /solutions/
+---
+{% include billboard.html %}
+
+<div class="grid-container padding-top-2 padding-bottom-3">
+  <div class="grid-x grid-margin-x grid-margin-y align-justify">
+    
+    <div class="cell margin-top-2">
+      <h2 class="font-bold">Explore Our eLearning Demos</h2>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-margin-x grid-margin-y align-center marge-up-3">
+    {% include card.html 
+      class = 'card--third'
+      title = 'Entry'
+      subtitle = 'eLearning Demo'
+      url = '/demo/lifting-basic/'
+      image = '/demos/lifting-1-basic.jpg'
+      copy = "Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment."
+      color = '#ffecf3'
+    %}
+
+    {% include card.html 
+      class = 'card--third'
+      title = 'Pro'
+      subtitle = 'eLearning Demo'
+      url = '/demo/lifting-pro/'
+      image = '/demos/lifting-2-pro.jpg'
+      copy = "We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more."
+      color = '#fff6e0'
+    %}
+
+    {% include card.html 
+      class = 'card--third'
+      title = 'Premium'
+      subtitle = 'eLearning Demo'
+      url = '/demo/lifting-premium/'
+      image = '/demos/lifting-3-premium.jpg'
+      copy = "Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall."
+      color = '#ebfaff'
+    %}
+  </div>
+
+</div>
+
+<div class="wave wave--top--3 wave--bot--1 topo padding-top-3" style="color: #f5f5f5;">
+  <div class="grid-container margin-vertical-3">
+    <div class="grid-x align-center grid-margin-x grid-margin-y">
+
+      <div class="cell">
+        <h2 class="font-bold">PinPoint, Your Microlearning Solution</h2>
+      </div>
+
+      <div class="cell card large-9 radius--rem shadow">
+        <div class="grid-x">
+          <div class="cell responsive-embed widescreen">
+            <div class="vi-lazyload" data-id="469090686" data-thumb="" data-logo="0"></div>
+          </div>
+          <div class="cell margin-bottom-1 padding-horizontal-1">
+            <h3 class="font-bold">Meet PinPoint Workforce</h3>
+            <p class="contentScale">The future of mobile learning in the flow of work is just a tap away. Connect your frontline to learning with our mobile native platform. PinPoint's precision microlearning surrounds your workplace with learning that taps into the true potential of the smartphone.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell card marge-6 radius--rem shadow">
+        <div class="grid-x">
+          <div class="cell responsive-embed widescreen gradient--purple">
+            <div class="vi-lazyload" data-id="219609124" data-thumb="" data-logo="0"></div>
+          </div>
+          <div class="cell margin-bottom-1 padding-horizontal-1">
+            <h3 class="font-bold">How PinPoint Works</h3>
+            <p>Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cell card marge-6 radius--rem shadow">
+        <div class="grid-x">
+          <div class="cell responsive-embed widescreen gradient--purple">
+            <div class="vi-lazyload" data-id="218986846" data-thumb="" data-logo="0"></div>
+          </div>
+          <div class="cell margin-bottom-1 padding-horizontal-1">
+            <h3 class="font-bold">Explore The Admin App</h3>
+            <p>Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="grid-container margin-vertical-3" id="contactform">
+  <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y align-center">
+    {% include form.html title = "Let's Talk About Your Next Project" keap = 975 %}
+  </div>
+</div>
+
+<!-- todo: H2: Our Client Demos [Add this section when we have options to work from]-->
+
+<div class="wave wave--top--4 padding-bottom-3" style="background-color: #ffffff;">
+  <div class="grid-container">
+
+    <div class="grid-x grid-margin-x grid-margin-y margin-top-3 padding-top-1">
+      <div class="cell">
+        <h2 class="font-bold text-nowrap">EdgePoint Learning Solutions</h2>
+      </div>
+    </div>
+
+    <div class="grid-x grid-margin-x grid-margin-y align-spaced margin-bottom-2 small-up-2 marge-up-4">
+      {% assign sorted = site.solutions | sort: 'nav-sort' %}
+      {% for solution in sorted %}
+        {% assign blob = forloop.index | prepend:'/assets/svg/blobs/blob-' | append:'.svg' %}
+        {% include card--blob.html href = solution.url icon = solution.nav-iconColor text = solution.nav-name %}
+      {% endfor %}  
+    </div>
+
+  </div>
+</div>

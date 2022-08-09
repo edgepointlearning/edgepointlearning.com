@@ -1,0 +1,118 @@
+source: ./src/
+destination: ./_site/
+
+# SEO
+title      : EdgePoint Learning
+description: "From microlearning to blended learning opportunities, EdgePoint Learning designs eLearning solutions for today's employees."
+keywords   : "EdgePoint Learning, eLearning, eLearning development company, custom eLearning, custom eLearning solutions, employee training, corporate compliance training, microlearning"
+url        : 'https://www.edgepointlearning.com'
+color      : '#12529e'
+og-image   : '/static/seo/og-image-02.jpg'
+
+livereload : true
+
+sass:
+  sass_dir: assets/_scss
+
+plugins :
+  - jekyll-inline-svg
+  - jekyll-sitemap
+  - jekyll-autoprefixer
+  - jekyll-target-blank
+
+include :
+  - _pages 
+
+# Collections
+collections_dir: collections
+collections   :
+  forms       :
+    output    : false
+  demos       :
+    output    : true
+    permalink : /demo/:path/
+  demos-2021   :
+    output    : true
+    permalink : /demo/21/:path/
+  stories     :
+    output    : true
+    permalink : /story/:path/
+  solutions   :
+    output    : true
+    # permalink : /:path/
+
+# Defaults
+defaults :
+  -
+    scope       :
+      path      : ''
+    values      :
+      layout    : 'page'
+      imagepos  : 'center center'
+      #last_modified_at: 2020-11-24T00:00:00-04:00
+  -
+    scope       :
+      type      : 'posts'
+    values      :
+      layout    : 'post'
+      permalink : /blog/:title/
+  -
+    scope       :
+      type      : 'demos-2021'
+    values      :
+      layout    : 'demo'
+      sitemap   : false
+  -
+    scope       :
+      type      : 'demos'
+    values      :
+      layout    : 'demo'
+      sitemap   : false
+  -
+    scope       :
+      type      : 'stories'
+    values      :
+      layout    : 'story'
+  -
+    scope       :
+      type      : 'solutions'
+    values      :
+      layout    : 'solution'
+      form-title: 'Schedule a Demo'
+      form-keap : '975'
+  -
+    scope       :
+      path      : 'static/**/*.pdf'
+    values      :
+      sitemap   : false
+
+### plugin: jekyll-algolia 
+# to update search index: ALGOLIA_API_KEY='my-private-algolia-application-id' bundle exec jekyll algolia 
+algolia:
+  application_id: 10CLOWR2F7
+  index_name: edgepointlearning
+  search_only_api_key: d8ed542264abddec8c8f7dcaafdd3e1e
+  max_record_size: 20000 # https://community.algolia.com/jekyll-algolia/options.html#max-record-size
+  files_to_exclude:
+    - collections/_demos-2021/*
+    - collections/_demos/*
+    - collections/_forms/*
+    - static/*    
+    - collections/_pages/special-404.html
+    - collections/_pages/special-download-company-overview.html
+    - collections/_pages/special-download-elem.html
+    - collections/_pages/special-quiz-01.html
+    - collections/_pages/special-rsvp-cb.html
+    - collections/_pages/special-rsvp-cr.html
+    - collections/_pages/special-thanks.html
+
+### autoprefixer
+autoprefixer:
+  browsers:
+  - last 2 versions
+
+### plugin: jekyll_picture_tag
+picture:
+  source: "assets/images/_fullsize"
+  output: "assets/images/generated"
+  suppress_warnings: true

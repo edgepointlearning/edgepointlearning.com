@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% include billboard.html %}
+
+{{ content }}
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-padding-x grid-padding-y align-center">
+    {% include form.html 
+      title = page.form-title
+      copy = page.form-copy
+      keap = page.form-keap 
+    %}
+  </div>
+</div>
+
+
+<div class="topo wave wave--top--4--mirror padding-bottom-3">
+
+  <div class="grid-container margin-top-3">
+
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell">
+        <h2 class="font-bold">Explore</h2>
+      </div>
+    </div>
+
+    <div class="grid-x grid-margin-x grid-margin-y margin-bottom-1 marge-up-3">
+
+      {% for item in page.explore %}
+        {% assign post = item[1] %}
+        {% include card.html class = 'card--teaser card--teaser--M' url = post.link image = post.image title = post.title copy = post.blurb %}
+      {% endfor %}
+      
+    </div>
+
+  </div>
+
+</div>

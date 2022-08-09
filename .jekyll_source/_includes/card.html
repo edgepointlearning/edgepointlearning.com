@@ -1,0 +1,19 @@
+<div class="cell card card--epl {{ include.class }}" style="background-color: {{include.color}};">
+  <a href="{{ include.url }}">
+
+    <div class="grid-x">
+
+      <div class="cell card__image">
+        {% picture card {{ include.image }} --alt {{ include.title }} %}
+      </div>
+      
+      <div class="cell card__content padding-1">
+        <h3 class="noWidows">{{ include.title }}</h3>
+        <h4>{{ include.subtitle }}</h4>
+        <p class="margin-bottom-0">{{ include.copy | remove: '<p>' | remove: '</p>' | strip_html }}</p>
+      </div>
+    
+    </div>
+  
+  </a>
+</div>
