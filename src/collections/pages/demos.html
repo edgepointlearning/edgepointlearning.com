@@ -20,25 +20,28 @@ ourDemos:
 
 - title: "Entry"
   link: "#"
-  image: "/placeholder/landscape-c.jpeg"
+  image: "/demos/lifting-1-basic.jpg"
   text: "Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment."
   bg: "bg-rose-50"
-  outline: "hover:outline-rose-400"
+  color: "text-rose-700/75"
+  outline: "hover:outline-rose-300"
 
 
 - title: "Pro"
   link: "#"
-  image: "/placeholder/landscape-c.jpeg"
+  image: "/demos/lifting-2-pro-b.jpg"
   text: "We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more."
   bg: "bg-amber-50"
-  outline: "hover:outline-amber-400"
+  color: "text-amber-700/75"
+  outline: "hover:outline-amber-300"
 
 - title: "Premium"
   link: "#"
-  image: "/placeholder/landscape-c.jpeg"
+  image: "/demos/lifting-3-premium.jpg"
   text: "Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall."
   bg: "bg-blue-50"
-  outline: "hover:outline-blue-400"
+  color: "text-blue-700/75"
+  outline: "hover:outline-blue-300"
 ---
 
 <div class="bg-white">
@@ -58,12 +61,12 @@ ourDemos:
             outline outline-1 outline-transparent {{item.outline}}
             group transition hover:shadow-lg hover:-translate-y-2"
           >
-          {% picture item.image, item.title,
-            "object-cover aspect-video rounded-t-lg",
-            "400px"
-          %}
-          <h3 class="mx-4 mt-1 text-xl font-bold text-epl">{{item.title}}</h3>
-          <h4 class="mx-4 text-slate-500">eLearning demo</h4>
+          {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5" %}
+          {% if loop.index == 2 %}
+            {% set pictureClass = [pictureClass, " object-top"] | join %}
+          {% endif %}
+          {% picture item.image, item.title, pictureClass, "400px" %}
+          <h3 class="mx-4 mt-1 text-xl font-bold">{{item.title}}<br> <span class="font-light text-lg {{item.color}}">eLearning Demo</span></h3>
           <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
         </a>
 
