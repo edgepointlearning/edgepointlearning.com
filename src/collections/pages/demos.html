@@ -22,43 +22,47 @@ ourDemos:
   link: "#"
   image: "/placeholder/landscape-c.jpeg"
   text: "Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment."
-  color: "bg-rose-50"
+  bg: "bg-rose-50"
+  outline: "hover:outline-rose-400"
+
 
 - title: "Pro"
   link: "#"
   image: "/placeholder/landscape-c.jpeg"
   text: "We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more."
-  color: "bg-amber-50"
+  bg: "bg-amber-50"
+  outline: "hover:outline-amber-400"
 
 - title: "Premium"
   link: "#"
   image: "/placeholder/landscape-c.jpeg"
   text: "Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall."
-  color: "bg-blue-50"
+  bg: "bg-blue-50"
+  outline: "hover:outline-blue-400"
 ---
 
 <div class="bg-white">
   <div class="wrapper">
 
-    <h2 class="pt-24 pb-12 text-2xl font-bold sm:text-4xl">Explore our eLearning demos</h2>
+    <h2 class="pt-12 pb-12 text-2xl font-bold sm:text-4xl">Explore our eLearning demos</h2>
 
     <div class="grid grid-cols-3 gap-12 pb-12">
       {%- for item in ourDemos -%}
-
         <a 
           aria-label="{{item.title}}"
           href="{{item.link}}"
-          class="{{item.color}}
+          class="{{item.bg}}
             relative mx-auto max-w-md
             grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start
             rounded-lg overflow-hidden 
+            outline outline-1 outline-transparent {{item.outline}}
             group transition hover:shadow-lg hover:-translate-y-2"
           >
           {% picture item.image, item.title,
-            "object-cover aspect-video rounded-lg",
+            "object-cover aspect-video rounded-t-lg",
             "400px"
           %}
-          <h3 class="mx-4 text-xl font-medium text-epl">{{item.title}}</h3>
+          <h3 class="mx-4 mt-1 text-xl font-bold text-epl">{{item.title}}</h3>
           <h4 class="mx-4 text-slate-500">eLearning demo</h4>
           <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
         </a>
@@ -79,7 +83,7 @@ ourDemos:
 
     <div class="grid grid-cols-2 gap-8">
 
-      <div class="col-span-2 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+      <div class="col-span-2 p-4 bg-gradient-to-br from-slate-300 via-slate-400 to-slate-300 rounded-lg drop-shadow-xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         {% vimeo "469090686", "mx-auto aspect-video rounded-lg" %}
         <div>
           <h3 class="text-xl font-bold">Meet PinPoint Workforce</h3>
@@ -87,13 +91,13 @@ ourDemos:
         </div>
       </div>
 
-      <div class="col-span-2 md:col-span-1 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
+      <div class="col-span-2 md:col-span-1 p-4 bg-slate-300 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
         {% vimeo "219609124", "mx-auto aspect-square rounded-lg" %}
         <h3 class="mt-1 text-lg font-bold">How PinPoint Works</h3>
         <p class="">Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.</p>
       </div>
 
-      <div class="col-span-2 md:col-span-1 p-4 bg-slate-200 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
+      <div class="col-span-2 md:col-span-1 p-4 bg-slate-300 rounded-lg drop-shadow-xl grid grid-cols-1 gap-2 content-start">
         {% vimeo "218986846", "mx-auto aspect-square rounded-lg" %}
         <h3 class="mt-1 text-lg font-bold">Explore The Admin App</h3>
         <p class="">Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.</p>
