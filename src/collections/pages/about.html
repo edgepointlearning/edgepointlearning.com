@@ -2,15 +2,182 @@
 title: Meet The EdgePoint Learning Team
 permalink: /about/
 meta: Since 2007, EdgePoint Learning has provided boutique, end-to-end solutions for employee training needs. Read on to learn about our approach.
-image: placeholder/landscape-a.jpeg
+image: about/about-hero.jpg
+imageStyles: 'object-right'
 
 hero:
   headline: Meet The<br> EdgePoint Team
+  backdrop: "from-black/30 via-black/50 to-black/30"
+  wave: "waves--wave-3"
+  waveClasses: "wave-bot fill-white"
   cta:
-  - name: Our Solutions
+  - name: Our solutions
     url: /solutions/
-  - name: View Demos
+  - name: View demos
     url: /form/demo
----
 
-About Us
+explore:
+- title: 'Our Learning Solutions'
+  link: '/solutions/'
+  image: '/placeholder/landscape-a.jpeg'
+  text: 'Designed for your needs'
+
+- title : 'PinPoint'
+  link: 'https://www.pinpointworkforce.com/'
+  image : '/placeholder/landscape-b.jpeg'
+  text: 'Our mobile microlearning platform'
+
+- title : 'PinPoint Workforce'
+  link: '/contact/'
+  image : '/placeholder/landscape-c.jpeg'
+  text : 'Get in touch today'
+
+team:
+- name: Corey Bleich
+  image: /about/face-corey.jpg
+  title: CEO
+  bio: Corey co-founded EdgePoint Learning after working for custom eLearning companies for more than a decade. His goal is to provide customers with creative solutions for their unique challenges and help them leverage technological advances in their employee training programs. Further, his 11 years of experience in suicide intervention and hostage negotiations provided Corey with a firm foundation for working with corporate America.
+
+- name: Amber Hartmann
+  image: /about/face-amber.jpg
+  title: Director of Product Development
+  bio: Amber Hartmann has been an eLearning Jedi since 1999, and currently wrangles project plans, scheduling, and the occasional customer for EdgePoint. When not working she can be found reading, watching super hero movies, or enjoying the Maine outdoors.
+
+- name: Tyler Campbell
+  image: /about/face-tyler.jpg
+  title: Creative Director
+  bio: Tyler has been with EdgePoint Learning since 2007. He oversees EdgePoint's creative direction, technology, and research and development. He has an artistic flair and a love of technology—and is a former DDT Ironman Heavymetalweight Championship title holder.
+
+---
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
+
+<div class="bg-white py-12">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h2 id="what-we-do">Our approach to learning experiences</h2>
+    <p>At EdgePoint, we specialize in creating killer user experiences for learners. Our learning programs don't just meet a list of basic learning objectives. Our experts examine every point of contact between your employees and their learning opportunities. We ensure there's value at every interaction, with rich, contextual, and engaging information for them to access on-demand and in the flow of work.</p>
+    {% picture "placeholder/landscape-d.jpeg", "image alt text" %}
+    <h3>People-centered</h3>
+    <p>We build learning experiences for people. That might seem obvious, but we place it at the very center of our project strategy because too often employee training becomes formulaic, rigid, and outdated… quickly.</p>
+    <p>That's precisely when employee training becomes boring. Another dreaded checkmark at the end of your employees' days, rather than an opportunity for them to grow their skills or access on-demand performance support. At EdgePoint, we don't make assumptions. Instead, our team approaches every new project with our years of training experience and your unique business needs guiding us.</p>  
+    <h2>Built for your workforce</h2>
+    <p>We know that what works for an on-the-ground industrial team simply won't work for a remote, deskless workforce. Our expert knowledge in <a href="https://www.edgepointlearning.com/blog/adult-learning-theory/">adult learning theory</a> and instructional design allows us to map out the best way to organize your training approach.</p>
+    <p>Innovative design practices help us stand apart from the look-and-feel of traditional training. And, our focus on people means we leverage the newest learning technologies to meet them exactly where they are. </p>
+    {% picture "placeholder/landscape-c.jpeg", "image alt text" %}
+  </div>
+</div>
+
+<div>
+  <p class="mx-auto px-4 xl:px-0
+      py-16 lg:py-28
+      font-serif text-white text-center
+      text-2xl sm:text-3xl lg:text-5xl max-w-[29ch]"
+    >We create learning experiences that people actually <span class="italic text-yellow-200">enjoy</span> using.
+  </p>
+</div>
+
+<div class="bg-white pt-16 pb-12">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h2>Explore</h2>
+  </div>
+</div>
+
+<div class="relative bg-white">
+  {% svg "waves--wave-1", "wave-bot fill-slate-100" %}
+
+  <div class="wrapper relative grid grid-cols-3 gap-12">
+    {%- for item in explore -%}
+      {{ component('card.a', { item: item }) }}
+    {%- endfor -%}
+  </div>
+</div>
+
+
+
+<div class="bg-gradient-to-b from-slate-100 via-white to-white py-16">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h3>Client-focused</h3>
+    <p>It takes a thoughtful, collaborative approach between our team and yours to create engaging and successful learning experiences. Whether you need to develop an entire training or certification program from scratch, or just need an extension of your team to help complete a project or temporarily expand your development capacity without adding headcount, EdgePoint is here to help.</p>
+    <p>For every project, we communicate often and honestly, making sure you know where we're at every step of the way. We also use the latest learning and delivery technologies to get training to your employees right in the flow of work. Finally, we rely on our world-class development process that ensures we complete your projects on time and on budget.</p>
+    {% picture "placeholder/landscape-d.jpeg", "image alt text" %}
+    <h3>Always up for a challenge </h3>
+    <p>Providing custom solutions is what we do. As a boutique, customer service-centric organization, we are positioned to be more flexible and innovative than larger companies. Whether it’s a large-scale training program you need to design, build, and launch ASAP or an upgrade to your existing courses to be more engaging and relevant to your learners; we have a large collection of strategies, tactics, tools, and technologies to work from.</p>
+    <p>Our team has built entire new technology platforms in-house, like our mobile precision microlearning platform, <a href="https://www.pinpointworkforce.com/">PinPoint</a>. We design and develop training with the latest learning tools, like augmented reality, microlearning, and location-based performance support. We employ technologies like mobile training and performance support to meet employees in the flow of work.</p>
+  </div>
+</div>
+
+
+
+<div>
+  <p class="mx-auto px-4 xl:px-0
+      py-16 lg:py-28
+      font-serif text-white text-center
+      text-2xl sm:text-3xl lg:text-5xl max-w-[29ch]"
+    >We’re ready to grow with you and we’re <span class="italic text-rose-200">always</span> up for a challenge.</p>
+</div>
+
+<div class="bg-white pb-16">
+  <div class="max-w-2xl px-4 py-8 mx-auto bg-white rounded drop-shadow-xl md:-translate-y-6">
+    <h2 class="mb-4 text-2xl font-bold sm:text-4xl">Let's talk</h2>
+    <p class="mb-8 text-sm md:text-base">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+
+
+{% picture "about/about-fullsize.jpg", "The EdgePoint Learning team", "w-full max-w-5xl mx-auto" %}
+
+
+<div class="bg-white pt-16">
+
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h2 id="our-team">Meet The EdgePoint Learning Team</h2>
+    <p>Headquartered in Phoenix, Arizona, our eLearning professionals have an average of 15+ years of experience creating learning experiences that employees love.</p>
+    <p>When you work with us, you’re collaborating with an expert lineup of learning technology developers, instructional designers, courseware developers, graphic designers, project managers, voiceover talent, video producers, and more. We come from a variety of backgrounds, but our love of learning theory and technology unites us in building killer learning experiences for today's employees.</p>
+    <h3>The Faces Behind The Screen</h3>
+  </div>
+
+  <div class="wrapper grid grid-cols-3 gap-12 mt-12">
+    {%- for person in team -%}
+      <div class="bg-epl-dark rounded-xl p-4 col-span-3 md:col-span-1 max-w-xs mx-auto">
+        {% picture person.image, person.name, "rounded-full aspect-square w-[60%] mx-auto mt-4" %}
+        <h4 class="mt-6 text-2xl font-bold text-white">{{person.name}}</h4>
+        <p class="my-3 text-lg leading-none font-light text-slate-400">{{person.title}}</p>
+        <p class="text-sm leading-relaxed text-slate-300">{{person.bio}}</p>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="mt-16 mx-auto px-4 xl:px-0 prose prose-sm sm:prose-base lg:prose-lg">
+    <h2>Case Studies</h2>
+  </div>
+
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-4", "wave-top -scale-y-100 fill-white" %}
+  <div class="relative wrapper aspect-square h-96">[placeholder for case studies]</div>
+</div>

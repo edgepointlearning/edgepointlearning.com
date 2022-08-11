@@ -5,7 +5,6 @@ layout: 'layouts/base.njk'
 {%- from "system/component.njk" import component -%}
 
 <div class="relative overflow-hidden">
-
   <div class="absolute -top-[5%] -left-[5%] -z-30 h-[110%] w-[110%] bg-gradient-to-r from-black via-epl-dark to-epl">
     {% set imageCSS = ["object-cover w-full h-full ", imageStyles] | join %}
     {% picture image, title, imageCSS, "100vw", "eager", "sync" %}
@@ -18,10 +17,15 @@ layout: 'layouts/base.njk'
     </div>
   {% endif %}
 
-  {% svg "waves--wave-2", "wave-bot fill-white " %}
+  {% if hero.wave %}
+    {% svg hero.wave, hero.waveClasses %}
+  {% else %}
+    {% svg "waves--wave-2", "wave-bot fill-white " %}
+  {% endif %}
 
   <div class="relative z-10 w-5/6 max-w-5xl pt-24 pb-20 mx-auto sm:pb-28 md:pb-36">
-    <div class="max-w-xl rounded-2xl from-black/20 via-black/0 to-black/20 lg:bg-gradient-to-tr lg:p-12">
+    
+    <div class="max-w-xl rounded-2xl {% if hero.backdrop %} {{hero.backdrop}} {% else %} from-black/20 via-black/0 to-black/20 {% endif %} lg:bg-gradient-to-tr lg:p-12">
       <h1 class="text-3xl font-semibold text-white sm:text-5xl">{{ hero.headline | safe }}</h1>
       <h2 class="text-xl font-light text-white my-14 sm:text-3xl">{{ hero.tagline | safe }}</h2>
 
