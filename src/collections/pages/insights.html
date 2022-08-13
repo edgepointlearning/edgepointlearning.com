@@ -9,26 +9,30 @@ hero:
   headline: Employee Training Insights
   tagline: We love learning!
 ---
-<div class="py-12 bg-white">
-  <div class="wrapper grid grid-cols-1 md:grid-cols-2 gap-4 bg-white divide-dashed divide-x divide-y">
+<div class="bg-white">
+
+  <div class="py-16 wrapper grid grid-cols-12 gap-y-16 md:gap-x-8 lg:gap-x-16">
 
     {%- for post in collections.blog | reverse -%}
-
-      {% if post.data.author.name %}
-        {% set writer = post.data.author.name %}
-      {% else %}
-        {% set writer = authors[post.data.author].name %}
-      {% endif %}
-
-      <div class="place-items-center flex gap-2 p-4 {% if not post.data.author.name %} bg-red-100 {% endif %} ">
-        <div>
-          <a class="text-sm leading-none underline" href="{{ post.url }}">{{post.data.title}}</a>
-          <p class="my-2 text-xs">{{ writer }} | {{ post.date | postDate }}</p>
-          <p class="text-xs">{{ post.data.meta }}</p>
-        </div>
-      </div>
+      
+      <a 
+        href="{{ post.url }}" 
+        title="{{post.title}}" 
+        class="
+          mx-auto
+          max-w-md
+          col-span-12 md:col-span-6 lg:col-span-4
+          grid grid-cols-1 gap-2 content-start
+          group
+          transition hover:-translate-y-1
+        ">
+        {% picture post.data.image, post.data.title, "aspect-[3] rounded object-cover", "400px" %}
+        <h2 class="mt-2 text-base font-semibold leading-tight group-hover:underline">{{post.data.title}}</h2>
+        <p class="text-sm leading-relaxed text-slate-700">{{ post.data.meta }}</p>
+      </a>
 
     {%- endfor -%}
 
   </div>
+
 </div>

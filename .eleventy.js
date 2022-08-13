@@ -67,7 +67,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib);
   
   // passthrough behavior
-  eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
+  // eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
 
   // passthrough node_modules
   eleventyConfig.addPassthroughCopy({'./node_modules/@ryangjchandler/alpine-clipboard/dist/' : './js/'});
