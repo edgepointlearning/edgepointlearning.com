@@ -11,28 +11,78 @@ hero:
 ---
 <div class="bg-white">
 
-  <div class="py-16 wrapper grid grid-cols-12 gap-y-16 md:gap-x-8 lg:gap-x-16">
+  <div class="
+    wrapper pb-16 gap-y-8 
+    grid grid-cols-12
+    divide-y divide-slate-200
+    ">
 
     {%- for post in collections.blog | reverse -%}
-      
-      <a 
-        href="{{ post.url }}" 
-        title="{{post.title}}" 
-        class="
-          mx-auto
-          max-w-md
-          col-span-12 md:col-span-6 lg:col-span-4
-          grid grid-cols-1 gap-2 content-start
-          group
-          transition hover:-translate-y-1
-        ">
-        {% picture post.data.image, post.data.title, "aspect-[3] rounded object-cover", "400px" %}
-        <h2 class="mt-2 text-base font-semibold leading-tight group-hover:underline">{{post.data.title}}</h2>
-        <p class="text-sm leading-relaxed text-slate-700">{{ post.data.meta }}</p>
-      </a>
+      {% if loop.index0 < 3 %}
+        
+        <article class="
+          mx-auto pt-8
+          col-span-full max-w-2xl 
+          ">
+          <a aria-label="{{post.data.title}}" href="{{post.url}}"
+            class="
+              grid grid-cols-3 gap-y-4 gap-x-8
+              group
+            ">
+            <div class="col-span-full {{ 'md:order-last' if loop.index0 == 1}} {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-1' }}">
+              {% picture post.data.image, post.data.title, "aspect-[21/9] {{ 'md:aspect-square' if loop.index0 > 0 }} object-cover w-full h-full rounded-lg" %}
+            </div>
+            <div class="col-span-full {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-2' }}">
+              <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline" style="orphans: 2;">{{post.data.title}}</h2>
+              <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
+            </div>
+          </a>
+        </article>
 
+      {% endif %}
+    {%- endfor -%}
+
+    <article
+      class="
+        mx-auto col-span-full pt-6 pb-2
+        prose prose-sm sm:prose-base max-w-2xl
+      ">
+      <h1 style="margin:0">Employee Training Insights</h1>
+      <h2 class="font-light text-slate-600" style="margin: 0.6em 0;">We love learning!</h2>
+      <p>As learning experts, you can't pry the books and blogs and research articles out of our hands, or podcasts out of our ears. We're always focused on learning and we never stop seeking knowledge about the latest in employee engagement and motivation, and learning theories and technology.</p>
+      <p>In the insights from our eLearning blog, you’ll find informative, actionable, and cutting-edge insights into corporate training and development. What does that mean? Articles that tie into recent mainstream news stories. In-depth looks into the newest trends and technologies that are shaping the future of employee training. And, it also means insights into best practices, employee engagement tips, and more.</p>
+      <p>Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
+    </article>
+
+    <aside class="
+      mx-auto p-4 col-span-full max-w-2xl
+      flex flex-col justify-center 
+      rounded-xl ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300
+      ">
+      <h3 class="text-3xl font-bold text-epl-dark leading-none">Subscribe now!</h3>
+      <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
+      {% include 'forms/newsletter.983.html' %}
+    </aside>
+
+    {%- for post in collections.blog | reverse -%}
+      {% if loop.index0 >= 3 %}
+        <article class="mx-auto pt-8 col-span-full max-w-2xl">
+          <a 
+            aria-label="{{post.data.title}}"
+            href="{{ post.url }}" 
+            title="{{post.title}}" 
+            class="group grid grid-cols-4 gap-x-8">
+            <div class="col-span-1 hidden sm:block">
+              {% picture post.data.image, post.data.title, "rounded object-cover aspect-square w-full h-auto", "144px" %}
+            </div>
+            <div class="col-span-full sm:col-span-3">
+              <h2 class="text-lg font-serif font-medium leading-tight group-hover:underline">{{post.data.title}}</h2>
+              <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
+            </div>
+          </a>
+        </article>
+      {% endif %}
     {%- endfor -%}
 
   </div>
-
 </div>
