@@ -9,9 +9,11 @@ hero:
   headline: Employee Training Insights
   tagline: We love learning!
 ---
-<div class="bg-white">
+<div class="bg-white relative">
+  {% svg "waves--wave-7", "wave-top -scale-y-100 -scale-x-100 fill-slate-100" %}
 
   <div class="
+    relative
     wrapper pb-16 gap-y-8 
     grid grid-cols-12
     divide-y divide-slate-200
@@ -33,7 +35,7 @@ hero:
               {% picture post.data.image, post.data.title, "aspect-[21/9] {{ 'md:aspect-square' if loop.index0 > 0 }} object-cover w-full h-full rounded-lg" %}
             </div>
             <div class="col-span-full {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-2' }}">
-              <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline" style="orphans: 2;">{{post.data.title}}</h2>
+              <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2" style="orphans: 2;">{{post.data.title}}</h2>
               <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
             </div>
           </a>
@@ -76,7 +78,7 @@ hero:
               {% picture post.data.image, post.data.title, "rounded object-cover aspect-square w-full h-auto", "144px" %}
             </div>
             <div class="col-span-full sm:col-span-3">
-              <h2 class="text-lg font-serif font-medium leading-tight group-hover:underline">{{post.data.title}}</h2>
+              <h2 class="text-lg font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2">{{post.data.title}}</h2>
               <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
             </div>
           </a>
