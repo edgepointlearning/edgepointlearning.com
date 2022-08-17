@@ -27,7 +27,7 @@ You have a ton of options when it comes to deciding which type of training will 
 
 eLearning also encompasses a variety of other [methods for training](/blog/top-10-types-of-employee-training/). Using your learning needs assessment, follow up with these questions and answers:
 
-*  <strong>Is your company comprised of mostly digital natives who are used to accessing data in small bites exactly when they need it?</strong> Just-in-time solutions like [microlearning](blog/microlearning/) might be a sustainable training method for you.
+*  <strong>Is your company comprised of mostly digital natives who are used to accessing data in small bites exactly when they need it?</strong> Just-in-time solutions like [microlearning](/blog/types-of-microlearning/) might be a sustainable training method for you.
 
 *  <strong>Maybe your millennial workforce needs more information, but also wants to have a good time?</strong> No problem. [Gamification](/blog/gamification-in-elearning/) is one way to keep employees engaged, focused, learning, and, above all, up-to-date on what they need to know.
 

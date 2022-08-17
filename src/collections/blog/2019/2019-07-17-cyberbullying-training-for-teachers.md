@@ -80,6 +80,6 @@ It’s also important to keep in mind that teachers have one of the most importa
 
 ## How we help 
 
-Cyberbullying training for teachers is an important part of a teacher's professional development nowadays. With the [Alaska Department of Education and Early Development](https://www.asentialms.com/resources/case-studies/case-study-deed/) (DEED), EdgePoint Learning helped develop a series of courses to help their teachers stay up-to-date on their training needs. With this eLearning option, teachers could take their training when and where it made most sense for them. 
+Cyberbullying training for teachers is an important part of a teacher's professional development nowadays. With the [Alaska Department of Education and Early Development](https://education.alaska.gov/elearning) (DEED), EdgePoint Learning helped develop a series of courses to help their teachers stay up-to-date on their training needs. With this eLearning option, teachers could take their training when and where it made most sense for them. 
 
 When you are ready to get started with your own program, [contact EdgePoint Learning](/contact/). Whether you need to expand or update an existing training or design a new one from the ground up, we can help!

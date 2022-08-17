@@ -22,7 +22,7 @@ Consider these stats.
 * Girls between 10 and 14 years of age have seen a 200% increase (suicide is the third leading cause of death in this age group)
 * Men in all age groups are four times as likely to die by suicide
 
-The U.S. Centers for Disease Control (CDC) agrees that [prevention is key](https://www.cdc.gov/violenceprevention/pdf/asap_suicide_issue2-a.pdf) to reducing the rate of suicide. This means providing suicide prevention training to people throughout the community to serve as gatekeepers to help. Gatekeepers are people who might have direct contact with people who are most at risk of suicide. Examples of gatekeepers include [educators](https://teenlifeline.org/teen-topics/educators/), human resources directors, and managers, all who might notice changes in someone’s behavior or engagement. In some cases, even a trusted co-worker can be in a position to recognize at-risk behavior and offer support. Gatekeepers could be anyone who is interested in and willing to help.
+The U.S. Centers for Disease Control (CDC) agrees that [prevention is key](https://www.cdc.gov/violenceprevention/pdf/asap_suicide_issue2-a.pdf) to reducing the rate of suicide. This means providing suicide prevention training to people throughout the community to serve as gatekeepers to help. Gatekeepers are people who might have direct contact with people who are most at risk of suicide. Examples of gatekeepers include educators, human resources directors, and managers, all who might notice changes in someone’s behavior or engagement. In some cases, even a trusted co-worker can be in a position to recognize at-risk behavior and offer support. Gatekeepers could be anyone who is interested in and willing to help.
 
 {% picture "blog/2020/2020-09-023-suicide-prevention-training01.jpg", "During Suicide Prevention Month, consider how you can support employees and those they serve with appropriate training" %}
 
@@ -93,8 +93,8 @@ Suicide prevention training is a critical part of keeping your employees safe.
 
 To find out more about suicide and suicide prevention training and to gather resources, visit the websites below for more information:
 
-  * Teen Lifeline: [https://teenlifeline.org](https://teenlifeline.org)
-  * National Suicide Prevention Lifeline: [https://suicidepreventionlifeline.org](ttps://suicidepreventionlifeline.org )
-  * Suicide Prevention Resource Center: [https://www.sprc.org](https://www.sprc.org)
-  * National Alliance on Mental Illness (NAMI): [https://www.naminh.org](https://www.naminh.org)
-  * American Foundation for Suicide Prevention (ASFP):  [https://afsp.org](https://afsp.org/)
+* Teen Lifeline: [https://teenlifeline.org](https://teenlifeline.org)
+* National Suicide Prevention Lifeline: [https://suicidepreventionlifeline.org](ttps://suicidepreventionlifeline.org )
+* Suicide Prevention Resource Center: [https://www.sprc.org](https://www.sprc.org)
+* National Alliance on Mental Illness (NAMI): [https://www.naminh.org](https://www.naminh.org)
+* American Foundation for Suicide Prevention (ASFP):  [https://afsp.org](https://afsp.org/)

@@ -1,5 +1,5 @@
 ---
-title:      How To Build A More Effective Employee Training Plan In 2021
+title:      How To Build A More Effective Employee Training Plan
 permalink: /blog/employee-training-plan/
 image: blog/2020/2020-12-02-employee-training-plan.jpg
 meta:  From a training needs analysis to ongoing assessment, this is you can develop a more effective employee training plan in 2021.
@@ -11,7 +11,7 @@ If 2020 taught us anything, it’s that we can never predict what’s around the
 
 From millions of people working from home to depleted supply chains, 2020 challenged businesses of all sizes to move quickly and adapt. An employee training plan that built a flexible, well-trained workforce was a key way that businesses kept up with the fast pace of these changes and challenges.   
 
-Here’s how to build a more effective employee training plan as we move into 2021. 
+Here’s how to build a more effective employee training plan as we move into the future. 
 
 ## How do you create an employee training plan? 
 
@@ -37,7 +37,7 @@ For example, you'll consider if the training is for:
 * [New managers](/blog/new-manager-training/)
 * Overall [training for staff on updated systems](/blog/how-to-train-employees-on-new-system/)
 * [Diversity training](/blog/types-of-diversity-training/)
-* [Change management](/blogs/change-management-training/)
+* [Change management](/blog/change-management-training/)
 
 How you approach each employee training program will be slightly different, so it’s good to have a focus before you begin.
 
@@ -55,11 +55,11 @@ Designing a new delivery method of material is crucial. Your millennial and Gen 
 
 You'll select from (or mix) t[en types of employee trainings](/blog/top-10-types-of-employee-training/), each of which can be tailored to specific skill development. These generally include: 
 
-* **Instructor-led training**: Good for developing team-based problem-solving skills (and can also be modified to [virtual instructor-led](/blogs/virtual-instructor-led-training/) options)
+* **Instructor-led training**: Good for developing team-based problem-solving skills (and can also be modified to [virtual instructor-led](/blog/virtual-instructor-led-training/) options)
 * **eLearning**: Asynchronous options so employees can learn anywhere, anytime from their computer or mobile device
 * **Simulation employee training**: Gives employees an opportunity to learn complex skills without worry of failure
 * **Hands-on training**: Learning on the job to develop hard or technical skills 
-* **Coaching or mentoring**: These personal relationships help employees feel supported and are especially useful for long-term [employee development](/blogs/employee-development-plan/) 
+* **Coaching or mentoring**: These personal relationships help employees feel supported and are especially useful for long-term [employee development](/blog/employee-development-plan/) 
 * **Lectures**: For delivering information quickly on a simple topic to a large audience
 * **Group discussion and activities**: Great for team-building and developing soft skills
 * **Role-playing**: Develops empathy, especially in public-facing roles
@@ -86,13 +86,11 @@ Developing your training materials means sitting down with your goals, your iden
 
 This [step can take longer than you realize](/blog/create-elearning-faster/). 
 
-Developing quality trainings does not happen overnight.
-{: .fancy-text }
-
+>Developing quality trainings does not happen overnight.
 
 ### 7. Measure, reassess, and improve over time  
 
-A crucial step of any employee training program is ongoing assessment. While many companies start by looking for increased productivity or other company-based measures, [employee engagement](/blogs/how-to-measure-employee-engagement/) is a better place to start. Employees who are engaged and interested are more likely to produce the kind of results you are looking for. 
+A crucial step of any employee training program is ongoing assessment. While many companies start by looking for increased productivity or other company-based measures, [employee engagement](/blog/how-to-measure-employee-engagement/) is a better place to start. Employees who are engaged and interested are more likely to produce the kind of results you are looking for. 
 
 Why?
 

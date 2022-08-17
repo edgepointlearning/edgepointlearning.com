@@ -8,9 +8,7 @@ author:
 ---
 
 There’s no getting around it: regardless of industry or size, your employees need training. Whether your staff is mostly veterans with years of experience or workers fresh out of high school or college, you need to deliver low cost employee training that helps them hit the mark. Here are ten low- or no-cost employee training options that really work.
-
 ### 1. LinkedIn Learning 
-
 No sense in reinventing the wheel, especially when LinkedIn Learning offers tons of [online classes and seminars for free](https://learning.linkedin.com/blog/education/10-free-linkedin-learning-courses-that-ll-make-you-a-better-prof), covering topics that range from [managing conflict](https://www.linkedin.com/learning/fred-kofman-on-managing-conflict/listening-in-a-disarming-way) to [learning SEO](https://www.linkedin.com/learning/danny-sullivan-on-seo/welcome-and-introduction). These courses are led by well-known CEOs like Sheryl Sandberg and successful company founders that include Danny Sullivan, co-founder of Search Engine Land and content strategist at Third Door media. 
 
 [LinkedIn Learning](https://www.linkedin.com/learning/me) has over 13,000 courses to choose from, and each one has at least a partially free option. Subscriptions for individuals cost around $30 a month, but you may find that the innovative training ideas presented in many of the courses pay for themselves. LinkedIn can also provide [team pricing options](https://www.linkedin.com/learning/subscription/products).
@@ -19,7 +17,7 @@ No sense in reinventing the wheel, especially when LinkedIn Learning offers tons
 
 Mobile mentor coaching may be just what employees need to do their jobs (and stick around). Put simply, mobile mentors are senior employees who agree to be available on demand via text for employees when questions or issue arise. 
 
-Research suggests that [mentoring is especially valuable for diverse employees](http://www.cpahq.org/cpahq/cpadocs/CWP%20Session%201%20Mentoring%20to%20Retain%20and%20Promote%20Employees.pdf) entering the workforce, with caveats. 
+Research suggests that [mentoring is especially valuable for diverse employees](https://ecommons.cornell.edu/handle/1813/74541) entering the workforce, with caveats. 
 
 * Mentors need to be seniors at the company
 * Mentors and mentees work best when paired using shared values and experiences
@@ -43,7 +41,7 @@ The bigger the company, the more complex (and potentially expensive!) your train
 
 Enter recorded video training. With this type of training, employees can access it quickly by phone or laptop.  
 
-For example, [recorded video training worked for Bloomin’ Brands](/story/bloomin/), a global casual dining company with over 100,000 employees in well-known restaurants like Bonefish Grill, Outback Steakhouse, and Carraba’s. This low cost employee training solution used existing training materials to design and shoot recorded mentoring modules from their leadership to emerging leaders across the company. 
+For example, [recorded video training worked for Bloomin’ Brands, a global casual dining company with over 100,000 employees in well-known restaurants like Bonefish Grill, Outback Steakhouse, and Carraba’s. This low cost employee training solution used existing training materials to design and shoot recorded mentoring modules from their leadership to emerging leaders across the company. 
 
 ### 6. Apprenticeships 
 

@@ -59,7 +59,7 @@ Separate the training you have to do (compliance, regulatory, leadership, etc.) 
 
 For those topics that are mandatory and not going be perceived as helping with their performance, develop them into eLearning programs that the reps can do on their down time between appointments, traveling, or when they catch up on administrative items.
 
-For the items that are going to help their day-to-day, do them live if you can. For this type of training, you'll also want plenty of job-aids, leave behinds, and [microlearning](/blog/microlearning/) resources that the reps can access regularly.
+For the items that are going to help their day-to-day, do them live if you can. For this type of training, you'll also want plenty of job-aids, leave behinds, and [microlearning](/blog/types-of-microlearning/) resources that the reps can access regularly.
 
 The more tools you can leave your reps to use out in the field, the better equipped they'll feel when having conversations with prospects and clients.  The key is to give them the right tools up-front so that they don’t have to keep telling a potential buyer, “Let me go check for you."
 

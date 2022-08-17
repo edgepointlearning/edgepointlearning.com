@@ -52,7 +52,7 @@ Keep in mind, too, that ethics training is not a “one and done” solution to 
 
 You know what your employees need, and it’s not a monthly lecture on how to be a good person. You hired them – chances are good that your employees are already quality humans. So train those humans in the way they want to be trained.
 
-While it’s sometimes good to have a round-table discussion about what ethical behavior is and to role-play tricky situations, sometimes employees just need a quick reminder on a regulation update or changes to laws on compliance. Consider [microlearning](/blog/microlearning/) options to deliver this type of information, just in time and where they need it.
+While it’s sometimes good to have a round-table discussion about what ethical behavior is and to role-play tricky situations, sometimes employees just need a quick reminder on a regulation update or changes to laws on compliance. Consider [microlearning](/blog/types-of-microlearning/) options to deliver this type of information, just in time and where they need it.
 
 For more extended conversations, both [eLearning and instructor-led trainings](/blog/instructor-led-training-vs-elearning/) have their advantages. While eLearning allows employees to complete activities and trainings on their own schedule, supplementing online activities with juicy, in-person conversations provides variety and interactions to clarify often difficult material.
 
@@ -74,7 +74,7 @@ Make your mission statement the driving force behind everything you do and every
 
 ## 7. Make it fun
 
-We get it. Employee trainings of any kind can be a bit of a slog, and [employee pushback](blog/reduce-training-friction/) can be intense. There are ways to make things more fun, though, even when it comes to serious discussions.
+We get it. Employee trainings of any kind can be a bit of a slog, and [employee pushback](/blog/reduce-training-friction/) can be intense. There are ways to make things more fun, though, even when it comes to serious discussions.
 
 Even though ethics are a serious business, [gamification](/blog/gamification-in-elearning/) and role-playing can help lighten the mood a bit (or at least get employees thinking in a different way).
 

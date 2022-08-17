@@ -73,7 +73,7 @@ There are a variety of great LMS options to choose from, but here are three list
 
 1. [PC Magazine](https://www.pcmag.com/article2/0,2817,2488347,00.asp)
 2. [eLearning Industry](https://elearningindustry.com/the-20-best-learning-management-systems)
-3. [FitSmallBusiness](https://fitsmallbusiness.com/best-lms-learning-management-system/)
+3. [FitSmallBusiness](https://fitsmallbusiness.com/what-is-learning-management-system/)
 
 ### 5. Create a process to review the reports your LMS generates
 
@@ -89,6 +89,6 @@ A quality LMS can offer insight into how your employees feel about the training 
 
 ## Learn more
 
-<strong>At EdgePoint Learning, we help with everything from designing your learning courses to figuring out how to track training for employees. If you need help getting started or have questions about employee training tracking, we can help. [Get in touch today](/contact/).</strong>
+**At EdgePoint Learning, we help with everything from designing your learning courses to figuring out how to track training for employees. If you need help getting started or have questions about employee training tracking, we can help. [Get in touch today](/contact/).**
 
-<i>This post was originally published on [eLearning Industry](https://elearningindustry.com/track-employee-training-keep).</i>
+*This post was originally published on [eLearning Industry](https://elearningindustry.com/track-employee-training-keep).*

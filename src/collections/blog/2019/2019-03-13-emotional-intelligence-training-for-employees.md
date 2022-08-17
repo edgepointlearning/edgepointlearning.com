@@ -25,7 +25,7 @@ Emotional intelligence in the workplace is one of a number of [soft skills](/blo
 
 ## What are the benefits of emotional intelligence in the workplace?
 
-By 2025, [75% of the workforce will be millennials](http://www.hartfordbusiness.com/article/20140818/PRINTEDITION/140819969/millennials-to-take-over-by-2025). These employees are tech savvy, appreciate socially aware companies, and are focused on mindfulness in their employment. Millennials are looking for a company that values them. They want to know that their employers are emotionally intelligent enough to help them grow not just as employees but also as people.
+By 2025, [75% of the workforce will be millennials](https://www.hartfordbusiness.com/article/millennials-to-take-over-by-2025). These employees are tech savvy, appreciate socially aware companies, and are focused on mindfulness in their employment. Millennials are looking for a company that values them. They want to know that their employers are emotionally intelligent enough to help them grow not just as employees but also as people.
 
 As an employer, you want that, too.
 
@@ -57,7 +57,7 @@ No one wants to hear that they are not emotionally intelligent, so there is skil
 
 Perhaps more than any other type training, you need executive endorsement from the very beginning. Help the folks in charge understand why emotionally intelligent employees are the best kind.
 
-Give them the stats on the [benefits of emotional intelligence in the workplace](https://www.extension.harvard.edu/professional-development/blog/emotional-intelligence-no-soft-skill), and lay out your plan for success.
+Give them the stats on the [benefits of emotional intelligence in the workplace](https://professional.dce.harvard.edu/blog/emotional-intelligence-is-no-soft-skill/), and lay out your plan for success.
 
 ### 2. Measure current emotional intelligence
 

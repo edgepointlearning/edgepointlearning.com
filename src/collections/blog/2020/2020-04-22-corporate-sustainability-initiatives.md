@@ -45,9 +45,9 @@ Can’t find a local expert immediately but want to get started? Host a [video s
 
 Peer pressure is a great motivator. Consider the following [examples of major companies](http://www.perillon.com/blog/8-corporate-sustainability-examples) investing in our planet's future:
 
-* <strong>Kering SA:</strong> This company that owns major fashion brands (Gucci, Saint Laurent, and Alexander McQueen) has committed to getting at least 40% of products from sustainable sources
-* <strong>Chr. Hansen Holding:</strong>  Contributing ingredients to 50% of the world’s cheeses (and in nearly every other food we eat), this bioscience firm has committed to sustainable practices in agriculture that increase yields, decrease waste, and eliminate antibiotics in animal products
-* <strong>GlaxoSmithKline:</strong>  At a time when pharmaceutical companies are often the target of negative headlines, this one has vowed to reduce their environmental impact by 25% before 2030
+* **Kering SA:** This company that owns major fashion brands (Gucci, Saint Laurent, and Alexander McQueen) has committed to getting at least 40% of products from sustainable sources
+* **Chr. Hansen Holding:**  Contributing ingredients to 50% of the world’s cheeses (and in nearly every other food we eat), this bioscience firm has committed to sustainable practices in agriculture that increase yields, decrease waste, and eliminate antibiotics in animal products
+* **GlaxoSmithKline:**  At a time when pharmaceutical companies are often the target of negative headlines, this one has vowed to reduce their environmental impact by 25% before 2030
 
 Each company is different, and the changes they make will be specific to them. But the fact is that even major, multi-national companies are committed to reducing their impact and are taking [big steps in corporate sustainability](https://www.corporateknights.com/reports/2019-global-100/2019-global-100-results-15481152/). 
 
@@ -55,16 +55,16 @@ Each company is different, and the changes they make will be specific to them. B
 
 Immediate changes signal to employees that you aren’t just giving lip service to the idea of lessening your impact. Try these nine changes to start and create the microlearning, access-on-demand resources employees can refer to as needed.
 
-1. <strong>Form a committee for the first step:</strong> Recruit interested employees to help identify areas of need and what’s already going well
-2. <strong>Make concrete changes, quickly:</strong> Install filtered water, improve recycling practices, and eliminate plastic and Styrofoam from your company’s kitchens and breakrooms
-3. <strong>Consider transitioning to a paperless office:</strong> Google Drive and Dropbox are just two ways to implement company-wide [strategies for a paperless office](https://www.cio.com/article/2377681/14-tips-for-creating-a-paperless-office.html)
-4. <strong>Offer “green” days:</strong> For example, employees can [reduce carbon emissions](https://static.tti.tamu.edu/tti.tamu.edu/documents/mobility-report-2019.pdf) when they are given the opportunity to work from home 
-5. <strong>Incentivize ride-sharing and public transit:</strong> Give comp time to employees who commute together and pay for public transit options where available
-6. <strong>Use geofencing to send employees reminders:</strong> For employees on jobsites, geofencing can help deliver sustainability updates or reminders in small bites
-7. <strong>Clean up your training:</strong> Instead of sending employees away for company training, use microlearning, eLearning, or mLearning to keep training close to home
-8. <strong>[Evaluate your supply chains:](https://www.entrepreneur.com/article/345663)</strong> If a supplier is particularly problematic, it may be time to look for other options
-9. <strong>Encourage [employee ownership of sustainability:](https://hbr.org/2018/02/how-to-make-sustainability-every-employees-responsibility)</strong> This makes employees feel like they are working with each other towards a common goal
-10. <strong>[Share sustainability wins:](https://www.peoplegoal.com/blog/sustainability-in-the-workplace)</strong> Recognize employees and departments that implement and follow through with sustainability practices and policies
+1. **Form a committee for the first step:** Recruit interested employees to help identify areas of need and what’s already going well
+2. **Make concrete changes, quickly:** Install filtered water, improve recycling practices, and eliminate plastic and Styrofoam from your company’s kitchens and breakrooms
+3. **Consider transitioning to a paperless office:** Google Drive and Dropbox are just two ways to implement company-wide [strategies for a paperless office](https://www.cio.com/article/2377681/14-tips-for-creating-a-paperless-office.html)
+4. **Offer “green” days:** For example, employees can [reduce carbon emissions](https://static.tti.tamu.edu/tti.tamu.edu/documents/umr/archive/mobility-report-2019.pdf) when they are given the opportunity to work from home 
+5. **Incentivize ride-sharing and public transit:** Give comp time to employees who commute together and pay for public transit options where available
+6. **Use geofencing to send employees reminders:** For employees on jobsites, geofencing can help deliver sustainability updates or reminders in small bites
+7. **Clean up your training:** Instead of sending employees away for company training, use microlearning, eLearning, or mLearning to keep training close to home
+8. **[Evaluate your supply chains:](https://www.entrepreneur.com/article/345663)** If a supplier is particularly problematic, it may be time to look for other options
+9. **Encourage [employee ownership of sustainability:](https://hbr.org/2018/02/how-to-make-sustainability-every-employees-responsibility)** This makes employees feel like they are working with each other towards a common goal
+10. **[Share sustainability wins:](https://www.peoplegoal.com/blog/sustainability-in-the-workplace)** Recognize employees and departments that implement and follow through with sustainability practices and policies
 
 ## Communicate the change
 

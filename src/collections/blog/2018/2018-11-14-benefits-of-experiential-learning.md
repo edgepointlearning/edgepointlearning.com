@@ -26,14 +26,14 @@ All of these experiential learning examples focus on learning by doing instead o
 
 Psychologist David Kolb, a [pioneer in the field of experiential learning](https://www.simplypsychology.org/learning-kolb.html), identifies four components of experiential learning:
 
-1. <strong>Concrete experience:</strong> Active involvement in the experience
-2. <strong>Reflective observations:</strong> Analyzing the experience
-3. <strong>Abstract conceptualization:</strong> Drawing conclusions and evaluating what students have learned
-4. <strong>Active experimentation:</strong> Actually implementing what has been learned
+1. **Concrete experience:** Active involvement in the experience
+2. **Reflective observations:** Analyzing the experience
+3. **Abstract conceptualization:** Drawing conclusions and evaluating what students have learned
+4. **Active experimentation:** Actually implementing what has been learned
 
 Also known as learning in the flow of work, experiential learning is an opportunity to revolutionize how companies train their employees and develop leaders from within.
 
-It’s no longer enough to just present material once; studies show that offering repeated opportunities for practice of new information and skills [vastly improves learning](http://science.sciencemag.org/content/331/6018/772), both in the quantity of what’s learned and the quality of the application.
+It’s no longer enough to just present material once; studies show that offering repeated opportunities for practice of new information and skills [vastly improves learning](https://www.science.org/doi/10.1126/science.1199327), both in the quantity of what’s learned and the quality of the application.
 
 Experiential learning is coming into its own as expectations of employee training evolve. Consider the following.
 
@@ -59,7 +59,7 @@ There are five major benefits of experiential learning in the workplace:
 
 ### Develops capacity to adapt to new situations
 
-In a [small-scale study of two groups of students](https://www.aacu.org/publications-research/periodicals/power-experiential-education) learning about politics, the group of students that learned through internships (experiential learning) and the group that learned through direct instruction had similar success rates on a final exam.
+In a [small-scale study of two groups of students](https://files.eric.ed.gov/fulltext/EJ871318.pdf) learning about politics, the group of students that learned through internships (experiential learning) and the group that learned through direct instruction had similar success rates on a final exam.
 
 However, when given the task of creating a new legislative policy, those who participated in experiential learning were better able to incorporate all aspects of their learning – the practical, personal, and professional aspects of creating legislation – than those who only learned about legislation in a book.
 
@@ -89,4 +89,4 @@ Turns out, gathering learning statistics is challenging. Sure, you can analyze w
 
 Analyzing the data from your experiential learning tools can be very helpful. Simulations and gamification programs can offer tremendous insight into the choices employees make during training. This can, in turn, help employers figure out which skills need more focus and which are rock solid.
 
-<strong>Experiential learning, [microlearning](/blog/types-of-microlearning/), gamification, [geofencing](/blog/geofencing/): it’s a whole new world of training out there. At EdgePoint Learning, we can help you choose and design the [employee training](/blog/top-10-types-of-employee-training/) that meets your unique needs. [Get in touch today](/contact/).</strong>
+**Experiential learning, [microlearning](/blog/types-of-microlearning/), gamification, [geofencing](/blog/geofencing/): it’s a whole new world of training out there. At EdgePoint Learning, we can help you choose and design the [employee training](/blog/top-10-types-of-employee-training/) that meets your unique needs. [Get in touch today](/contact/).**

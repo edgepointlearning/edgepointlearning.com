@@ -58,7 +58,7 @@ It’s a big world out there in corporate finance, with lots of ground to cover.
 
 [Ethics and compliance](/blog/ethics-training-for-employees/) finance training for employees is more than just telling employees to do the right thing. There are rules, laws, and guidelines for everything from liquidating parts of a company to investing to making decisions about when to sell and to buy on behalf of shareholders. And, these rules seem to change almost daily.
 
-If your employees are well versed in the basics, consider [microlearning](/blog/microlearning/) to deliver push notifications when anything changes.
+If your employees are well versed in the basics, consider [microlearning](/blog/types-of-microlearning/) to deliver push notifications when anything changes.
 
 ### Cybersecurity
 

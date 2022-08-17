@@ -19,7 +19,7 @@ Millennials may seem like they are more play than work, but that’s just not th
 
 Beyond financial gain, millennials want to feel like what they do matters.
 
-A white paper by the Center for Generational Kinetics noted that 60% of millennials chose their work because they felt they [made a difference](http://bestplacestoworkmillennials.com/UserFiles/File/Unlocking%20Millennial%20Talent%202015.pdf).
+A white paper by the Center for Generational Kinetics noted that 60% of millennials chose their work because they felt they [made a difference](https://genhq.com/wp-content/uploads/2015/06/Unlocking-Millennial-Talent-c-2015-The-Center-for-Generational-Kinetics.pdf).
 
 ### They want technologically-savvy workplaces
 
@@ -69,7 +69,7 @@ Keep training tools agile (and earth-friendly) by ditching the binder and making
 Millennial employees want to know they are on the right track more often than an annual review.
 Training that incorporates rewards through gamification fits in with the millennial status as digital natives. It also positively reinforces what they're doing well, while offering feedback on what might be done better in a more light-hearted way.
 
-### 4. Use [microlearning](/blog/microlearning) for bite-sized nibbles of information
+### 4. Use [microlearning](/blog/types-of-microlearning/) for bite-sized nibbles of information
 
 A short, information-packed video delivered to any mobile device will be a more effective training tool for millennial employees than a full-day seminar in a conference room.
 

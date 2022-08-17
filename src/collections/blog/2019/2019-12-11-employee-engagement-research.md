@@ -1,5 +1,5 @@
 ---
-title:    "11 Insights Into Employee Engagement Research From 2019"
+title:    "11 Insights Into Employee Engagement Research"
 permalink: /blog/employee-engagement-research/
 image: blog/2019/2019-12-11-employee-engagement-research.jpg
 meta: Read on for the top learning research articles on employee training and development and workplace engagement in 2019.
@@ -7,7 +7,7 @@ author:
   name: Michael Hansen 
 ---
 
-As we near the end of the year, it’s time to look at the key findings in employee engagement research from 2019. Here are the top learning research articles on employee training and development and workplace engagement, and what they could mean for your employees in 2020.
+Here are the top learning research articles on employee training and development and workplace engagement, and what they could mean for your employees in the future.
 
 ## 1. Gratitude in the workplace goes a long way
 
@@ -21,7 +21,7 @@ One of the researchers noted that:
 
 ## 2. Positive work environments help employees feel included
 
-In somewhat unsurprising (but nevertheless important) research, a Binghamtom University study found that a positive work environment helped employees to feel more included. These feelings were [connected to higher satisfaction at work and increased innovation on the job](http://dx.doi.org/10.1177/0899764019829834). 
+In somewhat unsurprising (but nevertheless important) research, a Binghamtom University study found that a positive work environment helped employees to feel more included. These feelings were [connected to higher satisfaction at work and increased innovation on the job](https://www.binghamton.edu/news/story/1691/how-a-positive-work-environment-leads-to-feelings-of-inclusion-among-employ). 
 
 Kim Brimhall, assistant professor of social work at Binghamton University's College of Community and Public Affairs, noted that: 
 
@@ -47,7 +47,7 @@ Employees who feel undervalued or bullied are at greater risk for [non-complianc
 
 Study authors highlighted the importance of addressing this issue, noting that, “It's really critical to manage such leader behavior, support victimized employees and prevent such issues."
 
-## 6. [Ethical leadership prevents toxic work environments](https://business.sdsu.edu/faculty/faculty-research/preventing-toxic-environments-through-leadership)
+## 6. [Ethical leadership prevents toxic work environments](https://business.sdsu.edu/about/news/articles/2019/04/preventing-toxic-environments-through-leadership)
 
 On the other side of the leadership coin, leaders who utilize clear and positive communication and offer emotional support for their employees promote the same characteristic in employees. This is especially true when dealing with social undermining that might occur in the workplace.
 
@@ -65,7 +65,7 @@ Employees who have trouble sleeping due to work-related stress are at a [threefo
 
 Another way to stay healthy at work is to just be yourself. 
 
-Rice University researchers found that disclosing invisible illness or stigmas at work [helped employees to feel more accepted](http://news.rice.edu/2019/02/25/be-yourself-at-work-its-healthier-and-more-productive/). This employee disclosure was also linked to decreased job anxiety and an increased commitment to their job and their company.
+Rice University researchers found that disclosing invisible illness or stigmas at work [helped employees to feel more accepted](https://news2.rice.edu/2019/02/25/be-yourself-at-work-its-healthier-and-more-productive/). This employee disclosure was also linked to decreased job anxiety and an increased commitment to their job and their company.
 
 Unfortunately, the study found that the same could not be said about visible traits (e.g., race or disability). Employees still reported plenty of negative reactions and responses to visible differences among them.
 
@@ -75,8 +75,7 @@ Nearly half of all [workplaces in the U.S. offer some kind of health and wellnes
 
 Laura Linnan, professor in the Department of Health Behavior at UNC Gillings School of Global Public Health and founding director of the Carolina Collaborative for Research on Work and Health connected employee time at work with an employer’s obligation to care for their employees. She noted that: 
 
-"Most American adults work, and many spend half or more of their waking hours at work. Where we work, how long we work, the conditions of our work, who we work with -- all of these factors impact our health. Employers have an opportunity to shape work environments and work conditions in ways that support employee health.”
-{: .fancy-text }
+>Most American adults work, and many spend half or more of their waking hours at work. Where we work, how long we work, the conditions of our work, who we work with -- all of these factors impact our health. Employers have an opportunity to shape work environments and work conditions in ways that support employee health.
 
 ## 10. Virtual reality training improves health and safety of employees 
 

@@ -7,7 +7,7 @@ author:
   name: Corey Bleich 
 ---
 HIPAA training not only protects patients. It also empowers employees. 
-{.lead}
+{: .featured-text }
 
 HIPAA, the Health Insurance Portability and Accountability Act, is a U.S. federal law enacted in 1996. Initially created to simplify healthcare and reduce costs, HIPAA has now become synonymous with one thing: patient privacy and security. HIPAA compliance training not only protects clients. It also empowers employees. Here’s your ultimate guide to HIPAA training for employees, along with answers to frequently-asked questions about this type of training.
 
@@ -18,7 +18,8 @@ If your company handles sensitive client information – health records, address
 
 ## Who needs HIPAA compliance training?
 
->Anyone who handles personal health information (PHI) is required by law to undergo HIPAA compliance training.
+Anyone who handles personal health information (PHI) is required by law to undergo HIPAA compliance training.
+{: .fancy-text }
 
 This includes doctors, nurses, administrators, front desk personnel, residents on rotation... anyone and everyone who handles patient information. Other types of companies that are required to undergo HIPAA training include:
 

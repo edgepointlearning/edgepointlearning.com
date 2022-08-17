@@ -87,7 +87,7 @@ If you want everyone to feel included, think about sending tailored bits of the 
 
 ## Are there other ways to speed up eLearning course development?
 
-If this is your first foray into the world of eLearning course development, it’s best to start small. If your learning needs assessment indicated a place for microlearning, start with that. [Microlearning](/blog/microlearning/) courses are typically only a few minutes long and take, on average, about ten to 15 hours to develop. This might be a good place to learn the ropes.
+If this is your first foray into the world of eLearning course development, it’s best to start small. If your learning needs assessment indicated a place for microlearning, start with that. [Microlearning](/blog/types-of-microlearning/) courses are typically only a few minutes long and take, on average, about ten to 15 hours to develop. This might be a good place to learn the ropes.
 
 You can also create an easily modifiable template that can be used in different courses. This allows for editing and changes as needed, functioning as a prototype that can be evaluated, tweaked, and reimagined when your company’s training needs change.
 

@@ -79,7 +79,7 @@ Has your formerly stellar employee been turning in sub-par work, turning it in l
 
 ## How to manage employee burnout
 
-Knowing how to manage employee burnout (especially when many of those [employees are working remotely](/blogs/managing-remote-teams/)) is crucial.
+Knowing how to manage employee burnout (especially when many of those [employees are working remotely](/blog/managing-remote-teams/)) is crucial.
 
 Before implementing any new employee burnout prevention strategies among your managers, make sure those managers have [mental health training](/blog/mental-health-training/). Not only does this help them be attentive to any issues that might arise, but it also helps managers and leaders be attentive to their own mental health as they begin to more actively support others.
 

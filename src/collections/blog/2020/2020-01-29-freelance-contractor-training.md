@@ -1,5 +1,5 @@
 ---
-title:    "Why We Can't Forget Contractors And Freelancers For Our 2020 Training Initiatives"
+title:    "Why We Can't Forget Contractors And Freelancers For Our Training Initiatives"
 permalink: /blog/freelance-contractor-training/
 image: blog/2020/2020-01-29-freelance-contractor-training.jpg
 meta: Why independent contractor training is increasingly important and steps to design a thoughtful, practical, and thorough contractor training program.
@@ -25,7 +25,7 @@ Contractor training is crucial at this moment because the youngest generation, G
 
 When you are looking for these workers you’ll find them in co-working spaces, at coffee shops, or at their kitchen tables. 
 
-Additionally, many of the most skilled workers are electing to offer their services on a freelance basis, too. In the UpWork and Freelancers Union survey, 64% of professionals monitoring the changing trends in contract work believed that those at the top of their industry were [increasingly choosing to freelance](https://adquiro-content-prod.s3-us-west-1.amazonaws.com/documents/19-0919_r3_Freelancing+in+America+2019+Infographic.pdf).
+Additionally, many of the most skilled workers are electing to offer their services on a freelance basis, too. In the UpWork and Freelancers Union survey, 64% of professionals monitoring the changing trends in contract work believed that those at the top of their industry were [increasingly choosing to freelance](https://www.upwork.com/press/releases/freelancing-in-america-2019).
 
 These two factors make contractor training an important part of finding and capturing this highly-skilled talent. Training freelancers gives you an edge in workforce recruitment. It demonstrates your appreciation of and commitment to their choice to offer their services on a contract level… and a [person who feels valued does better work](https://www.smallbizgenius.net/by-the-numbers/job-satisfaction-statistics/).
 

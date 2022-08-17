@@ -33,9 +33,9 @@ These fixes and updates also hinder project development and rollout. Nobody has 
 
 Unlike Flash, HTML5 is supported on all Apple products without any plug-ins and across all browsers on desktop computers and laptops. That HTML5 is available on all devices makes it a better choice for companies who want their employees to be able to access media on the go.
 
-Years ago, Steve Jobs wrote a manifesto explaining why Flash should be discontinued, most importantly due to [issues with security and performance](https://www.apple.com/hotnews/thoughts-on-flash/?AID=10480621&PID=3821802&SID=1qzwj0nqanf4x). Adobe has been unable to effectively address these two things as technology advances.
+Years ago, Steve Jobs wrote a manifesto explaining why Flash should be discontinued, most importantly due to [issues with security and performance](https://en.wikipedia.org/wiki/Thoughts_on_Flash). Adobe has been unable to effectively address these two things as technology advances.
 
-You know it’s time to make the switch to HTML5 eLearning tools when Adobe themselves [proclaim](https://blogs.adobe.com/conversations/2015/11/flash-html5-and-open-web-standards.html) that Flash is dead. By 2020, Adobe will no longer be updating, developing, or otherwise utilizing Flash in their arsenal of creative tools. Although they will still need to maintain a minimum level of security because Flash was so widely used, they will no longer be as diligent. This could mean dangerous news for companies still using Flash.
+You know it’s time to make the switch to HTML5 eLearning tools when Adobe themselves [proclaim](https://www.adobe.com/products/flashplayer/end-of-life.html) that Flash is dead. By 2020, Adobe will no longer be updating, developing, or otherwise utilizing Flash in their arsenal of creative tools. Although they will still need to maintain a minimum level of security because Flash was so widely used, they will no longer be as diligent. This could mean dangerous news for companies still using Flash.
 
 ## Is it really worth it to switch my training over?
 

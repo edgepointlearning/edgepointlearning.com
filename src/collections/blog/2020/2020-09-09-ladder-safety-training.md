@@ -84,9 +84,9 @@ Depending on their role, ladder safety training may cover proper climbing techni
 Since so many deaths can be prevented with simple training, we developed a free ladder safety training online course that you can use immediately for your employees. This web-based version only covers the basics, and can't take the place of full training, but it's a great place to start if you need to get training out fast. We welcome you to share it with your employees.
 
 
-<a href="https://rise.articulate.com/share/bfe0aUdV6GFgTIJrtROshE5kKd__fEsm#/" target="_blank">
+  <a href="https://rise.articulate.com/share/bfe0aUdV6GFgTIJrtROshE5kKd__fEsm#/" target="_blank">
   {% picture "blog/2020/2020-09-09-ladder-safety-training-d3.jpg", "Free Ladder Safety Training Course" %}
-</a>
+  </a>
 
 Need a longer ladder safety training program for your workforce? EdgePoint Learning can help. Contact us today to learn more about our custom and co-development options, as well as online, mobile, and blended learning opportunities. 
 
@@ -115,5 +115,5 @@ Starting a new training program from scratch can be challenging, but EdgePoint c
 
 PinPoint is our precision microlearning app that helps your employees access mobile training right in the flow of work, with robust performance support tools. We also create full custom online training courses, or act as an extension of your team with co-development options.  
 
-**Check out [PinPoint’s pre-built content library](https://www.pinpointworkforce.com/content) or [get in touch](/contact/) to learn more! From custom to co-development, online learning to a blended approach, we can help.**
+**Check out [PinPoint’s pre-built content library](https://www.pinpointworkforce.com/copy-of-solutions-training-7) or [get in touch](/contact/) to learn more! From custom to co-development, online learning to a blended approach, we can help.**
 {: .fancy-text }

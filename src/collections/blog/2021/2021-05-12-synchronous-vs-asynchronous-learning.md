@@ -42,7 +42,7 @@ For [upskilling](/blog/upskill-employees/) and scenario-based activities, asynch
 Skip asynchronous learning for tasks that require immediate feedback or in-depth discussion.
 
 {% picture "blog/2021/2021-05-12-synchronous-vs-asynchronous-learning02.jpg", "Synchronous &Asynchronous Pros and Cons" %}
- 
+
  
 ## How to develop successful asynchronous learning
 

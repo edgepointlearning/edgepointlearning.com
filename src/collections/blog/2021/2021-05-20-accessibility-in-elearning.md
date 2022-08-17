@@ -101,7 +101,7 @@ Our free, fully-compliant five minute course covers the basic principles your te
 
 <a href="https://edg.pt/demo-508-SL" target="_blank" class="max-w-md mx-auto">
   {% picture "blog/2021/2021-05-20-accessibility-in-elearning03.jpg", "Free Accessibility In eLearning Course" %}
-</a>
+  </a>
 
 
 ## We build accessible employee training

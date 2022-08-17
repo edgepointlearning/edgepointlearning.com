@@ -51,7 +51,7 @@ This type of employee training is also highly-effective and reliable, allowing e
 
 Hands-on training includes any experiential training that's focused on the individual needs of the employee. It's conducted directly on the job. Hands-on training can help employees fit perfectly into their upcoming or current role, while enhancing their current skills.
 
-A [LinkedIn post](https://www.linkedin.com/pulse/5-effective-employee-training-techniques-work-jason-silver) notes:
+[Training Station](https://trainingstation.walkme.com/employee-training-techniques/) notes:
 
 > "One advantage of hands-on training is that they are applicable immediately to the employees’ jobs. They are also effective for training when it comes to new business equipment and procedures."
 
@@ -103,9 +103,9 @@ At [EdgePoint Learning](/about/), we know that employee training is only effecti
 
 Our [eLearning blog](/blog/) covers a number of other resources for you to learn more, including: 
 
-* ["How To Train New Employees Effectively"](/blog/how-to-train-new-employees/)
-* [How To Run A Training Needs Analysis](/blog/training-needs-analysis/)
-* [How To Keep Track Of Employee Training](/blog/how-to-keep-track-of-training/)
+* ["How To Train New Employees Effectively"](https://www.edgepointlearning.com/blog/how-to-train-new-employees/)
+* [How To Run A Training Needs Analysis](https://www.edgepointlearning.com/blog/training-needs-analysis/)
+* [How To Keep Track Of Employee Training](https://www.edgepointlearning.com/blog/how-to-keep-track-of-training/)
 
 From full custom development to comprehensive instructional strategy, our experts at EdgePoint Learning can also help you develop better employee training programs, for a variety of training methods. We specialize in eLearning, as well as innovative training solutions like [geofenced mobile training](/blog/pinpoint-partnership/) and [microlearning](/blog/types-of-microlearning/).
 

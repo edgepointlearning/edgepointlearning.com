@@ -21,4 +21,4 @@ Try adding scenarios, role playing games and practice engagements to help transf
 ## Sharing is caring
 Create opportunities for the sales organization to share their experiences and ideas. Make sure to record the information shared so you can use it in later sessions.
 
-Learn more about our [sales training options.](/solutions/)
+Learn more about our [sales training options.](/solutions/)

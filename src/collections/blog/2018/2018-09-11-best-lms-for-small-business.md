@@ -72,7 +72,7 @@ There are many LMS solutions for small business, many of which have been thoroug
 
 * PC Magazine (with [a handy chart](https://www.pcmag.com/article2/0,2817,2488347,00.asp)!)
 * [eLearning Industry](https://elearningindustry.com/10-cloud-based-learning-management-systems-small-business-training)
-* [FitSmallBusiness](https://fitsmallbusiness.com/best-lms-learning-management-system/)
+* [FitSmallBusiness](https://fitsmallbusiness.com/what-is-learning-management-system/)
 
 The last list breaks down five LMS options, including free LMS tools and those that are entirely linked to the G-suite programs. Take as many as you can for a test drive and talk to customer service representatives. Make sure to think about ease of use, adaptability to your company’s needs, and future training needs as well.
 

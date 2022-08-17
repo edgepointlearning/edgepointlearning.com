@@ -5,8 +5,7 @@ image: blog/2018/2018-02-01-cyber-security-training.jpg
 meta: If an employee touches a computer, they need cyber security training. Here's how to make it actually worth their (and your) time.
 author: M_C_Cocciola
 ---
-
-Cyber security training for employees may not be on the top of your list of priorities, but consider this: on December 6, 2017 Mecklenberg county officials in North Carolina received a [ransom note from a hacker](https://www.washingtonpost.com/national/the-latest-disruption-from-county-cyberattack-continues/2017/12/07/22b6673e-db7b-11e7-a241-0848315642d0_story.html?utm_term=.09743185832b), threatening to bring the county to a standstill if it didn’t pay a ransom of $23,000. The county refused, the attack went through, and now the most populated metro area in North Carolina has been reeled back into the 20th century, relying on paper records and processing for permits, jail intakes, court cases, and every other function of county government. A measly 44 of the county’s 500 servers was breached, but the cost to the county could stretch into the millions of dollars.
+Cyber security training for employees may not be on the top of your list of priorities, but consider this: on December 6, 2017 Mecklenberg county officials in North Carolina received a [ransom note from a hacker](https://www.washingtonpost.com/national/north-carolina-countys-servers-hacked-23k-ransom-sought/2017/12/05/130630fa-da1b-11e7-a241-0848315642d0_story.html), threatening to bring the county to a standstill if it didn’t pay a ransom of $23,000. The county refused, the attack went through, and now the most populated metro area in North Carolina has been reeled back into the 20th century, relying on paper records and processing for permits, jail intakes, court cases, and every other function of county government. A measly 44 of the county’s 500 servers was breached, but the cost to the county could stretch into the millions of dollars.
 
 ## Who gets attacked, and at what cost?
 
@@ -50,13 +49,13 @@ Work with your cyber security training developers to evaluate employee awareness
 
 Chances are good that your company already has training resources at hand. Don’t re-invent the wheel. If your employees respond best to online training, don’t shuffle them into a room and make them stare at a four-hour presentation.
 
-Utilize the principles of [microlearning](/blog/microlearning) to deliver essential small bites of information that address the most vital cyber security tips for employees.
+Utilize the principles of [microlearning](/blog/types-of-microlearning/) to deliver essential small bites of information that address the most vital cyber security tips for employees.
 
 ### 5. Train employees about email and phone phishing scams
 
 Get specific when it comes to current phishing scams via phone and email.
 
-Even the most well-informed employees may not be completely up-to-date on every scam that comes down the pike. Microlearning can come in handy here, too. Nearly [91% of cyber attacks start with an email](https://phishme.com/enterprise-phishing-susceptibility-report). Teach employees how to protect themselves (and the company!).
+Even the most well-informed employees may not be completely up-to-date on every scam that comes down the pike. Microlearning can come in handy here, too. Nearly [91% of cyber attacks start with an email](https://www2.deloitte.com/my/en/pages/risk/articles/91-percent-of-all-cyber-attacks-begin-with-a-phishing-email-to-an-unexpected-victim.html). Teach employees how to protect themselves (and the company!).
 
 ### 6. Standardize a company-wide process for updating passwords
 

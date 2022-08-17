@@ -7,7 +7,7 @@ author:
   name: Corey Bleich 
 ---
 
-Over six billion people connect to the internet through a mobile device. And, according to [UNESCO](http://www.unesco.org/new/en/unesco/themes/icts/m4ed/), twice as many people go online from a mobile device than from a computer or laptop. mLearning, or learning that takes place on mobile devices, can open up huge potentials to train your employees wherever they are. But, what is mLearning?
+Over six billion people connect to the internet through a mobile device. And, according to [UNESCO](https://unesdoc.unesco.org/ark:/48223/pf0000216451), twice as many people go online from a mobile device than from a computer or laptop. mLearning, or learning that takes place on mobile devices, can open up huge potentials to train your employees wherever they are. But, what is mLearning?
 
 {% picture "blog/2017/2017-05-17-what-is-mlearning-02.jpg" , "86% of employees use their smartphones at work" %}
 

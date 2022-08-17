@@ -53,7 +53,7 @@ Another bonus is their commitment to gender diversity. Their board of directors 
 
 This clothing company is focusing on the third of the three “Rs”: recycle. [Everlane](https://www.everlane.com/) has launched a clothing line, ReNew, that uses plastics to make fashionable, functional, and environmentally friendly outerwear. 
 
-This is just the first step in their commitment to [completely erase plastic](https://www.everlane.com/renew) from their supply chain by 2021.
+This is just the first step in their commitment to [completely erase plastic](https://www.everlane.com/renew) from their supply chain.
 
 ### 7. Apple
 

@@ -114,7 +114,7 @@ Your workplace safety training is only as good as the materials you use and your
 
 *  <strong>Hold everyone accountable:</strong> From upper level managers and company owners to interns, all employees must be held accountable to the same safety standards. Modeling safety from the top sets the tone for the company.
 
-*  <strong>Be mobile and adaptive:</strong> Five-hundred page safety manuals no one reads aren’t the standard of business anymore. You need safety trainings that are mobile, agile, and useful on-site. Consider incorporating on-the-job [microlearning](/blog/microlearning/) resources into your program, or create [geofenced resources](/blog/geofencing/) that employees can use when on a particular site.
+*  <strong>Be mobile and adaptive:</strong> Five-hundred page safety manuals no one reads aren’t the standard of business anymore. You need safety trainings that are mobile, agile, and useful on-site. Consider incorporating on-the-job [microlearning](/blog/types-of-microlearning/) resources into your program, or create [geofenced resources](/blog/geofencing/) that employees can use when on a particular site.
 
 <strong>Need help tailoring your safety training to your company’s needs? EdgePoint Learning can help! We've developed an innovative library of on-demand or fully-custom safety training materials for modern companies. Find examples of our work in our ["Safe Lifting" demos](/form/demo/) or [get in touch](/contact/) to see how we can help you meet your safety goals!</strong>
 

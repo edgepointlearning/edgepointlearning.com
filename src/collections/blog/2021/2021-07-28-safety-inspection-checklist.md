@@ -29,7 +29,7 @@ Consider safety inspection checklists that include:
 
 * [Health and safety training](/blog/employee-safety-training-topics/) topics for all industries
 * [Heat safety training checklists](/blog/heat-safety-training/) for outdoor workers
-* [Ladder safety training](h/blog/ladder-safety-training/)
+* [Ladder safety training](/blog/ladder-safety-training/)
 * [Personal protective equipment training](/blog/ppe-training/)
 * General facility safety inspection checklist
 * Industry-specific safety procedures

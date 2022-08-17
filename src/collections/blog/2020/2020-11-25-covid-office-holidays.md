@@ -60,7 +60,7 @@ Which option you choose depends on your team. Find something that everyone can e
 
 ### Send a party-in-a-box to employees, 
 
-Likewise, if your employees are working remotely and in pods, sending a [party-in-a-box](https://www.instyle.com/lifestyle/home-decorating/entertaining/holiday-party-in-a-box-services) to each pod can be help them safely celebrate. 
+Likewise, if your employees are working remotely and in pods, sending a [party-in-a-box](https://www.pinterest.com/pin/holiday-party-box-services-online--20195898306645448/) to each pod can be help them safely celebrate. 
 
 ### 4. Book an AirBnB online experience for your team 
 

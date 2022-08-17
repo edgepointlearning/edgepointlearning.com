@@ -27,7 +27,7 @@ There are some notable design guidelines to follow that can help increase the ch
 *  [Cognitive Theory of Multimedia Learning](https://www.learning-theories.com/cognitive-theory-of-multimedia-learning-mayer.html)
 *  [Universal Learning Design](http://www.udlcenter.org/aboutudl/whatisudl)
 *  [Glance Test](http://www.duarte.com/blog/perfect-your-slide-design/)
-*  [Rule of Thirds](https://blog.slideshare.net/2014/05/19/5-reasons-to-utilize-white-space)
+*  [Rule of Thirds](https://blog.thenounproject.com/using-the-rule-of-thirds-in-design/)
 
 However, one of my favorite easy-to-remember models to use when creating a Nobu-style eLearning experience is C.A.R.P.
 

@@ -114,7 +114,7 @@ Training employees to be alert to warning signs of potential workplace violence 
 *  Mood swings and overreaction to criticism or evaluations
 *  Paranoia
 
-It is important to note that workplace violence can be committed by people who are not mentally ill. There exists a tendency to [oversimplify the cause of workplace violence](http://workplacementalhealth.org/Mental-Health-Topics/Violence-in-the-Workplace) to mental illness, but in most cases that is not true.
+It is important to note that workplace violence can be committed by people who are not mentally ill. There exists a tendency to [oversimplify the cause of workplace violence](https://workplacementalhealth.org/Mental-Health-Topics/Violence-in-the-Workplace) to mental illness, but in most cases that is not true.
 
 ### 7. Create an action plan, share it with employees, and practice
 

@@ -26,7 +26,7 @@ From [natural disasters](https://www.iii.org/fact-statistic/facts-statistics-us-
 
 In schools, healthcare facilities, and other public-facing industries where vulnerable people are cared for, crisis management training is crucial to keep everyone safe, but unfortunately it's not as widespread as you might think. 
 
-A 2015 report from the Federal Emergency Management Agency (FEMA) found that 60% of adults had [not practiced an emergency drill](https://www.fema.gov/news-release/2015/04/28/sixty-percent-americans-not-practicing-disaster-fema-urges-everyone-prepare), despite the fact that 80% of people live in counties that have experienced a natural disaster since 2007.
+A 2015 report from the Federal Emergency Management Agency (FEMA) found that 60% of adults had [not practiced an emergency drill](https://caloes.ca.gov/AccessFunctionalNeedsSite/Documents/FEMA%20National%20Household%20Survey%202015.pdf), despite the fact that 80% of people live in counties that have experienced a natural disaster since 2007.
 
 {% picture "blog/2019/2019-010-23-crisis-management-training01.svg" , "60% of adults do not practice emergency drills" %}
 

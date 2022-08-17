@@ -53,9 +53,7 @@ Our [PinPoint Learning tool](https://www.pinpointworkforce.com/platform) allows 
 
 It gives you the ability to integrate curated learning “playlists” into microlearning experiences either from PinPoint’s pre-built Performance Support library or the PinPoint Content Community from other peers who have made their courses sharable. Finally, you can also develop your own custom-made courses in the Content Toolbox.
 
-
 {% picture "blog/2021/2021-02-10-content-curation-for-learning01.jpg" , "PinPoint Content Community", "mx-auto" %}
-
 
 With easy YouTube integration and space for PDFs, documents, and other eLearning materials, PinPoint’s mobile app is the perfect tool for content curation for learning.
 

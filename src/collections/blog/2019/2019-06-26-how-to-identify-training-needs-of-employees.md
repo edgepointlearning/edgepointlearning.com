@@ -86,7 +86,7 @@ If you are trying to revamp your procedures for checking compliance with local r
 
 Even if you are completely overhauling the way you do business, including all of your office and field procedures, taking it one logical step at a time will prevent employees (and managers and executives!) from getting frustrated and overwhelmed.
 
-If you want to know more about how to identify training needs of employees, EdgePoint Learning can help. We are experts at [helping businesses of all sizes](/stories/) design and implement the training that’s best for them.
+If you want to know more about how to identify training needs of employees, EdgePoint Learning can help. We are experts at [helping businesses of all sizes](/about/#case-studies) design and implement the training that’s best for them.
 
 [Get in touch today!](/contact/)
 
