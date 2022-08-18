@@ -7,9 +7,11 @@ imageStyles: 'object-right'
 
 hero:
   headline: Meet The<br> EdgePoint Team
+  video: heroes/shape_7.mp4
+  videoStyles: 'blur-lg'
   backdrop: "from-black/30 via-black/50 to-black/30"
-  wave: "waves--wave-3"
-  waveClasses: "wave-bot fill-white"
+  wave: "waves--wave-1"
+  waveClasses: "wave-bot fill-white -scale-x-100"
   cta:
   - name: Our solutions
     url: /solutions/
@@ -50,7 +52,7 @@ team:
 
 ---
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%} 
+{%- from "system/component.njk" import component -%}
 
 <div id="what-we-do" class="bg-white py-12 scroll-mt-8 ">
   <div class="
