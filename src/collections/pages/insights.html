@@ -9,23 +9,12 @@ hero:
   headline: Employee Training Insights
   tagline: We love learning!
 ---
-<div class="bg-white relative">
-  {% svg "waves--wave-7", "wave-top -scale-y-100 -scale-x-100 fill-slate-100" %}
-
-  <div class="
-    relative
-    wrapper pb-16 gap-y-8 
-    grid grid-cols-12
-    divide-y divide-slate-200
-    ">
-
+<div class="bg-gradient-to-b from-slate-300 to-slate-100 pb-4">
+  <div class="wrapper">
     {%- for post in collections.blog | reverse -%}
       {% if loop.index0 < 3 %}
-        
-        <article class="
-          mx-auto pt-8
-          col-span-full max-w-2xl 
-          ">
+
+        <article class="mx-auto pt-12 w-full max-w-2xl">
           <a aria-label="{{post.data.title}}" href="{{post.url}}"
             class="
               grid grid-cols-3 gap-y-4 gap-x-8
@@ -43,11 +32,21 @@ hero:
 
       {% endif %}
     {%- endfor -%}
+  </div>
+</div>
+
+
+
+<div class="bg-white relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-slate-100" %}
+  {% svg "waves--wave-7", "wave-bot fill-slate-100" %}
 
     <article
       class="
-        mx-auto col-span-full pt-6 pb-2
-        prose prose-sm sm:prose-base max-w-2xl
+        relative wrapper
+        mx-auto w-full max-w-2xl
+        pt-16
+        prose prose-sm sm:prose-base 
       ">
       <h1 style="margin:0">Employee Training Insights</h1>
       <h2 class="font-light text-slate-600" style="margin: 0.6em 0;">We love learning!</h2>
@@ -56,19 +55,28 @@ hero:
       <p>Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
     </article>
 
-    <aside class="
-      mx-auto p-4 col-span-full max-w-2xl
-      flex flex-col justify-center 
-      rounded-xl ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300
+    <aside 
+      class="
+        relative
+        mx-auto w-full max-w-xl
+        mt-12 p-4 
+        bg-white rounded-xl ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300
       ">
       <h3 class="text-3xl font-bold text-epl-dark leading-none">Subscribe now!</h3>
       <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
       {% include 'forms/newsletter.983.html' %}
     </aside>
 
+</div>
+
+
+
+<div class="bg-slate-100 pt-8 pb-16">
+  <div class="wrapper">
     {%- for post in collections.blog | reverse -%}
       {% if loop.index0 >= 3 %}
-        <article class="mx-auto pt-8 col-span-full max-w-2xl">
+
+        <article class="mx-auto pt-12 col-span-full max-w-2xl">
           <a 
             aria-label="{{post.data.title}}"
             href="{{ post.url }}" 
@@ -83,8 +91,8 @@ hero:
             </div>
           </a>
         </article>
+
       {% endif %}
     {%- endfor -%}
-
   </div>
 </div>
