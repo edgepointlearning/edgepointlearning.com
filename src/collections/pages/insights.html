@@ -9,7 +9,7 @@ hero:
   headline: Employee Training Insights
   tagline: We love learning!
 ---
-<div class="bg-gradient-to-b from-slate-300 to-slate-100 pb-4">
+<div class="bg-gradient-to-b from-slate-200 via-white to-white pb-4">
   <div class="wrapper">
     {%- for post in collections.blog | reverse -%}
       {% if loop.index0 < 3 %}
@@ -20,13 +20,13 @@ hero:
               grid grid-cols-3 gap-y-4 gap-x-8
               group
             ">
-            <div class="col-span-full {{ 'md:order-last' if loop.index0 == 1}} {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-1' }}">
+            <figure class="col-span-full {{ 'md:order-last' if loop.index0 == 1}} {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-1' }}">
               {% picture post.data.image, post.data.title, "aspect-[21/9] {{ 'md:aspect-square' if loop.index0 > 0 }} object-cover w-full h-full rounded-lg bg-slate-100" %}
-            </div>
-            <div class="col-span-full {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-2' }}">
+            </figure>
+            <section class="col-span-full {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-2' }}">
               <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2" style="orphans: 2;">{{post.data.title}}</h2>
               <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
-            </div>
+            </section>
           </a>
         </article>
 
@@ -37,9 +37,9 @@ hero:
 
 
 
-<div class="bg-white relative">
-  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-slate-100" %}
-  {% svg "waves--wave-7", "wave-bot fill-slate-100" %}
+<div class="bg-gradient-to-b from-blue-200 to-blue-300 pb-4 relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-7", "wave-bot fill-white" %}
 
     <article
       class="
@@ -59,7 +59,7 @@ hero:
       class="
         relative
         mx-auto w-full max-w-xl
-        mt-12 p-4 
+        mt-12 p-4
         bg-white rounded-xl ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300
       ">
       <h3 class="text-3xl font-bold text-epl-dark leading-none">Subscribe now!</h3>
@@ -71,7 +71,7 @@ hero:
 
 
 
-<div class="bg-slate-100 pt-8 pb-16">
+<div class="bg-white pt-8 pb-16">
   <div class="wrapper">
     {%- for post in collections.blog | reverse -%}
       {% if loop.index0 >= 3 %}
@@ -82,13 +82,13 @@ hero:
             href="{{ post.url }}" 
             title="{{post.title}}" 
             class="group grid grid-cols-4 gap-x-8">
-            <div class="col-span-1 hidden sm:block">
+            <figure class="col-span-1 hidden sm:block">
               {% picture post.data.image, post.data.title, "rounded object-cover aspect-square w-full h-auto bg-slate-100", "144px" %}
-            </div>
-            <div class="col-span-full sm:col-span-3">
+            </figure>
+            <section class="col-span-full sm:col-span-3">
               <h2 class="text-lg font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2">{{post.data.title}}</h2>
               <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
-            </div>
+            </section>
           </a>
         </article>
 
