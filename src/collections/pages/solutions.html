@@ -2,16 +2,98 @@
 title: Employee Training Solutions 
 permalink: /solutions/
 meta: Better training starts here, with learning experiences designed for your workforce's unique needs. Explore all of our training solutions today.
-image: placeholder/landscape-a.jpeg
 
 hero:
   headline: Better training<br> starts here 
   tagline: Learning experiences designed for your needs
   cta:
-  - name: Let's Talk
+  - name: Let's talk
     url: /contact/
-  - name: View Demos
+  - name: View demos
     url: /form/demo/
----
 
-Solutions
+---
+<div class="bg-white pt-12">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2>Empower Your Workforce</h2>
+    <p>Whether your organization is a small- or medium-sized business, multinational corporation, or local nonprofit, good learning equals good business. Your employees need access to learning opportunities, upskilling and cross-training, performance support, and continued skills development in order to succeed. That's true whether they're out in the field for an energy company, directly working with patients for a healthcare organization, or making key business decisions from the C-suite.</p>
+    <p>Killer learning experiences that occur in the flow of work empower all of your employees—from your front line to your executives. We're experts in crafting learning experiences that employees love. By leveraging the latest in learning technologies, we meet your employees exactly where they are to deliver training when and where they need it most. </p>
+    {% vimeo "475097274", "mx-auto py-8", "--2" %}
+  </div>
+</div>
+
+
+
+<div class="relative bg-slate-300">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+
+  <div class="
+      mx-auto px-4 xl:px-0
+      pt-24
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      relative
+    ">
+    <h2 class="text-slate-700">EdgePoint Learning Solutions</h2>
+  </div>
+
+  <div class="relative wrapper flex flex-wrap items-center justify-center gap-8 mt-12 pb-16">
+    {%- for link in solutions -%}
+      {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %}    
+
+      <a aria-label="{{link.name}}" href="{{link.href}}" class="
+          max-w-md 
+          bg-slate-300 rounded-lg
+          flex items-center 
+          p-4
+          group transition hover:-translate-y-1 hover:bg-slate-200 hover:shadow-lg
+        ">
+        <figure class="mr-4">
+          {% svg icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
+        </figure>
+        <section class="">
+          <h3 class="font-bold group-hover:underline">{{link.name}}</h3>
+          <p class="mt-2 text-sm text-slate-700">{{ link.desc }}</p>
+        </section>
+      </a>
+
+    {%- endfor -%}
+  </div>
+
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-slate-300" %}
+
+  <p class="
+      relative
+      mx-auto px-4 xl:px-0
+      pt-36 pb-24
+      font-serif text-white text-center leading-snug
+      text-2xl sm:text-3xl lg:text-5xl max-w-[29ch]
+    ">
+    We're here to help you create killer user experiences for your employees. Let's talk about your next project today.
+  </p>
+
+  <div class="
+      relative 
+      max-w-2xl 
+      mx-2 sm:mx-auto mb-20
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700 ">Contact</h2>
+    <p class="text-slate-600">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>  
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+
+</div>
+

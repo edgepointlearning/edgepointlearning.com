@@ -1,0 +1,29 @@
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>{{ title }} | EdgePoint Learning</title>
+    <script defer src="/js/alpine.js"></script>
+    <script defer src="/js/vi-lazyload.js"></script>
+    <script defer src="/js/clipboard.min.js"></script>
+    <script defer src="/js/sharer.min.js"></script>
+    <script defer src="/js/main.js"></script>
+    {% favicons './src/assets/sprites/logo/epl-brand-mark-icon-circle.svg' %}
+    {# TODO: https://metagendocs.netlify.app/ {% metagen %} #}
+  </head>
+
+  <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
+    {% svgsprite %}
+
+
+    {{ content | safe }}
+
+
+  </body>
+</html>

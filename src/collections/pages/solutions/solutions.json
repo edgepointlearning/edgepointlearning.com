@@ -1,14 +1,14 @@
 {
   "hero": {
-      "cta": [
-          {
-              "name": "Let's Talk",
-              "url": "/contact/"
-          },
-          {
-              "name": "View Demos",
-              "url": "/form/demo/"
-          }
-      ]
+    "cta": [
+      {
+        "name": "Let's talk",
+        "url": "/contact/"
+      },
+      {
+        "name": "View demos",
+        "url": "/form/demo/"
+      }
+    ]
   }
 }

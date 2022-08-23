@@ -28,7 +28,7 @@ Not only do staff need to know where to log their time, but it also needs to be 
 
 Similarly, non-exempt staff will need to understand that any act of work—checking emails, working on a presentation, taking a phone call, creating a work schedule—needs to be counted as work time, even if it happens after typical work hours. Your organization must know and follow wage and labor laws—and clearly spell out requirements for employees.
 
-{% gif "2022-05-25-remote-work-ready.mp4", "mx-auto rounded-lg w-full" %}
+{% gif "blog/2022-05-25-remote-work-ready.mp4", "mx-auto rounded-lg w-full" %}
 
 ### Regular check-ins
 In the absence of break rooms and hallways where we run into coworkers, it’s important for managers and employees to have intentional check-ins. Not only can regular check-ins help with remote worker productivity, but they also will make staff feel more connected to your organization and the team they work with. 

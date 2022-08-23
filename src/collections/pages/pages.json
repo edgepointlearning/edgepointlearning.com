@@ -1,3 +1,15 @@
 {  
-  "layout": "layouts/page.njk"
+  "layout": "layouts/page.njk",
+  "bodyClasses": "topography",
+  
+  "image": "heroes/liquid_9.jpg",
+  "imageStyles": "",
+
+  "hero": {
+    "video": "heroes/liquid_9_high.mp4",
+    "videoStyles": "",
+
+    "wave": "waves--wave-2",
+    "waveClasses": "wave-bot fill-white"
+  }
 }
