@@ -10,50 +10,120 @@ hero:
 explore:
 - title: Top 10 Types of Employee Training Methods
   link:  /blog/top-10-types-of-employee-training/
-  image: /placeholder/landscape-a.jpeg
+  image: /placeholder/landscape-c.jpeg
   text:  "Let’s face it, employee training can be boring, but only when the wrong types of training are matched up with the topic or issue you’re tackling. This is how to get it right."
 
 - title: How Upskilling Can Drive Your Employee Development
   link:  /blog/upskill-employees/
-  image: /placeholder/landscape-a.jpeg
+  image: /placeholder/landscape-c.jpeg
   text:  "With entirely new technical fields and disruptive trends flooding the market, digital upskilling is more important than ever. Here’s what you need to know."
 
 - title: How Understanding Adult Learning Theory Helps Us Create Better eLearning
   link:  /blog/adult-learning-theory/
-  image: /placeholder/landscape-a.jpeg
+  image: /placeholder/landscape-c.jpeg
   text:  "Adult learning is not a one-size-fits-all model. Just as children need a variety of techniques to engage them, adults also require different approaches."
 
 ---
+
 <div class="bg-white py-16">
-Our team members have an average of 15+ years of online corporate learning experience. We handle all aspects of design and development for your online, mobile, performance support, or blended employee learning experiences.
-
-A boutique end-to-end solution
-
-Developing your own employee training courses in-house can be daunting. We work with your business to create custom learning experiences that match your needs and meet your goals, from initial program planning to launch.
-
-On the edge of learning theory and technology
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2 class="font-serif text-epl font-normal pb-8">Our team members have an average of 15+ years of online corporate learning experience. We handle all aspects of design and development for your online, mobile, performance support, or blended employee learning experiences.</h2>
+    <h3>A boutique end-to-end solution</h3>
+    <p>Developing your own employee training courses in-house can be daunting. We work with your business to create custom learning experiences that match your needs and meet your goals, from initial program planning to launch.</p>
+    <h3>On the edge of learning theory and technology</h3>
+    <p>We support employees where they are by leveraging new technologies like location services, mobile training apps, augmented reality, machine learning, and more into our learning programs.</p>
+  </article>
 </div>
-We support employees where they are by leveraging new technologies like location services, mobile training apps, augmented reality, machine learning, and more into our learning programs.
 
-[video]
 
-What we do
 
-Anyone can download a PowerPoint or PDF and send it out in an email, but is that going to get you the results you want? Probably not.
+<div class="relative">
+  {% svg "waves--wave-5", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-8", "-scale-x-100 wave-bot fill-white" %}
+  {% vimeo "366337732", "relative mx-auto px-4 md:px-0 py-12 max-w-5xl" %}
+</div>
 
-Knowing where to begin is half the battle. We work with you to create custom eLearning solutions that match your needs and meet your goals. Starting with a training needs analysis, our team reviews your goals, capitalizes on your strengths, and identifies growth opportunities.
 
-Whether your current program needs tweaking or you're building from the ground up, our expert instructional designers work with you to design content and delivery systems that help you grow your business. We can work with content you already have or create courses from scratch that are meaningful, useful, and engaging for your employees.
 
-We have years of research-backed experience in custom eLearning development for companies just like yours, with innovative designs that set us (and you) apart from your competitors.
+<div class="bg-white py-16">
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2>What we do</h2>
+    <p>Anyone can download a PowerPoint or PDF and send it out in an email, but is that going to get you the results you want? Probably not.</p>
+    <p>Knowing where to begin is half the battle. We work with you to create custom eLearning solutions that match your needs and meet your goals. Starting with a training needs analysis, our team reviews your goals, capitalizes on your strengths, and identifies growth opportunities.</p>
+    <p>Whether your current program needs tweaking or you're building from the ground up, our expert instructional designers work with you to design content and delivery systems that help you grow your business. We can work with content you already have or create courses from scratch that are meaningful, useful, and engaging for your employees.</p>
+    <p>We have years of research-backed experience in custom eLearning development for companies just like yours, with innovative designs that set us (and you) apart from your competitors.</p>
+  </article>
+</div>
 
-We're ready for a better employee training experience, and your employees are too. Get in touch today to learn how we can help.
 
-[form]
 
-Explore
+<div class="relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-2", "wave-bot fill-slate-400" %}
 
-{% for card in explore %}
-  {{card.title}}
-  {{card.text}}
-{% endfor %}
+  <article class="
+      pt-32 pb-24
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+    ">
+    <h2 class="font-serif font-normal text-white">We're ready for a better employee training experience, and your employees are too. Get in touch today to learn how we can help.</h2>
+  </article>
+
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's Talk</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+
+
+<div class="bg-slate-400 py-16">
+  <div class="wrapper">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
+
+    <div class="grid grid-cols-3 gap-12 mt-8">
+      {%- for item in explore -%}
+
+        <a aria-label="{{item.title}}" href="{{item.link}}" class="
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
+          max-w-md mx-auto 
+          bg-slate-200 rounded-lg overflow-hidden 
+          transition group hover:shadow-lg hover:-translate-y-2
+          ">
+
+          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
+          
+          <h3 class="
+            px-4 pt-2
+            text-base
+            font-medium text-epl 
+            decoration-1 underline-offset-2 group-hover:underline 
+          ">{{item.title}}</h3>
+          
+          <p class="
+            px-4 pb-4 
+            text-sm leading-relaxed
+          ">{{item.text}}</p>
+          
+        </a>
+
+      {%- endfor -%}
+    </div>
+
+  </div>
+</div>

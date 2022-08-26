@@ -20,10 +20,6 @@
 
   <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
     {% svgsprite %}
-
-
     {{ content | safe }}
-
-
   </body>
 </html>

@@ -6,6 +6,123 @@ meta: Employee training should be fun, not a dreaded checkmark at the end of the
 hero:
   headline: Consulting and<br> Program Planning
   tagline: Your guide to better learning
+
+explore:
+  - title: How To Identify The Training Needs Of Your Employees
+    image: blog/2019/2019-06-26-how-to-identify-training-needs-of-employees.jpg
+    text: Developing a new employee training program (or revitalizing an old one) is a big endeavor, but it will only be successful if you first analyze where your employees are starting out.
+    link: /blog/how-to-identify-training-needs-of-employees/
+  - title: "How To Measure Employee Engagement: 7 Steps"
+    image: blog/2020/2020-05-20-how-to-measure-employee-engagement.jpg
+    text: Employee engagement is arguably one of the most important factors in your company’s bottom line, but it can also be one of the most challenging things to quantify. Here's how.
+    link: /blog/how-to-measure-employee-engagement/
+  - title: When To Use eLearning (And When Not To)
+    image: blog/2019/2019-07-31-when-to-use-elearning.jpg
+    text: Here are five times to use eLearning and some instances when it may actually be better to look to other training tools.
+    link: /blog/when-to-use-elearning/
 ---
 
-Consulting
+<div class="bg-white py-16">
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2 class="font-serif text-epl font-normal pb-8">Let's design the best experience for your employees</h2>
+      <h3>Expert-led end-to-end solution</h3>
+      <p>From designing one stand-alone module to developing a new location-based training program to a complete overhaul (and re-energizing) of your company's approach to employee training, we can help.</p>
+      <h3>Designed with learners in mind</h3>
+      <p>We know every group of employees is different. Our goal is to find an approach that meets your employees exactly where they are, delivering training in the most effective way when they need it most.</p>
+      <h3>Solutions for mobile or deskless workers</h3>
+      <p>Today's workforce is away from the desk and on the go. We leverage the latest technologies to create a seamless and rewarding experience for your learners, and give you access to deep engagement metrics and reporting.</p>
+  </article>
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-5", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-8", "-scale-x-100 wave-bot fill-white" %}
+  {% vimeo "475094249", "relative mx-auto px-4 md:px-0 py-12 max-w-5xl" %}
+</div>
+
+
+
+<div class="bg-white py-16">
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2>What we do</h2>
+    <p>Some eLearning consulting firms don’t take the time to get to know your company before offering you a cookie-cutter approach to training. That’s not us.</p>
+    <p>We first help you define your training strategy with a training needs analysis. This guides our goals based on your current business processes and challenges, along with what your employees need to know to be successful and incorporate learning into the flow of work.</p>
+    <p>Next, we look at approaches that can help you meet those goals. We won’t ever hand you a stuffy three-ring binder or email you a PowerPoint and call it done. Instead, we'll introduce the latest learning technologies, like location-based solutions, mobile-first learning, augmented reality, and machine learning, to develop enjoyable and engaging learning experiences.</p>
+    <p>Then, we'll make sure whatever training approach you choose is flexible and nimble enough to grow and change with your company. As technologies change, your training should change, too.</p>
+  </article>
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-2", "wave-bot fill-slate-400" %}
+
+  <article class="
+      pt-32 pb-24
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+    ">
+    <h2 class="font-serif font-normal text-white">Employee training should be fun, not a dreaded checkmark at the end of the day. We're here to help you create killer user experiences for your team.</h2>
+  </article>
+
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's Talk</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+
+
+<div class="bg-slate-400 py-16">
+  <div class="wrapper">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
+
+    <div class="grid grid-cols-3 gap-12 mt-8">
+      {%- for item in explore -%}
+
+        <a aria-label="{{item.title}}" href="{{item.link}}" class="
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
+          max-w-md mx-auto 
+          bg-slate-200 rounded-lg overflow-hidden 
+          transition group hover:shadow-lg hover:-translate-y-2
+          ">
+
+          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
+          
+          <h3 class="
+            px-4 pt-2
+            text-base
+            font-medium text-epl 
+            decoration-1 underline-offset-2 group-hover:underline 
+          ">{{item.title}}</h3>
+          
+          <p class="
+            px-4 pb-4 
+            text-sm leading-relaxed
+          ">{{item.text}}</p>
+          
+        </a>
+
+      {%- endfor -%}
+    </div>
+
+  </div>
+</div>

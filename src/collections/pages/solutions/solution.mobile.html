@@ -6,6 +6,101 @@ meta: Connect your frontline to learning with our mobile platform, PinPoint. Exp
 hero:
   headline: Mobile Delivery
   tagline: Learning in the palm of your hand
+
+explore:
+  - title: Tour Our Mobile-First Microlearning Platform
+    image: placeholder/landscape-a.jpeg
+    text: Our PinPoint mobile platform combines microlearning with the power of mobile native apps to surround your people and their workplace with knowledge on demand.
+    link: https://www.pinpointworkforce.com/platform
+  - title: How Does An "Indoor GPS" For Mobile Learning Work?
+    image: placeholder/landscape-a.jpeg
+    text: A deeper dive into how we use IoT sensors to help employees access mobile learning opportunities right on the job. 
+    link: https://www.pinpointworkforce.com/post/indoor-gps-sensors-for-mobile-learning
+  - title: Build Your Own Mobile Learning Opportunities
+    image: placeholder/landscape-a.jpeg
+    text: Move content from the classroom into your world with our mobile native content creation toolbox and prebuilt learning blocks.
+    link: https://www.pinpointworkforce.com/solutions
 ---
 
-mobile
+<div class="bg-white pt-20 pb-4">
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2 class="text-center font-serif text-epl font-normal pb-8">PinPoint Workforce is our mobile-first microlearning and performance support platform</h2>
+      <h3>The future of mobile learning is a tap away</h3>
+      <p>Cutting-edge tech allows you to push training anywhere, with learning-on-location tools that provide training where it's needed most, augmented reality workstations, and training that seamlessly integrates into the flow of work.</p>
+      <h3>Built for today's workforce</h3>
+      <p>You can’t teach who you can’t reach. Our mobile learning platform delivers engaging training and necessary performance support right into the hands of your front-line employees with location-aware training.</p>
+      <h3>The development tools you need</h3>
+      <p>Easily create custom mobile content on the fly from your existing assets or within PinPoint's robust content toolbox. You can also instantly access our content community and learning library resources.</p>
+  </article>
+  {% vimeo "469090686", "mt-16 mx-auto px-4 md:px-0 max-w-5xl" %}
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-8", "wave-bot fill-slate-400" %}
+
+
+  <article class="
+      pt-36 pb-24
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+    ">
+    <h2 class="font-serif font-normal text-white">Move field training beyond the classroom to the people who need it most. Schedule a demo to see our mobile learning solution in action.</h2>
+  </article>
+
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+
+
+<div class="bg-slate-400">
+  <div class="wrapper relative py-16">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
+
+    <div class="grid grid-cols-3 gap-12 mt-8">
+      {%- for item in explore -%}
+
+        <a aria-label="{{item.title}}" href="{{item.link}}" class="
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
+          max-w-md mx-auto 
+          bg-slate-200 rounded-lg overflow-hidden 
+          transition group hover:shadow-lg hover:-translate-y-2
+          ">
+
+          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
+          
+          <h3 class="
+            px-4 pt-2
+            text-base
+            font-medium text-epl 
+            decoration-1 underline-offset-2 group-hover:underline 
+          ">{{item.title}}</h3>
+          
+          <p class="
+            px-4 pb-4 
+            text-sm leading-relaxed
+          ">{{item.text}}</p>
+          
+        </a>
+
+      {%- endfor -%}
+    </div>
+
+  </div>
+</div>

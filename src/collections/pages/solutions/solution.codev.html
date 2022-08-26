@@ -6,5 +6,103 @@ meta: Whether you need an employee training project done fast, or want to bring 
 hero:
   headline: Co-Development
   tagline: Your partner in employee training
+
+explore:
+  - title: "How To Motivate Employees: 5 Forward-Thinking Approaches"
+    image: /placeholder/landscape-b.jpeg
+    text: Motivating employees isn’t easy, but it’s vital. We look to the strongest company cultures and leading thinkers to discuss what it means to motivate employees today. 
+    link: /blog/how-to-motivate-employees/
+
+  - title: Our Tips For Creating Accessible eLearning Programs
+    image: /placeholder/landscape-b.jpeg
+    text: It's time to create accessible eLearning programs for all of your employees that also meets the standards of the Web Content Accessibility Guidelines (WCAG).
+    link: /blog/accessible-elearning-programs/
+
+  - title: 10 Topics You Should Include In Your New Manager Training 
+    image: /placeholder/landscape-b.jpeg
+    text: Today’s managers don’t look like the bosses from the turn of the 21st century. And today’s manager training? That should look different, too. 
+    link: /blog/new-manager-training
 ---
-co-dev
+
+<div class="bg-white pt-20 pb-4">
+  <article class="          
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    <h2 class="text-center font-serif text-epl font-normal pb-8">Let's make your job easier</h2>
+    <h3>An extension of your team</h3>
+    <p>Want to temporarily expand your development capacity without adding headcount? Need to pull in experts in instructional design, learning technologies, audio narration, illustrations, or interactivity? We're here to help.</p>
+    <h3>Leverage new technologies</h3>
+    <p>From augmented reality to location services, we develop training experiences that meet employees right where they need them most. Integrate the latest learning technologies into your project with our team by your side.</p>
+    <h3>Focused on helping you thrive</h3>
+    <p>Our collaborative, customer-centric approach is one of the foundations of our business. We know that successful partnerships rely on open, honest, and frequent communication. We are always working with your goals in mind.</p>
+  </article>
+  {% vimeo "388878369", "mt-16 mx-auto px-4 md:px-0 max-w-5xl" %}
+</div>
+
+
+
+<div class="relative">
+  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves--wave-8", "wave-bot fill-slate-400" %}
+
+
+  <article class="
+      pt-36 pb-24
+      mx-auto px-4 xl:px-0
+      prose prose-sm sm:prose-base lg:prose-lg
+    ">
+    <h2 class="font-serif font-normal text-white">Training development should be a little less hectic, and a lot more fun. Contact us today to learn more about co-development.</h2>
+  </article>
+
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Schedule a demo</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>
+
+
+
+<div class="bg-slate-400">
+  <div class="wrapper relative py-16">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
+
+    <div class="grid grid-cols-3 gap-12 mt-8">
+      {%- for item in explore -%}
+
+        <a aria-label="{{item.title}}" href="{{item.link}}" class="
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
+          max-w-md mx-auto 
+          bg-slate-200 rounded-lg overflow-hidden 
+          transition group hover:shadow-lg hover:-translate-y-2
+          ">
+
+          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
+          
+          <h3 class="
+            px-4 pt-2
+            text-base
+            font-medium text-epl 
+            decoration-1 underline-offset-2 group-hover:underline 
+          ">{{item.title}}</h3>
+          
+          <p class="
+            px-4 pb-4 
+            text-sm leading-relaxed
+          ">{{item.text}}</p>
+          
+        </a>
+
+      {%- endfor -%}
+    </div>
+
+  </div>
+</div>
