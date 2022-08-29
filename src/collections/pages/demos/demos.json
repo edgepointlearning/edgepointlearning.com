@@ -1,3 +1,6 @@
 {  
-  "layout": "layouts/demo.njk"
+  "layout": "layouts/demo.njk",
+  "sitemap": {
+    "ignore": true
+  }
 }

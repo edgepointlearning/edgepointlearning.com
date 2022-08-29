@@ -5,7 +5,21 @@ layout: 'layouts/base.njk'
 {%- from "system/component.njk" import component -%}
 
 <div class="bg-black/50">
-  {% vimeo vimeoID, "relative mx-auto max-w-5xl" %}
+  {% if vimeoID %}
+    {% set vimeoCSS = ["mx-auto max-w-5xl", " " , videoAspect] | join %}
+    {% vimeo vimeoID, vimeoCSS %}
+  {% endif %}
+
+  {% if iframeSrc %}
+    <iframe 
+      class="w-full mx-auto max-w-5xl {{videoAspect}}"
+      src="{{ iframeSrc }}" 
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen 
+      title="{{ title }}"
+      >
+    </iframe>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  {% endif %}
 </div>
 
 <div class="bg-slate-300 pt-20 pb-4">
@@ -16,7 +30,7 @@ layout: 'layouts/base.njk'
       prose-slate prose-a:text-epl prose-img:rounded-xl
     ">
     <h1>{{ title }}</h1>
-    <p>{{ meta }}</p>
+    <p>{{ content | safe }}</p>
   </article>
 
   <div class="
