@@ -1,6 +1,6 @@
 ---
 title : Introduction to SurfaceWise
-permalink: /demo/21/surfacewise
+permalink: /demo/21/surfacewise/
 iframeSrc: "https://player.vimeo.com/video/636313931?h=3fc361429a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
 videoAspect: "aspect-video"
 ---

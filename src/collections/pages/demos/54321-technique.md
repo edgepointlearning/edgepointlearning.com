@@ -1,6 +1,6 @@
 ---
 title: The 5, 4, 3, 2, 1 Technique
-permalink: /demo/21/54321-technique
+permalink: /demo/21/54321-technique/
 vimeoID: 527586354
 #videoAspect: "aspect-[9/16]"
 ---

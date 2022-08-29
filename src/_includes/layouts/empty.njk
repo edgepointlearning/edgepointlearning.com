@@ -3,6 +3,7 @@
 
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta name="robots" content="noindex, nofollow" />
   <meta charset="utf-8" />
@@ -19,7 +20,8 @@
 </head>
 
 <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
-{% svgsprite %}
-{{ content | safe }}
+  {% svgsprite %}
+  {{ content | safe }}
 </body>
+
 </html>
