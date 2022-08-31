@@ -1,0 +1,91 @@
+---
+layout: 'layouts/01.nav.njk'
+---
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
+
+<div class="relative pt-24 pb-16">
+  {% svg "waves--wave-2", "wave-bot fill-white" %}
+
+  <div class="relative wrapper">
+
+    <h1 class="text-white font-serif leading-tight text-4xl lg:text-6xl">{{ headline }}</h1>
+
+    <a 
+      href="/form/demo/" 
+      class="
+        inline-block my-16 
+        px-5 py-2.5 
+        text-black tracking-wide text-sm uppercase 
+        bg-emerald-400 hover:bg-white
+        rounded-full 
+        ring-1 ring-white
+        shadow-lg shadow-blue-800 hover:shadow-blue-500 
+      ">
+      View EdgePoint demos
+    </a>
+
+    <div class="grid sm:grid-cols-3 gap-8">
+
+      <div class="bg-slate-300 shadow-lg p-4 font-serif text-base grid content-center rounded">
+        <p class="story-quotation my-4">{{ quote}}</p>
+      </div>
+      
+      <div class="bg-slate-300 shadow-lg p-4 grid gap-y-4 text-sm rounded">
+        <ul>
+        {% for category, data in stats %}
+          <li class="font-bold uppercase text-slate-700">{{category}}</li>
+          <li class="mb-4 last:mb-0">{{data}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="bg-slate-300 p-4 text-sm shadow-lg rounded">
+        <p class="font-bold uppercase text-slate-700">Key Wins:</p>
+        <ul class="grid gap-y-4">
+          {% for item in wins %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    
+    </div>
+
+  </div>
+</div>
+
+
+<div class="bg-white pt-8 pb-2">
+  <article class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl
+    ">
+    {{ content | safe }}
+
+    <aside class="border-t">
+      <h2>About EdgePoint Learning</h2>
+      <p>EdgePoint Learning provides boutique, end-to-end solutions for today’s employee training needs. From microlearning to eLearning, program planning to launch, EdgePoint transforms complex training topics into engaging, interactive learning experiences for today's employees.</p>
+    </aside>
+
+  </article>
+</div>
+
+
+
+<div class="bg-slate-400 py-16 relative">
+  {% svg "waves--wave-5", "wave-top -scale-y-100 fill-white" %}
+
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's Talk</h2>
+    {% include 'forms/2022contactus.1054.html' %}  
+  </div>
+</div>

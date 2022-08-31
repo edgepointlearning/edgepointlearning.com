@@ -70,6 +70,8 @@ team:
   </div>
 </div>
 
+
+
 <div>
   <p class="mx-auto px-4 xl:px-0
       py-16 lg:py-28
@@ -78,6 +80,8 @@ team:
     >We create learning experiences that people actually <span class="italic text-yellow-200">enjoy</span> using.
   </p>
 </div>
+
+
 
 <div class="bg-white pt-16 pb-12">
   <div class="
@@ -89,6 +93,8 @@ team:
     <h2>Explore</h2>
   </div>
 </div>
+
+
 
 <div class="relative bg-white">
   {% svg "waves--wave-1", "wave-bot fill-slate-100" %}
@@ -142,7 +148,8 @@ team:
 {% picture "about/about-fullsize.jpg", "The EdgePoint Learning team", "w-full max-w-5xl mx-auto" %}
 
 
-<div id="our-team" class="bg-white pt-16 scroll-mt-8">
+
+<div id="our-team" class="bg-white pt-16 scroll-mt-8 pb-16">
 
   <div class="
       mx-auto px-4 xl:px-0
@@ -153,10 +160,10 @@ team:
     <h2>Meet The EdgePoint Learning Team</h2>
     <p>Headquartered in Phoenix, Arizona, our eLearning professionals have an average of 15+ years of experience creating learning experiences that employees love.</p>
     <p>When you work with us, you’re collaborating with an expert lineup of learning technology developers, instructional designers, courseware developers, graphic designers, project managers, voiceover talent, video producers, and more. We come from a variety of backgrounds, but our love of learning theory and technology unites us in building killer learning experiences for today's employees.</p>
-    <h3>The Faces Behind The Screen</h3>
+    <h3 class="text-slate-500">The Faces Behind The Screen</h3>
   </div>
 
-  <div class="wrapper grid grid-cols-3 gap-12 mt-12">
+  <div class="wrapper grid grid-cols-3 gap-12 mt-6">
     {%- for person in team -%}
       <div class="bg-epl-dark rounded-xl p-4 col-span-3 md:col-span-1 max-w-xs mx-auto">
         {% picture person.image, person.name, "rounded-full aspect-square w-[60%] mx-auto mt-4" %}
@@ -167,15 +174,39 @@ team:
     {%- endfor -%}
   </div>
 
-  <div id="case-studies" class="mt-16 mx-auto px-4 xl:px-0 prose prose-sm sm:prose-base lg:prose-lg">
-    <h2>Case Studies</h2>
-  </div>
-
 </div>
 
 
+<div class="bg-slate-400 pt-24 pb-16 relative">
+  {% svg "waves--wave-5", "wave-top -scale-y-100 -scale-x-100 fill-white" %}
+  
+  <div class="
+      relative
+      wrapper 
+      prose prose-sm sm:prose-base lg:prose-lg
+      ">
+    <h2 id="case-studies" class="scroll-mt-8 text-slate-100">Case Studies</h2>
+  </div>
 
-<div class="relative">
-  {% svg "waves--wave-4", "wave-top -scale-y-100 fill-white" %}
-  <div class="relative wrapper aspect-square h-96">[placeholder for case studies]</div>
+  <div class="relative wrapper grid grid-cols-3 gap-12 mt-6">
+    {%- for post in collections.story -%}
+      <a href="{{ post.url }}"
+        aria-label="{{params.item.title}}"
+        class="
+          col-span-3 md:col-span-1 
+          max-w-lg mx-auto p-4 
+          bg-slate-300 
+          transition hover:shadow-lg hover:-translate-y-1
+          rounded-lg
+          grid gap-2 content-start group
+        ">
+        <div class="aspect-video rounded-lg bg-white grid place-content-center mb-2">
+          {% picture post.data.icon, post.data.title, "w-[80%] h-auto max-w-sm mx-auto"%}
+        </div>
+        <h3 class="font-bold text-xl group-hover:underline text-slate-700">{{ post.data.client }}</h3>
+        <p class="text-slate-800 text-sm leading-relaxed">{{ post.data.meta }}</p>
+      </a>
+    {%- endfor -%}
+  </div>
+
 </div>

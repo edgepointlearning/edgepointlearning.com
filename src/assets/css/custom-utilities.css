@@ -15,3 +15,27 @@
     underline
     text-black
 }
+
+/* .story-quotation {
+  quotes: "\201C""\201D""\2018""\2019";
+} */
+
+.story-quotation:before,
+.story-quotation:after {
+  display: inline;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  color: #5885bb;
+  font-size: 3em;
+}
+.story-quotation:before {
+  content: open-quote;
+  left: -5px;
+  top: 20px;
+}
+.story-quotation::after {
+  content: close-quote;
+  left: 5px;
+  top: 32px;
+}
