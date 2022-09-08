@@ -15,15 +15,15 @@ hero:
 ourSolutions:
 - title: 'Learning Experiences'
   link: '/solutions/'
-  image: '/home/card-learning-experiences.png'
+  image: '/home/card-learning-experiences-icon.png'
   text: 'Empower your employees with custom eLearning courses, microlearning delivered in the flow of work, or a blended approach of desktop, mobile, performance support, and in-person programs. Explore our solutions.'
 - title : 'Training Strategy'
   link: '/elearning-consulting-services/'
-  image : '/home/card-training-strategy.png'
+  image : '/home/card-training-strategy-icon.png'
   text: 'Employee training should be fun, not a dreaded checkmark at the end of their day. Learn how we help you create killer user experiences for your workforce, from program planning to development to launch.'
 - title : 'PinPoint Workforce'
   link: 'https://www.pinpointworkforce.com/'
-  image : '/home/card-pinpoint-workforce.png'
+  image : '/home/pinpoint-logo.png'
   text : 'Meet your employees right where they are with our precision microlearning platform, PinPoint Workforce. Explore our mobile-native microlearning LMS, content creation, and performance support solution.'
 
 ---
@@ -33,10 +33,10 @@ ourSolutions:
 <!-- FEATURED SOLUTIONS -->
 <div class="pt-16 pb-24 bg-white">
   <div class="wrapper">
-    <h2 class="pb-12 text-2xl font-bold sm:text-4xl">Our Learning Solutions</h2>
-    <div class="grid grid-cols-3 gap-12">
+    <h2 class="text-2xl font-bold sm:text-4xl">Our Learning Solutions</h2>
+    <div class="pt-16 grid grid-cols-3 gap-12">
       {%- for item in ourSolutions -%}
-        {{ component('card.a', { item: item }) }}
+        {{ component('card.c', { item: item }) }}
       {%- endfor -%}
     </div>
   </div>
