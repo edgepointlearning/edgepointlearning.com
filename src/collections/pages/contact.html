@@ -34,10 +34,9 @@ hero:
     <h2 class="text-2xl font-bold sm:text-4xl">Follow us on social</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
       {%- for link in socials -%}
-        {% set icon = ["social--", link.icon] | join | replace(".svg","") %}    
         <div class="relative grid grid-cols-1 place-items-center justify-center group mx-auto rounded-xl aspect-square p-3 transition hover:shadow-md">
           <a aria-label="{{ link.name }}" href="{{ link.href }}">
-            {% svg icon, "aspect-square w-16 transition origin-center group-hover:scale-125" %}
+            {% svg link.icon, "aspect-square w-16 transition origin-center group-hover:scale-125" %}
           </a>
           <a class="z-10 text-center" href="{{ link.href }}"><h3 class="text-sm font-semibold mt-2">{{ link.name }}</h3></a>
         </div>    

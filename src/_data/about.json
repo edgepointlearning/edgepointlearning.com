@@ -1,26 +1,26 @@
 [
   {
-      "name": "What We Do",
-      "desc": "We are a boutique, end-to-end solution for your training needs",
-      "href": "/about/#what-we-do",
-      "icon": "workflow-color.svg"
+    "name": "What We Do",
+    "desc": "We are a boutique, end-to-end solution for your training needs",
+    "href": "/about/#what-we-do",
+    "icon": "workflow-color.svg"
   },
   {
-      "name": "Our Team",
-      "desc": "Work with the experts in online and mobile corporate learning",
-      "href": "/about/#our-team",
-      "icon": "smiling-color.svg"
+    "name": "Our Team",
+    "desc": "Work with the experts in online and mobile corporate learning",
+    "href": "/about/#our-team",
+    "icon": "smiling-color.svg"
   },
   {
-      "name": "View Demos",
-      "desc": "Find inspiration for your next employee training project",
-      "href": "/form/demo/",
-      "icon": "home_office-color.svg"
+    "name": "View Demos",
+    "desc": "Find inspiration for your next employee training project",
+    "href": "/form/demo/",
+    "icon": "home_office-color.svg"
   },
   {
-      "name": "Case Studies",
-      "desc": "Discover how we crafted engaging learning experiences for clients",
-      "href": "/about/#case-studies",
-      "icon": "contact-color.svg"
+    "name": "Case Studies",
+    "desc": "Discover how we crafted engaging learning experiences for clients",
+    "href": "/about/#case-studies",
+    "icon": "contact-color.svg"
   }
 ]

@@ -1,27 +1,30 @@
-<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%} 
-
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta name="robots" content="noindex, nofollow" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/css/styles.css" />
-  <title>{{ title }} | EdgePoint Learning</title>
-  <script defer src="/js/alpine.js"></script>
-  <script defer src="/js/vi-lazyload.js"></script>
-  <script defer src="/js/clipboard.min.js"></script>
-  <script defer src="/js/sharer.min.js"></script>
-  <script defer src="/js/main.js"></script>
-  {# TODO: plugin is currently broken {% favicons './src/assets/favicon.svg' %} #}
-  {# TODO: https://metagendocs.netlify.app/ {% metagen %} #}
-</head>
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    {# javascript #}
+    <script defer src="/js/alpine.js"></script>
+    <script defer src="/js/vi-lazyload.js"></script>
+    <script defer src="/js/clipboard.min.js"></script>
+    <script defer src="/js/sharer.min.js"></script>
+    <script defer src="/js/main.js"></script>
+    {# favicons #}
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    {# metadata #}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }} | EdgePoint Learning</title>
+    {# TODO: https://metagendocs.netlify.app/ {% metagen %} #}
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
 
-<body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
-  {% svgsprite %}
-  {{ content | safe }}
-</body>
+  <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
+    {% svgsprite %}
+    {{ content | safe }}
+  </body>
 
 </html>

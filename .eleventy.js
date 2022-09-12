@@ -1,6 +1,5 @@
 // Plugin Imports
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
-const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
@@ -69,15 +68,15 @@ module.exports = function(eleventyConfig) {
   // passthrough behavior
   eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
 
+  // passthrough assets & custom scripts
+  eleventyConfig.addPassthroughCopy({'src/assets/static' : '/'});
+  eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
+  eleventyConfig.addPassthroughCopy({'src/assets/videos' : '/videos/'});
   // passthrough node_modules
   eleventyConfig.addPassthroughCopy({'./node_modules/@ryangjchandler/alpine-clipboard/dist/' : './js/'});
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
-  // passthrough assets & custom scripts
-  eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
-  eleventyConfig.addPassthroughCopy({'src/assets/static' : '/static/'});
-  eleventyConfig.addPassthroughCopy({'src/assets/videos' : '/videos/'});
   
   // watch for changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
@@ -95,13 +94,6 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
   
-  // add plugins
-  eleventyConfig.addPlugin(faviconsPlugin, {
-    'outputDir': './_dist',
-    'manifestData': {'name': 'EdgePoint Learning'},
-    'generateManifest': true
-  });
-
   eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(svgSprite, {

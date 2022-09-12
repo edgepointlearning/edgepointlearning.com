@@ -1,9 +1,6 @@
 ---
 layout: 'layouts/01.nav.njk'
 ---
-<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%}
-
 <div class="bg-black/50">
   {% if vimeoID %}
     {% set vimeoCSS = ["mx-auto max-w-5xl", " " , videoAspect] | join %}

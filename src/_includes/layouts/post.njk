@@ -1,43 +1,45 @@
 ---
 layout: 'layouts/01.nav.njk'
 ---
+<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{%- from "system/component.njk" import component -%} 
+
 {% if not author.name %}
   {% set author = authors[author] %}
 {% endif %}
 
-<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
-{%- from "system/component.njk" import component -%} 
-  <div class="max-w-[1440px] mx-auto">
-    {% set heroClass = [imageOrigin, " aspect-video max-h-[66vh] overflow-hidden object-cover w-full"] | join %}
-    {% picture image, title, heroClass, "100vw", "eager", "sync" %}
-  </div>
-  <main class="xl:px-0 px-4 pb-16 bg-white">
-    <article class="lg:prose-lg prose-slate prose-a:text-epl mx-auto prose">
-      <header class="not-prose">
-        <h1 class="sm:text-4xl py-12 font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
-        <p class="text-slate-600 font-bold text-center uppercase">{{ author.name }}</p>
-        <p class="text-slate-500 text-sm text-center">{{ content | emojiReadTime }}</p>
-      </header>
-      <section class="pt-12 pb-6 font-serif">{{ content | safe }}</section>
+<div class="max-w-[1440px] mx-auto">
+  {% set heroClass = [imageOrigin, " aspect-video max-h-[66vh] overflow-hidden object-cover w-full"] | join %}
+  {% picture image, title, heroClass, "100vw", "eager", "sync" %}
+</div>
 
-      <aside class="not-prose text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
-        <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
-        <div class="bg-slate-100 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
-          {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
-        </div>
+<main class="xl:px-0 px-4 pb-16 bg-white">
+  <article class="lg:prose-lg prose-slate prose-a:text-epl mx-auto prose">
+    <header class="not-prose">
+      <h1 class="sm:text-4xl py-12 font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
+      <p class="text-slate-600 font-bold text-center uppercase">{{ author.name }}</p>
+      <p class="text-slate-500 text-sm text-center">{{ content | emojiReadTime }}</p>
+    </header>
+    <section class="pt-12 pb-6 font-serif">{{ content | safe }}</section>
+
+    <aside class="not-prose text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
+      <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
+      <div class="bg-slate-100 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
+        {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
+      </div>
+    </aside>
+
+    {% if author.image %}
+      <aside class="guestauthor mt-12 bg-blue-100 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center not-prose font-sans text-sm">
+        {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36 ring-blue-400 ring-4", "144px" %}
+        <p class="mt-6 text-lg font-bold text-slate-600 uppercase">{{author.name}}</p>
+        <div class="mb-6 text-base font-light text-slate-600">{{author.title | markdownFilter | safe}}</div>
+        <div class="grid gap-2">{{author.bio | markdownFilter | safe}}</div>
       </aside>
+    {% endif %}
 
-      {% if author.image %}
-        <aside class="guestauthor mt-12 bg-blue-100 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center not-prose font-sans text-sm">
-          {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36 ring-blue-400 ring-4", "144px" %}
-          <p class="mt-6 text-lg font-bold text-slate-600 uppercase">{{author.name}}</p>
-          <div class="mb-6 text-base font-light text-slate-600">{{author.title | markdownFilter | safe}}</div>
-          <div class="grid gap-2">{{author.bio | markdownFilter | safe}}</div>
-        </aside>
-      {% endif %}
-
-    </article>
-  </main>
+  </article>
+</main>
 
 <!-- NEWSLETTER FORM -->
 <div class="relative pt-4 pb-6">

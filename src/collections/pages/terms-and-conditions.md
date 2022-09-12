@@ -3,6 +3,8 @@ title: EdgePoint Learning Terms & Conditions
 permalink: /terms-and-conditions/
 layout: layouts/01.nav.njk
 meta: "EdgePoint Learning Terms & Conditions"
+sitemap: 
+  ignore: true
 ---
 <div class="bg-white py-16">
   <div class="
