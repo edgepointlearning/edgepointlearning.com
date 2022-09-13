@@ -42,6 +42,8 @@ ourSolutions:
   </div>
 </div>
 
+
+
 <!-- EMBEDDED VIDEO -->
 <div class="relative">
   {% svg "waves--wave-4", "wave-top -z-10 fill-white -scale-y-100" %}
@@ -51,7 +53,9 @@ ourSolutions:
   </div>
 </div>
 
-<!-- OUR SOLUTIONS AND BLOBS -->
+
+
+<!-- OUR SOLUTIONS -->
 <div class="pt-20 bg-white">
   <div class="wrapper">
     <article>
@@ -61,19 +65,32 @@ ourSolutions:
     </article>
   </div>
 
-  <div class="flex flex-wrap justify-center gap-8 mt-16 wrapper">
+  <div class="relative wrapper flex flex-wrap items-center justify-center gap-8 mt-12 pb-16">
     {%- for link in solutions -%}
-      {% set blob = ["blobs--blob-", loop.index] | join | replace(".svg","") %}
       {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %}    
-      <div class="relative flex flex-col items-center justify-center w-32 h-32 group sm:w-48">
-        {% svg blob, "fill-blue-300 absolute top-0 w-full transition group-hover:rotate-12 group-hover:scale-105" %}
-        {% svg blob, "fill-blue-100 absolute top-0 w-full transition group-hover:rotate-12" %}
-        <a aria-label="{{ link.name }}" class="z-10" href="{{ link.href }}">{% svg icon, "aspect-square w-16 transition origin-bottom group-hover:scale-125 group-hover:rotate-3" %}</a>
-        <a class="z-10 text-center" href="{{ link.href }}"><h4 class="text-sm font-semibold leading-tight">{{ link.name }}</h4></a>
-      </div>    
+
+      <a aria-label="{{link.name}}" href="{{link.href}}" class="
+          max-w-md 
+          bg-white rounded-lg
+          flex items-center 
+          p-4
+          group transition hover:-translate-y-1 hover:shadow-lg
+        ">
+        <figure class="mr-4">
+          {% svg icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
+        </figure>
+        <section class="">
+          <h3 class="text-xl font-bold text-epl-dark decoration-1 group-hover:text-epl group-hover:underline">{{link.name}}</h3>
+          <p class="mt-2 text-sm text-slate-700">{{ link.desc }}</p>
+        </section>
+      </a>
+
     {%- endfor -%}
   </div>
+
 </div>
+
+
 
 <!-- BLOG TEASERS -->
 <div class="relative">
@@ -105,6 +122,8 @@ ourSolutions:
   </div>
 </div>
 
+
+
 <!-- CUSTOMER SHOWCASE -->
 <div class="bg-gradient-to-b from-white to-slate-200">
   <div class="wrapper">
@@ -113,21 +132,29 @@ ourSolutions:
     <div class="flex flex-wrap items-center justify-around pb-16 gap-x-4 gap-y-8">
       {% for customer in customers %}
       <a href="/about/#case-studies" title="{{ customer.name }}">
-        {% picture customer.logo, customer.name, "w-36 h-auto opacity-50 transition hover:scale-105 hover:opacity-100", "144px" %}
+        {% picture customer.logo, customer.name, "w-36 h-auto transition hover:scale-105", "144px" %}
       </a>
       {% endfor %}
     </div>
   </div>
 </div>
 
+
+
 <!-- CONTACT FORM -->
 <div class="relative pb-12">
   {% svg "waves--wave-2", "wave-top -z-10 fill-slate-200 -scale-y-100" %}
 
-  <div class="relative max-w-2xl px-4 py-8 mx-auto bg-white rounded drop-shadow-xl">
-    <h2 class="mb-4 text-2xl font-bold sm:text-4xl">Contact</h2>
+  <div class="
+      relative
+      max-w-2xl 
+      mx-2 sm:mx-auto
+      px-4 sm:px-8 py-8
+      grid grid-cols-1 gap-y-6
+      bg-white rounded shadow-lg
+    ">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's Talk</h2>
     <p class="pb-8">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>  
     {% include 'forms/2022contactus.1054.html' %}  
   </div>
-  
 </div>
