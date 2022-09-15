@@ -4,6 +4,8 @@ const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 
+
+
 // Shortcode Imports
 const Image = require("@11ty/eleventy-img");
 Image.concurrency = 8; // default is 10
@@ -11,9 +13,13 @@ const path = require("path");
 const gifShortcode = require('./src/_includes/shortcodes/gif');
 const vimeoShortcode = require('./src/_includes/shortcodes/vimeo');
 
+
+
 // Filters
 const { DateTime } = require("luxon");
 const markdownFilter = require('./src/_includes/filters/markdown-filter.js');
+
+
 
 // Markdown
 const markdownIt = require('markdown-it');
@@ -34,11 +40,13 @@ let milaOptions = {
     rel: "noopener",
   },
 };
-
 const markdownLib = markdownIt(markdownItOptions)
   .use(markdownItAttrs)
   .use(mila, milaOptions);
 
+
+
+// Image
 function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
   let url = `./src/assets/images/${src}`;
   let options = {
@@ -60,14 +68,33 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
     whitespaceMode: "inline",
   });
 }
+// Open Graph Image
+function ogImageShortcode(src, baseUrl) {
+  let url = `./src/assets/images/${src}`;
+  let options = {
+    widths: [660],
+    formats: ["jpeg"],
+    urlPath: "/img/og/",
+    outputDir: "./_dist/img/og/",
+  };
+  Image(url, options);
+
+  let metadata = Image.statsSync(url, options);
+
+  let data = metadata.jpeg[metadata.jpeg.length - 1];
+  return `<meta property="og:image" content="${baseUrl}${data.url}" >`;
+}
+
+
 
 module.exports = function(eleventyConfig) {
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
-  
+
+
+
   // passthrough behavior
   eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
-
   // passthrough assets & custom scripts
   eleventyConfig.addPassthroughCopy({'src/assets/static' : '/'});
   eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
@@ -77,23 +104,32 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
-  
+
+
+
   // watch for changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
   eleventyConfig.addWatchTarget('./src/assets/css/*.css');
   eleventyConfig.addWatchTarget('./src/assets/sprites/');
-  
+
+
+
   // Add Shortcodes
+  eleventyConfig.addShortcode("ogImage", ogImageShortcode);
   eleventyConfig.addShortcode("picture", pictureShortcode);
   eleventyConfig.addShortcode("gif", gifShortcode);
   eleventyConfig.addShortcode("vimeo", vimeoShortcode);
+
+
 
 	// Filters
   eleventyConfig.addFilter('markdownFilter', markdownFilter);
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
-  
+
+
+  // Plugins
   eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(svgSprite, {
@@ -104,6 +140,8 @@ module.exports = function(eleventyConfig) {
       hostname: "https://www.edgepointlearning.com",
     },
   });
+
+
 
   return {
     dir: {

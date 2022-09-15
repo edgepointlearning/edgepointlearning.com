@@ -2,7 +2,7 @@
   "layout": "layouts/page.njk",
   "bodyClasses": "topography",
   
-  "image": "heroes/liquid_9.jpg",
+  "image": "og-image.jpg",
   "imageStyles": "",
 
   "hero": {

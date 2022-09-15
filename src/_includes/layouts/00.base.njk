@@ -2,7 +2,20 @@
 <html lang="en">
 
   <head>
-    <meta name="robots" content="noindex, nofollow" />
+    {# meta #}
+    {% ogImage image, metadata.url %}
+    {# https://metagendocs.netlify.app/ #}
+    {% metagen 
+      title = title + " | EdgePoint Learning",
+      desc  = meta or metadata.description,
+      url = metadata.url + page.url,
+      name = author or "EdgePoint Learning",
+      twitter_handle="EdgePointLearn",
+      generator="eleventy"
+    %}
+    <!-- end metagen -->
+    {# todo: remove this #}
+    <meta name="robots" content="noindex, nofollow" /> 
     {# javascript #}
     <script defer src="/js/alpine.js"></script>
     <script defer src="/js/vi-lazyload.js"></script>
@@ -14,11 +27,6 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
-    {# metadata #}
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ title }} | EdgePoint Learning</title>
-    {# TODO: https://metagendocs.netlify.app/ {% metagen %} #}
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
