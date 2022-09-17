@@ -6,7 +6,6 @@
 
   "hero": {
     "video": "heroes/liquid_9_high.mp4",
-    "videoStyles": "",
 
     "wave": "waves--wave-2",
     "waveClasses": "wave-bot fill-white"
