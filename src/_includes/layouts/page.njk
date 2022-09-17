@@ -8,8 +8,7 @@ layout: 'layouts/01.nav.njk'
 
 <header class="relative overflow-hidden w-full">
 
-  {% set imageCSS = ["absolute -z-50 object-cover w-full h-full scale-125", " " , imageStyles] | join %}
-  {% picture image, title, imageCSS, "100vw", "eager", "sync" %}
+  {% picture "heroes/epl-waves.jpg", title, "absolute -z-50 object-cover w-full h-full scale-125", "100vw", "eager", "sync" %}
 
   {% set videoCSS = ["absolute -z-40 object-cover w-full h-full", " " , hero.videoStyles] | join %}
   {% gif hero.video, videoCSS %}
