@@ -5,9 +5,9 @@ title: Thanks
 permalink: /form/thanks/
 meta: Thanks for getting in touch.
 
-
 hero:
-  headline: Meet The<br> EdgePoint Team
+  video: heroes/stock/dogs_a_low.mp4
+  videoStyles: ''
   cta:
   - name: Our Solutions
     url: /solutions/
@@ -17,8 +17,66 @@ hero:
 sitemap: 
   ignore: true
 ---
-<div class="bg-white">
-  Woo hoo!
-  Thanks for contacting us.
-  We’ll be getting in touch with you very soon. We look forward to talking!
+
+<header class="relative overflow-hidden w-full aspect-[2/1]">
+  {% set videoBg = hero.video | replace("_low","") | replace("_med","") | replace("_high","") | replace(".mp4", ".png") %}
+  {% picture videoBg, title, "absolute -z-50 object-cover w-full h-full scale-125", "100vw", "eager", "sync" %}
+
+  {% set videoCSS = ["absolute -z-40 object-cover w-full h-full", " " , hero.videoStyles] | join %}
+  {% gif hero.video, videoCSS %}
+  
+  {% svg hero.wave, hero.waveClasses %}
+</header>
+
+<div class="bg-white pt-8 pb-16">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h1>Yay!</h1>
+    <h2 style="margin-top:0" class="text-slate-600">Thanks for contacting us.</h2>
+    <p>We’ll be getting in touch with you very soon.</p>
+  </div>
+</div>
+
+
+
+<header class="relative overflow-hidden w-full aspect-[2/1]">
+  {% gif "heroes/stock/bunny_a_low.mp4", videoCSS %}
+  {% svg hero.wave, hero.waveClasses %}
+</header>
+
+<div class="bg-white pt-8 pb-16">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h1>Yay!</h1>
+    <h2 style="margin-top:0" class="text-slate-600">Thanks for contacting us.</h2>
+    <p>We’ll be getting in touch with you very soon.</p>
+  </div>
+</div>
+
+
+
+<header class="relative overflow-hidden w-full aspect-[2/1]">
+  {% gif "heroes/stock/bunny_b_low.mp4", videoCSS %}
+  {% svg hero.wave, hero.waveClasses %}
+</header>
+
+<div class="bg-white pt-8 pb-16">
+  <div class="
+      mx-auto px-4 xl:px-0
+      prose
+      prose-sm sm:prose-base lg:prose-lg
+      prose-slate prose-a:text-epl prose-img:rounded-xl"
+    >
+    <h1>Yay!</h1>
+    <h2 style="margin-top:0" class="text-slate-600">Thanks for contacting us.</h2>
+    <p>We’ll be getting in touch with you very soon.</p>
+  </div>
 </div>
