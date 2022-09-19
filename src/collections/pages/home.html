@@ -10,7 +10,7 @@ hero:
   - name: Our work
     url: /form/demo/
   - name: Let's talk
-    url: /contact/
+    url: '#contact'
   
 ourSolutions:
 - title: 'Learning Experiences'
@@ -142,7 +142,7 @@ ourSolutions:
 
 
 <!-- CONTACT FORM -->
-<div class="relative pb-12">
+<div class="relative pb-12 scroll-mt-14" id="contact">
   {% svg "waves--wave-2", "wave-top -z-10 fill-slate-200 -scale-y-100" %}
 
   <div class="
@@ -151,8 +151,8 @@ ourSolutions:
       mx-2 sm:mx-auto
       px-4 sm:px-8 py-8
       grid grid-cols-1 gap-y-6
-      bg-white rounded shadow-lg
-    ">
+      bg-white rounded shadow-lg"
+    >
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's Talk</h2>
     <p class="pb-8">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>  
     {% include 'forms/2022contactus.1054.html' %}  
