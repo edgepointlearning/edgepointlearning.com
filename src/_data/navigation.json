@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Home",
+    "link": "/",
+    "clss": "col-span-2"
+  },
+  {
+    "name": "Solutions",
+    "link": "/solutions/",
+    "clss": "col-span-2"
+  },
+  {
+    "name": "Custom Development",
+    "link": "/custom-employee-training/",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Co-Development",
+    "link": "/co-development-services/",
+    "clss": ""
+  },
+  {
+    "name": "Consulting",
+    "link": "/elearning-consulting-services/",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Microlearning",
+    "link": "/microlearning/",
+    "clss": ""
+  },
+  {
+    "name": "Performance Support",
+    "link": "/performance-support/",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Mobile",
+    "link": "/mobile/",
+    "clss": ""
+  },
+  {
+    "name": "Augmented Reality",
+    "link": "/augmented-reality/",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Insights",
+    "link": "/blog/",
+    "clss": "col-span-2"
+  },
+  {
+    "name": "About Us",
+    "link": "/about/",
+    "clss": "col-span-2"
+  },
+  {
+    "name": "What We Do",
+    "link": "/about/#what-we-do",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Our Team",
+    "link": "/about/#our-team",
+    "clss": ""
+  },
+  {
+    "name": "View Demos",
+    "link": "/form/demo/",
+    "clss": "indent-2"
+  },
+  {
+    "name": "Case Studies",
+    "link": "/about/#case-studies",
+    "clss": ""
+  },
+  {
+    "name": "Contact Us",
+    "link": "/contact/",
+    "clss": "col-span-2"
+  }
+]

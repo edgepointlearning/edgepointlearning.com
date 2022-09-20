@@ -30,7 +30,7 @@ module.exports = {
   content: [
     // './src/_includes/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}',
     // './src/collections/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}',
-    './src/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}',
+    './src/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug,json}',
   ],
   plugins: [
     require('@tailwindcss/typography'),

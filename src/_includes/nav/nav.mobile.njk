@@ -1,63 +1,30 @@
-<div class="md:hidden sticky top-0 z-40 bg-white shadow-md">
+<div class="md:hidden sticky top-0 z-30 bg-white shadow-md">
   <ul class="place-items-center flex justify-between w-full h-12">
-    <li x-data="{showChildren:false}" @click.away="showChildren=false">
+
+    <li x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)">
       <a href="" @click.prevent="showChildren=!showChildren" title="Open Menu">
-        <div x-show="!showChildren" class="place-items-center flex justify-center w-12 h-12">
-          {% svg "menu--menu", "h-5 aspect-square fill-epl" %}
-        </div>
-        <div x-show="showChildren" class="place-items-center flex justify-center w-12 h-12 transition">
-          {% svg "menu--close", "h-5 aspect-square" %}
-        </div>
+        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu--menu", "h-5 aspect-square fill-epl" %}</div>
+        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu--close", "h-5 aspect-square" %}</div>
       </a>
 
-      {% include 'nav/nav.background.html' %}
+      <nav
+        @click.away="showChildren=false" x-show="showChildren"
+        class="
+          absolute left-0 w-full h-screen
+          grid justify-center items-start
+          bg-white
+        ">
+        <ul class="grid grid-cols-2 gap-x-12 gap-y-8 pl-5 pt-4">
+          {% for item in navigation %}
+            <li class="text-epl text-sm font-semibold uppercase whitespace-nowrap {{item.clss}}"><a href="{{item.link}}">{{item.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
 
-      <ul
-        @click.away="showChildren=false"
-        x-show="showChildren"
-        class="absolute left-0 grid w-full grid-cols-2 whitespace-nowrap rounded-b bg-white px-4 py-3 text-sm font-light shadow-lg"
-      >
-        <li class="col-span-2 py-3"><a href="/">Home</a></li>
-        <li class="col-span-2 py-3 border-t">
-          <a href="/solutions/">Solutions</a>
-        </li>
-        <li class="py-3 pl-2">
-          <a href="/custom-employee-training/">Custom Development</a>
-        </li>
-        <li class="pl-7 py-3">
-          <a href="/co-development-services/">Co-Development</a>
-        </li>
-        <li class="py-3 pl-2">
-          <a href="/elearning-consulting-services/">Consulting</a>
-        </li>
-        <li class="pl-7 py-3"><a href="/microlearning/">Microlearning</a></li>
-        <li class="py-3 pl-2">
-          <a href="/performance-support/">Performance Support</a>
-        </li>
-        <li class="pl-7 py-3"><a href="/mobile/">Mobile Delivery</a></li>
-        <li class="py-3 pl-2">
-          <a href="/augmented-reality/">Augmented Reality</a>
-        </li>
-        <li class="border-y col-span-2 py-3"><a href="/blog/">Insights</a></li>
-        <li class="col-span-2 py-3"><a href="/about/">About Us</a></li>
-        <li class="py-3 pl-2"><a href="/about/#what-we-do">What We Do</a></li>
-        <li class="pl-7 py-3"><a href="/about/#our-team">Our Team</a></li>
-        <li class="py-3 pl-2"><a href="/form/demo/">View Demos</a></li>
-        <li class="pl-7 py-3">
-          <a href="about/#case-studies">Case Studies</a>
-        </li>
-        <li class="col-span-2 py-3 border-t">
-          <a href="/contact/">Contact Us</a>
-        </li>
-      </ul>
     </li>
 
-    <li>
-      <a href="/" title="Home">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a>
-    </li>
+    <li><a href="/" title="Home">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
+    <li class="place-items-center flex justify-center w-12 h-12"><a href="" title="Search">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a></li>
 
-    <li class="place-items-center flex justify-center w-12 h-12">
-      <a href="" title="Search">{% svg "menu--search", "h-5 aspect-square fill-epl" %}</a>
-    </li>
   </ul>
 </div>
