@@ -3,6 +3,8 @@
   publish = "_dist"
   command = "npm run build"
 
+[context.branch-deploy]
+  command = "npm run build && cp _headers /_dist/_headers"
 
 # POST BUILD OPTIMIZATIONS
 [build.processing]
@@ -19,6 +21,7 @@
   compress = false
 
 
+
 # NETLIFY PLUGINS
 [[plugins]]
   package = "netlify-plugin-cache"
@@ -27,3 +30,143 @@
       "_dist/img/opt", # Eleventy-Image Disk Cache
       ".cache" # Remote Asset Cache (not used currently)
     ]
+
+
+
+# REDIRECTS
+# redirect to https.
+# [[redirects]]
+# from = "http://www.edgepointlearning.com/*"
+# to = "https://www.edgepointlearning.com/:splat"
+# status = 301
+# force = true
+
+# At some point /blog/ erroneously became /blogs/ in post frontmatter
+[[redirects]]
+from = "/blogs/*"
+to = "/blog/:splat"
+status = 301
+force = true
+
+# needlepoint restructuring redirects
+[[redirects]]
+from = "/custom-elearning-course-development/"
+to = "/custom-employee-training/"
+status = 301
+force = false
+
+# case study redirects
+[[redirects]]
+from = "/stories/"
+to = "/about/#case-studies"
+status = 301
+force = false
+
+[[redirects]]
+from = "/story/molson/"
+to = "/about/#case-studies"
+status = 301
+force = false
+
+[[redirects]]
+from = "/story/bloomin/"
+to = "/about/#case-studies"
+status = 301
+force = false
+
+[[redirects]]
+from = "/story/laquinta/"
+to = "/about/#case-studies"
+status = 301
+force = false
+
+# old blog post redirects
+[[redirects]]
+from = "/2016/01/15/quick-tips-for-localization/"
+to = "/blog/quick-tips-for-localization/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2016/05/01/how-to-work-with-subject-matter-experts/"
+to = "/blog/how-to-work-with-subject-matter-experts/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2016/07/01/sales-training-best-practices/"
+to = "/blog/sales-training-best-practices/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/2013/7/19/instructor-led-training-vs-elearning"
+to = "/blog/instructor-led-training-vs-elearning/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2016/07/21/Instructor-led-Training-vs-eLearning/"
+to = "/blog/instructor-led-training-vs-elearning/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2017/04/02/How-To-Create-Your-Custom-eLearning-Course-With-25-Free-Tools/"
+to = "/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/whats-the-key-to-creating-a-successful-elearning-project/"
+to = "/blog/how-to-create-your-custom-elearning-course-with-25-free-tools/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2017/04/27/top-10-types-of-employee-training/"
+to = "/blog/top-10-types-of-employee-training/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/employee-onboarding/"
+to = "/blog/how-to-train-new-employees/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2016/06/01/is-it-time-to-evaluate-your-training-strategy/"
+to = "/blog/training-needs-analysis/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/is-it-time-to-evaluate-your-training-strategy/"
+to = "/blog/training-needs-analysis/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/microlearning/"
+to = "/blog/types-of-microlearning/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/when-to-outsource-your-elearning/"
+to = "/blog/cost-of-training-new-employees/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/2016/06/15/technical-training-best-practices/"
+to = "/blog/how-to-train-employees-on-new-system/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/technical-training-best-practices/"
+to = "/blog/how-to-train-employees-on-new-system/"
+status = 301
+force = false

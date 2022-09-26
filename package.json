@@ -1,4 +1,7 @@
 {
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "netlify": "netlify",
     "clean": "cross-env rimraf _dist & clear",

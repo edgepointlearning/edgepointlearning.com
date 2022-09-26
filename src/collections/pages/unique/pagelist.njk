@@ -1,0 +1,19 @@
+---
+title: pagelist
+permalink: /list/
+layout: layouts/01.nav.njk
+sitemap:
+  ignore: true
+---
+<div class="bg-white py-8">
+  <ul class="wrapper mx-auto divide-y divide-slate-300">
+    {%- for post in collections.all -%}
+      <li class="py-1 text-sm">
+        <input type="checkbox">
+        <a class="mx-2 text-epl-light" href="{{ post.url }}">{{ post.url }}</a>
+        {{ post.data.title }}
+        <span class="text-red-700 ml-2">{{ '*hidden' if post.data.sitemap.ignore }}</span>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
