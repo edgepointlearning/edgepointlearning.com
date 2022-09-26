@@ -10,12 +10,12 @@
     "clss": "col-span-2"
   },
   {
-    "name": "Custom Development",
+    "name": "Custom development",
     "link": "/custom-employee-training/",
     "clss": "indent-2"
   },
   {
-    "name": "Co-Development",
+    "name": "Co-development",
     "link": "/co-development-services/",
     "clss": ""
   },
@@ -30,7 +30,7 @@
     "clss": ""
   },
   {
-    "name": "Performance Support",
+    "name": "Performance support",
     "link": "/performance-support/",
     "clss": "indent-2"
   },
@@ -40,7 +40,7 @@
     "clss": ""
   },
   {
-    "name": "Augmented Reality",
+    "name": "Augmented reality",
     "link": "/augmented-reality/",
     "clss": "indent-2"
   },
@@ -50,32 +50,32 @@
     "clss": "col-span-2"
   },
   {
-    "name": "About Us",
+    "name": "About us",
     "link": "/about/",
     "clss": "col-span-2"
   },
   {
-    "name": "What We Do",
+    "name": "What we do",
     "link": "/about/#what-we-do",
     "clss": "indent-2"
   },
   {
-    "name": "Our Team",
+    "name": "Our team",
     "link": "/about/#our-team",
     "clss": ""
   },
   {
-    "name": "View Demos",
+    "name": "View demos",
     "link": "/form/demo/",
     "clss": "indent-2"
   },
   {
-    "name": "Case Studies",
+    "name": "Case studies",
     "link": "/about/#case-studies",
     "clss": ""
   },
   {
-    "name": "Contact Us",
+    "name": "Contact us",
     "link": "/contact/",
     "clss": "col-span-2"
   }

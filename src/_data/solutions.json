@@ -1,12 +1,12 @@
 [
   {
-    "name": "Custom Development",
+    "name": "Custom development",
     "desc": "Develop eLearning experiences from program planning to launch",
     "href": "/custom-employee-training/",
     "icon": "rocket-color.svg"
   },
   {
-    "name": "Co-Development",
+    "name": "Co-development",
     "desc": "Grow your training team with our expert guidance and support",
     "href": "/co-development-services/",
     "icon": "handle_with_care-color.svg"
@@ -18,8 +18,8 @@
     "icon": "messaging-color.svg"
   },
   {
-    "name": "Performance Support",
-    "desc": "Provide on-the-job support, where and when they need it most",
+    "name": "Performance support",
+    "desc": "Provide on-the-job support, where and when employees need it most",
     "href": "/performance-support/",
     "icon": "administrative_tools-color.svg"
   },
@@ -30,13 +30,13 @@
     "icon": "user_location-color.svg"
   },
   {
-    "name": "Mobile Delivery",
+    "name": "Mobile delivery",
     "desc": "Deliver training and performance support with learning-on-location tools",
     "href": "/mobile/",
     "icon": "iphone-color.svg"
   },
   {
-    "name": "Augmented Reality (AR)",
+    "name": "Augmented reality (AR)",
     "desc": "Explore workplace AR tools like object recognition and 3D training",
     "href": "/augmented-reality/",
     "icon": "virtual_reality-color.svg"

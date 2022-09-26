@@ -1,12 +1,12 @@
 ---
-title: Bank Of The West Case Study 
+title: Bank of the West Case Study 
 permalink: /story/botw/
-meta: Bank Of The West needed scalable, interactive learning to replace their outdated and costly instructor-led programs. This is how EdgePoint helped.
+meta: Bank of the West needed scalable, interactive learning to replace their outdated and costly instructor-led programs. This is how EdgePoint helped.
 
-client: Bank of The West
+client: Bank of the West
 icon: /clients/botw-bnpp.png
 
-headline: Bank Of The West Transforms Instructor-Led Training Into Engaging Online Courses
+headline: Bank of the West Transforms Instructor-Led Training Into Engaging Online Courses
 
 quote: The biggest surprise was how quickly EdgePoint was able to realize our vision and develop a large amount of training under tight timelines. I have been amazed.
 
