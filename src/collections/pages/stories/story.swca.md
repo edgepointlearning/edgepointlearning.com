@@ -6,7 +6,7 @@ meta: SWCA Environmental Consultants needed a new hire onboarding program that c
 client: SWCA
 icon: /clients/swca.png
 
-headline: SWCA Rolls Out Standardized, Scalable New Hire Onboarding Program
+headline: SWCA rolls out standardized, scalable new hire onboarding program
 
 quote: EdgePoint’s consultative approach helped guide us in developing a training program that resulted in standardized training across all of our sites.
 
@@ -17,9 +17,9 @@ stats:
   approach: Custom Development
 
 wins:
- - Developed standardized new hire onboarding program across U.S. sites
- - Guided SWCA from initial strategy to roll-out and ongoing maintenance
- - Dramatically improved SWCA's new hire retention rates after roll-out
+  - Developed standardized new hire onboarding program across U.S. sites
+  - Guided SWCA from initial strategy to roll-out and ongoing maintenance
+  - Dramatically improved SWCA's new hire retention rates after roll-out
 
 ---
 ## Background

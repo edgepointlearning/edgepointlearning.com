@@ -6,20 +6,20 @@ meta: Bank of the West needed scalable, interactive learning to replace their ou
 client: Bank of the West
 icon: /clients/botw-bnpp.png
 
-headline: Bank of the West Transforms Instructor-Led Training Into Engaging Online Courses
+headline: Bank of the West transforms instructor-led training into engaging online courses
 
 quote: The biggest surprise was how quickly EdgePoint was able to realize our vision and develop a large amount of training under tight timelines. I have been amazed.
 
 stats:
   industry: Banking And Financial Services
-  company size: 10,000+ employees
+  size: 10,000+ employees
   location: Global
   approach: Custom Development, Co-Development
 
 wins:
-- Rapidly delivered 47 interactive courses to 15 departments across global enterprise
-- Created 7 highly interactive, exciting, and engaging online courses for all employees
-- Developed rapid, repeatable framework to update guidance for new or updated regulations
+  - Rapidly delivered 47 interactive courses to 15 departments across global enterprise
+  - Created 7 highly interactive, exciting, and engaging online courses for all employees
+  - Developed rapid, repeatable framework to update guidance for new or updated regulations
 ---
 
 ## Background

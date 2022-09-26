@@ -6,7 +6,7 @@ meta: With hundreds of stores and thousands of employees, PetSmart needed an onl
 client: PetSmart
 icon: /clients/petsmart.png
 
-headline: PetSmart Rolls Out New eLearning Program With EdgePoint
+headline: PetSmart rolls out new eLearning program with edgepoint
 
 quote: EdgePoint was instrumental in rolling out in-store eLearning for the first time in our history. We quickly developed a co-development working relationship with EdgePoint as an extension of our internal team.
 
@@ -17,9 +17,9 @@ stats:
   approach: Co-Development, Custom Development
 
 wins:
-- Rapidly developed 50 hours of interactive eLearning modules covering 30 topics
-- Realized a significant increase in productivity and customer satisfaction metrics
-- Saved a significant amount in travel costs related to training 
+  - Rapidly developed 50 hours of interactive eLearning modules covering 30 topics
+  - Realized a significant increase in productivity and customer satisfaction metrics
+  - Saved a significant amount in travel costs related to training 
 ---
 
 ## Background
