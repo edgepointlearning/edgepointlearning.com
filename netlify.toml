@@ -4,7 +4,7 @@
   command = "npm run build"
 
 [context.branch-deploy]
-  command = "npm run build && cp _headers /_dist/_headers"
+  command = "npm run build && cp _headers _dist/_headers"
 
 # POST BUILD OPTIMIZATIONS
 [build.processing]
