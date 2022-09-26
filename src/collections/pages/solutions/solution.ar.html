@@ -9,6 +9,8 @@ hero:
   headline: Augmented reality (AR)
   tagline: Let's explore the new workplace
 
+formIntro: "Drive business results and maintain your competitive edge by leveraging the latest learning technologies. Start exploring potential AR applications for your workforce today."
+
 explore:
   - title: Your guide to augmented reality in corporate training
     image: /blog/2019/2019-04-03-future-of-augmented-reality-hero.jpg
@@ -41,71 +43,4 @@ explore:
     <p>New technologies are fun to explore, but we know they must be actually useful and intuitive if they're to meet your company's needs. Our AR tools operate from a single, easy-to-use mobile app that works for back office and frontline employees.</p>
   </article>
   {% vimeo "483271986", "mt-16 mx-auto px-4 md:px-0 max-w-sm aspect-[320/692]" %}
-</div>
-
-
-
-<div class="relative">
-  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
-  {% svg "waves--wave-8", "wave-bot fill-slate-400" %}
-
-
-  <article class="
-      pt-36 pb-24
-      mx-auto px-4 xl:px-0
-      prose prose-sm sm:prose-base lg:prose-lg
-    ">
-    <h2 class="font-serif font-normal text-white">Drive business results and maintain your competitive edge by leveraging the latest learning technologies. Start exploring potential AR applications for your workforce today.</h2>
-  </article>
-
-  <div class="
-      relative
-      max-w-2xl 
-      mx-2 sm:mx-auto
-      px-4 sm:px-8 py-8
-      grid grid-cols-1 gap-y-6
-      bg-white rounded shadow-lg
-      scroll-mt-14" id="contact"
-    >
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
-    {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
-
-
-
-<div class="bg-slate-400">
-  <div class="wrapper relative py-16">
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
-
-    <div class="grid grid-cols-3 gap-12 mt-8">
-      {%- for item in explore -%}
-
-        <a aria-label="{{item.title}}" href="{{item.link}}" class="
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
-          max-w-md mx-auto 
-          bg-slate-200 rounded-lg overflow-hidden 
-          transition group hover:shadow-lg hover:-translate-y-2
-          ">
-
-          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
-          
-          <h3 class="
-            px-4 pt-2
-            text-base
-            font-medium text-epl 
-            decoration-1 underline-offset-2 group-hover:underline 
-          ">{{item.title}}</h3>
-          
-          <p class="
-            px-4 pb-4 
-            text-sm leading-relaxed
-          ">{{item.text}}</p>
-          
-        </a>
-
-      {%- endfor -%}
-    </div>
-
-  </div>
 </div>

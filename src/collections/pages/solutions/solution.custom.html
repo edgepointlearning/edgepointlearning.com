@@ -9,6 +9,8 @@ hero:
   headline: Custom<br> employee training
   tagline: We craft killer learning experiences
 
+formIntro: "We're ready for a better employee training experience, and your employees are too. Get in touch today to learn how we can help."
+
 explore:
   - title: Top 10 types of employee training methods
     image: blog/2017/2017-04-27-top-10-types-of-employee-training.jpg
@@ -64,68 +66,3 @@ explore:
   </article>
 </div>
 
-
-
-<div class="relative">
-  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
-  {% svg "waves--wave-2", "wave-bot fill-slate-400" %}
-
-  <article class="
-      pt-32 pb-24
-      mx-auto px-4 xl:px-0
-      prose prose-sm sm:prose-base lg:prose-lg
-    ">
-    <h2 class="font-serif font-normal text-white">We're ready for a better employee training experience, and your employees are too. Get in touch today to learn how we can help.</h2>
-  </article>
-
-  <div class="
-      relative
-      max-w-2xl 
-      mx-2 sm:mx-auto
-      px-4 sm:px-8 py-8
-      grid grid-cols-1 gap-y-6
-      bg-white rounded shadow-lg
-      scroll-mt-14" id="contact"
-    >
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
-    {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
-
-
-
-<div class="bg-slate-400 py-16">
-  <div class="wrapper">
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
-
-    <div class="grid grid-cols-3 gap-12 mt-8">
-      {%- for item in explore -%}
-
-        <a aria-label="{{item.title}}" href="{{item.link}}" class="
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
-          max-w-md mx-auto 
-          bg-slate-200 rounded-lg overflow-hidden 
-          transition group hover:shadow-lg hover:-translate-y-2
-          ">
-
-          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
-          
-          <h3 class="
-            px-4 pt-2
-            text-base
-            font-medium text-epl 
-            decoration-1 underline-offset-2 group-hover:underline 
-          ">{{item.title}}</h3>
-          
-          <p class="
-            px-4 pb-4 
-            text-sm leading-relaxed
-          ">{{item.text}}</p>
-          
-        </a>
-
-      {%- endfor -%}
-    </div>
-
-  </div>
-</div>

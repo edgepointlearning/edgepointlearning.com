@@ -1,4 +1,5 @@
 {
+  "layout": "layouts/solution.njk",
   "hero": {
     "cta": [
       {
