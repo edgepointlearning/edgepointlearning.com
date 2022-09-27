@@ -1,7 +1,4 @@
 {
-  "browserslist": [
-    "defaults"
-  ],
   "scripts": {
     "netlify": "netlify",
     "clean": "cross-env rimraf _dist & clear",
@@ -23,6 +20,7 @@
     "autoprefixer": "^10.4.2",
     "clipboard": "^2.0.11",
     "cross-env": "^7.0.3",
+    "cssnano": "^5.1.13",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "m": "^1.7.0",
@@ -36,5 +34,8 @@
     "rimraf": "^3.0.2",
     "sharer.js": "^0.5.1",
     "tailwindcss": "^3.0.22"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
