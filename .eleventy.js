@@ -51,7 +51,7 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   let url = `./src/assets/images/${src}`;
   let options = {
     widths: [660, 1280],
-    formats: ["svg", "avif", "webp", "jpeg"],
+    formats: ["webp", "jpeg"], //formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
   };
