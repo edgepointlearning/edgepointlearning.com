@@ -34,11 +34,5 @@
     "desc": "Deliver training and performance support with learning-on-location tools",
     "href": "/mobile/",
     "icon": "iphone-color.svg"
-  },
-  {
-    "name": "Augmented reality (AR)",
-    "desc": "Explore workplace AR tools like object recognition and 3D training",
-    "href": "/augmented-reality/",
-    "icon": "virtual_reality-color.svg"
   }
 ] 

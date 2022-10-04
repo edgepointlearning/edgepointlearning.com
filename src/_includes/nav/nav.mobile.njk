@@ -16,7 +16,7 @@
         ">
         <ul class="grid grid-cols-2 gap-x-12 gap-y-8 pl-5 pt-4">
           {% for item in navigation %}
-            <li class="text-epl text-sm font-semibold uppercase whitespace-nowrap {{item.clss}}"><a href="{{item.link}}">{{item.name}}</a></li>
+            <li class="text-epl text-sm font-semibold whitespace-nowrap {{item.clss}} hover:text-black hover:underline"><a href="{{item.link}}">{{item.name}}</a></li>
           {% endfor %}
         </ul>
       </nav>
