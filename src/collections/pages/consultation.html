@@ -19,14 +19,14 @@ ourDemos:
   link: /demo/lifting-basic/
   image: /demos/lifting-1-basic.jpg
   text: Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment.
-  styleCard: 'bg-rose-100 hover:outline-rose-300'
-  styleText: 'text-rose-700/75'
+  styleCard: 'bg-pink-100 hover:outline-pink-300'
+  styleText: 'text-pink-700/75'
 - title: Pro
   link: /demo/lifting-pro/
   image: /demos/lifting-2-pro-b.jpg
   text: We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more.
-  styleCard: 'bg-amber-100 hover:outline-amber-300'
-  styleText: 'text-amber-700/75'
+  styleCard: 'bg-emerald-100 hover:outline-emerald-300'
+  styleText: 'text-emerald-700/75'
   styleImage: 'object-top'
 - title: Premium
   link: /demo/lifting-premium/
@@ -59,7 +59,7 @@ pinpoint:
           max-w-md mx-auto 
           grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start
           rounded-lg overflow-hidden 
-          outline outline-1 outline-transparent
+          outline outline-2 outline-transparent
           group transition hover:shadow-lg hover:-translate-y-2 {{ item.styleCard }}">
           {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.styleImage %}
           {% picture item.image, item.title, pictureClass, "400px" %}
