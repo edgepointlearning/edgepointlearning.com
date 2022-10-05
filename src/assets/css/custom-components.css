@@ -7,13 +7,28 @@
     text-epl fill-epl hover:text-black hover:fill-black
     underline underline-offset-2 decoration-1 decoration-transparent hover:decoration-black
 }
+
+
+
 .wrapper {
   @apply
-    w-full
-    max-w-5xl
-    mx-auto 
-    px-4 xl:px-0
+    mx-auto px-4 xl:px-0
+    w-full max-w-5xl
 }
+
+
+
+.epl-prose-scale {
+  @apply
+    prose prose-sm sm:prose-base lg:prose-lg
+}
+.epl-prose-style {
+  @apply
+    prose-slate prose-a:text-epl prose-img:rounded-xl
+}
+
+
+
 .wave-top {
   @apply 
     absolute
@@ -26,6 +41,9 @@
     w-full h-full 
     -bottom-px
 }
+
+
+
 .sharer-button {
   @apply
     flex flex-col place-items-center gap-1
