@@ -114,12 +114,13 @@ ourDemos:
   </div>
 </div>
 
-<div class="relative pt-16 pb-24">
 
+
+<div class="relative pt-16 pb-24">
   {% svg "waves--wave-4", "wave-top -z-10 -scale-y-100 -scale-x-100 fill-slate-100" %}
+  {% svg "waves--wave-2", "wave-bot -z-10 fill-slate-400" %}
 
   <div class="wrapper relative">
-
     <h2 class="mb-4 text-2xl font-bold sm:text-4xl text-white">EdgePoint Learning solutions</h2>
 
     <div class="flex flex-wrap justify-center gap-8 mt-16 wrapper">
@@ -136,6 +137,36 @@ ourDemos:
       {%- endfor -%}
     </div>
 
+  </div>
+</div>
+
+
+
+<div class="bg-slate-400 pb-16">
+  
+  <div class="wrapper prose prose-sm sm:prose-base lg:prose-lg prose-slate">
+    <h2 id="case-studies">Case Studies</h2>
+  </div>
+
+  <div class="relative wrapper grid grid-cols-3 gap-12 mt-6">
+    {%- for post in collections.story -%}
+      <a href="{{ post.url }}"
+        aria-label="{{params.item.title}}"
+        class="
+          col-span-3 md:col-span-1 
+          max-w-lg mx-auto p-4 
+          bg-slate-300 
+          transition hover:shadow-lg hover:-translate-y-1
+          rounded-lg
+          grid gap-2 content-start group
+        ">
+        <div class="aspect-video rounded-lg bg-white grid place-content-center mb-2">
+          {% picture post.data.icon, post.data.title, "w-[80%] h-auto max-w-sm mx-auto"%}
+        </div>
+        <h3 class="font-bold text-xl group-hover:underline text-slate-700">{{ post.data.client }}</h3>
+        <p class="text-slate-800 text-sm leading-relaxed">{{ post.data.meta }}</p>
+      </a>
+    {%- endfor -%}
   </div>
 
 </div>

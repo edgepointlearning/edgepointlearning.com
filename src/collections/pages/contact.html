@@ -3,6 +3,8 @@ title: Contact
 permalink: /contact/
 meta: Let's talk about your next employee training project. Contact EdgePoint today at (480) 219-0052 to learn more about our learning solutions.
 
+layout: layouts/01.nav.njk
+
 hero:
   video: heroes/pattern_6_med.mp4
   videoStyles: 'blur-sm'
@@ -14,46 +16,58 @@ hero:
   - name: View demos
     url: /form/demo/
 ---
-
-<article class="bg-gradient-to-b from-white to-slate-100 px-4">
-  <p class="mx-auto pt-12 pb-16 prose prose-sm sm:prose-base lg:prose-lg">We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
-</article>
-
 <!-- CONTACT FORM -->
-<article class="relative">
-  {% svg "waves--wave-7", "wave-top -z-10 fill-slate-100 -scale-y-100" %}
-  {% svg "waves--wave-8", "wave-bot -z-10 fill-white -scale-x-100" %}
+<div class="relative">
+  {% svg "waves--wave-8", "wave-bot -z-10 fill-slate-300 -scale-x-100" %}
 
-  <div class="relative max-w-2xl px-4 py-8 mx-auto bg-white rounded drop-shadow-xl">
-    <h2 class="pb-8 text-2xl font-bold sm:text-4xl">Let's talk</h2>
+  {% picture "misc/business-cat.svg", "business-cat", "relative w-full max-w-lg h-auto mx-auto mt-20 z-10" %}
+
+  <div class="
+    relative
+    max-w-2xl 
+    -mt-16
+    mx-2 sm:mx-auto
+    px-4 sm:px-8 py-8
+    grid grid-cols-1 gap-y-6
+    bg-white rounded shadow-lg">
+    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Get in touch</h2>
     {% include 'forms/2022contactus.1054.html' %}  
   </div>
-</article>
+</div>
 
-<div class="bg-white px-4">
 
-  <article class="prose mx-auto pt-24">
-    <h2 class="text-2xl font-bold sm:text-4xl">Follow us on social</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
-      {%- for link in socials -%}
-        <div class="relative grid grid-cols-1 place-items-center justify-center group mx-auto rounded-xl aspect-square p-3 transition hover:shadow-md">
-          <a aria-label="{{ link.name }}" href="{{ link.href }}">
-            {% svg link.icon, "aspect-square w-16 transition origin-center group-hover:scale-125" %}
-          </a>
-          <a class="z-10 text-center" href="{{ link.href }}"><h3 class="text-sm font-semibold mt-2">{{ link.name }}</h3></a>
-        </div>    
-      {%- endfor -%}
-    </div>  
-  </article> 
 
-  <article class="prose mx-auto py-12">
-    <h2 class="text-2xl font-bold sm:text-4xl">Send us a postcard</h2>
-    <p class="prose-sm sm:prose-base lg:prose-lg">
-      <span class="font-bold">EdgePoint Learning</span><br>
+<div class="bg-gradient-to-b from-slate-300 via-white to-white py-16">
+  <article class="          
+    mx-auto px-4 xl:px-0
+    prose prose-sm sm:prose-base lg:prose-lg
+    prose-slate prose-a:text-epl">
+
+    <h1>{{ hero.headline | safe }}</h1>
+    <h2>{{ hero.tagline | safe }}</h2>
+    <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
+
+
+
+    <h2>Follow us on social</h2>
+    {%- for link in socials -%}
+      <a aria-label="{{ link.name }}" href="{{ link.href }}" class="
+        flex w-min rounded-lg
+        mb-4 last:mb-0 p-4
+        hover:text-black hover:bg-white hover:shadow-lg">
+        {% svg link.icon, "aspect-square w-8 mr-4" %} {{ link.name }}
+      </a>
+    {%- endfor -%}
+
+
+
+    <h2>Send us a postcard</h2>
+    <p>
+      <strong>EdgePoint Learning</strong><br>
       4340 E. Indian School Rd.<br>
       #21-554<br>
       Phoenix, AZ 85018
     </p>
-  </article>
 
+  </article>
 </div>
