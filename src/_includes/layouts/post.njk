@@ -8,56 +8,47 @@ layout: 'layouts/01.nav.njk'
   {% set author = authors[author] %}
 {% endif %}
 
+<article>
 
-{# image #}
-<section class="bg-slate-400">
-  {% picture image, title, "mx-auto w-full max-w-[1440px] max-h-[60vh] aspect-video object-contain", "100vw", "eager", "sync" %}
-</section>
-
-
-
-<main class="py-16">
-  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+  {# image #}
+  <section class="bg-slate-400">
+    {% picture image, title, "mx-auto w-full max-w-[1440px] max-h-[60vh] aspect-video object-contain", "100vw", "eager", "sync" %}
+  </section>
 
 
-    {# header #}
-    <header class="not-prose">
-      <h1 class="sm:text-4xl font-serif text-2xl font-semibold leading-tight">{{ title | safe }}</h1>
-      <p class="mt-8 text-slate-600 font-bold text-center uppercase">{{ author.name }}</p>
-      <p class="text-slate-500 text-sm text-center">{{ content | emojiReadTime }}</p>
+
+  <section class="epl-prose-scale epl-prose-style epl-prose-margin font-serif">
+    <header class="pt-20 pb-12">
+      <h1 class="my-0 mb-12 text-xl xs:text-2xl sm:text-4xl font-serif font-semibold !leading-snug">{{ title | safe }}</h1>
+      <p class="not-prose my-0 text-center text-base font-sans font-bold uppercase text-slate-600">{{ author.name }}</p>
+      <p class="not-prose my-0 text-center text-sm   font-sans text-slate-500">{{ content | emojiReadTime }}</p>
     </header>
+    {{ content | safe }}
+  </section>
 
 
 
-    {# content #}
-    <section class="mt-16 font-serif">
-      {{ content | safe }}
-    </section>
+  {# sharer #}
+  <aside class="mt-16 text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
+    <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
+    <div class="bg-slate-200 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
+      {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
+    </div>
+  </aside>
 
 
 
-    {# sharer #}
-    <aside class="mt-16 not-prose text-slate-600 max-w-min whitespace-nowrap mx-auto text-center">
-      <p class="text-slate-500 mb-2 text-sm">Share this article:</p>
-      <div class="bg-slate-200 flex items-end justify-center gap-4 p-4 text-xs rounded-lg">
-        {{ component('sharer', { title: title, page: page, baseURL: metadata.url }) }}
-      </div>
+  {# author #}
+  {% if author.image %}
+    <aside class="guestauthor mt-16 bg-blue-100 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center text-sm">
+      {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36 ring-blue-400 ring-4", "144px" %}
+      <p class="mt-6 text-lg font-bold text-slate-600 uppercase">{{author.name}}</p>
+      <div class="mb-6 text-base font-light text-slate-600">{{author.title | markdownFilter | safe}}</div>
+      <div class="grid gap-2">{{author.bio | markdownFilter | safe}}</div>
     </aside>
+  {% endif %}
 
-
-
-    {# author #}
-    {% if author.image %}
-      <aside class="guestauthor mt-16 bg-blue-100 max-w-md rounded-xl p-6 flex flex-col mx-auto place-items-center not-prose font-sans text-sm">
-        {% picture author.image, author.name, "aspect-square rounded-full object-cover w-36 ring-blue-400 ring-4", "144px" %}
-        <p class="mt-6 text-lg font-bold text-slate-600 uppercase">{{author.name}}</p>
-        <div class="mb-6 text-base font-light text-slate-600">{{author.title | markdownFilter | safe}}</div>
-        <div class="grid gap-2">{{author.bio | markdownFilter | safe}}</div>
-      </aside>
-    {% endif %}
-
-  </article>
-</main>
+</article>
 
 
 
