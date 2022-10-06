@@ -26,7 +26,10 @@
   @apply
     prose-slate prose-a:text-epl prose-img:rounded-xl
 }
-
+.epl-prose-margin {
+  @apply
+    mx-auto px-4 sm:px-0
+}
 
 
 .wave-top {

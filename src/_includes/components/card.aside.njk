@@ -1,0 +1,19 @@
+<a aria-label="{{params.item.title}}" href="{{params.item.link}}" class="
+  relative
+  mx-auto max-w-sm
+  col-span-3 md:col-span-1
+  grid grid-cols-1 gap-y-0 content-start
+  bg-slate-100 overflow-hidden rounded-lg shadow-lg
+  group transition hover:bg-white hover:-translate-y-2">
+  {% picture params.item.image, params.item.title, "object-cover aspect-video rounded-t-lg", "400px" %}
+  <h3 class="
+    px-4 pt-3
+    text-xl md:text-base lg:text-lg
+    leading-tight md:leading-tight lg:leading-tight
+    font-medium text-epl border-t-4 border-blue-500
+    transition group-hover:text-black group-hover:border-epl-dark ">
+    {{params.item.title}}
+  </h3>
+  <p class="pt-0 p-4 text-sm">{{params.item.text}}</p>
+  
+</a>

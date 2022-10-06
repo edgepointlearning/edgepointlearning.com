@@ -7,8 +7,9 @@ image: about/about-hero.jpg
 imageStyles: 'object-right'
 
 hero:
-  video: heroes/flow_8_high.mp4
   headline: Meet the<br> EdgePoint team
+  video: heroes/shape_14_high.mp4
+  videoStyles: 'blur-2xl'
   cta:
   - name: Our solutions
     url: /solutions/
@@ -51,15 +52,9 @@ team:
 <!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
 {%- from "system/component.njk" import component -%}
 
-
-
-<div id="what-we-do" class="bg-white py-12 scroll-mt-8 ">
-  <div class="
-    mx-auto px-4 xl:px-0
-    prose
-    prose-sm sm:prose-base lg:prose-lg
-    prose-slate prose-a:text-epl prose-img:rounded-xl">
-    <h2>Our approach to learning experiences</h2>
+<article id="what-we-do" class="bg-white py-8 scroll-mt-8">
+  <div class="epl-prose-scale epl-prose-style epl-prose-margin">
+    <h2 class="mt-0">Our approach to learning experiences</h2>
     <p>At EdgePoint, we specialize in creating killer user experiences for learners. Our learning programs don't just meet a list of basic learning objectives. Our experts examine every point of contact between your employees and their learning opportunities. We ensure there's value at every interaction, with rich, contextual, and engaging information for them to access on-demand and in the flow of work.</p>
     {% picture "blog/2019/2019-01-16-get-employees-excited-about-training.jpg", "Our approach to learning user experiences" %}
     <h3>People-centered</h3>
@@ -70,103 +65,109 @@ team:
     <p>Innovative design practices help us stand apart from the look-and-feel of traditional training. And, our focus on people means we leverage the newest learning technologies to meet them exactly where they are. </p>
     {% picture "blog/2019/2019-02-20-ergonomics-training.jpg", "Built for your workforce" %}
   </div>
-</div>
+</article>
 
 
 
-<div>
-  <p class="mx-auto px-4 xl:px-0
+{# quote #}
+<article>
+  <p class="
     py-16 lg:py-28
-    font-serif text-white text-center
-    text-2xl sm:text-3xl lg:text-5xl max-w-[29ch]">
+    max-w-[29ch] mx-auto
+    px-4 xl:px-0
+    text-2xl sm:text-3xl lg:text-5xl
+    font-serif text-white text-center">
     We create learning experiences that people actually <span class="italic text-yellow-200">enjoy</span> using.
   </p>
-</div>
+</article>
 
 
 
-<aside class="relative bg-white">
-  {% svg "waves--wave-1", "wave-bot fill-slate-100" %}
-  <div class="
-    pt-16 mb-8
-    mx-auto px-4 xl:px-0
-    prose prose-sm sm:prose-base lg:prose-lg">
-    <h2 class="text-epl">Explore</h2>
-  </div>
-  <div class="wrapper relative grid grid-cols-3 gap-12">
-    {%- for item in explore -%}
-      {{ component('card.a', { item: item }) }}
-    {%- endfor -%}
-  </div>
-</aside>
+<section class="bg-white py-16 px-4 xl:px-0">
+  {# explore #}
+  <aside class="wrapper bg-blue-200 rounded-xl p-4">
+    <header class="epl-prose-scale epl-prose-style">
+      <h2 class="mt-0 text-epl">Explore</h2>
+    </header>
+    <div class="grid grid-cols-3 gap-12 mb-4">
+      {%- for item in explore -%}
+        {{ component('card.aside', { item: item }) }}
+      {%- endfor -%}
+    </div>
+  </aside>
 
-
-
-<div class="bg-gradient-to-b from-slate-100 via-white to-white py-16">
-  <div class="
-    mx-auto px-4 xl:px-0
-    prose
-    prose-sm sm:prose-base lg:prose-lg
-    prose-slate prose-a:text-epl prose-img:rounded-xl">
-    <h3>Client-focused</h3>
+  {# client-focused #}
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+    <h2>Client-focused</h2>
     <p>It takes a thoughtful, collaborative approach between our team and yours to create engaging and successful learning experiences. Whether you need to develop an entire training or certification program from scratch, or just need an extension of your team to help complete a project or temporarily expand your development capacity without adding headcount, EdgePoint is here to help.</p>
     <p>For every project, we communicate often and honestly, making sure you know where we're at every step of the way. We also use the latest learning and delivery technologies to get training to your employees right in the flow of work. Finally, we rely on our world-class development process that ensures we complete your projects on time and on budget.</p>
     {% picture "blog/2019/2019-12-11-employee-engagement-research.jpg", "Up for a challenge" %}
     <h3>Always up for a challenge </h3>
     <p>Providing custom solutions is what we do. As a boutique, customer service-centric organization, we are positioned to be more flexible and innovative than larger companies. Whether it’s a large-scale training program you need to design, build, and launch ASAP or an upgrade to your existing courses to be more engaging and relevant to your learners; we have a large collection of strategies, tactics, tools, and technologies to work from.</p>
     <p>Our team has built entire new technology platforms in-house, like our mobile precision microlearning platform, <a href="https://www.pinpointworkforce.com/">PinPoint</a>. We design and develop training with the latest learning tools, like augmented reality, microlearning, and location-based performance support. We employ technologies like mobile training and performance support to meet employees in the flow of work.</p>
-  </div>
-</div>
+  </article>
+</section>
 
 
 
-<div>
-  <p class="mx-auto px-4 xl:px-0
+{# quote #}
+<article>
+  <p class="
     py-16 lg:py-28
-    font-serif text-white text-center
-    text-2xl sm:text-3xl lg:text-5xl max-w-[29ch]">
+    max-w-[29ch] mx-auto
+    px-4 xl:px-0
+    text-2xl sm:text-3xl lg:text-5xl
+    font-serif text-white text-center">
     We’re ready to grow with you and we’re <span class="italic text-rose-200">always</span> up for a challenge.</p>
-</div>
+  </p>
+</article>
 
 
 
-<div id="our-team" class="bg-white py-16">
-
-  <div class="
-    mx-auto px-4 xl:px-0
-    prose
-    prose-sm sm:prose-base lg:prose-lg
-    prose-slate prose-a:text-epl prose-img:rounded-xl">
-    {% picture "about/about-fullsize.jpg", "The EdgePoint Learning team", "w-full mx-auto" %}
+{# Meet the team #}
+<section class="bg-gradient-to-b from-white to-slate-200 py-16">
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+    {% picture "about/about-fullsize.jpg", "The EdgePoint Learning team", "w-full mx-auto mt-0" %}
     <h2>Meet the EdgePoint Learning team</h2>
     <p>Headquartered in Phoenix, Arizona, our eLearning professionals have an average of 15+ years of experience creating learning experiences that employees love.</p>
     <p>When you work with us, you’re collaborating with an expert lineup of learning technology developers, instructional designers, courseware developers, graphic designers, project managers, voiceover talent, video producers, and more. We come from a variety of backgrounds, but our love of learning theory and technology unites us in building killer learning experiences for today's employees.</p>
     <h3>The faces behind the screen</h3>
-  </div>
 
-  <div class="wrapper grid grid-cols-3 gap-12 mt-6">
     {%- for person in team -%}
-      <div class="bg-orange-100 rounded-xl p-4 col-span-3 md:col-span-1 max-w-xs mx-auto">
-        {% picture person.image, person.name, "rounded-full aspect-square w-[60%] mx-auto mt-4" %}
-        <h4 class="mt-6 text-2xl font-bold">{{person.name}}</h4>
-        <p class="my-3 text-lg leading-none font-light">{{person.title}}</p>
-        <p class="text-sm leading-relaxed">{{person.bio}}</p>
-      </div>
+      <section class="
+        w-full first-letter:mx-auto
+        mb-8 last:mb-0
+        grid grid-cols-4 place-items-center
+        not-prose bg-white rounded-xl p-4">
+        <div class="col-span-full sm:col-span-1">
+          {% picture person.image, person.name, "rounded-full aspect-square mx-auto w-32 sm:w-full" %}
+        </div>
+        <div class="col-span-full sm:col-span-3 mt-4 sm:mt-0 sm:ml-8">
+          <h4 class="text-xl font-bold">{{person.name}}</h4>
+          <p  class="mt-1 text-lg leading-none font-light">{{person.title}}</p>
+          <p  class="mt-3 text-sm leading-relaxed">{{person.bio}}</p>
+        </div>
+      </section>
     {%- endfor -%}
-  </div>
-
-</div>
-
+  </article>
+</section>
 
 
-<div class="py-16">
-  <div class="
-    max-w-2xl mx-2 sm:mx-auto
+
+{# contact #}
+<section class="relative pt-8 pb-16">
+  {% svg "waves--wave-4", "wave-top fill-slate-200 -scale-y-100 -scale-x-100" %}
+
+  <aside id="contact" class="
+    relative
+    scroll-mt-16
+    max-w-2xl 
+    mx-2 sm:mx-auto
     px-4 sm:px-8 py-8
     grid grid-cols-1 gap-y-6
     bg-white rounded shadow-lg">
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Get in touch</h2>
-    <p class="mb-4 text-sm md:text-base">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>
+    <p class="text-slate-600">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>
     {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
+  </aside>
+</section>
