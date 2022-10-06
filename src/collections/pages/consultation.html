@@ -86,25 +86,30 @@ pinpoint:
     <div class="grid grid-cols-2 gap-8">
       {%- for item in pinpoint -%}
         {% if loop.index == 1 %}
-          <div class="
-            col-span-2   
-            grid grid-cols-1 md:grid-cols-2 gap-4 items-center 
+          <section class="
+            max-w-sm md:max-w-full mx-auto
+            col-span-2
+            grid grid-cols-1 gap-2 content-start items-center
+            md:grid-cols-2
             p-4 bg-slate-300 rounded-lg">
             {% vimeo item.vimeo, "mx-auto rounded-lg aspect-video" %}
-            <div>
-              <h3 class="text-xl font-bold">{{ item.title }}</h3>
-              <p class="mt-2">{{ item.text }}</p>
+            <div class="md:ml-4">
+              <h3 class="mt-1 md:mt-0 text-lg font-bold">{{ item.title }}</h3>
+              <p class="text-sm">{{ item.text }}</p>
             </div>
-          </div>
+          </section>
         {% else %}
-          <div class="
+          <section class="
+            max-w-sm md:max-w-lg mx-auto
             col-span-2 md:col-span-1 
             grid grid-cols-1 gap-2 content-start
             p-4 bg-slate-300 rounded-lg">
             {% vimeo item.vimeo, "mx-auto rounded-lg aspect-square" %}
-            <h3 class="mt-1 text-lg font-bold">{{ item.title }}</h3>
-            <p class="text-sm">{{ item.text }}</p>
-          </div>
+            <div>
+              <h3 class="mt-1 text-lg font-bold">{{ item.title }}</h3>
+              <p class="text-sm">{{ item.text }}</p>
+            </div>
+          </section>
         {% endif %}
       {%- endfor -%}
     </div>

@@ -8,7 +8,7 @@ layout: 'layouts/page.njk'
 
 <div class="relative">
   {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
-  {% svg "waves--wave-8", "wave-bot fill-slate-400" %}
+  {% svg "waves--wave-8", "wave-bot fill-slate-300" %}
 
 
   <article class="
@@ -35,38 +35,16 @@ layout: 'layouts/page.njk'
 
 
 
-<div class="bg-slate-400">
-  <div class="wrapper relative py-16">
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-600">Explore</h2>
-
-    <div class="grid grid-cols-3 gap-12 mt-8">
+<div class="bg-slate-300 pt-24 pb-16">
+  {# explore #}
+  <aside class="wrapper bg-slate-400 rounded-xl p-4">
+    <header class="epl-prose-scale epl-prose-style">
+      <h2 class="mt-0 text-slate-700">Explore</h2>
+    </header>
+    <div class="grid grid-cols-3 gap-12 mb-4">
       {%- for item in explore -%}
-
-        <a aria-label="{{item.title}}" href="{{item.link}}" class="
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start
-          max-w-md mx-auto 
-          bg-slate-200 rounded-lg overflow-hidden 
-          transition group hover:shadow-lg hover:-translate-y-2
-          ">
-
-          {% picture item.image, item.title, "object-cover aspect-[3] md:aspect-video rounded-t-lg", "400px" %}
-          
-          <h3 class="
-            px-4 pt-2
-            text-base
-            font-medium text-epl 
-            decoration-1 underline-offset-2 group-hover:underline 
-          ">{{item.title}}</h3>
-          
-          <p class="
-            px-4 pb-4 
-            text-sm leading-relaxed
-          ">{{item.text}}</p>
-          
-        </a>
-
+        {{ component('card.aside', { item: item }) }}
       {%- endfor -%}
     </div>
-
-  </div>
+  </aside>
 </div>
