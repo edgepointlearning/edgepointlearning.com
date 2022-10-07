@@ -9,6 +9,7 @@ meta: Discover actionable insights into the learning industry, informative piece
 <div class="bg-gradient-to-b from-slate-200 via-white to-white pb-4">
   <div class="wrapper">
     {%- for post in collections.blog | reverse -%}
+
       {% if loop.index0 < 3 %}
 
         <article class="mx-auto pt-12 w-full max-w-2xl">
@@ -28,39 +29,32 @@ meta: Discover actionable insights into the learning industry, informative piece
         </article>
 
       {% endif %}
+
     {%- endfor -%}
   </div>
 </div>
 
 
 
-<div class="bg-gradient-to-b from-epl-dark to-epl-dark/0 pb-4 relative">
+<div class="relative bg-gradient-to-b from-epl-dark to-epl-dark/0 pb-4 grid place-items-center">
   {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
   {% svg "waves--wave-7", "wave-bot fill-white" %}
-
-    <article
-      class="
-        relative wrapper
-        mx-auto w-full max-w-2xl
-        pt-16
-        prose prose-sm sm:prose-base prose-invert
-      ">
-      <h1 style="margin:0" class="font-bold">Employee Training Insights</h1>
-      <h2 class="font-light" style="margin: 0.6em 0;">We love learning!</h2>
+  
+    <article class="relative prose prose-sm sm:prose-base epl-prose-margin prose-invert pt-20">
+      <h1 class="!m-0 font-bold">Employee Training Insights</h1>
+      <h2 class="!mt-3 !mb-6 font-light">We love learning!</h2>
       <p>As learning experts, you can't pry the books and blogs and research articles out of our hands, or podcasts out of our ears. We're always focused on learning and we never stop seeking knowledge about the latest in employee engagement and motivation, and learning theories and technology.</p>
-      <p>In the insights from our eLearning blog, you’ll find informative, actionable, and cutting-edge insights into corporate training and development. What does that mean? Articles that tie into recent mainstream news stories. In-depth looks into the newest trends and technologies that are shaping the future of employee training. And, it also means insights into best practices, employee engagement tips, and more.</p>
-      <p>Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
+      <p>In the insights from our eLearning blog, you’ll find informative, actionable, and cutting-edge insights into corporate training and development. What does that mean? Articles that tie into recent mainstream news stories. In-depth looks into the newest trends and technologies that are shaping the future of employee training. And, it also means insights into best practices, employee engagement tips, and more. Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
     </article>
 
-    <aside 
-      class="
-        relative
-        mx-auto w-full max-w-xl
-        mt-12 p-4
-        bg-white rounded-xl ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300
-      ">
-      <h3 class="text-3xl font-bold text-epl-dark leading-none">Subscribe now!</h3>
-      <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
+    <aside class="
+      relative
+      mt-16
+      max-w-lg mx-4 sm:mx-0
+      flex flex-col justify-center 
+      p-4 overflow-hidden bg-white rounded-xl shadow-lg ring-4 ring-offset-4 ring-epl-light ring-offset-blue-300 ">
+      <h3 class="text-xl sm:text-2xl font-bold text-epl ">Subscribe now for the latest news!</h3>
+      <p class="mt-2 mb-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
       {% include 'forms/newsletter.983.html' %}
     </aside>
 
