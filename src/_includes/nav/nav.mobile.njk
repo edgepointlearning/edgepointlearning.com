@@ -1,24 +1,47 @@
 <div class="md:hidden sticky top-0 z-30 bg-white shadow-md">
   <ul class="place-items-center flex justify-between w-full h-12">
 
-    <li x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)">
+    <li 
+      x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)"
+      >
       <a href="" @click.prevent="showChildren=!showChildren" title="Open Menu">
         <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu--menu", "h-5 aspect-square fill-epl" %}</div>
         <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu--close", "h-5 aspect-square" %}</div>
       </a>
 
       <nav
-        @click.away="showChildren=false" x-show="showChildren"
-        class="
-          absolute left-0 w-full h-screen
-          grid justify-center items-start
-          bg-white
-        ">
-        <ul class="grid grid-cols-2 gap-x-12 gap-y-8 pl-5 pt-4">
-          {% for item in navigation %}
-            <li class="text-epl text-sm font-semibold whitespace-nowrap {{item.clss}} hover:text-black hover:underline"><a href="{{item.link}}">{{item.name}}</a></li>
-          {% endfor %}
-        </ul>
+        x-show="showChildren" @click.away="showChildren=false" class="absolute left-0 w-full h-screen bg-white">
+        <div class="
+          grid grid-cols-2 sm:grid-cols-3 justify-center
+          pt-8 pl-8 pr-4 sm:px-0 gap-y-12 md:gap-x-24 
+          text-sm whitespace-nowrap">
+          
+          <div class="flex flex-col gap-y-4 sm:mx-auto">
+            <a class="font-semibold hover:underline" href="/">Home</a>
+            <a class="hover:underline " href="/blog/">Insights</a>
+            <a class="hover:underline" href="/about/">About Us</a>
+            <a class="hover:underline " href="/form/demo/">Demos</a>
+            <a class="hover:underline " href="/contact/">Contact</a>
+            <a class="hover:underline " href="">{% svg "menu--search", "h-3 aspect-square inline mr-1 align-text-bottom" %}Search</a>
+          </div>
+
+          <div class="flex flex-col gap-y-4 sm:mx-auto">
+            <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
+            {% for link in solutions %}
+              <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
+            {% endfor %}
+          </div>
+
+          <div class="
+            col-span-full sm:col-span-1
+            flex flex-wrap sm:flex-col 
+            gap-y-4 gap-x-12 sm:mx-auto">
+            <p class="font-semibold w-full">Social</p>
+            <a href="https://www.linkedin.com/company/edgepoint-learning" title="EdgePoint Learning on LinkedIn">{% svg "fontawesome--linkedin-in-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} LinkedIn</a>
+            <a href="http://www.facebook.com/edgepointlearningllc" title="EdgePoint Learning on Facebook">{% svg "fontawesome--facebook-f-brands", "h-3 aspect-square inline mr-1 align-baseline" %} Facebook</a>
+            <a href="https://twitter.com/EdgePointLearn" title="EdgePoint Learning on Twitter">{% svg "fontawesome--twitter-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} Twitter</a>
+          </div>
+        </div>
       </nav>
 
     </li>
