@@ -4,15 +4,19 @@ layout: layouts/01.nav.njk
 title: Employee Training Insights + News
 permalink: /blog/
 meta: Discover actionable insights into the learning industry, informative pieces on best practices for training, and more. Subscribe to get the latest in your inbox.
-
 ---
-<div class="bg-gradient-to-b from-slate-200 via-white to-white pb-4">
-  <div class="wrapper">
-    {%- for post in collections.blog | reverse -%}
 
+
+
+<section class="bg-gradient-to-b from-slate-200 via-white to-white pt-16 pb-12">
+
+    {%- for post in collections.blog | reverse -%}
       {% if loop.index0 < 3 %}
 
-        <article class="mx-auto pt-12 w-full max-w-2xl">
+        <article class="
+          mx-auto w-full max-w-2xl 
+          px-4 md:px-0  
+          {{ 'mt-16' if loop.index > 1}}">
           <a aria-label="{{post.data.title}}" href="{{post.url}}"
             class="
               grid grid-cols-3 gap-y-4 gap-x-8
@@ -22,21 +26,20 @@ meta: Discover actionable insights into the learning industry, informative piece
               {% picture post.data.image, post.data.title, "aspect-[21/9] {{ 'md:aspect-square' if loop.index0 > 0 }} object-cover w-full h-full rounded-lg bg-slate-100" %}
             </figure>
             <section class="col-span-full {{ 'md:col-span-full' if loop.index0 == 0 else 'md:col-span-2' }}">
-              <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2" style="orphans: 2;">{{post.data.title}}</h2>
-              <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
+              <h2 class="text-xl {{'md:text-3xl' if loop.index0 == 0 }} font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2">{{post.data.title}}</h2>
+              <p class="mt-2 leading-relaxed {{ 'text-base' if loop.index0 == 0 else 'text-sm' }}">{{ post.data.meta }}</p>
             </section>
           </a>
         </article>
 
       {% endif %}
-
     {%- endfor -%}
-  </div>
-</div>
+
+</section>
 
 
 
-<div class="relative bg-gradient-to-b from-epl-dark to-epl-dark/0 pb-4 grid place-items-center">
+<section class="relative bg-gradient-to-b from-epl-dark to-epl-dark/0 pb-4 grid place-items-center">
   {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
   {% svg "waves--wave-7", "wave-bot fill-white" %}
   
@@ -58,32 +61,30 @@ meta: Discover actionable insights into the learning industry, informative piece
       {% include 'forms/newsletter.983.html' %}
     </aside>
 
-</div>
+</section>
 
 
 
-<div class="bg-white pt-8 pb-16">
-  <div class="wrapper">
+<section class="bg-white pt-8 pb-16">
     {%- for post in collections.blog | reverse -%}
       {% if loop.index0 >= 3 %}
 
-        <article class="mx-auto pt-12 col-span-full max-w-2xl">
+        <article class="mx-auto px-4 md:px-0 max-w-2xl {{ 'mt-16' if loop.index > 1}}">
           <a 
             aria-label="{{post.data.title}}"
             href="{{ post.url }}" 
             title="{{post.title}}" 
             class="group grid grid-cols-4 gap-x-8">
             <figure class="col-span-1 hidden sm:block">
-              {% picture post.data.image, post.data.title, "rounded object-cover aspect-square w-full h-auto bg-slate-100", "144px" %}
+              {% picture post.data.image, post.data.title, "rounded-lg object-cover aspect-square w-full h-auto bg-slate-100", "144px" %}
             </figure>
             <section class="col-span-full sm:col-span-3">
               <h2 class="text-lg font-serif font-medium leading-tight group-hover:underline decoration-1 underline-offset-2">{{post.data.title}}</h2>
-              <p class="mt-4 text-sm font-light leading-relaxed">{{ post.data.meta }}</p>
+              <p class="mt-2 text-sm md:text-base leading-relaxed">{{ post.data.meta }}</p>
             </section>
           </a>
         </article>
 
       {% endif %}
     {%- endfor -%}
-  </div>
-</div>
+</section>

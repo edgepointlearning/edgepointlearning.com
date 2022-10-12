@@ -4,22 +4,24 @@ layout: 'layouts/page.njk'
 {# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%}
 
+
+
 {{ content | safe }}
 
-<div class="relative">
+
+
+<section class="relative">
   {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
   {% svg "waves--wave-8", "wave-bot fill-slate-300" %}
 
-
   <article class="
-      pt-36 pb-24
-      mx-auto px-4 xl:px-0
-      prose prose-sm sm:prose-base lg:prose-lg
-    ">
-    <h2 class="font-serif font-normal text-white">{{ formIntro }}</h2>
+    relative
+    pt-36 pb-24
+    epl-prose-scale epl-prose-margin">
+    <h2 class="!my-0 font-serif font-normal text-white">{{ formIntro }}</h2>
   </article>
 
-  <div class="
+  <aside class="
       relative
       max-w-2xl 
       mx-2 sm:mx-auto
@@ -30,13 +32,14 @@ layout: 'layouts/page.njk'
     >
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
     {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
+  </aside>
+
+</section>
 
 
 
-<div class="bg-slate-300 pt-24 pb-16">
-  {# explore #}
+{# explore #}
+<section class="bg-slate-300 pt-24 pb-16">
   <aside class="wrapper bg-slate-400 rounded-xl p-4">
     <header class="epl-prose-scale epl-prose-style">
       <h2 class="mt-0 text-slate-700">Explore</h2>
@@ -47,4 +50,4 @@ layout: 'layouts/page.njk'
       {%- endfor -%}
     </div>
   </aside>
-</div>
+</section>

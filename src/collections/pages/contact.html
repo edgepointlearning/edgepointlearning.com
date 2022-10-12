@@ -17,12 +17,12 @@ hero:
     url: /form/demo/
 ---
 <!-- CONTACT FORM -->
-<div class="relative">
-  {% svg "waves--wave-8", "wave-bot -z-10 fill-slate-300 -scale-x-100" %}
+<section class="relative">
+  {% svg "waves--wave-8", "wave-bot fill-slate-300 -scale-x-100" %}
 
   {% picture "misc/business-cat.svg", "business-cat", "relative w-full max-w-lg h-auto mx-auto mt-20 z-10" %}
 
-  <div class="
+  <aside class="
     relative
     max-w-2xl 
     -mt-16
@@ -32,22 +32,17 @@ hero:
     bg-white rounded shadow-lg">
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Get in touch</h2>
     {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
+  </aside>
+</section>
 
 
 
-<div class="bg-gradient-to-b from-slate-300 via-white to-white py-16">
-  <article class="          
-    mx-auto px-4 xl:px-0
-    prose prose-sm sm:prose-base lg:prose-lg
-    prose-slate prose-a:text-epl">
+<section class="bg-gradient-to-b from-slate-300 via-white to-white py-16">
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
 
     <h1>{{ hero.headline | safe }}</h1>
     <h2>{{ hero.tagline | safe }}</h2>
     <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
-
-
 
     <h2>Follow us on social</h2>
     {%- for link in socials -%}
@@ -59,8 +54,6 @@ hero:
       </a>
     {%- endfor -%}
 
-
-
     <h2>Send us a postcard</h2>
     <p>
       <strong>EdgePoint Learning</strong><br>
@@ -70,4 +63,4 @@ hero:
     </p>
 
   </article>
-</div>
+</section>
