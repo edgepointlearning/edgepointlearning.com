@@ -1,7 +1,10 @@
 ---
 layout: 'layouts/01.nav.njk'
 ---
-<div class="bg-black/50">
+
+
+{# video #}
+<section class="bg-black/50">
   {% if vimeoID %}
     {% set vimeoCSS = ["mx-auto max-w-5xl", " " , videoAspect] | join %}
     {% vimeo vimeoID, vimeoCSS %}
@@ -17,20 +20,19 @@ layout: 'layouts/01.nav.njk'
     </iframe>
     <script src="https://player.vimeo.com/api/player.js"></script>
   {% endif %}
-</div>
+</section>
 
-<div class="bg-slate-300 pt-20 pb-4">
 
-  <article class="          
-      mx-auto px-4 xl:px-0
-      prose prose-sm sm:prose-base lg:prose-lg
-      prose-slate prose-a:text-epl prose-img:rounded-xl
-    ">
+
+{# content #}
+<section class="bg-slate-300 pt-20 pb-4">
+
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     <h1>{{ title }}</h1>
     <p>{{ content | safe }}</p>
   </article>
 
-  <div class="
+  <aside class="
       my-16
       relative
       max-w-2xl 
@@ -41,6 +43,6 @@ layout: 'layouts/01.nav.njk'
     ">
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
     {% include 'forms/2022contactus.1054.html' %}  
-  </div>
+  </aside>
 
-</div>
+</section>

@@ -6,11 +6,8 @@ meta: "EdgePoint Learning Terms & Conditions"
 sitemap: 
   ignore: true
 ---
-<div class="bg-white py-16">
-  <div class="
-      mx-auto px-4 xl:px-0
-      prose prose-sm prose-slate prose-a:text-epl
-  ">
+<section class="bg-white py-16">
+  <article class="prose prose-sm epl-prose-margin epl-prose-style">
 
 # Terms and Conditions
 
@@ -174,5 +171,5 @@ If you have any questions about these Terms and Conditions, You can contact us:
 
 
 - By visiting this page on our website: [https://www.edgepointlearning.com/contact/](https://www.edgepointlearning.com/contact/)
-  </div>
-</div>
+  </article>
+</section>

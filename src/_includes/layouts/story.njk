@@ -2,7 +2,7 @@
 layout: 'layouts/01.nav.njk'
 ---
 
-<div class="relative pt-24 pb-16">
+<header class="relative pt-24 pb-16">
   {% svg "waves--wave-2", "wave-bot fill-white" %}
 
   <div class="relative wrapper">
@@ -14,7 +14,7 @@ layout: 'layouts/01.nav.njk'
       class="
         inline-block my-16 
         px-5 py-2.5 
-        text-black tracking-wide text-sm
+        text-black tracking-wide text-sm font-semibold
         bg-emerald-400 hover:bg-white
         rounded-full 
         ring-1 ring-white
@@ -50,16 +50,13 @@ layout: 'layouts/01.nav.njk'
     </div>
 
   </div>
-</div>
+</header>
 
 
-<div class="bg-white pt-8 pb-2">
-  <article class="
-      mx-auto px-4 xl:px-0
-      prose
-      prose-sm sm:prose-base lg:prose-lg
-      prose-slate prose-a:text-epl prose-img:rounded-xl
-    ">
+
+{# about edgepoint learning #}
+<section class="bg-gradient-to-b from-white to-slate-200 pt-8 pb-2">
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     {{ content | safe }}
 
     <aside class="border-t">
@@ -68,14 +65,15 @@ layout: 'layouts/01.nav.njk'
     </aside>
 
   </article>
-</div>
+</section>
 
 
 
-<div class="bg-slate-400 py-16 relative">
-  {% svg "waves--wave-5", "wave-top -scale-y-100 fill-white" %}
+{# form #}
+<section class="bg-slate-400 py-16 relative">
+  {% svg "waves--wave-5", "wave-top -scale-y-100 fill-slate-200" %}
 
-  <div class="
+  <aside class="
       relative
       max-w-2xl 
       mx-2 sm:mx-auto
@@ -85,5 +83,5 @@ layout: 'layouts/01.nav.njk'
     ">
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
     {% include 'forms/2022contactus.1054.html' %}  
-  </div>
-</div>
+  </aside>
+</section>

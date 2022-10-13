@@ -107,7 +107,7 @@ Find our full step-by-step guide to [onboarding here](/blog/better-new-hire-onbo
 
 Company culture (think Google’s nap pods and their plethora of freebies from food to massage) can vary wildly. Train for your company’s culture, not just the practical information.
 
-Does your company pride itself on its environmental conservation? Highlight that and show how that works in the workday. Are you known for your ability to work with challenging customers and situations? Demonstrate the problem-solving and customer service skills that are important. One of the most effective ways to communicate this is with a [short video directly from your CEO](/about/#case-studies). 
+Does your company pride itself on its environmental conservation? Highlight that and show how that works in the workday. Are you known for your ability to work with challenging customers and situations? Demonstrate the problem-solving and customer service skills that are important. One of the most effective ways to communicate this is with a [short video directly from your CEO](/form/demo/#case-studies). 
 
 Whatever your company’s culture, sharing it is an important part of any new hire training program. 
 

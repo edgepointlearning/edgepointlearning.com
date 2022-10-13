@@ -64,7 +64,7 @@ Whatever the method, it’s important to recognize (and embrace) the fact that [
 
 Developing your first phase of courses might be as simple as uploading already existing materials, or it might require more time and effort.
 
-You don’t necessarily need to develop eLearning whole cloth, though. Although it is possible to transition to eLearning totally in-house, many companies opt to [co-develop with a partner](/co-development-services/) in employee training. Some companies choose to outsource this entirely. [EdgePoint Learning](/), for example, has worked with a [variety of businesses](/about/#case-studies) both small and large to convert their instructor-led training to eLearning (or develop entirely new trainings).
+You don’t necessarily need to develop eLearning whole cloth, though. Although it is possible to transition to eLearning totally in-house, many companies opt to [co-develop with a partner](/co-development-services/) in employee training. Some companies choose to outsource this entirely. [EdgePoint Learning](/), for example, has worked with a [variety of businesses](/form/demo/#case-studies) both small and large to convert their instructor-led training to eLearning (or develop entirely new trainings).
 
 >Partnering with a professional can make your roll-out seamless and frees up other resources within your company.
 

@@ -5,23 +5,22 @@ layout: layouts/01.nav.njk
 sitemap: 
   ignore: true
 ---
-<div class="relative grid py-24 place-items-center">
-  {% picture "misc/404.shark.svg", "sharks circling a boat", "w-80 h-auto" %}
-  {% svg "waves--wave-2", "wave-bot -z-10 fill-white" %}
-</div>
+<section class="relative grid py-24 place-items-center">
+  {% picture "misc/404.shark.svg", "sharks circling a boat", "relative w-80 h-auto" %}
+  {% svg "waves--wave-2", "wave-bot fill-slate-300" %}
+</section>
 
 
-<div class="bg-white">
-  <div class="relative pb-20 prose wrapper">
-    <p class="text-slate-600">404 Page Not Found</>
+<section class="bg-slate-300 py-16">
+  <div class="epl-prose-scale epl-prose-style epl-prose-margin">
+    <p class="text-red-400 font-bold">404 Page Not Found</>
     <h1>Bad news... you're lost.</h1>
-    <p>If you reached this page from an external site, please let us know so we can fix it!</p>
-    <ul>
-      <li>Email us: <a href="mailto:404@edgepointlearning.com">404@edgepointlearning.com</a></li>
+    <ul class="marker:text-slate-400">
       <li>Go <a href="/">home</a></li>
-      <li><a href="/contact/">Fill out our contact form</a></li>
       <li><a href="/solutions/">Explore our Learning Solutions</a></li>
+      <li><a href="/contact/">Fill out our contact form</a></li>
+      <li>Email us: <a href="mailto:404@edgepointlearning.com">404@edgepointlearning.com</a></li>
     </ul>
   </div>
 
-</div>
+</section>

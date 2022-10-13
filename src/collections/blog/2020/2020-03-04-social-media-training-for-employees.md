@@ -65,7 +65,7 @@ Otherwise, social media policies will be different depending on your workplace, 
 * <strong>Who is responsible for what online:</strong> Who is assigned to post company-sponsored content and who responds? Who covers which accounts? Which types of employees must avoid speaking for the company online? 
 * <strong>The brand message online:</strong> This may be the same message in real life, tailored to the specifics of each social media account, but spelling it out is crucial.
 * <strong>Your policy regarding personal accounts:</strong> Since nearly [75% of people in the U.S. have at least one social media account](https://www.pewresearch.org/internet/fact-sheet/social-media/), what are your policies about what employees can post on their personal accounts regarding the company’s brand?
-* <strong>Company rules for internal social media:</strong> Your social media training should also include [how employees use internal social media channels](/about/#case-studies). These rules can mirror rules for IRL conduct but should be explicit to social media.
+* <strong>Company rules for internal social media:</strong> Your social media training should also include [how employees use internal social media channels](/form/demo/#case-studies). These rules can mirror rules for IRL conduct but should be explicit to social media.
 
 Other social media topics to cover include: 
 
