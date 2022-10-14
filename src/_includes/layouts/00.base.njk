@@ -2,6 +2,22 @@
 <html lang="en">
 
   <head>
+
+    {% if myProject.environment == "production" %}
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CW9ZJZ0H"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-69CW9ZJZ0H');
+      </script>
+      <!-- Keap -->
+      <script async type="text/javascript" src="https://lf225.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=926f8dd3ace37216a9075cd6342f6d38"></script>
+    {% else %}
+    {% endif %}
+
     {# meta #}
     {% ogImage image, metadata.url %}
     {# https://metagendocs.netlify.app/ #}
