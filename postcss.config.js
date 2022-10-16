@@ -3,9 +3,11 @@ module.exports = {
     require('postcss-import'),
     require('tailwindcss/nesting'),
     require('tailwindcss'),
-    require('autoprefixer'),
-    require('cssnano')({
-      preset: 'default',
-    })
+    require('postcss-lightningcss')({
+			browsers: 'defaults',
+			lightningcssOptions: {
+				minify: (process.env.NODE_ENV === "production" ? true : false)
+			},
+		}),
   ]
 }

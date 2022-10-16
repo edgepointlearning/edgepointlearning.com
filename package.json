@@ -1,11 +1,9 @@
 {
   "scripts": {
-    "netlify": "netlify",
-    "clean": "cross-env rimraf _dist & clear",
-    "dev:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
     "dev:eleventy": "npx eleventy --serve --incremental",
-    "build:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
     "build:eleventy": "cross-env MY_ENVIRONMENT=production eleventy",
+    "dev:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
+    "build:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
     "dev": "cross-env run-p dev:*",
     "build": "cross-env NODE_ENV=production run-s build:*"
   },
@@ -17,10 +15,8 @@
     "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
     "alpinejs": "^3.9.1",
-    "autoprefixer": "^10.4.2",
     "clipboard": "^2.0.11",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.1.13",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "m": "^1.7.0",
@@ -31,6 +27,7 @@
     "postcss": "^8.4.6",
     "postcss-cli": "^10.0.0",
     "postcss-import": "^15.0.0",
+    "postcss-lightningcss": "^0.6.0",
     "rimraf": "^3.0.2",
     "sharer.js": "^0.5.1",
     "tailwindcss": "^3.0.22"
