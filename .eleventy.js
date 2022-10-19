@@ -47,10 +47,10 @@ const markdownLib = markdownIt(markdownItOptions)
 
 
 // Image
-function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async") {
+function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", decoding = "async", fetchpriority = "auto") {
   let url = `./src/assets/images/${src}`;
   let options = {
-    widths: [660, 1280],
+    widths: [420, 770, 1280],
     formats: ["webp", "jpeg"], //formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
     outputDir: "./_dist/img/opt/",
@@ -62,12 +62,14 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
     sizes,
     loading,
     decoding,
+    fetchpriority
   };
   let metadata = Image.statsSync(url, options);
   return Image.generateHTML(metadata, imageAttributes, {
     whitespaceMode: "inline",
   });
 }
+//
 // Open Graph Image
 function ogImageShortcode(src, baseUrl) {
   let url = `./src/assets/images/${src}`;
