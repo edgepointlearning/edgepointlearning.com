@@ -50,6 +50,13 @@ force = true
 
 # needlepoint restructuring redirects
 [[redirects]]
+from = "/form/thanks/"
+to = "/thanks/"
+status = 301
+force = false
+
+# needlepoint restructuring redirects
+[[redirects]]
 from = "/custom-elearning-course-development/"
 to = "/custom-employee-training/"
 status = 301
