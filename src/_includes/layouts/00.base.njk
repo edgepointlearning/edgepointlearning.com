@@ -3,22 +3,6 @@
 
   <head>
 
-    {% if myProject.environment == "production" %}
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CW9ZJZ0H"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-69CW9ZJZ0H');
-      </script>
-      {# <!-- Keap --> #}
-      {# https://help.infusionsoft.com/help/embed-tracking-code-into-your-website #}
-      {# <script async type="text/javascript" src="https://lf225.infusionsoft.app/app/webTracking/getTrackingCode"></script> #}
-    {% else %}
-    {% endif %}
-
     {# meta #}
     {% ogImage image, metadata.url %}
     {# https://metagendocs.netlify.app/ #}
@@ -43,6 +27,23 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/css/styles.css" />
+
+    {# analytics #}
+    {% if myProject.environment == "production" %}
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CW9ZJZ0H"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-69CW9ZJZ0H');
+      </script>
+      {# <!-- Keap --> #}
+      {# https://help.infusionsoft.com/help/embed-tracking-code-into-your-website #}
+      {# <script async type="text/javascript" src="https://lf225.infusionsoft.app/app/webTracking/getTrackingCode"></script> #}
+    {% else %}
+    {% endif %}
   </head>
 
   <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
