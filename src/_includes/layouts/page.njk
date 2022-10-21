@@ -7,16 +7,9 @@ layout: 'layouts/01.nav.njk'
 
 
 <header class="relative overflow-hidden w-full">
-
-  {% if hero.video %}
-    {% set videoBg = hero.video | replace("_low","") | replace("_med","") | replace("_high","") | replace(".mp4", ".png") %}
-  {% else %}
-    {% set videoBg = "heroes/epl-waves.jpg" %}
-  {% endif %}
-  {% picture videoBg, title, "absolute -z-50 object-cover w-full h-full scale-125", "100vw", "eager", "sync", "high" %}
-
-  {% set videoCSS = ["absolute -z-40 object-cover w-full h-full", " " , hero.videoStyles] | join %}
-  {% gif hero.video, videoCSS %}
+  
+  {% set videoCSS = ["absolute -z-40 object-cover w-full h-full", " " , hero.style] | join %}
+  {% hero hero.poster, hero.video, videoCSS %}
 
   <div class="absolute w-full h-full bg-black/20 sm:hidden -z-30"></div>
   
