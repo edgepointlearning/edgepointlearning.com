@@ -70,6 +70,36 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
   });
 }
 //
+//
+//
+//
+// Hero video
+function heroShortcode(img, mp4, css) {
+  let options = {
+    widths: [420],
+    formats: ["jpeg"],
+    urlPath: "/img/opt/",
+    outputDir: "./_dist/img/opt/",
+  };
+  let url = `./src/assets/images/${img}`; // image source directory
+  let vid = `/videos/${mp4}`; // video passthrough destination
+
+  Image(url, options);
+  let metadata = Image.statsSync(url, options);
+
+  let data = metadata.jpeg[metadata.jpeg.length - 1];
+
+  return `
+  <video autoplay loop muted playsinline class="${css}" poster="${data.url}">
+    <source src="${vid}" type="video/mp4" />
+    Your browser does not support the video element.
+  </video>
+  `;
+}
+//
+//
+//
+//
 // Open Graph Image
 function ogImageShortcode(src, baseUrl) {
   let url = `./src/assets/images/${src}`;
@@ -119,6 +149,8 @@ module.exports = function(eleventyConfig) {
   // Add Shortcodes
   eleventyConfig.addShortcode("ogImage", ogImageShortcode);
   eleventyConfig.addShortcode("picture", pictureShortcode);
+  eleventyConfig.addShortcode("hero", heroShortcode);
+  
   eleventyConfig.addShortcode("gif", gifShortcode);
   eleventyConfig.addShortcode("vimeo", vimeoShortcode);
 

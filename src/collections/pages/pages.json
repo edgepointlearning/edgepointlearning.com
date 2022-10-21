@@ -5,8 +5,6 @@
   "image": "heroes/og-image.jpg",
 
   "hero": {
-    "video": "heroes/liquid_9_high.mp4",
-
     "wave": "waves--wave-2",
     "waveClasses": "wave-bot fill-white"
   }
