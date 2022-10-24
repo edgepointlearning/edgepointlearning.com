@@ -28,8 +28,8 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/css/styles.css" />
 
-    {# analytics #}
-    {% if myProject.environment == "production" %}
+    {# analytics. see myProject.js #}
+    {% if myProject.environment == "prod" %} 
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CW9ZJZ0H"></script>
       <script>
@@ -43,6 +43,7 @@
       {# https://help.infusionsoft.com/help/embed-tracking-code-into-your-website #}
       {# <script async type="text/javascript" src="https://lf225.infusionsoft.app/app/webTracking/getTrackingCode"></script> #}
     {% else %}
+      <!-- no trackers -->
     {% endif %}
   </head>
 

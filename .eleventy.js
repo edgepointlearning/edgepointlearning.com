@@ -123,6 +123,10 @@ module.exports = function(eleventyConfig) {
   // https://giuliachiola.dev/posts/add-html-classes-to-11ty-markdown-content/
   eleventyConfig.setLibrary('md', markdownLib);
 
+  //conditionally ignore files https://11ty.rocks/posts/ignore-11ty-files-with-environment-variables/
+  if (process.env.ELEVENTY_ENV === "dev") {
+    eleventyConfig.ignores.add("./src/collections/blog/20*/**");
+  }
 
 
   // passthrough behavior
