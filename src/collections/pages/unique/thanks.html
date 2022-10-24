@@ -6,7 +6,7 @@ permalink: /thanks/
 meta: Thanks for getting in touch.
 
 hero:
-  video: heroes/stock/dogs_a_low.mp4
+  video: heroes/dogs_a_low.mp4
   videoStyles: ''
   cta:
   - name: Our Solutions
@@ -27,6 +27,7 @@ sitemap:
   </article>
 
   <div class="relative aspect-square max-w-3xl mx-auto">
+    {# TODO: update to new video code from page template #}
     {% set videoBg = hero.video | replace("_low","") | replace("_med","") | replace("_high","") | replace(".mp4", ".png") %}
     {% picture videoBg, title, "absolute aspect-square object-cover w-full h-full origin-center", "100vw", "eager", "sync" %}
     {% gif hero.video, "relative aspect-square object-cover w-full h-full origin-center" %}
