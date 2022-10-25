@@ -69,10 +69,6 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
     whitespaceMode: "inline",
   });
 }
-//
-//
-//
-//
 // Hero video
 function heroShortcode(img, mp4, css, fetchpriority = "auto") {
   let options = {
@@ -96,10 +92,6 @@ function heroShortcode(img, mp4, css, fetchpriority = "auto") {
   </video>
   `;
 }
-//
-//
-//
-//
 // Open Graph Image
 function ogImageShortcode(src, baseUrl) {
   let url = `./src/assets/images/${src}`;
@@ -136,8 +128,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'src/assets/js' : '/js/'});
   eleventyConfig.addPassthroughCopy({'src/assets/videos' : '/videos/'});
   // passthrough node_modules
-  eleventyConfig.addPassthroughCopy({'./node_modules/@ryangjchandler/alpine-clipboard/dist/' : './js/'});
-  eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.js' : './js/alpine.js'});
+  eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.min.js' : './js/alpine.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
 
