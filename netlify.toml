@@ -8,7 +8,7 @@
 
 # POST BUILD OPTIMIZATIONS
 [build.processing]
-  skip_processing = false
+  skip_processing = true
 [build.processing.css]
   bundle = false
   minify = false # todo: temporary bugfix for https://github.com/tailwindlabs/tailwindcss/discussions/7044
