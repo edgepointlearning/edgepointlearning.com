@@ -9,6 +9,16 @@
 # POST BUILD OPTIMIZATIONS
 [build.processing]
   skip_processing = true
+[build.processing.css]
+  bundle = false
+  minify = false # todo: temporary bugfix for https://github.com/tailwindlabs/tailwindcss/discussions/7044
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = false
 
 
 
@@ -21,26 +31,6 @@
       "_dist/img/og", # Eleventy-Image Disk Cache
       ".cache" # Remote Asset Cache (not used currently)
     ]
-[[plugins]]
-  package = "netlify-plugin-inline-source"
-  # All inputs are optional, so you can omit this section.
-  # Defaults are shown below.
-  # You can also refer to the `inline-source` documentation: https://github.com/popeindustries/inline-source#usage.
-  [plugins.inputs]
-    # Attribute used to parse sources. All tags will be parsed if set to `false`.
-    attribute = "inline"
-
-    # Enable/disable compression of inlined content.
-    compress = true
-
-    # Maintain leading whitespace when `compress` is `false`.
-    pretty = false
-
-    # Disable inlining based on tag, type, and/or format.
-    ignore = []
-
-    # Convert `<img inline src="*.svg" />` to `<img>` and not `<svg>`.
-    svgAsImage = false
 
 
 
