@@ -28,6 +28,7 @@
   [plugins.inputs]
     paths = [
       "_dist/img/opt", # Eleventy-Image Disk Cache
+      "_dist/img/og", # Eleventy-Image Disk Cache
       ".cache" # Remote Asset Cache (not used currently)
     ]
 
