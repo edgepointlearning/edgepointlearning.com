@@ -74,7 +74,7 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
 //
 //
 // Hero video
-function heroShortcode(img, mp4, css) {
+function heroShortcode(img, mp4, css, fetchpriority = "auto") {
   let options = {
     widths: [420],
     formats: ["jpeg"],
@@ -90,7 +90,7 @@ function heroShortcode(img, mp4, css) {
   let data = metadata.jpeg[metadata.jpeg.length - 1];
 
   return `
-  <video autoplay loop muted playsinline class="${css}" poster="${data.url}">
+  <video autoplay loop muted playsinline class="${css}" poster="${data.url}" fetchpriority="${fetchpriority}">
     <source src="${vid}" type="video/mp4" />
     Your browser does not support the video element.
   </video>
