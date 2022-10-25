@@ -76,8 +76,8 @@ pinpoint:
 
 {# pinpoint #}
 <section class="relative bg-slate-200 py-8">
-  {% svg "waves--wave-6", "wave-top fill-white -scale-y-100" %}
-  {% svg "waves--wave-2", "wave-bot fill-white -scale-x-100" %}
+  {% svg "wave-6", "wave-top fill-white -scale-y-100" %}
+  {% svg "wave-2", "wave-bot fill-white -scale-x-100" %}
 
   <article class="wrapper relative">
     <header class="epl-prose-scale epl-prose-style">
@@ -128,13 +128,13 @@ pinpoint:
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
       {%- for link in solutions -%}
-        {% set icon = ["handdrawn--", link.icon] | join | replace(".svg","") %}
         <a aria-label="{{link.name}}" href="{{link.href}}" class="
           max-w-md
           flex items-center 
           p-4 rounded-lg
           group transition hover:-translate-y-1 hover:shadow-lg">
           <figure class="mr-4">
+            {% set icon = link.icon | replace(".svg","") %}
             {% svg icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
           </figure>
           <section class="">
@@ -151,7 +151,7 @@ pinpoint:
 
 {# case studies #}
 <section id="case-studies" class="relative bg-slate-200 pt-8 pb-20 scroll-mt-16">
-  {% svg "waves--wave-6", "wave-top fill-white -scale-y-100" %}
+  {% svg "wave-6", "wave-top fill-white -scale-y-100" %}
   
   <article class="wrapper relative">
     <header class="epl-prose-scale epl-prose-style">
@@ -181,7 +181,7 @@ pinpoint:
 
 {# contact #}
 <section class="relative pb-16">
-  {% svg "waves--wave-2", "wave-top fill-slate-200 -scale-y-100 -scale-x-100" %}
+  {% svg "wave-2", "wave-top fill-slate-200 -scale-y-100 -scale-x-100" %}
 
   <aside id="contact" class="
     relative

@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/01.nav.njk'
 ---
-<!-- BUG: https://github.com/trys/11ty-component-macro/issues/1 -->
+{# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%} 
 
 {% if not author.name %}
@@ -54,7 +54,7 @@ layout: 'layouts/01.nav.njk'
 
 {# subscribe #}
 <section class="relative bg-slate-400 py-16 grid place-items-center">
-  {% svg "waves--wave-4", "wave-top fill-white -scale-y-100 -scale-x-100" %}
+  {% svg "wave-4", "wave-top fill-white -scale-y-100 -scale-x-100" %}
   <aside class="
     relative
     max-w-lg mx-4 sm:mx-0

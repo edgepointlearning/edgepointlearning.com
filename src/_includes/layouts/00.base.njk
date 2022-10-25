@@ -14,12 +14,11 @@
       twitter_handle="EdgePointLearn",
       generator="eleventy"
     %}
-    <!-- end metagen -->
     {# javascript #}
-    <script defer src="/js/alpine.js"></script>
+    <script defer src="/js/alpine.min.js"></script>
     <script defer src="/js/vi-lazyload.js"></script>
-    <script defer src="/js/clipboard.min.js"></script>
     <script defer src="/js/sharer.min.js"></script>
+    <script defer src="/js/clipboard.min.js"></script>
     <script defer src="/js/main.js"></script>
     {# favicons #}
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -30,7 +29,7 @@
 
     {# analytics. see myProject.js #}
     {% if myProject.environment == "prod" %} 
-      <!-- Google tag (gtag.js) -->
+      {# Google tag (gtag.js) #}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CW9ZJZ0H"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
@@ -39,7 +38,7 @@
 
         gtag('config', 'G-69CW9ZJZ0H');
       </script>
-      {# <!-- Keap --> #}
+      {# Keap #}
       {# https://help.infusionsoft.com/help/embed-tracking-code-into-your-website #}
       {# <script async type="text/javascript" src="https://lf225.infusionsoft.app/app/webTracking/getTrackingCode"></script> #}
     {% else %}
@@ -47,7 +46,7 @@
     {% endif %}
   </head>
 
-  <body class="{{bodyClasses}} page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout--{{ layout }}">
+  <body class="{{bodyClasses}} page-{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %} layout-{{ layout }}">
     {% svgsprite %}
     {{ content | safe }}
   </body>
