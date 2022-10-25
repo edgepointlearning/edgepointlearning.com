@@ -5,7 +5,7 @@
     {# epl logo #}
     <li class="flex items-center flex-auto">
       <a href="/" class="" title="Home">
-        {% svg "logo--epl-horizontal", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
+        {% svg "epl-horizontal", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
       </a>
     </li>
 
@@ -13,7 +13,7 @@
 
     {# solutions megamenu #}
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</span>
+      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "expand-down", "h-4 mt-0.5 aspect-square" %}</span>
 
       {# megamenu background #}
       <div
@@ -69,20 +69,9 @@
 
     <li class="flex items-center"><a class="nav-link" href="/about/">About</a></li>
 
-    <li class="flex items-center">
-      <a class="nav-link" href="/form/demo/">
-      {# <a href="/form/demo/" class="
-      rounded-full bg-gradient-to-br from-black to-blue-600 px-4 py-2.5 
-      whitespace-nowrap text-sm font-light text-white 
-      ring-2 ring-transparent ring-offset-2 ring-offset-white
-      transition hover:from-epl-dark hover:to-blue-600 hover:ring-blue-500"> #}
-      Demos
-      </a>
-    </li>
+    <li class="flex items-center"><a class="nav-link" href="/form/demo/">Demos</a></li>
 
     <li class="flex items-center"><a class="nav-link" href="/contact/">Contact</a></li>
-
-    {# <li class="flex items-center -ml-2"><a class="fill-epl hover:fill-black" href="#" title="Search">{% svg "menu--search", "h-5 aspect-square" %}</a></li> #}
 
   </ul>
 </div>

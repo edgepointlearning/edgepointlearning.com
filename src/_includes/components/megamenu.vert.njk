@@ -3,7 +3,7 @@
   <a aria-label="{{ params.link.name }}" class="flex flex-wrap transition place-content-center group" href="{{ params.link.href }}"  @click="showChildren=false">
   
     <div class="z-10 flex w-16">
-      {% set icon = ["handdrawn--", params.link.icon] | join | replace(".svg","") %}
+      {% set icon = params.link.icon | replace(".svg","") %}
       {% svg icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
     </div>
   
