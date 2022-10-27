@@ -4,10 +4,10 @@
     <li 
       x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)"
       >
-      <a href="" @click.prevent="showChildren=!showChildren" title="Open Menu">
+      <span class="cursor-pointer" @click.prevent="showChildren=!showChildren" title="Open Menu">
         <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu", "h-5 aspect-square fill-epl" %}</div>
         <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "close", "h-5 aspect-square" %}</div>
-      </a>
+      </span>
 
       <nav
         x-show="showChildren" @click.away="showChildren=false" class="absolute left-0 w-full h-screen bg-white">
