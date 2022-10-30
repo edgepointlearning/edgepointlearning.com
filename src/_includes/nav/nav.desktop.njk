@@ -5,7 +5,7 @@
     {# epl logo #}
     <li class="flex items-center flex-auto">
       <a href="/" class="" title="Home">
-        {% svg "epl-horizontal", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
+        {% svg "logo--epl-horizontal", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
       </a>
     </li>
 
@@ -13,7 +13,7 @@
 
     {# solutions megamenu #}
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "expand-down", "h-4 mt-0.5 aspect-square" %}</span>
+      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</span>
 
       {# megamenu background #}
       <div
