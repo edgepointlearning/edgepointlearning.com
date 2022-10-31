@@ -19,27 +19,15 @@
     <div class="flex flex-col flex-auto gap-y-3">
       <p class="w-full font-semibold">Social</p>
       <div class="flex gap-x-4">
-        <a 
-          href="https://www.linkedin.com/company/edgepoint-learning" 
-          title="EdgePoint Learning on LinkedIn"
-          class="transition hover:scale-110" 
-          >
-          {% svg "linkedin-in-brands", "h-8 aspect-square" %}
-        </a>
-        <a 
-          href="http://www.facebook.com/edgepointlearningllc" 
-          title="EdgePoint Learning on Facebook"
-          class="transition hover:scale-110"
-          >
-          {% svg "facebook-f-brands", "h-8 aspect-square" %}
+        {% for link in socials %}
+          <a 
+            href="{{ link.href }}" 
+            title="EdgePoint Learning on {{ link.name }}"
+            class="transition hover:scale-110" 
+            >
+            {% svg link.icon, "h-8 aspect-square" %}
           </a>
-        <a
-          href="https://twitter.com/EdgePointLearn" 
-          title="EdgePoint Learning on Twitter"
-          class="transition hover:scale-110"
-          >
-          {% svg "twitter-brands",  "h-8 aspect-square" %}
-        </a>
+        {% endfor %}
       </div>
     </div>
 

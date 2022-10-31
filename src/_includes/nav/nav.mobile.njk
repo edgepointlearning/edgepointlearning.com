@@ -5,8 +5,8 @@
       x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)"
       >
       <span class="cursor-pointer" @click.prevent="showChildren=!showChildren" title="Open Menu">
-        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu", "h-5 aspect-square fill-epl" %}</div>
-        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "close", "h-5 aspect-square" %}</div>
+        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu--menu", "h-5 aspect-square fill-epl" %}</div>
+        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu--close", "h-5 aspect-square" %}</div>
       </span>
 
       <nav
@@ -36,16 +36,16 @@
             flex flex-wrap sm:flex-col 
             gap-y-4 gap-x-12 sm:mx-auto">
             <p class="font-semibold w-full">Social</p>
-            <a href="https://www.linkedin.com/company/edgepoint-learning" title="EdgePoint Learning on LinkedIn">{% svg "linkedin-in-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} LinkedIn</a>
-            <a href="http://www.facebook.com/edgepointlearningllc" title="EdgePoint Learning on Facebook">{% svg "facebook-f-brands", "h-3 aspect-square inline mr-1 align-baseline" %} Facebook</a>
-            <a href="https://twitter.com/EdgePointLearn" title="EdgePoint Learning on Twitter">{% svg "twitter-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} Twitter</a>
+            <a href="https://www.linkedin.com/company/edgepoint-learning" title="EdgePoint Learning on LinkedIn">{% svg "fontawesome--linkedin-in-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} LinkedIn</a>
+            <a href="http://www.facebook.com/edgepointlearningllc" title="EdgePoint Learning on Facebook">{% svg "fontawesome--facebook-f-brands", "h-3 aspect-square inline mr-1 align-baseline" %} Facebook</a>
+            <a href="https://twitter.com/EdgePointLearn" title="EdgePoint Learning on Twitter">{% svg "fontawesome--twitter-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} Twitter</a>
           </div>
         </div>
       </nav>
 
     </li>
 
-    <li><a href="/" title="Home">{% svg "epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
+    <li><a href="/" title="Home">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
     <li class="place-items-center flex justify-center w-12 h-12"></li>
 
   </ul>
