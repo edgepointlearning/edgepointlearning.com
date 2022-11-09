@@ -2,7 +2,9 @@
 <html lang="en">
 
   <head>
-
+    {% if sitemap.ignore %}
+      <meta name="robots" content="noindex, nofollow" />
+    {% endif %}
     {# meta #}
     {% ogImage image, metadata.url %}
     {# https://metagendocs.netlify.app/ #}
