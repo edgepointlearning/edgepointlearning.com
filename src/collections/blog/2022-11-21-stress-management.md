@@ -2,7 +2,7 @@
 title: "Stress Management Help for Employees: 11 Tips for a Better Life"
 permalink: /blog/stress-management/
 image: blog/2022/2022-11-21-stress-management.jpg
-meta:   Stress can shorten lives and erode workplace culture. Stress management training can help. Here are 13 top tips to help employees handle stress. 
+meta:   Stress can shorten lives and erode workplace culture. Stress management training can help. Here are 11 top tips to help employees handle stress. 
 author: Edgepoint Learning
 ---
 
