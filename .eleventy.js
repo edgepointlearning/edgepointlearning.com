@@ -129,6 +129,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'src/assets/videos' : '/videos/'});
   // passthrough node_modules
   eleventyConfig.addPassthroughCopy({'./node_modules/alpinejs/dist/cdn.min.js' : './js/alpine.min.js'});
+  eleventyConfig.addPassthroughCopy({'./node_modules/@justinribeiro/lite-youtube/lite-youtube.js' : './js/lite-youtube.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/sharer.js/sharer.min.js' : './js/sharer.min.js'});
   eleventyConfig.addPassthroughCopy({'./node_modules/clipboard/dist/clipboard.min.js' : './js/clipboard.min.js'});
 

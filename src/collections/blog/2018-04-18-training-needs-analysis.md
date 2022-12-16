@@ -12,6 +12,10 @@ Conducting a training needs analysis is your first step to developing a successf
 
 Most companies recognize the importance of employee training and want to dive right in. While this enthusiasm is great, it skips a crucial step. Conducting a training needs analysis (TNA) is your first step to developing a successful training program. This post covers the major types of analyses, common methodologies, and a training needs analysis example to start from. It's time for better training. Read on to learn more. 
 
+<div class="mt-8">
+  <lite-youtube videotitle="Training Needs Analysis - Because You're One of a Kind" videoid="Kc_bOjz8fTY" posterquality="maxresdefault"></lite-youtube>
+</div>
+
 ## What is a training needs analysis?
 
 A training needs analysis takes a bird’s eye view of your company and its overall goals before drilling down into various types of concrete training that you need. For example, your company may need more robust training or on-demand mobile training because of your employee or risk profile, based on this evaluation.

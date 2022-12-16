@@ -8,25 +8,25 @@ layout: 'layouts/01.nav.njk'
   {% set author = authors[author] %}
 {% endif %}
 
-<article class="bg-white">
+<main class="bg-white">
 
   {# image #}
-  <section class="relative overflow-hidden bg-slate-300">
+  <figure class="relative overflow-hidden bg-slate-300">
     {% set pictureCSS = ["relative mx-auto w-full max-w-5xl max-h-[60vh] aspect-video object-cover ", imageOrigin] | join %}
     {% picture image, title, "absolute top-0 w-full h-full object-cover blur-2xl", "100vw", "eager", "sync", "high" %}
     {% picture image, title, pictureCSS, "100vw", "eager", "sync", "high" %}
-  </section>
+  </figure>
 
 
 
-  <section class="epl-prose-scale epl-prose-style epl-prose-margin font-serif">
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin font-serif">
     <header class="pt-20 pb-12">
       <h1 class="my-0 mb-12 text-xl xs:text-2xl sm:text-4xl font-serif font-semibold !leading-snug">{{ title | safe }}</h1>
       <p class="not-prose my-0 text-center text-base font-sans font-bold uppercase text-slate-600">{{ author.name }}</p>
       <p class="not-prose my-0 text-center text-sm   font-sans text-slate-500">{{ content | emojiReadTime }}</p>
     </header>
     {{ content | safe }}
-  </section>
+  </article>
 
 
 
@@ -50,7 +50,7 @@ layout: 'layouts/01.nav.njk'
     </aside>
   {% endif %}
 
-</article>
+</main>
 
 
 
