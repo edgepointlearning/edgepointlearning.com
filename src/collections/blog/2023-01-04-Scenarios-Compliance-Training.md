@@ -32,6 +32,9 @@ Think of scenarios like a story running through your training—a story you can 
 
 Like any story, scenarios should be planned and structured to maximize their impact. Let's review a few good guidelines to help your scenario stories sizzle.
 
+{% picture "blog/2023/2023-01-04-Scenarios-Compliance-Training01.jpg", "Help a learner master a new skill", "rounded-xl" %}
+
+
 ### 1. Know the ending. 
 Think of your favorite book or movie. It probably has a character who uses a skill they discovered to reach a goal. Maybe the superhero learned to use their powers to protect a city or the wizard uses their magic to save the world. The point is, there was something that had to be done, and all the action—and learning— was aimed at that goal. Scenarios are no different. They should teach something relevant that leads to a satisfying ending to the story. 
 
@@ -53,6 +56,8 @@ Have your character use terms learners would use in their jobs
 Keep dialogue conversational and realistic—talk the way people chat over messaging apps or on virtual meetings in the workplace
 Use real-life problems employees face during their workday
 Base scenarios on trends you spot in the news or on social media to keep things fresh and current
+
+{% picture "blog/2023/2023-01-04-Scenarios-Compliance-Training02.jpg", "Give learners a feeling of hope that a problem can be solved or an obstacle can be overcome", "rounded-xl" %}
 
 ### 3. Make it memorable. 
 People remember the feelings events stir up in them. They root for characters they connect with and who make them feel something. Training is more memorable and impactful when it prompts emotion. If you're looking for ways to get learners more involved, give them something to relate to. Try these suggestions:
