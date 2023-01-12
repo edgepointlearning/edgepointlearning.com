@@ -3,29 +3,27 @@ const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
-
+const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function (eleventyConfig) {
 
-  //conditionally ignore files
+  //conditionally ignore files for faster dev builds
   if (process.env.NODE_ENV === "development") {
     eleventyConfig.ignores.add("./src/collections/blog/20*/**");
   }
-
 
   // passthrough assets & custom scripts
   eleventyConfig.addPassthroughCopy({ 'src/assets/static': '/' });
   eleventyConfig.addPassthroughCopy({ 'src/assets/js': '/js/' });
   eleventyConfig.addPassthroughCopy({ 'src/assets/videos': '/videos/' });
-  // passthrough node_modules
+  // passthrough node_modules TODO: bundle with esbuild!
   eleventyConfig.addPassthroughCopy({ './node_modules/alpinejs/dist/cdn.min.js': './js/alpine.min.js' });
   eleventyConfig.addPassthroughCopy({ './node_modules/@justinribeiro/lite-youtube/lite-youtube.js': './js/lite-youtube.js' });
   eleventyConfig.addPassthroughCopy({ './node_modules/@justinribeiro/lite-youtube/lite-youtube.js.map': './js/lite-youtube.js.map' });
   eleventyConfig.addPassthroughCopy({ './node_modules/sharer.js/sharer.min.js': './js/sharer.min.js' });
   eleventyConfig.addPassthroughCopy({ './node_modules/clipboard/dist/clipboard.min.js': './js/clipboard.min.js' });
   // passthrough behavior
-  eleventyConfig.setServerPassthroughCopyBehavior("copy");// the default is "passthrough"
-
+  eleventyConfig.setServerPassthroughCopyBehavior("copy"); // the default is "passthrough"
 
   // watch for changes
   eleventyConfig.addWatchTarget('./tailwind.config.js');
@@ -33,6 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/sprites/');
 
   // Plugins
+  eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(svgSprite, {
@@ -43,7 +42,6 @@ module.exports = function (eleventyConfig) {
       hostname: "https://www.edgepointlearning.com",
     },
   });
-
 
   // import external configs
   eleventyConfig.addPlugin(require('./src/_11ty/filter-postdate.js'))

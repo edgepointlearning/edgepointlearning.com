@@ -2,6 +2,11 @@
 <html lang="en">
 
   <head>
+
+    {% if schema %}
+      {% jsonLdScript schema, type, tags %}
+    {% endif %}
+
     {% if sitemap.ignore %}
       <meta name="robots" content="noindex, nofollow" />
     {% endif %}
