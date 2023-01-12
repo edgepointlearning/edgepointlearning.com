@@ -116,7 +116,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib);
 
   //conditionally ignore files https://11ty.rocks/posts/ignore-11ty-files-with-environment-variables/
-  if (process.env.ELEVENTY_ENV === "dev") {
+  if (process.env.NODE_ENV === "development") {
     eleventyConfig.ignores.add("./src/collections/blog/20*/**");
   }
 

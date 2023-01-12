@@ -2,10 +2,10 @@
   "scripts": {
     "clean": "rimraf _dist",
 
-    "serve:eleventy":  "cross-env ELEVENTY_ENV=dev eleventy --serve --incremental",
-    "build:eleventy": "cross-env ELEVENTY_ENV=prod MY_ENVIRONMENT=production eleventy",
-
+    "serve:eleventy":  "eleventy --serve --incremental",
     "serve:postcss":   "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
+    
+    "build:eleventy": "eleventy",
     "build:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
     
     "dev":   "cross-env NODE_ENV=development npm-run-all clean build:postcss -p serve:*",
