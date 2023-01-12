@@ -53,7 +53,7 @@ function pictureShortcode(src, alt, css, sizes = "100vw", loading = "lazy", deco
     widths: [420, 770, 1280],
     formats: ["webp", "jpeg"], //formats: ["svg", "avif", "webp", "jpeg"],
     urlPath: "/img/opt/",
-    outputDir: "./_dist/img/opt/",
+    outputDir: "./_site/img/opt/",
   };
   Image(url, options);
   let imageAttributes = {
@@ -75,7 +75,7 @@ function heroShortcode(img, mp4, css, fetchpriority = "auto") {
     widths: [420],
     formats: ["jpeg"],
     urlPath: "/img/opt/",
-    outputDir: "./_dist/img/opt/",
+    outputDir: "./_site/img/opt/",
   };
   let url = `./src/assets/images/${img}`; // image source directory
   let vid = `/videos/${mp4}`; // video passthrough destination
@@ -99,7 +99,7 @@ function ogImageShortcode(src, baseUrl) {
     widths: [660],
     formats: ["jpeg"],
     urlPath: "/img/og/",
-    outputDir: "./_dist/img/og/",
+    outputDir: "./_site/img/og/",
   };
   Image(url, options);
 
@@ -116,9 +116,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib);
 
   //conditionally ignore files https://11ty.rocks/posts/ignore-11ty-files-with-environment-variables/
-  if (process.env.NODE_ENV === "development") {
+  // if (process.env.NODE_ENV === "development") {
     eleventyConfig.ignores.add("./src/collections/blog/20*/**");
-  }
+  // }
 
 
   // passthrough behavior
@@ -173,11 +173,13 @@ module.exports = function(eleventyConfig) {
   });
 
 
+  // Transforms
+  eleventyConfig.addPlugin(require('./src/_11ty/html-config.js'))
 
   return {
     dir: {
       input: 'src',
-      output: '_dist'
+      output: '_site'
     },
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: 'njk',
