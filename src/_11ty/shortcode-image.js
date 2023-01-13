@@ -47,7 +47,7 @@ function heroShortcode(img, mp4, css, fetchpriority = "auto") {
 }
 
 // Open Graph Image
-function ogImageShortcode(src, baseUrl) {
+function ogImageShortcode(src, baseUrl, schema) {
   let url = `./src/assets/images/${src}`;
   let options = {
     widths: [660],
@@ -58,6 +58,9 @@ function ogImageShortcode(src, baseUrl) {
   Image(url, options);
   let metadata = Image.statsSync(url, options);
   let data = metadata.jpeg[metadata.jpeg.length - 1];
+  if (schema) {
+    return `${baseUrl}${data.url}`;
+  }
   return `<meta property="og:image" content="${baseUrl}${data.url}" >`;
 }
 
