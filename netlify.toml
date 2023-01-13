@@ -3,8 +3,8 @@
   publish = "_site"
   command = "npm run build"
 
-[context.branch-deploy]
-  command = "npm run build && cp _headers _site/_headers"
+# [context.branch-deploy]
+  # command = "npm run build && cp _headers _site/_headers"
 
 # POST BUILD OPTIMIZATIONS
 [build.processing]
