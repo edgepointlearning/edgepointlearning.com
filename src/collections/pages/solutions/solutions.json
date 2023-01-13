@@ -1,6 +1,10 @@
 {
   "layout": "layouts/solution.njk",
+  "bodyClasses": "topography",
+  "image": "heroes/og-image.jpg",
   "hero": {
+    "wave": "waves--wave-2",
+    "waveClasses": "wave-bot fill-white",
     "cta": [
       {
         "name": "Let's talk",
