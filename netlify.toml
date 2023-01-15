@@ -24,13 +24,15 @@
 
 # NETLIFY PLUGINS
 [[plugins]]
-  package = "netlify-plugin-cache"
-  [plugins.inputs]
-    paths = [
-      "_site/img/opt", # Eleventy-Image Disk Cache
-      "_site/img/og", # Eleventy-Image Disk Cache
-      ".cache" # Remote Asset Cache (not used currently)
-    ]
+    package = "netlify-plugin-11ty"
+# [[plugins]]
+#   package = "netlify-plugin-cache"
+#   [plugins.inputs]
+#     paths = [
+#       "_site/img/opt", # Eleventy-Image Disk Cache
+#       "_site/img/og", # Eleventy-Image Disk Cache
+#       ".cache" # Remote Asset Cache (not used currently)
+#     ]
 
 
 
