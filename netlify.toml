@@ -6,44 +6,28 @@
 [context.branch-deploy]
   command = "npm run build && cp _headers _site/_headers"
 
+
+
+
 # POST BUILD OPTIMIZATIONS
 [build.processing]
   skip_processing = true
-[build.processing.css]
-  bundle = false
-  minify = false # todo: temporary bugfix for https://github.com/tailwindlabs/tailwindcss/discussions/7044
-[build.processing.js]
-  bundle = true
-  minify = true
-[build.processing.html]
-  pretty_urls = false
-[build.processing.images]
-  compress = false
+
 
 
 
 # NETLIFY PLUGINS
 [[plugins]]
-    package = "netlify-plugin-11ty"
-# [[plugins]]
-#   package = "netlify-plugin-cache"
-#   [plugins.inputs]
-#     paths = [
-#       "_site/img/opt", # Eleventy-Image Disk Cache
-#       "_site/img/og", # Eleventy-Image Disk Cache
-#       ".cache" # Remote Asset Cache (not used currently)
-#     ]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = [
+      "_site/img", # Eleventy-Image Disk Cache
+      ".cache"     # Remote Asset Cache (not used currently)
+    ]
 
 
 
 # REDIRECTS
-# redirect to https.
-# [[redirects]]
-# from = "http://www.edgepointlearning.com/*"
-# to = "https://www.edgepointlearning.com/:splat"
-# status = 301
-# force = true
-
 # At some point /blog/ erroneously became /blogs/ in post frontmatter
 [[redirects]]
 from = "/blogs/*"
