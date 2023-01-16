@@ -5,6 +5,21 @@ image: blog/2018/2018-04-18-training-needs-analysis.jpg
 meta:  Conducting a training needs analysis is your first step for developing a successful employee training program. This is how to get started.
 author:
   name: Corey Bleich 
+
+structuredData:
+  "@context": https://schema.org
+  "@type": VideoObject
+  name: Training Needs Analysis - Because You're One of a Kind
+  description: At EdgePoint Learning, we believe your unique training needs deserve great solutions. Learn more about our training needs analysis at edgepointlearning.com
+  thumbnailUrl: https://i.ytimg.com/vi/Kc_bOjz8fTY/mqdefault.jpg
+  duration: PT1M14S
+  contentUrl: https://www.youtube.com/watch?v=Kc_bOjz8fTY
+  embedUrl: https://www.youtube.com/embed/Kc_bOjz8fTY
+  uploadDate: '2022-12-16'
+  potentialAction:
+    "@type": SeekToAction
+    target: https://youtu.be/Kc_bOjz8fTY?t={seek_to_second_number}
+    startOffset-input: required name=seek_to_second_number
 ---
 
 Conducting a training needs analysis is your first step to developing a successful training program.

@@ -1,9 +1,7 @@
-{
-  "tags": "story",
-
-  "layout": "layouts/story.njk",
+{  
+  "layout": "layouts/page.njk",
   "bodyClasses": "topography",
-
+  
   "image": "heroes/og-image.jpg",
 
   "hero": {

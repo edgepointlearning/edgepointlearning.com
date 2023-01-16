@@ -1,14 +1,11 @@
 {
   "scripts": {
-    "clean": "rimraf _dist",
-
-    "serve:eleventy":  "cross-env ELEVENTY_ENV=dev eleventy --serve --incremental",
-    "build:eleventy": "cross-env ELEVENTY_ENV=prod MY_ENVIRONMENT=production eleventy",
-
-    "serve:postcss":   "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js -w",
-    "build:postcss": "postcss src/assets/css/styles.css -o _dist/css/styles.css --config ./postcss.config.js",
-    
-    "dev":   "cross-env NODE_ENV=development npm-run-all clean build:postcss -p serve:*",
+    "clean": "rimraf _site",
+    "serve:eleventy": "eleventy --serve --incremental",
+    "serve:postcss": "postcss src/assets/css/styles.css -o _site/css/styles.css --config ./postcss.config.js -w",
+    "build:eleventy": "eleventy",
+    "build:postcss": "postcss src/assets/css/styles.css -o _site/css/styles.css --config ./postcss.config.js",
+    "dev": "cross-env NODE_ENV=development npm-run-all clean build:postcss -p serve:*",
     "build": "cross-env NODE_ENV=production  npm-run-all -s build:*"
   },
   "dependencies": {
@@ -16,7 +13,7 @@
     "@11ty/eleventy-img": "^2.0.1",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@justinribeiro/lite-youtube": "^1.4.0",
-    "@quasibit/eleventy-plugin-schema": "^1.10.0",
+    "@pautym/simply-schema-eleventy": "^1.0.5",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.7",
@@ -32,6 +29,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "html-minifier": "^4.0.0",
     "netlify-plugin-cache": "^1.0.3",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.18",

@@ -1,9 +1,5 @@
-# Jekyll
-_site
-.jekyll-cache
-
 # eleventy
-_dist
+_site
 
 # Standard stuff
 .DS_Store
