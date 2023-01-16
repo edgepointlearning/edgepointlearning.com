@@ -1,8 +1,11 @@
 {
   "tags": "story",
+
   "layout": "layouts/story.njk",
   "bodyClasses": "topography",
+
   "image": "heroes/og-image.jpg",
+
   "hero": {
     "wave": "waves--wave-2",
     "waveClasses": "wave-bot fill-white"

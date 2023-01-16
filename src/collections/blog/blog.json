@@ -1,25 +1,6 @@
 {  
   "tags": "blog",
-  "layout": "layouts/post.njk",
-  "imageOrigin": "object-center",
 
-  "eleventyComputed": {
-    "schema": {
-      "site": {
-        "name": "{{ metadata.title }}",
-        "description": "{{ metadata.description }}",
-        "url": "{{ metadata.url }}",
-        "logo": {
-          "src": "https://www.edgepointlearning.com/icon-512.png"
-        }
-      },
-      "language": "en-US",
-      "url": "{{ page.url }}",
-      "title": "{{ title }}",
-      "description": "{{ meta}}",
-      "image": {
-        "src": "{% ogImage image, metadata.url, schema %}"
-      }
-    }
-  }
+  "layout": "layouts/post.njk",
+  "imageOrigin": "object-center"
 }

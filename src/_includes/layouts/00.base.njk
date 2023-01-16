@@ -3,8 +3,8 @@
 
   <head>
 
-    {% if schema %}
-      {% jsonLdScript schema, type, tags %}
+    {% if structuredData %}
+      {% jsonLdScript structuredData %}
     {% endif %}
 
     {% if sitemap.ignore %}

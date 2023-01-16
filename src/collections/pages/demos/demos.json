@@ -1,10 +1,15 @@
 {
   "sitemap": {
-    "ignore": true
+    "ignore": "true"
   },
+
+  "tags": "demo",
+
   "layout": "layouts/demo.njk",
   "bodyClasses": "topography",
+
   "image": "heroes/og-image.jpg",
+
   "hero": {
     "wave": "waves--wave-2",
     "waveClasses": "wave-bot fill-white"
