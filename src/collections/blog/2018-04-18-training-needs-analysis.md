@@ -1,4 +1,5 @@
 ---
+date: "2022-12-16"
 title: How To Conduct A Training Needs Analysis
 permalink: /blog/training-needs-analysis/
 image: blog/2018/2018-04-18-training-needs-analysis.jpg
