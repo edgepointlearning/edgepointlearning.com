@@ -1,15 +1,21 @@
 {
   "scripts": {
     "clean": "rimraf _site",
+    
+    "serve:esbuild":  "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --watch",
+    "build:esbuild":  "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --minify",
+    
+    "serve:postcss":  "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --watch",
+    "build:postcss":  "postcss src/_includes/css/entry.css -o _site/assets/compiled.css",
+
     "serve:eleventy": "eleventy --serve --incremental",
-    "serve:postcss": "postcss src/assets/css/styles.css -o _site/css/styles.css --config ./postcss.config.js -w",
     "build:eleventy": "eleventy",
-    "build:postcss": "postcss src/assets/css/styles.css -o _site/css/styles.css --config ./postcss.config.js",
-    "dev": "cross-env NODE_ENV=development npm-run-all clean build:postcss -p serve:*",
+
+    "dev":   "cross-env NODE_ENV=development npm-run-all clean build:postcss -p serve:*",
     "build": "cross-env NODE_ENV=production  npm-run-all -s build:*"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.18",
+    "@11ty/eleventy": "^2.0.0-beta.1",
     "@11ty/eleventy-img": "^2.0.1",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@justinribeiro/lite-youtube": "^1.4.0",
@@ -29,6 +35,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "esbuild": "^0.17.3",
     "html-minifier": "^4.0.0",
     "netlify-plugin-cache": "^1.0.3",
     "npm-run-all": "^4.1.5",

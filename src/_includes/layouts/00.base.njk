@@ -22,20 +22,15 @@
       generator="eleventy"
     %}
 
-    {# javascript #}
-    <script defer src="/js/alpine.min.js"></script>
-    <script defer src="/js/vi-lazyload.js"></script>
-    <script type="module" defer src="/js/lite-youtube.js"></script>
-    <script defer src="/js/sharer.min.js"></script>
-    <script defer src="/js/clipboard.min.js"></script>
-    <script defer src="/js/main.js"></script>
+    {# js & css #}
+    <script src="/assets/compiled.js"  defer></script>
+    <link  href="/assets/compiled.css" rel="stylesheet"/>
 
     {# favicons #}
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="stylesheet" href="/css/styles.css" />
 
     {# analytics. see myProject.js #}
     {% if myProject.environment == "production" %} 

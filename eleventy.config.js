@@ -14,14 +14,7 @@ module.exports = function (eleventyConfig) {
 
   // passthrough assets & custom scripts
   eleventyConfig.addPassthroughCopy({ 'src/assets/static': '/' });
-  eleventyConfig.addPassthroughCopy({ 'src/assets/js': '/js/' });
   eleventyConfig.addPassthroughCopy({ 'src/assets/videos': '/videos/' });
-  // passthrough node_modules TODO: bundle with esbuild!
-  eleventyConfig.addPassthroughCopy({ './node_modules/alpinejs/dist/cdn.min.js': './js/alpine.min.js' });
-  eleventyConfig.addPassthroughCopy({ './node_modules/@justinribeiro/lite-youtube/lite-youtube.js': './js/lite-youtube.js' });
-  eleventyConfig.addPassthroughCopy({ './node_modules/@justinribeiro/lite-youtube/lite-youtube.js.map': './js/lite-youtube.js.map' });
-  eleventyConfig.addPassthroughCopy({ './node_modules/sharer.js/sharer.min.js': './js/sharer.min.js' });
-  eleventyConfig.addPassthroughCopy({ './node_modules/clipboard/dist/clipboard.min.js': './js/clipboard.min.js' });
   // passthrough behavior
   eleventyConfig.setServerPassthroughCopyBehavior("copy"); // the default is "passthrough"
 
