@@ -7,6 +7,11 @@ const schema = require("@pautym/simply-schema-eleventy");
 
 module.exports = function (eleventyConfig) {
 
+  // reload dev server from postcss & esbuild output in package.json
+  eleventyConfig.setServerOptions({
+    watch: ["_site/assets/*.{js,css}"],
+  });
+
   //conditionally ignore files for faster dev builds
   if (process.env.NODE_ENV === "development") {
     eleventyConfig.ignores.add("./src/collections/blog/20*/**");

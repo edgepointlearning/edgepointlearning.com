@@ -1,13 +1,5 @@
-# eleventy
 _site
-
-# Standard stuff
 .DS_Store
-node_modules
-
-# Local Netlify folder
 .netlify
-
-# source content
-Adobe After Effects Auto-Save
-hero_bgs.aep Logs
+node_modules
+package-lock.json
