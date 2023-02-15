@@ -34,12 +34,15 @@
           <div class="
             col-span-full sm:col-span-1
             flex flex-wrap sm:flex-col 
-            gap-y-4 gap-x-12 sm:mx-auto">
+            gap-y-4 gap-x-8 sm:mx-auto">
             <p class="font-semibold w-full">Social</p>
-            <a href="https://www.linkedin.com/company/edgepoint-learning" title="EdgePoint Learning on LinkedIn">{% svg "fontawesome--linkedin-in-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} LinkedIn</a>
-            <a href="http://www.facebook.com/edgepointlearningllc" title="EdgePoint Learning on Facebook">{% svg "fontawesome--facebook-f-brands", "h-3 aspect-square inline mr-1 align-baseline" %} Facebook</a>
-            <a href="https://twitter.com/EdgePointLearn" title="EdgePoint Learning on Twitter">{% svg "fontawesome--twitter-brands", "h-3 aspect-square inline mr-1 mb-0.5 align-middle" %} Twitter</a>
+              {%- for link in socials -%}
+                <a aria-label="{{ link.name }}" href="{{ link.href }}" class="flex p-2">
+                  {% svg link.icon, "h-8 w-8" %}
+                </a>
+              {%- endfor -%}
           </div>
+
         </div>
       </nav>
 

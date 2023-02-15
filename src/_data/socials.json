@@ -2,12 +2,17 @@
   {
     "name": "Facebook",
     "href": "http://www.facebook.com/edgepointlearningllc",
-    "icon": "fontawesome--facebook-f-brands"
+    "icon": "fontawesome--facebook-brands"
   },
   {
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/company/edgepoint-learning",
-    "icon": "fontawesome--linkedin-in-brands"
+    "icon": "fontawesome--linkedin-brands"
+  },
+  {
+    "name": "YouTube",
+    "href": "https://www.youtube.com/@edgepointlearning",
+    "icon": "fontawesome--youtube-brands"
   },
   {
     "name": "Twitter",
