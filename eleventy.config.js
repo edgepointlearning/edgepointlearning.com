@@ -3,7 +3,7 @@ const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
-const schema = require("@pautym/simply-schema-eleventy");
+const schema = require("simply-schema-eleventy");
 
 module.exports = function (eleventyConfig) {
 
