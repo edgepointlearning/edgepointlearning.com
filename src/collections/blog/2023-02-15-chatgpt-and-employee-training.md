@@ -57,11 +57,11 @@ With a few prompts and guidance, ChatGPT is capable of generating course-related
 
 Still, it's great for:
 
-Training systems and processes
-
+* Training systems and processes
 * Answering a variety of questions on a topic
 * Generating text responses that mimic natural speech patterns
-* You can specify a style of conversation, a level of understanding, and a goal for the training in ChatGPT to tailor your content even further.
+
+You can specify a style of conversation, a level of understanding, and a goal for the training in ChatGPT to tailor your content even further.
 
 ### Just-in-time customer service
 
