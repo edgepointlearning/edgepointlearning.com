@@ -10,29 +10,31 @@ author:
 structuredData:
   "@context": https://schema.org
   "@type": VideoObject
-  name: Training Needs Analysis - Because You're One of a Kind
-  description: At EdgePoint Learning, we believe your unique training needs deserve great solutions. Learn more about our training needs analysis at edgepointlearning.com
-  thumbnailUrl: https://i.ytimg.com/vi/Kc_bOjz8fTY/mqdefault.jpg
-  duration: PT1M14S
-  contentUrl: https://www.youtube.com/watch?v=Kc_bOjz8fTY
-  embedUrl: https://www.youtube.com/embed/Kc_bOjz8fTY
-  uploadDate: '2022-12-16'
+  name: What Is a Training Needs Analysis?
+  description: "A training needs analysis defines goals, examines any existing training, identifies knowledge and performance gaps, and then provides recommendations on the best ways to close those gaps and meet your training needs. Getting an outside perspective from a professional eLearning company can help improve training and performance, saving time and money. Are you ready for a training needs analysis, or just want to learn more? Head over to edgepointlearning.com"
+  thumbnailUrl: https://i.ytimg.com/vi/ZdkfwFNH5cQ/mqdefault.jpg
+  uploadDate: "2023-02-16"
+  contentUrl: https://www.youtube.com/watch?v=ZdkfwFNH5cQ
+  duration: PT47S
+  embedUrl: https://www.youtube.com/embed/ZdkfwFNH5cQ
   potentialAction:
     "@type": SeekToAction
-    target: https://youtu.be/Kc_bOjz8fTY?t={seek_to_second_number}
+    target: https://youtu.be/ZdkfwFNH5cQ?t={seek_to_second_number}
     startOffset-input: required name=seek_to_second_number
 ---
 
 Conducting a training needs analysis is your first step to developing a successful training program.
 {.lead}
 
-Most companies recognize the importance of employee training and want to dive right in. While this enthusiasm is great, it skips a crucial step. Conducting a training needs analysis (TNA) is your first step to developing a successful training program. This post covers the major types of analyses, common methodologies, and a training needs analysis example to start from. It's time for better training. Read on to learn more. 
-
-<div class="mt-8">
-  <lite-youtube videotitle="Training Needs Analysis - Because You're One of a Kind" videoid="Kc_bOjz8fTY" posterquality="maxresdefault">
-    <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v=Kc_bOjz8fTY">Watch on YouTube: "Training Needs Analysis - Because You're One of a Kind"</a></p>
+<div class="my-8">
+  <lite-youtube videotitle="What Is a Training Needs Analysis?" videoid="ZdkfwFNH5cQ" posterquality="maxresdefault">
+    <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v=ZdkfwFNH5cQ">Watch on YouTube: "What Is a Training Needs Analysis?"</a></p>
   </lite-youtube>
 </div>
+
+Most companies recognize the importance of employee training and want to dive right in. While this enthusiasm is great, it skips a crucial step. Conducting a training needs analysis (TNA) is your first step to developing a successful training program. This post covers the major types of analyses, common methodologies, and a training needs analysis example to start from. It's time for better training. Read on to learn more. 
+
+
 
 ## What is a training needs analysis?
 
@@ -190,6 +192,7 @@ The following posts can be useful guides as you get started:
 
 ## Learn more
 At EdgePoint Learning, we make recommendations based on your company’s goals and work with you to help implement them. Our training needs analysis helps you fine-tune and get more out of your training. More importantly, it can help your business grow. 
+
 
 <strong>Want to learn more about what we do? [Book a demo today](/form/demo/). </strong>
 
