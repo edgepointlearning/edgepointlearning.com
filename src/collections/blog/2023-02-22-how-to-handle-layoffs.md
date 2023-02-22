@@ -1,5 +1,5 @@
 ---
-title:      "How to handle layoffs"
+title:      "How To Handle Layoffs: 5 Smart Strategies"
 permalink:  /blog/how-to-handle-layoffs/
 image:      blog/2023/2023-02-22-how-to-handle-layoffs.jpg
 meta:       This is how to handle layoffs to make things go more smoothly for employees who are laid off and avoid retention issues for those who remain after.  
