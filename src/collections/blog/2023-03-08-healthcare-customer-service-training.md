@@ -1,6 +1,6 @@
 ---
 title:      "How To Create Exceptional Healthcare Customer Service Training"
-permalink:  /blog/healthcare-customer-service-training/
+permalink:  /blog/healthcare-customer-service-training-fix/
 image:      blog/2023/2023-03-08-healthcare-customer-service-training.jpg
 meta:       Learn more about the key skills your healthcare professionals need and how to create an exceptional healthcare customer service training program.
 author:     Corey Bleich
