@@ -9,8 +9,14 @@ author:     Corey Bleich
 Whether you’re with a large hospital group or manage a bustling family practice, your patients today crave exceptional concierge-like care that starts with their very first interaction. Achieve that with a great healthcare customer service training program and you’ll get repeat patients and referrals lining up outside your door. 
 
 From the moment individuals hit your website or talk to your front desk staff, healthcare customer service training is key to bringing compassionate and skilled customer care to every person your providers and staff interact with to make your patients feel more at ease. (Don’t forget the family members or caretakers who also interact with your team!) This is how to create a healthcare customer service training program that you can easily roll out to your providers, staff, and everyone else who interacts with patients at your practice. 
-
-What you’ll find in this post 👉[The importance of exceptional customer service](#section1) | [Key customer service skills in healthcare](#section2) | [Steps you can take to improve your healthcare customer service training](#section3)
+<div class="rounded-lg p-4 not-prose font-sans border-b-4 bg-slate-300 border-b-slate-400 ">
+  <p class="font-extrabold uppercase text-lg mb-1 text-slate-500 ">🔍 What you’ll find in this post</p>
+  <ul class="list-disc pl-4">
+    <li><a href="#section1" class="underline font-semibold hover:text-blue-700">The importance of exceptional customer service</a></li>
+    <li><a href="#section2" class="underline font-semibold hover:text-blue-700">Key customer service skills in healthcare</a></li>
+    <li><a href="#section3" class="underline font-semibold hover:text-blue-700">Steps you can take to improve your healthcare customer service training</a></li>
+  </ul>
+</div>
 
 <a name="section1"></a>
 <hr>
