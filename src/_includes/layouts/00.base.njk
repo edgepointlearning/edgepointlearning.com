@@ -3,10 +3,6 @@
 
   <head>
 
-    {% if structuredData %}
-      {% jsonLdScript structuredData %}
-    {% endif %}
-
     {% if sitemap.ignore %}
       <meta name="robots" content="noindex, nofollow" />
     {% endif %}

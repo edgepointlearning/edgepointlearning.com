@@ -61,7 +61,7 @@ These are the most essential healthcare customer service skills to train your te
 
 In addition to these core customer service skills, healthcare professionals should also prioritize being respectful, honest, and reliable. With excellent customer service skills, your team can help all patients feel more comfortable, informed, and empowered throughout their healthcare journey.
 
-👉**Learn more:** [Discover how to train your employees on hard skills vs soft skills here!](/blog/hard-skills-vs-soft-skills/)
+{% learn "Learn more", "", "Discover how to train your employees on hard skills vs soft skills here!", "/blog/hard-skills-vs-soft-skills/" %}
 
 <a name="section3"></a>
 <hr>
@@ -87,7 +87,7 @@ Any healthcare customer service training should start with a training needs anal
 
 Set goals and objectives for your training now, too. You can then identify which training tools you have available to start with, as well as what you’ll need to create or locate to meet your organizational goals.
 
-👉**Learn more:** [How to conduct a training needs analysis, from start to finish](/blog/training-needs-analysis/)
+{% learn "Learn more", "", "How to conduct a training needs analysis, from start to finish", "/blog/training-needs-analysis/" %}
 
 ### 2. Start thinking of patients as customers
 
@@ -139,7 +139,12 @@ Healthcare customer service training activities aim to improve the skills of hea
 
 Regardless of the specific training activities used, it is essential to ensure that the training is relevant, engaging, and practical. Incorporating real-life scenarios, offering opportunities for practice and feedback, and tailoring the training to the unique needs of your organization can help ensure that the training is effective.
 
-👉 **Discover more:** Gamified modules that lead staff through branched challenges can mimic the real-life stresses of a scared patient standing in front of them. [Find out more about gamifying your training programs!](/blog/gamification-in-elearning/)
+{% learn 
+  "Discover more", 
+  "Gamified modules that lead staff through branched challenges can mimic the real-life stresses of a scared patient standing in front of them.",
+  "Find out more about gamifying your training programs!", 
+  "/blog/gamification-in-elearning/" 
+%}
 
 ### 8. Protect patients, first
 

@@ -19,7 +19,6 @@
     "@11ty/eleventy-img": "3.0.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "1.0.1",
     "@justinribeiro/lite-youtube": "1.5.0",
-    "simply-schema-eleventy": "tylercampbell/simply-schema-eleventy",
     "@quasibit/eleventy-plugin-sitemap": "2.2.0",
     "@tailwindcss/forms": "0.5.3",
     "@tailwindcss/typography": "0.5.9",
