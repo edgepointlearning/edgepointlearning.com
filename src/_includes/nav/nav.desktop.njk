@@ -17,6 +17,7 @@
 
       {# megamenu background #}
       <div
+        style="display:none"
         class="absolute top-16 left-0 w-full h-screen bg-black/50 backdrop-blur-sm"
         x-cloak x-show="showChildren"
         @click.prevent="showChildren=!showChildren"
@@ -28,6 +29,7 @@
 
       {# megamenu full-width bg #}
       <div
+        style="display:none"
         class="absolute left-0 w-full max-w-full bg-white shadow-md top-16"
         x-cloak x-show="showChildren"
         x-transition:enter="transition ease-out duration-300"

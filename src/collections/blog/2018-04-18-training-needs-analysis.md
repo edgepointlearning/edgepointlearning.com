@@ -6,22 +6,25 @@ image: blog/2018/2018-04-18-training-needs-analysis.jpg
 meta:  Conducting a training needs analysis is your first step for developing a successful employee training program. This is how to get started.
 author:
   name: Corey Bleich 
-
-structuredData:
-  "@context": https://schema.org
-  "@type": VideoObject
-  name: What Is a Training Needs Analysis?
-  description: "A training needs analysis defines goals, examines any existing training, identifies knowledge and performance gaps, and then provides recommendations on the best ways to close those gaps and meet your training needs. Getting an outside perspective from a professional eLearning company can help improve training and performance, saving time and money. Are you ready for a training needs analysis, or just want to learn more? Head over to edgepointlearning.com"
-  thumbnailUrl: https://i.ytimg.com/vi/ZdkfwFNH5cQ/mqdefault.jpg
-  uploadDate: "2023-02-16"
-  contentUrl: https://www.youtube.com/watch?v=ZdkfwFNH5cQ
-  duration: PT47S
-  embedUrl: https://www.youtube.com/embed/ZdkfwFNH5cQ
-  potentialAction:
-    "@type": SeekToAction
-    target: https://youtu.be/ZdkfwFNH5cQ?t={seek_to_second_number}
-    startOffset-input: required name=seek_to_second_number
 ---
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "What Is a Training Needs Analysis?",
+	"description": "A training needs analysis defines goals, examines any existing training, identifies knowledge and performance gaps, and then provides recommendations on the ...",
+	"thumbnailUrl": "https://i.ytimg.com/vi/ZdkfwFNH5cQ/mqdefault.jpg",
+	"duration": "PT47S",
+	"contentUrl": "https://www.youtube.com/watch?v=ZdkfwFNH5cQ",
+	"embedUrl": "https://www.youtube.com/embed/ZdkfwFNH5cQ",
+	"uploadDate": "2023-02-16",
+	"potentialAction": {
+		"@type": "SeekToAction",
+		"target": "https://youtu.be/ZdkfwFNH5cQ?t={seek_to_second_number}",
+		"startOffset-input": "required name=seek_to_second_number"
+	}
+}
+</script>
 
 Conducting a training needs analysis is your first step to developing a successful training program.
 {.lead}

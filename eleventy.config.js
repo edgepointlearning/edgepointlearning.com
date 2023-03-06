@@ -3,7 +3,6 @@ const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const svgSprite = require("eleventy-plugin-svg-sprite");
-const schema = require("simply-schema-eleventy");
 
 module.exports = function (eleventyConfig) {
 
@@ -29,7 +28,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/sprites/');
 
   // Plugins
-  eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(svgSprite, {
@@ -48,6 +46,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-vimeo.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-image.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/transform-html.js'))
+
+  eleventyConfig.addPlugin(require('./src/_11ty/shortcode-learn.js'))
 
   return {
     dir: {
