@@ -1,7 +1,7 @@
 import Alpine from 'alpinejs'
-import '@justinribeiro/lite-youtube'
 import 'sharer.js'
 import ClipboardJS from 'clipboard'
+import './lite-youtube.js'
 import "./vi-lazyload.js";
 
 
