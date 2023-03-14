@@ -1,4 +1,4 @@
-/* @layer components { */
+
 .nav-link {
   @apply 
     flex align-middle 
@@ -57,30 +57,42 @@
 
 /* lite-youtube-fallback */
 .lite-youtube-fallback {
-	aspect-ratio: 16 / 9; /* matches YouTube player */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 1em;
-	padding: 1em;
-	background-color: #000;
-	color: #fff;
-	text-decoration: none;
+  aspect-ratio: 16 / 9; /* matches YouTube player */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
 }
 
 .lite-youtube-fallback::before {
-	display: block;
-	content: '';
-	border: solid transparent;
-	border-width: 2em 0 2em 3em;
-	border-left-color: red;
+  display: block;
+  content: '';
+  border: solid transparent;
+  border-width: 2em 0 2em 3em;
+  border-left-color: red;
 }
 
 .lite-youtube-fallback:hover::before {
-	border-left-color: #fff;
+  border-left-color: #fff;
 }
 
 .lite-youtube-fallback:focus {
-	outline: 2px solid red;
+  outline: 2px solid red;
+}
+
+
+/* blog post styles */
+.blog-card-blue {
+  @apply
+    rounded-lg
+    border-b-4 
+    bg-blue-200 border-b-sky-600
+    p-4 pr-2
+    font-sans
+    text-sm md:text-base
 }
