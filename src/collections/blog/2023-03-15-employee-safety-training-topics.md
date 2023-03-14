@@ -293,7 +293,7 @@ Your workplace safety training is only as good as the materials you use and your
 
 ## We know how to create safety training that works
 
-Need help tailoring your current safety training to your modern company’s needs? Ready to roll out a full training program? EdgePoint Learning can help! We've developed an innovative library of on-demand safety training materials for today’s companies. Or we can work with you to build fully custom courses for your specific employee safety training needs.
+Need help tailoring your current safety training to your modern company’s needs? Ready to roll out a full training program? EdgePoint Learning can help! We've developed an innovative library of on-demand safety training materials for today’s companies. Or we can work with you to build fully custom courses for your specific employee safety training needs.  We can help. Need a better way to deliver your safety training to a mobile workforce? Our technology partner, [PinPoint Workforce](https://www.pinpointworkforce.com/) has you covered.
 
 From on-the-job safety training to a curated learning experience, we can help you create training that engages your team and helps you protect your employees in the workplace. [Get in touch today to learn more.](/form/demo/) 
 
