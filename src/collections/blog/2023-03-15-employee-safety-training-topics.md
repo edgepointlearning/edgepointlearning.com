@@ -109,7 +109,7 @@ Safe lifting techniques are crucial for preventing injuries in the workplace. In
 
 [Federal agencies](https://bjs.ojp.gov/press-release/federal-agencies-release-joint-study-workplace-violence) found that from 1992 to 2019, almost 18,000 people were killed at work, on duty, or in work-related violent incidents. In addition, 1.3 million nonfatal workplace violence victimizations occurred from 2015 to 2019. 
 
-The statistics on domestic violence that seeps into the workplace are sobering as well. Women in the workplace are overwhelmingly the target of this type of workplace violence. A study of domestic violence survivors found that fully 74% of them were [harassed or attacked in the workplace](https://police.ucsf.edu/system/files/domesticviolenceworkplace.pdf). Homicide is also a leading cause of death for women at work.
+The statistics on domestic violence that seeps into the workplace are sobering as well. Women in the workplace are overwhelmingly the target of this type of workplace violence. A study of domestic violence survivors found that fully 74% of them were [harassed or attacked in the workplace](https://police.ucsf.edu/content/facts-workplace-and-domestic-violence). Homicide is also a leading cause of death for women at work.
 
 Employee safety training must include strategies for workplace violence prevention, including recognizing the risk factors and signs of potential workplace and domestic violence that spreads to the workplace. This can literally save your employees’ lives. Find our full guide for developing[ violence prevention training here](https://www.edgepointlearning.com/blog/workplace-violence-prevention/).
 
