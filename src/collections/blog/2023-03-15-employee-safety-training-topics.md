@@ -1,4 +1,5 @@
 ---
+date: 2023-03-15
 title:      "15 Safety Training Topics for Your Workplace (and Free Courses!)"
 permalink:  /blog/employee-safety-training-topics/
 image:      blog/2023/2023-03-15-employee-safety-training-topics.jpg

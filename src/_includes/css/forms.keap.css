@@ -27,7 +27,7 @@
       block w-full rounded-md
       bg-blue-100 border-transparent
       placeholder-blue-900/50 focus:placeholder-slate-400
-      focus:bg-yellow-50 focus:border-epl-light;
+      focus:bg-yellow-50 focus:border-edgepoint-400;
   }
 
 
@@ -51,10 +51,10 @@
       w-4 h-4
       rounded 
       bg-blue-200 text-slate-700 border-transparent
-      focus:ring-2 focus:ring-offset-2 focus:bg-yellow-50 focus:ring-epl-light;
+      focus:ring-2 focus:ring-offset-2 focus:bg-yellow-50 focus:ring-edgepoint-400;
     &:checked {
       @apply
-        bg-epl
+        bg-edgepoint-500
     }
   }
 
@@ -66,6 +66,6 @@
       rounded-full 
       whitespace-nowrap text-white text-sm font-light 
       px-4 py-2.5
-      bg-gradient-to-t from-epl-dark to-epl hover:to-epl-light
+      bg-gradient-to-t from-edgepoint-700 to-edgepoint-500 hover:to-edgepoint-400
   }
 }

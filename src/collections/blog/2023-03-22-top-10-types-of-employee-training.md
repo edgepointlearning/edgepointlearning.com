@@ -1,4 +1,5 @@
 ---
+date: 2023-03-22
 title: Top 10 Types of Employee Training Methods
 permalink: /blog/top-10-types-of-employee-training/
 image: blog/2023/2023-03-22-10-types-of-training.png
