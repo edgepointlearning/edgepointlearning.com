@@ -1,5 +1,5 @@
 // Plugin Imports
-const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+// const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/sprites/');
 
   // Plugins
-  eleventyConfig.addPlugin(emojiReadTime);
+  // eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // import external configs
+  eleventyConfig.addPlugin(require('./src/_11ty/filter-readTime.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/filter-postdate.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/filter-markdown.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-gif.js'))
