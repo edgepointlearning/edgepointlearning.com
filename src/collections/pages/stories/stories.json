@@ -7,7 +7,7 @@
   "image": "heroes/og-image.jpg",
 
   "hero": {
-    "wave": "waves--wave-2",
+    "wave": "waves/wave-2.svg",
     "waveClasses": "wave-bot fill-white"
   }
 }
