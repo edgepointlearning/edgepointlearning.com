@@ -3,36 +3,36 @@
     "name": "Custom development",
     "desc": "Develop eLearning experiences from program planning to launch",
     "href": "/custom-employee-training/",
-    "icon": "handdrawn--rocket-color.svg"
+    "icon": "handdrawn/rocket-color.svg"
   },
   {
     "name": "Co-development",
     "desc": "Grow your training team with our expert guidance and support",
     "href": "/co-development-services/",
-    "icon": "handdrawn--handle_with_care-color.svg"
+    "icon": "handdrawn/handle_with_care-color.svg"
   },
   {
     "name": "Consulting",
     "desc": "Discover new learning approaches, technologies, and opportunities",
     "href": "/elearning-consulting-services/",
-    "icon": "handdrawn--messaging-color.svg"
+    "icon": "handdrawn/messaging-color.svg"
   },
   {
     "name": "Performance support",
     "desc": "Provide on-the-job support, where and when employees need it most",
     "href": "/performance-support/",
-    "icon": "handdrawn--administrative_tools-color.svg"
+    "icon": "handdrawn/administrative_tools-color.svg"
   },
   {
     "name": "Microlearning",
     "desc": "Craft precision microlearning programs for training in the flow of work",
     "href": "/microlearning/",
-    "icon": "handdrawn--user_location-color.svg"
+    "icon": "handdrawn/user_location-color.svg"
   },
   {
     "name": "Mobile delivery",
     "desc": "Deliver training and performance support with learning-on-location tools",
     "href": "/mobile/",
-    "icon": "handdrawn--iphone-color.svg"
+    "icon": "handdrawn/iphone-color.svg"
   }
 ] 

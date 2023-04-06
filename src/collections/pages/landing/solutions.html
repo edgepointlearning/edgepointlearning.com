@@ -54,7 +54,7 @@ hero:
 
 
 <section class="relative bg-slate-300">
-  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-white" %}
+  {% svg "waves/wave-2.svg", "wave-top -scale-y-100 fill-white" %}
 
   <div class="relative epl-prose-scale epl-prose-style epl-prose-margin pt-20">
     <h2 class="!mt-0 text-slate-700">EdgePoint Learning solutions</h2>
@@ -69,8 +69,7 @@ hero:
         p-4
         group transition hover:-translate-y-1 hover:bg-slate-200 hover:shadow-lg">
         <figure class="mr-4">
-          {% set icon = link.icon | replace(".svg","") %}    
-          {% svg icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
+          {% svg link.icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
         </figure>
         <section class="">
           <h3 class="font-bold text-edgepoint-700 decoration-1 group-hover:text-edgepoint-500 group-hover:underline">{{link.name}}</h3>
@@ -86,7 +85,7 @@ hero:
 
 
 <section class="relative">
-  {% svg "waves--wave-2", "wave-top -scale-y-100 fill-slate-300" %}
+  {% svg "waves/wave-2.svg", "wave-top -scale-y-100 fill-slate-300" %}
 
   <article class="
     relative

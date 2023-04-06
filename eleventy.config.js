@@ -2,7 +2,6 @@
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const metagen = require('eleventy-plugin-metagen');
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-const svgSprite = require("eleventy-plugin-svg-sprite");
 
 module.exports = function (eleventyConfig) {
 
@@ -30,9 +29,6 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(emojiReadTime);
   eleventyConfig.addPlugin(metagen);
-  eleventyConfig.addPlugin(svgSprite, {
-    path: "./src/assets/sprites",
-  });
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
       hostname: "https://www.edgepointlearning.com",
@@ -45,6 +41,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-gif.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-vimeo.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-image.js'))
+  eleventyConfig.addPlugin(require('./src/_11ty/shortcode-svg.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/transform-html.js'))
 
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-learn.js'))

@@ -5,8 +5,8 @@
       x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)"
       >
       <span class="cursor-pointer" @click.prevent="showChildren=!showChildren" title="Open Menu">
-        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu--menu", "h-5 aspect-square fill-edgepoint-500" %}</div>
-        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu--close", "h-5 aspect-square" %}</div>
+        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu/menu.svg", "h-5 aspect-square fill-edgepoint-500" %}</div>
+        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu/close.svg", "h-5 aspect-square" %}</div>
       </span>
 
       <nav
@@ -49,7 +49,7 @@
 
     </li>
 
-    <li><a href="/" title="Home">{% svg "logo--epl-horizontal", "h-5 aspect-[358/47]" %}</a></li>
+    <li><a href="/" title="Home">{% svg "logo/epl-horizontal.svg", "h-5 aspect-[358/47]" %}</a></li>
     <li class="place-items-center flex justify-center w-12 h-12"></li>
 
   </ul>

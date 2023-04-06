@@ -5,7 +5,7 @@
     {# epl logo #}
     <li class="flex items-center flex-auto">
       <a href="/" class="" title="Home">
-        {% svg "logo--epl-horizontal", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
+        {% svg "logo/epl-horizontal.svg", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}
       </a>
     </li>
 
@@ -13,7 +13,7 @@
 
     {# solutions megamenu #}
     <li class="flex items-center" x-data="{showChildren:false}" @click.away="showChildren=false">
-      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu--expand-down", "h-4 mt-0.5 aspect-square" %}</span>
+      <span class="nav-link cursor-pointer" @click.prevent="showChildren=!showChildren">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 aspect-square" %}</span>
 
       {# megamenu background #}
       <div
@@ -41,7 +41,18 @@
 
           {# solutions loop #}
           {% for link in solutions %}
-            {{ component('megamenu.vert', { link: link }) }}
+            <div class="p-3 max-w-[260px] ">
+              <a aria-label="{{ link.name }}" class="flex flex-wrap transition place-content-center group" href="{{ link.href }}"  @click="showChildren=false">
+                <div class="z-10 flex w-16">
+                  {% svg link.icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
+                </div>
+                <div class="p-3 pt-8 -mt-8 text-center transition bg-white rounded-lg group-hover:bg-blue-100 ring-1 ring-offset-4 ring-offset-white ring-transparent group-hover:ring-edgepoint-400 group-hover:scale-105">
+                  <p class="text-sm font-medium text-edgepoint-500 group-hover:text-black">{{ link.name }}</p>
+                  <div class="mx-auto w-12 h-[1px] bg-slate-300 my-1.5 group-hover:scale-x-[300%] group-hover:bg-slate-300 transition origin-center"></div>
+                  <p class="text-xs text-slate-800">{{ link.desc }}</p>
+                </div>
+              </a>
+            </div>
           {% endfor %}
 
           {# solutions landing page #}
