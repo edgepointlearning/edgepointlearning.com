@@ -1,7 +1,7 @@
 ---
 date: 2023-03-15
 title:      "Hard skills vs soft skills"
-permalink:  /blog/hard-skills-vs-soft-skills/
+permalink:  /blog/hard-skills-vs-soft-skills-new/
 image:      blog/2023/2023-04-12-hard-skills-vs-soft-skills.jpg
 meta:       This guide on hard skills vs. soft skills will get you started on the main differences, a list of examples of each, and how to structure training for both. 
 author:
