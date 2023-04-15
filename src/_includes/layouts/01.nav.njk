@@ -1,12 +1,47 @@
 ---
-layout: 'layouts/00.base.njk'
+layout: layouts/00.base.njk
 ---
 {# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%} 
 
-<div>
-  {% include 'nav/nav.mobile.njk' %}
-  {% include 'nav/nav.desktop.njk' %}
-  {{ content | safe }}
-  {% include 'nav/nav.footer.njk' %}
+<div x-data="{showMobile: false, showSolutions: false}" class="w-screen h-screen overflow-hidden">
+
+  <div class="w-full h-full overflow-auto">
+
+    <nav 
+    class="sticky z-40 top-0 w-full flex flex-wrap justify-between bg-blue-900 text-white p-4">
+      <span>{{title}}</span>
+      <button @click="showSolutions = true">solutions</button>
+      <button @click="showMobile = true">MENU</button>
+      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false"
+      class="w-full grid place-content-center py-8">
+        megamenu
+      </div>
+    </nav>
+
+    <main class="z-0">
+      {{ content | safe}}
+    </main>
+
+    {% include 'nav/nav.footer.njk' %}
+
+  </div>
+
+
+
+  <div x-cloak x-show="showMobile" @keyup.escape.window="showMobile = false"
+    class="z-50 fixed top-0 w-full h-screen grid place-content-center">
+    <div @click.self="showMobile = false" class="fixed w-full h-full bg-blue-950/50 backdrop-blur"></div>
+    <nav>
+      <ul class="relative bg-white rounded p-4">
+        <button @click="showMobile = false" class="font-black text-2xl">&times;</button>
+        <li><a href="#">menu item</a></li>
+        <li><a href="#">menu item</a></li>
+        <li><a href="#">menu item</a></li>
+        <li><a href="#">menu item</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
 </div>
