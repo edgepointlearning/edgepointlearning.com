@@ -8,15 +8,45 @@ layout: layouts/00.base.njk
 
   <div class="w-full h-full overflow-auto">
 
-    <nav 
-    class="sticky z-40 top-0 w-full flex flex-wrap justify-between bg-blue-900 text-white p-4">
-      <span>{{title}}</span>
-      <button @click="showSolutions = true">solutions</button>
-      <button @click="showMobile = true">MENU</button>
-      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false"
-      class="w-full grid place-content-center py-8">
-        megamenu
+    <nav class="sticky z-40 top-0 w-full bg-blue-900 px-4 shadow-md">
+      
+      <ul class="flex items-stretch max-w-5xl mx-auto h-16 gap-8">
+        <li class="flex items-center flex-auto"><a href="/" title="Home">{% svg "logo/epl-horizontal.svg", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}</a></li>
+        <li class="hidden md:flex items-center"><a @click="showSolutions = true">Solutions</a></li>
+        <li class="hidden md:flex items-center"><a href="/blog/">Insights</a></li>
+        <li class="hidden md:flex items-center"><a href="/about/">About</a></li>
+        <li class="hidden md:flex items-center"><a href="/form/demo/">Demos</a></li>
+        <li class="hidden md:flex items-center"><a href="/contact/">Contact</a></li>
+        <li class="flex md:hidden items-center"><a @click="showMobile = true">MENU</a></li>
+      </ul>
+      
+      {# megamenu wrapper container #}
+      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" class="grid grid-rows-2 grid-cols-4 max-w-5xl px-2 pb-2 mx-auto divide-solid place-items-center">
+        {# solutions loop #}
+        {% for link in solutions %}
+          <div class="p-3 max-w-[260px] ">
+            <a aria-label="{{ link.name }}" class="flex flex-wrap transition place-content-center group" href="{{ link.href }}"  @click="showChildren=false">
+              <div class="z-10 flex w-16">
+                {% svg link.icon, "aspect-square w-full opacity-50 transition origin-bottom group-hover:opacity-100 group-hover:scale-125 group-hover:-rotate-6" %}
+              </div>
+              <div class="p-3 pt-8 -mt-8 text-center transition bg-white rounded-lg group-hover:bg-blue-100 ring-1 ring-offset-4 ring-offset-white ring-transparent group-hover:ring-edgepoint-400 group-hover:scale-105">
+                <p class="text-sm font-medium text-edgepoint-500 group-hover:text-black">{{ link.name }}</p>
+                <div class="mx-auto w-12 h-[1px] bg-slate-300 my-1.5 group-hover:scale-x-[300%] group-hover:bg-slate-300 transition origin-center"></div>
+                <p class="text-xs text-slate-800">{{ link.desc }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+        {# solutions landing page #}
+        <div class="row-span-full w-full p-3">
+          <a href="/solutions/" aria-label="See all our solutions" class="flex flex-col justify-center w-full h-full py-4 px-1 rounded-lg text-center group transition bg-blue-50 ring-1 ring-blue-200 ring-offset-4 ring-offset-white hover:bg-blue-100 hover:ring-edgepoint-400 hover:scale-105">
+            <p class="font-extrabold text-edgepoint-500 group-hover:text-slate-700 text-lg lg:text-xl leading-none lg:leading-none">Not sure<br> where to start?</p>
+            {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto mx-auto px-4 mt-6 mb-2 transition group-hover:-rotate-6 group-hover:scale-110" %}
+            <p class="mt-1 text-edgepoint-700 text-xs lg:text-sm group-hover:text-black">Click here to learn which of our solutions is right for you.</p>
+          </a>
+        </div>
       </div>
+
     </nav>
 
     <main class="z-0">
