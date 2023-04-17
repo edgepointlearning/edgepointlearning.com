@@ -4,24 +4,25 @@ layout: layouts/00.base.njk
 {# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%} 
 
-<div x-data="{showMobile: false, showSolutions: false}" class="w-screen h-screen overflow-hidden">
+<div class="w-screen h-screen overflow-hidden" x-data="{showMobile: false, showSolutions: false}">
 
   <div class="w-full h-full overflow-auto">
 
-    <nav class="sticky z-40 top-0 w-full bg-blue-900 px-4 shadow-md">
+    <nav class="sticky z-40 top-0 w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 px-4 shadow-md">
       
-      <ul class="flex items-stretch max-w-5xl mx-auto h-16 gap-8">
-        <li class="flex items-center flex-auto"><a href="/" title="Home">{% svg "logo/epl-horizontal.svg", "w-full md:w-[200px] lg:w-[220px] aspect-[358/47]" %}</a></li>
-        <li class="hidden md:flex items-center"><a @click="showSolutions = true">Solutions</a></li>
-        <li class="hidden md:flex items-center"><a href="/blog/">Insights</a></li>
-        <li class="hidden md:flex items-center"><a href="/about/">About</a></li>
-        <li class="hidden md:flex items-center"><a href="/form/demo/">Demos</a></li>
-        <li class="hidden md:flex items-center"><a href="/contact/">Contact</a></li>
-        <li class="flex md:hidden items-center"><a @click="showMobile = true">MENU</a></li>
+      <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8">
+        <li class="flex items-center flex-auto"><a class="text-sm text-white hover:underline" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
+        <li class="hidden md:flex items-center"><a class="text-sm text-white hover:underline flex align-middle cursor-pointer" @click="showSolutions = true">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 aspect-square fill-white" %}</a></li>
+        <li class="hidden md:flex items-center"><a class="text-sm text-white hover:underline" href="/blog/">Insights</a></li>
+        <li class="hidden md:flex items-center"><a class="text-sm text-white hover:underline" href="/about/">About</a></li>
+        <li class="hidden md:flex items-center"><a class="text-sm text-white hover:underline" href="/form/demo/">Demos</a></li>
+        <li class="hidden md:flex items-center"><a class="text-sm text-white hover:underline" href="/contact/">Contact</a></li>
+        <li class="flex md:hidden items-center"><a class="text-sm text-white hover:underline" @click="showMobile = true">{% svg "menu/menu.svg", "h-6 fill-white" %}</a></li>
       </ul>
       
       {# megamenu wrapper container #}
-      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" class="grid grid-rows-2 grid-cols-4 max-w-5xl px-2 pb-2 mx-auto divide-solid place-items-center">
+      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" 
+      class="grid grid-rows-2 grid-cols-4 max-w-5xl px-2 pb-2 mx-auto divide-solid place-items-center">
         {# solutions loop #}
         {% for link in solutions %}
           <div class="p-3 max-w-[260px] ">
