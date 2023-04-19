@@ -8,9 +8,9 @@ layout: layouts/00.base.njk
 
   <div class="w-full h-full overflow-auto">
 
-    <nav class="sticky z-40 top-0 w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 px-4 shadow-md">
+    <nav class="sticky z-40 top-0 w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
       
-      <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8">
+      <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8 px-4">
         <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
         <li class="hidden md:flex items-center"><a class="nav-link flex align-middle cursor-pointer" @click="showSolutions = true">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 aspect-square fill-white" %}</a></li>
         <li class="hidden md:flex items-center"><a class="nav-link" href="/blog/">Insights</a></li>
@@ -21,34 +21,34 @@ layout: layouts/00.base.njk
       </ul>
       
       {# megamenu wrapper container #}
-      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false"
-      class="
-        max-w-5xl pb-4 mx-auto 
-        grid grid-rows-2 grid-cols-4 gap-x-4 gap-y-4">
-        {# solutions loop #}
-        {% for link in solutions %}
+      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" 
+      class="absolute w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
+        <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 p-4">
+          {# solutions loop #}
+          {% for link in solutions %}
 
-          <a aria-label="{{ link.name }}" href="{{ link.href }}"
-          class="
-            flex flex-col items-center
-            p-3 bg-blue-950 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
-            {% svg link.icon, "w-16 aspect-square origin-bottom transition opacity-50 group-hover:opacity-100 group-hover:scale-110 group-hover:-rotate-6" %}
-            <p class="font-medium text-white">{{ link.name }}</p>
-            <div class="mx-auto w-12 h-[1px] bg-blue-600 my-2 group-hover:scale-x-[300%] transition origin-center"></div>
-            <p class="text-xs text-blue-200 group-hover:text-white">{{ link.desc }}</p>
-          </a>
-        
-        {% endfor %}
-        {# solutions landing page #}
-          <a href="/solutions/" aria-label="See all our solutions" 
-          class="
-            row-span-full 
-            flex flex-col items-center justify-center 
-            p-1 bg-blue-950 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
-            <p class="font-extrabold text-xl text-white leading-none">Not sure<br> where to start?</p>
-            {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto px-4 mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
-            <p class="mt-1 text-sm text-blue-100 group-hover:text-white">Click here to learn which of our solutions is right for you.</p>
-          </a>
+            <a aria-label="{{ link.name }}" href="{{ link.href }}"
+            class="
+              flex flex-col items-center
+              p-3 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
+              {% svg link.icon, "w-16 aspect-square origin-bottom transition opacity-50 group-hover:opacity-100 group-hover:scale-110 group-hover:-rotate-6" %}
+              <p class="font-medium text-white">{{ link.name }}</p>
+              <div class="mx-auto w-12 h-[1px] bg-blue-600 my-2 group-hover:scale-x-[300%] transition origin-center"></div>
+              <p class="text-xs text-blue-200 group-hover:text-white">{{ link.desc }}</p>
+            </a>
+          
+          {% endfor %}
+          {# solutions landing page #}
+            <a href="/solutions/" aria-label="See all our solutions" 
+            class="
+              row-span-full 
+              flex flex-col items-center justify-center 
+              p-1 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
+              <p class="font-extrabold text-xl text-white leading-none">Not sure<br> where to start?</p>
+              {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto px-4 mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
+              <p class="mt-1 text-sm text-blue-100 group-hover:text-white">Click here to learn which of our solutions is right for you.</p>
+            </a>
+        </div>
       </div>
 
     </nav>
