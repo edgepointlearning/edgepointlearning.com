@@ -4,7 +4,11 @@ layout: layouts/00.base.njk
 {# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%} 
 
-<div class="w-screen h-screen overflow-hidden" x-data="{showMobile: false, showSolutions: false}">
+<div class="w-screen h-screen overflow-hidden" 
+  x-data="{showMobile: false, showSolutions: false, isMobile: false}"
+  x-init="isMobile = window.innerWidth < 768; $watch('isMobile', () => { if (showSolutions && isMobile) showSolutions = false; }); $watch('isMobile', () => { if (showMobile && !isMobile) showMobile = false; });"
+  x-on:resize.debounce.100.window="isMobile = window.innerWidth < 768"
+  >
 
   <div class="w-full h-full overflow-auto">
 
@@ -21,7 +25,11 @@ layout: layouts/00.base.njk
       </ul>
       
       {# megamenu wrapper container #}
-      <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" 
+      <div 
+      x-cloak 
+      x-show="showSolutions" 
+      @keyup.escape.window="showSolutions = false"
+      @click.away="showSolutions = false" 
       class="absolute w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
         <div class="-z-10 absolute w-full h-screen bg-blue-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
         <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 px-4 pb-4">
