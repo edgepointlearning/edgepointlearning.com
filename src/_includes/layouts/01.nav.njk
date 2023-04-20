@@ -23,7 +23,8 @@ layout: layouts/00.base.njk
       {# megamenu wrapper container #}
       <div x-cloak x-show="showSolutions" @keyup.escape.window="showSolutions = false" @click.away="showSolutions = false" 
       class="absolute w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
-        <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 p-4">
+        <div class="-z-10 absolute w-full h-screen bg-blue-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
+        <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 px-4 pb-4">
           {# solutions loop #}
           {% for link in solutions %}
 
