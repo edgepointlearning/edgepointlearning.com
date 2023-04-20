@@ -8,6 +8,7 @@ layout: layouts/00.base.njk
   x-data="{showMobile: false, showSolutions: false, isMobile: false}"
   x-init="isMobile = window.innerWidth < 768; $watch('isMobile', () => { if (showSolutions && isMobile) showSolutions = false; }); $watch('isMobile', () => { if (showMobile && !isMobile) showMobile = false; });"
   x-on:resize.debounce.100.window="isMobile = window.innerWidth < 768"
+  @keyup.escape.window="showSolutions = false; showMobile = false;"
   >
 
   <div class="w-full h-full overflow-auto">
@@ -25,11 +26,7 @@ layout: layouts/00.base.njk
       </ul>
       
       {# megamenu wrapper container #}
-      <div 
-      x-cloak 
-      x-show="showSolutions" 
-      @keyup.escape.window="showSolutions = false"
-      @click.away="showSolutions = false" 
+      <div x-cloak x-show="showSolutions" @click.away="showSolutions = false" 
       class="absolute w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
         <div class="-z-10 absolute w-full h-screen bg-blue-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
         <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 px-4 pb-4">
@@ -71,18 +68,38 @@ layout: layouts/00.base.njk
   </div>
 
 
-
-  <div x-cloak x-show="showMobile" @keyup.escape.window="showMobile = false"
+  {# mobile menu #}
+  <div x-cloak x-show="showMobile"
     class="z-50 fixed top-0 w-full h-screen grid place-content-center">
-    <div @click.self="showMobile = false" class="fixed w-full h-full bg-blue-950/50 backdrop-blur"></div>
-    <nav>
-      <ul class="relative bg-white rounded p-4">
-        <button @click="showMobile = false" class="font-black text-2xl">&times;</button>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-      </ul>
+    <div class="-z-10 fixed w-full h-full bg-blue-950/50 backdrop-blur" @click.self="showMobile = false"></div>
+
+    <nav class="relative bg-white rounded-lg grid grid-cols-2 gap-y-12 p-6">
+
+      <button @click="showMobile = false" class="absolute right-2 -top-1 font-bold text-4xl text-slate-400">&times;</button>
+
+      <div class="col-span-full mt-2"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal.svg", "w-[180px]" %}</a></div>
+      
+      <div class="flex flex-col gap-y-4 text-sm">
+        <a class="hover:underline font-semibold" href="/">Home</a>
+        <a class="hover:underline" href="/blog/">Insights</a>
+        <a class="hover:underline" href="/about/">About Us</a>
+        <a class="hover:underline" href="/form/demo/">Demos</a>
+        <a class="hover:underline" href="/contact/">Contact</a>
+      </div>
+
+      <div class="flex flex-col gap-y-4 text-sm">
+        <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
+        {% for link in solutions %}
+          <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
+        {% endfor %}
+      </div>
+
+      <div class="col-span-full flex justify-around">
+          {%- for link in socials -%}
+            <a aria-label="{{ link.name }}" href="{{ link.href }}">{% svg link.icon, "h-8 w-8" %}</a>
+          {%- endfor -%}
+      </div>
+
     </nav>
   </div>
 
