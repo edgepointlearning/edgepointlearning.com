@@ -17,12 +17,14 @@ layout: layouts/00.base.njk
       
       <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8 px-4">
         <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
-        <li class="hidden md:flex items-center"><a class="nav-link flex align-middle cursor-pointer" @click="showSolutions = true">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 aspect-square fill-white" %}</a></li>
+        <li class="hidden md:flex items-center">
+          <button class="nav-link flex align-middle cursor-pointer" @click="showSolutions = true">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 -mr-1 fill-white" %}</button>
+        </li>
         <li class="hidden md:flex items-center"><a class="nav-link" href="/blog/">Insights</a></li>
         <li class="hidden md:flex items-center"><a class="nav-link" href="/about/">About</a></li>
         <li class="hidden md:flex items-center"><a class="nav-link" href="/form/demo/">Demos</a></li>
         <li class="hidden md:flex items-center"><a class="nav-link" href="/contact/">Contact</a></li>
-        <li class="flex md:hidden items-center"><a class="cursor-pointer" @click="showMobile = true">{% svg "menu/menu.svg", "h-6 fill-white" %}</a></li>
+        <li class="flex md:hidden items-center"><button class="cursor-pointer" @click="showMobile = true">{% svg "menu/menu.svg", "h-6 fill-white" %}</button></li>
       </ul>
       
       {# megamenu wrapper container #}
@@ -36,7 +38,7 @@ layout: layouts/00.base.njk
             <a aria-label="{{ link.name }}" href="{{ link.href }}"
             class="
               flex flex-col items-center
-              p-3 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
+              p-3 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50 hover:shadow-lg hover:shadow-blue-500">
               {% svg link.icon, "w-16 aspect-square origin-bottom transition opacity-50 group-hover:opacity-100 group-hover:scale-110 group-hover:-rotate-6" %}
               <p class="font-medium text-white">{{ link.name }}</p>
               <div class="mx-auto w-12 h-[1px] bg-blue-600 my-2 group-hover:scale-x-[300%] transition origin-center"></div>
@@ -49,7 +51,7 @@ layout: layouts/00.base.njk
             class="
               row-span-full 
               flex flex-col items-center justify-center 
-              p-1 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50">
+              p-1 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50 hover:shadow-lg hover:shadow-blue-400">
               <p class="font-extrabold text-xl text-white leading-none">Not sure<br> where to start?</p>
               {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto px-4 mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
               <p class="mt-1 text-sm text-blue-100 group-hover:text-white">Click here to learn which of our solutions is right for you.</p>
