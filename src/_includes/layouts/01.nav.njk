@@ -13,7 +13,7 @@ layout: layouts/00.base.njk
 
   <div class="w-full h-full overflow-auto">
 
-    <nav class="sticky z-40 top-0 w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
+    <nav class="sticky z-40 top-0 w-full bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
       
       <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8 px-4">
         <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
@@ -28,33 +28,38 @@ layout: layouts/00.base.njk
       </ul>
       
       {# megamenu wrapper container #}
-      <div x-cloak x-show="showSolutions" @click.away="showSolutions = false" 
-      class="absolute w-full bg-gradient-to-r from-blue-950 via-blue-800 to-blue-950 shadow-md">
-        <div class="-z-10 absolute w-full h-screen bg-blue-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
+      <div 
+      x-cloak x-show="showSolutions" @click.away="showSolutions = false" 
+      class="absolute w-full bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
+        <div class="-z-10 absolute w-full h-screen bg-edgepoint-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
         <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 px-4 pb-4">
           {# solutions loop #}
           {% for link in solutions %}
 
             <a aria-label="{{ link.name }}" href="{{ link.href }}"
             class="
-              flex flex-col items-center
-              p-3 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50 hover:shadow-lg hover:shadow-blue-500">
+              bg-edgepoint-900/30 hover:bg-edgepoint-950/50 outline-edgepoint-400 hover:shadow-blue-600
+              flex flex-col items-center p-3 rounded-xl text-center group outline outline-0 hover:outline-2 hover:shadow-lg ">
               {% svg link.icon, "w-16 aspect-square origin-bottom transition opacity-50 group-hover:opacity-100 group-hover:scale-110 group-hover:-rotate-6" %}
-              <p class="font-medium text-white">{{ link.name }}</p>
-              <div class="mx-auto w-12 h-[1px] bg-blue-600 my-2 group-hover:scale-x-[300%] transition origin-center"></div>
-              <p class="text-xs text-blue-200 group-hover:text-white">{{ link.desc }}</p>
+              <p class="font-medium leading-tight text-white">{{ link.name }}</p>
+              <div class="
+                my-2 h-[1px]
+                mx-auto w-16 
+                bg-gradient-to-r from-edgepoint-900/0 via-edgepoint-500 to-edgepoint-900/0 
+                group-hover:via-edgepoint-400 group-hover:scale-x-[200%] transition origin-center"></div>
+              <p class="text-xs text-edgepoint-200 group-hover:text-white">{{ link.desc }}</p>
             </a>
           
           {% endfor %}
           {# solutions landing page #}
             <a href="/solutions/" aria-label="See all our solutions" 
             class="
-              row-span-full 
-              flex flex-col items-center justify-center 
-              p-1 bg-blue-950/50 rounded-xl text-center group outline outline-0 outline-blue-500 hover:outline-2 hover:bg-black/50 hover:shadow-lg hover:shadow-blue-400">
-              <p class="font-extrabold text-xl text-white leading-none">Not sure<br> where to start?</p>
-              {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto px-4 mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
-              <p class="mt-1 text-sm text-blue-100 group-hover:text-white">Click here to learn which of our solutions is right for you.</p>
+              row-span-full justify-center
+              hover:bg-edgepoint-950/50 outline-edgepoint-400 hover:shadow-blue-600
+              flex flex-col items-center p-1 rounded-xl text-center group outline outline-0 hover:outline-2 hover:shadow-lg ">
+              <p class="font-extrabold text-xl text-white leading-tight">Not sure<br> where to start?</p>
+              {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
+              <p class="mt-1 text-sm text-edgepoint-100 group-hover:text-white">Click here to learn<br> which of our solutions<br> are right for you.</p>
             </a>
         </div>
       </div>
@@ -73,7 +78,7 @@ layout: layouts/00.base.njk
   {# mobile menu #}
   <div x-cloak x-show="showMobile"
     class="z-50 fixed top-0 w-full h-screen grid place-content-center">
-    <div class="-z-10 fixed w-full h-full bg-blue-950/50 backdrop-blur" @click.self="showMobile = false"></div>
+    <div class="-z-10 fixed w-full h-full bg-edgepoint-950/50 backdrop-blur" @click.self="showMobile = false"></div>
 
     <nav class="relative bg-white rounded-lg grid grid-cols-2 gap-y-12 p-6">
 
