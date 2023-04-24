@@ -45,3 +45,11 @@
   left: 5px;
   top: 32px;
 }
+
+/* sticky nav.js */
+.scroll-down #navbar {
+  @apply -translate-y-16
+}
+.scroll-up #navbar {
+  @apply translate-y-0
+}
