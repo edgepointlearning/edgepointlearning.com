@@ -3,7 +3,8 @@ import 'sharer.js'
 import ClipboardJS from 'clipboard'
 import './lite-youtube.js'
 import "./vi-lazyload.js";
-import "./sticky-nav.js";
+// smart sticky nav:
+// import "./sticky-nav.js";
 
 // clipboardJS
 var clipboard = new ClipboardJS('.clipboard');
