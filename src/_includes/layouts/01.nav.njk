@@ -15,8 +15,7 @@ layout: layouts/00.base.njk
     });"
   x-on:resize.debounce.100.window="isMobile = window.innerWidth < 768"
   @keyup.escape.window="showSolutions = false; showMobile = false;"
-  {# for smart sticky nav, hide solutions menu on scroll: #}
-  {# @scroll.debounce.100.window="showSolutions = false" #}
+  @scroll.debounce.100.window="showSolutions = false"
   >
 
   {# top navbar #}
