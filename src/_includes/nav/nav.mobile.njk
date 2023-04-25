@@ -1,56 +1,28 @@
-<nav class="md:hidden sticky top-0 z-30 bg-white shadow-md">
-  <ul class="place-items-center flex justify-between w-full h-12">
+<nav class="relative bg-white rounded-lg grid grid-cols-2 gap-y-12 p-6">
 
-    <li 
-      x-data="{showChildren:false}" @click.away="showChildren=false, bsd(false)"
-      >
-      <span class="cursor-pointer" @click.prevent="showChildren=!showChildren" title="Open Menu">
-        <div x-show="!showChildren" x-on:click="bsd(true)" class="grid place-items-center w-12 h-12">{% svg "menu/menu.svg", "h-5 aspect-square fill-edgepoint-500" %}</div>
-        <div x-show="showChildren" x-on:click="bsd(false)" class="grid place-items-center w-12 h-12">{% svg "menu/close.svg", "h-5 aspect-square" %}</div>
-      </span>
+  <button @click="showMobile = false" class="absolute right-2 -top-1 font-bold text-4xl text-slate-400">&times;</button>
 
-      <nav
-        style="display:none"
-        x-show="showChildren" @click.away="showChildren=false" class="absolute left-0 w-full h-screen bg-white">
-        <div class="
-          grid grid-cols-2 sm:grid-cols-3 justify-center
-          pt-8 pl-8 pr-4 sm:px-0 gap-y-12 md:gap-x-24 
-          text-sm whitespace-nowrap">
-          
-          <div class="flex flex-col gap-y-4 sm:mx-auto">
-            <a class="font-semibold hover:underline" href="/">Home</a>
-            <a class="hover:underline " href="/blog/">Insights</a>
-            <a class="hover:underline" href="/about/">About Us</a>
-            <a class="hover:underline " href="/form/demo/">Demos</a>
-            <a class="hover:underline " href="/contact/">Contact</a>
-          </div>
+  <div class="col-span-full mt-2"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal.svg", "w-[180px]" %}</a></div>
+  
+  <div class="flex flex-col gap-y-4 text-sm">
+    <a class="hover:underline font-semibold" href="/">Home</a>
+    <a class="hover:underline" href="/blog/">Insights</a>
+    <a class="hover:underline" href="/about/">About Us</a>
+    <a class="hover:underline" href="/form/demo/">Demos</a>
+    <a class="hover:underline" href="/contact/">Contact</a>
+  </div>
 
-          <div class="flex flex-col gap-y-4 sm:mx-auto">
-            <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
-            {% for link in solutions %}
-              <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
-            {% endfor %}
-          </div>
+  <div class="flex flex-col gap-y-4 text-sm">
+    <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
+    {% for link in solutions %}
+      <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
+    {% endfor %}
+  </div>
 
-          <div class="
-            col-span-full sm:col-span-1
-            flex flex-wrap sm:flex-col 
-            gap-y-4 gap-x-8 sm:mx-auto">
-            <p class="font-semibold w-full">Social</p>
-              {%- for link in socials -%}
-                <a aria-label="{{ link.name }}" href="{{ link.href }}" class="flex p-2">
-                  {% svg link.icon, "h-8 w-8" %}
-                </a>
-              {%- endfor -%}
-          </div>
+  <div class="col-span-full flex justify-around">
+      {%- for link in socials -%}
+        <a aria-label="{{ link.name }}" href="{{ link.href }}">{% svg link.icon, "h-8 w-8" %}</a>
+      {%- endfor -%}
+  </div>
 
-        </div>
-      </nav>
-
-    </li>
-
-    <li><a href="/" title="Home">{% svg "logo/epl-horizontal.svg", "h-5 aspect-[358/47]" %}</a></li>
-    <li class="place-items-center flex justify-center w-12 h-12"></li>
-
-  </ul>
 </nav>

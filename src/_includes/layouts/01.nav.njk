@@ -4,111 +4,49 @@ layout: layouts/00.base.njk
 {# BUG: https://github.com/trys/11ty-component-macro/issues/1 #}
 {%- from "system/component.njk" import component -%} 
 
-<div class="w-screen h-screen overflow-hidden" 
-  x-data="{showMobile: false, showSolutions: false, isMobile: false}"
-  x-init="isMobile = window.innerWidth < 768; $watch('isMobile', () => { if (showSolutions && isMobile) showSolutions = false; }); $watch('isMobile', () => { if (showMobile && !isMobile) showMobile = false; });"
+<div
+  x-data="{ showMobile: false, showSolutions: false, isMobile: false }"
+  x-init="
+    isMobile = window.innerWidth < 768;
+    $watch('isMobile', () => { if (showSolutions && isMobile) showSolutions = false; });
+    $watch('isMobile', () => { if (showMobile && !isMobile) showMobile = false; });
+    $watch('showMobile', show => {
+      document.body.classList.toggle('overflow-hidden', show);
+    });"
   x-on:resize.debounce.100.window="isMobile = window.innerWidth < 768"
   @keyup.escape.window="showSolutions = false; showMobile = false;"
+  {# for smart sticky nav, hide solutions menu on scroll: #}
+  {# @scroll.debounce.100.window="showSolutions = false" #}
   >
 
-  <div class="w-full h-full overflow-auto">
+  {# top navbar #}
+  <nav id="navbar" class="z-40 relative top-0 w-full transition bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
+  
+    {% include 'nav/nav.topbar.njk' %}
 
-    <nav class="relative md:sticky z-40 top-0 w-full bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
-      
-      <ul class="h-16 flex items-stretch max-w-5xl mx-auto gap-8 px-4">
-        <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
-        <li class="hidden md:flex items-center">
-          <button class="nav-link flex align-middle cursor-pointer" @click="showSolutions = true">Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 -mr-1 fill-white" %}</button>
-        </li>
-        <li class="hidden md:flex items-center"><a class="nav-link" href="/blog/">Insights</a></li>
-        <li class="hidden md:flex items-center"><a class="nav-link" href="/about/">About</a></li>
-        <li class="hidden md:flex items-center"><a class="nav-link" href="/form/demo/">Demos</a></li>
-        <li class="hidden md:flex items-center"><a class="nav-link" href="/contact/">Contact</a></li>
-        <li class="flex md:hidden items-center"><button class="cursor-pointer" @click="showMobile = true">{% svg "menu/menu.svg", "h-6 fill-white" %}</button></li>
-      </ul>
-      
-      {# megamenu wrapper container #}
-      <div 
-      x-cloak x-show="showSolutions" @click.away="showSolutions = false" 
-      class="absolute w-full bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
-        <div class="-z-10 absolute w-full h-screen bg-edgepoint-950/50 backdrop-blur"  @click.self="showSolutions = false"></div>
-        <div class="max-w-5xl mx-auto grid grid-rows-2 grid-cols-4 gap-4 px-4 pb-4">
-          {# solutions loop #}
-          {% for link in solutions %}
+    {# megamenu wrapper container #}
+    <div x-cloak x-show="showSolutions" @click.away="showSolutions = false" class="absolute w-full transition bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
+      {# overlay background #}
+      <div @click.self="showSolutions = false" class="-z-10 fixed w-full h-screen bg-edgepoint-950/50 backdrop-blur"></div>
+      {# megamenu #}
+      {% include 'nav/nav.solutions.njk' %}
+    </div>
 
-            <a aria-label="{{ link.name }}" href="{{ link.href }}"
-            class="
-              bg-edgepoint-900/30 hover:bg-edgepoint-950/50 outline-edgepoint-400 hover:shadow-blue-600
-              flex flex-col items-center p-3 rounded-xl text-center group outline outline-0 hover:outline-2 hover:shadow-lg ">
-              {% svg link.icon, "w-16 aspect-square origin-bottom transition opacity-50 group-hover:opacity-100 group-hover:scale-110 group-hover:-rotate-6" %}
-              <p class="font-medium leading-tight text-white">{{ link.name }}</p>
-              <div class="
-                my-2 h-[1px]
-                mx-auto w-16 
-                bg-gradient-to-r from-edgepoint-900/0 via-edgepoint-500 to-edgepoint-900/0 
-                group-hover:via-edgepoint-400 group-hover:scale-x-[200%] transition origin-center"></div>
-              <p class="text-xs text-edgepoint-200 group-hover:text-white">{{ link.desc }}</p>
-            </a>
-          
-          {% endfor %}
-          {# solutions landing page #}
-            <a href="/solutions/" aria-label="See all our solutions" 
-            class="
-              row-span-full justify-center
-              hover:bg-edgepoint-950/50 outline-edgepoint-400 hover:shadow-blue-600
-              flex flex-col items-center p-1 rounded-xl text-center group outline outline-0 hover:outline-2 hover:shadow-lg ">
-              <p class="font-extrabold text-xl text-white leading-tight">Not sure<br> where to start?</p>
-              {% picture "misc/jelly-character-book-map.svg", "", "w-full h-auto mt-6 mb-2 origin-bottom transition group-hover:rotate-6 group-hover:scale-125" %}
-              <p class="mt-1 text-sm text-edgepoint-100 group-hover:text-white">Click here to learn<br> which of our solutions<br> are right for you.</p>
-            </a>
-        </div>
-      </div>
-
-    </nav>
-
-    <main class="z-0">
-      {{ content | safe}}
-    </main>
-
-    {% include 'nav/nav.footer.njk' %}
-
-  </div>
+  </nav>
 
 
   {# mobile menu #}
-  <div x-cloak x-show="showMobile"
-    class="z-50 fixed top-0 w-full h-screen grid place-content-center">
-    <div class="-z-10 fixed w-full h-full bg-edgepoint-950/50 backdrop-blur" @click.self="showMobile = false"></div>
-
-    <nav class="relative bg-white rounded-lg grid grid-cols-2 gap-y-12 p-6">
-
-      <button @click="showMobile = false" class="absolute right-2 -top-1 font-bold text-4xl text-slate-400">&times;</button>
-
-      <div class="col-span-full mt-2"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal.svg", "w-[180px]" %}</a></div>
-      
-      <div class="flex flex-col gap-y-4 text-sm">
-        <a class="hover:underline font-semibold" href="/">Home</a>
-        <a class="hover:underline" href="/blog/">Insights</a>
-        <a class="hover:underline" href="/about/">About Us</a>
-        <a class="hover:underline" href="/form/demo/">Demos</a>
-        <a class="hover:underline" href="/contact/">Contact</a>
-      </div>
-
-      <div class="flex flex-col gap-y-4 text-sm">
-        <a class="font-semibold hover:underline" href="/solutions/">Solutions</a>
-        {% for link in solutions %}
-          <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
-        {% endfor %}
-      </div>
-
-      <div class="col-span-full flex justify-around">
-          {%- for link in socials -%}
-            <a aria-label="{{ link.name }}" href="{{ link.href }}">{% svg link.icon, "h-8 w-8" %}</a>
-          {%- endfor -%}
-      </div>
-
-    </nav>
+  <div x-cloak x-show="showMobile" class="z-50 fixed top-0 left-0 w-full h-screen grid place-content-center">
+    {# mobile menu #}
+    {% include 'nav/nav.mobile.njk' %}
+    {# overlay background #}
+    <div @click.self="showMobile = false" class="-z-10 fixed w-full h-full bg-edgepoint-950/50 backdrop-blur"></div>
   </div>
 
-
 </div>
+
+<main>
+  {{ content | safe}}
+</main>
+
+{% include 'nav/nav.footer.njk' %}
