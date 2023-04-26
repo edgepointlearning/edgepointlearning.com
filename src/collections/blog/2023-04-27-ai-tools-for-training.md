@@ -70,8 +70,8 @@ Of course, ChatGPT isn’t the only language AI modeling tool. You can also find
 4. [Grammarly](https://www.grammarly.com/): Download the desktop app to seamlessly get feedback and grammar support on your written content. 
 5. [Copy.ai](https://www.copy.ai/tools): This is an AI-powered writing generator that creates marketing copy for emails, social posts, and other short content (like microlearning) with just a few clicks.
 
-👉Discover more: [Read our full post on ChatGPT for training here](/blog/chatgpt-and-employee-training/). In it, we cover its potential uses, drawbacks, and more. 
-
+👉**Discover more:** [Read our full post on ChatGPT for training here](/blog/chatgpt-and-employee-training/). In it, we cover its potential uses, drawbacks, and more. 
+{ .blog-card-blue }
 
 { .scroll-mt-20 id="section3"}
 
@@ -117,8 +117,8 @@ Use these AI voiceover tools to generate high-quality, human-like voiceover for 
 * **Personalizing content**: Generate personalized voiceover for learners, such as addressing learners by name or providing customized feedback based on their performance.
 * **Developing text-to-speech scripts**: AI voiceover tools can easily convert written text into spoken words, making it easier for learners to consume content in a variety of formats.
 
-👉Discover more: Learn more on how to [manage eLearning localization for your global employees](/blog/elearning-localization/) in our full guide. 
-
+👉**Discover more:** Learn more on how to [manage eLearning localization for your global employees](/blog/elearning-localization/) in our full guide. 
+{ .blog-card-blue }
 
 { .scroll-mt-20 id="section6"}
 
