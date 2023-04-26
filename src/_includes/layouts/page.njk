@@ -8,29 +8,22 @@ layout: 'layouts/01.nav.njk'
 
 <header class="relative overflow-hidden w-full">
   
-  {% set videoCSS = ["absolute -z-40 object-cover w-screen h-full", " " , hero.style] | join %}
+  {% set videoCSS = ["-z-40 absolute object-cover w-screen h-full", " " , hero.style] | join %}
   {% hero hero.poster, hero.video, videoCSS, "high" %}
 
-  <div class="absolute w-full h-full bg-black/20 sm:hidden -z-30"></div>
-  
   {% svg hero.wave, hero.waveClasses %}
   
-  <section class="
-      relative z-10
-      w-full max-w-5xl
-      mx-auto 
-      pt-16 md:pt-24
-      pb-20 md:pb-36
-      ">
+  <section class="z-10 relative w-full max-w-5xl mx-auto ">
     <div class="
-        max-w-xl
-        mx-auto md:ml-12
-        p-12
-        rounded-2xl
-        sm:bg-gradient-to-tr from-black/30 via-black/0 to-black/30
+        max-w-fit
+        ml-6 sm:ml-12
+        mt-16 md:mt-24
+        mb-20 md:mb-36
+        p-6  sm:p-12
+        rounded-2xl bg-gradient-to-tr from-black/30 via-black/0 to-black/30 text-white
         ">
-      <h1 class="text-3xl sm:text-5xl font-semibold text-white">{{ hero.headline | safe }}</h1>
-      <h2 class="text-xl sm:text-3xl font-light text-white my-12">{{ hero.tagline | safe }}</h2>
+      <h1 class="text-3xl sm:text-5xl font-semibold">{{ hero.headline | safe }}</h1>
+      <h2 class="text-xl  sm:text-3xl font-light    my-8 sm:my-12">{{ hero.tagline | safe }}</h2>
 
       <div class="flex pt-2 text-xs gap-x-8 md:text-base">
         {% if hero.cta[0] %} {{ component('button.blue', { url: hero.cta[0].url, name: hero.cta[0].name }) }} {% endif %}
