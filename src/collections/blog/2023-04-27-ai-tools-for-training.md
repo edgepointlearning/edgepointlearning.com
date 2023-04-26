@@ -24,9 +24,7 @@ There are so many AI tools available, from those that can help you optimize your
 </div>
 
 
-{ .scroll-mt-20 id="section1"}
-
-## How to “talk” AI 
+## How to “talk” AI { .scroll-mt-8 id="section1"}
 
 Before using any of these AI tools for training, be aware that you’ll be learning how to communicate and work with the AI tools themselves. Put simply, you will not be able to type in a few sentences and have fully-finished eLearning courses or graphics churn out. 
 
@@ -47,9 +45,7 @@ You’ll also need to learn how to craft effective prompts that give clear and s
 Ready to get started? We certainly are! These are the best AI tools for training and development that you can use right now, along with ideas for using each one. 
 
 
-{ .scroll-mt-20 id="section2"}
-
-## ChatGPT and other drafting tools
+## ChatGPT and other drafting tools { .scroll-mt-8 id="section2"}
 
 [ChatGPT](https://chat.openai.com/) is an AI language model that can help your team with a variety of training and development tasks. You’ve likely heard a lot about ChatGPT, and you can learn more in our full guide below. 
 
@@ -73,9 +69,8 @@ Of course, ChatGPT isn’t the only language AI modeling tool. You can also find
 👉**Discover more:** [Read our full post on ChatGPT for training here](/blog/chatgpt-and-employee-training/). In it, we cover its potential uses, drawbacks, and more. 
 { .blog-card-blue }
 
-{ .scroll-mt-20 id="section3"}
 
-## Illustration and graphic AI tools for training
+## Illustration and graphic AI tools for training { .scroll-mt-8 id="section3"}
 
 Many eLearning courses and modules rely on visuals and graphics to convey key points or provide color to training. Some AI tools that can help you create more visuals include: 
 
@@ -90,9 +85,7 @@ Think beyond basic images. You can also use these tools to automate the process 
 Note: Carefully review the terms and conditions of any graphics-generating AI websites for potential copyright issues. While AI-generated images are not copyrightable, a lot of the art fed into an AI is copyrighted and some sites don’t follow copyright rules. Unfortunately, there’s a lot of legal gray area, which will continue as these types of tools become more popular. 
 
 
-{ .scroll-mt-20 id="section4"}
-
-## Video AI tools for training
+## Video AI tools for training { .scroll-mt-8 id="section4"}
 
 Because of the processing time required for video, AI video tools are still in their infancy. A few tools can help your team create short videos, especially those that rely on text and simple graphics. More importantly, they can also help you edit videos or save time on other routine video tasks. 
 
@@ -103,9 +96,7 @@ Check out these video AI tools to help your team reduce time during video work:
 3. [Wisecut](https://www.wisecut.video/): Use this AI video editing tool to remove long pauses, add background music, and include subtitles to create engaging videos.
 
 
-{ .scroll-mt-20 id="section5"}
-
-## Voiceover AI tools for training
+## Voiceover AI tools for training {.scroll-mt-8 id="section5"}
 
 Voiceover audio can make your courses more [accessible](/blog/accessible-elearning-programs/) and offer a more immersive experience. Voiceover talent will still play a large role for some situations, offering creative and rich audio for your courses and videos. However, voiceover AI tools can be helpful for straightforward courses or short microlearning resources. 
 
@@ -120,9 +111,8 @@ Use these AI voiceover tools to generate high-quality, human-like voiceover for 
 👉**Discover more:** Learn more on how to [manage eLearning localization for your global employees](/blog/elearning-localization/) in our full guide. 
 { .blog-card-blue }
 
-{ .scroll-mt-20 id="section6"}
 
-## Towards the future 
+## Towards the future { .scroll-mt-8 id="section6"}
 
 Because the possibilities feel limitless, it’s easy to think that AI tools for training are an automatic solution for developing any type of training or professional resources. That’s simply not the case. 
 
