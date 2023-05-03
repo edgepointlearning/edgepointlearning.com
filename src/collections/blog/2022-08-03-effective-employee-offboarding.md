@@ -1,5 +1,6 @@
 ---
-title:      "Don't Just Say &quot;See Ya Later&quot;: How Employee Offboarding Can Help"
+title: >-
+  Don't Just Say "See Ya Later": How Employee Offboarding Can Help
 permalink:  /blog/effective-employee-offboarding/
 image:      blog/2022/2022-08-03-effective-employee-offboarding.jpg
 meta:       Your effective offboarding procedure with an exiting employee is critical to their transition and to your company’s continued smooth operation.
