@@ -24,7 +24,7 @@ layout: layouts/00.base.njk
     {% include 'nav/nav.topbar.njk' %}
 
     {# megamenu wrapper container #}
-    <div x-cloak x-show="showSolutions" @click.away="showSolutions = false" class="absolute w-full transition bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
+    <div style="display:none" x-cloak x-show="showSolutions" @click.away="showSolutions = false" class="absolute w-full transition bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md">
       {# overlay background #}
       <div @click.self="showSolutions = false" class="-z-10 fixed w-full h-screen bg-edgepoint-950/50 backdrop-blur"></div>
       {# megamenu #}
@@ -35,7 +35,7 @@ layout: layouts/00.base.njk
 
 
   {# mobile menu #}
-  <div x-cloak x-show="showMobile" class="z-50 fixed top-0 left-0 w-full h-screen grid place-content-center">
+  <div style="display:none" x-cloak x-show="showMobile" class="z-50 fixed top-0 left-0 w-full h-screen grid place-content-center">
     {# mobile menu #}
     {% include 'nav/nav.mobile.njk' %}
     {# overlay background #}

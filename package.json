@@ -1,17 +1,13 @@
 {
   "scripts": {
     "clean": "rimraf _site",
-    
-    "serve:esbuild":  "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --watch",
-    "build:esbuild":  "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --minify",
-    
-    "serve:postcss":  "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose --watch",
-    "build:postcss":  "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose",
-
+    "serve:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --watch",
+    "build:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --minify",
+    "serve:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose --watch",
+    "build:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose",
     "serve:eleventy": "eleventy --serve --incremental",
     "build:eleventy": "eleventy",
-
-    "dev":   "cross-env NODE_ENV=development npm-run-all clean -p serve:*",
+    "dev": "cross-env NODE_ENV=development npm-run-all clean -p serve:*",
     "build": "cross-env NODE_ENV=production  npm-run-all -s build:*"
   },
   "dependencies": {
@@ -31,11 +27,13 @@
   },
   "devDependencies": {
     "@justinribeiro/lite-youtube": "1.5.0",
+    "child_process": "^1.0.2",
     "cross-env": "7.0.3",
     "esbuild": "0.17.11",
     "html-minifier": "4.0.0",
     "netlify-plugin-cache": "1.0.3",
     "npm-run-all": "4.1.5",
+    "pagefind": "^0.12.0",
     "postcss": "8.4.21",
     "postcss-cli": "10.1.0",
     "postcss-import": "15.1.0",
