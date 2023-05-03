@@ -8,9 +8,10 @@
     {% endif %}
     {# meta #}
     {% ogImage image, metadata.url %}
+    {% set ogTitle = title|escape + " | EdgePoint Learning" %}
     {# https://metagendocs.netlify.app/ #}
     {% metagen 
-      title = title + " | EdgePoint Learning",
+      title = ogTitle,
       desc  = meta or metadata.description,
       url = metadata.url + page.url,
       name = author or "EdgePoint Learning",
