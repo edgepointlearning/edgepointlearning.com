@@ -38,9 +38,37 @@
         <button class="infusion-recaptcha" id="recaptcha_4068798a92ac8a5ae2a5d03e9de370af" type="submit">Let's Talk!</button>
     </div>
 </form>
-<script type="text/javascript" src="https://lf225.infusionsoft.app/app/webTracking/getTrackingCode"></script>
-<script type="text/javascript" src="https://lf225.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.545786-hf-202305021006"></script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
-<script type="text/javascript" src="https://lf225.infusionsoft.com/app/timezone/timezoneInputJs?xid=4068798a92ac8a5ae2a5d03e9de370af"></script>
-<script type="text/javascript" src="https://lf225.infusionsoft.com/js/jquery/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="https://lf225.infusionsoft.app/app/webform/overwriteRefererJs"></script>
+
+
+<script>
+  // Create an IntersectionObserver instance
+  const observerContact = new IntersectionObserver(entries => {
+    // When the form is intersecting (i.e., visible), load the scripts
+    if (entries[0].isIntersecting) {
+      const scripts = [
+        "https://lf225.infusionsoft.app/app/webTracking/getTrackingCode",
+        "https://lf225.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.545786-hf-202305021006",
+        "https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit",
+        "https://lf225.infusionsoft.com/app/timezone/timezoneInputJs?xid=4068798a92ac8a5ae2a5d03e9de370af",
+        "https://lf225.infusionsoft.com/js/jquery/jquery-3.3.1.js",
+        "https://lf225.infusionsoft.app/app/webform/overwriteRefererJs"
+      ];
+
+      // Load the scripts dynamically
+      scripts.forEach(src => {
+        const script = document.createElement("script");
+        script.src = src;
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+      });
+
+      // Stop observing the form once the scripts are loaded
+      observerContact.disconnect();
+    }
+  });
+
+  // Observe the form
+  const contactForm = document.querySelector("#inf_form_4068798a92ac8a5ae2a5d03e9de370af");
+  observerContact.observe(contactForm);
+</script>
