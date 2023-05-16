@@ -1,6 +1,6 @@
 ---
 date: 2023-02-16
-title: "How to Design Accessible eLearning: 10 Guideline"
+title: "How to Design Accessible eLearning: 10 Guidelines"
 permalink: /blog/accessible-elearning-programs/
 image: blog/2023/2023-05-17-accessible-elearning-programs.jpg
 meta:  What is accessible eLearning, and why is it so important? Discover key regulations to follow, and how to make your online training accessible for learners. 
@@ -32,7 +32,7 @@ Accessible eLearning ensures your training is inclusive to all your users. It’
 
 If you think your employees aren’t facing challenges, think again. An estimated 10% of the population is [diagnosed with dyslexia](https://medium.com/@lauracatherineduggan/dyslexia-and-how-it-affects-your-web-design-baf29f85b336) (with many more undiagnosed), and an additional [12% of U.S. adults are disabled](https://www.pewresearch.org/fact-tank/2017/07/27/7-facts-about-americans-with-disabilities/) in another way. Chances are also good that you have employees with [hidden disabilities](http://www.ist.hawaii.edu/training/hiddendisabilities/05_hidden_disabilities.php) that need accommodation.
 
-Accessibility is important in a few other ways, too. By complying with accessible eLearning guidelines, you can serve your audience with one training course, avoiding the need to manage multiple versions. There are also accessibility rules you must follow to avoid legal risk. 
+Accessibility is important in a few other ways, too. By complying with accessible eLearning guidelines, you can serve your audience with one training course, avoiding the need to manage multiple versions. There are also accessibility rules you may need to follow to avoid legal risk. 
 
 
 ## What are accessible eLearning guidelines and laws? { .scroll-mt-8 id="section2"}
@@ -53,7 +53,7 @@ The [World Wide Web Consortium](http://www.w3.org/Consortium/) (W3C) consists of
 
 The three levels of WCAG – A, AA, and AAA – denote the level of accessibility, with A being the very minimum level and AAA being accessible to all. Most companies aim for AA, and larger companies may aim higher. 
 
-In 2018, the [EU Web Accessibility Directive](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility) required public-facing websites and apps to adopt these standards. Any websites created after 2018 must meet accessibility standards by September 2019, while those created before must comply by September 2020. Although these standards are not legally required in the U.S. yet, consider these WCAG guidelines as technology best practices that make your eLearning accessible anywhere in the world. This is especially important for global organizations that train employees in European countries.
+In 2018, the [EU Web Accessibility Directive](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility) required public-facing websites and apps to adopt these standards. Although these standards are not legally required in the U.S. yet, consider these WCAG guidelines as technology best practices that make your eLearning accessible anywhere in the world. This is especially important for global organizations that train employees in European countries.
 
 These guidelines can be broken into four main principles: 
 
@@ -139,7 +139,10 @@ Think of how frustrating poor design could become in the future and plan for adj
 
 Start the design of your eLearning courses with an understanding of who will be using them. This may seem like common sense, but you might be surprised by how many companies complete due diligence when it comes to figuring out course objectives, only to ignore the end user and their needs for access.
 
+
+
 👉**Learn more:** A [high-quality training needs analysis](/blog/training-needs-analysis/) considers both course objectives and who is going to be meeting them, not only for current learners but also for those to come.
+ { .blog-card-blue }
 
 ### 3. Check your language
 
@@ -164,6 +167,8 @@ For screen readers for the visually impaired, use headings for text and clearly-
 For audio and video, use closed captioning and audio description or descriptive text. Audio descriptions with videos can include descriptions of scenes, actor expressions, and more. Check that background audio levels don’t make it hard to perceive any audio content. 
 
 👉**Learn more:** [Find Harvard’s Digital Accessibility website for more information](https://accessibility.huit.harvard.edu/provide-captions-and-descriptions-video) 
+ { .blog-card-blue }
+
 
 ### 6. Make navigation easier 
 
@@ -187,6 +192,8 @@ Rethink activities that may be difficult for those with visual or mobility disab
 If any of these are a crucial part of your design, add easy keyboard shortcuts for those who need them. All of that being said, compliant courses don’t mean boring. Scenario-based learning is a great way to drive engagement with story. 
 
 👉**Learn more:** [How to use scenarios to create better eLearning training](h/blog/Scenarios-Compliance-Training/)
+ { .blog-card-blue }
+
 
 ### 8. Keep an eye out for new technology
 
@@ -204,7 +211,7 @@ When your eLearning course is about to launch, take the time (and spend the mone
 
 Choose accessibility testing standards from the WCAG (at a minimum, AA) and run through all aspects of your course to see if it meets that standard. If you find it difficult to figure out just how accessible it is, ask for volunteers to beta test your course. You will get good information on what changes to make before you go live. Another option for some types of disability is to request a [free scan of your site](https://www.boia.org/free-website-accessibility-analysis-0) to see how it measures up.
 
-Towards better and more accessible eLearning 
+## Towards better and more accessible eLearning 
 
 Accessible eLearning benefits everyone with its intentional, thoughtful design that highlights the most important information and presents it in a clear, informative way.
 
