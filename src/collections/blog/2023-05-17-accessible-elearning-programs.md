@@ -113,7 +113,7 @@ While these guidelines are important, it’s just as crucial that your full team
 
 
 
-  <a href="https://demo-accessibility.netlify.app/story.html" target="_blank">
+  <a id="section6" href="https://demo-accessibility.netlify.app/story.html" target="_blank">
   {% picture "blog/2023/2023-05-17-accessible-elearning-programs03.jpg", "FREE accessibility in eLearning course here" %}
   </a>
 
