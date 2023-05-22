@@ -42,7 +42,7 @@ It’s official: 75% of employees are [more likely to stay with a company](https
 
 
 
-{% picture "blog/2023/log/2023/2023-05-24-continuous-learning01.jpg", "75% of employees are more likely to stay with a company that offers continuous learning", "rounded-xl" %}
+{% picture "blog/2023/2023-05-24-continuous-learning01.jpg", "75% of employees are more likely to stay with a company that offers continuous learning", "rounded-xl" %}
 
 
 
@@ -85,7 +85,7 @@ On-the-job training:
 * Ties directly to what an employee works on every day
 
 
-{% picture "blog/2023/log/2023/2023-05-24-continuous-learning02.jpg", "On-the-job training is one of the best tools to use when it comes to implementing continuous learning", "rounded-xl" %}
+{% picture "blog/2023/2023-05-24-continuous-learning02.jpg", "On-the-job training is one of the best tools to use when it comes to implementing continuous learning", "rounded-xl" %}
 
 
 
