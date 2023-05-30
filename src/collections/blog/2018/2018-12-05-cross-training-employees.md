@@ -1,6 +1,6 @@
 ---
 title:    6 Major Benefits To Cross-Training Employees
-permalink: /blog/cross-training-employees/
+permalink: /blog/cross-training-employees-old/
 image: blog/2018/2018-12-05-cross-training-employees.jpg
 meta: Provide a major boost to your workforce's productivity, performance, and bottom line with cross-training. Here's why cross-training employees is so important and how to get started. 
 author:
