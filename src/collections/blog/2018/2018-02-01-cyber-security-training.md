@@ -1,6 +1,6 @@
 ---
 title: How To Create Effective Cyber Security Training For Your Employees
-permalink: /blog/cyber-security-training/
+permalink: /blog/cyber-security-training-old/
 image: blog/2018/2018-02-01-cyber-security-training.jpg
 meta: If an employee touches a computer, they need cyber security training. Here's how to make it actually worth their (and your) time.
 author: M_C_Cocciola
