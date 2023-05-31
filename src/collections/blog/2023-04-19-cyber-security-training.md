@@ -4,7 +4,8 @@ title: "How to Create Cybersecurity Training for Employees: 10 Steps"
 permalink: /blog/cyber-security-training/
 image: blog/2023/2023-04-19-cyber-security-training.jpg
 meta:  Safeguard your business and empower your workforce with effective cybersecurity training for employees. Discover 10 essential steps to defend against evolving threats and avoid costly breaches.
-author: M_C_Cocciola
+author: 
+  name: EdgePoint Learning
 ---
 
 In a world threatened by cyberattacks, the importance of cybersecurity training for employees can’t be overstated. With the average breach costing companies over $9 million, companies must take action to avoid risk. Read on to discover the essential steps that will safeguard your business and empower your workforce in the face of evolving threats.
@@ -41,7 +42,7 @@ In the Mecklenberg attack, hackers used primarily email attachments to install r
 
 Creating an effective cybersecurity training for employees starts at the top and is meaningful, just-in-time, and ongoing. Here are ten steps for training employees on cybersecurity best practices, and putting your cybersecurity training plan in place. 
 
-(Learning Lingo Video Insert Here)
+{#  TODO: (Learning Lingo Video Insert Here) #}
 
 ### 1. Get executive buy-in
 
