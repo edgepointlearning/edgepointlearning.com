@@ -4,8 +4,7 @@ title: "How to Create Cybersecurity Training for Employees: 10 Steps"
 permalink: /blog/cyber-security-training/
 image: blog/2023/2023-04-19-cyber-security-training.jpg
 meta:  Safeguard your business and empower your workforce with effective cybersecurity training for employees. Discover 10 essential steps to defend against evolving threats and avoid costly breaches.
-author:
-  name: M. Craig Cocciola
+author: M_C_Cocciola
 ---
 
 In a world threatened by cyberattacks, the importance of cybersecurity training for employees can’t be overstated. With the average breach costing companies over $9 million, companies must take action to avoid risk. Read on to discover the essential steps that will safeguard your business and empower your workforce in the face of evolving threats.
@@ -117,12 +116,3 @@ If it’s time to roll out more robust cybersecurity training, get in touch with
 We have a dedicated team who are up-to-date on the latest cybersecurity developments and training methods. From strategy to roll-out, we’re here to help. 
 
 [{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)
-
-**M. CRAIG COCCIOLA**
-*Director of IT and FSO at ABL Cyber Academy*
-
-Michael Craig Cocciola has been the Director of IT and FSO at (ABL) Advanced Business Learning for the past 12 of his 34 years in IT and Network Management. One year ago, Craig and his Cyber Team designed, developed, and launched a live Cyber Skills Lab for hands-on student development of both offensive and defensive cyber tactics.
-
-The ABL Cyber Lab is so effective it was discovered and vetted by US NAVY SPAWAR for inclusion in their Cyber and IT education and training catalog. The ABL Cyber Lab course is the only Cyber Range now offered in this 200+ course catalog for SPAWAR Cyber and IT Security personnel skills development.
-
-Craig manages the ABL Cyber Lab team in developing new and effective training for both in-lab and remote VPN lab users, and is helping to fill the shortage of thousands of unfilled cyber job openings in Arizona. The ABL Cyber Lab is a training facility within the ABL Cyber Academy, offering top industry Certification courses in IT and Security assessment through ethical hacking.
