@@ -1,6 +1,6 @@
 ---
 date: 2023-05-10
-title: "How to Design Accessible eLearning: 10 Guidelines"
+title: "How to Write Quiz Questions for Training: 14 Tips"
 permalink: /blog/how-to-write-quiz-questions/
 image: blog/2023/2023-05-10-how-to-write-quiz-questions.jpg
 meta:  From building your learning objectives to writing questions that truly test knowledge, this is how to write quiz questions for employee training.
