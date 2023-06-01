@@ -160,4 +160,4 @@ Knowing how to write questions for employee training is challenging. At EdgePoin
 
 We know how to write quiz questions. Get in touch today to find support!
 
-[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/)
+[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)
