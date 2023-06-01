@@ -22,7 +22,7 @@ Many of us remember the nerve-wracking, pencil-tapping anguish of taking the SAT
 
 
 
-## Who needs a quiz anyway? { .scroll-mt-8 id="section1"}
+## Who needs a quiz anyway? 
 
 If you thought quizzes were in the rearview mirror of high school or your undergraduate career, think again. So who needs a quiz?
 
@@ -32,13 +32,13 @@ If you thought quizzes were in the rearview mirror of high school or your underg
 
 When building eLearning courses, quiz questions are a quick and easy way to gauge what a person knows — and what they still need to learn.
 
-### Why good questions matter { .scroll-mt-8 id="section2"}
+### Why good questions matter { .scroll-mt-8 id="section1"}
 
 You may be designing quiz questions for adults, but nothing elicits eyerolls faster than irrelevant, repetitive quiz questions riddled with typos or spelling errors. Adult learners can be some of the most enthusiastic — or the most judgmental — when it comes to a poorly designed quiz. 
 
 The bottom line is this: if you are really interested in seeing what your employees know, understand, and can do, you’ll need to ask the questions that give you the clearest insight into where they are in their learning journey. The best questions build and reinforce their understanding of key concepts, and test their deeper critical thinking skills. 
 
-## How to write quiz questions { .scroll-mt-8 id="section3"}
+## How to write quiz questions { .scroll-mt-8 id="section2"}
 
 Ready to get started? Here’s how to write quiz questions for employee training programs. 
 
@@ -154,7 +154,7 @@ It’s normal if you don't get writing a quiz right the first time. Ask colleagu
 
 Inevitably, some of your quizzes themselves will fail. Questions will be confusing, or they won't match learning objectives closely enough. After the quiz has been taken by a large pool of employees, analyze the results to identify areas where learners struggled or excelled, and use this information to refine your questions and improve future quizzes.
 
-## TL;DR: Creating a good quiz is tough
+## TL;DR: Creating a good quiz is tough  { .scroll-mt-8 id="section3"}
 
 Knowing how to write questions for employee training is challenging. At EdgePoint, our team of instructional designers can guide you through the process or create great quizzes based on your learning materials. Whether you’re trying to update a few modules or create a learning plan from the ground up, we’re here to help. 
 
