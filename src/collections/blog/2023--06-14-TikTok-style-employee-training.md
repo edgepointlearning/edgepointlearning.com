@@ -10,8 +10,6 @@ author:
 
 With its snappy videos, catchy tunes, and almost hypnotic engagement, TikTok has taken the world by storm, and it's now making its way into the workplace. Here’s what you need to know about the intersection of TikTok and employee training, including the trends from this popular appthat will shape employee learning in the future. 
 
-What you’ll find in this post 👉The rise of TikTok | TikTok and employee training trends | Support for incorporating TikTok-type videos into your training
-
 
 <div class="rounded-lg p-4 not-prose font-sans border-b-4 bg-slate-200 border-b-slate-400 ">
   <p class="font-extrabold uppercase text-lg mb-1 text-slate-600 ">🔍 What you’ll find in this post</p>
