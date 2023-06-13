@@ -2,13 +2,13 @@
 date: 2023-06-14
 title: "TikTok's 7 Lessons for More Effective Employee Training"
 permalink: /blog/TikTok-style-employee-training/
-image: blog/2023/2023-06-14-TikTok-style-employee-training.jpg
+image: blog/2023/2023-06-14-TikTok-style-employee-training02.jpg
 meta:  Discover how TikTok's popularity can help you shape your employee training for the better. Get up to speed with emerging trends in TikTok-style learning.
 author:
   name: Corey Bleich
 ---
 
-With its snappy videos, catchy tunes, and almost hypnotic engagement, TikTok has taken the world by storm, and it's now making its way into the workplace. Here’s what you need to know about the intersection of TikTok and employee training, including the trends from this popular appthat will shape employee learning in the future. 
+With its snappy videos, catchy tunes, and almost hypnotic engagement, TikTok has taken the world by storm, and it's now making its way into the workplace. Here’s what you need to know about the intersection of TikTok and employee training, including the trends from this popular app that will shape employee learning in the future. 
 
 
 <div class="rounded-lg p-4 not-prose font-sans border-b-4 bg-slate-200 border-b-slate-400 ">
@@ -60,7 +60,7 @@ One of the best parts of using TikTok-type videos for employee training is that 
 
 ### 2. User-generated content 
 
-TikTok’s popularity is due to the fact that any user from anywhere can create and download content. 
+TikTok’s popularity is due to the fact that any user from anywhere can create and upload content. 
 
 Based on this, consider all of the possibilities in bringing new ways to source short video content from subject matter experts (SMEs) across your entire company. Share these on your LMS, internal intranets, or chat programs like Slack.
 
@@ -112,7 +112,6 @@ Consider how to use these types of videos as direct training assets, with the fo
 * Encourage employees to create and share their own training videos on an internal intranet, showcasing their expertise and offering tips to their colleagues. 
 * Create challenges or contests on these sites that encourage employees to participate in training activities.
 * Create videos that focus on developing employees' [soft skills](/blog/hard-skills-vs-soft-skills/), such as communication, teamwork, or leadership.
-* Host live Q&A sessions with subject matter experts, allowing employees to ask questions and gain deeper insights into specific topics. 
 
 ## How to bring TikTok-style videos into your training { .scroll-mt-8 id="section3"}
 
