@@ -126,4 +126,4 @@ At EdgePoint, we’re excited about the future of AI tools in training, too. Rob
 
 If you’re thinking about dipping your toe in the AI waters to build your next course, let’s do it together. We can help you build and roll out eLearning courses, modules, and just-in-time training resources for your team. 
 
-[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/)
+[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)

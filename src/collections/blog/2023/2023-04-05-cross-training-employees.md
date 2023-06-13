@@ -2,7 +2,7 @@
 date: 2023-04-05
 title: "9 Major Benefits of Cross-Training Employees Effectively"
 permalink: /blog/cross-training-employees/
-image: blog/2023/2023-04-05-cross-training-employee.jpg
+image: blog/2023/2023-04-05-cross-training-employee01.jpg
 meta:  Cross-training can provide a major boost to your workforce's productivity. Discover the benefits of cross-training employees in the workplace, plus learn how to start. 
 author:
   name: Corey Bleich 

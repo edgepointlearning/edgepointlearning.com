@@ -146,4 +146,4 @@ If continuous learning seems like one tall hurdle to leap over, [EdgePoint](http
 
 Get in touch for a demo today!
 
-[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/)
+[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)

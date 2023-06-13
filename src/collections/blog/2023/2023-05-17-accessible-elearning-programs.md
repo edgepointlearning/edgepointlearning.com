@@ -218,4 +218,4 @@ Accessible eLearning benefits everyone with its intentional, thoughtful design t
 At EdgePoint Learning, we’re particularly passionate about this issue. For help with designing accessible eLearning, you need a company that has proven AA or AAA level success. We understand the importance of creating accessible eLearning courses and can help with everything from minor changes to full-service course development. [Get in touch today](https://www.edgepointlearning.com/contact/) to get started.
 
 
-[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/)
+[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)
