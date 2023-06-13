@@ -120,4 +120,4 @@ It can be challenging to integrate new tools and media into your employee learni
 Fortunately, EdgePoint Learning is here. We stay tapped into the latest learning trends and can help your team get up and running with custom video support. Get in touch today to learn more!
 
 
-[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/)
+[{% picture "blog/2023/2023-03-08-healthcare-customer-service-training03.jpg", "Let’s create something exceptional. Talk to our team today.", "rounded-xl" %}](/form/demo/#contact)
