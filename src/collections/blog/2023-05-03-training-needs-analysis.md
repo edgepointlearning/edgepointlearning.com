@@ -2,11 +2,29 @@
 date: 2023-05-03
 title: "How to Conduct an Efficient Training Needs Analysis: 6 Stages"
 permalink: /blog/training-needs-analysis/
-image: blog/2018/2018-04-18-training-needs-analysis.jpg
+image: blog/2023/2023-05-03-training-needs-analysis03.jpg
 meta:  Conducting a training needs analysis (TNA) is your first step to developing a successful training program. From methods to components, this post covers it all.
 author:
   name: Corey Bleich
 ---
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "What Is a Training Needs Analysis?",
+	"description": "A training needs analysis defines goals, examines any existing training, identifies knowledge and performance gaps, and then provides recommendations on the ...",
+	"thumbnailUrl": "https://i.ytimg.com/vi/ZdkfwFNH5cQ/mqdefault.jpg",
+	"duration": "PT47S",
+	"contentUrl": "https://www.youtube.com/watch?v=ZdkfwFNH5cQ",
+	"embedUrl": "https://www.youtube.com/embed/ZdkfwFNH5cQ",
+	"uploadDate": "2023-02-16",
+	"potentialAction": {
+		"@type": "SeekToAction",
+		"target": "https://youtu.be/ZdkfwFNH5cQ?t={seek_to_second_number}",
+		"startOffset-input": "required name=seek_to_second_number"
+	}
+}
+</script>
 
 Most companies recognize the importance of employee training and want to dive right in. While this enthusiasm is great, it skips a crucial step. Conducting a training needs analysis (TNA) is your first step to developing a successful training program. In this post, we'll cover everything you need to know about how to conduct a training needs analysis for your learning program, from start to finish. You’ll also find in-depth examples and an overview of different methods and components of a successful TNA. 
 
