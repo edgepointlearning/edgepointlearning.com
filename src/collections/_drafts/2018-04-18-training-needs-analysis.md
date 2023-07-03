@@ -1,7 +1,7 @@
 ---
 date: 2023-02-16
 title: How To Conduct A Training Needs Analysis
-permalink: /blog/training-needs-analysis/
+permalink: /blog/training-needs-analysis-old/
 image: blog/2018/2018-04-18-training-needs-analysis.jpg
 meta:  Conducting a training needs analysis is your first step for developing a successful employee training program. This is how to get started.
 author:
