@@ -2,36 +2,36 @@
   {
     "name": "Custom Learning Experiences",
     "href": "/custom-employee-training/",
-    "caption": "Develop eLearning experiences starting from scratch or jumping in with what you already have.",
+    "caption": "We develop eLearning experiences starting from scratch or jump in with what you already have",
     "blurb": "We specialize in creating custom training solutions. Whether that means eLearning courses crafted specifically for your organization, microlearning delivered to your learners in the flow of work, or a blended approach of online and in-person programs, we’ve got you covered. ",
-    "hero": "We craft killer learning experiences",
+    "hero": "We create amazing training",
     "icon": "color/rocket.svg",
     "image": "solutions/3d-fluency-rocket.png"
   },
   {
     "name": "Co-Development",
     "href": "/co-development-services/",
-    "caption": "Working as an extension of your team, EdgePoint can expand your team’s capabilities and capacity",
+    "caption": "We expand your team’s capabilities and capacity",
     "blurb": "Working as an extension of your team, we can jump in wherever you need us…instructional design? Editing? Professional audio narration? Custom graphics and designs? Building complex learner activities? EdgePoint allows you to quickly expand your team’s capabilities and capacity.",
-    "hero": "Your partner in employee training",
+    "hero": "We're your partner in employee training",
     "icon": "color/handle-with-care.svg",
     "image": "solutions/3d-fluency-handle-with-care.png"
   },
   {
     "name": "Training Strategy",
     "href": "/elearning-consulting-services/",
-    "caption": "Discover new learning approaches, technologies, and opportunities to design effective training programs for your employees",
+    "caption": "We design effective training programs for your employees",
     "blurb": "Employee training programs should be engaging and effective, with well-defined goals and a clear roadmap detailing how to reach them.. Learn how we can help you design the ideal training strategy for your workforce, from program planning to development to launch.",
-    "hero": "Your guide to better learning",
+    "hero": "We're your guide to better learning",
     "icon": "color/plan.svg",
     "image": "solutions/3d-fluency-test-passed.png"
   },
   {
     "name": "eLearning Boot Camp",
     "href": "/elearning-boot-camp/",
-    "caption": "The pros at EdgePoint will teach you how to build effective, engaging eLearning.",
+    "caption": "We teach you how to build effective, engaging eLearning",
     "blurb": "Looking to get started building your own training? Or maybe you want to learn how to take your training skills to the next level? Leverage our experience and expertise to get you there. Whether you're new to creating eLearning or you’re looking to up your game, we can help.",
-    "hero": "Learn eLearning directly from the experts",
+    "hero": "We teach eLearning",
     "icon": "color/video-conference.svg",
     "image": "solutions/3d-fluency-boot-camp.png"
   }
