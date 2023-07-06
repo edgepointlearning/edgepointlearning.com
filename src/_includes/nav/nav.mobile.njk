@@ -4,8 +4,8 @@
 
   <div class="mt-6 flex flex-col gap-y-6 text-sm">
     <a class="hover:underline" href="/">Home</a>
-    {% for link in solutions %}
-      <a class="hover:underline" href="{{ link.href }}">{{ link.name }}</a>
+    {% for key, value in solutions %}
+      <a class="hover:underline" href="{{ value.href }}">{{ value.name }}</a>
     {% endfor %}
     <a class="hover:underline" href="/blog/">Insights</a>
     <a class="hover:underline" href="/about/">About Us</a>

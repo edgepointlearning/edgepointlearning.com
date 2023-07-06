@@ -1,8 +1,8 @@
 <div class="max-w-5xl mx-auto grid grid-cols-4 gap-4 px-4 pt-4 pb-8">
   {# solutions loop #}
-  {% for link in solutions %}
+  {% for key, value in solutions %}
 
-    <a aria-label="{{ link.name }}" href="{{ link.href }}"
+    <a aria-label="{{ value.name }}" href="{{ value.href }}"
     class="
       bg-edgepoint-900/30 hover:bg-edgepoint-950/50 
       outline-edgepoint-400 hover:shadow-blue-600 hover:shadow-lg
@@ -11,16 +11,16 @@
       group 
         ">
       
-      {% svg link.icon, 
+      {% svg value.icon, 
         "my-2 w-16 aspect-square origin-bottom transition  group-hover:scale-110" 
       %}
-      <p class="font-medium leading-tight text-white">{{ link.name }}</p>
+      <p class="font-medium leading-tight text-white">{{ value.name }}</p>
       <div class="
         my-2.5 h-[1px]
         mx-auto w-16 
         bg-gradient-to-r from-edgepoint-900/0 via-edgepoint-500 to-edgepoint-900/0 
         group-hover:via-edgepoint-400 group-hover:scale-x-[200%] transition origin-center"></div>
-      <p class="text-xs text-edgepoint-200 group-hover:text-white">{{ link.caption }}</p>
+      <p class="text-xs text-edgepoint-200 group-hover:text-white">{{ value.caption }}</p>
     </a>
   
   {% endfor %}

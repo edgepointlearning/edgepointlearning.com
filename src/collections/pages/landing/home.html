@@ -51,18 +51,18 @@ hero:
     {% set cardStyles = ['bg-emerald-100 hover:ring-emerald-300 hover:shadow-emerald-400/50', 'bg-yellow-100 hover:ring-yellow-300 hover:shadow-yellow-400/50', 'bg-blue-100 hover:ring-blue-300 hover:shadow-blue-400/50', 'bg-purple-100 hover:ring-purple-300  hover:shadow-purple-400/50'] %}
     {% set figureStyles = ['from-emerald-100 to-emerald-400', 'from-yellow-100 to-yellow-400', 'from-blue-100 to-blue-400', 'from-purple-100 to-purple-400'] %}
     {% set textStyles = ['text-emerald-950', 'text-yellow-950', 'text-blue-950', 'text-purple-950'] %}
-    {%- for link in solutions -%}
-      <a aria-label="{{link.name}}" href="{{link.href}}" class="
+    {%- for key, value in solutions -%}
+      <a aria-label="{{value.name}}" href="{{value.href}}" class="
         col-span-full sm:col-span-1 
         flex flex-col transition-all
         rounded-xl group ring-1 ring-transparent hover:shadow-lg hover:-translate-y-1 {{cardStyles[loop.index0]}}
       ">
         <figure class="bg-gradient-radial {{figureStyles[loop.index0]}} rounded-t-xl pt-1">
-          {% picture link.image, link.name, "w-[180px] mx-auto origin-bottom transition group-hover:scale-110", "240px" %}
+          {% picture value.image, value.name, "w-[180px] mx-auto origin-bottom transition group-hover:scale-110", "240px" %}
         </figure>
         <section class="p-4">
-          <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold {{textStyles[loop.index0]}} group-hover:underline">{{link.name}}</h3>
-          <p class="mt-3">{{ link.blurb }}</p>
+          <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold {{textStyles[loop.index0]}} group-hover:underline">{{value.name}}</h3>
+          <p class="mt-3">{{ value.blurb }}</p>
         </section>
       </a>
     {%- endfor -%}

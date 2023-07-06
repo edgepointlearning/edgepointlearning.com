@@ -1,14 +1,16 @@
 ---
-permalink: /elearning-boot-camp/
-title: "Unlock eLearning Excellence"
-meta: "Boost eLearning expertise with EdgePoint Learning. Our team empowers yours to create captivating online training. Elevate your organization's eLearning capabilities. Explore now!"
+eleventyComputed:
+  permalink: "{{ solutions.bootcamp.href }}"
+  title: "{{ solutions.bootcamp.metaTitle }}"
+  meta: "{{ solutions.bootcamp.metaDesc }}"
+  hero:
+    headline: "{{ solutions.bootcamp.heroHeadline }}"
+    tagline: "{{ solutions.bootcamp.heroTagline }}"
 
 hero:
   poster: heroes/liquid_9.png
   video: heroes/liquid_9_high.mp4
   style: 'blur-sm'
-  headline: eLearning boot camp
-  tagline: We teach eLearning
 
 formIntro: "Ready to take your eLearning to the next level? Let us help you reach your eLearning goals with confidence and creativity."
 
@@ -31,7 +33,7 @@ explore:
 ---
 
 
-<section class="bg-white pt-16 pb-4">
+<section class="bg-white pt-16 pb-4">  
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     
     <h2 class="!mt-0 text-center font-serif text-edgepoint-600 font-normal pb-8">We offer planning and learning program development, creating templates using commercially-available, industry-standard toolsets, training on how to use those tools, and coaching and support services to teach you best practices.</h2>
@@ -52,5 +54,6 @@ explore:
 
     <h3>Best practices</h3>
     <p>We can also teach you best practices in project management, instructional design, project planning, timeline development, and project processes. We empower you to effectively manage projects, create engaging instructional materials, plan timelines, and execute projects with efficiency and success.</p>
+
   </article>
 </section>
