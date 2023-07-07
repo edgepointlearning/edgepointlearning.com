@@ -4,8 +4,8 @@ eleventyComputed:
   title: "{{ solutions.strategy.meta.title }}"
   meta: "{{ solutions.strategy.meta.desc }}"
   hero:
-    headline: "{{ solutions.strategy.hero.headline }}"
-    tagline: "{{ solutions.strategy.hero.tagline }}"
+    headline: "{{ solutions.strategy.hero.headline | safe }}"
+    tagline: "{{ solutions.strategy.hero.tagline | safe }}"
 
 hero:
   poster: heroes/shape_14.png

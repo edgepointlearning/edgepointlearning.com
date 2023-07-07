@@ -4,8 +4,8 @@ eleventyComputed:
   title: "{{ solutions.custom.meta.title }}"
   meta: "{{ solutions.custom.meta.desc }}"
   hero:
-    headline: "{{ solutions.custom.hero.headline }}"
-    tagline: "{{ solutions.custom.hero.tagline }}"
+    headline: "{{ solutions.custom.hero.headline | safe }}"
+    tagline: "{{ solutions.custom.hero.tagline | safe }}"
 
 hero:
   poster: heroes/liquid_10.png

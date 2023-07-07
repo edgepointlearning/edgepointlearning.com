@@ -4,8 +4,8 @@ eleventyComputed:
   title: "{{ solutions.bootcamp.meta.title }}"
   meta: "{{ solutions.bootcamp.meta.desc }}"
   hero:
-    headline: "{{ solutions.bootcamp.hero.headline }}"
-    tagline: "{{ solutions.bootcamp.hero.tagline }}"
+    headline: "{{ solutions.bootcamp.hero.headline | safe }}"
+    tagline: "{{ solutions.bootcamp.hero.tagline | safe }}"
 
 hero:
   poster: heroes/liquid_9.png

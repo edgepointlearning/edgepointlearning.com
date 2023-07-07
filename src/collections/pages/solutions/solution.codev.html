@@ -4,8 +4,8 @@ eleventyComputed:
   title: "{{ solutions.codev.meta.title }}"
   meta: "{{ solutions.codev.meta.desc }}"
   hero:
-    headline: "{{ solutions.codev.hero.headline }}"
-    tagline: "{{ solutions.codev.hero.tagline }}"
+    headline: "{{ solutions.codev.hero.headline | safe }}"
+    tagline: "{{ solutions.codev.hero.tagline | safe }}"
 
 hero:
   poster: heroes/geometric_6.png
