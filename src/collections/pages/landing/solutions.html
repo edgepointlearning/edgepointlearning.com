@@ -61,19 +61,19 @@ hero:
   </div>
 
   <div class="relative wrapper flex flex-wrap items-center justify-center gap-8 mt-12 pb-16">
-    {%- for link in solutions -%}
-      <a aria-label="{{link.name}}" href="{{link.href}}" class="
+    {%- for key, value in solutions -%}
+      <a aria-label="{{value.name}}" href="{{value.href}}" class="
         max-w-md 
         bg-slate-300 rounded-lg
         flex items-center 
         p-4
         group transition hover:-translate-y-1 hover:bg-slate-200 hover:shadow-lg">
         <figure class="mr-4">
-          {% svg link.icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
+          {% svg value.icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
         </figure>
         <section class="">
-          <h3 class="font-bold text-edgepoint-700 decoration-1 group-hover:text-edgepoint-500 group-hover:underline">{{link.name}}</h3>
-          <p class="mt-2 text-sm text-slate-700">{{ link.desc }}</p>
+          <h3 class="font-bold text-edgepoint-700 decoration-1 group-hover:text-edgepoint-500 group-hover:underline">{{value.name}}</h3>
+          <p class="mt-2 text-sm text-slate-700">{{ value.caption }}</p>
         </section>
       </a>
 

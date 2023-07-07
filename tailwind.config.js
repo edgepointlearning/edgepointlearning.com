@@ -3,6 +3,9 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 module.exports = {
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       colors: {
         "edgepoint": {
           50: "#DFECFB",

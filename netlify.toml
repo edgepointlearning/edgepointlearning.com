@@ -28,6 +28,34 @@
 
 
 # REDIRECTS
+
+# 2023 deleted 4 solutions
+[[redirects]]
+from = "/augmented-reality/"
+to = "/custom-employee-training/#pinpoint"
+status = 301
+force = true
+
+[[redirects]]
+from = "/microlearning/"
+to = "/custom-employee-training/#pinpoint"
+status = 301
+force = true
+
+[[redirects]]
+from = "/mobile/"
+to = "/custom-employee-training/#pinpoint"
+status = 301
+force = true
+
+[[redirects]]
+from = "/performance-support/"
+to = "/custom-employee-training/#pinpoint"
+status = 301
+force = true
+
+
+
 # At some point /blog/ erroneously became /blogs/ in post frontmatter
 [[redirects]]
 from = "/blogs/*"
