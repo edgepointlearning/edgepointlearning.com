@@ -2,49 +2,85 @@
 	"custom": {
 		"name": "Custom Learning Experiences",
 		"href": "/custom-employee-training/",
-		"metaTitle": "Custom Employee Training Development, From Design To Launch",
-		"metaDesc": "Developing your own employee training courses in-house can be daunting. At EdgePoint, we work with you to create engaging custom learning experiences. Learn more.",
-		"heroHeadline": "Custom learning experiences",
-		"heroTagline":"We create amazing training",
 		"caption": "We develop eLearning experiences starting from scratch or jump in with what you already have",
-		"blurb": "We specialize in creating custom training solutions. Whether that means eLearning courses crafted specifically for your organization, microlearning delivered to your learners in the flow of work, or a blended approach of online and in-person programs, we’ve got you covered. ",
+		"blurb": "We specialize in creating custom training solutions. Whether that means eLearning courses crafted specifically for your organization, microlearning delivered to your learners in the flow of work, or a blended approach of online and in-person programs, we’ve got you covered.",
 		"icon": "color/rocket.svg",
-		"image": "solutions/3d-fluency-rocket.png"
+		"image": "solutions/3d-fluency-rocket.png",
+		"meta": {
+			"title": "Custom Employee Training Development, From Design To Launch",
+			"desc": "Developing your own employee training courses in-house can be daunting. At EdgePoint, we work with you to create engaging custom learning experiences. Learn more."
+		},
+		"hero": {
+			"headline": "Custom learning experiences",
+			"tagline":"We create amazing training"
+		},
+		"styles": {
+			"card":"bg-emerald-100 hover:ring-emerald-300 hover:shadow-emerald-400/50",
+			"figure":"from-emerald-100 to-emerald-400",
+			"text":"text-emerald-950"
+		}
 	},
 	"codev": {
 		"name": "Co-Development",
 		"href": "/co-development-services/",
-		"metaTitle": "Co-Development: Get Help With Your Employee Training",
-		"metaDesc": "Whether you need an employee training project done fast, or want to bring in the latest learning technologies, EdgePoint Learning can help.",
-		"heroHeadline": "Co-development",
-		"heroTagline":"We're your partner in employee training",
 		"caption": "We expand your team’s capabilities and capacity",
 		"blurb": "Working as an extension of your team, we can jump in wherever you need us…instructional design? Editing? Professional audio narration? Custom graphics and designs? Building complex learner activities? EdgePoint allows you to quickly expand your team’s capabilities and capacity.",
 		"icon": "color/handle-with-care.svg",
-		"image": "solutions/3d-fluency-handle-with-care.png"
+		"image": "solutions/3d-fluency-handle-with-care.png",
+		"meta": {
+			"title": "Co-Development: Get Help With Your Employee Training",
+			"desc": "Whether you need an employee training project done fast, or want to bring in the latest learning technologies, EdgePoint Learning can help."
+		},
+		"hero": {
+			"headline": "Co-development",
+			"tagline":"We're your partner in employee training"
+		},
+		"styles": {
+			"card":"bg-yellow-100 hover:ring-yellow-300 hover:shadow-yellow-400/50",
+			"figure":"from-yellow-100 to-yellow-400",
+			"text":"text-yellow-950"
+		}
 	},
 	"strategy": {
 		"name": "Training Strategy",
 		"href": "/elearning-consulting-services/",
-		"metaTitle": "Employee Training Consulting and Program Planning",
-		"metaDesc": "Employee training should be fun, not a dreaded checkmark at the end of the day. At EdgePoint, we're here to help you create killer user experiences for your team.",
-		"heroHeadline": "Training strategy",
-		"heroTagline":"We're your guide to better learning",
 		"caption": "We design effective training programs for your employees",
 		"blurb": "Employee training programs should be engaging and effective, with well-defined goals and a clear roadmap detailing how to reach them.. Learn how we can help you design the ideal training strategy for your workforce, from program planning to development to launch.",
 		"icon": "color/plan.svg",
-		"image": "solutions/3d-fluency-test-passed.png"
+		"image": "solutions/3d-fluency-test-passed.png",
+		"meta": {
+			"title": "Employee Training Consulting and Program Planning",
+			"desc": "Employee training should be fun, not a dreaded checkmark at the end of the day. At EdgePoint, we're here to help you create killer user experiences for your team."
+		},
+		"hero": {
+			"headline": "Training strategy",
+			"tagline":"We're your guide to better learning"
+		},
+		"styles": {
+			"card":"bg-blue-100 hover:ring-blue-300 hover:shadow-blue-400/50",
+			"figure":"from-blue-100 to-blue-400",
+			"text":"text-blue-950"
+		}
 	},
 	"bootcamp": {
 		"name": "eLearning Boot Camp",
 		"href": "/elearning-boot-camp/",
-		"metaTitle": "Unlock eLearning Excellence",
-		"metaDesc": "Boost eLearning expertise with EdgePoint Learning. Our team empowers yours to create captivating online training. Elevate your organization's eLearning capabilities. Explore now!",
-		"heroHeadline": "eLearning boot camp",
-		"heroTagline":"We teach eLearning",
 		"caption": "We teach you how to build effective, engaging eLearning",
 		"blurb": "Looking to get started building your own training? Or maybe you want to learn how to take your training skills to the next level? Leverage our experience and expertise to get you there. Whether you're new to creating eLearning or you’re looking to up your game, we can help.",
 		"icon": "color/video-conference.svg",
-		"image": "solutions/3d-fluency-boot-camp.png"
+		"image": "solutions/3d-fluency-boot-camp.png",
+		"meta": {
+			"title": "Unlock eLearning Excellence",
+			"desc": "Boost eLearning expertise with EdgePoint Learning. Our team empowers yours to create captivating online training. Elevate your organization's eLearning capabilities. Explore now!"
+		},
+		"hero": {
+			"headline": "eLearning boot camp",
+			"tagline":"We teach eLearning"
+		},
+		"styles": {
+			"card":"bg-purple-100 hover:ring-purple-300  hover:shadow-purple-400/50",
+			"figure":"from-purple-100 to-purple-400",
+			"text":"text-purple-950"
+		}
 	}
 }

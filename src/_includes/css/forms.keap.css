@@ -64,8 +64,10 @@
     @apply
       transition 
       rounded-full 
-      whitespace-nowrap text-white text-sm font-light 
-      px-4 py-2.5
-      bg-gradient-to-t from-edgepoint-700 to-edgepoint-500 hover:to-edgepoint-400
+      whitespace-nowrap text-white tracking-wider font-medium
+      px-6 pt-2.5 pb-3
+      bg-gradient-to-t
+      from-edgepoint-600 to-edgepoint-400 
+      hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500
   }
 }
