@@ -11,12 +11,12 @@
     "waveClasses": "wave-bot fill-white",
     "cta": [
       {
-        "name": "Let's talk",
-        "url": "#contact"
-      },
-      {
         "name": "View demos",
         "url": "/form/demo/"
+      },
+      {
+        "name": "Let's talk",
+        "url": "#contact"
       }
     ]
   }
