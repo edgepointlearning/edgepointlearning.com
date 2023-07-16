@@ -16,15 +16,15 @@ hero:
     url: '#contact'
 
 youtubes:
-  - title: "What is a Training Needs Analysis?"
-    image: youtube/tna.jpg
-    href: "https://www.youtube.com/watch?v=ZdkfwFNH5cQ"
+  - title: "What is Co-Development?"
+    image: youtube/codev.png
+    href: "https://www.youtube.com/watch?v=Ov7YHwkVl1U"
   - title: "10 Types of Employee training"
     image: youtube/10-types-training.png
     href:  "https://www.youtube.com/watch?v=4uji5lBlykA"
-  - title: "What is a Learning Experience Platform?"
-    image: youtube/lxp.png
-    href: "https://www.youtube.com/watch?v=peU7bYsotag"
+  - title: "What is a Training Needs Analysis?"
+    image: youtube/tna.jpg
+    href: "https://www.youtube.com/watch?v=ZdkfwFNH5cQ"
 
 ---
 
@@ -65,9 +65,9 @@ youtubes:
         <a aria-label="{{value.name}}" href="{{value.href}}" class="
           col-span-full sm:col-span-1 
           flex flex-col transition-all
-          rounded-xl group ring-1 ring-transparent hover:shadow-lg hover:-translate-y-1 {{ value.styles.card }}
+          rounded-xl overflow-hidden group ring-1 ring-transparent hover:shadow-lg hover:-translate-y-1 {{ value.styles.card }}
         ">
-          <figure class="bg-gradient-radial {{ value.styles.figure }} rounded-t-xl pt-1">
+          <figure class="bg-gradient-radial {{ value.styles.figure }} pt-1">
             {% picture value.image, value.name, "w-[180px] mx-auto origin-bottom transition group-hover:scale-110", "240px" %}
           </figure>
           <section class="p-4">
@@ -139,8 +139,13 @@ youtubes:
     <h2 class="text-2xl font-bold text-slate-300 sm:text-4xl">Like & Subscribe</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12 mb-16">
       {%- for item in youtubes -%}
-        <a aria-label="Watch {{item.title}} on YouTube" href="{{item.href}}" title="Watch {{item.title}} on YouTube" target="_blank"
-          class="mx-auto aspect-video rounded-lg shadow-lg hover:shadow-red-500/50 ring-2 ring-slate-200 hover:ring-4 hover:ring-red-500 transition hover:scale-105">
+        <a aria-label="Watch {{item.title}} on YouTube" href="{{item.href}}" title="Watch {{item.title}} on YouTube" target="_blank" 
+          class="
+            mx-auto aspect-video
+            rounded-lg bg-black overflow-hidden shadow-xl transition-all 
+            ring-2 ring-transparent hover:ring-red-500 hover:-translate-y-1
+            ring-offset-2 ring-offset-white hover:ring-offset-4 hover:ring-offset-edgepoint-800 hover:shadow-red-500/50
+          ">
           {% picture item.image, item.title, "w-full aspect-video rounded-lg", "440px" %}
         </a>
       {%- endfor -%}
