@@ -141,7 +141,7 @@ Consider using responsive design and mobile-friendly platforms to facilitate a s
 
 As with every type of training, take the time to test, evaluate, and refine your corporate training videos based on employee feedback. You can also check with managers to see if they notice a change (positive or negative) in performance after employees finish a video or video series.
 
-## Get h3elp creating your corporate training videos 
+## Get help creating your corporate training videos 
 
 Corporate training videos are an engaging, effective, and scalable option that deepens and adds flexibility to your current workforce development. At EdgePoint Learning, we understand that you might not be the next Scorsese, but we can help.
 
