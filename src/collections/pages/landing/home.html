@@ -141,10 +141,9 @@ youtubes:
       {%- for item in youtubes -%}
         <a aria-label="Watch {{item.title}} on YouTube" href="{{item.href}}" title="Watch {{item.title}} on YouTube" target="_blank" 
           class="
-            mx-auto aspect-video
-            rounded-lg bg-black overflow-hidden shadow-xl transition-all 
-            ring-2 ring-transparent hover:ring-red-500 hover:-translate-y-1
-            ring-offset-2 ring-offset-white hover:ring-offset-4 hover:ring-offset-edgepoint-800 hover:shadow-red-500/50
+            mx-auto aspect-video rounded-lg bg-black overflow-hidden shadow-xl transition-all hover:-translate-y-1  
+            ring-offset-2 ring-offset-white hover:ring-offset-4 hover:ring-offset-edgepoint-800
+            ring-2 ring-transparent hover:ring-emerald-500 hover:shadow-emerald-500/50
           ">
           {% picture item.image, item.title, "w-full aspect-video rounded-lg", "440px" %}
         </a>
