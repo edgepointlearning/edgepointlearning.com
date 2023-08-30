@@ -38,7 +38,7 @@ Ladder safety training in the workplace is incredibly crucial. These are some of
 * **Regulatory compliance:** Implementing ladder safety training ensures compliance with OSHA (as we’ll discuss next) and other safety regulations, minimizing the risk of penalties and legal issues.
 * **Cost savings:** Investing in ladder safety training can lead to savings on medical costs, workers' compensation claims, and lost productivity caused by accidents.
 
-## What are OSHA ladder safety training requirements?
+## What are OSHA ladder safety training requirements? { .scroll-mt-8 id="section1"}
 
 The Occupational Safety and Health Administration (OSHA) has ladder safety training requirements that companies must comply with to ensure the safety of their employees. Understanding these requirements is crucial to meet OSHA’s standards. 
 
@@ -53,7 +53,7 @@ OSHA also recognizes that certain work environments require more extensive train
 
 To comply with OSHA, assess your work environments and job tasks to determine the level of ladder safety training required for employees. Make sure to tailor your training program to address the specific hazards and risks employees may encounter in their roles.
 
-## What ladder safety training topics should I cover?
+## What ladder safety training topics should I cover? { .scroll-mt-8 id="section2"}
 
 Ladder safety training topics focus specifically on:
 * Identifying fall hazards
@@ -106,7 +106,7 @@ General fall prevention training helps employees develop proper techniques for u
 
 Depending on their role, ladder safety training may cover proper climbing techniques (the [three point-of-contact climb](https://www.americanladderinstitute.org/page/BasicLadderSafety)) as well as the use of safety harnesses and other fall arrest systems.
 
-## How to design ladder safety training for today's employees
+## How to design ladder safety training for today's employees { .scroll-mt-8 id="section3"}
 
 Design your ladder safety training by first deciding who needs training and in what order. Employees who regularly use ladders and other elevated work surfaces should be your priority. Use a training needs analysis to quickly figure out your training needs. 
 
@@ -153,7 +153,7 @@ Key metrics to measure include reductions in ladder-related accidents, near miss
 
 Use these results to refine and enhance your training programs over time, ensuring that they remain effective and relevant. Regular updates to training materials, techniques, and industry best practices can keep your training up-to-date and aligned with evolving safety standards.
 
-## Use this free ladder safety training course 
+## Use this free ladder safety training course  { .scroll-mt-8 id="section4"}
 
 Since so many deaths can be prevented with simple training, we developed a free online ladder safety training course that you can use immediately for your employees. 
 
