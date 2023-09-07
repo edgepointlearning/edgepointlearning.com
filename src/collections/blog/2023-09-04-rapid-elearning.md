@@ -125,7 +125,7 @@ These learning styles are more engaging and keep employees focused on learning.
 
 Rapid eLearning is similar to microlearning in that it's best delivered in small modules prioritized from most important to least. Short modules are also more manageable and can be rolled out in waves so that the entire company is learning simultaneously but without the frantic feeling that nobody knows anything.
 
-### 8. Update as needed
+### 8. Roll out
 
 In some cases, you may roll out the first module without the next one ready to go. Ensure employees know this professional development is in progress and there may be delays from one module to the next.  The best-case scenario? Using templates and engaging SMEs early and bringing in outside professionals will help eliminate delays. 
 
