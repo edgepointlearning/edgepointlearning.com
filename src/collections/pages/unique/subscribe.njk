@@ -8,12 +8,15 @@ sitemap:
 
 
 
-<section class="bg-white py-16">
+<section class="bg-white pt-16 pb-6">
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
-    <h1>Subscribe</h1>
-    <p>Since 2007, EdgePoint Learning has delivered custom eLearning solutions that drive your company's performance and business goals while also enriching your employee's capabilities. Subscribe now to get the latest eLearning news delivered straight to your inbox.</p>
-    <h2 class="mb-2">Subscribe</h2>
-    {% include 'forms/newsletter.983.html' %}
+    <h1>Our eLearning Newsletter</h1>
+    <p>Subscribe to our newsletter today for a monthly dose of cutting-edge insights, expert tips, and the latest trends in eLearning, traditional training, and employee development. As a bonus, each issue includes fun dinner party facts on a variety of topics. Don't miss out on the knowledge that can take your training strategies to the next level – subscribe now!</p>
+    <div class="mt-12 p-6
+      rounded-xl ring-1 ring-edgepoint-100 shadow-lg shadow-edgepoint-300/50 ">
+      <h3 class="mt-0">Subscribe now for the latest news!</h3>
+      {% include 'forms/newsletter.983.html' %}
+    </div>
   </article>
 </section>
 
@@ -21,5 +24,5 @@ sitemap:
 
 <section class="relative bg-slate-500/50 grid items-end justify-center overflow-hidden">
   {% svg "waves/wave-1.svg", "wave-top -scale-100 fill-white" %}
-  {% picture "misc/download-cat.svg", "cat downloading files", "w-full h-auto max-w-4xl pt-36" %}
+  {% picture "misc/download-cat.svg", "cat downloading files", "w-full h-auto max-w-4xl pt-24" %}
 </section>
