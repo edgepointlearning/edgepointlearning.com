@@ -46,6 +46,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require('./src/_11ty/transform-html.js'))
 
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-learn.js'))
+  eleventyConfig.addPlugin(require('./src/_11ty/shortcode-toc.js'))
+
   eleventyConfig.addPlugin(require('./src/_11ty/pagefind.js'))
 
   return {
