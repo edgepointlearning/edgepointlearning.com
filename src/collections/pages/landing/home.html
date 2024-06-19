@@ -110,7 +110,7 @@ youtubes:
     <div class="grid grid-cols-6 gap-12 mt-8 mb-16">
 
       {%- for post in collections.blog | reverse -%}
-      {% if loop.index < 5 %}
+      {% if loop.index < 6 %}
           {% if loop.index <= 2 %}
             {% set css = "md:col-span-3" %}
           {% else %}
@@ -121,11 +121,11 @@ youtubes:
       {%- endfor -%}
     
       <!-- newsletter form -->
-      <aside class="flex flex-col justify-center max-w-lg p-4 mx-auto overflow-hidden bg-white shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-edgepoint-400 ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300">
+      <!-- <aside class="flex flex-col justify-center max-w-lg p-4 mx-auto overflow-hidden bg-white shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-edgepoint-400 ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300">
         <h3 class="text-3xl font-bold text-edgepoint-700">Subscribe now!</h3>
         <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
-        {% include 'forms/newsletter.983.html' %}
-      </aside>
+        { include 'forms/2024newsletter.html' }
+      </aside> -->
 
     </div>
   </div>
@@ -165,6 +165,6 @@ youtubes:
     rounded bg-white ring-2 ring-blue-400 shadow-lg ">
     <h2 class="text-3xl sm:text-4xl font-bold text-edgepoint-400">Let's talk</h2>
     <p class="text-slate-600">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>
-    {% include 'forms/2022contactus.1054.html' %}  
+    {% include 'forms/2024contactus.html' %}  
   </aside>
 </section>

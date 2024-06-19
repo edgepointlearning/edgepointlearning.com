@@ -5,7 +5,7 @@
 
 @import "tailwindcss/components";
 @import "custom-components.css";
-@import "forms.keap.css";
+@import "forms.css";
 
 @import "tailwindcss/utilities";
 @import "custom-utilities.css";

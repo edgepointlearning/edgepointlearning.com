@@ -1,6 +1,8 @@
 /* https://github.com/tailwindlabs/tailwindcss-forms */
 /* https://tailwindcss-forms.vercel.app/ */
-.infusion-form {
+.crm-form,
+#webform6263149000000753015,
+#webform6263149000000753029 {
 
   @apply
     grid
@@ -62,6 +64,7 @@
 
   [type='submit'] {
     @apply
+      cursor-pointer
       transition 
       rounded-full 
       whitespace-nowrap text-white tracking-wider font-medium
@@ -69,5 +72,9 @@
       bg-gradient-to-t
       from-edgepoint-600 to-edgepoint-400 
       hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500
+  }
+
+  [type='reset'] {
+    @apply hidden
   }
 }
