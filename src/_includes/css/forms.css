@@ -1,25 +1,23 @@
 /* https://github.com/tailwindlabs/tailwindcss-forms */
 /* https://tailwindcss-forms.vercel.app/ */
-.infusion-form {
+#webform6263149000000753015,
+#webform6263149000000753029 {
 
   @apply
     grid
-    grid-cols-1
     gap-6;
 
-
+  .zohocheckbox {
+    @apply flex flex-row;
+    
+    .zcwf_col_lab {
+      @apply order-last ml-4 ;
+    }
+  }
 
   label {
     @apply text-sm text-slate-700;
-  }    
-  .infusion-field:focus-within label {
-    @apply text-black
-  }
-  .infusion-checkbox label {
-    @apply text-black;
-  }
-
-
+  } 
 
   textarea, [type='text'] {
     @apply
@@ -30,8 +28,42 @@
       focus:bg-yellow-50 focus:border-edgepoint-400;
   }
 
+  [type='checkbox'] {
+    @apply
+    w-4 h-4
+      align-baseline rounded cursor-pointer bg-blue-200 text-slate-700 border-transparent
+      focus:ring-2 focus:ring-offset-2 focus:bg-yellow-50 focus:ring-edgepoint-400;
+    &:checked {
+      @apply
+        bg-edgepoint-500
+    }
+  }
+
+  [type='submit'] {
+    @apply
+      cursor-pointer
+      transition 
+      rounded-full 
+      whitespace-nowrap text-white tracking-wider font-medium
+      px-6 pt-2.5 pb-3
+      bg-gradient-to-t
+      from-edgepoint-600 to-edgepoint-400 
+      hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500
+  }
+
+  [type='reset'] {
+    @apply hidden
+  }
+}
 
 
+/* 
+  .infusion-field:focus-within label {
+    @apply text-black
+  }
+  .infusion-checkbox label {
+    @apply text-black;
+  }
   span.infusion-checkbox {
     @apply
       inline-flex
@@ -42,32 +74,4 @@
         text-base
         cursor-pointer
     }
-  }
-
-
-
-  [type='checkbox'] {
-    @apply
-      w-4 h-4
-      rounded 
-      bg-blue-200 text-slate-700 border-transparent
-      focus:ring-2 focus:ring-offset-2 focus:bg-yellow-50 focus:ring-edgepoint-400;
-    &:checked {
-      @apply
-        bg-edgepoint-500
-    }
-  }
-
-
-
-  [type='submit'] {
-    @apply
-      transition 
-      rounded-full 
-      whitespace-nowrap text-white tracking-wider font-medium
-      px-6 pt-2.5 pb-3
-      bg-gradient-to-t
-      from-edgepoint-600 to-edgepoint-400 
-      hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500
-  }
-}
+  } */
