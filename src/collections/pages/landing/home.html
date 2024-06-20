@@ -110,7 +110,7 @@ youtubes:
     <div class="grid grid-cols-6 gap-12 mt-8 mb-16">
 
       {%- for post in collections.blog | reverse -%}
-      {% if loop.index < 6 %}
+      {% if loop.index < 5 %}
           {% if loop.index <= 2 %}
             {% set css = "md:col-span-3" %}
           {% else %}
@@ -121,11 +121,14 @@ youtubes:
       {%- endfor -%}
     
       <!-- newsletter form -->
-      <!-- <aside class="flex flex-col justify-center max-w-lg p-4 mx-auto overflow-hidden bg-white shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-edgepoint-400 ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300">
-        <h3 class="text-3xl font-bold text-edgepoint-700">Subscribe now!</h3>
-        <p class="my-6 text-sm">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
-        { include 'forms/2024newsletter.html' }
-      </aside> -->
+      <aside class="flex flex-col justify-end max-w-lg mx-auto overflow-hidden bg-edgepoint-100 shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-edgepoint-400 ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300">
+        <div class="p-4">
+          <h3 class="text-3xl font-bold text-black my-4">Subscribe now for the latest news!</h3>
+          <p class="mb-8">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
+          <p><a href="/subscribe/" title="Subscribe" class=" transition rounded-full whitespace-nowrap text-white tracking-wider font-medium px-6 pt-2.5 pb-3 bg-gradient-to-t from-edgepoint-600 to-edgepoint-400 hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500">Subscribe</a></p>
+        </div>
+        {% picture "misc/download-cat.svg", "cat grabbing papers", "w-full h-auto pt-6" %}
+      </aside>
 
     </div>
   </div>

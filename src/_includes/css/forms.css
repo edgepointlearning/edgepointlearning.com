@@ -1,27 +1,23 @@
 /* https://github.com/tailwindlabs/tailwindcss-forms */
 /* https://tailwindcss-forms.vercel.app/ */
-.crm-form,
 #webform6263149000000753015,
 #webform6263149000000753029 {
 
   @apply
     grid
-    grid-cols-1
     gap-6;
 
-
+  .zohocheckbox {
+    @apply flex flex-row;
+    
+    .zcwf_col_lab {
+      @apply order-last ml-4 ;
+    }
+  }
 
   label {
     @apply text-sm text-slate-700;
-  }    
-  .infusion-field:focus-within label {
-    @apply text-black
-  }
-  .infusion-checkbox label {
-    @apply text-black;
-  }
-
-
+  } 
 
   textarea, [type='text'] {
     @apply
@@ -32,35 +28,16 @@
       focus:bg-yellow-50 focus:border-edgepoint-400;
   }
 
-
-
-  span.infusion-checkbox {
-    @apply
-      inline-flex
-      items-center;
-    label {
-      @apply
-        ml-2
-        text-base
-        cursor-pointer
-    }
-  }
-
-
-
   [type='checkbox'] {
     @apply
-      w-4 h-4
-      rounded 
-      bg-blue-200 text-slate-700 border-transparent
+    w-4 h-4
+      align-baseline rounded cursor-pointer bg-blue-200 text-slate-700 border-transparent
       focus:ring-2 focus:ring-offset-2 focus:bg-yellow-50 focus:ring-edgepoint-400;
     &:checked {
       @apply
         bg-edgepoint-500
     }
   }
-
-
 
   [type='submit'] {
     @apply
@@ -78,3 +55,23 @@
     @apply hidden
   }
 }
+
+
+/* 
+  .infusion-field:focus-within label {
+    @apply text-black
+  }
+  .infusion-checkbox label {
+    @apply text-black;
+  }
+  span.infusion-checkbox {
+    @apply
+      inline-flex
+      items-center;
+    label {
+      @apply
+        ml-2
+        text-base
+        cursor-pointer
+    }
+  } */
