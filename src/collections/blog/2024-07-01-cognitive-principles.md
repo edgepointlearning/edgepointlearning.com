@@ -1,7 +1,7 @@
 ---
 title: "The Psychology of Learning: Applying Cognitive Principles to eLearning Design"
 permalink: /blog/applying-cognitive-principles-to-elearning-design/
-image: blog/2024/2024-06-01-eLearning-effectiveness-100.jpg
+image: blog/2024/2024-07-01-cognitive-principles-100.jpg
 meta: Learn how cognitive principles like multimedia learning, motivation, retrieval practice, and feedback can transform eLearning design. Enhance learner engagement and retention with these expert tips.
 author:
   name: Corey Bleich
