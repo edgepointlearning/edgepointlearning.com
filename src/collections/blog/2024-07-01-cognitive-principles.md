@@ -4,7 +4,7 @@ permalink: /blog/applying-cognitive-principles-to-elearning-design/
 image: blog/2024/2024-07-01-cognitive-principles-100.jpg
 meta: Learn how cognitive principles like multimedia learning, motivation, retrieval practice, and feedback can transform eLearning design. Enhance learner engagement and retention with these expert tips.
 author:
-  name: Corey Bleich
+  name: EdgePoint Learning
 ---
 
 As learning development professionals, we're in the business of crafting experiences that stick. We want our learners to walk away with more than just knowledge; we want them to gain skills that they can apply in the real world. So how do we do that? By applying cognitive principles to eLearning design. Let's explore some of these principles and discover how they can transform the way we approach eLearning.
