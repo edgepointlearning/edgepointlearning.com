@@ -39,7 +39,7 @@ function heroShortcode(img, mp4, css, fetchpriority = "auto") {
   let metadata = Image.statsSync(url, options);
   let data = metadata.jpeg[metadata.jpeg.length - 1];
   return `
-  <video autoplay loop muted playsinline class="${css}" poster="${data.url}" fetchpriority="${fetchpriority}">
+  <video autoplay loop muted playsinline class="${css}" poster="${data.url}" preload="auto" fetchpriority="${fetchpriority}">
     <source src="${vid}" type="video/mp4" />
     Your browser does not support the video element.
   </video>
