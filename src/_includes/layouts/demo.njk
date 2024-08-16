@@ -5,10 +5,20 @@ layout: 'layouts/01.nav.njk'
 
 {# video #}
 <section class="bg-black/50">
+
+  {% if vimeo %}
+    {% set vimeoCSS = ["mx-auto max-w-5xl", " " , vimeo.css] | join %}
+    <div class="{{ vimeoCSS }}">
+      <lite-vimeo videotitle="{{ vimeo.title }}" videoid="{{ vimeo.id }}" {% if vimeo.unlisted %} unlisted {% endif %} customPlaceHolder="{{ vimeo.placeholder }}"></lite-vimeo>
+    </div>
+  {% endif %}
+
+
   {% if vimeoID %}
     {% set vimeoCSS = ["mx-auto max-w-5xl", " " , videoAspect] | join %}
     {% vimeo vimeoID, vimeoCSS %}
   {% endif %}
+
 
   {% if iframeSrc %}
     <iframe 
@@ -20,13 +30,13 @@ layout: 'layouts/01.nav.njk'
     </iframe>
     <script src="https://player.vimeo.com/api/player.js"></script>
   {% endif %}
+
 </section>
 
 
 
 {# content #}
 <section class="bg-slate-300 pt-20 pb-4">
-
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     <h1>{{ title }}</h1>
     <p>{{ content | safe }}</p>
@@ -44,5 +54,4 @@ layout: 'layouts/01.nav.njk'
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
     {% include 'forms/2024contactus.html' %}  
   </aside>
-
 </section>
