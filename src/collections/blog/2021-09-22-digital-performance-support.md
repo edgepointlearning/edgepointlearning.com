@@ -54,7 +54,13 @@ Think:
 
 You can also directly add relevant YouTube videos, web links, and eLearning courses for employees to access as they need them. And all in the palm of their hand.
 
-{% vimeo "469090686", "mx-auto" %}
+<div class="mx-auto">
+  <lite-vimeo 
+  videoid="469090686/4f6479f664"
+  unlisted 
+  videotitle="Meet PinPoint Workforce" 
+  customPlaceHolder="/lite-vimeo/469090686.jpg"></lite-vimeo>
+</div>
 
 ### Robust authoring tools
 

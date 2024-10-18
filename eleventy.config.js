@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require('./src/_11ty/filter-postdate.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/filter-markdown.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-gif.js'))
-  eleventyConfig.addPlugin(require('./src/_11ty/shortcode-vimeo.js'))
+  // eleventyConfig.addPlugin(require('./src/_11ty/shortcode-vimeo.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-image.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/shortcode-svg.js'))
   eleventyConfig.addPlugin(require('./src/_11ty/transform-html.js'))
