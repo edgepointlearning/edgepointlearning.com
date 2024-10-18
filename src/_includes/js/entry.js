@@ -1,6 +1,6 @@
 import Alpine from 'alpinejs'
 import '@justinribeiro/lite-youtube/'
-// import "@choctawnationofoklahoma/lite-vimeo/";
+// import "@choctaw-nation/lite-vimeo/";
 import "./lite-vimeo.js"
 import "./vi-lazyload.js";
 

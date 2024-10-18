@@ -13,13 +13,6 @@ layout: 'layouts/01.nav.njk'
     </div>
   {% endif %}
 
-
-  {% if vimeoID %}
-    {% set vimeoCSS = ["mx-auto max-w-5xl", " " , videoAspect] | join %}
-    {% vimeo vimeoID, vimeoCSS %}
-  {% endif %}
-
-
   {% if iframeSrc %}
     <iframe 
       class="w-full mx-auto max-w-5xl {{videoAspect}}"
