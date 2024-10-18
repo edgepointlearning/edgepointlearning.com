@@ -9,13 +9,11 @@
 }
 
 
-
 .wrapper {
   @apply
     mx-auto px-4 xl:px-0
     w-full max-w-5xl
 }
-
 
 
 .epl-prose-scale {
@@ -46,15 +44,6 @@
 }
 
 
-
-/* .sharer-button {
-  @apply
-    flex flex-col place-items-center gap-1
-    text-xs
-    opacity-75 hover:opacity-100
-} */
-
-
 /* lite-youtube-fallback */
 .lite-youtube-fallback {
   aspect-ratio: 16 / 9; /* matches YouTube player */
@@ -68,7 +57,6 @@
   color: #fff;
   text-decoration: none;
 }
-
 .lite-youtube-fallback::before {
   display: block;
   content: '';
@@ -76,11 +64,9 @@
   border-width: 2em 0 2em 3em;
   border-left-color: red;
 }
-
 .lite-youtube-fallback:hover::before {
   border-left-color: #fff;
 }
-
 .lite-youtube-fallback:focus {
   outline: 2px solid red;
 }

@@ -35,17 +35,6 @@ ourDemos:
   text: Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall.
   styleCard: 'bg-blue-100 hover:ring-blue-300'
   styleText: 'text-blue-700/75'
-
-pinpoint:
-- title: Meet PinPoint Workforce
-  vimeo: 469090686
-  text: The future of mobile learning in the flow of work is just a tap away. Connect your frontline to learning with our mobile native platform. PinPoint's precision microlearning surrounds your workplace with learning that taps into the true potential of the smartphone.
-- title: How PinPoint works
-  vimeo: 219609124
-  text: Leveraging tools like geolocation, augmented reality, Bluetooth beacons, and bar and QR codes, your microlearning and performance support materials are pushed directly to your employees' smartphones right where and when they need support.
-- title: Explore the Admin app
-  vimeo: 218986846
-  text: Empower your frontline supervisors with the ability to create and deploy microlearning and performance support tools from any device. Learn how to create assets, set up checklists, and assign training with our guide to the PinPoint admin interface.
 ---
 
 {# lifting demos #}
@@ -85,33 +74,23 @@ pinpoint:
     </header>
 
     <div class="grid grid-cols-2 gap-8">
-      {%- for item in pinpoint -%}
-        {% if loop.index == 1 %}
-          <section class="
-            max-w-sm md:max-w-full mx-auto
-            col-span-2
-            grid grid-cols-1 gap-2 content-start items-center
-            md:grid-cols-2
-            p-4 bg-slate-300 rounded-lg">
-            {% vimeo item.vimeo, "mx-auto rounded-lg aspect-video" %}
-            <div class="md:ml-4">
-              <h3 class="mt-1 md:mt-0 text-lg font-bold">{{ item.title }}</h3>
-              <p class="text-sm">{{ item.text }}</p>
-            </div>
-          </section>
-        {% else %}
-          <section class="
-            max-w-sm md:max-w-lg mx-auto
-            col-span-2 md:col-span-1 
-            grid grid-cols-1 gap-2 content-start
-            p-4 bg-slate-300 rounded-lg">
-            {% vimeo item.vimeo, "mx-auto rounded-lg aspect-square" %}
-            <div>
-              <h3 class="mt-1 text-lg font-bold">{{ item.title }}</h3>
-              <p class="text-sm">{{ item.text }}</p>
-            </div>
-          </section>
-        {% endif %}
+      {%- for vimeo in demos_pinpoint -%}
+        <section class="max-w-sm mx-auto col-span-2 grid grid-cols-1 gap-2 content-start p-4 bg-slate-300 rounded-lg 
+          {{ 'md:max-w-full md:grid-cols-2 items-center' if loop.index == 1 else 'md:max-w-lg md:col-span-1' }}">
+          <div class="mx-auto rounded-lg w-full">
+            <lite-vimeo 
+              videotitle="{{ vimeo.title }}" 
+              videoid="{{ vimeo.id }}" 
+              {% if vimeo.aspectratio %} aspectratio="{{ vimeo.aspectratio }}" {% endif %}
+              {% if vimeo.unlisted %} unlisted {% endif %}
+              customPlaceHolder="{{ vimeo.placeholder }}">
+            </lite-vimeo>
+          </div>
+          <div {% if loop.index == 1 %} class="md:ml-4" {% endif %}>
+            <h3 class="mt-1 {{ 'md:mt-0' if loop.index == 1 }} text-lg font-bold">{{ vimeo.title }}</h3>
+            <p class="text-sm">{{ vimeo.text }}</p>
+          </div>
+        </section>
       {%- endfor -%}
     </div>
   </article>

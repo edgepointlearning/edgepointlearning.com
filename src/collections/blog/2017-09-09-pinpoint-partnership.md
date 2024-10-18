@@ -32,7 +32,15 @@ Applications exist for all industries, but mobile-native technology is especiall
 *  Hospitality
 *  Food and beverage
 
-{% vimeo "219609124", "aspect-[9/16] mx-auto max-w-sm" %}
+<div class="mx-auto max-w-sm">
+  <lite-vimeo 
+  videoid="219609124/264a2538e7"
+  unlisted 
+  aspectratio="9/16" 
+  videotitle="How PinPoint works" 
+  customPlaceHolder="/lite-vimeo/219609124.jpg"></lite-vimeo>
+</div>
+
 
 ## Manage employee learning from your mobile or desktop
 
@@ -47,7 +55,15 @@ And with PinPoint, that content creation can take place with the touch of a thum
 
 Need more than two thumbs? Access it all through a browser-based app from any device.
 
-{% vimeo "218986846", "aspect-[9/16] mx-auto max-w-sm" %}
+
+<div class="mx-auto max-w-sm">
+  <lite-vimeo 
+  videoid="218986846/63f50ab75a"
+  unlisted 
+  aspectratio="9/16" 
+  videotitle="Explore the Admin app" 
+  customPlaceHolder="/lite-vimeo/218986846.jpg""></lite-vimeo>
+</div>
 
 ## Capture your existing materials
 
