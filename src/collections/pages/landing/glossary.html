@@ -6,7 +6,7 @@ meta: eLearning glossary
 layout: layouts/01.nav.njk
 
 ---
-<section class="bg-gradient-to-b from-white to-slate-200 pt-16 pb-6">
+<section class="bg-gradient-to-b from-white to-slate-200 pt-16 pb-24 relative">
 
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     <h1>eLearning Glossary</h1>
@@ -15,20 +15,29 @@ layout: layouts/01.nav.njk
 
 
   <!-- List of words with anchor links -->
-  <section class="mx-auto max-w-5xl flex flex-wrap justify-center gap-3 px-2 py-4 rounded-xl bg-white shadow-lg shadow-slate-300">
-    {% for item in glossary %}
-      <a href="#{{ item.word | slugify }}" class="wordOff">{{ item.word }}</a>
-    {% endfor %}
-  </section>
+  <!-- <div class="sticky top-0 bg-white py-6 z-10 shadow"> -->
+    <div class="mx-auto max-w-4xl flex flex-wrap justify-center gap-3 px-4">
+      {% for item in glossary | sort(attribute="word")  %}
+        <a href="#{{ item.word | slugify }}" class="
+          flex items-center justify-center
+          rounded-md px-3 py-2
+          uppercase text-xs font-medium 
+        bg-blue-200/75 hover:bg-blue-400/75 border-blue-500/50 hover:text-black hover:underline border-b-4
+          ">{{ item.word }}</a>
+      {% endfor %}
+    </div>
+  <!-- </div> -->
 
   <!-- Sections for SEO, Definition, and Video -->
-  {% for item in glossary %}
+  {% for item in glossary | sort(attribute="word")  %}
   <article id="{{ item.word | slugify }}"  class="epl-prose-scale epl-prose-style epl-prose-margin">
     <h2 class="mb-4">{{ item.seo }}</h2>
     <p>{{ item.definition }}</p>
     
     {% if item.video %}
-    <p><a href="{{ item.video }}" target="_blank">Watch Video</a></p>
+    <lite-youtube videotitle="Learning Lingo: {{ item.word }}" videoid="{{ item.video }}" posterquality="maxresdefault">
+      <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ item.video }}">Watch on YouTube: "Learning Lingo: {{ item.word }}"</a></p>
+    </lite-youtube>
     {% endif %}
   </article>
   {% endfor %}
