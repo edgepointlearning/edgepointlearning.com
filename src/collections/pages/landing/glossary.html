@@ -1,46 +1,60 @@
 ---
 title: eLearning Glossary 
 permalink: /glossary/
-meta: eLearning glossary
+meta: Explore EdgePoint Learning's glossary for clear, concise definitions of essential terms related to eLearning, instructional design, and employee training strategies. Perfect for professionals looking to deepen their knowledge in learning and development.
 
 layout: layouts/01.nav.njk
 
 ---
-<section class="bg-gradient-to-b from-white to-slate-200 pt-16 pb-24 relative">
+{# content #}
+<section class="bg-gradient-to-b from-white to-slate-200 pt-16">
 
-  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+  {# header #}
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin mb-16">
     <h1>eLearning Glossary</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Discover key terms and concepts in the field of learning and development with EdgePoint Learning's comprehensive glossary, designed to enhance your understanding of eLearning and training strategies.</p>
   </article>
 
+  <!-- mobile nav -->
+  <div class="mx-auto max-w-4xl flex md:hidden flex-wrap justify-center gap-3 px-4 mb-16">
+    {% for item in glossary | sort(attribute="word")  %}
+      <a href="#{{ item.word | slugify }}" class="
+        flex items-center justify-center
+        rounded-md px-3 py-2
+        uppercase text-xs font-medium 
+      bg-blue-200/75 hover:bg-blue-400/75 border-blue-500/50 hover:text-black hover:underline border-b-4
+        ">{{ item.word }}</a>
+    {% endfor %}
+  </div>
 
-  <!-- List of words with anchor links -->
-  <!-- <div class="sticky top-0 bg-white py-6 z-10 shadow"> -->
-    <div class="mx-auto max-w-4xl flex flex-wrap justify-center gap-3 px-4">
+  <div class="flex w-full max-w-5xl mx-auto">
+    <!-- Sidebar -->
+    <div class="hidden md:flex max-w-fit sticky top-2 h-full pb-16 rounded-lg bg-slate-200 ">
+      <ul class="p-4">
+        <li class="font-extrabold text-slate-600 text-xl leading-none border-b pb-2 border-slate-400">eLearning Glossary</li>
+        {% for item in glossary | sort(attribute="word")  %}
+        <li class="my-2"><a href="#{{ item.word | slugify }}" class="text-edgepoint-500 hover:underline">{{ item.word }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="flex-1 p-4 pt-0">
       {% for item in glossary | sort(attribute="word")  %}
-        <a href="#{{ item.word | slugify }}" class="
-          flex items-center justify-center
-          rounded-md px-3 py-2
-          uppercase text-xs font-medium 
-        bg-blue-200/75 hover:bg-blue-400/75 border-blue-500/50 hover:text-black hover:underline border-b-4
-          ">{{ item.word }}</a>
+      <article id="{{ item.word | slugify }}"  class="epl-prose-scale epl-prose-style epl-prose-margin mb-20">
+        <h2 class="mb-4 {{'mt-0' if loop.index == 1 }}">{{ item.seo }}</h2>
+        <p>{{ item.definition }}</p>
+        
+        {% if item.video %}
+        <lite-youtube videotitle="Learning Lingo: {{ item.word }}" videoid="{{ item.video }}" posterquality="maxresdefault">
+          <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ item.video }}">Watch on YouTube: "Learning Lingo: {{ item.word }}"</a></p>
+        </lite-youtube>
+        {% endif %}
+      </article>
       {% endfor %}
     </div>
-  <!-- </div> -->
+  </div>
 
-  <!-- Sections for SEO, Definition, and Video -->
-  {% for item in glossary | sort(attribute="word")  %}
-  <article id="{{ item.word | slugify }}"  class="epl-prose-scale epl-prose-style epl-prose-margin">
-    <h2 class="mb-4">{{ item.seo }}</h2>
-    <p>{{ item.definition }}</p>
-    
-    {% if item.video %}
-    <lite-youtube videotitle="Learning Lingo: {{ item.word }}" videoid="{{ item.video }}" posterquality="maxresdefault">
-      <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ item.video }}">Watch on YouTube: "Learning Lingo: {{ item.word }}"</a></p>
-    </lite-youtube>
-    {% endif %}
-  </article>
-  {% endfor %}
 
 </section>
 
