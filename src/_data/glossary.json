@@ -1,11 +1,6 @@
 [
   {
-    "word": "Elearning",
-    "seo": "What is eLearning?",
-    "definition": "eLearning is any educational or informative content that is delivered electronically. Over the years, this has evolved from educational radio broadcasts to instructional videos, lessons on tape, computer-based training on disk, and finally online training."
-  },
-  {
-    "word": "Lxp",
+    "word": "LXP",
     "seo": "What is an LXP?",
     "definition": "A learning experience platform, or LXP, is a system that helps curate and recommend educational content for learners from across multiple sources. It pulls from blogs, videos, and internal and external websites, offering suggestions based on a learner’s interests, job type, and goals. The LXP then adapts as the learner interacts with it, tailoring recommendations based on past use and preferred media formats, refining and customizing as it goes.",
     "video": "peU7bYsotag"
@@ -69,5 +64,260 @@
     "seo": "What is synchronous learning?",
     "definition": "Synchronous learning occurs with everyone meeting at a set, scheduled time. It can be live in-person or hosted online through videoconferencing. The ability to interact with an instructor, who can field questions and provide feedback in real-time is valuable, and some learners are more comfortable in this familiar setting. Synchronous learning is ideal for concepts requiring in-depth discussion, but is usually unnecessary for simple, fact-based information. The biggest challenges are scheduling the trainer and all learners and accommodating the training if held in person.",
     "video": "uARB9L-BjEk"
+  },
+  {
+    "word": "Elearning",
+    "seo": "What is eLearning?",
+    "definition": "eLearning is any educational or informative content that is delivered electronically. Over the years, this has evolved from educational radio broadcasts to instructional videos, lessons on tape, computer-based training on disk, and finally online training."
+  },
+  {
+    "word": "LMS",
+    "seo": "What is an LMS?",
+    "definition": "A Learning Management System (LMS) is a software platform that enables organizations to deliver, track, and report on eLearning programs."
+  },
+  {
+    "word": "SME",
+    "seo": "What is a SME?",
+    "definition": "A Subject Matter Expert (SME) is an individual with deep knowledge or expertise in a particular subject, often consulted during the course development process."
+  },
+  {
+    "word": "Instructional Designer",
+    "seo": "What is an Instructional Designer?",
+    "definition": "An Instructional Designer creates and organizes educational materials, focusing on the best ways to deliver training and learning experiences."
+  },
+  {
+    "word": "Graphic Designer",
+    "seo": "What is a Graphic Designer?",
+    "definition": "A Graphic Designer is responsible for creating visual content and design elements to enhance eLearning materials and make them visually engaging."
+  },
+  {
+    "word": "Project Manager",
+    "seo": "What is a Project Manager?",
+    "definition": "A Project Manager oversees the planning, execution, and completion of eLearning projects, ensuring that timelines and goals are met."
+  },
+  {
+    "word": "Authoring Tool",
+    "seo": "What is an Authoring Tool?",
+    "definition": "An Authoring Tool is software that enables the creation of eLearning content, allowing instructional designers to build courses without needing extensive programming knowledge."
+  },
+  {
+    "word": "Localization",
+    "seo": "What is localization?",
+    "definition": "Localization refers to adapting eLearning content for different languages, cultures, and regions to ensure it is relevant and accessible for a global audience."
+  },
+  {
+    "word": "mLearning",
+    "seo": "What is mLearning?",
+    "definition": "Mobile Learning (mLearning) refers to the delivery of eLearning content via mobile devices, such as smartphones or tablets, for learning on the go."
+  },
+  {
+    "word": "VR/AR",
+    "seo": "What is VR/AR?",
+    "definition": "Virtual Reality (VR) and Augmented Reality (AR) are immersive technologies used to create interactive and realistic eLearning experiences."
+  },
+  {
+    "word": "ILT/VILT",
+    "seo": "What is ILT/VILT?",
+    "definition": "Instructor-Led Training (ILT) and Virtual Instructor-Led Training (VILT) are traditional classroom training methods, where an instructor teaches either in-person or online."
+  },
+  {
+    "word": "CBT/WBT",
+    "seo": "What is CBT/WBT?",
+    "definition": "Computer-Based Training (CBT) and Web-Based Training (WBT) are self-paced learning methods where learners interact with content via computer or web browsers."
+  },
+  {
+    "word": "ADDIE",
+    "seo": "What is ADDIE?",
+    "definition": "ADDIE is a framework used in instructional design that includes five phases: Analysis, Design, Development, Implementation, and Evaluation."
+  },
+  {
+    "word": "CMS/LCMS",
+    "seo": "What is a CMS/LCMS?",
+    "definition": "A Content Management System (CMS) manages digital content, while a Learning Content Management System (LCMS) is specifically designed to create and manage eLearning content."
+  },
+  {
+    "word": "JIT",
+    "seo": "What is JIT?",
+    "definition": "Just-In-Time (JIT) learning is a strategy that delivers knowledge exactly when the learner needs it, often used in workplace training."
+  },
+  {
+    "word": "MOOC",
+    "seo": "What is MOOC?",
+    "definition": "A Massive Open Online Course (MOOC) is an online course aimed at unlimited participation and open access via the web."
+  },
+  {
+    "word": "SCORM",
+    "seo": "What is SCORM?",
+    "definition": "Sharable Content Object Reference Model (SCORM) is a set of technical standards for eLearning software that ensures content compatibility with LMSs."
+  },
+  {
+    "word": "xAPI/Tin Can",
+    "seo": "What is xAPI/Tin Can?",
+    "definition": "xAPI (Experience API), also known as Tin Can API, is a standard for tracking and recording learning experiences both online and offline."
+  },
+  {
+    "word": "GUI",
+    "seo": "What is a GUI?",
+    "definition": "A Graphical User Interface (GUI) allows users to interact with digital systems through graphical elements like buttons and icons, rather than text commands."
+  },
+  {
+    "word": "UX/UXD",
+    "seo": "What is UX/UXD?",
+    "definition": "User Experience (UX) and User Experience Design (UXD) focus on creating a positive and intuitive interaction between users and digital products."
+  },
+  {
+    "word": "Cognitive Load",
+    "seo": "What is cognitive load?",
+    "definition": "Cognitive Load refers to the amount of mental effort required to process information, which is a critical consideration in instructional design to avoid overwhelming learners."
+  },
+  {
+    "word": "Geofencing",
+    "seo": "What is geofencing?",
+    "definition": "Geofencing is the use of GPS or RFID technology to create virtual boundaries, enabling location-based content delivery for eLearning."
+  },
+  {
+    "word": "Industry 4.0",
+    "seo": "What is industry 4.0?",
+    "definition": "Industry 4.0 refers to the fourth industrial revolution, where automation and data exchange transform industries, often requiring workforce upskilling through eLearning."
+  },
+  {
+    "word": "Web 2.0",
+    "seo": "What is web 2.0?",
+    "definition": "Web 2.0 refers to the second generation of the internet, characterized by user-generated content, social media, and collaboration."
+  },
+  {
+    "word": "Web 3.0",
+    "seo": "What is web 3.0?",
+    "definition": "Web 3.0 is the next generation of the internet, emphasizing decentralized platforms, blockchain technology, and artificial intelligence."
+  },
+  {
+    "word": "The Metaverse",
+    "seo": "What is the metaverse?",
+    "definition": "The Metaverse is a virtual, immersive space where users can interact with digital environments and others in real-time, offering new possibilities for eLearning."
+  },
+  {
+    "word": "Digital Performance Support",
+    "seo": "What is digital performance support?",
+    "definition": "Digital Performance Support provides on-demand resources and guidance to help employees perform tasks efficiently, often integrated within eLearning platforms."
+  },
+  {
+    "word": "DEI",
+    "seo": "What is DEI?",
+    "definition": "Diversity, Equity, and Inclusion (DEI) initiatives aim to create equitable learning environments that support diverse learners' needs."
+  },
+  {
+    "word": "Product Education Training",
+    "seo": "What is product education training?",
+    "definition": "Product Education Training equips employees or customers with the knowledge needed to effectively use a product or service, often delivered through eLearning."
+  },
+  {
+    "word": "Content Curation",
+    "seo": "What is content curation?",
+    "definition": "Content Curation in eLearning involves selecting, organizing, and presenting relevant information from multiple sources to facilitate learning."
+  },
+  {
+    "word": "Employee Development Plan",
+    "seo": "What is an employee development plan?",
+    "definition": "An Employee Development Plan is a personalized roadmap for professional growth, identifying skills to be developed through training and eLearning."
+  },
+  {
+    "word": "Upskilling",
+    "seo": "What is upskilling?",
+    "definition": "Upskilling is the process of teaching employees new skills to enhance their current role or prepare them for new opportunities within an organization."
+  },
+  {
+    "word": "508/WCAG Compliance",
+    "seo": "What is 508/WCAG compliance?",
+    "definition": "508 and WCAG compliance ensure that eLearning content is accessible to all users, including those with disabilities, by adhering to specific accessibility standards."
+  },
+  {
+    "word": "Learning Path",
+    "seo": "What is a learning path?",
+    "definition": "A Learning Path is a structured sequence of courses and materials designed to guide learners through specific topics or skills."
+  },
+  {
+    "word": "Blended Learning",
+    "seo": "What is blended learning?",
+    "definition": "Blended Learning combines traditional classroom instruction with online learning to provide a flexible and comprehensive learning experience."
+  },
+  {
+    "word": "Branching",
+    "seo": "What is branching?",
+    "definition": "Branching in eLearning refers to scenarios where learners make decisions that affect the direction and outcome of the course, creating personalized learning paths."
+  },
+  {
+    "word": "Drag-N-Drop",
+    "seo": "What is a drag-n-drop?",
+    "definition": "A Drag-N-Drop interaction allows learners to move objects on the screen to complete tasks, making the learning experience more interactive."
+  },
+  {
+    "word": "Scenario",
+    "seo": "What is a scenario?",
+    "definition": "A Scenario in eLearning presents real-life situations or challenges for learners to work through, helping them apply knowledge in a practical context."
+  },
+  {
+    "word": "Simulation",
+    "seo": "What is a simulation?",
+    "definition": "A Simulation is an interactive learning tool that replicates real-world processes or situations, allowing learners to practice skills in a controlled environment."
+  },
+  {
+    "word": "Case Study",
+    "seo": "What is a case study?",
+    "definition": "A Case Study refers to a documented example that showcases how a specific customer or organization successfully implemented an eLearning solution to meet their educational or training needs."
+  },
+  {
+    "word": "Onboarding",
+    "seo": "What is onboarding?",
+    "definition": "Onboarding is the process of integrating new employees into an organization, typically involving training programs that cover essential knowledge and skills."
+  },
+  {
+    "word": "Informal Learning",
+    "seo": "What is informal learning?",
+    "definition": "Informal Learning is learning that occurs outside of structured educational programs, often through experience, conversation, or self-directed activities."
+  },
+  {
+    "word": "Edutainment",
+    "seo": "What is edutainment?",
+    "definition": "Edutainment combines education and entertainment, using engaging media and content to enhance the learning experience."
+  },
+  {
+    "word": "Kanban",
+    "seo": "What is Kanban?",
+    "definition": "Kanban is a project management method that visualizes workflow and optimizes task completion through the use of boards and cards."
+  },
+  {
+    "word": "Scrum",
+    "seo": "What is Scrum?",
+    "definition": "Scrum is an Agile project management framework that focuses on iterative development, with regular check-ins and reviews to ensure progress."
+  },
+  {
+    "word": "Waterfall",
+    "seo": "What is waterfall?",
+    "definition": "Waterfall is a traditional project management approach where tasks are completed in sequential phases, with each phase dependent on the previous one."
+  },
+  {
+    "word": "Agile",
+    "seo": "What is Agile?",
+    "definition": "Agile is a project management methodology that emphasizes flexibility, collaboration, and continuous improvement through iterative development cycles."
+  },
+  {
+    "word": "MLA Writing Style",
+    "seo": "What is MLA writing style?",
+    "definition": "MLA (Modern Language Association) writing style is a format for writing and documenting research in the humanities, focusing on proper citation and formatting."
+  },
+  {
+    "word": "Chicago Style/Turabian Writing Style",
+    "seo": "What is Chicago Style/Turabian writing style?",
+    "definition": "Chicago/Turabian is a writing style commonly used in history and social sciences, known for its use of footnotes and bibliographies."
+  },
+  {
+    "word": "AP Writing Style",
+    "seo": "What is AP writing style?",
+    "definition": "Associated Press (AP) writing style is widely used in journalism and media, emphasizing clarity, brevity, and consistency."
+  },
+  {
+    "word": "APA Writing Style",
+    "seo": "What is APA writing style?",
+    "definition": "APA (American Psychological Association) writing style is commonly used in the social sciences, known for its emphasis on citing sources and presenting research in a standardized format."
   }
 ]
