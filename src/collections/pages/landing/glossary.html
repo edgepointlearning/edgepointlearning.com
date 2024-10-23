@@ -7,7 +7,7 @@ layout: layouts/01.nav.njk
 
 ---
 
-<section class="bg-gradient-to-b from-white to-slate-200 pt-16">
+<section class="bg-gradient-to-b from-white to-slate-200 py-16">
 
   <!-- header -->
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
@@ -33,7 +33,7 @@ layout: layouts/01.nav.njk
 
   <!-- content -->
   {% for item in glossary | sort(attribute="word")  %}
-  <article id="{{ item.word | slugify }}" class="scroll-mt-24 epl-prose-scale epl-prose-style epl-prose-margin mb-16">
+  <article id="{{ item.word | slugify }}" class="scroll-mt-24 epl-prose-scale epl-prose-style epl-prose-margin">
     <h2 class="mb-4 {{'mt-0' if loop.index == 1 }}">{{ item.seo }}</h2>
     <p>{{ item.definition }}</p>
     {% if item.video %}
