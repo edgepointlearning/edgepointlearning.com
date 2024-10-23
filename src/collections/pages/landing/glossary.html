@@ -27,6 +27,30 @@ layout: layouts/01.nav.njk
     {% endfor %}
   </div>
 
+  <div id="backToTop" class="sticky hidden md:hidden z-20 top-0 right-4 
+  bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md
+  p-4 text-center">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="rounded-full bg-edgepoint-400 text-white  py-2 px-4 shadow-sm shadow-edgepoint-900">
+      Back to Top
+    </button>
+  </div>
+  
+  <script>
+    const backToTopButton = document.getElementById('backToTop');
+  
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 600) { // Show when scrolled 200px down
+        backToTopButton.classList.remove('hidden');
+        backToTopButton.classList.add('block');
+      } else {
+        backToTopButton.classList.add('hidden');
+        backToTopButton.classList.remove('block');
+      }
+    });
+  </script>
+  
+
+
   <div class="flex w-full max-w-5xl mx-auto">
     <!-- Sidebar -->
     <div class="hidden md:flex max-w-fit sticky top-2 h-full pb-16 rounded-lg bg-slate-200 ">
