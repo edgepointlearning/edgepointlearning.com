@@ -6,84 +6,51 @@ meta: Explore EdgePoint Learning's glossary for clear, concise definitions of es
 layout: layouts/01.nav.njk
 
 ---
-<!-- back to top -->
-<div id="backToTop" class="sticky hidden md:hidden z-20 top-0 right-4 
-  bg-gradient-to-r from-edgepoint-800 via-edgepoint-600 to-edgepoint-800 shadow-md
-  p-4 text-center">
-  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="rounded-full bg-edgepoint-400 text-white text-sm py-2 px-4 shadow shadow-edgepoint-900">
-    Back to Top
-  </button>
-</div>
-<script>
-  const backToTopButton = document.getElementById('backToTop');
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 2000) { // Show when scrolled 200px down
-      backToTopButton.classList.remove('hidden');
-      backToTopButton.classList.add('block');
-    } else {
-      backToTopButton.classList.add('hidden');
-      backToTopButton.classList.remove('block');
-    }
-  });
-</script>
+<section class="bg-gradient-to-b from-white to-slate-200 pt-16">
 
+  <!-- header -->
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+    <h1>eLearning Glossary</h1>
+    <p>Discover key terms and concepts in the field of learning and development with EdgePoint Learning's comprehensive glossary, designed to enhance your understanding of eLearning and training strategies.</p>
+  </article>
 
-<section class="bg-gradient-to-b from-white to-slate-100 pt-16">
-
-  <div class="flex w-full max-w-5xl mx-auto">
-
-    <!-- Sticky Sidebar -->
-    <div class="hidden md:block max-w-fit sticky top-2 h-screen pb-12 rounded-lg bg-slate-200 ml-2 lg:ml-0 overflow-y-auto">
-      <ul class="p-4">
-        <li class="font-extrabold text-slate-600 text-xl leading-none border-b pb-2 border-slate-400 cursor-pointer"  onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">eLearning Glossary 🔝</li>
+  <!-- sticky nav -->
+  <nav class="sticky z-10 top-0 w-full p-4 mb-16 bg-white shadow-md">
+    <div class="flex justify-between items-center max-w-prose mx-auto">
+      <span class="cursor-pointer text-2xl" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">🔝</span>
+      
+      <select onchange="if (this.value) window.location.href=this.value" class="text-sm">
+        <option value="" disabled selected>Select a term</option>
         {% for item in glossary | sort(attribute="word")  %}
-        <li class="my-2 text-sm"><a href="#{{ item.word | slugify }}" class="text-edgepoint-900 hover:underline">{{ item.word }}</a></li>
+          <option value="#{{ item.word | slugify }}">
+            {{ item.word }}
+          </option>
         {% endfor %}
-      </ul>
+      </select>
     </div>
-    
-    <!-- Main Content -->
-    <div class="flex-1 p-4 pt-0">
+  </nav>
 
-      <article class="epl-prose-scale epl-prose-style epl-prose-margin mb-16">
-        <h1>eLearning Glossary</h1>
-        <p>Discover key terms and concepts in the field of learning and development with EdgePoint Learning's comprehensive glossary, designed to enhance your understanding of eLearning and training strategies.</p>
-      </article>
-
-      <!-- mobile nav -->
-      <div class="mx-auto max-w-4xl flex md:hidden flex-wrap justify-center gap-3 px-4 mb-16">
-        {% for item in glossary | sort(attribute="word")  %}
-          <a href="#{{ item.word | slugify }}" class="
-            flex items-center justify-center
-            rounded-md px-3 py-2
-            uppercase text-xs font-medium 
-          bg-blue-200/75 hover:bg-blue-400/75 border-blue-500/50 hover:text-black hover:underline border-b-4
-            ">{{ item.word }}</a>
-        {% endfor %}
-      </div>
-
-      {% for item in glossary | sort(attribute="word")  %}
-      <article id="{{ item.word | slugify }}"  class="scroll-mt-24 md:scroll-mt-8 epl-prose-scale epl-prose-style epl-prose-margin mb-20">
-        <h2 class="mb-4 {{'mt-0' if loop.index == 1 }}">{{ item.seo }}</h2>
-        <p>{{ item.definition }}</p>
-        
-        {% if item.video %}
-        <lite-youtube videotitle="Learning Lingo: {{ item.word }}" videoid="{{ item.video }}" posterquality="maxresdefault">
-          <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ item.video }}">Watch on YouTube: "Learning Lingo: {{ item.word }}"</a></p>
-        </lite-youtube>
-        {% endif %}
-      </article>
-      {% endfor %}
-    </div>
-  </div>
-
+  <!-- content -->
+  {% for item in glossary | sort(attribute="word")  %}
+  <article id="{{ item.word | slugify }}" class="scroll-mt-24 epl-prose-scale epl-prose-style epl-prose-margin mb-16">
+    <h2 class="mb-4 {{'mt-0' if loop.index == 1 }}">{{ item.seo }}</h2>
+    <p>{{ item.definition }}</p>
+    {% if item.video %}
+    <lite-youtube videotitle="Learning Lingo: {{ item.word }}" videoid="{{ item.video }}" posterquality="maxresdefault">
+      <p><a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ item.video }}">Watch on YouTube: "Learning Lingo: {{ item.word }}"</a></p>
+    </lite-youtube>
+    {% endif %}
+  </article>
+  {% endfor %}
 
 </section>
 
+
+
 <!-- contact -->
 <section class="relative pt-8 pb-16">
-  {% svg "waves/wave-4.svg", "wave-top fill-slate-100 -scale-y-100 -scale-x-100" %}
+  {% svg "waves/wave-4.svg", "wave-top fill-slate-200 -scale-y-100 -scale-x-100" %}
 
   <aside id="contact" class="
     relative
