@@ -1,11 +1,12 @@
 <ul class="h-14 flex items-stretch max-w-5xl mx-auto gap-8 px-4">
-  <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-[180px] fill-white" %}</a></li>
+  <li class="flex items-center flex-auto"><a class="" href="/" title="Home">{% svg "logo/epl-horizontal-paintable.svg", "w-full max-w-[180px] fill-white" %}</a></li>
   <li class="hidden md:flex items-center">
     <button 
       @click="showSolutions = true"
       class="nav-link flex align-middle cursor-pointer" >Solutions{% svg "menu/expand-down.svg", "h-4 mt-0.5 -mr-1 fill-white" %}</button>
   </li>
   <li class="hidden md:flex items-center"><a class="nav-link" href="/blog/">Insights</a></li>
+  <li class="hidden md:flex items-center"><a class="nav-link" href="/glossary/">Glossary</a></li>
   <li class="hidden md:flex items-center"><a class="nav-link" href="/about/">About</a></li>
   <li class="hidden md:flex items-center"><a class="nav-link" href="/form/demo/">Demos</a></li>
   <li class="hidden md:flex items-center"><a class="nav-link" href="/contact/">Contact</a></li>
