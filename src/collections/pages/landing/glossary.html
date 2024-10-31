@@ -19,15 +19,17 @@ layout: layouts/01.nav.njk
   <nav class="sticky z-10 top-0 w-full p-4 mb-16 bg-white shadow-md">
     <div class="flex justify-between items-center max-w-prose mx-auto">
       <span class="cursor-pointer text-2xl" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">🔝</span>
-      
-      <select onchange="if (this.value) window.location.href=this.value" class="text-sm">
-        <option value="" disabled selected>Select a term</option>
-        {% for item in glossary | sort(attribute="word")  %}
+      <div>
+        <label for="glossary-select" class="sr-only">Select a term</label>
+        <select onchange="if (this.value) window.location.href=this.value" class="text-sm">
+          <option value="" disabled selected>Select a term</option>
+          {% for item in glossary | sort(attribute="word")  %}
           <option value="#{{ item.word | slugify }}">
             {{ item.word }}
           </option>
-        {% endfor %}
-      </select>
+          {% endfor %}
+        </select>
+      </div>
     </div>
   </nav>
 
