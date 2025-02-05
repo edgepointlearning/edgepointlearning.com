@@ -2,7 +2,7 @@
 title: The Ethics of Using AI-Generated Content in eLearning Materials
 permalink: /blog/ethics-of-ai/
 image: blog/2025/2025-02-05-ethics-of-ai.png
-meta: ""
+meta: "Explore the ethical implications of AI-generated content in eLearning. Learn benefits, challenges, and how to balance innovation with integrity."
 author: { name: EdgePoint Learning }
 ---
 
