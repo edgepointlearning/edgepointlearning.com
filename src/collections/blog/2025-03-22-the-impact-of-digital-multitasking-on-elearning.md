@@ -48,7 +48,7 @@ Rather than lamenting these trends, forward-thinking L\&D professionals are adap
 
 Breaking content into focused, 5-10 minute learning modules aligns with the realities of the modern attention span. Microlearning reduces cognitive load and creates natural pauses between learning sessions, making it more compatible with multitasking environments. When paired with spaced repetition – strategically timed review sessions – this approach can significantly improve retention despite multitasking challenges.
 
-👉**Discover more:** [The](/blog/types-of-microlearning/) Top 11 Types Of Microlearning For Your Employees
+👉**Discover more:** [The Top 11 Types Of Microlearning For Your Employees](/blog/types-of-microlearning/)
 { .blog-card-blue }
 
 ### Attention-Aware Instructional Design
