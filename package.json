@@ -1,47 +1,45 @@
 {
-  "scripts": {
-    "clean": "rimraf _site",
-    "serve:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --watch",
-    "build:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --minify",
-    "serve:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose --watch",
-    "build:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose",
-    "serve:eleventy": "eleventy --serve --incremental",
-    "build:eleventy": "eleventy",
-    "dev": "cross-env NODE_ENV=development npm-run-all clean -p serve:*",
-    "build": "cross-env NODE_ENV=production  npm-run-all -s build:*"
-  },
+  "browserslist": [
+    "defaults"
+  ],
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "6.0.2",
+    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy-img": "6.0.4",
+    "@choctawnationofoklahoma/lite-vimeo": "1.2.2",
+    "@justinribeiro/lite-youtube": "1.8.2",
     "@quasibit/eleventy-plugin-sitemap": "2.2.0",
     "@tailwindcss/forms": "0.5.10",
     "@tailwindcss/typography": "0.5.16",
     "alpinejs": "3.14.9",
+    "child_process": "1.0.2",
     "clipboard": "2.0.11",
+    "cross-env": "7.0.3",
     "eleventy-plugin-metagen": "1.8.3",
+    "esbuild": "0.25.5",
+    "htmlnano": "2.1.2",
     "m": "1.9.1",
     "markdown-it-attrs": "4.3.1",
     "markdown-it-link-attributes": "4.0.1",
-    "sharer.js": "0.5.3",
-    "tailwindcss": "3.4.17"
-  },
-  "devDependencies": {
-    "@choctawnationofoklahoma/lite-vimeo": "1.2.2",
-    "@justinribeiro/lite-youtube": "1.7.1",
-    "child_process": "1.0.2",
-    "cross-env": "7.0.3",
-    "esbuild": "0.25.2",
-    "htmlnano": "2.1.1",
     "netlify-plugin-cache": "1.0.3",
     "npm-run-all": "4.1.5",
     "pagefind": "1.3.0",
-    "postcss": "8.5.3",
+    "postcss": "8.5.4",
     "postcss-cli": "11.0.1",
     "postcss-import": "16.1.0",
     "postcss-lightningcss": "1.0.1",
-    "rimraf": "6.0.1"
+    "rimraf": "6.0.1",
+    "sharer.js": "0.5.3",
+    "tailwindcss": "3.4.17"
   },
-  "browserslist": [
-    "defaults"
-  ]
+  "scripts": {
+    "build": "cross-env NODE_ENV=production  npm-run-all -s build:*",
+    "build:eleventy": "eleventy",
+    "build:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --minify",
+    "build:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose",
+    "clean": "rimraf _site",
+    "dev": "cross-env NODE_ENV=development npm-run-all clean -p serve:*",
+    "serve:eleventy": "eleventy --serve --incremental",
+    "serve:esbuild": "esbuild src/_includes/js/entry.js --outfile=_site/assets/compiled.js --bundle --watch",
+    "serve:postcss": "postcss src/_includes/css/entry.css -o _site/assets/compiled.css --verbose --watch"
+  }
 }
