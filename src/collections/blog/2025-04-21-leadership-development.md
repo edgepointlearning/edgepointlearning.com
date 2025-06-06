@@ -2,7 +2,7 @@
 title: "Creating Leadership Development Programs for Remote Teams"
 permalink: /blog/leadership-development-for-remote-teams/
 image: blog/2025/2025-04-21-leadership-development.jpg
-meta: "Explore cognitive science insights on digital multitasking: task-switching costs, learning impact, and L&D strategies to enhance training focus."
+meta: "Explore effective strategies for enhancing leadership skills in remote teams and boosting productivity and engagement."
 author: { name: EdgePoint Learning }
 ---
 
