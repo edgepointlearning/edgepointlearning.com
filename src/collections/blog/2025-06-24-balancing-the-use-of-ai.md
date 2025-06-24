@@ -2,7 +2,7 @@
 title: "Balancing the Use of AI and Human Touch in Creating eLearning"
 permalink: /blog/balancing-ai-human-touch-elearning/
 image: blog/2025/2025-07-blog.jpg
-meta: ""
+meta: "Learn how to effectively balance AI tools with human expertise in eLearning development. Discover best practices, strategic applications, and quality control methods to create engaging, effective training programs that leverage both artificial intelligence and instructional design expertise."
 author: { name: EdgePoint Learning }
 ---
 
