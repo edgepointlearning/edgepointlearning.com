@@ -2,7 +2,7 @@
 title: "Creating Leadership Development Programs for Remote Teams"
 permalink: /blog/leadership-development-for-remote-teams/
 image: blog/2025/2025-04-21-leadership-development.jpg
-meta: "Explore effective strategies for enhancing leadership skills in remote teams and boosting productivity and engagement."
+meta: "Build effective leadership development programs for remote teams. Learn core elements, delivery methods, and best practices for developing virtual communication skills, trust-building, and distributed team management capabilities."
 author: { name: EdgePoint Learning }
 ---
 
