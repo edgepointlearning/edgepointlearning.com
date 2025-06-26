@@ -21,8 +21,8 @@ layout: layouts/01.nav.njk
       <span class="cursor-pointer text-2xl" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">🔝</span>
       <div>
         <label for="glossary-select" class="sr-only">Select a term</label>
-        <select onchange="if (this.value) window.location.href=this.value" class="text-sm">
-          <option value="" disabled selected>Select a term</option>
+        <select id="glossary-select" onchange="if(this.value){const el=document.getElementById(this.value.slice(1));if(el){el.scrollIntoView({behavior:'smooth'});}}" class="text-sm">
+          <option value="" disabled selected hidden>Select a term</option>
           {% for item in glossary | sort(attribute="word")  %}
           <option value="#{{ item.word | slugify }}">
             {{ item.word }}
