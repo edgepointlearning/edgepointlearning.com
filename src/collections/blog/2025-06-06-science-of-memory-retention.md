@@ -2,7 +2,7 @@
 title: "The Science of Memory Retention in Digital Learning Design"
 permalink: /blog/science-of-memory-retention-in-digital-learning-design/
 image: blog/2025/2025-06-blog.jpg
-meta: "Discover how cognitive science influences memory retention in digital learning, enhancing educational outcomes."
+meta: "Discover evidence-based strategies for improving memory retention in digital learning design. Learn how cognitive science principles like spaced repetition, retrieval practice, and dual coding can create more effective eLearning experiences."
 author: { name: EdgePoint Learning }
 ---
 
