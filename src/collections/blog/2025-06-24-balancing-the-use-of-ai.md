@@ -26,7 +26,7 @@ The efficiency gains are undeniable. What once took weeks of content development
 
 However, as with any powerful tool, AI in eLearning comes with limitations that require careful consideration. While AI can generate content quickly, it cannot guarantee accuracy, cultural sensitivity, or alignment with your specific business policies and procedures. The technology excels at producing starting points and handling routine tasks, but it lacks the strategic insight, industry expertise, and contextual understanding that human learning professionals bring to the table.
 
-**👉Discover more:** [What’s the Future for ChatGPT and Employee Training?](blog/chatgpt-and-employee-training/)
+**👉Discover more:** [What’s the Future for ChatGPT and Employee Training?](/blog/chatgpt-and-employee-training/)
 { .blog-card-blue }
 
 ## Why the Human Touch Remains Essential { .scroll-mt-8 id="section2"}
@@ -51,7 +51,7 @@ Personalization at scale becomes possible through AI-driven adaptive learning sy
 
 Content translation and localization, traditionally expensive and time-intensive processes, can be significantly accelerated through AI tools. While human review remains essential for accuracy and cultural appropriateness, AI can provide strong first drafts that reduce both timeline and cost barriers for global training initiatives.
 
-**👉Learn more:** [Unlock the Future with 15 AI Tools for Training and Development](h/blog/ai-tools-for-training/)
+**👉Learn more:** [Unlock the Future with 15 AI Tools for Training and Development](/blog/ai-tools-for-training/)
 { .blog-card-blue }
 
 ## Best Practices for Achieving the Right AI-Human Balance { .scroll-mt-8 id="section4"}
