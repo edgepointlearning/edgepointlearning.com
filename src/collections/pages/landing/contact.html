@@ -17,6 +17,16 @@ hero:
   - name: View demos
     url: /form/demo/
 ---
+<section class="relative bg-gradient-to-b from-slate-300 via-white to-white mt-4 pt-12 pb-2 px-8 max-w-prose rounded-3xl mx-4 sm:mx-auto">
+  <article class="epl-prose-scale epl-prose-style epl-prose-margin">
+    <h1>{{ hero.headline | safe }}</h1>
+    <h2>{{ hero.tagline | safe }}</h2>
+    <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
+  </article>
+  <!-- Triangle tail -->
+  <div class="absolute -bottom-5 right-8 w-0 h-0 border-l-[20px] border-r-[20px] border-t-[20px] border-l-transparent border-r-transparent border-t-white"></div>
+</section>
+
 <!-- CONTACT FORM -->
 <section class="relative">
   {% svg "waves/wave-8.svg", "wave-bot fill-slate-300 -scale-x-100" %}
@@ -40,10 +50,6 @@ hero:
 
 <section class="bg-gradient-to-b from-slate-300 via-white to-white py-16">
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
-
-    <h1>{{ hero.headline | safe }}</h1>
-    <h2>{{ hero.tagline | safe }}</h2>
-    <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
 
     <h2>Follow us on social</h2>
     {%- for link in socials -%}
