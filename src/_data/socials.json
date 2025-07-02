@@ -1,22 +1,17 @@
 [
   {
-    "name": "Facebook",
-    "href": "http://www.facebook.com/edgepointlearningllc",
-    "icon": "fontawesome/facebook-brands.svg"
-  },
-  {
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/company/edgepoint-learning",
     "icon": "fontawesome/linkedin-brands.svg"
   },
   {
+    "name": "Facebook",
+    "href": "http://www.facebook.com/edgepointlearningllc",
+    "icon": "fontawesome/facebook-brands.svg"
+  },
+  {
     "name": "YouTube",
     "href": "https://www.youtube.com/@edgepointlearning",
     "icon": "fontawesome/youtube-brands.svg"
-  },
-  {
-    "name": "Twitter",
-    "href": "https://twitter.com/EdgePointLearn",
-    "icon": "fontawesome/twitter-brands.svg"
   }
 ]
