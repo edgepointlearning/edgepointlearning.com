@@ -22,6 +22,21 @@
 }
 
 
+/* prose */
+.epl-prose-scale {
+  @apply
+    prose prose-sm sm:prose-base lg:prose-lg
+}
+.epl-prose-style {
+  @apply
+    prose-slate prose-a:text-edgepoint-500 prose-img:rounded-xl
+}
+.epl-prose-margin {
+  @apply
+    mx-auto px-4 md:px-0
+}
+
+
 /* .story-quotation {
   quotes: "\201C""\201D""\2018""\2019";
 } */

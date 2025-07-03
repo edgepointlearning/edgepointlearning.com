@@ -17,13 +17,31 @@ hero:
   - name: View demos
     url: /form/demo/
 ---
+
+
 <!-- CONTACT FORM -->
 <section class="relative">
+
+  <article class="
+    bg-white rounded-3xl
+    mt-8 -mb-4 mx-2 sm:mx-auto
+    pt-8 pb-1 px-4 sm:px-8 rotate-1
+    epl-prose-scale epl-prose-style
+    ">
+    <div>
+      <h1 class="!my-0">{{ hero.headline | safe }}</h1>
+      <h2 class="!my-4">{{ hero.tagline | safe }}</h2>
+      <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
+    </div>
+    <!-- Triangle tail -->
+    <div class="absolute -bottom-8 right-7 w-0 h-0 border-l-[30px] border-r-[30px] border-t-[40px] border-l-transparent border-r-transparent border-t-white"></div>
+  </article>
+
   {% svg "waves/wave-8.svg", "wave-bot fill-slate-300 -scale-x-100" %}
 
   {% picture "misc/business-cat.svg", "business-cat", "relative w-full max-w-lg h-auto mx-auto mt-20 z-10" %}
 
-  <aside class="
+  <div class="
     relative
     max-w-2xl 
     -mt-16
@@ -33,17 +51,14 @@ hero:
     bg-white rounded shadow-lg">
     <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Get in touch</h2>
     {% include 'forms/2024contactus.html' %}  
-  </aside>
+  </div>
+
 </section>
 
 
 
 <section class="bg-gradient-to-b from-slate-300 via-white to-white py-16">
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
-
-    <h1>{{ hero.headline | safe }}</h1>
-    <h2>{{ hero.tagline | safe }}</h2>
-    <p>We're always ready to talk about your next employee training project or program. We'll start with a quick call to get to know about your needs and see how we can help. Our team will guide you through your options so you can find the learning experiences that are the right fit for your workforce.</p>
 
     <h2>Follow us on social</h2>
     {%- for link in socials -%}
