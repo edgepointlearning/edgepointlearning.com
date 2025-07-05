@@ -16,6 +16,7 @@ hero:
     url: '#solutions'
   
 ourDemos:
+
 - title: Premium
   link: /demo/lifting-premium/
   image: /demos/lifting-3-premium.jpg
@@ -31,6 +32,7 @@ ourDemos:
   
   styleCard: 'bg-violet-200/70 hover:ring-violet-300'
   styleText: 'text-violet-800/75'
+
   styleImage: 'object-top'
 
 - title: Entry
@@ -61,7 +63,12 @@ ourDemos:
           group transition hover:shadow-lg hover:-translate-y-2 {{ item.styleCard }}">
           {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.styleImage %}
           {% picture item.image, item.title, pictureClass, "400px" %}
-          <h3 class="mx-4 mt-1 text-xl font-bold">{{item.title}}<br> <span class="text-lg font-semibold {{ item.styleText }}">eLearning demo</span></h3>
+          
+          <h3 class="mx-4 mt-1 mb-0 text-xl sm:text-2xl lg:text-3xl font-bold !leading-none">
+            {{item.title}}
+            <br>
+            <span class="text-lg font-light {{ item.styleText }}">eLearning demo</span>
+          </h3>
           <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
         </a>
       {%- endfor -%}
