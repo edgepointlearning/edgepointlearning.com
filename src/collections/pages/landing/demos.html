@@ -16,26 +16,34 @@ hero:
     url: '#solutions'
   
 ourDemos:
-- title: Entry
-  link: /demo/lifting-basic/
-  image: /demos/lifting-1-basic.jpg
-  text: Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment.
-  styleCard: 'bg-pink-100 hover:ring-pink-300'
-  styleText: 'text-pink-700/75'
-- title: Pro
-  link: /demo/lifting-pro/
-  image: /demos/lifting-2-pro-b.jpg
-  text: We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more.
-  styleCard: 'bg-emerald-100 hover:ring-emerald-300'
-  styleText: 'text-emerald-700/75'
-  styleImage: 'object-top'
 - title: Premium
   link: /demo/lifting-premium/
   image: /demos/lifting-3-premium.jpg
   text: Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall.
+  
   styleCard: 'bg-blue-100 hover:ring-blue-300'
   styleText: 'text-blue-700/75'
+
+- title: Pro
+  link: /demo/lifting-pro/
+  image: /demos/lifting-2-pro-b.jpg
+  text: We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more.
+  
+  styleCard: 'bg-violet-200/70 hover:ring-violet-300'
+  styleText: 'text-violet-800/75'
+  styleImage: 'object-top'
+
+- title: Entry
+  link: /demo/lifting-basic/
+  image: /demos/lifting-1-basic.jpg
+  text: Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment.
+  
+  styleCard: 'bg-fuchsia-200/70 hover:ring-fuchsia-300'
+  styleText: 'text-fuchsia-800/75'
+
 ---
+
+
 
 {# lifting demos #}
 <section class="bg-white py-8">
@@ -53,13 +61,41 @@ ourDemos:
           group transition hover:shadow-lg hover:-translate-y-2 {{ item.styleCard }}">
           {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.styleImage %}
           {% picture item.image, item.title, pictureClass, "400px" %}
-          <h3 class="mx-4 mt-1 text-xl font-bold">{{item.title}}<br> <span class="font-light text-lg {{ item.styleText }}">eLearning demo</span></h3>
+          <h3 class="mx-4 mt-1 text-xl font-bold">{{item.title}}<br> <span class="text-lg font-semibold {{ item.styleText }}">eLearning demo</span></h3>
           <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
         </a>
       {%- endfor -%}
     </div>
   </article>
 </section>
+
+
+
+{# solutions #}
+<section id="solutions" class="scroll-mt-16 bg-white py-8">
+
+    <article class="grid grid-cols-2 gap-8 wrapper">
+      <header class="col-span-full epl-prose-scale epl-prose-style">
+        <h2 class="!mb-0">Our Learning Solutions</h2>
+      </header>
+
+      {%- for key, value in solutions -%}
+        <a aria-label="{{value.name}}" href="{{value.href}}" class="
+          col-span-full sm:col-span-1 
+          flex flex-col transition-all
+          rounded-xl overflow-hidden group ring-1 ring-transparent hover:shadow-lg hover:-translate-y-1 {{ value.styles.card }}
+        ">
+          <figure class="bg-gradient-radial {{ value.styles.figure }} pt-1">
+            {% picture value.image, value.name, "w-[180px] mx-auto origin-bottom transition group-hover:scale-110", "240px" %}
+          </figure>
+          <section class="p-4">
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold {{ value.styles.text }} group-hover:underline">{{value.name}}</h3>
+            <p class="mt-3">{{ value.blurb }}</p>
+          </section>
+        </a>
+      {%- endfor -%}
+    </article>
+  </section>
 
 
 
@@ -91,35 +127,6 @@ ourDemos:
             <p class="text-sm">{{ vimeo.text }}</p>
           </div>
         </section>
-      {%- endfor -%}
-    </div>
-  </article>
-</section>
-
-
-
-{# solutions #}
-<section id="solutions" class="scroll-mt-16 bg-white py-8">
-  <article class="wrapper">
-    <header class="epl-prose-scale epl-prose-style">
-      <h2 class="mt-0">EdgePoint Learning solutions</h2>
-    </header>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
-      {%- for key, value in solutions -%}
-        <a aria-label="{{value.name}}" href="{{value.href}}" class="
-          max-w-md
-          flex items-center 
-          p-4 rounded-lg
-          group transition hover:-translate-y-1 hover:shadow-lg">
-          <figure class="mr-4">
-            {% svg value.icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
-          </figure>
-          <section class="">
-            <h3 class="font-bold text-edgepoint-700 decoration-1 group-hover:text-edgepoint-500 group-hover:underline">{{value.name}}</h3>
-            <p class="mt-2 text-sm text-slate-700">{{ value.caption }}</p>
-          </section>
-        </a>
       {%- endfor -%}
     </div>
   </article>
@@ -168,7 +175,9 @@ ourDemos:
     mx-2 sm:mx-auto
     px-4 sm:px-8 py-8
     grid grid-cols-1 gap-y-6
-    bg-white rounded shadow-lg">
+    bg-white rounded shadow-xl shadow-emerald-600
+    ring-4 ring-offset-4 ring-orange-500 ring-offset-yellow-300
+    ">
     <h2 class="text-3xl font-bold text-slate-700">Let's talk about your next project</h2>
     {% include 'forms/2024contactus.html' %}  
   </aside>
