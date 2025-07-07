@@ -5,7 +5,7 @@ meta: From custom eLearning development to precision microlearning, explore how 
 
 hero:
   poster: heroes/reel_ALT.png
-  video:  heroes/reel_v2_ALT_blur5_med.mp4
+  video:  heroes/reel_v3.mp4
   style: 'blur'
   headline: Let's design<br> your next project 
   tagline: View our demos or book<br> a one-on-one consultation
@@ -16,26 +16,35 @@ hero:
     url: '#solutions'
   
 ourDemos:
-- title: Entry
-  link: /demo/lifting-basic/
-  image: /demos/lifting-1-basic.jpg
-  text: Just starting out with eLearning? Have existing content you want to leverage into an affordable online training program your employees can access on-demand? With our Entry tier, we take your existing content, add stock images and simple interactions, and package it for deployment.
-  styleCard: 'bg-pink-100 hover:ring-pink-300'
-  styleText: 'text-pink-700/75'
-- title: Pro
-  link: /demo/lifting-pro/
-  image: /demos/lifting-2-pro-b.jpg
-  text: We roll up our sleeves at this tier to help you design a full user learning experience. Our experts help script your content into people-centered learning, customize the user interface with your fonts, colors, and logo, and include simple animations, professional narration, and more.
-  styleCard: 'bg-emerald-100 hover:ring-emerald-300'
-  styleText: 'text-emerald-700/75'
-  styleImage: 'object-top'
-- title: Premium
-  link: /demo/lifting-premium/
-  image: /demos/lifting-3-premium.jpg
-  text: Want to develop a truly custom eLearning program from the ground up? In addition to all of the functionality of our Pro tier, you'll find more complex motion graphics, contextual and engaging activities, closed captioning, additional branding, and a more robust user experience overall.
-  styleCard: 'bg-blue-100 hover:ring-blue-300'
-  styleText: 'text-blue-700/75'
+  - link: https://demo-work-at-home-guide.netlify.app/#/
+    image: /demos/demo-a.jpg
+    style:
+      card: 'text-violet-900 bg-violet-200/80 hover:ring-violet-300 hover:shadow-violet-400/75'
+      pill: 'bg-violet-800/90'
+    title: Fast & Effective
+    cta: Discover Demo A
+    copy: Quickly convert your existing training materials into polished, on-demand courses—ideal for fast rollout and immediate results.
+
+  - link: https://demo-compare-documents.netlify.app/story.html
+    image: /demos/demo-b.jpg
+    style:
+      card: 'text-fuchsia-900 bg-fuchsia-200/70 hover:ring-fuchsia-300 hover:shadow-fuchsia-400/75'
+      pill: 'bg-fuchsia-800/90'
+    title: Branded & Interactive
+    cta: Try Demo B
+    copy: Elevate your training with interactive, fully branded eLearning modules designed to engage and inspire your team.
+
+  - link: https://demo-information-security.netlify.app/story.html
+    image: /demos/demo-c.jpg
+    style:
+      card: 'text-blue-900 bg-edgepoint-100 hover:ring-blue-300 hover:shadow-blue-400/75'
+      pill: 'bg-blue-700/90'
+    title: Custom Experiences
+    cta: Explore Demo C
+    copy: Unlock the ultimate custom solution with advanced visuals, immersive activities, and a seamless experience built just for your organization.
 ---
+
+
 
 {# lifting demos #}
 <section class="bg-white py-8">
@@ -45,16 +54,29 @@ ourDemos:
     </header>
     <div class="grid grid-cols-3 gap-12">
       {%- for item in ourDemos -%}
-        <a aria-label="{{item.title}}" href="{{item.link}}" class="
+        <a aria-label="{{item.title}}" href="{{item.link}}" target="_blank" class="
           max-w-md mx-auto 
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start md:content-between
           rounded-lg overflow-hidden 
           ring-2 ring-transparent
-          group transition hover:shadow-lg hover:-translate-y-2 {{ item.styleCard }}">
-          {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.styleImage %}
+          group transition hover:shadow-lg hover:-translate-y-2 {{ item.style.card }}">
+          {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.style.image %}
           {% picture item.image, item.title, pictureClass, "400px" %}
-          <h3 class="mx-4 mt-1 text-xl font-bold">{{item.title}}<br> <span class="font-light text-lg {{ item.styleText }}">eLearning demo</span></h3>
-          <p class="mx-4 mb-4 text-sm">{{item.text}}</p>
+          
+          <h3 class="
+            mx-4 mt-4
+            text-lg lg:text-2xl
+            font-semibold !leading-none group-hover:underline
+            ">{{item.title}}</h3>
+          <p class="mx-4 mb-4 text-sm text-black">{{item.copy}}</p>
+          <p>
+            <span class="
+              inline-block mx-4 mb-4
+              px-5 py-2.5 rounded-full 
+              tracking-wide text-sm text-white 
+              {{item.style.pill}} ring-2 ring-transparent group-hover:ring-white group-hover:bg-black
+              ">{{item.cta}}</span>
+          </p>
         </a>
       {%- endfor -%}
     </div>
@@ -100,30 +122,29 @@ ourDemos:
 
 {# solutions #}
 <section id="solutions" class="scroll-mt-16 bg-white py-8">
-  <article class="wrapper">
-    <header class="epl-prose-scale epl-prose-style">
-      <h2 class="mt-0">EdgePoint Learning solutions</h2>
-    </header>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
+    <article class="grid grid-cols-2 gap-8 wrapper">
+      <header class="col-span-full epl-prose-scale epl-prose-style">
+        <h2 class="!mb-0">Our Learning Solutions</h2>
+      </header>
+
       {%- for key, value in solutions -%}
         <a aria-label="{{value.name}}" href="{{value.href}}" class="
-          max-w-md
-          flex items-center 
-          p-4 rounded-lg
-          group transition hover:-translate-y-1 hover:shadow-lg">
-          <figure class="mr-4">
-            {% svg value.icon, "aspect-square w-20 origin-center transition group-hover:scale-125" %}
+          col-span-full sm:col-span-1 
+          flex flex-col transition-all
+          rounded-xl overflow-hidden group ring-1 ring-transparent hover:shadow-lg hover:-translate-y-1 {{ value.styles.card }}
+        ">
+          <figure class="bg-gradient-radial {{ value.styles.figure }} pt-1">
+            {% picture value.image, value.name, "w-[180px] mx-auto origin-bottom transition group-hover:scale-110", "240px" %}
           </figure>
-          <section class="">
-            <h3 class="font-bold text-edgepoint-700 decoration-1 group-hover:text-edgepoint-500 group-hover:underline">{{value.name}}</h3>
-            <p class="mt-2 text-sm text-slate-700">{{ value.caption }}</p>
+          <section class="p-4">
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold {{ value.styles.text }} group-hover:underline">{{value.name}}</h3>
+            <p class="mt-3">{{ value.blurb }}</p>
           </section>
         </a>
       {%- endfor -%}
-    </div>
-  </article>
-</section>
+    </article>
+  </section>
 
 
 
@@ -168,7 +189,9 @@ ourDemos:
     mx-2 sm:mx-auto
     px-4 sm:px-8 py-8
     grid grid-cols-1 gap-y-6
-    bg-white rounded shadow-lg">
+    bg-white rounded shadow-xl shadow-emerald-600
+    ring-4 ring-offset-4 ring-orange-500 ring-offset-yellow-300
+    ">
     <h2 class="text-3xl font-bold text-slate-700">Let's talk about your next project</h2>
     {% include 'forms/2024contactus.html' %}  
   </aside>
