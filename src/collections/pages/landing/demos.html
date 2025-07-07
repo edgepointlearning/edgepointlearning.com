@@ -22,7 +22,8 @@ ourDemos:
       card: 'bg-violet-200/80 hover:ring-violet-300 hover:shadow-violet-400/75'
       text: 'text-violet-900'
       pill: 'bg-violet-800/90'
-    title: Fast, Effective eLearning
+    title: Fast & Effective
+    cta: View Demo
     copy: Quickly convert your existing training materials into polished, on-demand courses—ideal for fast rollout and immediate results.
 
   - link: /demo/lifting-pro/
@@ -32,7 +33,8 @@ ourDemos:
       text: 'text-fuchsia-900'
       pill: 'bg-fuchsia-800/90'
       image: 'object-top'
-    title: Branded, Interactive Learning
+    title: Branded & Interactive
+    cta: See Demo
     copy: Elevate your training with interactive, fully branded eLearning modules designed to engage and inspire your team.
 
   - link: /demo/lifting-premium/
@@ -41,7 +43,8 @@ ourDemos:
       card: 'bg-edgepoint-100 hover:ring-blue-300 hover:shadow-blue-400/75'
       text: 'text-blue-900'
       pill: 'bg-blue-700/90'
-    title: Custom, Immersive Experiences
+    title: Custom Experiences
+    cta: Explore Demo
     copy: Unlock the ultimate custom solution with advanced visuals, immersive activities, and a seamless experience built just for your organization.
 ---
 
@@ -57,25 +60,26 @@ ourDemos:
       {%- for item in ourDemos -%}
         <a aria-label="{{item.title}}" href="{{item.link}}" class="
           max-w-md mx-auto 
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start md:content-between
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start md:content-between
           rounded-lg overflow-hidden 
           ring-2 ring-transparent
           group transition hover:shadow-lg hover:-translate-y-2 {{ item.style.card }}">
           {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.style.image %}
           {% picture item.image, item.title, pictureClass, "400px" %}
           
-          <h3 class="mx-4 text-lg lg:text-2xl font-semibold !leading-none {{ item.style.text }} group-hover:underline">
-            {{item.title}}
-          </h3>
+          <h3 class="
+            mx-4 mt-4
+            text-lg lg:text-2xl
+            font-semibold !leading-none {{ item.style.text }} group-hover:underline
+            ">{{item.title}}</h3>
           <p class="mx-4 mb-4 text-sm">{{item.copy}}</p>
           <p>
             <span class="
               inline-block mx-4 mb-4
               px-5 py-2.5 rounded-full 
-              tracking-wide text-white 
+              tracking-wide text-sm text-white 
               {{item.style.pill}} ring-2 ring-transparent group-hover:ring-white group-hover:bg-black
-              ">
-              See Demo</span>
+              ">{{item.cta}}</span>
           </p>
         </a>
       {%- endfor -%}
