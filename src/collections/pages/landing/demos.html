@@ -20,33 +20,29 @@ ourDemos:
     image: /demos/lifting-1-basic.jpg
     style:
       card: 'bg-violet-200/80 hover:ring-violet-300 hover:shadow-violet-400/75'
-      text: 'text-violet-800'
+      text: 'text-violet-900'
       pill: 'bg-violet-800/90'
-    title: Essentials
-    subtitle: Fast, Effective eLearning
+    title: Fast, Effective eLearning
     copy: Quickly convert your existing training materials into polished, on-demand courses—ideal for fast rollout and immediate results.
-    cta: Discover Essentials
+
   - link: /demo/lifting-pro/
     image: /demos/lifting-2-pro-b.jpg
     style:
       card: 'bg-fuchsia-200/70 hover:ring-fuchsia-300 hover:shadow-fuchsia-400/75'
-      text: 'text-fuchsia-800'
+      text: 'text-fuchsia-900'
       pill: 'bg-fuchsia-800/90'
       image: 'object-top'
-    title: Enhanced
-    subtitle: Branded, Interactive Learning
+    title: Branded, Interactive Learning
     copy: Elevate your training with interactive, fully branded eLearning modules designed to engage and inspire your team.
-    cta: Explore Enhanced
+
   - link: /demo/lifting-premium/
     image: /demos/lifting-3-premium.jpg
     style:
       card: 'bg-edgepoint-100 hover:ring-blue-300 hover:shadow-blue-400/75'
-      text: 'text-blue-700'
+      text: 'text-blue-900'
       pill: 'bg-blue-700/90'
-    title: Elite
-    subtitle: Custom, Immersive Experiences
+    title: Custom, Immersive Experiences
     copy: Unlock the ultimate custom solution with advanced visuals, immersive activities, and a seamless experience built just for your organization.
-    cta: Experience Elite
 ---
 
 
@@ -61,17 +57,15 @@ ourDemos:
       {%- for item in ourDemos -%}
         <a aria-label="{{item.title}}" href="{{item.link}}" class="
           max-w-md mx-auto 
-          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-2 content-start md:content-between
+          grid grid-cols-1 col-span-3 md:col-span-1 gap-y-4 content-start md:content-between
           rounded-lg overflow-hidden 
           ring-2 ring-transparent
           group transition hover:shadow-lg hover:-translate-y-2 {{ item.style.card }}">
           {% set pictureClass = "object-cover aspect-video rounded-t-lg overflow-hidden transition group-hover:scale-110 group-hover:-translate-y-2.5 " ~ item.style.image %}
           {% picture item.image, item.title, pictureClass, "400px" %}
           
-          <h3 class="mx-4 mt-1 mb-0 text-xl sm:text-2xl lg:text-3xl font-bold !leading-none">
-            <span class="group-hover:underline">{{item.title}}</span>
-            <br>
-            <span class="text-lg font-light {{ item.style.text }} !leading-none">{{item.subtitle}}</span>
+          <h3 class="mx-4 text-lg lg:text-2xl font-semibold !leading-none {{ item.style.text }} group-hover:underline">
+            {{item.title}}
           </h3>
           <p class="mx-4 mb-4 text-sm">{{item.copy}}</p>
           <p>
@@ -81,7 +75,7 @@ ourDemos:
               tracking-wide text-white 
               {{item.style.pill}} ring-2 ring-transparent group-hover:ring-white group-hover:bg-black
               ">
-              {{item.cta}}</span>
+              See Demo</span>
           </p>
         </a>
       {%- endfor -%}
