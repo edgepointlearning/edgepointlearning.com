@@ -19,7 +19,7 @@ The question isn't whether digital sales training is necessary- it's how to impl
   "Looking Ahead: The Evolution Continues"
 ] %}
 
-## The New Reality of Sales Training Needs
+## The New Reality of Sales Training Needs { .scroll-mt-8 id="section1"}
 
 Today's sales professionals face challenges that didn't exist just a few years ago. They're selling to buyers who are [70% through their purchase journey](https://sopro.io/resources/blog/b2b-buyer-statistics-and-insights/#:~:text=3.,long%20before%20a%20sales%20call.) before they even engage with a salesperson. They're managing relationships through screens more often than conference rooms. And they need to master an ever-expanding toolkit of digital sales technologies while maintaining the human connection that drives deals.
 
@@ -27,7 +27,7 @@ Traditional classroom-style sales training simply can't address these realities 
 
 The shift to digital-first sales training isn't just about convenience or cost savings (though those benefits are significant). It's about creating training experiences that mirror how your sales team actually works and sells in today's environment.
 
-## Key Components of Effective Digital Sales Training
+## Key Components of Effective Digital Sales Training { .scroll-mt-8 id="section2"}
 
 ### Microlearning for Just-in-Time Skill Building
 
@@ -57,7 +57,7 @@ Through assessment tools and progress tracking, these systems can identify knowl
 
 Your sales team isn't desk-bound. They're traveling, meeting clients, and working from various locations. Mobile-optimized training ensures they can access development resources whenever and wherever they have a few minutes to spare. Whether they're waiting at an airport or have downtime between meetings, mobile training turns idle time into skill-building opportunities.
 
-## The ROI of Digital Sales Training
+## The ROI of Digital Sales Training { .scroll-mt-8 id="section3"}
 
 Let's talk numbers, because that's what matters to business leaders making training investments. Companies implementing comprehensive digital sales training programs report some impressive results:
 
@@ -68,7 +68,7 @@ Let's talk numbers, because that's what matters to business leaders making train
 **👉Learn more:** [Unlocking Success: How to Measure the ROI of Custom eLearning Solutions](/blog/elearning-return-on-investment/)
 { .blog-card-blue }
 
-## Technology Enablers Shaping the Future
+## Technology Enablers Shaping the Future { .scroll-mt-8 id="section4"}
 
 ### Artificial Intelligence and Adaptive Learning
 
@@ -91,7 +91,7 @@ The most effective digital sales training solutions integrate seamlessly with th
 
 For example, training modules can be triggered automatically when reps encounter specific scenarios in their CRM, or relevant training content can be suggested based on upcoming meetings or prospect behaviors.
 
-## Overcoming Implementation Challenges
+## Overcoming Implementation Challenges { .scroll-mt-8 id="section5"}
 
 ### Change Management and Adoption
 
@@ -111,7 +111,7 @@ Traditional training metrics- attendance rates and satisfaction scores- don't te
 
 Look for metrics like time-to-productivity for new hires, win rates for reps who complete specific training modules, and knowledge retention over time. These measurements help you optimize your training investment and demonstrate ROI to leadership.
 
-## Looking Ahead: The Evolution Continues
+## Looking Ahead: The Evolution Continues { .scroll-mt-8 id="section6"}
 
 The future of sales training will become even more personalized, more integrated with daily work flows, and more responsive to changing market conditions. We're moving toward a world where training isn't an event but a continuous process woven into the fabric of sales operations. Companies that embrace this digital-first approach now will have a significant advantage as these trends accelerate. They'll develop more capable sales teams, improve sales performance more quickly, and create more adaptable organizations.
 
