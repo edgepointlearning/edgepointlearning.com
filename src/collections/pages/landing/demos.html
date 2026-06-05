@@ -10,8 +10,6 @@ hero:
   headline: Let's design<br> your next project 
   tagline: View our demos or book<br> a one-on-one consultation
   cta:
-  - name: Let's talk
-    url: '#contact'
   - name: Our solutions
     url: '#solutions'
   
@@ -174,25 +172,4 @@ ourDemos:
       {%- endfor -%}
     </div>
   </article>
-</section>
-
-
-
-{# contact #}
-<section class="relative pb-16">
-  {% svg "waves/wave-2.svg", "wave-top fill-slate-200 -scale-y-100 -scale-x-100" %}
-
-  <aside id="contact" class="
-    relative
-    scroll-mt-16
-    max-w-2xl 
-    mx-2 sm:mx-auto
-    px-4 sm:px-8 py-8
-    grid grid-cols-1 gap-y-6
-    bg-white rounded shadow-xl shadow-emerald-600
-    ring-4 ring-offset-4 ring-orange-500 ring-offset-yellow-300
-    ">
-    <h2 class="text-3xl font-bold text-slate-700">Let's talk about your next project</h2>
-    {% include 'forms/2024contactus.html' %}  
-  </aside>
 </section>

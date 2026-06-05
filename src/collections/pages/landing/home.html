@@ -10,10 +10,10 @@ hero:
   headline: We create training<br> that employees love
   tagline: Let's build something amazing together
   cta:
-  - name: Our work
-    url: /form/demo/
-  - name: Let's talk
-    url: '#contact'
+  - name: Our solutions
+    url: /solutions/
+  - name: View demos
+    url: /form/demo
 
 youtubes:
   - title: "What is Custom eLearning?"
@@ -110,7 +110,7 @@ youtubes:
     <div class="grid grid-cols-6 gap-12 mt-8 mb-16">
 
       {%- for post in collections.blog | reverse -%}
-      {% if loop.index < 5 %}
+      {% if loop.index < 6 %}
           {% if loop.index <= 2 %}
             {% set css = "md:col-span-3" %}
           {% else %}
@@ -120,15 +120,6 @@ youtubes:
         {% endif %}
       {%- endfor -%}
     
-      <!-- newsletter form -->
-      <aside class="flex flex-col justify-end max-w-lg mx-auto overflow-hidden bg-edgepoint-100 shadow-lg rounded-xl md:col-span-2 col-span-full ring-4 ring-offset-4 ring-edgepoint-400 ring-offset-blue-300 hover:ring-orange-500 hover:ring-offset-yellow-300">
-        <div class="p-4">
-          <h3 class="text-3xl font-bold text-black my-4">Subscribe now for the latest news!</h3>
-          <p class="mb-8">Keep up to date on learning industry news and the latest EdgePoint offerings.</p>
-          <p><a href="/subscribe/" title="Subscribe" class=" transition rounded-full whitespace-nowrap text-white tracking-wider font-medium px-6 pt-2.5 pb-3 bg-gradient-to-t from-edgepoint-600 to-edgepoint-400 hover:from-edgepoint-700 hover:via-edgepoint-400 hover:to-blue-500">Subscribe</a></p>
-        </div>
-        {% picture "misc/download-cat.svg", "cat grabbing papers", "w-full h-auto pt-6" %}
-      </aside>
 
     </div>
   </div>
@@ -160,14 +151,4 @@ youtubes:
 <!-- form -->
 <section class="relative">
   {% svg "waves/wave-7.svg", "wave-top fill-edgepoint-800 -scale-y-100 -scale-x-100" %}
-  <aside id="contact" class="
-    relative scroll-mt-16 mb-24
-    max-w-2xl mx-4 sm:mx-auto
-    px-4 sm:px-8 py-8
-    grid grid-cols-1 gap-y-6
-    rounded bg-white ring-2 ring-blue-400 shadow-lg ">
-    <h2 class="text-3xl sm:text-4xl font-bold text-edgepoint-400">Let's talk</h2>
-    <p class="text-slate-600">We're ready for better employee training experiences, and your employees are too. Get in touch today to learn how EdgePoint can help with your next project.</p>
-    {% include 'forms/2024contactus.html' %}  
-  </aside>
 </section>
