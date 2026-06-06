@@ -29,22 +29,9 @@ layout: 'layouts/01.nav.njk'
 
 
 {# content #}
-<section class="bg-slate-300 pt-20 pb-4">
+<section class="bg-slate-300 pt-20 pb-16">
   <article class="epl-prose-scale epl-prose-style epl-prose-margin">
     <h1>{{ title }}</h1>
     <p>{{ content | safe }}</p>
   </article>
-
-  <aside class="
-      my-16
-      relative
-      max-w-2xl 
-      mx-2 sm:mx-auto
-      px-4 sm:px-8 py-8
-      grid grid-cols-1 gap-y-6
-      bg-white rounded shadow-lg
-    ">
-    <h2 class="text-3xl sm:text-4xl font-bold text-slate-700">Let's talk</h2>
-    {% include 'forms/2024contactus.html' %}  
-  </aside>
 </section>
