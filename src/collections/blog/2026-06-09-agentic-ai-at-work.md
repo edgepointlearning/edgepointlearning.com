@@ -1,5 +1,5 @@
 ---
-title: "How to Create Effective Training (And How to Prove It Is Effective)"
+title: "Agentic AI at Work: What L&D Teams Need to Know Now"
 permalink: /agentic-ai-at-work-what-ld-teams-need-to-know-now/
 image: blog/2026/2026-06-B-blog.png
 meta: "Understand agentic AI at work and its impact on L&D. Learn what employees need to know about AI agents, oversight skills, and how to prepare your workforce for autonomous AI systems."
