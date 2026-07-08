@@ -1,6 +1,0 @@
-{  
-  "tags": "blog",
-
-  "layout": "layouts/post.njk",
-  "imageOrigin": "object-center"
-}
